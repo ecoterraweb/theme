@@ -9880,16 +9880,16 @@ split-lines {
 }
 
 /*  CUSTOM CSS */
-#shopify-section-sections--15537490591837__header .header__wrapper{
+.shopify-section--header .header__wrapper{
   background: none;
 }
-#shopify-section-sections--15537490591837__header {
+.shopify-section--header {
   background-color: #96D123;
 }
-#shopify-section-sections--15537490591837__header .link-faded-reverse{
+.shopify-section--header .link-faded-reverse{
   color: #fff;
 }
-#shopify-section-sections--15537490591837__header svg.icon {
+.shopify-section--header svg.icon {
   filter: brightness(15);
 }
 

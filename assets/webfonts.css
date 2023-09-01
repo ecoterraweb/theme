@@ -34,7 +34,7 @@
   }
   
   /* Usar la fuente en tu estilo CSS */
-  body {
+  body, .heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .prose :is(h1,h2,h3,h4,h5,h6) {
     font-family: 'VolteRounded', sans-serif;
   }
   

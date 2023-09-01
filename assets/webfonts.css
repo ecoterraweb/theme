@@ -1,0 +1,40 @@
+  /* Importar la fuente Semibold */
+@font-face {
+    font-family: 'VolteRounded';
+    src: url('./VolteRounded-Semibold.woff2') format('woff2');
+    font-weight: 600; /* Peso de fuente semibold */
+  }
+  
+  /* Importar la fuente Bold */
+  @font-face {
+    font-family: 'VolteRounded';
+    src: url('./VolteRounded-Bold.woff2') format('woff2');
+    font-weight: 700; /* Peso de fuente bold */
+  }
+  
+  /* Importar la fuente Light */
+  @font-face {
+    font-family: 'VolteRounded';
+    src: url('./VolteRounded-Light.woff2') format('woff2');
+    font-weight: 300; /* Peso de fuente light */
+  }
+  
+  /* Importar la fuente Medium */
+  @font-face {
+    font-family: 'VolteRounded';
+    src: url('./VolteRounded-Medium.woff2') format('woff2');
+    font-weight: 500; /* Peso de fuente medium */
+  }
+  
+  /* Importar la fuente Regular */
+  @font-face {
+    font-family: 'VolteRounded';
+    src: url('./VolteRounded-Regular.woff2') format('woff2');
+    font-weight: 400; /* Peso de fuente regular */
+  }
+  
+  /* Usar la fuente en tu estilo CSS */
+  body {
+    font-family: 'VolteRounded', sans-serif;
+  }
+  

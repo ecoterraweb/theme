@@ -1,7 +1,10 @@
 <script>
   async function fetchData(limit = null, offset = 0) {
     try {
-      const response = await fetch(`https://ecotech.ecoterra.cl/api/claims?limit=${limit}&offset=${offset}`);
+      const response = await fetch(`https://ecotech.ecoterra.cl/api/claims?limit=${limit}&offset=${offset}`,, {
+        method: 'GET',
+        credentials: 'omit' // Esto evita que las cookies se incluyan en la solicitud
+      });
 
       const data = await response.json();
       const claims = data.templates;

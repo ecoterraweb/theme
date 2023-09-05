@@ -1,1 +1,664 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"content_width":"80ch"}},"4872d83c-f5be-4d04-9b6e-e39539b12205":{"type":"newsletter","custom_css":[],"settings":{"full_width":false,"image":"shopify:\/\/shop_images\/working-from-home.jpg","show_icon":false,"title":"Ecolovers","content":"<p><strong>Suscribete y recibe los siguientes beneficios<\/strong><\/p>","button_text":"Subscribe","subtext":"","background":"","background_gradient":"","text_color":"","button_background":"","button_text_color":""}},"0cdd050f-07c7-410a-b317-ac525e0ad6b5":{"type":"rich-text","blocks":{"template--15538504237149__0cdd050f-07c7-410a-b317-ac525e0ad6b5-richtext-1":{"type":"richtext","settings":{"content":"<ol><li><strong>Salud personal:<\/strong> Los productos ecológicos suelen estar libres de pesticidas, herbicidas y productos químicos sintéticos. Consumir alimentos y productos libres de estas sustancias puede reducir la exposición a posibles toxinas y riesgos para la salud.<\/li><li><strong>Nutrición:<\/strong> Los alimentos ecológicos a menudo se cultivan en suelos ricos en nutrientes, lo que puede llevar a una mayor concentración de vitaminas, minerales y antioxidantes en comparación con los alimentos convencionales.<\/li><li><strong>Sabor y calidad:<\/strong> Muchas personas afirman que los alimentos ecológicos tienen un sabor más intenso y auténtico, ya que se cultivan de manera más natural y sin el uso de productos químicos que puedan alterar sus características.<\/li><li><strong>Apoyo a la agricultura sostenible:<\/strong> Comprar productos ecológicos respalda a los agricultores y productores que adoptan prácticas agrícolas sostenibles y respetuosas con el medio ambiente.<\/li><li><strong>Bienestar animal:<\/strong> Los productos ecológicos a menudo provienen de granjas que siguen prácticas de cría y manejo animal más éticas y humanas.<\/li><li><strong>Conservación del suelo y el agua:<\/strong> Las prácticas agrícolas ecológicas tienden a ser menos invasivas para el suelo y pueden ayudar a prevenir la erosión y la degradación del suelo. Además, el uso reducido de productos químicos ayuda a mantener la calidad del agua en las áreas circundantes.<\/li><\/ol>"}}},"block_order":["template--15538504237149__0cdd050f-07c7-410a-b317-ac525e0ad6b5-richtext-1"],"custom_css":["div {padding-bottom: 10px;}"],"settings":{"full_width":true,"content_width":"large","text_position":"start","background":"","background_gradient":"","text_color":""}},"81f57809-436d-4835-b5a8-f4450f6bb908":{"type":"rich-text","blocks":{"6d0bbde6-04e1-418b-b1d9-f8f3f26a184d":{"type":"heading","settings":{"text":"Beneficios para el planeta de consumir productos ecológicos:","heading_tag":"h3","text_color":"","gradient":""}},"36782004-f8d3-4048-9073-5b276476171d":{"type":"richtext","settings":{"content":"<ol><li><strong>Salud personal:<\/strong> Los productos ecológicos suelen estar libres de pesticidas, herbicidas y productos químicos sintéticos. Consumir alimentos y productos libres de estas sustancias puede reducir la exposición a posibles toxinas y riesgos para la salud.<\/li><li><strong>Nutrición:<\/strong> Los alimentos ecológicos a menudo se cultivan en suelos ricos en nutrientes, lo que puede llevar a una mayor concentración de vitaminas, minerales y antioxidantes en comparación con los alimentos convencionales.<\/li><li><strong>Sabor y calidad:<\/strong> Muchas personas afirman que los alimentos ecológicos tienen un sabor más intenso y auténtico, ya que se cultivan de manera más natural y sin el uso de productos químicos que puedan alterar sus características.<\/li><li><strong>Apoyo a la agricultura sostenible:<\/strong> Comprar productos ecológicos respalda a los agricultores y productores que adoptan prácticas agrícolas sostenibles y respetuosas con el medio ambiente.<\/li><li><strong>Bienestar animal:<\/strong> Los productos ecológicos a menudo provienen de granjas que siguen prácticas de cría y manejo animal más éticas y humanas.<\/li><li><strong>Conservación del suelo y el agua:<\/strong> Las prácticas agrícolas ecológicas tienden a ser menos invasivas para el suelo y pueden ayudar a prevenir la erosión y la degradación del suelo. Además, el uso reducido de productos químicos ayuda a mantener la calidad del agua en las áreas circundantes.<\/li><\/ol>"}}},"block_order":["6d0bbde6-04e1-418b-b1d9-f8f3f26a184d","36782004-f8d3-4048-9073-5b276476171d"],"settings":{"full_width":true,"content_width":"large","text_position":"start","background":"","background_gradient":"","text_color":""}},"f6f4d6ad-90f6-4e06-b14f-2279a8b196c1":{"type":"video","blocks":{"template--15538504237149__f6f4d6ad-90f6-4e06-b14f-2279a8b196c1-play-1":{"type":"play","settings":{}},"template--15538504237149__f6f4d6ad-90f6-4e06-b14f-2279a8b196c1-heading-1":{"type":"heading","settings":{"text":"Video","heading_tag":"h1"}}},"block_order":["template--15538504237149__f6f4d6ad-90f6-4e06-b14f-2279a8b196c1-play-1","template--15538504237149__f6f4d6ad-90f6-4e06-b14f-2279a8b196c1-heading-1"],"settings":{"full_width":true,"allow_transparent_header":false,"autoplay":false,"video_size":"auto","external_video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","poster":"shopify:\/\/shop_images\/Home_Ecoterra_ING.png","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"01d6e360-57ec-41b8-991c-3d5e907e0017":{"type":"slideshow","blocks":{"template--15538504237149__01d6e360-57ec-41b8-991c-3d5e907e0017-image-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/FONDO_1.png","content_max_width":780,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","subheading":"","title":"ECOPARTNERS","heading_tag":"h0","button_text":"","button_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":17,"background":"","background_gradient":""}}},"block_order":["template--15538504237149__01d6e360-57ec-41b8-991c-3d5e907e0017-image-1"],"settings":{"full_width":true,"allow_transparent_header":true,"image_size":"auto","controls_type":"dots","transition_type":"fade_with_text","autoplay":false,"cycle_speed":6,"background":"#F2F2F2","background_gradient":""}},"ef181eec-4429-4e78-9ca0-5a6858e9683a":{"type":"rich-text","blocks":{"template--15538504237149__ef181eec-4429-4e78-9ca0-5a6858e9683a-richtext-1":{"type":"richtext","settings":{"content":"<p><strong>Lorem Ipsum<\/strong>es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.<\/p>"}}},"block_order":["template--15538504237149__ef181eec-4429-4e78-9ca0-5a6858e9683a-richtext-1"],"settings":{"full_width":true,"content_width":"medium","text_position":"center","background":"","background_gradient":"","text_color":""}},"cc53f01a-b13c-4b26-9455-2eef07bd149d":{"type":"multiple-images-with-text","blocks":{"template--15538504237149__cc53f01a-b13c-4b26-9455-2eef07bd149d-item-1":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/Boton_Ecoaderezo.png","image_rotation_degrees":-2,"subheading":"","title":"¿Por qué comprar?","content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","button_url":"","button_text":"Descargar"}},"cf9ba56a-4b31-4813-a8f5-1ae11fabc813":{"type":"item","settings":{"image_rotation_degrees":0,"subheading":"","title":"Image with text","content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","button_url":"","button_text":""}}},"block_order":["template--15538504237149__cc53f01a-b13c-4b26-9455-2eef07bd149d-item-1","cf9ba56a-4b31-4813-a8f5-1ae11fabc813"],"settings":{"full_width":true,"images_layout":"stacked","collage_images_alignment":"middle","background":"","background_gradient":"","text_color":"","button_background":"#00a341","button_text_color":""}},"7b86716a-611e-4072-bb05-e574a9d96184":{"type":"faq","blocks":{"template--15538504237149__7b86716a-611e-4072-bb05-e574a9d96184-item-1":{"type":"item","settings":{"title":"Do you ship overseas?","content":"<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"}},"template--15538504237149__7b86716a-611e-4072-bb05-e574a9d96184-item-2":{"type":"item","settings":{"title":"How long will it take to get my orders?","content":"<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"}},"template--15538504237149__7b86716a-611e-4072-bb05-e574a9d96184-item-3":{"type":"item","settings":{"title":"Any question?","content":"<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"}}},"block_order":["template--15538504237149__7b86716a-611e-4072-bb05-e574a9d96184-item-1","template--15538504237149__7b86716a-611e-4072-bb05-e574a9d96184-item-2","template--15538504237149__7b86716a-611e-4072-bb05-e574a9d96184-item-3"],"settings":{"full_width":true,"subheading":"","title":"FAQ","content":"<p>Use this text to share information about your product or shipping policies.<\/p>","team_avatar_width":160,"support_hours":"Our customer support is available Monday to Friday: 8am-8:30pm.","answer_time":"Average answer time: 24h","button_text":"","button_url":"","text_position":"center","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","button_background":"","button_text_color":"","accordion_background":"","accordion_text_color":""}},"a28d21d4-ea2e-4684-89b2-077ec2d62521":{"type":"rich-text","blocks":{"template--15538504237149__a28d21d4-ea2e-4684-89b2-077ec2d62521-heading-1":{"type":"heading","settings":{"text":"Cotiza con nosotros","heading_tag":"h1","text_color":"","gradient":""}},"template--15538504237149__a28d21d4-ea2e-4684-89b2-077ec2d62521-richtext-1":{"type":"richtext","settings":{"content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"}},"48b7d17b-607e-4f81-819c-c0bdc2bdaaec":{"type":"button","settings":{"style":"fill","size":"xl","text":"Haz Click Aquí","url":"","background":"","text_color":""}}},"block_order":["template--15538504237149__a28d21d4-ea2e-4684-89b2-077ec2d62521-heading-1","template--15538504237149__a28d21d4-ea2e-4684-89b2-077ec2d62521-richtext-1","48b7d17b-607e-4f81-819c-c0bdc2bdaaec"],"settings":{"full_width":true,"content_width":"small","text_position":"center","background":"","background_gradient":"","text_color":""}},"82273a2a-d1d2-46f0-8227-7a761f899269":{"type":"slideshow","blocks":{"1a652b8e-1aa2-4d96-b751-fc9473e39b18":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/FONDO_1.png","content_max_width":780,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","subheading":"","title":"ECOFARMERS","heading_tag":"h0","button_text":"","button_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":17,"background":"","background_gradient":""}}},"block_order":["1a652b8e-1aa2-4d96-b751-fc9473e39b18"],"settings":{"full_width":true,"allow_transparent_header":true,"image_size":"auto","controls_type":"dots","transition_type":"fade_with_text","autoplay":false,"cycle_speed":6,"background":"#F2F2F2","background_gradient":""}},"7eafc689-6097-4e37-b80c-03bd6de4b43e":{"type":"rich-text","blocks":{"template--15538504237149__7eafc689-6097-4e37-b80c-03bd6de4b43e-heading-1":{"type":"heading","settings":{"text":"Heading","heading_tag":"h1","text_color":"","gradient":""}},"template--15538504237149__7eafc689-6097-4e37-b80c-03bd6de4b43e-richtext-1":{"type":"richtext","settings":{"content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"}}},"block_order":["template--15538504237149__7eafc689-6097-4e37-b80c-03bd6de4b43e-heading-1","template--15538504237149__7eafc689-6097-4e37-b80c-03bd6de4b43e-richtext-1"],"settings":{"full_width":true,"content_width":"small","text_position":"center","background":"","background_gradient":"","text_color":""}},"6ecb0b99-6883-4b67-9f85-ef0433bafc46":{"type":"impact-text","blocks":{"template--15538504237149__6ecb0b99-6883-4b67-9f85-ef0433bafc46-item-1":{"type":"item","settings":{"title":"100%","subheading":"Showcase a benefit of your product","content":"","button_text":"","button_url":"","animate_impact_text":false,"animate_impact_text_duration":2}},"1b94527c-277b-4fb5-932b-4f52cf4062b7":{"type":"item","settings":{"title":"100%","subheading":"Showcase a benefit of your product","content":"","button_text":"","button_url":"","animate_impact_text":false,"animate_impact_text_duration":2}},"d6b2444f-04ff-4bb2-a0cc-12c81815cb20":{"type":"item","settings":{"title":"100%","subheading":"Showcase a benefit of your product","content":"","button_text":"","button_url":"","animate_impact_text":false,"animate_impact_text_duration":2}}},"block_order":["template--15538504237149__6ecb0b99-6883-4b67-9f85-ef0433bafc46-item-1","1b94527c-277b-4fb5-932b-4f52cf4062b7","d6b2444f-04ff-4bb2-a0cc-12c81815cb20"],"settings":{"full_width":true,"stack_mobile":true,"text_alignment":"center","impact_text_style":"fill","text_divider":"none","impact_text_size_ratio":1,"background":"","background_gradient":"","heading_text_color":"","heading_gradient":"","text_color":"","button_background":"","button_text_color":""}},"7ad4f304-5910-42e7-8301-cbd77e664047":{"type":"video","blocks":{"e99c18c6-e480-45ba-83f8-5753f8817615":{"type":"play","settings":{}},"b6ee4220-ea49-4577-b726-0391cf82f540":{"type":"heading","settings":{"text":"Video","heading_tag":"h1"}}},"block_order":["e99c18c6-e480-45ba-83f8-5753f8817615","b6ee4220-ea49-4577-b726-0391cf82f540"],"settings":{"full_width":true,"allow_transparent_header":false,"autoplay":false,"video_size":"auto","external_video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","poster":"shopify:\/\/shop_images\/Home_Ecoterra_ING.png","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"695d31ad-7dba-4d88-aa5a-da2c0f6ec077":{"type":"multi-column","blocks":{"template--15538504237149__695d31ad-7dba-4d88-aa5a-da2c0f6ec077-item-1":{"type":"item","settings":{"column_size":"3","title":"Column title","heading_tag":"h4","content":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_url":"","link_text":"","link_style":"link"}},"template--15538504237149__695d31ad-7dba-4d88-aa5a-da2c0f6ec077-item-2":{"type":"item","settings":{"column_size":"3","title":"Column title","heading_tag":"h4","content":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_url":"","link_text":"","link_style":"link"}},"template--15538504237149__695d31ad-7dba-4d88-aa5a-da2c0f6ec077-item-3":{"type":"item","settings":{"column_size":"3","title":"Column title","heading_tag":"h4","content":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_url":"","link_text":"","link_style":"link"}}},"block_order":["template--15538504237149__695d31ad-7dba-4d88-aa5a-da2c0f6ec077-item-1","template--15538504237149__695d31ad-7dba-4d88-aa5a-da2c0f6ec077-item-2","template--15538504237149__695d31ad-7dba-4d88-aa5a-da2c0f6ec077-item-3"],"settings":{"full_width":true,"stack_on_mobile":false,"gap":"medium","text_alignment":"start","subheading":"","title":"Nuestros EcoFarmers aprobados por EcoTech","content":"<p>Organize content into multiple columns to share useful information to your customers about your products, values...<\/p>","background":"","background_gradient":"","text_color":""}},"b068cca2-fc33-4b50-87dc-094fba7333ee":{"type":"rich-text","blocks":{"310622aa-8557-427b-90cb-fcf41a5e0b76":{"type":"heading","settings":{"text":"Ventajas y Recursos","heading_tag":"h2","text_color":"","gradient":""}},"b2e86ed3-f66e-46ff-8da6-68a728d05de3":{"type":"richtext","settings":{"content":"<p><strong>Lorem Ipsum<\/strong>es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.<\/p>"}}},"block_order":["310622aa-8557-427b-90cb-fcf41a5e0b76","b2e86ed3-f66e-46ff-8da6-68a728d05de3"],"settings":{"full_width":true,"content_width":"medium","text_position":"center","background":"","background_gradient":"","text_color":""}},"b73a0040-df30-4b5c-861b-43e14399715f":{"type":"multiple-images-with-text","blocks":{"3e4b5f21-a345-47af-984c-8d7cec940e47":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/Boton_Ecoaderezo.png","image_rotation_degrees":-2,"subheading":"","title":"¿Quieres ser parte?","content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","button_url":"","button_text":"Ir a formulario"}}},"block_order":["3e4b5f21-a345-47af-984c-8d7cec940e47"],"settings":{"full_width":true,"images_layout":"stacked","collage_images_alignment":"middle","background":"","background_gradient":"","text_color":"","button_background":"#00a341","button_text_color":""}}},"order":["main","4872d83c-f5be-4d04-9b6e-e39539b12205","0cdd050f-07c7-410a-b317-ac525e0ad6b5","81f57809-436d-4835-b5a8-f4450f6bb908","f6f4d6ad-90f6-4e06-b14f-2279a8b196c1","01d6e360-57ec-41b8-991c-3d5e907e0017","ef181eec-4429-4e78-9ca0-5a6858e9683a","cc53f01a-b13c-4b26-9455-2eef07bd149d","7b86716a-611e-4072-bb05-e574a9d96184","a28d21d4-ea2e-4684-89b2-077ec2d62521","82273a2a-d1d2-46f0-8227-7a761f899269","7eafc689-6097-4e37-b80c-03bd6de4b43e","6ecb0b99-6883-4b67-9f85-ef0433bafc46","7ad4f304-5910-42e7-8301-cbd77e664047","695d31ad-7dba-4d88-aa5a-da2c0f6ec077","b068cca2-fc33-4b50-87dc-094fba7333ee","b73a0040-df30-4b5c-861b-43e14399715f"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "06f37362-892b-48b1-92b6-ca39c152cec3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15538977898589__06f37362-892b-48b1-92b6-ca39c152cec3-image-1": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "EcoComunidad",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15538977898589__06f37362-892b-48b1-92b6-ca39c152cec3-image-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "4872d83c-f5be-4d04-9b6e-e39539b12205": {
+      "type": "newsletter",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/working-from-home.jpg",
+        "show_icon": false,
+        "title": "EcoLovers",
+        "content": "<p><strong>Suscribete y recibe los siguientes beneficios<\/strong><\/p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "0cdd050f-07c7-410a-b317-ac525e0ad6b5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15538504237149__0cdd050f-07c7-410a-b317-ac525e0ad6b5-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ol><li><strong>Salud personal:<\/strong> Los productos ecológicos suelen estar libres de pesticidas, herbicidas y productos químicos sintéticos. Consumir alimentos y productos libres de estas sustancias puede reducir la exposición a posibles toxinas y riesgos para la salud.<\/li><li><strong>Nutrición:<\/strong> Los alimentos ecológicos a menudo se cultivan en suelos ricos en nutrientes, lo que puede llevar a una mayor concentración de vitaminas, minerales y antioxidantes en comparación con los alimentos convencionales.<\/li><li><strong>Sabor y calidad:<\/strong> Muchas personas afirman que los alimentos ecológicos tienen un sabor más intenso y auténtico, ya que se cultivan de manera más natural y sin el uso de productos químicos que puedan alterar sus características.<\/li><li><strong>Apoyo a la agricultura sostenible:<\/strong> Comprar productos ecológicos respalda a los agricultores y productores que adoptan prácticas agrícolas sostenibles y respetuosas con el medio ambiente.<\/li><li><strong>Bienestar animal:<\/strong> Los productos ecológicos a menudo provienen de granjas que siguen prácticas de cría y manejo animal más éticas y humanas.<\/li><li><strong>Conservación del suelo y el agua:<\/strong> Las prácticas agrícolas ecológicas tienden a ser menos invasivas para el suelo y pueden ayudar a prevenir la erosión y la degradación del suelo. Además, el uso reducido de productos químicos ayuda a mantener la calidad del agua en las áreas circundantes.<\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504237149__0cdd050f-07c7-410a-b317-ac525e0ad6b5-richtext-1"
+      ],
+      "custom_css": [
+        "div {padding-bottom: 10px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "81f57809-436d-4835-b5a8-f4450f6bb908": {
+      "type": "rich-text",
+      "blocks": {
+        "6d0bbde6-04e1-418b-b1d9-f8f3f26a184d": {
+          "type": "heading",
+          "settings": {
+            "text": "Beneficios para el planeta de consumir productos ecológicos:",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "36782004-f8d3-4048-9073-5b276476171d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ol><li><strong>Salud personal:<\/strong> Los productos ecológicos suelen estar libres de pesticidas, herbicidas y productos químicos sintéticos. Consumir alimentos y productos libres de estas sustancias puede reducir la exposición a posibles toxinas y riesgos para la salud.<\/li><li><strong>Nutrición:<\/strong> Los alimentos ecológicos a menudo se cultivan en suelos ricos en nutrientes, lo que puede llevar a una mayor concentración de vitaminas, minerales y antioxidantes en comparación con los alimentos convencionales.<\/li><li><strong>Sabor y calidad:<\/strong> Muchas personas afirman que los alimentos ecológicos tienen un sabor más intenso y auténtico, ya que se cultivan de manera más natural y sin el uso de productos químicos que puedan alterar sus características.<\/li><li><strong>Apoyo a la agricultura sostenible:<\/strong> Comprar productos ecológicos respalda a los agricultores y productores que adoptan prácticas agrícolas sostenibles y respetuosas con el medio ambiente.<\/li><li><strong>Bienestar animal:<\/strong> Los productos ecológicos a menudo provienen de granjas que siguen prácticas de cría y manejo animal más éticas y humanas.<\/li><li><strong>Conservación del suelo y el agua:<\/strong> Las prácticas agrícolas ecológicas tienden a ser menos invasivas para el suelo y pueden ayudar a prevenir la erosión y la degradación del suelo. Además, el uso reducido de productos químicos ayuda a mantener la calidad del agua en las áreas circundantes.<\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "6d0bbde6-04e1-418b-b1d9-f8f3f26a184d",
+        "36782004-f8d3-4048-9073-5b276476171d"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f6f4d6ad-90f6-4e06-b14f-2279a8b196c1": {
+      "type": "video",
+      "blocks": {
+        "template--15538504237149__f6f4d6ad-90f6-4e06-b14f-2279a8b196c1-play-1": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "template--15538504237149__f6f4d6ad-90f6-4e06-b14f-2279a8b196c1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504237149__f6f4d6ad-90f6-4e06-b14f-2279a8b196c1-play-1",
+        "template--15538504237149__f6f4d6ad-90f6-4e06-b14f-2279a8b196c1-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/Home_Ecoterra_ING.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "01d6e360-57ec-41b8-991c-3d5e907e0017": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15538504237149__01d6e360-57ec-41b8-991c-3d5e907e0017-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FONDO_1.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "ECOPARTNERS",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 17,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504237149__01d6e360-57ec-41b8-991c-3d5e907e0017-image-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "ef181eec-4429-4e78-9ca0-5a6858e9683a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15538504237149__ef181eec-4429-4e78-9ca0-5a6858e9683a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Lorem Ipsum<\/strong>es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504237149__ef181eec-4429-4e78-9ca0-5a6858e9683a-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "cc53f01a-b13c-4b26-9455-2eef07bd149d": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--15538504237149__cc53f01a-b13c-4b26-9455-2eef07bd149d-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Boton_Ecoaderezo.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "¿Por qué comprar?",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": "Descargar"
+          }
+        },
+        "cf9ba56a-4b31-4813-a8f5-1ae11fabc813": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Image with text",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504237149__cc53f01a-b13c-4b26-9455-2eef07bd149d-item-1",
+        "cf9ba56a-4b31-4813-a8f5-1ae11fabc813"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "#00a341",
+        "button_text_color": ""
+      }
+    },
+    "7b86716a-611e-4072-bb05-e574a9d96184": {
+      "type": "faq",
+      "blocks": {
+        "template--15538504237149__7b86716a-611e-4072-bb05-e574a9d96184-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--15538504237149__7b86716a-611e-4072-bb05-e574a9d96184-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--15538504237149__7b86716a-611e-4072-bb05-e574a9d96184-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504237149__7b86716a-611e-4072-bb05-e574a9d96184-item-1",
+        "template--15538504237149__7b86716a-611e-4072-bb05-e574a9d96184-item-2",
+        "template--15538504237149__7b86716a-611e-4072-bb05-e574a9d96184-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "a28d21d4-ea2e-4684-89b2-077ec2d62521": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15538504237149__a28d21d4-ea2e-4684-89b2-077ec2d62521-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Cotiza con nosotros",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15538504237149__a28d21d4-ea2e-4684-89b2-077ec2d62521-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "48b7d17b-607e-4f81-819c-c0bdc2bdaaec": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Haz Click Aquí",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504237149__a28d21d4-ea2e-4684-89b2-077ec2d62521-heading-1",
+        "template--15538504237149__a28d21d4-ea2e-4684-89b2-077ec2d62521-richtext-1",
+        "48b7d17b-607e-4f81-819c-c0bdc2bdaaec"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "82273a2a-d1d2-46f0-8227-7a761f899269": {
+      "type": "slideshow",
+      "blocks": {
+        "1a652b8e-1aa2-4d96-b751-fc9473e39b18": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FONDO_1.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "ECOFARMERS",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 17,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "1a652b8e-1aa2-4d96-b751-fc9473e39b18"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "7eafc689-6097-4e37-b80c-03bd6de4b43e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15538504237149__7eafc689-6097-4e37-b80c-03bd6de4b43e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15538504237149__7eafc689-6097-4e37-b80c-03bd6de4b43e-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504237149__7eafc689-6097-4e37-b80c-03bd6de4b43e-heading-1",
+        "template--15538504237149__7eafc689-6097-4e37-b80c-03bd6de4b43e-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "6ecb0b99-6883-4b67-9f85-ef0433bafc46": {
+      "type": "impact-text",
+      "blocks": {
+        "template--15538504237149__6ecb0b99-6883-4b67-9f85-ef0433bafc46-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "1b94527c-277b-4fb5-932b-4f52cf4062b7": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "d6b2444f-04ff-4bb2-a0cc-12c81815cb20": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504237149__6ecb0b99-6883-4b67-9f85-ef0433bafc46-item-1",
+        "1b94527c-277b-4fb5-932b-4f52cf4062b7",
+        "d6b2444f-04ff-4bb2-a0cc-12c81815cb20"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "7ad4f304-5910-42e7-8301-cbd77e664047": {
+      "type": "video",
+      "blocks": {
+        "e99c18c6-e480-45ba-83f8-5753f8817615": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "b6ee4220-ea49-4577-b726-0391cf82f540": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "e99c18c6-e480-45ba-83f8-5753f8817615",
+        "b6ee4220-ea49-4577-b726-0391cf82f540"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/Home_Ecoterra_ING.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "695d31ad-7dba-4d88-aa5a-da2c0f6ec077": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15538504237149__695d31ad-7dba-4d88-aa5a-da2c0f6ec077-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15538504237149__695d31ad-7dba-4d88-aa5a-da2c0f6ec077-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15538504237149__695d31ad-7dba-4d88-aa5a-da2c0f6ec077-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504237149__695d31ad-7dba-4d88-aa5a-da2c0f6ec077-item-1",
+        "template--15538504237149__695d31ad-7dba-4d88-aa5a-da2c0f6ec077-item-2",
+        "template--15538504237149__695d31ad-7dba-4d88-aa5a-da2c0f6ec077-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Nuestros EcoFarmers aprobados por EcoTech",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b068cca2-fc33-4b50-87dc-094fba7333ee": {
+      "type": "rich-text",
+      "blocks": {
+        "310622aa-8557-427b-90cb-fcf41a5e0b76": {
+          "type": "heading",
+          "settings": {
+            "text": "Ventajas y Recursos",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "b2e86ed3-f66e-46ff-8da6-68a728d05de3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Lorem Ipsum<\/strong>es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas \"Letraset\", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "310622aa-8557-427b-90cb-fcf41a5e0b76",
+        "b2e86ed3-f66e-46ff-8da6-68a728d05de3"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b73a0040-df30-4b5c-861b-43e14399715f": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "3e4b5f21-a345-47af-984c-8d7cec940e47": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Boton_Ecoaderezo.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "¿Quieres ser parte?",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": "Ir a formulario"
+          }
+        }
+      },
+      "block_order": [
+        "3e4b5f21-a345-47af-984c-8d7cec940e47"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "#00a341",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "06f37362-892b-48b1-92b6-ca39c152cec3",
+    "4872d83c-f5be-4d04-9b6e-e39539b12205",
+    "0cdd050f-07c7-410a-b317-ac525e0ad6b5",
+    "81f57809-436d-4835-b5a8-f4450f6bb908",
+    "f6f4d6ad-90f6-4e06-b14f-2279a8b196c1",
+    "01d6e360-57ec-41b8-991c-3d5e907e0017",
+    "ef181eec-4429-4e78-9ca0-5a6858e9683a",
+    "cc53f01a-b13c-4b26-9455-2eef07bd149d",
+    "7b86716a-611e-4072-bb05-e574a9d96184",
+    "a28d21d4-ea2e-4684-89b2-077ec2d62521",
+    "82273a2a-d1d2-46f0-8227-7a761f899269",
+    "7eafc689-6097-4e37-b80c-03bd6de4b43e",
+    "6ecb0b99-6883-4b67-9f85-ef0433bafc46",
+    "7ad4f304-5910-42e7-8301-cbd77e664047",
+    "695d31ad-7dba-4d88-aa5a-da2c0f6ec077",
+    "b068cca2-fc33-4b50-87dc-094fba7333ee",
+    "b73a0040-df30-4b5c-861b-43e14399715f"
+  ]
+}

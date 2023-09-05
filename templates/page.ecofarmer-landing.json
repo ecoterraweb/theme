@@ -59,6 +59,64 @@
         "form_action": "https:\/\/formspree.io\/f\/meqbeglg"
       }
     },
+    "b0ca4835-29b0-4217-a46a-2de1ab4943e4": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15540080017501__b0ca4835-29b0-4217-a46a-2de1ab4943e4-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15540080017501__b0ca4835-29b0-4217-a46a-2de1ab4943e4-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15540080017501__b0ca4835-29b0-4217-a46a-2de1ab4943e4-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--15540080017501__b0ca4835-29b0-4217-a46a-2de1ab4943e4-item-1",
+        "template--15540080017501__b0ca4835-29b0-4217-a46a-2de1ab4943e4-item-2",
+        "template--15540080017501__b0ca4835-29b0-4217-a46a-2de1ab4943e4-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Nuestros Pilares",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da": {
       "type": "logo-list",
       "blocks": {
@@ -210,6 +268,7 @@
     "main",
     "fe662bbf-ab92-4387-8201-29d1f356de63",
     "aa257b19-a8a5-4b88-8599-73955eb2d600",
+    "b0ca4835-29b0-4217-a46a-2de1ab4943e4",
     "e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da",
     "7b4e8e35-9407-4379-a6b5-0b071a8e737a"
   ]

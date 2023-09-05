@@ -7,37 +7,6 @@
         "content_width": "80ch"
       }
     },
-    "a8ac69df-f6f0-4f02-ae88-dab4be43ee23": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "template--15537731993693__a8ac69df-f6f0-4f02-ae88-dab4be43ee23-item-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HUEVOS_43cf20b4-5fb2-4178-a705-2b6b92c52580.png",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Manifiesto",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store. Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15537731993693__a8ac69df-f6f0-4f02-ae88-dab4be43ee23-item-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "top",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "f578399d-fcbf-449d-9cff-a4983346d5b7": {
       "type": "slideshow",
       "blocks": {
@@ -96,6 +65,35 @@
         "cycle_speed": 6,
         "background": "#F2F2F2",
         "background_gradient": ""
+      }
+    },
+    "dd3e4515-ba05-4240-8262-f020dbffcfe5": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Nuestro Manifiesto",
+            "content": "<p>Imagínate esto: cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<br\/><\/p><p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.<\/p><p><br\/>La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p><p><br\/>¿Y qué papel juega Ecoterra en todo esto? Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p><br\/>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "4a2d4127-a71b-4674-87ce-2ae0bd5a425c": {
@@ -457,51 +455,12 @@
         "heading_color": "",
         "heading_gradient": ""
       }
-    },
-    "dd3e4515-ba05-4240-8262-f020dbffcfe5": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-1": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>Imagínate esto: cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<br\/><\/p><p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.<\/p><p><br\/>La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p><p><br\/>¿Y qué papel juega Ecoterra en todo esto? Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p><br\/>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<br\/><\/p>"
-          }
-        },
-        "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-2": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-1",
-        "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
     }
   },
   "order": [
     "main",
-    "a8ac69df-f6f0-4f02-ae88-dab4be43ee23",
     "f578399d-fcbf-449d-9cff-a4983346d5b7",
+    "dd3e4515-ba05-4240-8262-f020dbffcfe5",
     "4a2d4127-a71b-4674-87ce-2ae0bd5a425c",
     "2a00e15a-87f5-4194-a557-a0582140c994",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
@@ -510,7 +469,6 @@
     "d34757aa-3c4c-44ab-b9f5-4956ed831ec4",
     "ca2cacc7-a1b9-46bd-88bf-c304c14394d1",
     "1a7ad382-718d-4d3c-971c-d883319947a1",
-    "63303b90-3a37-407c-9926-07e8e5d5910f",
-    "dd3e4515-ba05-4240-8262-f020dbffcfe5"
+    "63303b90-3a37-407c-9926-07e8e5d5910f"
   ]
 }

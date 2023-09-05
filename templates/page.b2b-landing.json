@@ -47,10 +47,20 @@
         "background": "#F2F2F2",
         "background_gradient": ""
       }
+    },
+    "8d49537b-9f26-4b2a-8041-630231b6d82b": {
+      "type": "custom__form",
+      "settings": {
+        "title": "¡Conviértete en un EcoPartner y colabora con nosotros para mover la aguja y salvar nuestro planeta!",
+        "button_text": "Enviar",
+        "form_action": "https:\/\/formspree.io\/f\/xzblpper",
+        "language": "es"
+      }
     }
   },
   "order": [
     "main",
-    "77458498-be5c-4ebb-9018-f56f854708ca"
+    "77458498-be5c-4ebb-9018-f56f854708ca",
+    "8d49537b-9f26-4b2a-8041-630231b6d82b"
   ]
 }

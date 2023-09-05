@@ -628,34 +628,26 @@
         "background_gradient": ""
       }
     },
-    "multiple-images-with-text": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "1664424486a2b084ab-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/coding-on-laptop.webp",
-            "image_rotation_degrees": 0,
-            "subheading": "",
-            "title": "EcoTech",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store. Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store. Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": "Conoce más"
-          }
-        }
-      },
-      "block_order": [
-        "1664424486a2b084ab-0"
-      ],
+    "05a7910e-b59d-4b0e-af73-ee980f02b1d3": {
+      "type": "before-after-image",
       "settings": {
         "full_width": true,
-        "images_layout": "scattered",
-        "collage_images_alignment": "middle",
+        "subheading": "",
+        "title": "Before\/after",
+        "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
       }
     }
   },
@@ -673,6 +665,6 @@
     "image-with-text-overlay",
     "featured-collection",
     "media-grid",
-    "multiple-images-with-text"
+    "05a7910e-b59d-4b0e-af73-ee980f02b1d3"
   ]
 }

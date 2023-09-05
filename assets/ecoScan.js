@@ -21,27 +21,6 @@ async function fetchData() {
       });
     }
 
-   
-
-    const tagsContainer = document.querySelector(".tags-container");
-    tagsContainer.innerHTML = "";
-
-    if (tagsContainer) {
-      claims.forEach((claim) => {
-        const div = createClaimDiv(claim);
-        tagsContainer.appendChild(div);
-      });
-      // Después de crear el div "div" en la función createClaimDiv
-      // const closeButton = tagsContainer.querySelectorAll(
-      //   ".claim--popup__close-button"
-      // );
-      // closeButton.forEach((button) => {
-      //   button.addEventListener("click", () => {
-      //     const elementActive = document.querySelector(".claim--popup.active");
-      //     elementActive.classList.remove("active");
-      //   });
-      // });
-    }
     const claimContent = document.querySelector("#claimContent");
 
     // const tagAssetClaims = document.querySelectorAll(".tag-asset-claim");
@@ -465,5 +444,10 @@ function createClaimDiv(claim) {
 
 var product = {};
 var claims = [];
+  document.addEventListener('DOMContentLoaded', function() {
+
+// Obtener los parámetros de la URL
+  var urlParams = new URLSearchParams(window.location.search);
+  var productSku = urlParams.get('product_sku');
 
 fetchData();

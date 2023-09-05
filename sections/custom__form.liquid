@@ -1,0 +1,414 @@
+<style>
+  .container {
+    max-width: 1240px;
+  }
+  .form__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+  .form__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .form__custom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    gap: 30px;
+    position: relative;
+  }
+  .form__input,
+  .form__textarea {
+    color: #363636;
+    box-shadow: none;
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid transparent;
+    box-shadow: none;
+    font-size: 1rem;
+    height: 2.25em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    position: relative;
+    vertical-align: top;
+    border-radius: 0;
+    padding: 20px 10px;
+    border-bottom: 1px solid #10312B;
+  }
+  .form__input:focus,
+  .form__input:focus-visible,
+  .form__textarea:focus,
+  .form__textarea:focus-visible {
+    outline: none;
+  }
+  .form__textarea {
+    height: 100px;
+    border-radius: 0;
+    resize: none;
+  }
+
+  .form__head {
+    padding: 30px 0;
+    background-color: #b5bc00;
+  }
+  .form__head h3 {
+    margin: auto;
+    color: #fff;
+    font-size: 26px;
+    padding: 0 15px;
+    font-weight: 900;
+  }
+
+  .form__custom--label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form__custom--checkbox {
+    display: flex;
+    gap: 15px;
+  }
+  #my-form-status {
+    background-color: #b5bc00e6;
+    width: 100%;
+    text-align: center;
+    grid-column: 1 / 3;
+    padding: 20px;
+    color: #fff;
+    font-size: 32px;
+  }
+  .form__custom.loading .loader {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    z-index: 2;
+
+    width: 100px;
+    height: 100px;
+    border: none;
+    animation: none;
+  }
+  .form__custom.loading::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #ffffff93;
+  }
+  .form__custom.loading button {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+
+  .form__custom .loader {
+    display: none;
+  }
+  .d-none {
+    display: none;
+  }
+  @media only screen and (min-width: 800px) {
+    .form__custom .button {
+      grid-column: 1 / 3;
+    }
+    .wide {
+      grid-column: 1 / 3;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .form__custom {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+<div class="form__head">
+  <div class="container">
+    <h3>{{ section.settings.title }}</h3>
+  </div>
+</div>
+<div class="container">
+  <div class="form__container">
+    <div class="form__content"><!-- <img class="form__img" src="{{ section.settings.image_url | img_url: '400x400' }}"> -->
+
+      <!-- <p>{{ section.settings.description }}</p> -->
+    </div>
+    <!-- Agregar este fragmento antes del bloque de etiquetas <label class="form__custom--checkbox wide">
+    <p>Language: {{ section.settings.language }}</p> -->
+    <form
+      id="my-form"
+      action="{{ section.settings.form_action }}"
+      method="POST"
+      class="form__custom">
+      <label class="form__custom--label">
+        {% if section.settings.language == 'en' %}
+          Full Name:*
+        {% else %}
+          Nombre y apellido:*
+        {% endif %}
+        <input
+          type="text"
+          class="form__input"
+          placeholder="{% if section.settings.language == 'en' %}Enter here{% else %}Ingresa acá{% endif %}"
+          name="nombre_apellido"
+          required>
+      </label>
+      <label class="form__custom--label">
+        {% if section.settings.language == 'en' %}
+          Company:
+        {% else %}
+          Empresa:
+        {% endif %}
+        <input
+          type="text"
+          class="form__input"
+          placeholder="{% if section.settings.language == 'en' %}Enter here{% else %}Ingresa acá{% endif %}"
+          name="empresa">
+      </label>
+      <label class="form__custom--label">
+        {% if section.settings.language == 'en' %}
+          Contact Email:*
+        {% else %}
+          Correo de contacto:*
+        {% endif %}
+        <input
+          type="email"
+          placeholder="{% if section.settings.language == 'en' %}Enter here{% else %}Ingresa acá{% endif %}"
+          class="form__input"
+          name="email"
+          required>
+      </label>
+      <label class="form__custom--label">
+        {% if section.settings.language == 'en' %}
+          Position in the Company:
+        {% else %}
+          Cargo en la empresa:
+        {% endif %}
+        <input
+          type="text"
+          placeholder="{% if section.settings.language == 'en' %}Enter here{% else %}Ingresa acá{% endif %}"
+          class="form__input"
+          name="cargo">
+      </label>
+      <label class="form__custom--label">
+        {% if section.settings.language == 'en' %}
+          Contact Number:
+        {% else %}
+          Numero de contacto:
+        {% endif %}
+        <input
+          type="tel"
+          placeholder="{% if section.settings.language == 'en' %}Enter here{% else %}Ingresa acá{% endif %}"
+          class="form__input"
+          name="telefono">
+      </label>
+      <label class="form__custom--label">
+        {% if section.settings.language == 'en' %}
+          Country:
+        {% else %}
+          País:
+        {% endif %}
+        <input
+          type="text"
+          class="form__input"
+          placeholder="{% if section.settings.language == 'en' %}Enter here{% else %}Ingresa acá{% endif %}"
+          name="pais">
+      </label>
+      <label class="form__custom--label wide">
+        {% if section.settings.language == 'en' %}
+          Comments:
+        {% else %}
+          Comentarios:
+        {% endif %}
+        <textarea name="comentarios" class="form__textarea"></textarea>
+      </label>
+      {%- assign page_url = content_for_header
+        | split: '"pageurl":"'
+        | last
+        | split: '"'
+        | first
+        | split: request.host
+        | last
+        | replace: '\/', '/'
+        | replace: '%20', ' '
+        | replace: '\u0026', '&' -%}
+      {% assign param = blank %}
+
+      {%- for i in (1..1) -%}
+        {%- unless page_url contains '?' -%}
+          {% break %}
+        {%- endunless -%}
+        {%- assign query_string = page_url | split: '?' | last -%}
+        {%- assign qry_parts = query_string | split: '&' -%}
+
+        {%- for part in qry_parts -%}
+          {%- assign key_and_value = part | split: '=' -%}
+          {%- if key_and_value.size > 1 -%}
+            {% if key_and_value[0] == 'utm_medium' %}
+              <input
+                type="hidden"
+                name="utm_medium"
+                value="{{ key_and_value[1] }}">
+            {% endif %}
+
+            {% if key_and_value[0] == 'utm_source' %}
+              <input
+                type="hidden"
+                name="utm_source"
+                value="{{ key_and_value[1] }}">
+            {% endif %}
+
+            {% if key_and_value[0] == 'utm_campaign' %}
+              <input
+                type="hidden"
+                name="utm_campaign"
+                value="{{ key_and_value[1] }}">
+            {% endif %}
+
+            {% if key_and_value[0] == 'utm_term' %}
+              <input
+                type="hidden"
+                name="utm_term"
+                value="{{ key_and_value[1] }}">
+            {% endif %}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+      <label class="form__custom--checkbox wide">
+        <input
+          type="checkbox"
+          class="form__checkbox"
+          name="agreement"
+          required>
+        {% if section.settings.language == 'en' %}
+          I accept that the information in this form will be processed and used by Ecoterra to respond to my comments and/or requests.
+        {% else %}
+          Acepto que la información contenida en este formulario será procesada y utilizada por Ecoterra para dar respuesta a mis comentarios y/o solicitudes.
+        {% endif %}
+      </label>
+      <button class="button button--primary" type="submit">{{ section.settings.button_text }}</button>
+      <img
+        src="{{ 'Rolling-ecoterra.svg' | asset_url }}"
+        alt=""
+        class="loader"
+        width="30"
+        height="30">
+    </form>
+    <p id="my-form-status" class="d-none"></p>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    var form = document.getElementById("my-form");
+    var checkbox = document.querySelector("input[name=agreement]");
+    var submitButton = document.querySelector("button[type=submit]");
+
+    function handleCheckboxChange(event) {
+      submitButton.disabled = ! event.target.checked;
+    }
+
+    checkbox.addEventListener("change", handleCheckboxChange);
+
+    async function handleSubmit(event) {
+      event.preventDefault();
+      form.classList.add('loading');
+      console.log('handleSubmit');
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+          'Accept': 'application/json'
+        }
+      }).then(response => {
+        form.classList.remove('loading');
+        status.classList.remove('d-none');
+
+        if (response.ok) {
+          var successMessage = section.settings.language == 'en'
+            ? "We will contact you shortly!"
+            : "¡Te contactaremos prontamente!";
+          status.innerHTML = response.ok
+            ? successMessage
+            : errorMessage;
+          status.innerHTML = successMessage;
+          form.reset();
+          submitButton.disabled = true;
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+            } else {
+              var errorMessage = section.settings.language == 'en'
+                ? "Oops! There was a problem submitting your form"
+                : "¡Ups! Hubo un problema al enviar el formulario";
+              status.innerHTML = errorMessage;
+            }
+          });
+        }
+      }).catch(error => {
+        form.classList.remove('loading');
+        status.innerHTML = "Oops! There was a problem submitting your form";
+      });
+    }
+
+    form.addEventListener("submit", handleSubmit);
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Custom Contact Form",
+    "settings": [
+      {
+        "type": "text",
+        "label": "Title",
+        "id": "title",
+        "default": "Get in touch date"
+      }, {
+        "type": "text",
+        "label": "Button Text",
+        "id": "button_text",
+        "default": "Enviar"
+      }, {
+        "type": "text",
+        "label": "Form Action",
+        "id": "form_action",
+        "default": "https://formspree.io/f/xyyqggee"
+      }, {
+        "type": "select",
+        "label": "Language",
+        "id": "language",
+        "default": "es",
+        "options": [
+          {
+            "value": "en",
+            "label": "English"
+          }, {
+            "value": "es",
+            "label": "Español"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Contact Form",
+        "category": "Forms",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

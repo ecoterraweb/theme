@@ -1,0 +1,538 @@
+<style>
+  .container {
+    max-width: 1200px;
+  }
+  .form__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px 0;
+  }
+  .form__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .form__custom {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    position: relative;
+  }
+  .form-section {
+    margin-bottom: 30px;
+  }
+  .form-input,
+  .form-textarea {
+    color: #363636;
+    box-shadow: none;
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid transparent;
+    box-shadow: none;
+    font-size: 1rem;
+    height: 3em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    position: relative;
+    vertical-align: top;
+    border-radius: 0;
+    padding: 20px 10px;
+    border: 1px solid #10312B;
+  }
+  select.form-input {
+    padding: 0 2rem 0 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8, <svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 11px;
+    margin-right: 2rem;
+  }
+  .form-input:focus,
+  .form-input:focus-visible,
+  .form-textarea:focus,
+  .form-textarea:focus-visible {
+    outline: none;
+  }
+  .form-textarea {
+    height: 100px;
+    border-radius: 0;
+    resize: none;
+  }
+
+  .form__head {
+    padding: 30px 0;
+    background-color: #b5bc00;
+  }
+  .form__head h3 {
+    margin: auto;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 900;
+  }
+
+  .form-label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .form__custom--checkbox {
+    display: flex;
+    gap: 15px;
+  }
+  #my-form-status {
+    background-color: #b5bc00e6;
+    width: 100%;
+    text-align: center;
+    grid-column: 1 / 3;
+    padding: 20px;
+    color: #fff;
+    font-size: 32px;
+  }
+  .form__custom.loading .loader {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    z-index: 2;
+
+    width: 100px;
+    height: 100px;
+    border: none;
+    animation: none;
+  }
+  .form__custom.loading::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #ffffff93;
+  }
+  .form__custom.loading button {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+
+  .form__custom .loader {
+    display: none;
+  }
+  .d-none {
+    display: none;
+  }
+  @media only screen and (min-width: 800px) {
+    .form-container .button {
+      grid-column: 1 / 3;
+    }
+    .wide {
+      grid-column: 1 / 3;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .form-container {
+      grid-template-columns: 1fr;
+    }
+    .form-button {
+      padding: 12px 0;
+    }
+    .form-label {
+      font-size: 18px;
+    }
+  }
+</style>
+<div class="form__head">
+  <div class="container">
+    <h3>{{ section.settings.title }}</h3>
+  </div>
+</div>
+<div class="container">
+  <div class="form__container">
+    <div class="form__content"></div>
+    <form
+      id="my-form"
+      action="{{ section.settings.form_action }}"
+      method="POST"
+      class="form__custom">
+      <div class="form-section">
+        <h2>INFORMACIÓN GENERAL DEL PRODUCTOR</h2>
+        <div class="form-container">
+          <label class="form-label">
+            Nombre del productor *
+            <input
+              class="form-input"
+              type="text"
+              placeholder="Ingrese el nombre"
+              name="Nombre"
+              required>
+          </label>
+
+          <label class="form-label">
+            Teléfono de contacto *
+            <input
+              class="form-input"
+              type="tel"
+              placeholder="Ingresa el telefono"
+              name="phone"
+              required>
+          </label>
+
+          <label class="form-label">
+            Correo electrónico
+            <input
+              class="form-input"
+              type="email"
+              placeholder="ejemplo@gmail.com"
+              name="email">
+          </label>
+
+          <label class="form-label">
+            Ubicación
+            <select
+              class="form-input"
+              id="location_region"
+              name="region">
+              <option
+                value=""
+                disabled
+                selected>Seleccione su Región</option>
+              <option value="Arica y Parinacota">Arica y Parinacota</option>
+              <option value="Tarapacá">Tarapacá</option>
+              <option value="Antofagasta">Antofagasta</option>
+              <option value="Atacama">Atacama</option>
+              <option value="Coquimbo">Coquimbo</option>
+              <option value="Valparaíso">Valparaíso</option>
+              <option value="Metropolitana de Santiago">Metropolitana de Santiago</option>
+              <option value="Libertador General Bernardo O'Higgins">Libertador General Bernardo O'Higgins</option>
+              <option value="Maule">Maule</option>
+              <option value="Ñuble">Ñuble</option>
+              <option value="Biobío">Biobío</option>
+              <option value="La Araucanía">La Araucanía</option>
+              <option value="Los Ríos">Los Ríos</option>
+              <option value="Los Lagos">Los Lagos</option>
+              <option value="Aysén del General Carlos Ibáñez del Campo">Aysén del General Carlos Ibáñez del Campo</option>
+              <option value="Magallanes y de la Antártica Chilena">Magallanes y de la Antártica Chilena</option>
+            </select>
+
+          </label>
+
+          <label class="form-label">
+            Tipo de producción
+            <select
+              class="form-input"
+              id="production_type"
+              name="production_type">
+              <option
+                value=""
+                disabled
+                selected>Seleccione</option>
+              <option value="aves">Aves ponedoras (huevos)</option>
+              <option value="vacas">Vacas lecheras (leche)</option>
+              <option value="cabras">Cabras (leche)</option>
+            </select>
+          </label>
+
+          <label class="form-label">
+            Tamaño de la explotación (Número de cabezas de ganado)
+            <input
+              class="form-input"
+              type="number"
+              min="0"
+              placeholder="Ingrese el nùmero de cabezas de ganado"
+              name="farm_size">
+          </label>
+
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h2>EXPERIENCIA EN PRODUCCIÓN PECUARIA</h2>
+        <div class="form-container">
+
+          <label class="form-label">
+            ¿Cuántos años de experiencia tiene en el sector pecuario?
+            <input
+              class="form-input"
+              type="number"
+              min="0"
+              placeholder="Ingrese el número de años"
+              name="years_experience">
+          </label>
+
+          <label class="form-label">
+            ¿Cuál es su formación académica o técnica relacionada con la producción pecuaria?
+            <select
+              class="form-input"
+              id="proyect-collaborative"
+              name="academic_training">
+              <option
+                value=""
+                disabled
+                selected>Seleccione una opción</option>
+              <option value="Têcnica">Técnica</option>
+              <option value="Universitaria">Universitaria</option>
+              <option value="Aprendizaje propio">Aprendizaje propio</option>
+              <option value="Otra">Otra</option>
+            </select>
+          </label>
+
+          <label class="form-label" for="proyect-collaborative">
+            Ha participado previamente en proyectos asociativos o colaborativos?
+            <select
+              class="form-input"
+              id="proyect-collaborative"
+              name="has_been_part_projects_collaborative">
+              <option
+                value=""
+                disabled
+                selected>Seleccione</option>
+              <option value="Si">Si</option>
+              <option value="No">No</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h2>SOSTENIBILIDAD Y PRÁCTICAS AMBIENTALES</h2>
+        <div class="form-container">
+          <label class="form-label" for="sustainable-practices">
+            ¿Implementa prácticas sostenibles en su producción?
+            <select
+              class="form-input"
+              id="sustainable-practices"
+              name="implement_sustainable_practices">
+              <option
+                value=""
+                disabled
+                selected>Seleccione</option>
+              <option value="Si">Si</option>
+              <option value="No">No</option>
+            </select>
+          </label>
+
+          <label class="form-label" for="more-sustainable-practices">
+            ¿Estaría dispuesto a implementar prácticas más sostenibles en su producción?
+            <select
+              class="form-input"
+              id="more-sustainable-practices"
+              name="more_sustainable_practices">
+              <option
+                value=""
+                disabled
+                selected>Seleccione</option>
+              <option value="Si">Si</option>
+              <option value="No">No</option>
+            </select>
+          </label>
+
+          <label class="form-label">
+            ¿Cuenta con alguna certificación de sostenibilidad o sello de calidad?
+            <input
+              class="form-input"
+              name="claims"
+              placeholder="Ingrese cuales posee, sino deje en blanco"
+              type="text">
+          </label>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h2>ASPECTOS ECONÓMICOS Y FINANCIEROS</h2>
+        <div class="form-container">
+          <label class="form-label">
+            ¿Cuál es el principal desafío económico que enfrenta en su producción?
+            <select
+              class="form-input"
+              id="more-sustainable-practices"
+              name="economic_challenge">
+              <option
+                value=""
+                disabled
+                selected>Seleccione</option>
+              <option value="Financiamiento">Financiamiento</option>
+              <option value="Manejo técnico productivo">Manejo técnico productivo</option>
+              <option value="Administración del negocio">Administración del negocio</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </label>
+
+          <label class="form-label" for="business-model">
+            ¿Estaría interesado en participar en un modelo de negocios asociativo para mejorar la comercialización de sus productos?
+            <select
+              class="form-input"
+              id="business-model"
+              name="business_model">
+              <option
+                value=""
+                disabled
+                selected>Seleccione</option>
+              <option value="Si">Si</option>
+              <option value="No">No</option>
+            </select>
+          </label>
+
+          <label class="form-label" for="requires-support">
+            ¿Requiere apoyo financiero para mejorar su producción?
+            <select
+              class="form-input"
+              id="requires-support"
+              name="requires_support">
+              <option
+                value=""
+                disabled
+                selected>Seleccione</option>
+              <option value="Si">Si</option>
+              <option value="No">No</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h2>DISPOSICIÓN PARA LA COLABORACIÓN</h2>
+        <div class="form-container">
+          <label class="form-label" for="participate-in-training">
+            ¿Estaría Interesado en participar en actividades de capacitación y formación conjunta con otros productores?
+            <select
+              class="form-input"
+              id="participate-in-training"
+              name="participate_in_training">
+              <option
+                value=""
+                disabled
+                selected>Seleccione</option>
+              <option value="Si">Si</option>
+              <option value="No">No</option>
+            </select>
+          </label>
+
+          <label class="form-label" for="share-knowledge">
+            ¿Estaría dispuesto a compartir conocimientos y experiencias con otros productores?
+            <select
+              class="form-input"
+              id="share-knowledge"
+              name="share_knowledge">
+              <option
+                value=""
+                disabled
+                selected>Seleccione</option>
+              <option value="Si">Si</option>
+              <option value="No">No</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <label class="form__custom--checkbox wide">
+        <input
+          type="checkbox"
+          class="form__checkbox"
+          name="agreement"
+          required>
+        <span style="flex: 1">
+          Acepto que la información contenida en este formulario sea utilizada por Ecoterra para contactarme
+        </span>
+      </label>
+      <button class="button button--primary form-button" type="submit">Enviar</button>
+    </form>
+    <p id="my-form-status" class="d-none"></p>
+  </div>
+</div>
+<script>
+  $(document).ready(function() {
+
+    var form = document.getElementById("my-form");
+    var checkbox = document.querySelector("input[name=agreement]");
+    var submitButton = document.querySelector("button[type=submit]");
+
+    function handleCheckboxChange(event) {
+      submitButton.disabled = ! event.target.checked;
+    }
+
+    checkbox.addEventListener("change", handleCheckboxChange);
+
+    async function handleSubmit(event) {
+      event.preventDefault();
+      form.classList.add('loading');
+      console.log('handleSubmit');
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+          'Accept': 'application/json'
+        }
+      }).then(response => {
+        form.classList.remove('loading');
+        status.classList.remove('d-none');
+
+        if (response.ok) {
+          status.innerHTML = "¡Te contactaremos prontamente!";
+          form.reset();
+          submitButton.disabled = true;
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form";
+            }
+          });
+        }
+      }).catch(error => {
+        form.classList.remove('loading');
+        status.innerHTML = "Oops! There was a problem submitting your form";
+      });
+    }
+
+    form.addEventListener("submit", handleSubmit);
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Custom Farmer Form",
+    "settings": [
+      {
+        "type": "text",
+        "label": "Title",
+        "id": "title",
+        "default": "Get in touch date"
+      }, {
+        "type": "text",
+        "label": "Button Text",
+        "id": "button_text",
+        "default": "Enviar"
+      }, {
+        "type": "text",
+        "label": "Form Action",
+        "id": "form_action",
+        "default": "https://formspree.io/f/xyyqggee"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Farmer Form",
+        "category": "Forms",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

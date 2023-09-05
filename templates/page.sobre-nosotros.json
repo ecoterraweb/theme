@@ -103,12 +103,14 @@
       "blocks": {
         "template--15538977734749__4a2d4127-a71b-4674-87ce-2ae0bd5a425c-subheading-1": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "Subheading"
           }
         },
         "template--15538977734749__4a2d4127-a71b-4674-87ce-2ae0bd5a425c-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Manifiesto",
             "heading_tag": "h1",
@@ -119,7 +121,7 @@
         "template--15538977734749__4a2d4127-a71b-4674-87ce-2ae0bd5a425c-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Texto sobre el manifiesto<\/p>"
           }
         }
       },

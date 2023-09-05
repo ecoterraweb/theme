@@ -40,6 +40,21 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "ff400f13-7ef4-4b86-bcd4-12be32e9d22d": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "¡Cambia el mundo a través de lo que comes!",
+        "text_size": "medium",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 16,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#167a09",
+        "text_gradient": ""
+      }
+    },
     "f1c1110e-c62c-4a89-a208-0e9634598ba2": {
       "type": "rich-text",
       "blocks": {
@@ -646,6 +661,7 @@
   },
   "order": [
     "slideshow",
+    "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "f1c1110e-c62c-4a89-a208-0e9634598ba2",
     "impact-text",
     "07bfe67d-62f0-4ef1-be8d-6777dbd342f2",

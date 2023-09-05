@@ -21,7 +21,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#004228",
+        "background": "#dbde3b",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -34,7 +34,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "{{shop.brand.logo}}",
+        "logo": "shopify:\/\/shop_images\/logoeco.svg",
         "logo_max_width": 220,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",

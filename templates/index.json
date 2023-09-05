@@ -305,7 +305,7 @@
         "full_width": true,
         "stack_collections": false,
         "collections_per_row": 3,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "subheading": "",
         "title": "Nuestas Categorías de EcoProducts",
         "content": "",
@@ -578,7 +578,6 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ecobox_huevos_100L-leche_descremada.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/products\/caja-12-leche-descremada-ecoterra-de-vacas-libres-a-pastoreo-1-lt",

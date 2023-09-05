@@ -327,6 +327,37 @@
         "bg_color": "#1dbe67"
       }
     },
+    "ccff1d20-57b9-402b-9f62-d36451f0be52": {
+      "type": "video",
+      "blocks": {
+        "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-play-1": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Cápsula Certificaciones",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-play-1",
+        "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "63303b90-3a37-407c-9926-07e8e5d5910f": {
       "type": "blog-posts",
       "blocks": {
@@ -360,6 +391,26 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "f091270f-8f95-48b7-88b0-50147dbf74c4": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "Conctáctanos",
+        "title": "¿Hablémos?",
+        "content": "",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -372,6 +423,8 @@
     "dd9eb39e-7511-47e7-9add-7ee2a994dad3",
     "d34757aa-3c4c-44ab-b9f5-4956ed831ec4",
     "1a7ad382-718d-4d3c-971c-d883319947a1",
-    "63303b90-3a37-407c-9926-07e8e5d5910f"
+    "ccff1d20-57b9-402b-9f62-d36451f0be52",
+    "63303b90-3a37-407c-9926-07e8e5d5910f",
+    "f091270f-8f95-48b7-88b0-50147dbf74c4"
   ]
 }

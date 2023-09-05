@@ -96,38 +96,6 @@
         "heading_gradient": ""
       }
     },
-    "4a2d4127-a71b-4674-87ce-2ae0bd5a425c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15538977734749__4a2d4127-a71b-4674-87ce-2ae0bd5a425c-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Texto sobre el manifiesto<\/p>"
-          }
-        },
-        "e2d9a4bf-3f0b-4d58-ad9b-1c59bbfe4de9": {
-          "type": "heading",
-          "settings": {
-            "text": "Manifiesto",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15538977734749__4a2d4127-a71b-4674-87ce-2ae0bd5a425c-richtext-1",
-        "e2d9a4bf-3f0b-4d58-ad9b-1c59bbfe4de9"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "2a00e15a-87f5-4194-a557-a0582140c994": {
       "type": "rich-text",
       "blocks": {
@@ -461,7 +429,6 @@
     "main",
     "f578399d-fcbf-449d-9cff-a4983346d5b7",
     "dd3e4515-ba05-4240-8262-f020dbffcfe5",
-    "4a2d4127-a71b-4674-87ce-2ae0bd5a425c",
     "2a00e15a-87f5-4194-a557-a0582140c994",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "176bfb17-1b54-464d-8dea-82b65abe29a2",

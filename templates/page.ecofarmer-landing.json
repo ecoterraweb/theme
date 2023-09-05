@@ -58,11 +58,106 @@
         "button_text": "Enviar",
         "form_action": "https:\/\/formspree.io\/f\/meqbeglg"
       }
+    },
+    "e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da": {
+      "type": "logo-list",
+      "blocks": {
+        "template--15540080017501__e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da-logo-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/LIDER.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "template--15540080017501__e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da-logo-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/JUMBO.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "template--15540080017501__e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da-logo-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/TOTTUS.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "template--15540080017501__e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da-logo-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/UNI_4309d60f-3671-4ff5-8717-917298ada810.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "template--15540080017501__e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da-logo-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Logo_Mandarin_Oriental_Santiago.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "a4af9df8-8320-4420-a2f0-c95829fa3e6f": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Logo_Lo_Saldes.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "c7a1a859-9d78-4605-a2d3-984229147d0e": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Logo_Lady_Focaccia.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "7a41898c-5834-407b-8c42-a63060e6f9d5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Logo_Timaukel.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15540080017501__e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da-logo-1",
+        "template--15540080017501__e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da-logo-2",
+        "template--15540080017501__e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da-logo-3",
+        "template--15540080017501__e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da-logo-4",
+        "template--15540080017501__e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da-logo-5",
+        "a4af9df8-8320-4420-a2f0-c95829fa3e6f",
+        "c7a1a859-9d78-4605-a2d3-984229147d0e",
+        "7a41898c-5834-407b-8c42-a63060e6f9d5"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Nuestros EcoPartners",
+        "content": "",
+        "text_alignment": "start",
+        "items_per_row": 4,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
     "main",
     "fe662bbf-ab92-4387-8201-29d1f356de63",
-    "aa257b19-a8a5-4b88-8599-73955eb2d600"
+    "aa257b19-a8a5-4b88-8599-73955eb2d600",
+    "e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da"
   ]
 }

@@ -56,11 +56,53 @@
         "form_action": "https:\/\/formspree.io\/f\/xzblpper",
         "language": "es"
       }
+    },
+    "40d74cfc-0f13-48b3-9d4b-a80a4d6016db": {
+      "type": "slideshow",
+      "blocks": {
+        "5b12b8ba-8d6b-405d-89bc-e2b0803db8c3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DESKTOP-2-1800-x-900px.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/MOBILE-1800-x-900px.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "5b12b8ba-8d6b-405d-89bc-e2b0803db8c3"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
     }
   },
   "order": [
     "main",
     "77458498-be5c-4ebb-9018-f56f854708ca",
-    "8d49537b-9f26-4b2a-8041-630231b6d82b"
+    "8d49537b-9f26-4b2a-8041-630231b6d82b",
+    "40d74cfc-0f13-48b3-9d4b-a80a4d6016db"
   ]
 }

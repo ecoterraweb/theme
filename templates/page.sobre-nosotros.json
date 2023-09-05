@@ -26,6 +26,7 @@
       "block_order": [
         "template--15537731993693__a8ac69df-f6f0-4f02-ae88-dab4be43ee23-item-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "images_layout": "stacked",
@@ -35,6 +36,105 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "f578399d-fcbf-449d-9cff-a4983346d5b7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Manifiesto",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-2": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1",
+        "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "4a2d4127-a71b-4674-87ce-2ae0bd5a425c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15538977734749__4a2d4127-a71b-4674-87ce-2ae0bd5a425c-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--15538977734749__4a2d4127-a71b-4674-87ce-2ae0bd5a425c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Manifiesto",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15538977734749__4a2d4127-a71b-4674-87ce-2ae0bd5a425c-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538977734749__4a2d4127-a71b-4674-87ce-2ae0bd5a425c-subheading-1",
+        "template--15538977734749__4a2d4127-a71b-4674-87ce-2ae0bd5a425c-heading-1",
+        "template--15538977734749__4a2d4127-a71b-4674-87ce-2ae0bd5a425c-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "2a00e15a-87f5-4194-a557-a0582140c994": {
@@ -369,6 +469,8 @@
   "order": [
     "main",
     "a8ac69df-f6f0-4f02-ae88-dab4be43ee23",
+    "f578399d-fcbf-449d-9cff-a4983346d5b7",
+    "4a2d4127-a71b-4674-87ce-2ae0bd5a425c",
     "2a00e15a-87f5-4194-a557-a0582140c994",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "176bfb17-1b54-464d-8dea-82b65abe29a2",

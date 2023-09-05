@@ -97,12 +97,81 @@
         "background": "#F2F2F2",
         "background_gradient": ""
       }
+    },
+    "cd1423a3-0bf8-4521-8c22-1036b2103ee5": {
+      "type": "faq",
+      "blocks": {
+        "template--15540312113245__cd1423a3-0bf8-4521-8c22-1036b2103ee5-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cómo contribuye Ecoterra a salvar el planeta?",
+            "content": "<p>Comer es una necesidad básica. Todos lo hacemos, todos los días. Por ende, para salvar nuestro planeta creemos que la verdadera revolución está en la agricultura, la comida es el camino.<\/p><p>Actualmente, la agricultura industrial moderna recurre a monocultivos anuales, herbicidas y pesticidas tóxicos, fertilizantes sintéticos y despilfarro de agua, todo lo cual está destruyendo la capa superficial del suelo mucho más rápido de lo que puede reponerse.<\/p><p>Lo anterior, conlleva otros grandes costos: pésimas condiciones de vida de los animales, desvinculación de los pequeños agricultores, alimentos insípidos y que enferman a las personas y una cantidad absurda de desperdicio de alimentos.<\/p><p>Estamos seguros de que, si queremos mover la aguja y salvar nuestro hogar, los cambios en la agricultura son los más necesarios. Y eso es Ecoterra, una alternativa que asegura el bienestar animal, minimiza el desperdicio de alimentos, protege a los trabajadores agrícolas e innova en prácticas que cuiden nuestros suelos.<\/p><p>En Ecoterra hacemos mucho más que alimentos. Hacemos innovación y desarrollo para garantizar productos honestos, a través de la creación de modelos de producción justos, replicables y escalables. Colaboramos con la naturaleza para construir alimentos con propósito que sean parte de la solución y no del problema. <\/p>"
+          }
+        },
+        "template--15540312113245__cd1423a3-0bf8-4521-8c22-1036b2103ee5-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cómo vinculan socialmente a los pequeños productores agrícolas (Ecofarmers)?",
+            "content": "<p>A través de prácticas de comercio justo. Estas son: <\/p><ul><li>Contratos justos, transparentes y formales. Sin letra chica.<\/li><li>Pago a precio justo (alineados con el mercado) y a tiempo.<\/li><li>Aseguramiento de la compra de la producción (a corto, mediano y largo plazo) para reducir la incertidumbre y evitar el desperdicio de alimentos.<\/li><li>Apoyo financiero para potenciar tu producción sostenible.<\/li><li>Apoyo técnico para lograr los mejores estándares productivos. <\/li><\/ul>"
+          }
+        },
+        "template--15540312113245__cd1423a3-0bf8-4521-8c22-1036b2103ee5-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cuál es la diferencia entre Cage Free y Free Range? ¿Qué sistema usa Ecoterra?",
+            "content": "<p>Todos los huevos Ecoterra son Free Range, certificados por el sello Certified Humane.<\/p><p>La diferencia entre ambos sistemas es que el sistema Free Range asegura la salida de las aves a praderas de riego (2m2 por ave), en cambio, Cage Free solo asegura que sean aves libres de jaula pero sin salida del aviario (0,14 m2 por ave).<\/p>"
+          }
+        },
+        "dbad0198-1b21-4cfb-899b-61f0c5a12653": {
+          "type": "item",
+          "settings": {
+            "title": "¿Hay un monto mínimo de compra para convertirse en cliente?",
+            "content": "<p>El monto mínimo son 2 cajas de producto. El pago es a través de factura.<\/p>"
+          }
+        },
+        "68d1124b-2021-4222-9701-d94af64b8b74": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cuál es la frecuencia de despachos?",
+            "content": "<p>Depende de la comuna en que se encuentre tu negocio, ya que trabajamos con un calendario de despachos por sector.  Los pedidos se tienen que hacer con 48 hrs de anticipación.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15540312113245__cd1423a3-0bf8-4521-8c22-1036b2103ee5-item-1",
+        "template--15540312113245__cd1423a3-0bf8-4521-8c22-1036b2103ee5-item-2",
+        "template--15540312113245__cd1423a3-0bf8-4521-8c22-1036b2103ee5-item-3",
+        "dbad0198-1b21-4cfb-899b-61f0c5a12653",
+        "68d1124b-2021-4222-9701-d94af64b8b74"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Preguntas Frecuentes",
+        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "77458498-be5c-4ebb-9018-f56f854708ca",
     "8d49537b-9f26-4b2a-8041-630231b6d82b",
-    "40d74cfc-0f13-48b3-9d4b-a80a4d6016db"
+    "40d74cfc-0f13-48b3-9d4b-a80a4d6016db",
+    "cd1423a3-0bf8-4521-8c22-1036b2103ee5"
   ]
 }

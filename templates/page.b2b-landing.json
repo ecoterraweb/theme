@@ -38,7 +38,7 @@
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "image_size": "auto",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
@@ -148,7 +148,7 @@
         "full_width": true,
         "subheading": "",
         "title": "Preguntas Frecuentes",
-        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
+        "content": "",
         "team_avatar_width": 160,
         "support_hours": "",
         "answer_time": "",

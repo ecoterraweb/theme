@@ -16,6 +16,7 @@
       "block_order": [
         "message"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",

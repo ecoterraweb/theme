@@ -7,43 +7,69 @@
         "content_width": "80ch"
       }
     },
-    "06f37362-892b-48b1-92b6-ca39c152cec3": {
-      "type": "slideshow",
+    "6bf7c431-01c3-4ee3-a441-064205c9196d": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "template--15538977898589__06f37362-892b-48b1-92b6-ca39c152cec3-image-1": {
-          "type": "image",
+        "template--15538977898589__6bf7c431-01c3-4ee3-a441-064205c9196d-subheading-1": {
+          "type": "subheading",
           "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Bienvenidos a la comunidad que desafía la norma, a la familia que lucha por un mundo más verde. ¡Bienvenidos a Ecoterra!",
-            "title": "EcoComunidad",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
+            "text": "¡Bienvenidos a Ecoterra!"
+          }
+        },
+        "template--15538977898589__6bf7c431-01c3-4ee3-a441-064205c9196d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "EcoComunidad",
+            "heading_tag": "h1"
+          }
+        },
+        "template--15538977898589__6bf7c431-01c3-4ee3-a441-064205c9196d-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bienvenidos a la comunidad que desafía la norma, a la familia que lucha por un mundo más verde.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--15538977898589__06f37362-892b-48b1-92b6-ca39c152cec3-image-1"
+        "template--15538977898589__6bf7c431-01c3-4ee3-a441-064205c9196d-subheading-1",
+        "template--15538977898589__6bf7c431-01c3-4ee3-a441-064205c9196d-heading-1",
+        "template--15538977898589__6bf7c431-01c3-4ee3-a441-064205c9196d-richtext-1"
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
         "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#F2F2F2",
-        "background_gradient": ""
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "0cdd050f-07c7-410a-b317-ac525e0ad6b5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15538504237149__0cdd050f-07c7-410a-b317-ac525e0ad6b5-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>EcoLovers: <\/strong>Ustedes son los soñadores audaces, los que eligen con intención y marcan la diferencia con cada bocado. Son los guardianes de nuestro futuro, los defensores apasionados de la sostenibilidad. Con cada elección consciente, con cada producto sostenible que eligen, están construyendo un mundo más brillante, un bocado a la vez.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504237149__0cdd050f-07c7-410a-b317-ac525e0ad6b5-richtext-1"
+      ],
+      "custom_css": [
+        "div {padding-bottom: 10px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "4872d83c-f5be-4d04-9b6e-e39539b12205": {
@@ -64,31 +90,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "0cdd050f-07c7-410a-b317-ac525e0ad6b5": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15538504237149__0cdd050f-07c7-410a-b317-ac525e0ad6b5-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>EcoLovers:<\/strong>Ustedes son los soñadores audaces, los que eligen con intención y marcan la diferencia con cada bocado. Son los guardianes de nuestro futuro, los defensores apasionados de la sostenibilidad. Con cada elección consciente, con cada producto sostenible que eligen, están construyendo un mundo más brillante, un bocado a la vez.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15538504237149__0cdd050f-07c7-410a-b317-ac525e0ad6b5-richtext-1"
-      ],
-      "custom_css": [
-        "div {padding-bottom: 10px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "large",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "81f57809-436d-4835-b5a8-f4450f6bb908": {
@@ -643,9 +644,9 @@
   },
   "order": [
     "main",
-    "06f37362-892b-48b1-92b6-ca39c152cec3",
-    "4872d83c-f5be-4d04-9b6e-e39539b12205",
+    "6bf7c431-01c3-4ee3-a441-064205c9196d",
     "0cdd050f-07c7-410a-b317-ac525e0ad6b5",
+    "4872d83c-f5be-4d04-9b6e-e39539b12205",
     "81f57809-436d-4835-b5a8-f4450f6bb908",
     "f6f4d6ad-90f6-4e06-b14f-2279a8b196c1",
     "01d6e360-57ec-41b8-991c-3d5e907e0017",

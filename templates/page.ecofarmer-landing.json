@@ -152,12 +152,65 @@
         "logo_item_background": "",
         "logo_item_border": ""
       }
+    },
+    "7b4e8e35-9407-4379-a6b5-0b071a8e737a": {
+      "type": "faq",
+      "blocks": {
+        "template--15540080017501__7b4e8e35-9407-4379-a6b5-0b071a8e737a-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cómo contribuye Ecoterra a salvar el planeta?",
+            "content": "<p>Comer es una necesidad básica. Todos lo hacemos, todos los días. Por ende, para salvar nuestro planeta creemos que la verdadera revolución está en la agricultura, la comida es el camino.<\/p><p>Actualmente, la agricultura industrial moderna recurre a monocultivos anuales, herbicidas y pesticidas tóxicos, fertilizantes sintéticos y despilfarro de agua, todo lo cual está destruyendo la capa superficial del suelo mucho más rápido de lo que puede reponerse.<\/p><p>Lo anterior, conlleva otros grandes costos: pésimas condiciones de vida de los animales, desvinculación de los pequeños agricultores, alimentos insípidos y que enferman a las personas y una cantidad absurda de desperdicio de alimentos.<\/p><p>Estamos seguros de que, si queremos mover la aguja y salvar nuestro hogar, los cambios en la agricultura son los más necesarios. Y eso es Ecoterra, una alternativa que asegura el bienestar animal, minimiza el desperdicio de alimentos, protege a los trabajadores agrícolas e innova en prácticas que cuiden nuestros suelos.<\/p><p>En Ecoterra hacemos mucho más que alimentos. Hacemos innovación y desarrollo para garantizar productos honestos, a través de la creación de modelos de producción justos, replicables y escalables. Colaboramos con la naturaleza para construir alimentos con propósito que sean parte de la solución y no del problema. <\/p>"
+          }
+        },
+        "template--15540080017501__7b4e8e35-9407-4379-a6b5-0b071a8e737a-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cómo vinculan socialmente a los pequeños productores agrícolas (Ecofarmers)?",
+            "content": "<p>A través de prácticas de comercio justo. Estas son: <\/p><ul><li>Contratos justos, transparentes y formales. Sin letra chica.<\/li><li>Pago a precio justo (alineados con el mercado) y a tiempo.<\/li><li>Aseguramiento de la compra de la producción (a corto, mediano y largo plazo) para reducir la incertidumbre y evitar el desperdicio de alimentos.<\/li><li>Apoyo financiero para potenciar tu producción sostenible.<\/li><li>Apoyo técnico para lograr los mejores estándares productivos. <\/li><\/ul>"
+          }
+        },
+        "template--15540080017501__7b4e8e35-9407-4379-a6b5-0b071a8e737a-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cuál es la diferencia entre Cage Free y Free Range? ¿Qué sistema usa Ecoterra?",
+            "content": "<p>Todos los huevos Ecoterra son Free Range, certificados por el sello Certified Humane.<\/p><p>La diferencia entre ambos sistemas es que el sistema Free Range asegura la salida de las aves a praderas de riego (2m2 por ave), en cambio, Cage Free solo asegura que sean aves libres de jaula pero sin salida del aviario (0,14 m2 por ave).<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15540080017501__7b4e8e35-9407-4379-a6b5-0b071a8e737a-item-1",
+        "template--15540080017501__7b4e8e35-9407-4379-a6b5-0b071a8e737a-item-2",
+        "template--15540080017501__7b4e8e35-9407-4379-a6b5-0b071a8e737a-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Preguntas Frecuentes",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "fe662bbf-ab92-4387-8201-29d1f356de63",
     "aa257b19-a8a5-4b88-8599-73955eb2d600",
-    "e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da"
+    "e8c5b5f1-c4bd-4311-b8ed-ae6ce2a913da",
+    "7b4e8e35-9407-4379-a6b5-0b071a8e737a"
   ]
 }

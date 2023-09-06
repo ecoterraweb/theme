@@ -44,7 +44,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -200,7 +200,7 @@
         "stack_mobile": true,
         "title": "Nuestros EcoPartners",
         "content": "",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "items_per_row": 4,
         "background": "",
         "background_gradient": "",

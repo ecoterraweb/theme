@@ -77,6 +77,17 @@ all events, dependencies...) in the "documentation.txt" file, located in the Ass
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
     {{ "webfonts.css" | asset_url | stylesheet_tag: preload: true }}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FPV98LJMDQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-FPV98LJMDQ');
+    </script>
   </head>
 
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">

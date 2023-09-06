@@ -1,7 +1,10 @@
 async function fetchData() {
   try {
     const response = await fetch(
-      `https://ecotech.ecoterra.cl/api/products/${productSku}`
+      `https://ecotech.ecoterra.cl/api/products/${productSku}`, {
+        method: 'GET',
+        credentials: 'omit' // Esto evita que las cookies se incluyan en la solicitud
+      }
     );
 
     const data = await response.json();

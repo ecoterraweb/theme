@@ -56,6 +56,7 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-2"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "allow_transparent_header": true,
         "image_size": "auto",
@@ -84,6 +85,7 @@
         "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-1"
       ],
       "settings": {
+        "identifier": "Manifiesto-section",
         "full_width": true,
         "stack_on_mobile": false,
         "show_counter": false,
@@ -145,6 +147,7 @@
         "f5eea8a2-0484-4fe8-913d-6b9b259d0cdc"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "stack_on_mobile": false,
         "show_counter": false,
@@ -249,6 +252,7 @@
         "template--15537731993693__dd9eb39e-7511-47e7-9add-7ee2a994dad3-richtext-1"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "content_width": "small",
         "text_position": "center",

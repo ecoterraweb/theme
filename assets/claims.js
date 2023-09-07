@@ -77,10 +77,13 @@ async function fetchData() {
     if (generalButtonClaim && claims.length > 0) {
       generalButtonClaim.addEventListener("click", function (e) {
         e.preventDefault();
-        gtag('event', 'clic_en_boton', {
-          'event_category': 'Interacción',
-          'event_label': 'Boton Eco Claims'
-        });
+        ga(
+          "send",
+          "event",
+          "View_ecoScan_Page",
+          "View_ecoScan_Page",
+          `EcoSkan en producto ${productSku}`
+        );
         const claimOptionActive = document.querySelector(
           ".claims--link-options.active"
         );

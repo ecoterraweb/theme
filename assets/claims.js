@@ -80,9 +80,9 @@ async function fetchData() {
         ga(
           "send",
           "event",
-          "View_ecoScan_Page",
-          "View_ecoScan_Page",
-          `EcoSkan en producto ${productSku}`
+          "Proof_of_eco_click",
+          "Proof_of_eco_click",
+          `click en producto ${productSku}`
         );
         const claimOptionActive = document.querySelector(
           ".claims--link-options.active"

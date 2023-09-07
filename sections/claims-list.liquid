@@ -47,6 +47,10 @@
   fetchData(4, 0);
 </script>
 <style>
+  h3.list__claims--li-title {
+    font-weight: 800;
+    font-size: 20px;
+  }
   .list__claims {
     padding: 80px 0;
     background-color: {{ section.settings.bg_color }}
@@ -105,7 +109,7 @@
   }
 </style>
 
-<section class="list__claims">
+<section id="{{ section.settings.identifier }}" class="list__claims">
   <div class="list__claims--container container">
     <h2 class="list__claims--title">{{ section.settings.title }}</h2>
     <p class="list__claims--text">{{ section.settings.text }}</p>
@@ -121,6 +125,11 @@
     "class": "shopify-section--custom-liquid",
     "tag": "section",
     "settings": [
+      {
+        "type": "text",
+        "id": "identifier",
+        "label": "Custom ID"
+      },
       {
         "type": "text",
         "label": "Title",

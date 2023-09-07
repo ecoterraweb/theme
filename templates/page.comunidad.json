@@ -186,6 +186,7 @@
         "template--15538504237149__01d6e360-57ec-41b8-991c-3d5e907e0017-image-1"
       ],
       "settings": {
+        "identifier": "EcoPartners-section",
         "full_width": true,
         "allow_transparent_header": true,
         "image_size": "auto",
@@ -386,6 +387,7 @@
         "1a652b8e-1aa2-4d96-b751-fc9473e39b18"
       ],
       "settings": {
+        "identifier": "EcoFarmers-section",
         "full_width": true,
         "allow_transparent_header": true,
         "image_size": "auto",

@@ -36,6 +36,7 @@
         "template--15538977898589__6bf7c431-01c3-4ee3-a441-064205c9196d-richtext-1"
       ],
       "settings": {
+        "identifier": "EcoLovers",
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,

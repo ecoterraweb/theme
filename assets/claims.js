@@ -298,7 +298,7 @@ function initMap(elementId, points, templateId = null) {
       <h2 id="firstHeading" class="firstHeading">
       ${point.name}
       </h2>
-      <img src="https://cdn.shopify.com/s/files/1/0280/0854/6397/files/granja.jpg?v=1692312813" style="height: 50px; width: 100px; object-fit: cover;" loading="lazy"/>
+      <img src="${point.imgUrl}" style="height: 50px; width: 100px; object-fit: cover;" loading="lazy"/>
       <p>${point.description}</p>
       ${
         template[0]

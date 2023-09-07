@@ -25,7 +25,7 @@
   MOBILE VARIATION
   ----------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
-  <images-with-text-scrolling class="images-scrolling-mobile scroll-area bleed sm:unbleed">
+  <images-with-text-scrolling id="{{ section.settings.identifier }}" class="images-scrolling-mobile scroll-area bleed sm:unbleed">
     {%- for block in section.blocks -%}
       <div class="images-scrolling-mobile__item snap-start" {{ block.shopify_attributes }}>
         {%- if block.settings.image != blank -%}
@@ -120,6 +120,11 @@
   },
   "max_blocks": 15,
   "settings": [
+    {
+      "type": "text",
+      "id": "identifier",
+      "label": "Custom ID"
+    },
     {
       "type": "checkbox",
       "id": "full_width",

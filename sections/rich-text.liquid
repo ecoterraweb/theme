@@ -7,7 +7,7 @@
     }
   </style>
 
-  <div {% render 'section-properties' %}>
+  <div {% render 'section-properties' %} id="{{ section.settings.identifier }}">
     {%- assign text_position = section.settings.text_position -%}
     {%- assign blocks_before_divider = '' -%}
     {%- assign blocks_after_divider = '' -%}
@@ -140,6 +140,11 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "identifier",
+      "label": "Custom ID"
+    },
     {
       "type": "checkbox",
       "id": "full_width",

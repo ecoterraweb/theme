@@ -325,6 +325,7 @@
     "1a7ad382-718d-4d3c-971c-d883319947a1": {
       "type": "claims-list",
       "settings": {
+        "identifier": "POE-section",
         "title": "Proof of eco",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum odit veniam soluta, eveniet repellendus quasi quod illum quae dolorem libero saepe unde rem incidunt dolorum fugiat et praesentium dolor blanditiis.",
         "full_width": true,

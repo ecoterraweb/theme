@@ -73,6 +73,8 @@
               <span class="shape-diamond shape--lg place-self-center"></span>
               {%- when 'line' -%}
               <span class="shape-line {% if section.settings.stack_mobile %}hidden sm:block{% endif %}"></span>
+              {%- when 'arrow' -%}
+              <span class="shape-arrow {% if section.settings.stack_mobile %}hidden sm:block{% endif %}"></span>
             {%- endcase -%}
           {%- endunless -%}
         {%- endfor -%}
@@ -247,6 +249,9 @@
           }, {
             "value": "line",
             "label": "Line"
+          }, {
+            "value": "arrow",
+            "label": "Arrow"
           }
         ],
         "default": "none"

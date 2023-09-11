@@ -3524,6 +3524,17 @@ tfoot td {
   width: 1px;
   background: rgb(var(--text-color) / .1);
 }
+.shape-line {
+  position: relative;
+}
+.shape-line::after {
+  position: absolute;
+  content: '';
+}
+.shape-line::before {
+  position: absolute;
+  content: '';
+}
 
 .shape--sm {
   --size: var(--spacing-1);

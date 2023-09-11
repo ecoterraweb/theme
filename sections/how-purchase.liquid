@@ -28,9 +28,9 @@
   {%- endcomment -%}
 
   <div {% render 'section-properties' %}>
-    {%- if settings.text != blank -%}
-        <p class="{{ settings.heading_tag }} hyphenate" {{ block.shopify_attributes }}>
-          {%- render 'styled-text', content: settings.text, text_color: settings.text_color -%}
+    {%- if section.settings.text != blank -%}
+        <p class="{{ section.settings.heading_tag }} hyphenate" >
+          {%- render 'styled-text', content: section.settings.text, text_color: section.settings.text_color -%}
       </p>
     {%- endif -%}
     <div {% unless section.settings.stack_mobile %}class="scroll-area bleed {% if section.blocks.size < 3 %}sm:unbleed{% else %}md:unbleed{% endif %}"{% endunless %}>

@@ -2,11 +2,25 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "4de99ac9-fc19-4b4b-a646-5697cae5e0bf": {
+      "type": "landing__claim",
+      "settings": {
+        "title": "Proof Of Eco",
+        "text": "<p>Muchas empresas hacen reclamos y diseñan paquetes que promocionan sus productos como seguros para las personas o el medio ambiente. La ley requiere que estas afirmaciones sean veraces. Esto es lo que necesita saber cuando compra afirmaciones ecológicas comunes que aparecen en productos y paquetes.<\/p>",
+        "button_link": "",
+        "subtitle": "¿Como se verifica?",
+        "subtext": "<p>Descripcion Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquam sapiente earum est sunt assumenda officiis, illum ipsam dicta nulla voluptas aliquid commodi ipsa. Tenetur deserunt ut illo nemo quidem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, ipsa? Praesentium tempore officiis amet aspernatur saepe distinctio! Ab esse inventore velit, sunt facere accusamus veniam optio eius expedita nostrum ea.<\/p>",
+        "prooftitle": "Nuestros sellos"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "4de99ac9-fc19-4b4b-a646-5697cae5e0bf"
   ]
 }

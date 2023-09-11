@@ -2,11 +2,21 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "1151d609-d9ce-4661-bb5c-0f956eb140c2": {
+      "type": "landing__producer",
+      "settings": {
+        "title": "Nuestros Productores",
+        "text": "<p>Como ecoterra estamos orgullosos de trabajar juntos a nuestros productores comprometidos a cambiar el planeta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloremque nihil architecto nam, libero rem dolore! Voluptates labore suscipit quas soluta neque, sint amet eius non excepturi tenetur reprehenderit ipsum.<\/p>"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1151d609-d9ce-4661-bb5c-0f956eb140c2"
   ]
 }

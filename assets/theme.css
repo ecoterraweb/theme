@@ -9892,7 +9892,7 @@ split-lines {
 
 /*  CUSTOM CSS */
 .shopify-section--header .header__wrapper{
-  background: none;
+  /* background: none; */
 }
 .shopify-section--header {
   /* background-color: #004228; */

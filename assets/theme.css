@@ -9895,7 +9895,7 @@ split-lines {
   background: none;
 }
 .shopify-section--header {
-  background-color: #004228;
+  /* background-color: #004228; */
 }
 .shopify-section--header .link-faded-reverse{
   color: #fff;

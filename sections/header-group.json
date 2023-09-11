@@ -30,7 +30,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-
+        "span.reversed-link {color: #fff;}"
       ],
       "settings": {
         "enable_sticky": true,

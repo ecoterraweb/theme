@@ -38,7 +38,7 @@
       "settings": {
         "identifier": "EcoLovers-section",
         "full_width": true,
-        "allow_transparent_header": false,
+        "allow_transparent_header": true,
         "enable_parallax": false,
         "image_size": "auto",
         "mobile_text_position": "place-self-center text-center",

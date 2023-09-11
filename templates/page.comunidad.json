@@ -65,6 +65,7 @@
         "div {padding-bottom: 10px;}"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
@@ -117,6 +118,7 @@
         "36782004-f8d3-4048-9073-5b276476171d"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "content_width": "large",
         "text_position": "start",
@@ -212,6 +214,7 @@
         "template--15538504237149__ef181eec-4429-4e78-9ca0-5a6858e9683a-richtext-1"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
@@ -350,6 +353,7 @@
         "48b7d17b-607e-4f81-819c-c0bdc2bdaaec"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
@@ -423,6 +427,7 @@
         "template--15538504237149__7eafc689-6097-4e37-b80c-03bd6de4b43e-richtext-1"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
@@ -606,6 +611,7 @@
         "b2e86ed3-f66e-46ff-8da6-68a728d05de3"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
@@ -643,6 +649,69 @@
         "button_background": "#00a341",
         "button_text_color": ""
       }
+    },
+    "0c418bbb-b9ed-44a8-9c22-3083b67784e5": {
+      "type": "how-purchase",
+      "blocks": {
+        "template--15538977898589__0c418bbb-b9ed-44a8-9c22-3083b67784e5-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "Primer paso para comprar",
+            "content": "<p>Lorem Ipsum det sitrum amet<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "af79cffc-d53b-405a-8076-a43982c25a45": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "Segundo paso para comprar",
+            "content": "<p>Lorem Ipsum det sitrum amet<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "3e1478c7-d867-425f-b390-22662f182dd5": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "Tercer paso para comprar",
+            "content": "<p>Lorem Ipsum det sitrum amet<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--15538977898589__0c418bbb-b9ed-44a8-9c22-3083b67784e5-item-1",
+        "af79cffc-d53b-405a-8076-a43982c25a45",
+        "3e1478c7-d867-425f-b390-22662f182dd5"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text": "¿Como comprar?",
+        "heading_tag": "h2",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -663,6 +732,7 @@
     "7ad4f304-5910-42e7-8301-cbd77e664047",
     "695d31ad-7dba-4d88-aa5a-da2c0f6ec077",
     "b068cca2-fc33-4b50-87dc-094fba7333ee",
-    "b73a0040-df30-4b5c-861b-43e14399715f"
+    "b73a0040-df30-4b5c-861b-43e14399715f",
+    "0c418bbb-b9ed-44a8-9c22-3083b67784e5"
   ]
 }

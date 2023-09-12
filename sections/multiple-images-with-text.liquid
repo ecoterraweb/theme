@@ -89,7 +89,7 @@ LIQUID
       {%- endif -%}
     </multiple-images-with-text-image-list>
 
-    <div class="multiple-images-with-text__content-with-nav">
+    <div class="multiple-images-with-text__content-with-nav" style="{% if section.settings.orientation == 'reversed' %}order: -1; {% endif %}">
       <multiple-images-with-text-content-list swipeable="false" class="multiple-images-with-text__content-list">
         {%- assign outputted_text_count = 0 -%}
 
@@ -151,6 +151,22 @@ LIQUID
       "id": "full_width",
       "label": "Full width",
       "default": true
+    },
+    {
+      "type": "select",
+      "id": "orientation",
+      "label": "Orientacion",
+      "options": [
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "reversed",
+          "label": "Reversa"
+        }
+      ],
+      "default": "normal"
     },
     {
       "type": "select",

@@ -117,6 +117,9 @@
       <ul id="listClaims" class="list__claims--ul"></ul>
     </div>
   </div>
+  {%- if section.settings.text != blank -%}
+    {% render 'button', content: section.settings.text, href: section.settings.url, style: section.settings.style, block: block %}
+  {%- endif -%}
 </section>
 
 {% schema %}
@@ -135,12 +138,14 @@
         "label": "Title",
         "id": "title",
         "default": "Título de Sección"
-      }, {
+      },
+      {
         "type": "text",
         "label": "Paragraph",
         "id": "text",
         "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum odit veniam soluta, eveniet repellendus quasi quod illum quae dolorem libero saepe unde rem incidunt dolorum fugiat et praesentium dolor blanditiis."
-      }, {
+      },
+      {
         "type": "checkbox",
         "id": "full_width",
         "label": "Full width",
@@ -150,6 +155,15 @@
         "id": "bg_color",
         "label": "Background",
         "default": "#1dbe67"
+      }, {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Button text"
+      }, {
+        "type": "url",
+        "id": "url",
+        "label": "Button Link"
       }
     ],
     "presets": [

@@ -36,6 +36,7 @@
         "template--15538125635677__9b61646c-a010-4320-a608-c4c9982d72a1-image-1"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "allow_transparent_header": true,
         "image_size": "auto",
@@ -61,6 +62,7 @@
         "template--15538978062429__592c85fc-a583-4781-a203-f2d81caae21f-richtext-1"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "content_width": "small",
         "text_position": "center",

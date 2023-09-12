@@ -126,6 +126,36 @@
         "heading_gradient": ""
       }
     },
+    "0d0a7ed2-4789-466d-be06-3236a7845ab5": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--15537490002013__0d0a7ed2-4789-466d-be06-3236a7845ab5-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/farmer-fields-in-rural-china.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Nuestro Manifiesto",
+            "content": "<p>¿Por qué hacemos lo que hacemos?<\/p>",
+            "button_url": "shopify:\/\/pages\/sobre-nosotros",
+            "button_text": "Conoce nuestro Manifiesto acá"
+          }
+        }
+      },
+      "block_order": [
+        "template--15537490002013__0d0a7ed2-4789-466d-be06-3236a7845ab5-item-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "f1c1110e-c62c-4a89-a208-0e9634598ba2": {
       "type": "rich-text",
       "blocks": {
@@ -305,36 +335,6 @@
         "text_color": ""
       }
     },
-    "0d0a7ed2-4789-466d-be06-3236a7845ab5": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "template--15537490002013__0d0a7ed2-4789-466d-be06-3236a7845ab5-item-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/apples-g20ac66b00_1280.jpg",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Nuestro Manifiesto",
-            "content": "<p>¿Por qué hacemos lo que hacemos?<\/p>",
-            "button_url": "shopify:\/\/pages\/sobre-nosotros",
-            "button_text": "Conoce nuestro Manifiesto acá"
-          }
-        }
-      },
-      "block_order": [
-        "template--15537490002013__0d0a7ed2-4789-466d-be06-3236a7845ab5-item-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -444,7 +444,7 @@
         "1664424230c4756b0e-0": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "(GIF referente a nuestro modelo)"
           }
         },
         "1664424230c4756b0e-1": {
@@ -658,11 +658,11 @@
     "slideshow",
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "collection-list",
+    "0d0a7ed2-4789-466d-be06-3236a7845ab5",
     "f1c1110e-c62c-4a89-a208-0e9634598ba2",
     "impact-text",
     "07bfe67d-62f0-4ef1-be8d-6777dbd342f2",
     "88b0039c-bf07-43e9-afd1-c40c71cbbdf3",
-    "0d0a7ed2-4789-466d-be06-3236a7845ab5",
     "image-link-blocks",
     "scrolling-text",
     "image-with-text-overlay",

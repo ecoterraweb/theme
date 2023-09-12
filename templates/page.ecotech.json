@@ -308,6 +308,37 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "574ad31f-5867-415a-8ded-ab9b3450fe68": {
+      "type": "video",
+      "blocks": {
+        "template--15538977931357__574ad31f-5867-415a-8ded-ab9b3450fe68-play-1": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "template--15538977931357__574ad31f-5867-415a-8ded-ab9b3450fe68-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Cápsula Proof of ECO",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538977931357__574ad31f-5867-415a-8ded-ab9b3450fe68-play-1",
+        "template--15538977931357__574ad31f-5867-415a-8ded-ab9b3450fe68-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -318,6 +349,7 @@
     "ce07879f-1661-4db2-ad40-d55d48bf83e2",
     "e039059c-fb9b-482d-840d-4f363d83ed73",
     "d96a80b4-1d32-4541-80c3-94fcb2d2792e",
-    "e8f27ed3-c561-42d0-bd65-67565492fa3f"
+    "e8f27ed3-c561-42d0-bd65-67565492fa3f",
+    "574ad31f-5867-415a-8ded-ab9b3450fe68"
   ]
 }

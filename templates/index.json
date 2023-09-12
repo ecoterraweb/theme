@@ -325,6 +325,7 @@
       "block_order": [
         "6bcae636-9c2e-4211-9b62-d055b594668d"
       ],
+      "disabled": true,
       "settings": {
         "identifier": "",
         "full_width": true,
@@ -450,7 +451,7 @@
         "1664424230c4756b0e-1": {
           "type": "heading",
           "settings": {
-            "text": "Nuestro Modelo",
+            "text": "Modelo Ecoterra",
             "heading_tag": "h1"
           }
         },

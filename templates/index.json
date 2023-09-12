@@ -6,12 +6,11 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ecoterra_video_thumbnail_3000x_5459cb21-f450-4514-a7ed-42bf8645b70a.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
+            "subheading": "(Imagen Representativa. Puede ser animada. Incluye logo de Empresa B)",
+            "title": "Elige con Propósito",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",

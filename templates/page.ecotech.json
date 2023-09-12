@@ -28,7 +28,6 @@
       ],
       "settings": {
         "full_width": true,
-        "orientation": "normal",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -226,8 +225,8 @@
       "settings": {
         "identifier": "",
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
+        "content_width": "medium",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -266,8 +265,8 @@
       "settings": {
         "identifier": "",
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
+        "content_width": "medium",
+        "text_position": "end",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -306,8 +305,8 @@
       "settings": {
         "identifier": "",
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
+        "content_width": "medium",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""

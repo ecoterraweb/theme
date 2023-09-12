@@ -6,12 +6,11 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ecoterra_video_thumbnail_3000x_5459cb21-f450-4514-a7ed-42bf8645b70a.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
+            "subheading": "(Imagen Representativa. Puede ser animada. Incluye logo de Empresa B)",
+            "title": "Elige con propósito",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
@@ -29,6 +28,7 @@
         "slide-1"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "allow_transparent_header": true,
         "image_size": "auto",
@@ -55,13 +55,84 @@
         "text_gradient": ""
       }
     },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "aderezos-naturales",
+            "image": "shopify:\/\/shop_images\/Home_BotonAderezos.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "huevos",
+            "image": "shopify:\/\/shop_images\/Home_BotonHuevos.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "lacteos",
+            "image": "shopify:\/\/shop_images\/Home_BotonLacteos.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 3,
+        "show_progress_bar": true,
+        "subheading": "Mucho más que alimentos, productos honestos que salvan al planeta.",
+        "title": "Nuestros Productos",
+        "content": "",
+        "link_url": "shopify:\/\/collections",
+        "link_text": "Ver Todas",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "f1c1110e-c62c-4a89-a208-0e9634598ba2": {
       "type": "rich-text",
       "blocks": {
         "template--15537490002013__f1c1110e-c62c-4a89-a208-0e9634598ba2-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Indicadores de Impacto",
+            "text": "¿Cómo impactamos?",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -70,7 +141,7 @@
         "template--15537490002013__f1c1110e-c62c-4a89-a208-0e9634598ba2-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>El camino para cambiar el mundo es largo pero ¡Lo lograremos juntos! Comprometete con el cambio y prefiere alimentos con propósito<\/p>"
+            "content": "<p>Comprométete con el cambio y prefiere alimentos con propósito<\/p>"
           }
         }
       },
@@ -79,6 +150,7 @@
         "template--15537490002013__f1c1110e-c62c-4a89-a208-0e9634598ba2-richtext-1"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
@@ -224,6 +296,7 @@
         "6bcae636-9c2e-4211-9b62-d055b594668d"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
@@ -242,9 +315,9 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Nuestro Manifiesto",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>¿Por qué hacemos lo que hacemos?<\/p>",
             "button_url": "shopify:\/\/pages\/sobre-nosotros",
-            "button_text": "Leer más"
+            "button_text": "Conoce nuestro Manifiesto acá"
           }
         }
       },
@@ -260,77 +333,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "aderezos-naturales",
-            "image": "shopify:\/\/shop_images\/Home_BotonAderezos.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "huevos",
-            "image": "shopify:\/\/shop_images\/Home_BotonHuevos.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "lacteos",
-            "image": "shopify:\/\/shop_images\/Home_BotonLacteos.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 3,
-        "show_progress_bar": true,
-        "subheading": "",
-        "title": "Nuestas Categorías de EcoProducts",
-        "content": "",
-        "link_url": "shopify:\/\/collections",
-        "link_text": "Ver Todas",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "image-link-blocks": {
@@ -455,7 +457,7 @@
         "1664424230c4756b0e-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": ""
           }
         },
         "ba67f0d9-944e-4921-bf42-dc28dd518d6c": {
@@ -463,7 +465,7 @@
           "settings": {
             "style": "fill",
             "size": "lg",
-            "text": "Conoce más",
+            "text": "Ver más",
             "url": "",
             "background": "",
             "text_color": ""
@@ -477,6 +479,7 @@
         "ba67f0d9-944e-4921-bf42-dc28dd518d6c"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
@@ -654,12 +657,12 @@
   "order": [
     "slideshow",
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
+    "collection-list",
     "f1c1110e-c62c-4a89-a208-0e9634598ba2",
     "impact-text",
     "07bfe67d-62f0-4ef1-be8d-6777dbd342f2",
     "88b0039c-bf07-43e9-afd1-c40c71cbbdf3",
     "0d0a7ed2-4789-466d-be06-3236a7845ab5",
-    "collection-list",
     "image-link-blocks",
     "scrolling-text",
     "image-with-text-overlay",

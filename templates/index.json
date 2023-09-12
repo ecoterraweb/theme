@@ -138,7 +138,7 @@
             "title": "Manifiesto",
             "content": "<p>¿Por qué hacemos lo que hacemos?<\/p>",
             "button_url": "shopify:\/\/pages\/sobre-nosotros",
-            "button_text": "Conoce nuestro Manifiesto acá"
+            "button_text": "Ver más"
           }
         }
       },
@@ -171,7 +171,7 @@
         "template--15537490002013__f1c1110e-c62c-4a89-a208-0e9634598ba2-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Comprométete con el cambio y prefiere alimentos con propósito<\/p>"
+            "content": ""
           }
         }
       },

@@ -29,6 +29,7 @@
         "slide-1"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "allow_transparent_header": true,
         "image_size": "auto",
@@ -79,6 +80,7 @@
         "template--15537490002013__f1c1110e-c62c-4a89-a208-0e9634598ba2-richtext-1"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
@@ -224,6 +226,7 @@
         "6bcae636-9c2e-4211-9b62-d055b594668d"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
@@ -242,9 +245,9 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Nuestro Manifiesto",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>¿Por qué hacemos lo que hacemos?<\/p>",
             "button_url": "shopify:\/\/pages\/sobre-nosotros",
-            "button_text": "Leer más"
+            "button_text": "Conoce nuestro Manifiesto acá"
           }
         }
       },
@@ -477,6 +480,7 @@
         "ba67f0d9-944e-4921-bf42-dc28dd518d6c"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,

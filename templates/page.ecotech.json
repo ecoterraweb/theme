@@ -1,1 +1,282 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"content_width":"80ch"}},"8e32e533-98bf-401b-849d-2b20a1e1f28c":{"type":"multiple-images-with-text","blocks":{"template--15538504171613__8e32e533-98bf-401b-849d-2b20a1e1f28c-item-1":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/coding-on-laptop.webp","image_rotation_degrees":-2,"subheading":"","title":"EcoLab","content":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis tortor magna. Aliquam at arcu vitae velit venenatis posuere at id orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam at nisl et magna gravida rhoncus. Integer feugiat, magna sit amet hendrerit cursus, libero ligula accumsan tellus, at sodales nibh risus vitae leo. Donec venenatis vitae justo eu viverra. Vestibulum quis maximus arcu. Etiam vulputate vitae justo ac commodo. Quisque sagittis viverra magna eget tristique. Phasellus sagittis auctor volutpat. Nam eget faucibus justo. Donec vel bibendum sem.<\/p>","button_url":"","button_text":""}}},"block_order":["template--15538504171613__8e32e533-98bf-401b-849d-2b20a1e1f28c-item-1"],"settings":{"full_width":true,"images_layout":"stacked","collage_images_alignment":"middle","background":"","background_gradient":"","text_color":"","button_background":"","button_text_color":""}},"50cc92fa-8507-48c2-b382-89ea0097be7a":{"type":"rich-text","blocks":{"template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-subheading-1":{"type":"subheading","settings":{"text":"Pero antes..."}},"template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-heading-1":{"type":"heading","settings":{"text":"GLOSARIO","heading_tag":"h1","text_color":"","gradient":""}},"template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-richtext-1":{"type":"richtext","settings":{"content":"<p><strong>Biodiversidad<\/strong>: La variedad de especies de plantas, animales y microorganismos en un ecosistema específico.<\/p><p><strong>Ecosistema<\/strong>: Un sistema complejo que incluye todos los organismos vivos y su entorno no vivo (como el suelo, el agua y el clima) en una región determinada.<\/p><p><strong>Sostenibilidad<\/strong>: El uso responsable y equilibrado de los recursos naturales para satisfacer las necesidades actuales sin comprometer la capacidad de las futuras generaciones para satisfacer sus propias necesidades.<\/p><p><strong>Agricultura Ecológica<\/strong>: Un enfoque de producción agrícola que evita el uso de productos químicos sintéticos como pesticidas y fertilizantes, y se centra en prácticas que respetan los ciclos naturales y la salud del suelo.<\/p><p><strong>Alimentos Orgánicos<\/strong>: Productos alimenticios cultivados sin el uso de pesticidas sintéticos, fertilizantes químicos u organismos modificados genéticamente (OMGs).<\/p><p><strong>Rotación de Cultivos<\/strong>: Una práctica agrícola en la que los cultivos se cambian de lugar en el campo de un año a otro para mejorar la fertilidad del suelo y prevenir la acumulación de plagas y enfermedades.<\/p><p><strong>Compostaje<\/strong>: El proceso natural de descomposición de materiales orgánicos, como restos de alimentos y desechos vegetales, para crear un fertilizante rico en nutrientes llamado compost.<\/p><p><strong>Huerto Urbano<\/strong>: Un pequeño espacio de cultivo de alimentos en un entorno urbano, que generalmente utiliza métodos de agricultura ecológica.<\/p><p><strong>Agricultura de Conservación<\/strong>: Un enfoque agrícola que busca minimizar la perturbación del suelo y promover prácticas sostenibles para proteger la calidad del suelo y el agua.<\/p><p><strong>Agroecología<\/strong>: El estudio de los sistemas agrícolas desde una perspectiva ecológica, integrando prácticas tradicionales y conocimientos científicos para promover la sostenibilidad.<\/p><p><strong>Etiqueta Ecológica<\/strong>: Un sello o certificación que indica que un producto ha sido producido siguiendo estándares ambientales y sociales específicos.<\/p><p><strong>Residuo Cero<\/strong>: Un movimiento que busca minimizar la cantidad de residuos que se envían a vertederos mediante la reducción, reutilización, reciclaje y compostaje.<\/p><p><strong>Permacultura<\/strong>: Un enfoque de diseño que se basa en la observación de los patrones naturales y busca crear sistemas sostenibles y autosuficientes.<\/p><p><strong>Conservación de la Naturaleza<\/strong>: Los esfuerzos para proteger y preservar la diversidad biológica y los ecosistemas naturales para las generaciones presentes y futuras.<\/p><p><strong>Cadena Alimentaria<\/strong>: La secuencia de transferencia de energía y nutrientes a medida que los organismos consumen otros organismos en un ecosistema.<\/p>"}}},"block_order":["template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-subheading-1","template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-heading-1","template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-richtext-1"],"settings":{"full_width":true,"content_width":"large","text_position":"center","background":"","background_gradient":"","text_color":""}},"b3000c38-f83c-4e34-a224-8dc889f73759":{"type":"text-with-icons","blocks":{"template--15538504171613__b3000c38-f83c-4e34-a224-8dc889f73759-item-1":{"type":"item","settings":{"icon":"picto-coupon","mobile_icon_width":24,"icon_width":32,"icon_background_type":"circle","icon_background":"","icon_color":"","title":"Free shipping","content":"<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"}},"template--15538504171613__b3000c38-f83c-4e34-a224-8dc889f73759-item-2":{"type":"item","settings":{"icon":"picto-coupon","mobile_icon_width":24,"icon_width":32,"icon_background_type":"circle","icon_background":"","icon_color":"","title":"Customer service","content":"<p>We are available from monday to friday to answer your questions.<\/p>"}},"template--15538504171613__b3000c38-f83c-4e34-a224-8dc889f73759-item-3":{"type":"item","settings":{"icon":"picto-coupon","mobile_icon_width":24,"icon_width":32,"icon_background_type":"circle","icon_background":"","icon_color":"","title":"Secure payment","content":"<p>Your payment information is processed securely.<\/p>"}}},"block_order":["template--15538504171613__b3000c38-f83c-4e34-a224-8dc889f73759-item-1","template--15538504171613__b3000c38-f83c-4e34-a224-8dc889f73759-item-2","template--15538504171613__b3000c38-f83c-4e34-a224-8dc889f73759-item-3"],"settings":{"full_width":true,"stack_on_mobile":false,"title":"Valores","heading_tag":"h4","text_alignment":"center","icon_spacing":"medium","background":"","background_gradient":"","text_color":""}},"ce07879f-1661-4db2-ad40-d55d48bf83e2":{"type":"faq","blocks":{"template--15538504171613__ce07879f-1661-4db2-ad40-d55d48bf83e2-item-1":{"type":"item","settings":{"title":"Do you ship overseas?","content":"<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"}},"template--15538504171613__ce07879f-1661-4db2-ad40-d55d48bf83e2-item-2":{"type":"item","settings":{"title":"How long will it take to get my orders?","content":"<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"}},"template--15538504171613__ce07879f-1661-4db2-ad40-d55d48bf83e2-item-3":{"type":"item","settings":{"title":"Any question?","content":"<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"}}},"block_order":["template--15538504171613__ce07879f-1661-4db2-ad40-d55d48bf83e2-item-1","template--15538504171613__ce07879f-1661-4db2-ad40-d55d48bf83e2-item-2","template--15538504171613__ce07879f-1661-4db2-ad40-d55d48bf83e2-item-3"],"settings":{"full_width":true,"subheading":"","title":"FAQ","content":"<p>Use this text to share information about your product or shipping policies.<\/p>","team_avatar_width":160,"support_hours":"Our customer support is available Monday to Friday: 8am-8:30pm.","answer_time":"Average answer time: 24h","button_text":"","button_url":"","text_position":"center","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","button_background":"","button_text_color":"","accordion_background":"","accordion_text_color":""}}},"order":["main","8e32e533-98bf-401b-849d-2b20a1e1f28c","50cc92fa-8507-48c2-b382-89ea0097be7a","b3000c38-f83c-4e34-a224-8dc889f73759","ce07879f-1661-4db2-ad40-d55d48bf83e2"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "8e32e533-98bf-401b-849d-2b20a1e1f28c": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--15538504171613__8e32e533-98bf-401b-849d-2b20a1e1f28c-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coding-on-laptop.webp",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "ECOLABS",
+            "content": "<p>Imaginen un mundo donde las mismas cosas en las que confiamos para nuestra supervivencia están en armonía perfecta con el poder de la tecnología y la sabiduría de la naturaleza. Imaginen no tener que elegir entre la ciencia de vanguardia y la sabiduría que nos brinda la Tierra. Bienvenidos al futuro, bienvenidos a Ecoterra.<\/p><p>En el corazón de Ecoterra se encuentran nuestros revolucionarios Ecolabs: EcoAgriLab, EcoFoodLab y EcoTech Lab; cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504171613__8e32e533-98bf-401b-849d-2b20a1e1f28c-item-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "50cc92fa-8507-48c2-b382-89ea0097be7a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Pero antes..."
+          }
+        },
+        "template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "GLOSARIO",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Biodiversidad<\/strong>: La variedad de especies de plantas, animales y microorganismos en un ecosistema específico.<\/p><p><strong>Ecosistema<\/strong>: Un sistema complejo que incluye todos los organismos vivos y su entorno no vivo (como el suelo, el agua y el clima) en una región determinada.<\/p><p><strong>Sostenibilidad<\/strong>: El uso responsable y equilibrado de los recursos naturales para satisfacer las necesidades actuales sin comprometer la capacidad de las futuras generaciones para satisfacer sus propias necesidades.<\/p><p><strong>Agricultura Ecológica<\/strong>: Un enfoque de producción agrícola que evita el uso de productos químicos sintéticos como pesticidas y fertilizantes, y se centra en prácticas que respetan los ciclos naturales y la salud del suelo.<\/p><p><strong>Alimentos Orgánicos<\/strong>: Productos alimenticios cultivados sin el uso de pesticidas sintéticos, fertilizantes químicos u organismos modificados genéticamente (OMGs).<\/p><p><strong>Rotación de Cultivos<\/strong>: Una práctica agrícola en la que los cultivos se cambian de lugar en el campo de un año a otro para mejorar la fertilidad del suelo y prevenir la acumulación de plagas y enfermedades.<\/p><p><strong>Compostaje<\/strong>: El proceso natural de descomposición de materiales orgánicos, como restos de alimentos y desechos vegetales, para crear un fertilizante rico en nutrientes llamado compost.<\/p><p><strong>Huerto Urbano<\/strong>: Un pequeño espacio de cultivo de alimentos en un entorno urbano, que generalmente utiliza métodos de agricultura ecológica.<\/p><p><strong>Agricultura de Conservación<\/strong>: Un enfoque agrícola que busca minimizar la perturbación del suelo y promover prácticas sostenibles para proteger la calidad del suelo y el agua.<\/p><p><strong>Agroecología<\/strong>: El estudio de los sistemas agrícolas desde una perspectiva ecológica, integrando prácticas tradicionales y conocimientos científicos para promover la sostenibilidad.<\/p><p><strong>Etiqueta Ecológica<\/strong>: Un sello o certificación que indica que un producto ha sido producido siguiendo estándares ambientales y sociales específicos.<\/p><p><strong>Residuo Cero<\/strong>: Un movimiento que busca minimizar la cantidad de residuos que se envían a vertederos mediante la reducción, reutilización, reciclaje y compostaje.<\/p><p><strong>Permacultura<\/strong>: Un enfoque de diseño que se basa en la observación de los patrones naturales y busca crear sistemas sostenibles y autosuficientes.<\/p><p><strong>Conservación de la Naturaleza<\/strong>: Los esfuerzos para proteger y preservar la diversidad biológica y los ecosistemas naturales para las generaciones presentes y futuras.<\/p><p><strong>Cadena Alimentaria<\/strong>: La secuencia de transferencia de energía y nutrientes a medida que los organismos consumen otros organismos en un ecosistema.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-subheading-1",
+        "template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-heading-1",
+        "template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-richtext-1"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b3000c38-f83c-4e34-a224-8dc889f73759": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--15538504171613__b3000c38-f83c-4e34-a224-8dc889f73759-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+          }
+        },
+        "template--15538504171613__b3000c38-f83c-4e34-a224-8dc889f73759-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        },
+        "template--15538504171613__b3000c38-f83c-4e34-a224-8dc889f73759-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504171613__b3000c38-f83c-4e34-a224-8dc889f73759-item-1",
+        "template--15538504171613__b3000c38-f83c-4e34-a224-8dc889f73759-item-2",
+        "template--15538504171613__b3000c38-f83c-4e34-a224-8dc889f73759-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "Valores",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ce07879f-1661-4db2-ad40-d55d48bf83e2": {
+      "type": "faq",
+      "blocks": {
+        "template--15538504171613__ce07879f-1661-4db2-ad40-d55d48bf83e2-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--15538504171613__ce07879f-1661-4db2-ad40-d55d48bf83e2-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--15538504171613__ce07879f-1661-4db2-ad40-d55d48bf83e2-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538504171613__ce07879f-1661-4db2-ad40-d55d48bf83e2-item-1",
+        "template--15538504171613__ce07879f-1661-4db2-ad40-d55d48bf83e2-item-2",
+        "template--15538504171613__ce07879f-1661-4db2-ad40-d55d48bf83e2-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "e039059c-fb9b-482d-840d-4f363d83ed73": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "EcoAgriLab",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza, degradándolo con productos químicos. En EcoAgriLab, un equipo de agrónomos de clase mundial está redescubriendo la sinfonía de la agricultura natural. No solo estamos plantando cultivos; estamos cultivando ecosistemas. Utilizando modelos de aprendizaje automático para interpretar la Tierra como nunca antes, estamos descifrando el lenguaje del suelo para cultivar de formas que son tanto abundantes como sostenibles.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-subheading-1",
+        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-heading-1",
+        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-richtext-1"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d96a80b4-1d32-4541-80c3-94fcb2d2792e": {
+      "type": "rich-text",
+      "blocks": {
+        "1c94900e-7f27-4143-8653-593e4b975740": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "4538a18e-89fd-4f41-a66c-8c8792379185": {
+          "type": "heading",
+          "settings": {
+            "text": "EcoFoodLab",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "08c43f5a-ce14-4333-9c97-d680b85eb8ac": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? EcoFoodLab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula. Aquí, lo orgánico se encuentra con la tecnología para crear alimentos que son nutritivos, deliciosos y ecológicamente sólidos. Esto no es simplemente cocina; es alquimia. Aquí es donde el sueño de una dieta equilibrada se encuentra con la realidad de un planeta equilibrado.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1c94900e-7f27-4143-8653-593e4b975740",
+        "4538a18e-89fd-4f41-a66c-8c8792379185",
+        "08c43f5a-ce14-4333-9c97-d680b85eb8ac"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8e32e533-98bf-401b-849d-2b20a1e1f28c",
+    "50cc92fa-8507-48c2-b382-89ea0097be7a",
+    "b3000c38-f83c-4e34-a224-8dc889f73759",
+    "ce07879f-1661-4db2-ad40-d55d48bf83e2",
+    "e039059c-fb9b-482d-840d-4f363d83ed73",
+    "d96a80b4-1d32-4541-80c3-94fcb2d2792e"
+  ]
+}

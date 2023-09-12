@@ -55,6 +55,77 @@
         "text_gradient": ""
       }
     },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "aderezos-naturales",
+            "image": "shopify:\/\/shop_images\/Home_BotonAderezos.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "huevos",
+            "image": "shopify:\/\/shop_images\/Home_BotonHuevos.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "lacteos",
+            "image": "shopify:\/\/shop_images\/Home_BotonLacteos.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 3,
+        "show_progress_bar": true,
+        "subheading": "Mucho más que alimentos, productos honestos que salvan al planeta.",
+        "title": "Nuestros Productos",
+        "content": "",
+        "link_url": "shopify:\/\/collections",
+        "link_text": "Ver Todas",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "f1c1110e-c62c-4a89-a208-0e9634598ba2": {
       "type": "rich-text",
       "blocks": {
@@ -262,77 +333,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "aderezos-naturales",
-            "image": "shopify:\/\/shop_images\/Home_BotonAderezos.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "huevos",
-            "image": "shopify:\/\/shop_images\/Home_BotonHuevos.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "lacteos",
-            "image": "shopify:\/\/shop_images\/Home_BotonLacteos.png",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 3,
-        "show_progress_bar": true,
-        "subheading": "Mucho más que alimentos, productos honestos que salvan al planeta.",
-        "title": "Nuestros Productos",
-        "content": "",
-        "link_url": "shopify:\/\/collections",
-        "link_text": "Ver Todas",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "image-link-blocks": {
@@ -657,12 +657,12 @@
   "order": [
     "slideshow",
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
+    "collection-list",
     "f1c1110e-c62c-4a89-a208-0e9634598ba2",
     "impact-text",
     "07bfe67d-62f0-4ef1-be8d-6777dbd342f2",
     "88b0039c-bf07-43e9-afd1-c40c71cbbdf3",
     "0d0a7ed2-4789-466d-be06-3236a7845ab5",
-    "collection-list",
     "image-link-blocks",
     "scrolling-text",
     "image-with-text-overlay",

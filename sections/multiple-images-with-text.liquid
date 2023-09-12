@@ -62,7 +62,7 @@ LIQUID
 {%- endif -%}
 
 <div {% render 'section-properties', narrow: is_narrow %}>
-  <multiple-images-with-text class="multiple-images-with-text">
+  <multiple-images-with-text class="multiple-images-with-text {{ section.settings.orientation }}">
     <multiple-images-with-text-image-list reversed swipeable="false" layout="{{ section.settings.images_layout }}" class="multiple-images-with-text__image-list">
       {%- if visible_images_count == 0 -%}
         {{- 'collection-1' | placeholder_svg_tag: 'placeholder' -}}

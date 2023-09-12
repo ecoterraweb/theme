@@ -89,7 +89,7 @@ LIQUID
       {%- endif -%}
     </multiple-images-with-text-image-list>
 
-    <div class="multiple-images-with-text__content-with-nav" style="{% if section.settings.orientation == 'reversed' %}order: -1; {% endif %}">
+    <div class="multiple-images-with-text__content-with-nav{% if section.settings.orientation == 'reversed' %}reversed {% endif %}" style="{% if section.settings.orientation == 'reversed' %}order: -1; {% endif %}">
       <multiple-images-with-text-content-list swipeable="false" class="multiple-images-with-text__content-list">
         {%- assign outputted_text_count = 0 -%}
 

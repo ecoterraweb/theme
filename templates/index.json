@@ -495,6 +495,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "",
         "products": [
@@ -636,14 +637,14 @@
       "type": "before-after-image",
       "settings": {
         "full_width": true,
-        "subheading": "",
-        "title": "Before\/after",
-        "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
+        "subheading": "¿Sabes de dónde vienen tus alimentos?",
+        "title": "Ecotech",
+        "content": "<p>Con nuestra plataforma colaborativa, conectamos a productores conscientes con consumidores responsables y te contamos todo lo que pasa entre medio.<\/p>",
         "expand_image": false,
         "text_position": "start",
         "before_after_text_position": "top",
-        "before_text": "Before",
-        "after_text": "After",
+        "before_text": "Imagen de caja de huevos",
+        "after_text": "Imagen referente conectividad blockchain",
         "drag_initial_position": 50,
         "background": "",
         "background_gradient": "",

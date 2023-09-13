@@ -9902,6 +9902,7 @@ split-lines {
 }
 .shopify-section--header .link-faded-reverse{
   color: #fff;
+  font-weight: 500;
 }
 .shopify-section--header svg.icon {
   filter: brightness(15);

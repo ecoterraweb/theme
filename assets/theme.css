@@ -5850,7 +5850,7 @@ split-lines {
   display: grid;
 }
 
-header.is-filled .header__wrapper{
+.header.is-filled .header__wrapper{
   padding-top: 10px;
   padding-bottom: 10px;
   

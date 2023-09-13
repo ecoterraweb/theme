@@ -10056,8 +10056,13 @@ split-lines {
     width: 100%; /* Ocupar todo el ancho disponible */
     border-radius: 10px; /* Añadir bordes redondeados */
     bottom: 0; /* Mostrar el elemento en la parte inferior de la pantalla */
+    top:0;
     height: 100%;
+    margin: 0;
     z-index: 100;
+  }
+  .claim--popup__body {
+    max-height: calc(100vh - 50px);
   }
 }
 

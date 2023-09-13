@@ -3367,8 +3367,12 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 @media screen and (pointer: fine) {
-  .link-faded-reverse:hover {
-    opacity: .7;
+  .shopify-section--header .link-faded-reverse:hover{
+    /* opacity: .7; */
+    color: #96D123;
+  }
+  .shopify-section--header .link-faded-reverse:hover svg.icon{
+    filter: none;
   }
 }
 

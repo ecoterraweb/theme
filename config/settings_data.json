@@ -30,6 +30,17 @@
     "favicon": "shopify:\/\/shop_images\/favicon.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
+    "sections": {
+      "modal-home": {
+        "type": "modal-home",
+        "settings": {
+          "message_text1": "Titulo Principal",
+          "message_text2": "Solo hacemos entrega",
+          "sub_text": "Anuncia algo aquí",
+          "image_modal": "shopify:\/\/shop_images\/89-1000x600.jpg"
+        }
+      }
+    },
     "content_for_index": [
 
     ]

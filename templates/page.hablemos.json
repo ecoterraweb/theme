@@ -1,1 +1,117 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"content_width":"80ch"}},"b6b0a04d-9e7e-47a9-b838-dd3fc083067c":{"type":"contact","settings":{"full_width":true,"subheading":"Contact Us","title":"Do you have any question?","content":"","text_position":"start","contact_form_size":"large","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","contact_background":"","contact_text_color":"","button_background":"","button_text_color":""}},"d62d6ca2-4536-4886-a371-795e53d59385":{"type":"image-link-blocks","blocks":{"template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-1":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/facebook.jpg","stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-2":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/Instagram_logo_2022.svg","stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-3":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/linkedin.png","stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-4":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/x.png","stretch_image":true,"link_text":"","link_url":"","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-1","template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-2","template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-3","template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-4"],"custom_css":[],"settings":{"full_width":false,"block_size":"small","subheading":"","title":"","content":"","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}}},"order":["main","b6b0a04d-9e7e-47a9-b838-dd3fc083067c","d62d6ca2-4536-4886-a371-795e53d59385"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "b6b0a04d-9e7e-47a9-b838-dd3fc083067c": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/89-1000x600.jpg",
+        "subheading": "Contact Us",
+        "title": "Do you have any question?",
+        "content": "",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "d62d6ca2-4536-4886-a371-795e53d59385": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/facebook.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_logo_2022.svg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/linkedin.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/x.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-1",
+        "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-2",
+        "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-3",
+        "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-4"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "small",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b6b0a04d-9e7e-47a9-b838-dd3fc083067c",
+    "d62d6ca2-4536-4886-a371-795e53d59385"
+  ]
+}

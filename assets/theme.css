@@ -6764,13 +6764,20 @@ split-lines {
 .impact-text--end .impact-text__content {
   margin-inline-start: auto;
 }
-
+.impact-text--design{
+  display: flex;
+  justify-content: flex-start;
+}
 @media screen and (min-width: 700px) {
   .impact-text {
     --impact-text-spacing: var(--spacing-8);
     grid: auto / auto-flow var(--impact-text-auto-columns);
   }
-
+  .impact-text--design{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
   .impact-text--center {
     justify-content: space-evenly;
   }

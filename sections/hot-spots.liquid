@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
           {%- endif -%}
 
           <x-popover id="{{ popover_id }}" class="hot-spot-popover popover" anchor-vertical="center" anchor-horizontal="{{ anchor_horizontal }}" {{ block.shopify_attributes }}>
-            {%- render 'icon' with 'plus', class: 'close-popover-button', width: 8, height: 8 -%}
+            {%- render 'icon' with 'plus', class: 'close-popover-button', width: 12, height: 12 -%}
             <div class="prose">
               {%- if block.settings.icon != blank -%}
                 {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}

@@ -6788,6 +6788,12 @@ split-lines {
   .impact-text--design{
     flex-direction: row;
     justify-content: flex-start;
+    max-width: 700px;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+  }
+  .impact-text--design .snap-center{
+    max-width: 340px;
   }
 }
 

@@ -5855,8 +5855,8 @@ split-lines {
 }
 
 .header.is-filled .header__wrapper{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
   
 }
 

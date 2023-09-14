@@ -1,3 +1,7 @@
+<script>
+  const productSku = "{{ product.selected_or_first_available_variant.sku }}";
+</script>
+<script src="{{ 'claims.js' | asset_url }}"></script>
 {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
 
 <safe-sticky class="product-info">
@@ -84,10 +88,7 @@
       {%- comment -%}
             Eco Claims
       {%- endcomment -%}
-      <script>
-        const productSku = "{{ product.selected_or_first_available_variant.sku }}";
-      </script>
-      <script src="{{ 'claims.js' | asset_url }}"></script>
+      
 
       <div class="tags-container"></div>
           <div class="tags-container--general">

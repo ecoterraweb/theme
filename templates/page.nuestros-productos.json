@@ -244,13 +244,13 @@
         "ed9fa797-a789-4e79-9f75-9bd44c4a9324": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_BotonAderezos.png",
+            "image": "shopify:\/\/shop_images\/favicon.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "Eco Aderezos",
+            "title": "Catalogo de producto",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "button_url": "shopify:\/\/collections\/huevos",
-            "button_text": "Comprar aquí"
+            "button_text": "Descargar"
           }
         }
       },

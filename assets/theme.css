@@ -6769,9 +6769,21 @@ split-lines {
 .impact-text--title{
   margin-bottom: 20px;
 }
+.impact-text--title.impact-text-design--center{
+  text-align: center;
+}
+.impact-text--title.impact-text-design--end{
+  text-align: right;
+}
 .impact-text--text{
   margin-bottom: 2rem;
   max-width: 700px;
+}
+.impact-text--text.impact-text-design--center{
+  margin: 0 auto 2rem;
+}
+.impact-text--text.impact-text-design--end{
+  margin-left: auto;
 }
 @media screen and (min-width: 700px) {
   .impact-text {
@@ -6797,6 +6809,14 @@ split-lines {
   }
   .impact-text--design .h6{
     font-weight: 400;
+  }
+  .impact-text--design.impact-text-design--center{
+    margin: auto;
+    justify-content: center;
+  }
+  .impact-text--design.impact-text-design--end{
+    margin-left: auto;
+    justify-content: flex-end;
   }
 }
 

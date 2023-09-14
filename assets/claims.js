@@ -1,5 +1,4 @@
 async function fetchData() {
-  console.time("empezando en 0:00");
   try {
     const response = await fetch(
       `https://ecotech.ecoterra.cl/api/products/${productSku}`, {
@@ -25,7 +24,6 @@ async function fetchData() {
         }
       });
     }
-    console.timeEnd('Llenado claims');
    
 
     const tagsContainer = document.querySelector(".tags-container");
@@ -38,7 +36,6 @@ async function fetchData() {
       });
       // Después de crear el div "div" en la función createClaimDiv
     }
-    console.timeEnd('mostrado claims');
 
     const claimContent = document.querySelector("#claimContent");
 
@@ -382,7 +379,7 @@ function createClaimDiv(claim) {
   const div = document.createElement("div");
   div.innerHTML = `
       <div>
-        <img src="${claim.image}" alt="${claim.claimName}" class="tag-asset-claim" data-target-id="#claim--${claim.templateId}" />
+        <img src="${claim.image}" alt="${claim.claimName}" class="tag-asset-claim" data-target-id="#claim--${claim.templateId}" loading="eager"/>
       </div>
     `;
   return div;

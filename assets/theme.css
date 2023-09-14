@@ -5854,7 +5854,9 @@ split-lines {
   display: grid;
 }
 
-
+.header:hover {
+  --header-background-opacity: 1 !important;
+}
 .header__logo {
   max-width: max-content;
   grid-area: logo;

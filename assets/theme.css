@@ -6787,7 +6787,7 @@ split-lines {
   }
   .impact-text--design{
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     max-width: 700px;
     flex-wrap: wrap;
     gap: 30px 20px;

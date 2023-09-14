@@ -414,7 +414,7 @@
         "title": "Como impactamos?",
         "heading_gradient_title": "linear-gradient(180deg, rgba(196, 102, 238, 1), rgba(82, 218, 236, 1) 100%)",
         "text": "Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. v Lorem Ipsum dolor sit amet.",
-        "text_alignment": "center",
+        "text_alignment": "start",
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1,

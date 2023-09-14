@@ -6795,6 +6795,12 @@ split-lines {
   .impact-text--design .snap-center{
     max-width: 340px;
   }
+  .impact-text--design .h5{
+    font-weight: 400;
+  }
+  .impact-text--design .h6{
+    font-weight: 400;
+  }
 }
 
 @media screen and (min-width: 1150px) {

@@ -337,6 +337,96 @@
         "text_color": ""
       }
     },
+    "71eb9e12-ff9b-4ab4-8ed8-4791e9f2155c": {
+      "type": "impact-text-design",
+      "blocks": {
+        "template--15538978488413__71eb9e12-ff9b-4ab4-8ed8-4791e9f2155c-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "60",
+            "subheading": "EcoFarmers",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "b1b7d185-a86f-47f5-9380-4b05d2f2b83c": {
+          "type": "item",
+          "settings": {
+            "title": "3.047",
+            "subheading": "EcoLovers",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "c84e1395-0b06-4170-91ee-131114c5b47a": {
+          "type": "item",
+          "settings": {
+            "title": "43",
+            "subheading": "EcoPartners",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "ea042353-8fd2-491a-805e-b3852a8a55aa": {
+          "type": "item",
+          "settings": {
+            "title": "103.006",
+            "subheading": "Animales en sistemas de bienestar",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "098b2b50-a01e-4b3b-b268-1659c6f97a8e": {
+          "type": "item",
+          "settings": {
+            "title": "13",
+            "subheading": "Hectareas destinadas a sistemas sustentables",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--15538978488413__71eb9e12-ff9b-4ab4-8ed8-4791e9f2155c-item-1",
+        "b1b7d185-a86f-47f5-9380-4b05d2f2b83c",
+        "c84e1395-0b06-4170-91ee-131114c5b47a",
+        "ea042353-8fd2-491a-805e-b3852a8a55aa",
+        "098b2b50-a01e-4b3b-b268-1659c6f97a8e"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Como impactamos?",
+        "heading_gradient_title": "linear-gradient(180deg, rgba(196, 102, 238, 1), rgba(82, 218, 236, 1) 100%)",
+        "text": "Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. v Lorem Ipsum dolor sit amet.",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -655,96 +745,6 @@
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#000000"
       }
-    },
-    "71eb9e12-ff9b-4ab4-8ed8-4791e9f2155c": {
-      "type": "impact-text-design",
-      "blocks": {
-        "template--15538978488413__71eb9e12-ff9b-4ab4-8ed8-4791e9f2155c-item-1": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "b1b7d185-a86f-47f5-9380-4b05d2f2b83c": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "c84e1395-0b06-4170-91ee-131114c5b47a": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "ea042353-8fd2-491a-805e-b3852a8a55aa": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "098b2b50-a01e-4b3b-b268-1659c6f97a8e": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "template--15538978488413__71eb9e12-ff9b-4ab4-8ed8-4791e9f2155c-item-1",
-        "b1b7d185-a86f-47f5-9380-4b05d2f2b83c",
-        "c84e1395-0b06-4170-91ee-131114c5b47a",
-        "ea042353-8fd2-491a-805e-b3852a8a55aa",
-        "098b2b50-a01e-4b3b-b268-1659c6f97a8e"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "Como impactamos?",
-        "heading_gradient_title": "linear-gradient(180deg, rgba(196, 102, 238, 1), rgba(82, 218, 236, 1) 100%)",
-        "text": "Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. v Lorem Ipsum dolor sit amet.",
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
     }
   },
   "order": [
@@ -756,12 +756,12 @@
     "impact-text",
     "07bfe67d-62f0-4ef1-be8d-6777dbd342f2",
     "88b0039c-bf07-43e9-afd1-c40c71cbbdf3",
+    "71eb9e12-ff9b-4ab4-8ed8-4791e9f2155c",
     "image-link-blocks",
     "scrolling-text",
     "image-with-text-overlay",
     "featured-collection",
     "media-grid",
-    "05a7910e-b59d-4b0e-af73-ee980f02b1d3",
-    "71eb9e12-ff9b-4ab4-8ed8-4791e9f2155c"
+    "05a7910e-b59d-4b0e-af73-ee980f02b1d3"
   ]
 }

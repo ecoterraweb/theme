@@ -6766,6 +6766,7 @@ split-lines {
 }
 .impact-text--design{
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
 }
 @media screen and (min-width: 700px) {
@@ -6774,7 +6775,7 @@ split-lines {
     grid: auto / auto-flow var(--impact-text-auto-columns);
   }
   .impact-text--design{
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
   }
   

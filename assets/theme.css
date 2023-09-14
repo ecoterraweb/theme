@@ -6781,9 +6781,11 @@ split-lines {
 }
 .impact-text--text.impact-text-design--center{
   margin: 0 auto 2rem;
+  text-align: center;
 }
 .impact-text--text.impact-text-design--end{
   margin-left: auto;
+  text-align: right;
 }
 @media screen and (min-width: 700px) {
   .impact-text {

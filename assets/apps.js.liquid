@@ -102,16 +102,20 @@ if (!window.customElements.get('custom-spr-header')) {
   window.customElements.define('custom-spr-header', CustomSprHeader);
 }
 
-// Obtén una lista de todos los botones en la página
-const botones = document.querySelectorAll('button.hot-spot__dot.tap-area');
-console.log('botones',botones);
-// Función para simular un clic cuando se hace hover sobre un botón
+// Define una función que simula un clic cuando se hace hover sobre un botón
 function simularClic(event) {
   // Simula un clic en el botón
   event.target.click();
 }
 
-// Agrega un controlador de eventos a cada botón para el evento "mouseover"
-botones.forEach((boton) => {
-  boton.addEventListener('mouseover', simularClic);
-});
+// Agrega un controlador de eventos a todos los botones en la página
+function agregarEventosAButtons() {
+  const botones = document.querySelectorAll('button.hot-spot__dot.tap-area');
+  console.log('botones', botones);
+  botones.forEach((boton) => {
+    boton.addEventListener('mouseover', simularClic);
+  });
+}
+
+// Agrega un controlador de eventos al evento "DOMContentLoaded" de la página
+document.addEventListener('DOMContentLoaded', agregarEventosAButtons);

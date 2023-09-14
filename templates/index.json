@@ -102,12 +102,28 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "504a19e4-093c-4d4c-814a-abe0c051e2a1": {
+          "type": "collection",
+          "settings": {
+            "collection": "huerto-y-jardin",
+            "image": "shopify:\/\/shop_images\/Home_BotonOrganicos_d0da31e9-2fd7-4328-a0a7-cbf3d68c4266.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "collection-1",
         "collection-2",
-        "collection-3"
+        "collection-3",
+        "504a19e4-093c-4d4c-814a-abe0c051e2a1"
       ],
       "settings": {
         "full_width": true,

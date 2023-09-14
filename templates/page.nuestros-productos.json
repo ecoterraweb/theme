@@ -195,6 +195,49 @@
         "button_text_color": ""
       }
     },
+    "37e9c351-50ee-47bc-807a-a622c311f983": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Home_BotonAderezos.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Eco Aderezos",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "shopify:\/\/collections\/huevos",
+            "button_text": "Comprar aquí"
+          }
+        }
+      },
+      "block_order": [
+        "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf"
+      ],
+      "settings": {
+        "full_width": true,
+        "orientation": "normal",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "#7dac00",
+        "button_text_color": ""
+      }
+    },
+    "23a30acb-e4f3-4e11-918e-6e959b1c0de3": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<iframe src=\"https:\/\/www.google.com\/maps\/d\/embed?mid=1A-uWepStfF33vuq4LuvBVlA61wk-TDY&amp;ehbc=2E312F&amp;noprof=1\" width=\"100%\" height=\"580\"><\/iframe>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "6fb9880b-ad9c-4b88-b622-7303989963d9": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -225,18 +268,6 @@
         "button_background": "#7dac00",
         "button_text_color": ""
       }
-    },
-    "23a30acb-e4f3-4e11-918e-6e959b1c0de3": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<iframe src=\"https:\/\/www.google.com\/maps\/d\/embed?mid=1A-uWepStfF33vuq4LuvBVlA61wk-TDY&amp;ehbc=2E312F&amp;noprof=1\" width=\"100%\" height=\"580\"><\/iframe>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -247,7 +278,8 @@
     "a7b3ce38-e344-41bf-8495-bc96050b2f1d",
     "39ad79e5-8c09-4e41-9da5-ebd5cbb71b89",
     "b284511b-c5db-49b7-958a-f9f447c5b8c9",
-    "6fb9880b-ad9c-4b88-b622-7303989963d9",
-    "23a30acb-e4f3-4e11-918e-6e959b1c0de3"
+    "37e9c351-50ee-47bc-807a-a622c311f983",
+    "23a30acb-e4f3-4e11-918e-6e959b1c0de3",
+    "6fb9880b-ad9c-4b88-b622-7303989963d9"
   ]
 }

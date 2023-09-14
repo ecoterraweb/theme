@@ -14,6 +14,9 @@
 
   <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
     {%- capture content -%}
+      {%- if block.settings.image != blank -%}
+        {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 699px) 160px, 285px', widths: '200,300,400,500,600,700,800,900,1000,1200', class: 'image-link-blocks__image zoom-image' -}}
+      {%- endif -%}
       {%- if section.settings.subheading != blank -%}
         <p class="bold">{{ section.settings.subheading | escape }}</p>
       {%- endif -%}
@@ -116,6 +119,12 @@
       "id": "full_width",
       "label": "Full width",
       "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "500 x 500 .jpg recommended"
     },
     {
       "type": "text",

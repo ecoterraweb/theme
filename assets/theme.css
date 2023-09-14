@@ -10281,3 +10281,9 @@ split-lines {
   opacity: 0.6;
   max-width: 250px;
 }
+.close-popover-button{
+  position: absolute;
+  right: 30px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}

@@ -13,6 +13,25 @@ function agregarEventosAButtons() {
   botones.forEach((boton) => {
     boton.addEventListener('mouseover', simularClic);
   });
+  
+  const botonesClose = document.querySelectorAll('.close-popover-button');
+  botonesClose.forEach((item) => {
+    item.addEventListener('click', (event) => {
+        var padre = event.target.parentElement;
+        console.log(padre);
+        // Busca el hermano anterior que sea un botón
+        var hermanoAnterior = padre.previousElementSibling;
+        while (hermanoAnterior && hermanoAnterior.tagName !== 'BUTTON') {
+          hermanoAnterior = hermanoAnterior.previousElementSibling;
+        }
+
+        // Si se encontró un botón, haz clic en él
+        if (hermanoAnterior) {
+          hermanoAnterior.click();
+        }
+    });
+  });
+  
 }
 
 // Agrega un controlador de eventos al evento "DOMContentLoaded" de la página

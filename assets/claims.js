@@ -91,7 +91,6 @@ async function fetchData() {
     const buttonClose = document.querySelector("#closeButtonGeneral");
     if (buttonClose) {
       buttonClose.addEventListener("click", function (e) {
-        console.log("active");
         activePopup.classList.remove("active");
       });
     }
@@ -129,7 +128,6 @@ async function fetchData() {
         ulOptions.appendChild(div);
       });
       const claimOptions = document.querySelectorAll(".claims--link-options");
-      console.log("claimOptions", claimOptions);
       claimOptions.forEach((element) => {
         element.addEventListener("click", function (e) {
           e.preventDefault();
@@ -144,7 +142,6 @@ async function fetchData() {
           generalOptions.classList.remove("active");
           let id = element.getAttribute("data-target-id");
           const claim = claims.find((e) => e.templateId == id);
-          console.log(claim);
           claimContent.innerHTML = ``;
           const div = document.createElement("div");
           if (claim.claimObject == "Producto") {
@@ -230,7 +227,6 @@ async function fetchData() {
         });
       });
     }
-    console.timeEnd('Final de tiempo');
 
   } catch (error) {
     console.error("Error:", error);
@@ -370,7 +366,6 @@ function initMap(elementId, points, templateId = null) {
 // Función para cerrar el InfoWindow actualmente abierto
 function closeCurrentInfoWindow() {
   const activePopup = document.querySelector("#claim--general");
-  console.log("activePopup", activePopup);
   setTimeout(function () {
     activePopup.classList.add("active");
   }, 0.1);

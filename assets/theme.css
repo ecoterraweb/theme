@@ -10019,7 +10019,8 @@ split-lines {
 .claim--popup__body {
   padding: 30px;
   max-height: 500px;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   position: relative;
 }
 .claim--popup__producer {

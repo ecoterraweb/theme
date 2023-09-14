@@ -30,20 +30,20 @@
   ------------------------------------------------------------------------------------------------------------------------
   LIQUID
   ------------------------------------------------------------------------------------------------------------------------
-  {%- endcomment -%}<div {% render 'section-properties' %} class="impact-text-design--{{ section.settings.div_alignment }}">
+  {%- endcomment -%}<div {% render 'section-properties' %} >
     <div {% unless section.settings.stack_mobile %}class="scroll-area bleed {% if section.blocks.size < 5 %}sm:unbleed{% else %}md:unbleed{% endif %}"{% endunless %}>
       {%- if section.settings.title != blank -%}
-        <h2 class="impact-text--title h1">
+        <h2 class="impact-text--title h1 impact-text-design--{{ section.settings.div_alignment }}">
           {%- render 'styled-text', content: section.settings.title,  gradient: section.settings.heading_gradient_title -%}
         </h2>
       {%- endif -%}
       {%- if section.settings.text != blank -%}
-        <p class="impact-text--text">
+        <p class="impact-text--text impact-text-design--{{ section.settings.div_alignment }}">
           {{ section.settings.text }}
         </p>
       {%- endif -%}
 
-      <div class="impact-text impact-text--design impact-text--{{ section.settings.text_alignment }} {% unless section.settings.stack_mobile %}impact-text--scroll{% endunless %}">
+      <div class="impact-text impact-text--design impact-text-design--{{ section.settings.div_alignment }} impact-text--{{ section.settings.text_alignment }} {% unless section.settings.stack_mobile %}impact-text--scroll{% endunless %}">
         {%- for block in section.blocks -%}
           <div class="snap-center" {{ block.shopify_attributes }}>
             {%- if block.settings.subheading != blank -%}

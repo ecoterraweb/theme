@@ -33,7 +33,7 @@
   {%- endcomment -%}<div {% render 'section-properties' %}>
     <div {% unless section.settings.stack_mobile %}class="scroll-area bleed {% if section.blocks.size < 5 %}sm:unbleed{% else %}md:unbleed{% endif %}"{% endunless %}>
       {%- if section.settings.title != blank -%}
-        <h2 class="impact-text--title">
+        <h2 class="impact-text--title h1">
           {%- render 'styled-text', content: section.settings.title,  gradient: section.settings.heading_gradient_title -%}
         </h2>
       {%- endif -%}

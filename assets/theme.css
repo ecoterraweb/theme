@@ -6769,18 +6769,25 @@ split-lines {
   flex-direction: column;
   justify-content: flex-start;
 }
+.impact-text--title{
+  margin-bottom: 20px;
+}
+.impact-text--text{
+  margin-bottom: 2rem;
+  max-width: 700px;
+}
 @media screen and (min-width: 700px) {
   .impact-text {
     --impact-text-spacing: var(--spacing-8);
     grid: auto / auto-flow var(--impact-text-auto-columns);
   }
-  .impact-text--design{
-    flex-direction: row;
-    justify-content: flex-start;
-  }
   
   .impact-text--center {
     justify-content: space-evenly;
+  }
+  .impact-text--design{
+    flex-direction: row;
+    justify-content: flex-start;
   }
 }
 

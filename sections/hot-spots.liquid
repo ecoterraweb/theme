@@ -1,5 +1,25 @@
 {%- render 'section-spacing-collapsing', block_margin_collapsing: true -%}
+<script>
 
+// Define una función que simula un clic cuando se hace hover sobre un botón
+function simularClic(event) {
+  // Simula un clic en el botón
+  event.target.click();
+}
+
+// Agrega un controlador de eventos a todos los botones en la página
+function agregarEventosAButtons() {
+  const botones = document.querySelectorAll('button.hot-spot__dot.tap-area');
+  console.log('botones', botones);
+  botones.forEach((boton) => {
+    boton.addEventListener('mouseover', simularClic);
+  });
+}
+
+// Agrega un controlador de eventos al evento "DOMContentLoaded" de la página
+document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
+
+</script>
 <style>
   #shopify-section-{{ section.id }} {
     {%- if section.settings.full_width -%}

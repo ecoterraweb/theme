@@ -33,14 +33,14 @@
   {%- endcomment -%}<div {% render 'section-properties' %}>
     <div {% unless section.settings.stack_mobile %}class="scroll-area bleed {% if section.blocks.size < 5 %}sm:unbleed{% else %}md:unbleed{% endif %}"{% endunless %}>
       {%- if section.settings.title != blank -%}
-          <h2 class="impact-text--title">
-            {{ section.settings.title }}
-          </h2>
+        <h2 class="impact-text--title">
+          {{ section.settings.title }}
+        </h2>
       {%- endif -%}
       {%- if section.settings.title != blank -%}
-          <p class="impact-text--text">
-            {{ section.settings.title }}
-          </p>
+        <p class="impact-text--text">
+          {{ section.settings.title }}
+        </p>
       {%- endif -%}
 
       <div class="impact-text impact-text--design impact-text--{{ section.settings.text_alignment }} {% unless section.settings.stack_mobile %}impact-text--scroll{% endunless %}">
@@ -171,18 +171,17 @@
         "type": "text",
         "id": "title",
         "label": "Title",
-        "default": ""
+        "default": "Titulo"
       },
       {
         "type": "color_background",
         "id": "heading_gradient",
         "label": "Impact title gradient"
-      },
-      {
+      }, {
         "type": "text",
         "id": "text",
         "label": "Text",
-        "default": ""
+        "default": "Texto"
       }, {
         "type": "select",
         "id": "text_alignment",

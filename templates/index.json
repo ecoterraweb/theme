@@ -180,6 +180,7 @@
         "template--15537490002013__f1c1110e-c62c-4a89-a208-0e9634598ba2-heading-1",
         "template--15537490002013__f1c1110e-c62c-4a89-a208-0e9634598ba2-richtext-1"
       ],
+      "disabled": true,
       "settings": {
         "identifier": "",
         "full_width": true,
@@ -235,6 +236,7 @@
         "f2d73b84-3a84-49ea-92af-064788ba9b01",
         "a0391338-fdd8-476b-8565-9204bd4eb730"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -297,6 +299,7 @@
         "928bd9eb-1684-442b-9ebd-857174eae15a",
         "a801fb70-675c-4fb5-8b89-84beb8655d61"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -344,6 +347,7 @@
           "type": "item",
           "settings": {
             "title": "60",
+            "superheading": "Up to",
             "subheading": "EcoFarmers",
             "content": "",
             "button_text": "",
@@ -356,6 +360,7 @@
           "type": "item",
           "settings": {
             "title": "3.047",
+            "superheading": "Up to",
             "subheading": "EcoLovers",
             "content": "",
             "button_text": "",
@@ -368,6 +373,7 @@
           "type": "item",
           "settings": {
             "title": "43",
+            "superheading": "Up to",
             "subheading": "EcoPartners",
             "content": "",
             "button_text": "",
@@ -380,6 +386,7 @@
           "type": "item",
           "settings": {
             "title": "103.006",
+            "superheading": "Up to",
             "subheading": "Animales en sistemas de bienestar",
             "content": "",
             "button_text": "",
@@ -392,6 +399,7 @@
           "type": "item",
           "settings": {
             "title": "13",
+            "superheading": "Up to",
             "subheading": "Hectareas destinadas a sistemas sustentables",
             "content": "",
             "button_text": "",
@@ -411,7 +419,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "title": "Como impactamos?",
+        "title": "¿Cómo impactamos?",
         "heading_gradient_title": "linear-gradient(180deg, rgba(196, 102, 238, 1), rgba(82, 218, 236, 1) 100%)",
         "text": "Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. v Lorem Ipsum dolor sit amet.",
         "text_alignment": "start",

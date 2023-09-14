@@ -30,7 +30,7 @@
   ------------------------------------------------------------------------------------------------------------------------
   LIQUID
   ------------------------------------------------------------------------------------------------------------------------
-  {%- endcomment -%}<div {% render 'section-properties' %}>
+  {%- endcomment -%}<div {% render 'section-properties' %} class="impact-text-design--{{ section.settings.div_alignment }}">
     <div {% unless section.settings.stack_mobile %}class="scroll-area bleed {% if section.blocks.size < 5 %}sm:unbleed{% else %}md:unbleed{% endif %}"{% endunless %}>
       {%- if section.settings.title != blank -%}
         <h2 class="impact-text--title h1">
@@ -192,6 +192,23 @@
         "id": "text",
         "label": "Text",
         "default": "Texto"
+      }, {
+        "type": "select",
+        "id": "div_alignment",
+        "label": "Div alignment",
+        "options": [
+          {
+            "value": "start",
+            "label": "Left"
+          }, {
+            "value": "center",
+            "label": "Center"
+          }, {
+            "value": "end",
+            "label": "Right"
+          }
+        ],
+        "default": "start"
       }, {
         "type": "select",
         "id": "text_alignment",

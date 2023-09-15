@@ -10291,3 +10291,8 @@ split-lines {
   transform: rotate(45deg);
   cursor: pointer;
 }
+.images-scrolling-desktop.images-paragraph{
+  display: flex;
+  flex-direction: column;
+  
+}

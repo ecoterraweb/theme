@@ -416,6 +416,26 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "bcd1dd79-8d7b-49e1-ba7c-35b8a692f673": {
+      "type": "images-with-text-paragraph",
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#1a1a1a",
+        "heading_color": "#000000",
+        "heading_gradient": "",
+        "icon": "none",
+        "icon_width": 48,
+        "title": "Modelo",
+        "content": "<p>Ecoterra es donde la innovación se encuentra con la acción y la comunidad se convierte en catalizadora de cambio. Nuestra plataforma une a EcoFarmers, EcoPartners y EcoLovers, creando un ciclo virtuoso de impacto sostenible.<\/p><p><br\/>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan esa sostenibilidad a nuevas escalas y los EcoLovers hacen que todo valga la pena, eligiendo un futuro más verde con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que la sostenibilidad no solo es posible, sino que está sucediendo ahora.<br\/><\/p><p>En Ecoterra, cada click, cada elección y cada interacción es un paso optimista hacia un futuro más sostenible. <br\/><\/p>"
+      }
     }
   },
   "order": [
@@ -430,6 +450,7 @@
     "1a7ad382-718d-4d3c-971c-d883319947a1",
     "ccff1d20-57b9-402b-9f62-d36451f0be52",
     "63303b90-3a37-407c-9926-07e8e5d5910f",
-    "f091270f-8f95-48b7-88b0-50147dbf74c4"
+    "f091270f-8f95-48b7-88b0-50147dbf74c4",
+    "bcd1dd79-8d7b-49e1-ba7c-35b8a692f673"
   ]
 }

@@ -85,7 +85,7 @@
                 {%- render 'styled-text', content: section.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient, apparition_effect: true -%}
               </p>
             {%- endif -%}
-            <div class="images-paragraph-text">
+            <div class="images-paragraph-text column--{{ section.settings.columns }}">
               {{- section.settings.content -}}
 
             </div>

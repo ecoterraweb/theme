@@ -34,6 +34,7 @@
       "modal-home": {
         "type": "modal-home",
         "settings": {
+          "visibility": false,
           "message_text1": "Titulo Principal",
           "message_text2": "Solo hacemos entrega",
           "sub_text": "Anuncia algo aquí",

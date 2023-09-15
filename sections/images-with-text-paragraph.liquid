@@ -69,44 +69,37 @@
   {%- endcomment -%}
   <images-with-text-scrolling scrolling-experience="{{ section.settings.desktop_image_effect }}" class="images-paragraph images-scrolling-desktop">
     <div class="images-scrolling-desktop__content-list">
-      {%- for block in section.blocks -%}
-        <div class="images-scrolling__content {% unless forloop.first %}opacity-0{% endunless %}">
-          {%- if section.settings.show_counter -%}
-            <span class="images-scrolling__counter bold">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
-          {%- endif -%}
+        <div class="images-scrolling__content opacity-0">
 
           <div class="prose" style="--images-scrolling-item-icon-width: {{ block.settings.icon_width }}px">
-            {%- if block.settings.custom_icon != blank -%}
-              {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
-              {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.custom_icon.width }}{%- endcapture -%}
-              {{- block.settings.custom_icon | image_url: width: block.settings.custom_icon.width | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'images-scrolling__icon' -}}
-            {%- elsif block.settings.icon != 'none' -%}
-              {%- render 'icon' with block.settings.icon, width: block.settings.icon_width, height: block.settings.icon_width, class: 'images-scrolling__icon' -%}
+            {%- if section.settings.custom_icon != blank -%}
+              {%- capture sizes -%}{{ section.settings.icon_width }}px{%- endcapture -%}
+              {%- capture widths -%}{{ section.settings.icon_width }}, {{ section.settings.icon_width | times: 2 | at_most: section.settings.custom_icon.width }}{%- endcapture -%}
+              {{- section.settings.custom_icon | image_url: width: section.settings.custom_icon.width | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'images-scrolling__icon' -}}
+            {%- elsif section.settings.icon != 'none' -%}
+              {%- render 'icon' with section.settings.icon, width: section.settings.icon_width, height: section.settings.icon_width, class: 'images-scrolling__icon' -%}
             {%- endif -%}
 
-            {%- if block.settings.title != blank -%}
+            {%- if section.settings.title != blank -%}
               <p class="h1" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
-                {%- render 'styled-text', content: block.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient, apparition_effect: true -%}
+                {%- render 'styled-text', content: section.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient, apparition_effect: true -%}
               </p>
             {%- endif -%}
             <div class="images-paragraph-text">
-              {{- block.settings.content -}}
+              {{- section.settings.content -}}
 
             </div>
           </div>
         </div>
-      {%- endfor -%}
     </div>
 
     <div class="images-scrolling-desktop__media-wrapper">
-      {%- for block in section.blocks -%}
-        {%- if block.settings.image != blank -%}
-          {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 100vw, 650px', widths: '200,300,400,600,800,1000,1200,1400,1600', class: 'rounded-sm' -}}
+        {%- if section.settings.image != blank -%}
+          {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 100vw, 650px', widths: '200,300,400,600,800,1000,1200,1400,1600', class: 'rounded-sm' -}}
         {%- else -%}
           {%- capture image_placeholder -%}product-{%- cycle '1', '2', '3', '4' -%}{%- endcapture -%}
           {{- image_placeholder | placeholder_svg_tag: 'placeholder' -}}
         {%- endif -%}
-      {%- endfor -%}
     </div>
   </images-with-text-scrolling>
 </div>
@@ -120,7 +113,6 @@
     "templates": ["password"],
     "groups": ["header", "custom.overlay"]
   },
-  "max_blocks": 15,
   "settings": [
     {
       "type": "text",
@@ -206,14 +198,8 @@
       "type": "color_background",
       "id": "heading_gradient",
       "label": "Heading gradient"
-    }
-  ],
-  "blocks": [
+    },
     {
-      "type": "item",
-      "name": "Item",
-      "settings": [
-        {
           "type": "image_picker",
           "id": "image",
           "label": "Image",
@@ -514,26 +500,10 @@
           "label": "Content",
           "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
         }
-      ]
-    }
   ],
   "presets": [
     {
       "name": "Images and text paragraph",
-      "blocks": [
-        {
-          "type": "item",
-          "settings": {
-            "title": "Heading 1"
-          }
-        },
-        {
-          "type": "item",
-          "settings": {
-            "title": "Heading 2"
-          }
-        }
-      ]
     }
   ]
 }

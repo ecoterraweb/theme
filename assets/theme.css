@@ -10140,6 +10140,9 @@ split-lines {
   .claim--popup__text {
     margin-bottom: 10px; /* Reducir el espacio entre los párrafos */
   }
+  .close-popover-button{
+    display: none;
+  }
 }
 .button__action__claim {
   background-color: #dbdd3b;

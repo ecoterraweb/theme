@@ -1,4 +1,6 @@
   <!-- The Modal -->
+  {% if section.settings.visibility != false %}
+
         <div id="myModal_apolo" class="modal_apolo">
           <!-- Modal content -->
           <div class="modal-content_apolo modal_apolo_container">
@@ -70,6 +72,7 @@
           </div>
         </div>
     <button style="display:none" id="myBtn_sub"></button>
+
   <script>
   
     // Get the modal
@@ -113,6 +116,7 @@
            
             }, 3000);
 	</script>
+  {% endif %}
 
 
 <style>
@@ -297,6 +301,12 @@ padding: 20px;text-align: center;
 {
   "name": "Modal",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "visibility",
+      "label": "Enable popup",
+      "default": true
+    },
     {
       "type": "text",
       "id": "message_text1",

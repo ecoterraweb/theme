@@ -2,8 +2,8 @@
 
 <style>
   #shopify-section-{{ section.id }} {
-    --images-scrolling-block-count: {{ section.blocks.size }};
-    --images-scrolling-image-ratio: {{ section.blocks.first.settings.image.aspect_ratio | default: 1 }};
+    --images-scrolling-section-count: {{ section.sections.size }};
+    --images-scrolling-image-ratio: {{ section.sections.first.settings.image.aspect_ratio | default: 1 }};
   }
 
   @media screen and (max-width: 740px) {
@@ -26,10 +26,10 @@
   ----------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
   <images-with-text-scrolling class="images-paragraph images-scrolling-mobile scroll-area bleed sm:unbleed">
-    {%- for block in section.blocks -%}
-      <div class="images-scrolling-mobile__item snap-start" {{ block.shopify_attributes }}>
-        {%- if block.settings.image != blank -%}
-          {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 100vw, 650px', widths: '200,300,400,600,800,1000,1200,1400,1600', class: 'rounded-sm' -}}
+    {%- for section in section.sections -%}
+      <div class="images-scrolling-mobile__item snap-start" {{ section.shopify_attributes }}>
+        {%- if section.settings.image != blank -%}
+          {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 100vw, 650px', widths: '200,300,400,600,800,1000,1200,1400,1600', class: 'rounded-sm' -}}
         {%- else -%}
           {%- capture image_placeholder -%}product-{%- cycle '1', '2', '3', '4' -%}{%- endcapture -%}
           {{- image_placeholder | placeholder_svg_tag: 'placeholder' -}}
@@ -40,22 +40,22 @@
             <span class="images-scrolling__counter bold">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
           {%- endif -%}
 
-          <div class="prose" style="--images-scrolling-item-icon-width: {{ block.settings.icon_width }}px">
-            {%- if block.settings.custom_icon != blank -%}
-              {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
-              {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.custom_icon.width }}{%- endcapture -%}
-              {{- block.settings.custom_icon | image_url: width: block.settings.custom_icon.width | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'images-scrolling__icon' -}}
-            {%- elsif block.settings.icon != 'none' -%}
-              {%- render 'icon' with block.settings.icon, width: block.settings.icon_width, height: block.settings.icon_width, class: 'images-scrolling__icon' -%}
+          <div class="prose" style="--images-scrolling-item-icon-width: {{ section.settings.icon_width }}px">
+            {%- if section.settings.custom_icon != blank -%}
+              {%- capture sizes -%}{{ section.settings.icon_width }}px{%- endcapture -%}
+              {%- capture widths -%}{{ section.settings.icon_width }}, {{ section.settings.icon_width | times: 2 | at_most: section.settings.custom_icon.width }}{%- endcapture -%}
+              {{- section.settings.custom_icon | image_url: width: section.settings.custom_icon.width | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'images-scrolling__icon' -}}
+            {%- elsif section.settings.icon != 'none' -%}
+              {%- render 'icon' with section.settings.icon, width: section.settings.icon_width, height: section.settings.icon_width, class: 'images-scrolling__icon' -%}
             {%- endif -%}
 
-            {%- if block.settings.title != blank -%}
+            {%- if section.settings.title != blank -%}
               <p class="h1" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
-                {%- render 'styled-text', content: block.settings.title, apparition_effect: true -%}
+                {%- render 'styled-text', content: section.settings.title, apparition_effect: true -%}
               </p>
             {%- endif -%}
 
-            {{- block.settings.content -}}
+            {{- section.settings.content -}}
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@
     <div class="images-scrolling-desktop__content-list">
         <div class="images-scrolling__content opacity-0">
 
-          <div class="prose" style="--images-scrolling-item-icon-width: {{ block.settings.icon_width }}px">
+          <div class="prose" style="--images-scrolling-item-icon-width: {{ section.settings.icon_width }}px">
             {%- if section.settings.custom_icon != blank -%}
               {%- capture sizes -%}{{ section.settings.icon_width }}px{%- endcapture -%}
               {%- capture widths -%}{{ section.settings.icon_width }}, {{ section.settings.icon_width | times: 2 | at_most: section.settings.custom_icon.width }}{%- endcapture -%}

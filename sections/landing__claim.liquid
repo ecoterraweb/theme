@@ -277,8 +277,8 @@
       img.alt = "#";
       img.classList.add('landing__claim--item_img');
       img.style.objectFit = "cover";
-      img.style.width = "250px";
-      img.style.height = "200px";
+      img.style.maxWidth = "250px";
+      img.style.maxHeight = "200px";
       const h3 = document.createElement('h3');
       h3.textContent = producer.name;
       h3.classList.add('landing__claim--item_title');
@@ -387,8 +387,8 @@
       img.src = claim.image;
       img.alt = "#";
       img.classList.add('landing__claim--item_img');
-      img.style.width = "250px";
-      img.style.height = "200px";
+      img.style.maxWidth = "250px";
+      img.style.maxHeight = "200px";
 
       div.appendChild(img);
 

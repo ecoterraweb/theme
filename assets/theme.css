@@ -10298,7 +10298,7 @@ split-lines {
 @media screen and (min-width: 600px) {
   .images-paragraph-text.column--2{
   column-count: 2;
-}
+} 
   .images-paragraph-text.column--3{
     column-count: 3;
   }

@@ -6,7 +6,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-principa-large.png",
+            "image": "shopify:\/\/shop_images\/banner-principa-large_4c120891-f9f6-4a46-8376-34d3bb372052.png",
             "mobile_image": "shopify:\/\/shop_images\/banner-principa-small.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
@@ -44,6 +44,9 @@
     },
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d": {
       "type": "scrolling-text",
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": true,
         "text": "¡Cambiemos el mundo a través de lo que comemos!",
@@ -51,7 +54,7 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 16,
-        "background": "#7dac00",
+        "background": "#96d123",
         "background_gradient": "",
         "text_color": "#ffffff",
         "text_gradient": ""
@@ -127,20 +130,24 @@
         "collection-3",
         "504a19e4-093c-4d4c-814a-abe0c051e2a1"
       ],
+      "custom_css": [
+        "p{font-size: 30px;}",
+        "h2 {font-size: 25px;"
+      ],
       "settings": {
         "full_width": true,
         "stack_collections": false,
         "collections_per_row": 3,
         "show_progress_bar": true,
-        "subheading": "",
-        "title": "Mucho más que alimentos, productos honestos que salvan al planeta.",
+        "subheading": "Mucho más que alimentos",
+        "title": "Productos honestos que salvan al planeta.",
         "content": "",
         "link_url": "shopify:\/\/collections",
         "link_text": "Ver Todas",
-        "background": "",
+        "background": "#f5f5f5",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
+        "text_color": "#505050",
+        "heading_color": "#505050",
         "heading_gradient": ""
       }
     },

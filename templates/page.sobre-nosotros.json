@@ -130,34 +130,26 @@
         "overlay_opacity": 30
       }
     },
-    "7d4963a1-b560-4b74-a3ae-d67f29e9bce4": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "f5eea8a2-0484-4fe8-913d-6b9b259d0cdc": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Modelo",
-            "content": "<p>Ecoterra es donde la innovación se encuentra con la acción y la comunidad se convierte en catalizadora de cambio. Nuestra plataforma une a EcoFarmers, EcoPartners y EcoLovers, creando un ciclo virtuoso de impacto sostenible.<\/p><p><br\/>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan esa sostenibilidad a nuevas escalas y los EcoLovers hacen que todo valga la pena, eligiendo un futuro más verde con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que la sostenibilidad no solo es posible, sino que está sucediendo ahora.<br\/><\/p><p>En Ecoterra, cada click, cada elección y cada interacción es un paso optimista hacia un futuro más sostenible. <br\/><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "f5eea8a2-0484-4fe8-913d-6b9b259d0cdc"
-      ],
+    "bcd1dd79-8d7b-49e1-ba7c-35b8a692f673": {
+      "type": "images-with-text-paragraph",
       "settings": {
         "identifier": "Modelo-section",
         "full_width": true,
         "stack_on_mobile": false,
-        "show_counter": false,
+        "show_counter": true,
         "desktop_image_effect": "reveal",
         "image_position": "end",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "text_color": "#1a1a1a",
+        "heading_color": "#000000",
+        "heading_gradient": "",
+        "image": "shopify:\/\/shop_images\/89-1000x600.jpg",
+        "icon": "none",
+        "icon_width": 48,
+        "title": "Modelo",
+        "content": "<p>Ecoterra es donde la innovación se encuentra con la acción y la comunidad se convierte en catalizadora de cambio. Nuestra plataforma une a EcoFarmers, EcoPartners y EcoLovers, creando un ciclo virtuoso de impacto sostenible.<\/p><p>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan esa sostenibilidad a nuevas escalas y los EcoLovers hacen que todo valga la pena, eligiendo un futuro más verde con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que la sostenibilidad no solo es posible, sino que está sucediendo ahora.<br\/><\/p><p>En Ecoterra, cada click, cada elección y cada interacción es un paso optimista hacia un futuro más sostenible. <br\/><\/p>",
+        "columns": "2"
       }
     },
     "176bfb17-1b54-464d-8dea-82b65abe29a2": {
@@ -416,26 +408,6 @@
         "button_background": "",
         "button_text_color": ""
       }
-    },
-    "bcd1dd79-8d7b-49e1-ba7c-35b8a692f673": {
-      "type": "images-with-text-paragraph",
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#1a1a1a",
-        "heading_color": "#000000",
-        "heading_gradient": "",
-        "icon": "none",
-        "icon_width": 48,
-        "title": "Modelo",
-        "content": "<p>Ecoterra es donde la innovación se encuentra con la acción y la comunidad se convierte en catalizadora de cambio. Nuestra plataforma une a EcoFarmers, EcoPartners y EcoLovers, creando un ciclo virtuoso de impacto sostenible.<\/p><p>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan esa sostenibilidad a nuevas escalas y los EcoLovers hacen que todo valga la pena, eligiendo un futuro más verde con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que la sostenibilidad no solo es posible, sino que está sucediendo ahora.<br\/><\/p><p>En Ecoterra, cada click, cada elección y cada interacción es un paso optimista hacia un futuro más sostenible. <br\/><\/p>"
-      }
     }
   },
   "order": [
@@ -443,14 +415,13 @@
     "f578399d-fcbf-449d-9cff-a4983346d5b7",
     "dd3e4515-ba05-4240-8262-f020dbffcfe5",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
-    "7d4963a1-b560-4b74-a3ae-d67f29e9bce4",
+    "bcd1dd79-8d7b-49e1-ba7c-35b8a692f673",
     "176bfb17-1b54-464d-8dea-82b65abe29a2",
     "dd9eb39e-7511-47e7-9add-7ee2a994dad3",
     "d34757aa-3c4c-44ab-b9f5-4956ed831ec4",
     "1a7ad382-718d-4d3c-971c-d883319947a1",
     "ccff1d20-57b9-402b-9f62-d36451f0be52",
     "63303b90-3a37-407c-9926-07e8e5d5910f",
-    "f091270f-8f95-48b7-88b0-50147dbf74c4",
-    "bcd1dd79-8d7b-49e1-ba7c-35b8a692f673"
+    "f091270f-8f95-48b7-88b0-50147dbf74c4"
   ]
 }

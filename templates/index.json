@@ -9,7 +9,7 @@
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "(Imagen Representativa. Puede ser animada. Incluye logo de Empresa B)",
+            "subheading": "",
             "title": "Elige con propósito",
             "heading_tag": "h0",
             "button_text": "",
@@ -44,14 +44,14 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "¡Cambia el mundo a través de lo que comes!",
-        "text_size": "medium",
+        "text": "¡Cambiemos el mundo a través de lo que comemos!",
+        "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 16,
-        "background": "",
+        "background": "#7dac00",
         "background_gradient": "",
-        "text_color": "#167a09",
+        "text_color": "#ffffff",
         "text_gradient": ""
       }
     },

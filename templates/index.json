@@ -6,8 +6,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-principa-large_4c120891-f9f6-4a46-8376-34d3bb372052.png",
-            "mobile_image": "shopify:\/\/shop_images\/banner-principa-small.png",
+            "image": "shopify:\/\/shop_images\/banner-principa-large_ad3b81b7-6fba-411c-b15d-9a8d6d9bef4c.png",
+            "mobile_image": "shopify:\/\/shop_images\/banner-principa-small_cac8f85e-50e8-4ab0-972b-fecf374722dc.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -54,7 +54,7 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 16,
-        "background": "#96d123",
+        "background": "#7dac00",
         "background_gradient": "",
         "text_color": "#ffffff",
         "text_gradient": ""
@@ -132,7 +132,7 @@
       ],
       "custom_css": [
         "p{font-size: 30px;}",
-        "h2 {font-size: 25px;"
+        "h2 {font-size: 25px \/*sería bueno centrar lostextos y disminuir el interlineado entre ellos*\/"
       ],
       "settings": {
         "full_width": true,

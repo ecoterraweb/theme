@@ -122,7 +122,7 @@
     handleproducerId(producerId);
   });
 
-  function handleproducerId(producerId) {
+  async function handleproducerId(producerId) {
     const producerContent = document.getElementById('producerIDcontent');
     const generalContent = document.getElementById('noProducerIDcontent');
 
@@ -136,7 +136,8 @@
         const producer = data.producer;
         renderProducer(producer);
         renderMap(producer);
-        // Eliminar el div del DOM
+
+// Eliminar el div del DOM
         generalContent.parentNode.removeChild(generalContent);
         producerContent.classList.remove('d-none');
       } catch (error) {
@@ -155,7 +156,8 @@
           const producerElement = createProducerElement(producer);
           container.appendChild(producerElement);
         });
-        // Eliminar el div del DOM
+
+// Eliminar el div del DOM
         producerContent.parentNode.removeChild(producerContent);
         generalContent.classList.remove('d-none');
       } catch (error) {

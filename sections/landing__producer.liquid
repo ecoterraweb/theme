@@ -58,12 +58,15 @@
   }
   .landing__producer--item_title {
     background: linear-gradient(to right,currentColor,currentColor) 0 min(100%, 1.35em) / 0 1px no-repeat;
-    transition: background-size 0.3s ease-in-out;
+    transition: background-size 0.3s ease-in-out, color 0.3s ease-in-out;
     width: fit-content;
-    margin: 30px auto 0;
+    margin: 10px auto 0;
+    opacity: 0.7;
   }
   .landing__producer--item_title:hover {
     background-size: 100% 1px;
+    opacity: 1;
+    color: #96d123;
   }
   /* Media Queries */
   @media screen and (max-width: 768px) {

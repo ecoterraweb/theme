@@ -56,6 +56,15 @@
   .landing__claim--subtitle {
     margin-top: 30px;
   }
+  .landing__producer--item_title {
+    background: linear-gradient(to right,currentColor,currentColor) 0 min(100%, 1.35em) / 0 1px no-repeat;
+    transition: background-size 0.3s ease-in-out;
+    width: fit-content;
+    margin: 30px auto 0;
+  }
+  .landing__producer--item_title:hover {
+    background-size: 100% 1px;
+  }
   /* Media Queries */
   @media screen and (max-width: 768px) {
     .landing__producer--head_title {

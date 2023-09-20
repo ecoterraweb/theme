@@ -157,7 +157,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/farmer-fields-in-rural-china.jpg",
-            "image_rotation_degrees": -2,
+            "image_rotation_degrees": -4.5,
             "subheading": "",
             "title": "Manifiesto",
             "content": "<p>¿Por qué hacemos lo que hacemos?<\/p>",
@@ -174,7 +174,7 @@
         "orientation": "normal",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
-        "background": "",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "button_background": "",

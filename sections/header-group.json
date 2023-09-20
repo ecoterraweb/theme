@@ -42,7 +42,7 @@
         "sidebar_menu": "menu-mobile",
         "secondary_menu": "",
         "menu_open_trigger": "hover",
-        "opening_from": "bottom",
+        "opening_from": "left",
         "layout": "logo_left_navigation_inline",
         "show_social_media": true,
         "show_locale_selector": true,

@@ -3,7 +3,7 @@
     "banner": {
       "type": "collection-banner",
       "custom_css": [
-        ".section-blends {padding-top: 0;}"
+        ".section-blends {padding-top: 30px;}"
       ],
       "settings": {
         "full_width": false,
@@ -25,6 +25,9 @@
     },
     "main": {
       "type": "main-collection",
+      "custom_css": [
+
+      ],
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",

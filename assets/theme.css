@@ -10119,6 +10119,7 @@ split-lines {
     flex-direction: column; /* Colocar los elementos en columna */
     justify-content: center; /* Centrar los elementos verticalmente */
     align-items: center; /* Centrar los elementos horizontalmente */
+    padding: 10px 0;
   }
   .claim--popup__header--body {
     margin-top: 10px; /* Añadir espacio entre el título y la imagen */

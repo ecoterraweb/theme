@@ -54,7 +54,7 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 16,
-        "background": "#00b9b1",
+        "background": "#7dac00",
         "background_gradient": "",
         "text_color": "#ffffff",
         "text_gradient": ""
@@ -189,12 +189,13 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Pablo-Felipe-Gus-Mariano.jpg",
+        "image": "shopify:\/\/shop_images\/manifiesto_fba044ed-633b-4805-9dda-4b44375cca3b.png",
+        "mobile_image": "shopify:\/\/shop_images\/manifiesto-2.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_color": "#052e1e",
+        "overlay_opacity": 12
       }
     },
     "f1c1110e-c62c-4a89-a208-0e9634598ba2": {

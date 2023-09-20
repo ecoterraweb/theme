@@ -126,7 +126,7 @@
     </div>
   </div>
   {%- if section.settings.text != blank -%}
-    {% render 'button', content: section.settings.text, href: section.settings.url, style: section.settings.style, block: block %}
+    {% render 'button', content: section.settings.button_text, href: section.settings.url, style: section.settings.style, block: block %}
   {%- endif -%}
 </section>
 

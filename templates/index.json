@@ -97,15 +97,15 @@
           "type": "collection",
           "settings": {
             "collection": "lacteos",
-            "image": "shopify:\/\/shop_images\/ecolacteos.png",
+            "image": "shopify:\/\/shop_images\/ecolacteos2.png",
             "subheading": "",
-            "title": "",
+            "title": "Ver más",
             "url": "",
-            "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h6",
+            "text_position": "place-self-end text-end",
             "text_color": "#ffffff",
             "overlay_color": "#1a1a1a",
-            "overlay_opacity": 4
+            "overlay_opacity": 0
           }
         },
         "504a19e4-093c-4d4c-814a-abe0c051e2a1": {
@@ -114,7 +114,7 @@
             "collection": "huerto-y-jardin",
             "image": "shopify:\/\/shop_images\/organicos1.png",
             "subheading": "",
-            "title": "Ver mñas",
+            "title": "Ver más",
             "url": "",
             "heading_tag": "h6",
             "text_position": "place-self-end text-end",

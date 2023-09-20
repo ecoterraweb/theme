@@ -185,14 +185,14 @@
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
       ],
       "custom_css": [
-        "a.button {background-color: #E81AD9; letter-spacing: 0.1em; font-weight: 500; font-variant-caps: small-caps;}"
+        "a.button {background-color: #e81ad9; letter-spacing: 0.1em; font-weight: 500; font-variant-caps: small-caps;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "md",
+        "image_size": "lg",
         "image": "shopify:\/\/shop_images\/manifiesto_7de77c7d-1c9a-4a2f-b09e-5a2bea1c6247.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",

@@ -67,15 +67,15 @@
           "type": "collection",
           "settings": {
             "collection": "aderezos-naturales",
-            "image": "shopify:\/\/shop_images\/Home_BotonAderezos.png",
+            "image": "shopify:\/\/shop_images\/aderesos_86ad87cf-2e6c-4de1-a384-ad5ae6f3243d.png",
             "subheading": "",
             "title": "",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_color": "#1a1a1a",
+            "overlay_opacity": 4
           }
         },
         "collection-2": {
@@ -97,15 +97,15 @@
           "type": "collection",
           "settings": {
             "collection": "lacteos",
-            "image": "shopify:\/\/shop_images\/Home_BotonLacteos.png",
+            "image": "shopify:\/\/shop_images\/ecolacteos.png",
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "text_color": "#fff",
+            "overlay_color": "#1a1a1a",
+            "overlay_opacity": 4
           }
         },
         "504a19e4-093c-4d4c-814a-abe0c051e2a1": {
@@ -131,16 +131,15 @@
         "504a19e4-093c-4d4c-814a-abe0c051e2a1"
       ],
       "custom_css": [
-        "p{font-size: 30px;}",
-        "h2 {font-size: 25px \/*sería bueno centrar lostextos y disminuir el interlineado entre ellos*\/"
+
       ],
       "settings": {
         "full_width": true,
         "stack_collections": false,
         "collections_per_row": 3,
-        "show_progress_bar": true,
-        "subheading": "Mucho más que alimentos",
-        "title": "Productos honestos que salvan al planeta.",
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Mucho más que alimentos, productos honestos que salvan al planeta.",
         "content": "",
         "link_url": "shopify:\/\/collections",
         "link_text": "Ver Todas",

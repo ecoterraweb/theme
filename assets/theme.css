@@ -10304,11 +10304,3 @@ split-lines {
     grid-template-columns: 1fr;
   }
 }
-@media screen and (max-width: 600px) {
-  .list__claims--title{
-    font-size: 32px;
-  }
-  .list__claims--li{
-    grid-template-columns: 1fr;
-  }
-}

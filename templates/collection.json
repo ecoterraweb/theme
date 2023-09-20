@@ -2,9 +2,12 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "custom_css": [
+        ".section-blends {padding-top: 0;}"
+      ],
       "settings": {
         "full_width": false,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "enable_parallax": true,
         "show_collection_title": true,
         "show_collection_description": true,

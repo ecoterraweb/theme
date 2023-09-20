@@ -1,12 +1,183 @@
+<script>
+  async function fetchData(limit = null, offset = 0) {
+    try {
+      const response = await fetch(`https://ecotech.ecoterra.cl/api/claims?limit=${limit}&offset=${offset}`, {
+        method: 'GET',
+        credentials: 'omit' // Esto evita que las cookies se incluyan en la solicitud
+      });
+
+      const data = await response.json();
+      const claims = data.templates;
+      if (claims) {
+        const claimsContainer = document.querySelector("#listClaims");
+        claimsContainer.innerHTML = "";
+
+        if (claimsContainer) {
+          claims.forEach((claim) => {
+            const div = createClaimItem(claim);
+            claimsContainer.appendChild(div);
+          });
+        }
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  }
+  function createClaimItem(item) {
+    const div = document.createElement("div");
+    div.innerHTML = `
+        <li class="list__claims--li">
+            <img src="${
+      item.image
+    }" alt="" class="list__claims--li-img">
+            <div class="list__claims--li-content">
+            <h3 class="list__claims--li-title">${
+      item.claimName
+    }</h3>
+            <p class="list__claims--li-text">${
+      item.description
+    }</p>
+            <img src="https://cdn.shopify.com/s/files/1/0280/0854/6397/files/LOGO_PROOF-OF-ECO-v2.png?v=1692209257" alt="" class="list__claims--li-subimg">
+
+            </div>
+        </li>
+    `;
+    return div;
+  }
+  fetchData(4, 0);
+</script>
+<style>
+  h3.list__claims--li-title {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .list__claims {
+    padding: 80px 0;
+    background-color: {{ section.settings.bg_color }}
+    ;
+  }
+  .list__claims--container {
+    max-width: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    display: block;
+  }
+  .list__claims--title {
+    text-align: center;
+    margin: auto;
+    max-width: 980px;
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  .list__claims--text {
+    text-align: center;
+    margin: 20px auto auto;
+    max-width: 720px;
+  }
+  .list__claims--ul {
+    list-style: none;
+    padding: 0;
+    margin: 60px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .list__claims--li {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 30px;
+  }
+
+  .list__claims--li-content h3,
+  .list__claims--li-content p {
+    margin: 0;
+  }
+  .list__claims--li-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 700px;
+  }
+  .list__claims--li-subimg {
+    height: 20px;
+    width: fit-content;
+    margin-left: auto;
+  }
+  @media screen and (max-width: 600px) {
+    .list__claims--title {
+      font-size: 32px;
+    }
+    .list__claims--li {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<section id="{{ section.settings.identifier }}" class="list__claims">
+  <div class="list__claims--container container">
+    <h2 class="list__claims--title">{{ section.settings.title }}</h2>
+    <p class="list__claims--text">{{ section.settings.text }}</p>
+    <div class="list__claims--content">
+      <ul id="listClaims" class="list__claims--ul"></ul>
+    </div>
+  </div>
+  {%- if section.settings.text != blank -%}
+    {% render 'button', content: section.settings.text, href: section.settings.url, style: section.settings.style, block: block %}
+  {%- endif -%}
+</section>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Claims List",
+    "class": "shopify-section--custom-liquid",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "identifier",
+        "label": "Custom ID"
+      },
+      {
+        "type": "text",
+        "label": "Title",
+        "id": "title",
+        "default": "Título de Sección"
+      },
+      {
+        "type": "text",
+        "label": "Paragraph",
+        "id": "text",
+        "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum odit veniam soluta, eveniet repellendus quasi quod illum quae dolorem libero saepe unde rem incidunt dolorum fugiat et praesentium dolor blanditiis."
+      },
+      {
+        "type": "checkbox",
+        "id": "full_width",
+        "label": "Full width",
+        "default": true
+      }, {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background",
+        "default": "#1dbe67"
+      }, {
+        "type": "text",
+        "id": "button_text",
+        "label": "Text",
+        "default": "Button text"
+      }, {
+        "type": "url",
+        "id": "url",
+        "label": "Button Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Claim List"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}

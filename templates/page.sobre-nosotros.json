@@ -2,11 +2,426 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "f578399d-fcbf-449d-9cff-a4983346d5b7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Banner Sobre Nosotros (mismo del home)",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-2": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1",
+        "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-2"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "dd3e4515-ba05-4240-8262-f020dbffcfe5": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Manifiesto",
+            "content": "<p>Imagínate esto: cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<br\/><\/p><p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.<\/p><p><br\/>La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p><p><br\/>¿Y qué papel juega Ecoterra en todo esto? Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p><br\/>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-1"
+      ],
+      "settings": {
+        "identifier": "Manifiesto-section",
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "7ad41208-9b76-424d-bd23-38f5dbe47f8f": {
+      "type": "video",
+      "blocks": {
+        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-play-1": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-play-1",
+        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_BBz9Sp3ADE",
+        "poster": "shopify:\/\/shop_images\/Captura_de_Pantalla_2023-08-30_a_la_s_4.20.24_p._m..png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "bcd1dd79-8d7b-49e1-ba7c-35b8a692f673": {
+      "type": "images-with-text-paragraph",
+      "settings": {
+        "identifier": "Modelo-section",
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#1a1a1a",
+        "heading_color": "#000000",
+        "heading_gradient": "",
+        "image": "shopify:\/\/shop_images\/89-1000x600.jpg",
+        "icon": "none",
+        "icon_width": 48,
+        "title": "Modelo",
+        "content": "<p>Ecoterra es donde la innovación se encuentra con la acción y la comunidad se convierte en catalizadora de cambio. Nuestra plataforma une a EcoFarmers, EcoPartners y EcoLovers, creando un ciclo virtuoso de impacto sostenible.<\/p><p>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan esa sostenibilidad a nuevas escalas y los EcoLovers hacen que todo valga la pena, eligiendo un futuro más verde con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que la sostenibilidad no solo es posible, sino que está sucediendo ahora.<br\/><\/p><p>En Ecoterra, cada click, cada elección y cada interacción es un paso optimista hacia un futuro más sostenible. <br\/><\/p>",
+        "columns": "2"
+      }
+    },
+    "176bfb17-1b54-464d-8dea-82b65abe29a2": {
+      "type": "hot-spots",
+      "blocks": {
+        "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 50,
+            "vertical_position": 22,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "EcoAgri Lab",
+            "content": "<p>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
+          }
+        },
+        "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 29,
+            "vertical_position": 61,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "EcoTech Lab",
+            "content": "<p>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo. ¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en el libro inmutable de la tecnología blockchain? ... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
+          }
+        },
+        "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-3": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 70,
+            "vertical_position": 61,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "EcoFood Lab",
+            "content": "<p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? EcoFoodLab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-2",
+        "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-1",
+        "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Modelo_AgriFoodTech_Hotspot.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "dd9eb39e-7511-47e7-9add-7ee2a994dad3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15537731993693__dd9eb39e-7511-47e7-9add-7ee2a994dad3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Impacto",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15537731993693__dd9eb39e-7511-47e7-9add-7ee2a994dad3-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>En Ecoterra, cada acción que tomamos es una onda de impacto en el lago de la sostenibilidad global. Desde el suelo hasta el plato, y todo el camino hasta la blockchain, creamos una huella que es auditable, transparente y radicalmente sostenible. Pero no esperamos que simplemente nos crean en nuestra palabra: nuestro compromiso con la excelencia está respaldado por las certificaciones internacionales más rigurosas, que avalan cada aspecto de nuestra operación como líder en prácticas ecológicas y sostenibles. Así, cuando dices \"Ecoterra\", estás eligiendo un futuro validado y verificablemente más verde.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15537731993693__dd9eb39e-7511-47e7-9add-7ee2a994dad3-heading-1",
+        "template--15537731993693__dd9eb39e-7511-47e7-9add-7ee2a994dad3-richtext-1"
+      ],
+      "settings": {
+        "identifier": "Impacto-section",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d34757aa-3c4c-44ab-b9f5-4956ed831ec4": {
+      "type": "impact-text",
+      "blocks": {
+        "template--15537731993693__d34757aa-3c4c-44ab-b9f5-4956ed831ec4-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "100",
+            "subheading": "Animales bienestar",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "47d9440a-9c99-4895-b01c-a1f5ac21ad37": {
+          "type": "item",
+          "settings": {
+            "title": "8000",
+            "subheading": "Hectáreas sustentables",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "58557096-3490-4f99-a40e-3cb5d0adae43": {
+          "type": "item",
+          "settings": {
+            "title": "6,86",
+            "subheading": "Toneladas reducidas del desperdicio de alimentos",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--15537731993693__d34757aa-3c4c-44ab-b9f5-4956ed831ec4-item-1",
+        "47d9440a-9c99-4895-b01c-a1f5ac21ad37",
+        "58557096-3490-4f99-a40e-3cb5d0adae43"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "1a7ad382-718d-4d3c-971c-d883319947a1": {
+      "type": "claims-list",
+      "settings": {
+        "identifier": "POE-section",
+        "title": "Proof of eco",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum odit veniam soluta, eveniet repellendus quasi quod illum quae dolorem libero saepe unde rem incidunt dolorum fugiat et praesentium dolor blanditiis.",
+        "full_width": true,
+        "bg_color": "#1dbe67"
+      }
+    },
+    "ccff1d20-57b9-402b-9f62-d36451f0be52": {
+      "type": "video",
+      "blocks": {
+        "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-play-1": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Cápsula Certificaciones",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-play-1",
+        "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "63303b90-3a37-407c-9926-07e8e5d5910f": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15537731993693__63303b90-3a37-407c-9926-07e8e5d5910f-blog-1": {
+          "type": "blog",
+          "settings": {
+            "blog": "noticias",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15537731993693__63303b90-3a37-407c-9926-07e8e5d5910f-blog-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "EcoNews",
+        "content": "",
+        "link_url": "",
+        "link_text": "Ver más",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "f091270f-8f95-48b7-88b0-50147dbf74c4": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "Conctáctanos",
+        "title": "¿Hablémos?",
+        "content": "",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f578399d-fcbf-449d-9cff-a4983346d5b7",
+    "dd3e4515-ba05-4240-8262-f020dbffcfe5",
+    "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
+    "bcd1dd79-8d7b-49e1-ba7c-35b8a692f673",
+    "176bfb17-1b54-464d-8dea-82b65abe29a2",
+    "dd9eb39e-7511-47e7-9add-7ee2a994dad3",
+    "d34757aa-3c4c-44ab-b9f5-4956ed831ec4",
+    "1a7ad382-718d-4d3c-971c-d883319947a1",
+    "ccff1d20-57b9-402b-9f62-d36451f0be52",
+    "63303b90-3a37-407c-9926-07e8e5d5910f",
+    "f091270f-8f95-48b7-88b0-50147dbf74c4"
   ]
 }

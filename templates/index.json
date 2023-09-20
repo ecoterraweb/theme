@@ -71,7 +71,7 @@
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#1a1a1a",
@@ -82,15 +82,15 @@
           "type": "collection",
           "settings": {
             "collection": "huevos",
-            "image": "shopify:\/\/shop_images\/Home_BotonHuevos.png",
+            "image": "shopify:\/\/shop_images\/ecohuevos.png",
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_color": "#1a1a1a",
+            "overlay_opacity": 4
           }
         },
         "collection-3": {

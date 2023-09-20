@@ -321,7 +321,9 @@
         "title": "Proof of eco",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum odit veniam soluta, eveniet repellendus quasi quod illum quae dolorem libero saepe unde rem incidunt dolorum fugiat et praesentium dolor blanditiis.",
         "full_width": true,
-        "bg_color": "#1dbe67"
+        "bg_color": "#1dbe67",
+        "button_text": "",
+        "url": ""
       }
     },
     "ccff1d20-57b9-402b-9f62-d36451f0be52": {

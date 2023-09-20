@@ -67,30 +67,30 @@
           "type": "collection",
           "settings": {
             "collection": "aderezos-naturales",
-            "image": "shopify:\/\/shop_images\/aderesos_86ad87cf-2e6c-4de1-a384-ad5ae6f3243d.png",
+            "image": "shopify:\/\/shop_images\/ecoaderezos.png",
             "subheading": "",
-            "title": "",
+            "title": "Ver más",
             "url": "",
-            "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h6",
+            "text_position": "place-self-end text-end",
             "text_color": "#ffffff",
             "overlay_color": "#1a1a1a",
-            "overlay_opacity": 4
+            "overlay_opacity": 0
           }
         },
         "collection-2": {
           "type": "collection",
           "settings": {
             "collection": "huevos",
-            "image": "shopify:\/\/shop_images\/ecohuevos.png",
+            "image": "shopify:\/\/shop_images\/ecohuevos_4cd7f476-6da1-4957-8d45-8507b7871ea8.png",
             "subheading": "",
-            "title": "",
+            "title": "Ver más",
             "url": "",
-            "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h6",
+            "text_position": "place-self-end text-end",
             "text_color": "#ffffff",
             "overlay_color": "#1a1a1a",
-            "overlay_opacity": 4
+            "overlay_opacity": 0
           }
         },
         "collection-3": {
@@ -112,15 +112,15 @@
           "type": "collection",
           "settings": {
             "collection": "huerto-y-jardin",
-            "image": "shopify:\/\/shop_images\/organicos.png",
+            "image": "shopify:\/\/shop_images\/organicos1.png",
             "subheading": "",
-            "title": "",
+            "title": "Ver mñas",
             "url": "",
-            "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h6",
+            "text_position": "place-self-end text-end",
             "text_color": "#ffffff",
             "overlay_color": "#1a1a1a",
-            "overlay_opacity": 4
+            "overlay_opacity": 0
           }
         }
       },

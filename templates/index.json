@@ -103,7 +103,7 @@
             "url": "",
             "heading_tag": "h3",
             "text_position": "place-self-center text-center",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "overlay_color": "#1a1a1a",
             "overlay_opacity": 4
           }
@@ -112,15 +112,15 @@
           "type": "collection",
           "settings": {
             "collection": "huerto-y-jardin",
-            "image": "shopify:\/\/shop_images\/Home_BotonOrganicos_d0da31e9-2fd7-4328-a0a7-cbf3d68c4266.png",
+            "image": "shopify:\/\/shop_images\/organicos.png",
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_color": "#1a1a1a",
+            "overlay_opacity": 4
           }
         }
       },

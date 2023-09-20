@@ -30,7 +30,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "span.reversed-link {color: #fff; font-weight: 500;}"
+
       ],
       "settings": {
         "enable_sticky": true,
@@ -43,7 +43,7 @@
         "secondary_menu": "",
         "menu_open_trigger": "hover",
         "opening_from": "bottom",
-        "layout": "logo_left_navigation_center",
+        "layout": "logo_left_navigation_inline",
         "show_social_media": true,
         "show_locale_selector": true,
         "show_country_selector": false,

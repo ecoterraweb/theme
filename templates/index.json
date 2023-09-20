@@ -146,8 +146,8 @@
         "link_text": "Ver Todas",
         "background": "#f5f5f5",
         "background_gradient": "",
-        "text_color": "#505050",
-        "heading_color": "#505050",
+        "text_color": "#1a1a1a",
+        "heading_color": "#1a1a1a",
         "heading_gradient": ""
       }
     },
@@ -474,9 +474,9 @@
         "impact_text_size_ratio": 1,
         "background": "",
         "background_gradient": "",
-        "heading_text_color": "",
+        "heading_text_color": "#000000",
         "heading_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "button_background": "",
         "button_text_color": ""
       }

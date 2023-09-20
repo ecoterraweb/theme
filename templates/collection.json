@@ -23,6 +23,112 @@
         "overlay_opacity": 30
       }
     },
+    "c532b678-4316-4d4d-86a8-c762d1c0b6e8": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15538978127965__c532b678-4316-4d4d-86a8-c762d1c0b6e8-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "aderezos-naturales",
+            "image": "shopify:\/\/shop_images\/Home_BotonAderezos_34ef9dd8-d533-4b2f-8539-1656e7dd73bd.png",
+            "subheading": "",
+            "title": "a",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15538978127965__c532b678-4316-4d4d-86a8-c762d1c0b6e8-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "despensa-pantry",
+            "image": "shopify:\/\/shop_images\/Home_BotonOrganicos.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15538978127965__c532b678-4316-4d4d-86a8-c762d1c0b6e8-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "huevos",
+            "image": "shopify:\/\/shop_images\/Home_BotonHuevos.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "5a3b1dfc-6df5-4860-9f18-a5234073367b": {
+          "type": "collection",
+          "settings": {
+            "collection": "lacteos",
+            "image": "shopify:\/\/shop_images\/Home_BotonLacteos.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "c70ca908-235f-40a2-b955-c75e4e6436a8": {
+          "type": "collection",
+          "settings": {
+            "collection": "fair-foods",
+            "image": "shopify:\/\/shop_images\/Home_BotonProtein_d7813830-2b13-43f2-8506-a0553a24266c.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15538978127965__c532b678-4316-4d4d-86a8-c762d1c0b6e8-collection-1",
+        "template--15538978127965__c532b678-4316-4d4d-86a8-c762d1c0b6e8-collection-2",
+        "template--15538978127965__c532b678-4316-4d4d-86a8-c762d1c0b6e8-collection-3",
+        "5a3b1dfc-6df5-4860-9f18-a5234073367b",
+        "c70ca908-235f-40a2-b955-c75e4e6436a8"
+      ],
+      "custom_css": [
+        ".collection-card__content.prose{display: none;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 5,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "custom_css": [
@@ -45,6 +151,7 @@
   },
   "order": [
     "banner",
+    "c532b678-4316-4d4d-86a8-c762d1c0b6e8",
     "main"
   ]
 }

@@ -150,35 +150,51 @@
         "heading_gradient": ""
       }
     },
-    "0d0a7ed2-4789-466d-be06-3236a7845ab5": {
-      "type": "multiple-images-with-text",
+    "81738a72-0073-43da-bec4-810deabf91f6": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "template--15537490002013__0d0a7ed2-4789-466d-be06-3236a7845ab5-item-1": {
-          "type": "item",
+        "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/farmer-fields-in-rural-china.jpg",
-            "image_rotation_degrees": -4.5,
-            "subheading": "",
-            "title": "Manifiesto",
-            "content": "<p>¿Por qué hacemos lo que hacemos?<\/p>",
-            "button_url": "shopify:\/\/pages\/sobre-nosotros",
-            "button_text": "Ver más"
+            "text": "Manifiesto",
+            "heading_tag": "h1"
+          }
+        },
+        "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>¿Por qué hacemos lo que hacemos?<\/p>"
+          }
+        },
+        "efe4b756-4e9e-42ec-a41e-2680a2183fa9": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Conócenos",
+            "url": "shopify:\/\/pages\/sobre-nosotros",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "template--15537490002013__0d0a7ed2-4789-466d-be06-3236a7845ab5-item-1"
+        "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1",
+        "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-richtext-1",
+        "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
-        "orientation": "normal",
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Pablo-Felipe-Gus-Mariano.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "f1c1110e-c62c-4a89-a208-0e9634598ba2": {
@@ -784,7 +800,7 @@
     "slideshow",
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "collection-list",
-    "0d0a7ed2-4789-466d-be06-3236a7845ab5",
+    "81738a72-0073-43da-bec4-810deabf91f6",
     "f1c1110e-c62c-4a89-a208-0e9634598ba2",
     "impact-text",
     "07bfe67d-62f0-4ef1-be8d-6777dbd342f2",

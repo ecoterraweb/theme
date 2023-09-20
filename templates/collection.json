@@ -3,14 +3,14 @@
     "banner": {
       "type": "collection-banner",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "show_collection_title": true,
-        "show_collection_description": true,
+        "show_collection_title": false,
+        "show_collection_description": false,
         "show_collection_image": true,
         "collection_title_size": "h0",
-        "image_size": "sm",
+        "image_size": "auto",
         "image": "shopify:\/\/shop_images\/ecoaderezos-banner.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",

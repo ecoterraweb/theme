@@ -63,21 +63,6 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "aderezos-naturales",
-            "image": "shopify:\/\/shop_images\/eco-adereso.png",
-            "subheading": "",
-            "title": "Ver más",
-            "url": "",
-            "heading_tag": "h6",
-            "text_position": "place-self-end text-end",
-            "text_color": "#ffffff",
-            "overlay_color": "#1a1a1a",
-            "overlay_opacity": 0
-          }
-        },
         "collection-2": {
           "type": "collection",
           "settings": {
@@ -108,11 +93,11 @@
             "overlay_opacity": 0
           }
         },
-        "504a19e4-093c-4d4c-814a-abe0c051e2a1": {
+        "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "despensa-pantry",
-            "image": "shopify:\/\/shop_images\/eco-despenza.png",
+            "collection": "aderezos-naturales",
+            "image": "shopify:\/\/shop_images\/eco-adereso.png",
             "subheading": "",
             "title": "Ver más",
             "url": "",
@@ -137,14 +122,29 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "504a19e4-093c-4d4c-814a-abe0c051e2a1": {
+          "type": "collection",
+          "settings": {
+            "collection": "despensa-pantry",
+            "image": "shopify:\/\/shop_images\/eco-despenza.png",
+            "subheading": "",
+            "title": "Ver más",
+            "url": "",
+            "heading_tag": "h6",
+            "text_position": "place-self-end text-end",
+            "text_color": "#ffffff",
+            "overlay_color": "#1a1a1a",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "collection-1",
         "collection-2",
         "collection-3",
-        "504a19e4-093c-4d4c-814a-abe0c051e2a1",
-        "8b964281-f506-48b3-bc22-9412fd6969ee"
+        "collection-1",
+        "8b964281-f506-48b3-bc22-9412fd6969ee",
+        "504a19e4-093c-4d4c-814a-abe0c051e2a1"
       ],
       "custom_css": [
         "h2 {font-size: 32px;}",
@@ -811,10 +811,10 @@
         "drag_initial_position": 50,
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
+        "text_color": "#1a1a1a",
+        "before_text_color": "#1a1a1a",
+        "after_text_color": "#f5f5f5",
+        "drag_cursor_background": "#052e1e",
         "drag_cursor_color": "#000000"
       }
     }

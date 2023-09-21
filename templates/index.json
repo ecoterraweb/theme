@@ -6,7 +6,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-principa-large_ad3b81b7-6fba-411c-b15d-9a8d6d9bef4c.png",
+            "image": "shopify:\/\/shop_images\/Header.png",
             "mobile_image": "shopify:\/\/shop_images\/banner-principa-small_cac8f85e-50e8-4ab0-972b-fecf374722dc.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-end text-end",

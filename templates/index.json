@@ -459,25 +459,6 @@
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "1664424230c4756b0e-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "(GIF referente a nuestro modelo)"
-          }
-        },
-        "1664424230c4756b0e-1": {
-          "type": "heading",
-          "settings": {
-            "text": "El Modelo Ecoterra",
-            "heading_tag": "h1"
-          }
-        },
-        "1664424230c4756b0e-2": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        },
         "ba67f0d9-944e-4921-bf42-dc28dd518d6c": {
           "type": "button",
           "settings": {
@@ -485,16 +466,16 @@
             "size": "lg",
             "text": "Ver más",
             "url": "",
-            "background": "",
+            "background": "#803cee",
             "text_color": ""
           }
         }
       },
       "block_order": [
-        "1664424230c4756b0e-0",
-        "1664424230c4756b0e-1",
-        "1664424230c4756b0e-2",
         "ba67f0d9-944e-4921-bf42-dc28dd518d6c"
+      ],
+      "custom_css": [
+        "button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
         "identifier": "Modelo-section",
@@ -502,12 +483,13 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/granja.jpg",
+        "image": "shopify:\/\/shop_images\/Esquema_modelo.png",
+        "mobile_image": "shopify:\/\/shop_images\/Esquema_modelo.png",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "desktop_text_position": "sm:place-self-end sm:text-end",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "featured-collection": {
@@ -652,10 +634,14 @@
     },
     "05a7910e-b59d-4b0e-af73-ee980f02b1d3": {
       "type": "before-after-image",
+      "custom_css": [
+        "h2 {font-size: 35px;}",
+        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+      ],
       "settings": {
         "full_width": true,
-        "subheading": "¿Sabes de dónde vienen tus alimentos?",
-        "title": "Ecotech",
+        "subheading": "ecotech",
+        "title": "¿Sábes de donde vienen tus alimentos?",
         "content": "<p>Con nuestra plataforma colaborativa, conectamos a productores conscientes con consumidores responsables y te contamos todo lo que pasa entre medio.<\/p>",
         "expand_image": false,
         "text_position": "start",

@@ -56,7 +56,7 @@
         "identifier": "",
         "full_width": true,
         "allow_transparent_header": true,
-        "image_size": "sm",
+        "image_size": "auto",
         "controls_type": "numbers",
         "transition_type": "fade",
         "autoplay": true,

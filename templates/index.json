@@ -210,12 +210,12 @@
         "enable_parallax": false,
         "image_size": "lg",
         "image": "shopify:\/\/shop_images\/Sideshow-1.png",
-        "mobile_image": "shopify:\/\/shop_images\/Image_with_text_overlay-1.png",
+        "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
-        "overlay_color": "#052e1e",
-        "overlay_opacity": 0
+        "overlay_color": "#1a1a1a",
+        "overlay_opacity": 20
       }
     },
     "5fa90a1a-bbf1-4703-bc35-e47a1dec0c5c": {
@@ -226,7 +226,7 @@
           "settings": {
             "text": "¿Cómo impactamos?",
             "heading_tag": "h2",
-            "text_color": "",
+            "text_color": "#1a1a1a",
             "gradient": ""
           }
         }
@@ -239,7 +239,7 @@
         "full_width": true,
         "content_width": "large",
         "text_position": "center",
-        "background": "#7dac00",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }

@@ -218,38 +218,52 @@
         "overlay_opacity": 0
       }
     },
-    "f1c1110e-c62c-4a89-a208-0e9634598ba2": {
-      "type": "rich-text",
+    "07bfe67d-62f0-4ef1-be8d-6777dbd342f2": {
+      "type": "impact-text",
       "blocks": {
-        "template--15537490002013__f1c1110e-c62c-4a89-a208-0e9634598ba2-heading-1": {
-          "type": "heading",
+        "427ce89b-75ab-43b9-9339-2ecb9ca61728": {
+          "type": "item",
           "settings": {
-            "text": "¿Cómo impactamos?",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
+            "title": "103.006",
+            "subheading": "Animales en sistemas de bienestar",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
           }
         },
-        "template--15537490002013__f1c1110e-c62c-4a89-a208-0e9634598ba2-richtext-1": {
-          "type": "richtext",
+        "928bd9eb-1684-442b-9ebd-857174eae15a": {
+          "type": "item",
           "settings": {
-            "content": ""
+            "title": "13",
+            "subheading": "Hectáreas destinadas a sistemas sustentables",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
           }
         }
       },
       "block_order": [
-        "template--15537490002013__f1c1110e-c62c-4a89-a208-0e9634598ba2-heading-1",
-        "template--15537490002013__f1c1110e-c62c-4a89-a208-0e9634598ba2-richtext-1"
+        "427ce89b-75ab-43b9-9339-2ecb9ca61728",
+        "928bd9eb-1684-442b-9ebd-857174eae15a"
       ],
-      "disabled": true,
       "settings": {
-        "identifier": "",
         "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(180deg, rgba(94, 0, 208, 0.62), rgba(133, 10, 208, 0.35) 97%)",
+        "text_color": "#1a1a1a",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "impact-text": {
@@ -258,7 +272,7 @@
         "1664424181b38582d5-0": {
           "type": "item",
           "settings": {
-            "title": "100",
+            "title": "60",
             "subheading": "EcoFarmers",
             "content": "",
             "button_text": "",
@@ -270,7 +284,7 @@
         "f2d73b84-3a84-49ea-92af-064788ba9b01": {
           "type": "item",
           "settings": {
-            "title": "8.000",
+            "title": "3.047",
             "subheading": "EcoLovers",
             "content": "",
             "button_text": "",
@@ -282,7 +296,7 @@
         "a0391338-fdd8-476b-8565-9204bd4eb730": {
           "type": "item",
           "settings": {
-            "title": "70",
+            "title": "43",
             "subheading": "EcoPartners",
             "content": "",
             "button_text": "",
@@ -297,7 +311,6 @@
         "f2d73b84-3a84-49ea-92af-064788ba9b01",
         "a0391338-fdd8-476b-8565-9204bd4eb730"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -307,197 +320,11 @@
         "impact_text_size_ratio": 1,
         "background": "",
         "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(180deg, rgba(94, 0, 208, 0.62), rgba(133, 10, 208, 0.35) 97%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "07bfe67d-62f0-4ef1-be8d-6777dbd342f2": {
-      "type": "impact-text",
-      "blocks": {
-        "427ce89b-75ab-43b9-9339-2ecb9ca61728": {
-          "type": "item",
-          "settings": {
-            "title": "170.000",
-            "subheading": "Animales en sistemas de bienestar",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "928bd9eb-1684-442b-9ebd-857174eae15a": {
-          "type": "item",
-          "settings": {
-            "title": "30",
-            "subheading": "Hectáreas destinadas a sistemas sustentables",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "a801fb70-675c-4fb5-8b89-84beb8655d61": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "subheading": "",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "427ce89b-75ab-43b9-9339-2ecb9ca61728",
-        "928bd9eb-1684-442b-9ebd-857174eae15a",
-        "a801fb70-675c-4fb5-8b89-84beb8655d61"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 0.7,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(180deg, rgba(94, 0, 208, 0.62), rgba(133, 10, 208, 0.35) 97%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "88b0039c-bf07-43e9-afd1-c40c71cbbdf3": {
-      "type": "rich-text",
-      "blocks": {
-        "6bcae636-9c2e-4211-9b62-d055b594668d": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>El camino para cambiar el mundo es largo pero ¡Lo lograremos juntos! Comprometete con el cambio y prefiere alimentos con propósito<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "6bcae636-9c2e-4211-9b62-d055b594668d"
-      ],
-      "disabled": true,
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "71eb9e12-ff9b-4ab4-8ed8-4791e9f2155c": {
-      "type": "impact-text-design",
-      "blocks": {
-        "template--15538978488413__71eb9e12-ff9b-4ab4-8ed8-4791e9f2155c-item-1": {
-          "type": "item",
-          "settings": {
-            "title": "60",
-            "superheading": "",
-            "subheading": "EcoFarmers",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "b1b7d185-a86f-47f5-9380-4b05d2f2b83c": {
-          "type": "item",
-          "settings": {
-            "title": "3.047",
-            "superheading": "",
-            "subheading": "EcoLovers",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "c84e1395-0b06-4170-91ee-131114c5b47a": {
-          "type": "item",
-          "settings": {
-            "title": "43",
-            "superheading": "",
-            "subheading": "EcoPartners",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "098b2b50-a01e-4b3b-b268-1659c6f97a8e": {
-          "type": "item",
-          "settings": {
-            "title": "13",
-            "superheading": "",
-            "subheading": "Hectáreas destinadas a sistemas sustentables",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "ea042353-8fd2-491a-805e-b3852a8a55aa": {
-          "type": "item",
-          "settings": {
-            "title": "103.006",
-            "superheading": "",
-            "subheading": "Animales en sistemas de bienestar",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "template--15538978488413__71eb9e12-ff9b-4ab4-8ed8-4791e9f2155c-item-1",
-        "b1b7d185-a86f-47f5-9380-4b05d2f2b83c",
-        "c84e1395-0b06-4170-91ee-131114c5b47a",
-        "098b2b50-a01e-4b3b-b268-1659c6f97a8e",
-        "ea042353-8fd2-491a-805e-b3852a8a55aa"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "¿Cómo impactamos?",
-        "heading_gradient_title": "",
-        "text": "Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. v Lorem Ipsum dolor sit amet.",
-        "div_alignment": "center",
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1.3,
-        "background": "",
-        "background_gradient": "linear-gradient(329deg, rgba(0, 66, 40, 1) 16%, rgba(0, 66, 40, 1) 52%, rgba(5, 46, 30, 1) 87%)",
-        "heading_text_color": "#7dac00",
+        "heading_text_color": "#803cee",
         "heading_gradient": "",
-        "text_color": "#ffffff",
+        "text_color": "#1a1a1a",
         "button_background": "",
-        "button_text_color": "rgba(0,0,0,0)"
+        "button_text_color": ""
       }
     },
     "image-link-blocks": {
@@ -825,11 +652,8 @@
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "collection-list",
     "81738a72-0073-43da-bec4-810deabf91f6",
-    "f1c1110e-c62c-4a89-a208-0e9634598ba2",
-    "impact-text",
     "07bfe67d-62f0-4ef1-be8d-6777dbd342f2",
-    "88b0039c-bf07-43e9-afd1-c40c71cbbdf3",
-    "71eb9e12-ff9b-4ab4-8ed8-4791e9f2155c",
+    "impact-text",
     "image-link-blocks",
     "scrolling-text",
     "image-with-text-overlay",

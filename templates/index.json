@@ -24,32 +24,10 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "c1cf07cd-403f-4f3b-9e51-24b3dc780557": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-principa-large.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
-        "slide-1",
-        "c1cf07cd-403f-4f3b-9e51-24b3dc780557"
+        "slide-1"
       ],
       "settings": {
         "identifier": "",

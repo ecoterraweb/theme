@@ -139,11 +139,12 @@
         "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 50,
-            "vertical_position": 22,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
-            "icon_width": 32,
+            "horizontal_position": 48,
+            "vertical_position": 29,
+            "horizontal_position_mobile": 45,
+            "vertical_position_mobile": 35,
+            "icon": "shopify:\/\/shop_images\/agriculture.png",
+            "icon_width": 56,
             "title": "EcoAgri Lab",
             "content": "<p>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
           }
@@ -180,7 +181,8 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Modelo_AgriFoodTech_Hotspot.png",
+        "image": "shopify:\/\/shop_images\/Esquema_modelo.png",
+        "mobile_image": "shopify:\/\/shop_images\/Esquema_modelo2.png",
         "title": "",
         "content": "",
         "button_text": "",

@@ -56,7 +56,9 @@
           "type": "item",
           "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/agriculture.png",
             "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/agriculture.png",
             "icon_width": 48,
             "title": "Manifiesto",
             "content": "<p>Imagínate esto: cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<br\/><\/p><p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.<\/p><p><br\/>La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p><p><br\/>¿Y qué papel juega Ecoterra en todo esto? Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p><br\/>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<br\/><\/p>"
@@ -66,14 +68,13 @@
       "block_order": [
         "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-1"
       ],
-      "disabled": true,
       "settings": {
         "identifier": "Manifiesto-section",
         "full_width": true,
         "stack_on_mobile": false,
         "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
+        "desktop_image_effect": "fade",
+        "image_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": "#1a1a1a",
@@ -101,7 +102,6 @@
         "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-play-1",
         "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -114,27 +114,53 @@
         "overlay_opacity": 30
       }
     },
-    "bcd1dd79-8d7b-49e1-ba7c-35b8a692f673": {
-      "type": "images-with-text-paragraph",
-      "disabled": true,
+    "008f5159-b527-4c70-b38e-af80df1ce35e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15548375433309__008f5159-b527-4c70-b38e-af80df1ce35e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Modelo",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "c88cc555-f859-4126-b387-f7baa250a506": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ecoterra_frames_alta-13.jpg",
+            "width_mode": "custom",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
+        "ab0793de-8a63-4478-b840-a49dfb146b54": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "template--15548375433309__008f5159-b527-4c70-b38e-af80df1ce35e-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ecoterra es donde la innovación se encuentra con la acción y la comunidad se convierte en catalizadora de cambio. Nuestra plataforma une a EcoFarmers, EcoPartners y EcoLovers, creando un <strong>ciclo virtuoso de impacto sostenible.<\/strong><\/p><p>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan esa sostenibilidad a nuevas escalas y los EcoLovers <strong>hacen que todo valga la pena<\/strong>, eligiendo<strong> un futuro más verde<\/strong> con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que la sostenibilidad no solo es posible, sino que está sucediendo ahora.<br\/><\/p><p>En Ecoterra, cada click, cada elección y cada interacción es un paso optimista hacia un futuro más sostenible.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__008f5159-b527-4c70-b38e-af80df1ce35e-heading-1",
+        "c88cc555-f859-4126-b387-f7baa250a506",
+        "ab0793de-8a63-4478-b840-a49dfb146b54",
+        "template--15548375433309__008f5159-b527-4c70-b38e-af80df1ce35e-richtext-1"
+      ],
       "settings": {
-        "identifier": "Modelo-section",
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
+        "identifier": "",
+        "full_width": false,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": "#1a1a1a",
-        "heading_color": "#000000",
-        "heading_gradient": "",
-        "image": "shopify:\/\/shop_images\/89-1000x600.jpg",
-        "icon": "none",
-        "icon_width": 48,
-        "title": "Modelo",
-        "content": "<p>Ecoterra es donde la innovación se encuentra con la acción y la comunidad se convierte en catalizadora de cambio. Nuestra plataforma une a EcoFarmers, EcoPartners y EcoLovers, creando un ciclo virtuoso de impacto sostenible.<\/p><p>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan esa sostenibilidad a nuevas escalas y los EcoLovers hacen que todo valga la pena, eligiendo un futuro más verde con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que la sostenibilidad no solo es posible, sino que está sucediendo ahora.<br\/><\/p><p>En Ecoterra, cada click, cada elección y cada interacción es un paso optimista hacia un futuro más sostenible. <br\/><\/p>",
-        "columns": "2"
+        "text_color": "#000000"
       }
     },
     "176bfb17-1b54-464d-8dea-82b65abe29a2": {
@@ -406,7 +432,7 @@
     "f578399d-fcbf-449d-9cff-a4983346d5b7",
     "dd3e4515-ba05-4240-8262-f020dbffcfe5",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
-    "bcd1dd79-8d7b-49e1-ba7c-35b8a692f673",
+    "008f5159-b527-4c70-b38e-af80df1ce35e",
     "176bfb17-1b54-464d-8dea-82b65abe29a2",
     "dd9eb39e-7511-47e7-9add-7ee2a994dad3",
     "d34757aa-3c4c-44ab-b9f5-4956ed831ec4",

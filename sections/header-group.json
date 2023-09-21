@@ -33,7 +33,7 @@
 
       ],
       "settings": {
-        "enable_sticky": false,
+        "enable_sticky": true,
         "hide_on_scroll": false,
         "logo": "shopify:\/\/shop_images\/logoeco.svg",
         "logo_max_width": 180,

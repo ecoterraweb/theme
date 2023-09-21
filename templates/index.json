@@ -218,52 +218,30 @@
         "overlay_opacity": 0
       }
     },
-    "07bfe67d-62f0-4ef1-be8d-6777dbd342f2": {
-      "type": "impact-text",
+    "5fa90a1a-bbf1-4703-bc35-e47a1dec0c5c": {
+      "type": "rich-text",
       "blocks": {
-        "427ce89b-75ab-43b9-9339-2ecb9ca61728": {
-          "type": "item",
+        "template--15546130071645__5fa90a1a-bbf1-4703-bc35-e47a1dec0c5c-heading-1": {
+          "type": "heading",
           "settings": {
-            "title": "103.006",
-            "subheading": "Animales en sistemas de bienestar",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "928bd9eb-1684-442b-9ebd-857174eae15a": {
-          "type": "item",
-          "settings": {
-            "title": "13",
-            "subheading": "Hectáreas destinadas a sistemas sustentables",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
+            "text": "¿Cómo impactamos?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
           }
         }
       },
       "block_order": [
-        "427ce89b-75ab-43b9-9339-2ecb9ca61728",
-        "928bd9eb-1684-442b-9ebd-857174eae15a"
+        "template--15546130071645__5fa90a1a-bbf1-4703-bc35-e47a1dec0c5c-heading-1"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#7dac00",
         "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(180deg, rgba(94, 0, 208, 0.62), rgba(133, 10, 208, 0.35) 97%)",
-        "text_color": "#1a1a1a",
-        "button_background": "",
-        "button_text_color": ""
+        "text_color": ""
       }
     },
     "impact-text": {
@@ -318,13 +296,61 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1,
-        "background": "",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "heading_text_color": "#803cee",
         "heading_gradient": "",
         "text_color": "#1a1a1a",
-        "button_background": "",
+        "button_background": "rgba(0,0,0,0)",
         "button_text_color": ""
+      }
+    },
+    "07bfe67d-62f0-4ef1-be8d-6777dbd342f2": {
+      "type": "impact-text",
+      "blocks": {
+        "427ce89b-75ab-43b9-9339-2ecb9ca61728": {
+          "type": "item",
+          "settings": {
+            "title": "103.006",
+            "subheading": "Animales en sistemas de bienestar",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "928bd9eb-1684-442b-9ebd-857174eae15a": {
+          "type": "item",
+          "settings": {
+            "title": "13",
+            "subheading": "Hectáreas destinadas a sistemas sustentables",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "427ce89b-75ab-43b9-9339-2ecb9ca61728",
+        "928bd9eb-1684-442b-9ebd-857174eae15a"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 0.7,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#7dac00",
+        "heading_gradient": "",
+        "text_color": "#1a1a1a",
+        "button_background": "",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "image-link-blocks": {
@@ -652,8 +678,9 @@
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "collection-list",
     "81738a72-0073-43da-bec4-810deabf91f6",
-    "07bfe67d-62f0-4ef1-be8d-6777dbd342f2",
+    "5fa90a1a-bbf1-4703-bc35-e47a1dec0c5c",
     "impact-text",
+    "07bfe67d-62f0-4ef1-be8d-6777dbd342f2",
     "image-link-blocks",
     "scrolling-text",
     "image-with-text-overlay",

@@ -111,7 +111,7 @@
         "poster": "shopify:\/\/shop_images\/Captura_de_Pantalla_2023-08-30_a_la_s_4.20.24_p._m..png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 8
       }
     },
     "008f5159-b527-4c70-b38e-af80df1ce35e": {
@@ -143,7 +143,7 @@
         "template--15548375433309__008f5159-b527-4c70-b38e-af80df1ce35e-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ecoterra es donde la innovación se encuentra con la acción y la comunidad se convierte en catalizadora de cambio. Nuestra plataforma une a EcoFarmers, EcoPartners y EcoLovers, creando un <strong>ciclo virtuoso de impacto sostenible.<\/strong><\/p><p>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan esa sostenibilidad a nuevas escalas y los EcoLovers <strong>hacen que todo valga la pena<\/strong>, eligiendo<strong> un futuro más verde<\/strong> con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que la sostenibilidad no solo es posible, sino que está sucediendo ahora.<br\/><\/p><p>En Ecoterra, cada click, cada elección y cada interacción es un paso optimista hacia un futuro más sostenible.<\/p>"
+            "content": "<p>Ecoterra es donde la innovación se encuentra con la acción y la comunidad se convierte en catalizadora de cambio. <strong>Nuestra plataforma une a EcoFarmers, EcoPartners y EcoLovers<\/strong>, creando un <strong>ciclo virtuoso de impacto sostenible.<\/strong><\/p><p>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan esa sostenibilidad a nuevas escalas y los EcoLovers <strong>hacen que todo valga la pena<\/strong>, <strong>eligiendo un futuro más verde<\/strong> con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que la sostenibilidad no solo es posible, sino que está sucediendo ahora.<br\/><\/p><p>En Ecoterra, cada click, cada elección y cada interacción es un paso optimista hacia un futuro más sostenible.<\/p>"
           }
         }
       },
@@ -265,7 +265,7 @@
         "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#000000"
       }
     },
     "d34757aa-3c4c-44ab-b9f5-4956ed831ec4": {
@@ -324,7 +324,7 @@
         "background_gradient": "",
         "heading_text_color": "",
         "heading_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "button_background": "",
         "button_text_color": ""
       }

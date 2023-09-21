@@ -146,7 +146,7 @@
             "horizontal_position": 48,
             "vertical_position": 28,
             "horizontal_position_mobile": 47,
-            "vertical_position_mobile": 28,
+            "vertical_position_mobile": 35,
             "icon": "shopify:\/\/shop_images\/agriculture.png",
             "icon_width": 44,
             "title": "EcoAgri Lab",
@@ -158,8 +158,8 @@
           "settings": {
             "horizontal_position": 29,
             "vertical_position": 62,
-            "horizontal_position_mobile": 35,
-            "vertical_position_mobile": 70,
+            "horizontal_position_mobile": 11,
+            "vertical_position_mobile": 58,
             "icon": "shopify:\/\/shop_images\/account_tree.png",
             "icon_width": 44,
             "title": "EcoTech Lab",
@@ -187,7 +187,7 @@
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Esquema_modelo.png",
-        "mobile_image": "shopify:\/\/shop_images\/Esquema_modelo.png",
+        "mobile_image": "shopify:\/\/shop_images\/Esquema_modelo-1.png",
         "title": "",
         "content": "",
         "button_text": "",

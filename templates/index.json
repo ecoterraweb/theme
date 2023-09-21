@@ -6,14 +6,14 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Header_8c2d2f35-54f7-4e80-b1fa-c1af1fa66c8f.png",
+            "image": "shopify:\/\/shop_images\/Header_4ac0cc29-435f-4ccf-96f1-83edacd46dfa.png",
             "mobile_image": "shopify:\/\/shop_images\/banner-principa-small_cac8f85e-50e8-4ab0-972b-fecf374722dc.png",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-start-end text-end",
+            "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "Elige con propósito",
-            "heading_tag": "h0",
+            "heading_tag": "h1",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",

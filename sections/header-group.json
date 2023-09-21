@@ -30,7 +30,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "div.dropdown-menu{border-color:none;}"
+
       ],
       "settings": {
         "enable_sticky": true,

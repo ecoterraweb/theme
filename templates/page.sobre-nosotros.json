@@ -130,7 +130,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/ecoterra_frames_alta-13.jpg",
-            "width_mode": "custom",
+            "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
           }

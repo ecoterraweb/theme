@@ -218,6 +218,105 @@
         "overlay_opacity": 20
       }
     },
+    "f6845132-3793-464a-b1d9-3b7b0ab1c835": {
+      "type": "impact-text-design",
+      "blocks": {
+        "template--15546130071645__f6845132-3793-464a-b1d9-3b7b0ab1c835-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "100",
+            "superheading": "",
+            "subheading": "EcoFarmers",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "6bd257fe-8ca4-4edd-ae90-eaf9db43920f": {
+          "type": "item",
+          "settings": {
+            "title": "100",
+            "superheading": "",
+            "subheading": "EcoLovers",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "491911ff-d434-4b87-95f3-d95c9eddc998": {
+          "type": "item",
+          "settings": {
+            "title": "100",
+            "superheading": "",
+            "subheading": "EcoPartners",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "9a608366-6269-493f-a2f3-ddd302a729c7": {
+          "type": "item",
+          "settings": {
+            "title": "100",
+            "superheading": "",
+            "subheading": "Animales en sistema de bienestar",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "d154b728-4572-47ce-a86d-5aa76d259080": {
+          "type": "item",
+          "settings": {
+            "title": "100",
+            "superheading": "",
+            "subheading": "Hectáreas destinadas a sistemas sustentables",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130071645__f6845132-3793-464a-b1d9-3b7b0ab1c835-item-1",
+        "6bd257fe-8ca4-4edd-ae90-eaf9db43920f",
+        "491911ff-d434-4b87-95f3-d95c9eddc998",
+        "9a608366-6269-493f-a2f3-ddd302a729c7",
+        "d154b728-4572-47ce-a86d-5aa76d259080"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "¿Cómo impactamos?",
+        "heading_gradient_title": "",
+        "text": "Texto",
+        "div_alignment": "center",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1.4,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#803cee",
+        "heading_gradient": "",
+        "text_color": "#1a1a1a",
+        "button_background": "",
+        "button_text_color": "#00a341"
+      }
+    },
     "5fa90a1a-bbf1-4703-bc35-e47a1dec0c5c": {
       "type": "rich-text",
       "blocks": {
@@ -353,109 +452,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "image-link-blocks": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "1664424046b00c932c-0": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-1": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-2": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-3": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "1664424046b00c932c-0",
-        "1664424046b00c932c-1",
-        "1664424046b00c932c-2",
-        "1664424046b00c932c-3",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "block_size": "medium",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -525,113 +521,6 @@
         "product_card_text_color": ""
       }
     },
-    "media-grid": {
-      "type": "media-grid",
-      "blocks": {
-        "item-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HuevosOrganicos.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "shopify:\/\/products\/huevo-organico",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MantequillasinSal_a79a7a49-abd9-4915-8301-a4b5df5d22e0.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "shopify:\/\/products\/mantequilla-sin-sal-ecoterra-de-vacas-libres-a-pastoreo-250-g",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/azucarorganica.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "shopify:\/\/products\/azucar-organica-ecoterra-400-g",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "29246d34-c6e0-4373-84f6-b15e57736a00": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "shopify:\/\/products\/caja-12-leche-descremada-ecoterra-de-vacas-libres-a-pastoreo-1-lt",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "29246d34-c6e0-4373-84f6-b15e57736a00"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
     "05a7910e-b59d-4b0e-af73-ee980f02b1d3": {
       "type": "before-after-image",
       "custom_css": [
@@ -664,14 +553,12 @@
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "collection-list",
     "81738a72-0073-43da-bec4-810deabf91f6",
+    "f6845132-3793-464a-b1d9-3b7b0ab1c835",
     "5fa90a1a-bbf1-4703-bc35-e47a1dec0c5c",
     "impact-text",
     "07bfe67d-62f0-4ef1-be8d-6777dbd342f2",
-    "image-link-blocks",
-    "scrolling-text",
     "image-with-text-overlay",
     "featured-collection",
-    "media-grid",
     "05a7910e-b59d-4b0e-af73-ee980f02b1d3"
   ]
 }

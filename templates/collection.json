@@ -175,12 +175,40 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "3fc3f2a4-5a95-40d7-9d58-c97fa896db7d": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "despensa-pantry",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Eco Depensa",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "banner",
     "c532b678-4316-4d4d-86a8-c762d1c0b6e8",
     "main",
-    "ccfe339c-59f8-499d-9c8d-807652b55346"
+    "ccfe339c-59f8-499d-9c8d-807652b55346",
+    "3fc3f2a4-5a95-40d7-9d58-c97fa896db7d"
   ]
 }

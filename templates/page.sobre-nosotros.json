@@ -54,6 +54,7 @@
       "blocks": {
         "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-1": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "icon_width": 48,
@@ -65,6 +66,7 @@
       "block_order": [
         "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-1"
       ],
+      "disabled": true,
       "settings": {
         "identifier": "Manifiesto-section",
         "full_width": true,
@@ -99,6 +101,7 @@
         "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-play-1",
         "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -113,6 +116,7 @@
     },
     "bcd1dd79-8d7b-49e1-ba7c-35b8a692f673": {
       "type": "images-with-text-paragraph",
+      "disabled": true,
       "settings": {
         "identifier": "Modelo-section",
         "full_width": true,
@@ -139,10 +143,10 @@
         "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 48,
-            "vertical_position": 20,
-            "horizontal_position_mobile": 45,
-            "vertical_position_mobile": 35,
+            "horizontal_position": 55,
+            "vertical_position": 17,
+            "horizontal_position_mobile": 47,
+            "vertical_position_mobile": 28,
             "icon": "shopify:\/\/shop_images\/agriculture.png",
             "icon_width": 44,
             "title": "EcoAgri Lab",

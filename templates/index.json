@@ -6,8 +6,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sideshow-1.png",
-            "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
+            "image": "shopify:\/\/shop_images\/Image_with_text_overlay.png",
+            "mobile_image": "shopify:\/\/shop_images\/Image_with_text_overlay-1.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -174,7 +174,7 @@
           "type": "heading",
           "settings": {
             "text": "Manifiesto",
-            "heading_tag": "h1"
+            "heading_tag": "h2"
           }
         },
         "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-richtext-1": {
@@ -209,7 +209,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/Image_with_text_overlay.png",
+        "image": "shopify:\/\/shop_images\/Sideshow-1.png",
         "mobile_image": "shopify:\/\/shop_images\/Image_with_text_overlay-1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",

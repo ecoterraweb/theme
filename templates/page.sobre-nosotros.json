@@ -140,7 +140,7 @@
           "type": "item",
           "settings": {
             "horizontal_position": 48,
-            "vertical_position": 29,
+            "vertical_position": 20,
             "horizontal_position_mobile": 45,
             "vertical_position_mobile": 35,
             "icon": "shopify:\/\/shop_images\/agriculture.png",
@@ -183,7 +183,7 @@
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Esquema_modelo.png",
-        "mobile_image": "shopify:\/\/shop_images\/Esquema_modelo2.png",
+        "mobile_image": "shopify:\/\/shop_images\/Esquema_modelo.png",
         "title": "",
         "content": "",
         "button_text": "",

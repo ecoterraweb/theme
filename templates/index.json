@@ -419,7 +419,7 @@
         "content": "<p>Con nuestra plataforma colaborativa, conectamos a productores conscientes con consumidores responsables y te contamos todo lo que pasa entre medio.<\/p>",
         "before_image": "shopify:\/\/shop_images\/before.png",
         "after_image": "shopify:\/\/shop_images\/gallina.png",
-        "expand_image": false,
+        "expand_image": true,
         "text_position": "center",
         "before_after_text_position": "top",
         "before_text": "",

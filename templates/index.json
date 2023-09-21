@@ -63,6 +63,21 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "aderezos-naturales",
+            "image": "shopify:\/\/shop_images\/eco-adereso.png",
+            "subheading": "",
+            "title": "Ver más",
+            "url": "",
+            "heading_tag": "h6",
+            "text_position": "place-self-end text-end",
+            "text_color": "#ffffff",
+            "overlay_color": "#1a1a1a",
+            "overlay_opacity": 0
+          }
+        },
         "collection-2": {
           "type": "collection",
           "settings": {
@@ -83,21 +98,6 @@
           "settings": {
             "collection": "lacteos",
             "image": "shopify:\/\/shop_images\/eco-lacteos.png",
-            "subheading": "",
-            "title": "Ver más",
-            "url": "",
-            "heading_tag": "h6",
-            "text_position": "place-self-end text-end",
-            "text_color": "#ffffff",
-            "overlay_color": "#1a1a1a",
-            "overlay_opacity": 0
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "aderezos-naturales",
-            "image": "shopify:\/\/shop_images\/eco-adereso.png",
             "subheading": "",
             "title": "Ver más",
             "url": "",
@@ -140,14 +140,14 @@
         }
       },
       "block_order": [
+        "collection-1",
         "collection-2",
         "collection-3",
-        "collection-1",
         "8b964281-f506-48b3-bc22-9412fd6969ee",
         "504a19e4-093c-4d4c-814a-abe0c051e2a1"
       ],
       "custom_css": [
-        "h2 {font-size: 32px;}",
+        "h2 {font-size: 35px;}",
         "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
       ],
       "settings": {
@@ -188,10 +188,10 @@
           "settings": {
             "style": "fill",
             "size": "lg",
-            "text": "conócenos",
+            "text": "Conócenos",
             "url": "shopify:\/\/pages\/sobre-nosotros",
-            "background": "",
-            "text_color": ""
+            "background": "#1a1a1a",
+            "text_color": "#ffffff"
           }
         }
       },
@@ -201,7 +201,7 @@
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
       ],
       "custom_css": [
-        "a.button {background-color: #e81ad9; letter-spacing: 0.1em; font-weight: 500; font-variant-caps: small-caps;}"
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
         "identifier": "",

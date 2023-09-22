@@ -272,7 +272,7 @@ function initMap(elementId, points, templateId = null) {
     console.log('point', point);
     console.log('template[0]', template[0]);
     // Crear marcador
-    if(template[0].claimFiles){
+    if(template[0]){
       var marker = new google.maps.Marker({
         position: { lat: point.location.lat, lng: point.location.lng },
         map: map,

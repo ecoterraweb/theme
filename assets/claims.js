@@ -244,10 +244,7 @@ function pushClaimIfNotExist(claim, producer = null) {
   const claimExists = claims.some(
     (existingClaim) => existingClaim.templateId === claim.templateId
   );
-  if (!claimExists) {
-    if(producer){
-      console.log('producer',producer);
-    }
+  if (!claimExists && claim.claimFiles) {
     console.log('claim',claim);
     claims.push(claim);
   }

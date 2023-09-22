@@ -334,7 +334,7 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1.5,
-        "impact_text_size_ratio_mobile": 1.5,
+        "impact_text_size_ratio_mobile": 2,
         "background": "#000000",
         "background_gradient": "",
         "heading_text_color": "#1a1a1a",

@@ -364,7 +364,8 @@ function initMap(elementId, points, templateId = null) {
         });
       });
     });
-  })};
+    }
+  });
   // Capturamos todos los elementos con la clase claim__popup__open
 }
 // Función para cerrar el InfoWindow actualmente abierto

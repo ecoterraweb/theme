@@ -52,15 +52,6 @@
     "81f56374-33bb-4153-b87f-6f5be4026165": {
       "type": "rich-text",
       "blocks": {
-        "038f6b67-d293-44c8-8c60-98662539149a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sin-titulo-1.png",
-            "width_mode": "custom",
-            "max_width": 390,
-            "mobile_max_width": 400
-          }
-        },
         "template--15548375433309__81f56374-33bb-4153-b87f-6f5be4026165-heading-1": {
           "type": "heading",
           "settings": {
@@ -76,6 +67,15 @@
             "content": "<p>Imagínate esto: cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<\/p>"
           }
         },
+        "038f6b67-d293-44c8-8c60-98662539149a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sin-titulo-1.png",
+            "width_mode": "custom",
+            "max_width": 390,
+            "mobile_max_width": 400
+          }
+        },
         "a3aa1147-75eb-44dd-9fbe-aaf8db0a8a07": {
           "type": "divider",
           "settings": {
@@ -89,9 +89,9 @@
         }
       },
       "block_order": [
-        "038f6b67-d293-44c8-8c60-98662539149a",
         "template--15548375433309__81f56374-33bb-4153-b87f-6f5be4026165-heading-1",
         "template--15548375433309__81f56374-33bb-4153-b87f-6f5be4026165-richtext-1",
+        "038f6b67-d293-44c8-8c60-98662539149a",
         "a3aa1147-75eb-44dd-9fbe-aaf8db0a8a07",
         "d442a946-5876-4066-a293-b89005874a5f"
       ],

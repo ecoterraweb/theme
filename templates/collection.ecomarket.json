@@ -247,6 +247,33 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "c1408482-f4b1-40e1-b630-e46677f35b14": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "fair-foods",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "EcoProtein",
+        "content": "",
+        "link_url": "",
+        "link_text": "Ver todos",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -256,6 +283,7 @@
     "490508c8-0b7c-41f9-af8d-508320fe9ec6",
     "7042b7a2-3d72-4854-ad98-282952ed6324",
     "299ff626-3484-4c1b-8ea4-22bd676eac56",
-    "4c1ab09a-2ab5-4759-ac6c-95911ed5cf32"
+    "4c1ab09a-2ab5-4759-ac6c-95911ed5cf32",
+    "c1408482-f4b1-40e1-b630-e46677f35b14"
   ]
 }

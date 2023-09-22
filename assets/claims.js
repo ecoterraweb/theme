@@ -270,11 +270,13 @@ function initMap(elementId, points, templateId = null) {
   points.forEach(function (point) {
     const template = point.claims.filter((e) => e.templateId == templateId);
     // Crear marcador
-    var marker = new google.maps.Marker({
-      position: { lat: point.location.lat, lng: point.location.lng },
-      map: map,
-      title: point.title,
-    });
+    if(template[0].claimFiles){
+      var marker = new google.maps.Marker({
+        position: { lat: point.location.lat, lng: point.location.lng },
+        map: map,
+        title: point.title,
+      });
+    }
     // Crear el contenido personalizado con HTML
     // '<img src="' +
     // point.imgUrl +

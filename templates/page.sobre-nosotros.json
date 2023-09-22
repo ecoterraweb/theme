@@ -49,6 +49,39 @@
         "background_gradient": ""
       }
     },
+    "2fd160cb-cfa1-4c86-84fa-5b8689889a46": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Manifiesto",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h6>Imagínate esto: <br\/>cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-heading-1",
+        "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-richtext-1"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
     "81f56374-33bb-4153-b87f-6f5be4026165": {
       "type": "rich-text",
       "blocks": {
@@ -102,6 +135,7 @@
         "adaeae32-d23c-4658-bcf9-5dec76802da1",
         "d442a946-5876-4066-a293-b89005874a5f"
       ],
+      "disabled": true,
       "settings": {
         "identifier": "",
         "full_width": true,
@@ -454,11 +488,52 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "3b43f0e0-6095-4ab6-a15e-0726e6249d75": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--15548375433309__3b43f0e0-6095-4ab6-a15e-0726e6249d75-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15548375433309__3b43f0e0-6095-4ab6-a15e-0726e6249d75-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__3b43f0e0-6095-4ab6-a15e-0726e6249d75-item-1",
+        "template--15548375433309__3b43f0e0-6095-4ab6-a15e-0726e6249d75-item-2"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
     "main",
     "f578399d-fcbf-449d-9cff-a4983346d5b7",
+    "2fd160cb-cfa1-4c86-84fa-5b8689889a46",
     "81f56374-33bb-4153-b87f-6f5be4026165",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "008f5159-b527-4c70-b38e-af80df1ce35e",
@@ -468,6 +543,7 @@
     "1a7ad382-718d-4d3c-971c-d883319947a1",
     "ccff1d20-57b9-402b-9f62-d36451f0be52",
     "63303b90-3a37-407c-9926-07e8e5d5910f",
-    "f091270f-8f95-48b7-88b0-50147dbf74c4"
+    "f091270f-8f95-48b7-88b0-50147dbf74c4",
+    "3b43f0e0-6095-4ab6-a15e-0726e6249d75"
   ]
 }

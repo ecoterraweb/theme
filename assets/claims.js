@@ -245,7 +245,6 @@ function pushClaimIfNotExist(claim, producer = null) {
     (existingClaim) => existingClaim.templateId === claim.templateId
   );
   if (!claimExists && claim.claimFiles) {
-    console.log('claim',claim);
     claims.push(claim);
   }
 }
@@ -270,6 +269,7 @@ function initMap(elementId, points, templateId = null) {
   // Iterar sobre los puntos y agregar marcadores al mapa
   points.forEach(function (point) {
     const template = point.claims.filter((e) => e.templateId == templateId);
+    console.log('point', point);
     // Crear marcador
     if(template[0].claimFiles){
       var marker = new google.maps.Marker({

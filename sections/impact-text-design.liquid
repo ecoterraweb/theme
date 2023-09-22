@@ -31,6 +31,11 @@
       position: relative;
       z-index: 1;
     }
+    @media screen and (max-width: 700px) {
+      #shopify-section-{{ section.id }}{
+        --impact-text-font-size: calc(min(15vw, var(--container-max-width) * 0.15) / {{ section.blocks.size }} * {{ section.settings.impact_text_size_ratio_mobile }});
+      }
+    }
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }}{
         --impact-text-font-size: calc(min(15vw, var(--container-max-width) * 0.15) / {{ section.blocks.size }} * {{ section.settings.impact_text_size_ratio }});
@@ -308,6 +313,14 @@
         "type": "range",
         "id": "impact_text_size_ratio",
         "label": "Impact text size ratio",
+        "min": 0.5,
+        "max": 1.5,
+        "step": 0.1,
+        "default": 1
+      }, {
+        "type": "range",
+        "id": "impact_text_size_ratio_mobile",
+        "label": "Impact text size ratio mobile",
         "min": 0.5,
         "max": 1.5,
         "step": 0.1,

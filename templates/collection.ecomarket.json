@@ -35,10 +35,79 @@
         "show_filter_values_count": true,
         "open_first_filter_group": false
       }
+    },
+    "c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-1",
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-2",
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 5,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8"
   ]
 }

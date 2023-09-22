@@ -8,7 +8,7 @@ async function fetchData() {
     );
 
     const data = await response.json();
-    product = data.product;
+    const product = data.product;
     // llenamos los claims
     if (product.claims.length > 0) {
       product.claims.forEach((element) => {
@@ -19,7 +19,7 @@ async function fetchData() {
       product.producers.forEach((producer) => {
         if (producer.claims.length > 0) {
           producer.claims.forEach((claim) => {
-            pushClaimIfNotExist(claim);
+            pushClaimIfNotExist(claim, producer);
           });
         }
       });
@@ -240,11 +240,14 @@ function formatDateToDDMMYYYY(dateString) {
   return `${day}/${month}/${year}`;
 }
 
-function pushClaimIfNotExist(claim) {
+function pushClaimIfNotExist(claim, producer = null) {
   const claimExists = claims.some(
     (existingClaim) => existingClaim.templateId === claim.templateId
   );
   if (!claimExists) {
+    if(producer){
+      console.log('producer',producer);
+    }
     console.log('claim',claim);
     claims.push(claim);
   }

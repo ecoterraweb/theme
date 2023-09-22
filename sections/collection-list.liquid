@@ -70,7 +70,9 @@ LIQUID
                         <p class="bold">{{ block.settings.subheading | escape }}</p>
                       {%- endif -%}
 
-                      <p class="{{ block.settings.heading_tag }}">{{ block.settings.title | escape }}</p>
+                      {%- if block.settings.title != blank -%}
+                        <p class="{{ block.settings.heading_tag }}">{{ block.settings.title | default: collection.title | escape }}</p>
+                      {%- endif -%}
                     </div>
 
                     {%- unless block.settings.text_position contains 'place-self-end' -%}

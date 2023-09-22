@@ -41,7 +41,8 @@
         "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "despensa-pantry",
+            "image": "shopify:\/\/shop_images\/eco-despenza.png",
             "subheading": "",
             "title": "",
             "url": "",

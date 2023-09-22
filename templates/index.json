@@ -270,7 +270,7 @@
         "template--15546130071645__f6845132-3793-464a-b1d9-3b7b0ab1c835-item-1": {
           "type": "item",
           "settings": {
-            "title": "100",
+            "title": "150",
             "superheading": "",
             "subheading": "EcoFarmers",
             "content": "",
@@ -283,7 +283,7 @@
         "6bd257fe-8ca4-4edd-ae90-eaf9db43920f": {
           "type": "item",
           "settings": {
-            "title": "100",
+            "title": "8.000",
             "superheading": "",
             "subheading": "EcoLovers",
             "content": "",
@@ -296,7 +296,7 @@
         "491911ff-d434-4b87-95f3-d95c9eddc998": {
           "type": "item",
           "settings": {
-            "title": "100",
+            "title": "77",
             "superheading": "",
             "subheading": "EcoPartners",
             "content": "",
@@ -309,7 +309,7 @@
         "d154b728-4572-47ce-a86d-5aa76d259080": {
           "type": "item",
           "settings": {
-            "title": "100",
+            "title": "1.393",
             "superheading": "",
             "subheading": "Hectáreas destinadas a sistemas sustentables",
             "content": "",
@@ -322,7 +322,7 @@
         "9a608366-6269-493f-a2f3-ddd302a729c7": {
           "type": "item",
           "settings": {
-            "title": "100",
+            "title": "143.200",
             "superheading": "",
             "subheading": "Animales habitado un sistema de bienestar",
             "content": "",
@@ -346,8 +346,6 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/impactext_45400dd5-2089-4a47-918a-141d57f0c1ea.png",
-        "mobile_image": "shopify:\/\/shop_images\/impactext_45400dd5-2089-4a47-918a-141d57f0c1ea.png",
         "title": "¿Cómo impactamos?",
         "heading_gradient_title": "",
         "text": "",

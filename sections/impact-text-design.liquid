@@ -28,6 +28,10 @@
       height: 100%;
       filter: brightness(0.7);
     }
+    .impact-text--title, .impact-text--design {
+      position: relative;
+      z-index: 1;
+    }
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }}{
         --impact-text-font-size: calc(min(15vw, var(--container-max-width) * 0.15) / {{ section.blocks.size }} * {{ section.settings.impact_text_size_ratio }});

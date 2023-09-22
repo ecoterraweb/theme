@@ -56,7 +56,38 @@
         "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "huevos",
+            "image": "shopify:\/\/shop_images\/eco-huevos_8d1bab5d-2e13-4071-93c7-a2fc40158830.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "b62f9824-0178-418a-ad41-c459d244bc96": {
+          "type": "collection",
+          "settings": {
+            "collection": "lacteos",
+            "image": "shopify:\/\/shop_images\/eco-lacteos.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "629479de-4800-4434-af33-b8e92ed05571": {
+          "type": "collection",
+          "settings": {
+            "collection": "fair-foods",
+            "image": "shopify:\/\/shop_images\/eco-protein.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -71,7 +102,9 @@
       "block_order": [
         "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-1",
         "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-2",
-        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-3"
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-3",
+        "b62f9824-0178-418a-ad41-c459d244bc96",
+        "629479de-4800-4434-af33-b8e92ed05571"
       ],
       "settings": {
         "full_width": true,

@@ -129,7 +129,7 @@
       <ul id="listClaims" class="list__claims--ul"></ul>
     </div>
     {%- if section.settings.button_text != blank -%}
-      {% render 'button', content: section.settings.button_text, href: section.settings.url, style: section.settings.style, block: block class: 'list__claims--button' %}
+      {% render 'button', content: section.settings.button_text, href: section.settings.url, style: section.settings.style, block: block, class: 'list__claims--button' %}
     {%- endif -%}
   </div>
 </section>

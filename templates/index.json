@@ -242,6 +242,28 @@
         "overlay_opacity": 20
       }
     },
+    "93ef0597-f467-45a9-b066-53920ab22311": {
+      "type": "rich-text",
+      "blocks": {
+        "a96521ce-9007-43c2-843f-b1510e905494": {
+          "type": "divider",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a96521ce-9007-43c2-843f-b1510e905494"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "f6845132-3793-464a-b1d9-3b7b0ab1c835": {
       "type": "impact-text-design",
       "blocks": {
@@ -324,7 +346,8 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/impactext.png",
+        "image": "shopify:\/\/shop_images\/impactext_45400dd5-2089-4a47-918a-141d57f0c1ea.png",
+        "mobile_image": "shopify:\/\/shop_images\/impactext_45400dd5-2089-4a47-918a-141d57f0c1ea.png",
         "title": "¿Cómo impactamos?",
         "heading_gradient_title": "",
         "text": "",
@@ -332,14 +355,36 @@
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "none",
-        "impact_text_size_ratio": 1.5,
-        "background": "",
+        "impact_text_size_ratio": 1.2,
+        "background": "#000000",
         "background_gradient": "",
         "heading_text_color": "#ffffff",
         "heading_gradient": "",
         "text_color": "#ffffff",
         "button_background": "",
-        "button_text_color": "#00a341"
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "692b8104-219f-4abf-9f8a-e3c96c9d514c": {
+      "type": "rich-text",
+      "blocks": {
+        "147259da-1a9b-414c-b937-cad48106cc63": {
+          "type": "divider",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "147259da-1a9b-414c-b937-cad48106cc63"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "df3ede33-9fbf-4a2b-8206-3f667522cbc9": {
@@ -426,7 +471,9 @@
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "collection-list",
     "81738a72-0073-43da-bec4-810deabf91f6",
+    "93ef0597-f467-45a9-b066-53920ab22311",
     "f6845132-3793-464a-b1d9-3b7b0ab1c835",
+    "692b8104-219f-4abf-9f8a-e3c96c9d514c",
     "df3ede33-9fbf-4a2b-8206-3f667522cbc9",
     "featured-collection",
     "05a7910e-b59d-4b0e-af73-ee980f02b1d3"

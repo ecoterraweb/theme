@@ -281,70 +281,79 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
-        "content_width": "small",
+        "content_width": "large",
         "text_position": "center",
-        "background": "",
+        "background": "#1a1a1a",
         "background_gradient": "",
-        "text_color": "#000000"
+        "text_color": "#ffffff"
       }
     },
-    "d34757aa-3c4c-44ab-b9f5-4956ed831ec4": {
-      "type": "impact-text",
+    "23a65bae-1921-413d-8f45-a5a71140750c": {
+      "type": "impact-text-design",
       "blocks": {
-        "template--15537731993693__d34757aa-3c4c-44ab-b9f5-4956ed831ec4-item-1": {
+        "template--15548375433309__23a65bae-1921-413d-8f45-a5a71140750c-item-1": {
           "type": "item",
           "settings": {
-            "title": "100",
-            "subheading": "Animales bienestar",
-            "content": "",
+            "title": "1.393",
+            "superheading": "",
+            "subheading": "Hectáreas",
+            "content": "<p>destinadas a sistemas sustentables<\/p>",
             "button_text": "",
             "button_url": "",
-            "animate_impact_text": false,
+            "animate_impact_text": true,
             "animate_impact_text_duration": 2
           }
         },
-        "47d9440a-9c99-4895-b01c-a1f5ac21ad37": {
+        "06c64f74-2029-44d5-a02b-9fb219a1701e": {
           "type": "item",
           "settings": {
-            "title": "8000",
-            "subheading": "Hectáreas sustentables",
-            "content": "",
+            "title": "143.200",
+            "superheading": "",
+            "subheading": "Animales",
+            "content": "<p>habitando un sistema de bienestar<\/p>",
             "button_text": "",
             "button_url": "",
-            "animate_impact_text": false,
+            "animate_impact_text": true,
             "animate_impact_text_duration": 2
           }
         },
-        "58557096-3490-4f99-a40e-3cb5d0adae43": {
+        "a284952e-3b96-4953-ab52-123c0822855f": {
           "type": "item",
           "settings": {
             "title": "6,86",
-            "subheading": "Toneladas reducidas del desperdicio de alimentos",
-            "content": "",
+            "superheading": "",
+            "subheading": "Toneladas",
+            "content": "<p>reducidas del despericio de alimentos<\/p>",
             "button_text": "",
             "button_url": "",
-            "animate_impact_text": false,
+            "animate_impact_text": true,
             "animate_impact_text_duration": 2
           }
         }
       },
       "block_order": [
-        "template--15537731993693__d34757aa-3c4c-44ab-b9f5-4956ed831ec4-item-1",
-        "47d9440a-9c99-4895-b01c-a1f5ac21ad37",
-        "58557096-3490-4f99-a40e-3cb5d0adae43"
+        "template--15548375433309__23a65bae-1921-413d-8f45-a5a71140750c-item-1",
+        "06c64f74-2029-44d5-a02b-9fb219a1701e",
+        "a284952e-3b96-4953-ab52-123c0822855f"
       ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
+        "image": "shopify:\/\/shop_images\/huevos_7d9b2b5f-6401-4f78-b59e-e0965d1453d7.png",
+        "title": "",
+        "heading_gradient_title": "",
+        "text": "",
+        "div_alignment": "center",
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1,
+        "impact_text_size_ratio_mobile": 0.7,
         "background": "",
         "background_gradient": "",
         "heading_text_color": "",
         "heading_gradient": "",
-        "text_color": "#000000",
+        "text_color": "#ffffff",
         "button_background": "",
         "button_text_color": ""
       }
@@ -455,7 +464,7 @@
     "008f5159-b527-4c70-b38e-af80df1ce35e",
     "176bfb17-1b54-464d-8dea-82b65abe29a2",
     "dd9eb39e-7511-47e7-9add-7ee2a994dad3",
-    "d34757aa-3c4c-44ab-b9f5-4956ed831ec4",
+    "23a65bae-1921-413d-8f45-a5a71140750c",
     "1a7ad382-718d-4d3c-971c-d883319947a1",
     "ccff1d20-57b9-402b-9f62-d36451f0be52",
     "63303b90-3a37-407c-9926-07e8e5d5910f",

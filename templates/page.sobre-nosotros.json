@@ -49,37 +49,103 @@
         "background_gradient": ""
       }
     },
+    "81f56374-33bb-4153-b87f-6f5be4026165": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15548375433309__81f56374-33bb-4153-b87f-6f5be4026165-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Manifiesto",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15548375433309__81f56374-33bb-4153-b87f-6f5be4026165-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Imagínate esto: cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<br\/><\/p><p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.<\/p><p><br\/>La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p>"
+          }
+        },
+        "a3aa1147-75eb-44dd-9fbe-aaf8db0a8a07": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "d442a946-5876-4066-a293-b89005874a5f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>¿Y qué papel juega Ecoterra en todo esto? Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p><br\/>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__81f56374-33bb-4153-b87f-6f5be4026165-heading-1",
+        "template--15548375433309__81f56374-33bb-4153-b87f-6f5be4026165-richtext-1",
+        "a3aa1147-75eb-44dd-9fbe-aaf8db0a8a07",
+        "d442a946-5876-4066-a293-b89005874a5f"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "dd3e4515-ba05-4240-8262-f020dbffcfe5": {
       "type": "images-with-text-scrolling",
       "blocks": {
-        "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-1": {
+        "cc6dfaf6-5a14-4bb6-bd2c-dbdbb0fb9196": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/agriculture.png",
-            "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/agriculture.png",
-            "icon_width": 48,
+            "image": "shopify:\/\/shop_images\/ecoterra_frames_alta-4.png",
+            "icon": "picto-percent",
+            "icon_width": 52,
             "title": "Manifiesto",
             "content": "<p>Imagínate esto: cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<br\/><\/p><p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.<\/p><p><br\/>La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p><p><br\/>¿Y qué papel juega Ecoterra en todo esto? Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p><br\/>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<br\/><\/p>"
           }
         }
       },
       "block_order": [
-        "template--15538977734749__dd3e4515-ba05-4240-8262-f020dbffcfe5-item-1"
+        "cc6dfaf6-5a14-4bb6-bd2c-dbdbb0fb9196"
       ],
       "settings": {
         "identifier": "Manifiesto-section",
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "show_counter": false,
         "desktop_image_effect": "fade",
-        "image_position": "start",
+        "image_position": "end",
         "background": "",
         "background_gradient": "",
         "text_color": "#1a1a1a",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "773c8f8c-b722-4bfe-8cd8-29b12cba7fed": {
+      "type": "images-with-text-paragraph",
+      "disabled": true,
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "icon": "none",
+        "icon_width": 48,
+        "title": "Heading",
+        "content": "<p>Imagínate esto: cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<br\/><\/p><p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.<\/p><p><br\/>La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p><p><br\/>¿Y qué papel juega Ecoterra en todo esto? Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p><br\/>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<br\/><\/p>",
+        "columns": "1"
       }
     },
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f": {
@@ -430,7 +496,9 @@
   "order": [
     "main",
     "f578399d-fcbf-449d-9cff-a4983346d5b7",
+    "81f56374-33bb-4153-b87f-6f5be4026165",
     "dd3e4515-ba05-4240-8262-f020dbffcfe5",
+    "773c8f8c-b722-4bfe-8cd8-29b12cba7fed",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "008f5159-b527-4c70-b38e-af80df1ce35e",
     "176bfb17-1b54-464d-8dea-82b65abe29a2",

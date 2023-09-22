@@ -107,6 +107,10 @@
     width: fit-content;
     margin-left: auto;
   }
+  .list__claims--button {
+    display: flex;
+    margin: 40px auto 0;
+  }
   @media screen and (max-width: 600px) {
     .list__claims--title {
       font-size: 32px;
@@ -125,7 +129,7 @@
       <ul id="listClaims" class="list__claims--ul"></ul>
     </div>
     {%- if section.settings.text != blank -%}
-      {% render 'button', content: section.settings.button_text, href: section.settings.url, style: section.settings.style, block: block class: 'list__claims--button'%}
+      {% render 'button', content: section.settings.button_text, href: section.settings.url, style: section.settings.style, block: block class: 'list__claims--button' %}
     {%- endif -%}
   </div>
 </section>

@@ -278,7 +278,7 @@ function initMap(elementId, points, templateId = null) {
         map: map,
         title: point.title,
       });
-    }
+    
     // Crear el contenido personalizado con HTML
     // '<img src="' +
     // point.imgUrl +
@@ -364,7 +364,7 @@ function initMap(elementId, points, templateId = null) {
         });
       });
     });
-  });
+  })};
   // Capturamos todos los elementos con la clase claim__popup__open
 }
 // Función para cerrar el InfoWindow actualmente abierto

@@ -245,6 +245,7 @@ function pushClaimIfNotExist(claim) {
     (existingClaim) => existingClaim.templateId === claim.templateId
   );
   if (!claimExists) {
+    console.log('claim',claim);
     claims.push(claim);
   }
 }

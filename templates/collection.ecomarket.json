@@ -125,6 +125,7 @@
     },
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",
@@ -138,11 +139,39 @@
         "show_filter_values_count": true,
         "open_first_filter_group": false
       }
+    },
+    "490508c8-0b7c-41f9-af8d-508320fe9ec6": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "aderezos-naturales",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "banner",
     "c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8",
-    "main"
+    "main",
+    "490508c8-0b7c-41f9-af8d-508320fe9ec6"
   ]
 }

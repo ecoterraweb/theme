@@ -184,7 +184,7 @@
         "content": "",
         "link_url": "shopify:\/\/collections",
         "link_text": "Ver Todas",
-        "background": "#f5f5f5",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#1a1a1a",
         "heading_color": "#1a1a1a",
@@ -245,49 +245,10 @@
     "f6845132-3793-464a-b1d9-3b7b0ab1c835": {
       "type": "impact-text-design",
       "blocks": {
-        "template--15546130071645__f6845132-3793-464a-b1d9-3b7b0ab1c835-item-1": {
-          "type": "item",
-          "settings": {
-            "title": "100",
-            "superheading": "",
-            "subheading": "EcoFarmers",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "6bd257fe-8ca4-4edd-ae90-eaf9db43920f": {
-          "type": "item",
-          "settings": {
-            "title": "100",
-            "superheading": "",
-            "subheading": "EcoLovers",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "491911ff-d434-4b87-95f3-d95c9eddc998": {
-          "type": "item",
-          "settings": {
-            "title": "100",
-            "superheading": "",
-            "subheading": "EcoPartners",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
         "d154b728-4572-47ce-a86d-5aa76d259080": {
           "type": "item",
           "settings": {
-            "title": "100",
+            "title": "1.393",
             "superheading": "",
             "subheading": "Hectáreas destinadas a sistemas sustentables",
             "content": "",
@@ -300,9 +261,48 @@
         "9a608366-6269-493f-a2f3-ddd302a729c7": {
           "type": "item",
           "settings": {
-            "title": "100",
+            "title": "143.200",
             "superheading": "",
             "subheading": "Animales habitado un sistema de bienestar",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "template--15546130071645__f6845132-3793-464a-b1d9-3b7b0ab1c835-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "150",
+            "superheading": "",
+            "subheading": "EcoFarmers",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "6bd257fe-8ca4-4edd-ae90-eaf9db43920f": {
+          "type": "item",
+          "settings": {
+            "title": "8.417",
+            "superheading": "",
+            "subheading": "EcoLovers",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "491911ff-d434-4b87-95f3-d95c9eddc998": {
+          "type": "item",
+          "settings": {
+            "title": "77",
+            "superheading": "",
+            "subheading": "EcoPartners",
             "content": "",
             "button_text": "",
             "button_url": "",
@@ -312,11 +312,11 @@
         }
       },
       "block_order": [
+        "d154b728-4572-47ce-a86d-5aa76d259080",
+        "9a608366-6269-493f-a2f3-ddd302a729c7",
         "template--15546130071645__f6845132-3793-464a-b1d9-3b7b0ab1c835-item-1",
         "6bd257fe-8ca4-4edd-ae90-eaf9db43920f",
-        "491911ff-d434-4b87-95f3-d95c9eddc998",
-        "d154b728-4572-47ce-a86d-5aa76d259080",
-        "9a608366-6269-493f-a2f3-ddd302a729c7"
+        "491911ff-d434-4b87-95f3-d95c9eddc998"
       ],
       "custom_css": [
 
@@ -334,7 +334,6 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1.5,
-        "impact_text_size_ratio_mobile": 2,
         "background": "#000000",
         "background_gradient": "",
         "heading_text_color": "#1a1a1a",

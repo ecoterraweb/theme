@@ -309,8 +309,8 @@
         "identifier": "",
         "full_width": true,
         "content_width": "medium",
-        "text_position": "center",
-        "background": "",
+        "text_position": "start",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#000000"
       }
@@ -553,7 +553,7 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#fafafa",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#1a1a1a"
       }
@@ -670,7 +670,7 @@
         "button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_on_mobile": true,
         "gap": "x-large",
         "text_alignment": "center",

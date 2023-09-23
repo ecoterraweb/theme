@@ -172,7 +172,7 @@
       "custom_css": [
         "h2 {font-size: 35px;}",
         "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
-        ".text-custom strong {font-weight: 600;}"
+        ".text-custom strong {font-weight: 400;}"
       ],
       "settings": {
         "full_width": true,
@@ -224,7 +224,6 @@
         "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-richtext-1",
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
       ],
-      "disabled": true,
       "custom_css": [
         "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],

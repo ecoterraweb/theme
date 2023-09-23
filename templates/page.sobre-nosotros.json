@@ -378,6 +378,9 @@
     },
     "e0d50b40-660c-4f52-bc6c-e18294190402": {
       "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
       "settings": {
         "identifier": "",
         "full_width": true,
@@ -385,8 +388,9 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/impact.png",
+        "mobile_image": "shopify:\/\/shop_images\/impact-2.png",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0

@@ -672,6 +672,7 @@
       ],
       "settings": {
         "full_width": true,
+        "image": "shopify:\/\/shop_images\/Image_with_text_overlay-2.png",
         "subheading": "conctáctanos",
         "title": "¿Hablémos?",
         "content": "<p>Si tienes alguna duda, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros. Déjanos un mensaje. y nos contactaremos contigo.<\/p>",

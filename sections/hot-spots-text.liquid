@@ -72,7 +72,17 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
       --hot-spot-horizontal-position: {% if section.settings.mobile_image != blank %}{{ block.settings.horizontal_position_mobile }}{% else %}{{ block.settings.horizontal_position }}{% endif %}%;
       --hot-spot-vertical-position: {% if section.settings.mobile_image != blank %}{{ block.settings.vertical_position_mobile }}{% else %}{{ block.settings.vertical_position }}{% endif %}%;
     }
-
+    .hotspot-content-desktop{
+      gap: 15%;
+      display: flex;
+      justify-content: space-around;
+      width: 90%;
+      max-width: initial;
+      align-items: center;
+    }
+    .hotspot-content-desktop.right-left{
+      flex-direction: column-reverse;
+    }
     @media screen and (min-width: 1000px) {
       #block-{{ section.id }}-{{ block.id }} {
         --hot-spot-horizontal-position: {{ block.settings.horizontal_position }}%;
@@ -114,7 +124,7 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
       {%- endif -%}
 
       {%- if section.settings.title != blank or section.settings.content != blank or section.settings.hotspot_image != blank -%}
-        <div class="{{ section.settings.desktop_text_position }} hidden md:block">
+        <div class="{{ section.settings.desktop_text_position }} hotspot-content-desktop hidden md:block">
           <div class="image-hotspot">
             {% if section.settings.hotspot_image != blank %}
             {{- section.settings.hotspot_image | image_url: width: section.settings.image.hotspot_image | image_tag: class: 'image-hostpot-image hidden md:block', loading: 'lazy', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}

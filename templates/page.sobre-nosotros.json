@@ -786,7 +786,7 @@
         "image_background_gradient": "",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
+        "overlay_text_color": "#000000",
         "overlay_button_background": "",
         "overlay_button_text_color": "",
         "hot_spot_dot_background": "#ffffff",

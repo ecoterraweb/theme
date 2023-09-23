@@ -73,13 +73,11 @@
         "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-richtext-1"
       ],
       "custom_css": [
-        "p {text-align: left;}",
-        "h2 {text-align: left;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
       ],
       "settings": {
         "identifier": "",
-        "full_width": false,
+        "full_width": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#1a1a1a",
@@ -429,8 +427,6 @@
         "template--15537731993693__dd9eb39e-7511-47e7-9add-7ee2a994dad3-richtext-1"
       ],
       "custom_css": [
-        "p {text-align: left;}",
-        "h2 {text-align: left;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
       ],
       "settings": {
@@ -492,7 +488,7 @@
         "a284952e-3b96-4953-ab52-123c0822855f"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_mobile": true,
         "image": "shopify:\/\/shop_images\/huevos_7d9b2b5f-6401-4f78-b59e-e0965d1453d7.png",
         "title": "",
@@ -504,7 +500,7 @@
         "text_divider": "none",
         "impact_text_size_ratio": 1,
         "impact_text_size_ratio_mobile": 0.7,
-        "background": "",
+        "background": "#1a1a1a",
         "background_gradient": "",
         "heading_text_color": "",
         "heading_gradient": "",
@@ -544,8 +540,6 @@
         "39c19eab-4214-48f8-a818-d31e8d4bc0ae"
       ],
       "custom_css": [
-        "p {text-align: left;}",
-        "h2 {text-align: left;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
       ],
       "settings": {
@@ -553,7 +547,7 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "#fafafa",
         "background_gradient": "",
         "text_color": "#1a1a1a"
       }
@@ -634,21 +628,9 @@
         "subheading": "",
         "title": "",
         "content": "",
-        "background": "rgba(0,0,0,0)",
+        "background": "#f5f5f5",
         "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "1a7ad382-718d-4d3c-971c-d883319947a1": {
-      "type": "claims-list",
-      "settings": {
-        "identifier": "",
-        "title": "Proof of eco",
-        "text": "Utilizamos la seguridad e inmutabilidad de las cadenas de bloques sobre tecnología sostenible de la red Polygon para darte visibilidad y transparencia de nuestros certificados gobernado por nuestro smart contract Proof of ECO",
-        "full_width": true,
-        "bg_color": "#1dbe67",
-        "button_text": "Ver más",
-        "url": ""
+        "text_color": "#1a1a1a"
       }
     },
     "ccff1d20-57b9-402b-9f62-d36451f0be52": {
@@ -752,7 +734,6 @@
     "23a65bae-1921-413d-8f45-a5a71140750c",
     "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5",
     "dfc8565e-4587-4b83-bfb7-8042178e6e77",
-    "1a7ad382-718d-4d3c-971c-d883319947a1",
     "ccff1d20-57b9-402b-9f62-d36451f0be52",
     "63303b90-3a37-407c-9926-07e8e5d5910f",
     "f091270f-8f95-48b7-88b0-50147dbf74c4"

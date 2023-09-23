@@ -10,7 +10,7 @@
     "icon_style": "mono",
     "button_style": "fill",
     "button_hover_effect": "fade",
-    "background": "#ffffff",
+    "background": "#fafafa",
     "text_color": "#000000",
     "success_color": "#00a341",
     "warning_color": "#ffb74a",

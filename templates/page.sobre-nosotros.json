@@ -122,10 +122,10 @@
       ],
       "settings": {
         "identifier": "",
-        "full_width": true,
+        "full_width": false,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#f5f5f5",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#1a1a1a"
       }
@@ -136,7 +136,7 @@
         "d6dfdd0c-d135-4529-8938-8cde418de2e1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p>"
+            "content": "<p><strong>¿Y qué papel juega Ecoterra en todo esto?<\/strong><\/p><p>Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<\/p>"
           }
         },
         "998dd2e7-ad5c-4754-ab9d-b97bb14cf468": {
@@ -165,10 +165,10 @@
       ],
       "settings": {
         "identifier": "",
-        "full_width": true,
+        "full_width": false,
         "content_width": "large",
         "text_position": "center",
-        "background": "rgba(0,0,0,0)",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#1a1a1a"
       }
@@ -260,7 +260,7 @@
         "div {align-items: center;}"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",

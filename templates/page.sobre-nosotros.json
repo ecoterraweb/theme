@@ -666,19 +666,23 @@
     },
     "f091270f-8f95-48b7-88b0-50147dbf74c4": {
       "type": "contact",
+      "custom_css": [
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        "button {letter-spacing: 0.02em; font-weight: 500;}"
+      ],
       "settings": {
         "full_width": true,
-        "subheading": "Conctáctanos",
+        "subheading": "conctáctanos",
         "title": "¿Hablémos?",
-        "content": "",
-        "text_position": "start",
+        "content": "<p>Si tienes alguna duda, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros. Déjanos un mensaje. y nos contactaremos contigo.<\/p>",
+        "text_position": "center",
         "contact_form_size": "large",
-        "background": "",
+        "background": "#f5f5f5",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "contact_background": "",
+        "contact_background": "#ffffff",
         "contact_text_color": "",
         "button_background": "",
         "button_text_color": ""

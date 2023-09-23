@@ -91,7 +91,6 @@
         "eb669705-b208-4b03-9d17-674985343137": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani-1.png",
             "width_mode": "custom",
             "max_width": 500,
             "mobile_max_width": 280
@@ -363,11 +362,12 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "",
-        "content": "",
+        "image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2023-08-22_a_la_s_5.18.29_p._m..png",
+        "title": "titulo contenido",
+        "content": "<p>https:\/\/recetasolidaria-website.dmeat.cl\/solo-mujer\/cupon-generado<\/p>",
         "button_text": "",
         "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
+        "desktop_text_position": "place-self-center-start text-start",
         "image_background": "",
         "image_background_gradient": "",
         "overlay_color": "#000000",
@@ -558,7 +558,6 @@
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CH_7f2bc8d4-cdfe-4f89-ab49-b9888b260c96.png",
             "column_size": "3",
             "title": "Certified Humane: Bienestar Animal",
             "heading_tag": "h4",

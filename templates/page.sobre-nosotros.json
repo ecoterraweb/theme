@@ -172,7 +172,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
-        "content_width": "large",
+        "content_width": "medium",
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",

@@ -371,8 +371,9 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "",
-        "content": "",
+        "image": "shopify:\/\/shop_images\/fondo_a5b4a3e0-ed52-4bff-ab8b-b9338b0372c4.png",
+        "title": "Modelo",
+        "content": "<p>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan esa sostenibilidad a nuevas escalas y los EcoLovers <strong>hacen que todo valga la pena<\/strong>, <strong>eligiendo un futuro más verde<\/strong> con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que la sostenibilidad no solo es posible, sino que está sucediendo ahora.<br\/><\/p>",
         "button_text": "",
         "button_url": "",
         "desktop_text_position": "place-self-start text-start",

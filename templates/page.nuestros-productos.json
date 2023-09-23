@@ -113,7 +113,7 @@
             "subheading": "",
             "title": "EcoProtein",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "shopify:\/\/collections\/huevos",
+            "button_url": "shopify:\/\/collections\/fair-foods",
             "button_text": "Comprar aquí"
           }
         }
@@ -144,7 +144,7 @@
             "subheading": "",
             "title": "EcoLácteos",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "shopify:\/\/collections\/huevos",
+            "button_url": "shopify:\/\/collections\/lacteos",
             "button_text": "Comprar aquí"
           }
         }
@@ -175,7 +175,7 @@
             "subheading": "",
             "title": "EcoDespensa",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "shopify:\/\/collections\/huevos",
+            "button_url": "shopify:\/\/collections\/despensa-pantry",
             "button_text": "Comprar aquí"
           }
         }
@@ -206,7 +206,7 @@
             "subheading": "",
             "title": "EcoAderezos",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "shopify:\/\/collections\/huevos",
+            "button_url": "shopify:\/\/collections\/aderezos-naturales",
             "button_text": "Comprar aquí"
           }
         }

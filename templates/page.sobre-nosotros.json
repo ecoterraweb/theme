@@ -49,37 +49,6 @@
         "background_gradient": ""
       }
     },
-    "3b43f0e0-6095-4ab6-a15e-0726e6249d75": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "template--15548375433309__3b43f0e0-6095-4ab6-a15e-0726e6249d75-item-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/manifiesto.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Manifiesto",
-            "content": "<p>Imagínate esto: <br\/>cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15548375433309__3b43f0e0-6095-4ab6-a15e-0726e6249d75-item-1"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#1a1a1a",
-        "heading_color": "rgba(0,0,0,0)",
-        "heading_gradient": ""
-      }
-    },
     "2fd160cb-cfa1-4c86-84fa-5b8689889a46": {
       "type": "rich-text",
       "blocks": {
@@ -95,7 +64,7 @@
         "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>Imagínate esto: <br\/>cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<\/h6>"
+            "content": "<p>Imagínate esto: <br\/>cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<\/p>"
           }
         }
       },
@@ -106,7 +75,50 @@
       "settings": {
         "identifier": "",
         "full_width": true,
-        "content_width": "small",
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "7cd3d7f7-2352-41a3-ae02-8b23ab69cfbc": {
+      "type": "rich-text",
+      "blocks": {
+        "eb669705-b208-4b03-9d17-674985343137": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mani-1.png",
+            "width_mode": "custom",
+            "max_width": 400,
+            "mobile_max_width": 400
+          }
+        },
+        "c2592919-2256-4b41-acb9-f58bb253fe3a": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "41efcc92-f932-4288-98fc-289a59065d2e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "eb669705-b208-4b03-9d17-674985343137",
+        "c2592919-2256-4b41-acb9-f58bb253fe3a",
+        "41efcc92-f932-4288-98fc-289a59065d2e"
+      ],
+      "custom_css": [
+        "p {text-align: left;}",
+        "div {align-items: center;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "large",
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
@@ -524,8 +536,8 @@
   "order": [
     "main",
     "f578399d-fcbf-449d-9cff-a4983346d5b7",
-    "3b43f0e0-6095-4ab6-a15e-0726e6249d75",
     "2fd160cb-cfa1-4c86-84fa-5b8689889a46",
+    "7cd3d7f7-2352-41a3-ae02-8b23ab69cfbc",
     "81f56374-33bb-4153-b87f-6f5be4026165",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "008f5159-b527-4c70-b38e-af80df1ce35e",

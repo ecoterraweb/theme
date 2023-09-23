@@ -553,9 +553,9 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#1a1a1a",
+        "background": "#fafafa",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": "#1a1a1a"
       }
     },
     "dfc8565e-4587-4b83-bfb7-8042178e6e77": {
@@ -663,14 +663,17 @@
         "6e1523db-908d-45e2-a755-db6d99377600"
       ],
       "custom_css": [
+        "p {text-align: left;}",
+        "h2 {text-align: left;}",
+        "div {vertical-align: center;}",
         "img {max-width: 300px;}",
         "button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "gap": "x-large",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "subheading": "",
         "title": "",
         "content": "",

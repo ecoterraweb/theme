@@ -369,6 +369,7 @@
         "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-1",
         "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/fondo_a5b4a3e0-ed52-4bff-ab8b-b9338b0372c4.png",
@@ -726,6 +727,75 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "5f0a9896-e1f9-448d-a214-f8e4017ce391": {
+      "type": "hot-spots-text",
+      "blocks": {
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1",
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-2",
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/fondo_a5b4a3e0-ed52-4bff-ab8b-b9338b0372c4.png",
+        "hotspot_image": "shopify:\/\/shop_images\/esquema.png",
+        "title": "Modelo",
+        "content": "<p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "left-right",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#000000",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
     }
   },
   "order": [
@@ -745,6 +815,7 @@
     "dfc8565e-4587-4b83-bfb7-8042178e6e77",
     "ccff1d20-57b9-402b-9f62-d36451f0be52",
     "63303b90-3a37-407c-9926-07e8e5d5910f",
-    "f091270f-8f95-48b7-88b0-50147dbf74c4"
+    "f091270f-8f95-48b7-88b0-50147dbf74c4",
+    "5f0a9896-e1f9-448d-a214-f8e4017ce391"
   ]
 }

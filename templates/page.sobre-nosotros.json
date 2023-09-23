@@ -145,7 +145,7 @@
             "image": "shopify:\/\/shop_images\/man-2.png",
             "width_mode": "custom",
             "max_width": 580,
-            "mobile_max_width": 400
+            "mobile_max_width": 320
           }
         }
       },

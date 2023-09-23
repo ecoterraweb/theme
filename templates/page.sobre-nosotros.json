@@ -252,8 +252,11 @@
         "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-play-1",
         "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1"
       ],
+      "custom_css": [
+        "div {align-items:center;}"
+      ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",

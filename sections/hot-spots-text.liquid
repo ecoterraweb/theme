@@ -81,13 +81,18 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
       align-items: center;
     }
     .hotspot-content-desktop.right-left{
-      flex-direction: column-reverse;
+      flex-direction: row-reverse;
     }
     .hotspot-content-desktop > div{
       flex: 1;
     }
     .tap-area{
       z-index: 1;
+    }
+    @media screen and (min-width: 600px) {
+      .hotspot-content-desktop.right-left, .hotspot-content-desktop.left-right{
+        flex-direction: column;
+      }
     }
     @media screen and (min-width: 1000px) {
       #block-{{ section.id }}-{{ block.id }} {
@@ -100,6 +105,7 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
 
 <div {% render 'section-properties' %}>
   <div class="section-stack">
+    {% comment %}
     {%- if section.settings.title != blank or section.settings.content != blank or section.settings.hotspot_image != blank -%}
     
       <div class="section-header md:hidden">
@@ -116,6 +122,7 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
         </div>
       </div>
     {%- endif -%}
+  {%- endcomment -%}
 
     {%- capture surface_class -%}content-over-media {% if section.settings.full_width %}full-bleed{% else %}shadow-block rounded-lg{% endif %}{%- endcapture -%}
 
@@ -133,7 +140,7 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
         <div class="{{ section.settings.desktop_text_position }} hotspot-content-desktop hidden md:block">
           <div class="image-hotspot">
             {% if section.settings.hotspot_image != blank %}
-            {{- section.settings.hotspot_image | image_url: width: section.settings.image.hotspot_image | image_tag: class: 'image-hostpot-image hidden md:block', loading: 'lazy', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+            {{- section.settings.hotspot_image | image_url: width: section.settings.image.hotspot_image | image_tag: class: 'image-hostpot-image', loading: 'lazy', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
               
             {% endif %}
           </div>

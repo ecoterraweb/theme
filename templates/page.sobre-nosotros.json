@@ -61,24 +61,32 @@
             "gradient": ""
           }
         },
+        "91000d66-fcee-4d42-ba4c-9054db49ffd3": {
+          "type": "divider",
+          "settings": {
+          }
+        },
         "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Imagínate esto: <br\/>cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<\/p>"
+            "content": "<p>Imagínate esto: cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<\/p>"
           }
         }
       },
       "block_order": [
         "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-heading-1",
+        "91000d66-fcee-4d42-ba4c-9054db49ffd3",
         "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-richtext-1"
       ],
       "custom_css": [
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
-        "content_width": "medium",
+        "content_width": "small",
         "text_position": "center",
         "background": "#1a1a1a",
         "background_gradient": "",
@@ -91,8 +99,9 @@
         "eb669705-b208-4b03-9d17-674985343137": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/mani-1_7c8aeb2d-e637-48d2-91fa-68e96ae07e43.png",
             "width_mode": "custom",
-            "max_width": 500,
+            "max_width": 450,
             "mobile_max_width": 280
           }
         },
@@ -133,7 +142,7 @@
         "d6dfdd0c-d135-4529-8938-8cde418de2e1": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>¿Y qué papel juega Ecoterra en todo esto?<\/strong><\/p><p>Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<\/p>"
+            "content": "<p><strong>¿Y qué papel juega Ecoterra en todo esto?<br\/><\/strong>Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<\/p>"
           }
         },
         "998dd2e7-ad5c-4754-ab9d-b97bb14cf468": {
@@ -146,7 +155,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/mani-2.png",
             "width_mode": "custom",
-            "max_width": 500,
+            "max_width": 450,
             "mobile_max_width": 320
           }
         }
@@ -362,12 +371,11 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2023-08-22_a_la_s_5.18.29_p._m..png",
-        "title": "titulo contenido",
-        "content": "<p>https:\/\/recetasolidaria-website.dmeat.cl\/solo-mujer\/cupon-generado<\/p>",
+        "title": "",
+        "content": "",
         "button_text": "",
         "button_url": "",
-        "desktop_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "place-self-start text-start",
         "image_background": "",
         "image_background_gradient": "",
         "overlay_color": "#000000",
@@ -521,7 +529,7 @@
         "034e8c63-725b-407f-88da-7d44e52827f0": {
           "type": "heading",
           "settings": {
-            "text": "Proof of Eco",
+            "text": "PROOF OF ECO",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -558,6 +566,7 @@
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/CH.png",
             "column_size": "3",
             "title": "Certified Humane: Bienestar Animal",
             "heading_tag": "h4",

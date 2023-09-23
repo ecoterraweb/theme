@@ -77,7 +77,7 @@
         "template--15538125635677__5eda4943-37f5-4688-a245-925e754d2358-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_BotonHuevos.png",
+            "image": "shopify:\/\/shop_images\/eco-huevos_8d1bab5d-2e13-4071-93c7-a2fc40158830.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Eco Huevos",
@@ -108,7 +108,7 @@
         "3a9f287e-a4e7-4b5f-ab8e-67be54b8e654": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_BotonProtein_d7813830-2b13-43f2-8506-a0553a24266c.png",
+            "image": "shopify:\/\/shop_images\/eco-protein.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Eco Protein",
@@ -139,7 +139,7 @@
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_BotonLacteos.png",
+            "image": "shopify:\/\/shop_images\/eco-lacteos.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Eco Lacteos",
@@ -170,10 +170,10 @@
         "1cc55f40-3ae8-4834-b200-df431c412e23": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_BotonOrganicos_d0da31e9-2fd7-4328-a0a7-cbf3d68c4266.png",
+            "image": "shopify:\/\/shop_images\/eco-despenza.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "Eco Orgánicos",
+            "title": "EcoDespensa",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "button_url": "shopify:\/\/collections\/huevos",
             "button_text": "Comprar aquí"
@@ -201,7 +201,7 @@
         "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_BotonAderezos.png",
+            "image": "shopify:\/\/shop_images\/eco-adereso.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Eco Aderezos",
@@ -232,7 +232,7 @@
         "template--15546129678429__c393969b-28d1-4237-80fa-0e47893b1fc5-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "EcoPartners",
+            "text": "¡Encuentra nuestros productos!",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""

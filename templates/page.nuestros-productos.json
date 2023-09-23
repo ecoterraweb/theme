@@ -226,6 +226,32 @@
         "button_text_color": ""
       }
     },
+    "c393969b-28d1-4237-80fa-0e47893b1fc5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15546129678429__c393969b-28d1-4237-80fa-0e47893b1fc5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "EcoPartners",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15546129678429__c393969b-28d1-4237-80fa-0e47893b1fc5-heading-1"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "23a30acb-e4f3-4e11-918e-6e959b1c0de3": {
       "type": "custom-html",
       "settings": {
@@ -247,8 +273,8 @@
             "image": "shopify:\/\/shop_images\/favicon.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "Catalogo de producto",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "Catálogo de productos",
+            "content": "<p>¡Conoce nuestro catálogo completo de productos!<\/p>",
             "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0280\/0854\/6397\/files\/file-pdf-solid.svg?v=1691702893",
             "button_text": "Descargar"
           }
@@ -279,6 +305,7 @@
     "39ad79e5-8c09-4e41-9da5-ebd5cbb71b89",
     "b284511b-c5db-49b7-958a-f9f447c5b8c9",
     "37e9c351-50ee-47bc-807a-a622c311f983",
+    "c393969b-28d1-4237-80fa-0e47893b1fc5",
     "23a30acb-e4f3-4e11-918e-6e959b1c0de3",
     "6fb9880b-ad9c-4b88-b622-7303989963d9"
   ]

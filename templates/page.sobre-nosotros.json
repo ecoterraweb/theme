@@ -144,7 +144,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/man-2.png",
             "width_mode": "custom",
-            "max_width": 580,
+            "max_width": 690,
             "mobile_max_width": 320
           }
         }
@@ -253,7 +253,7 @@
         "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1"
       ],
       "custom_css": [
-        "div {align-items:center;}"
+        "div {align-items: center;}"
       ],
       "settings": {
         "full_width": false,
@@ -356,8 +356,6 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Esquema_modelo.png",
-        "mobile_image": "shopify:\/\/shop_images\/Esquema_modelo-1.png",
         "title": "",
         "content": "",
         "button_text": "",
@@ -378,6 +376,22 @@
         "hot_spot_content_blur_radius": 3
       }
     },
+    "e0d50b40-660c-4f52-bc6c-e18294190402": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/impact.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "dd9eb39e-7511-47e7-9add-7ee2a994dad3": {
       "type": "rich-text",
       "blocks": {
@@ -385,7 +399,7 @@
           "type": "heading",
           "settings": {
             "text": "Impacto",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -589,6 +603,7 @@
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "008f5159-b527-4c70-b38e-af80df1ce35e",
     "176bfb17-1b54-464d-8dea-82b65abe29a2",
+    "e0d50b40-660c-4f52-bc6c-e18294190402",
     "dd9eb39e-7511-47e7-9add-7ee2a994dad3",
     "23a65bae-1921-413d-8f45-a5a71140750c",
     "1a7ad382-718d-4d3c-971c-d883319947a1",

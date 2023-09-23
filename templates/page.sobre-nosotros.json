@@ -77,9 +77,9 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "#1a1a1a",
         "background_gradient": "",
-        "text_color": "#1a1a1a"
+        "text_color": "#ffffff"
       }
     },
     "7cd3d7f7-2352-41a3-ae02-8b23ab69cfbc": {
@@ -91,7 +91,7 @@
             "image": "shopify:\/\/shop_images\/mani-1.png",
             "width_mode": "custom",
             "max_width": 580,
-            "mobile_max_width": 400
+            "mobile_max_width": 320
           }
         },
         "c2592919-2256-4b41-acb9-f58bb253fe3a": {
@@ -142,9 +142,9 @@
         "a80fbbc7-e9ce-49c6-b127-de269a324faf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/man-2.png",
+            "image": "shopify:\/\/shop_images\/mani-2.png",
             "width_mode": "custom",
-            "max_width": 690,
+            "max_width": 580,
             "mobile_max_width": 320
           }
         }
@@ -532,7 +532,7 @@
         "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-heading-1"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",

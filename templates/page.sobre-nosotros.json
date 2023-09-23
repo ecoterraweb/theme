@@ -601,29 +601,12 @@
     },
     "ccff1d20-57b9-402b-9f62-d36451f0be52": {
       "type": "video",
-      "blocks": {
-        "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-play-1": {
-          "type": "play",
-          "settings": {
-          }
-        },
-        "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Cápsula Certificaciones",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-play-1",
-        "template--15538977734749__ccff1d20-57b9-402b-9f62-d36451f0be52-heading-1"
-      ],
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
-        "autoplay": false,
+        "autoplay": true,
         "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/Cap 5 Certificaciones - Offline.mov",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",

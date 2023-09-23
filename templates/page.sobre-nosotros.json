@@ -277,58 +277,14 @@
         "overlay_opacity": 8
       }
     },
-    "008f5159-b527-4c70-b38e-af80df1ce35e": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15548375433309__008f5159-b527-4c70-b38e-af80df1ce35e-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Modelo",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "ab0793de-8a63-4478-b840-a49dfb146b54": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "template--15548375433309__008f5159-b527-4c70-b38e-af80df1ce35e-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Ecoterra es donde la innovación se encuentra con la acción y la comunidad se convierte en catalizadora de cambio. <strong>Nuestra plataforma une a EcoFarmers, EcoPartners y EcoLovers<\/strong>, creando un <strong>ciclo virtuoso de impacto sostenible.<\/strong><\/p><p>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan esa sostenibilidad a nuevas escalas y los EcoLovers <strong>hacen que todo valga la pena<\/strong>, <strong>eligiendo un futuro más verde<\/strong> con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que la sostenibilidad no solo es posible, sino que está sucediendo ahora.<br\/><\/p><p>En Ecoterra, cada click, cada elección y cada interacción es un paso optimista hacia un futuro más sostenible.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15548375433309__008f5159-b527-4c70-b38e-af80df1ce35e-heading-1",
-        "ab0793de-8a63-4478-b840-a49dfb146b54",
-        "template--15548375433309__008f5159-b527-4c70-b38e-af80df1ce35e-richtext-1"
-      ],
-      "custom_css": [
-        "p {text-align: left;}",
-        "h2 {text-align: left;}",
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#000000"
-      }
-    },
     "5f0a9896-e1f9-448d-a214-f8e4017ce391": {
       "type": "hot-spots-text",
       "blocks": {
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 25,
-            "vertical_position": 32,
+            "horizontal_position": 23,
+            "vertical_position": 38,
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
             "icon": "shopify:\/\/shop_images\/agriculture.png",
@@ -371,86 +327,14 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/fondo_a5b4a3e0-ed52-4bff-ab8b-b9338b0372c4.png",
+        "image": "shopify:\/\/shop_images\/fondo-hotspot_23145eb8-4a7f-451f-bfe2-7e8996b704a8.png",
         "hotspot_image": "shopify:\/\/shop_images\/esquema.png",
         "title": "Modelo",
         "content": "<p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p>",
         "button_text": "",
         "button_url": "",
         "desktop_text_position": "left-right",
-        "image_background": "",
-        "image_background_gradient": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#000000",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
-      }
-    },
-    "176bfb17-1b54-464d-8dea-82b65abe29a2": {
-      "type": "hot-spots",
-      "blocks": {
-        "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-2": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 48,
-            "vertical_position": 28,
-            "horizontal_position_mobile": 47,
-            "vertical_position_mobile": 35,
-            "icon": "shopify:\/\/shop_images\/agriculture.png",
-            "icon_width": 44,
-            "title": "EcoAgri Lab",
-            "content": "<p>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
-          }
-        },
-        "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-1": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 29,
-            "vertical_position": 62,
-            "horizontal_position_mobile": 13,
-            "vertical_position_mobile": 59,
-            "icon": "shopify:\/\/shop_images\/account_tree.png",
-            "icon_width": 44,
-            "title": "EcoTech Lab",
-            "content": "<p>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo. ¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en el libro inmutable de la tecnología blockchain? ... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
-          }
-        },
-        "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-3": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 67,
-            "vertical_position": 62,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 59,
-            "icon": "shopify:\/\/shop_images\/egg.png",
-            "icon_width": 44,
-            "title": "EcoFood Lab",
-            "content": "<p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? EcoFoodLab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-2",
-        "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-1",
-        "template--15537731993693__176bfb17-1b54-464d-8dea-82b65abe29a2-item-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "image": "shopify:\/\/shop_images\/fondo_a5b4a3e0-ed52-4bff-ab8b-b9338b0372c4.png",
-        "title": "Modelo",
-        "content": "<p>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan esa sostenibilidad a nuevas escalas y los EcoLovers <strong>hacen que todo valga la pena<\/strong>, <strong>eligiendo un futuro más verde<\/strong> con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que la sostenibilidad no solo es posible, sino que está sucediendo ahora.<br\/><\/p>",
-        "button_text": "",
-        "button_url": "",
-        "desktop_text_position": "place-self-center-end text-end",
-        "image_background": "",
+        "image_background": "#ffffff",
         "image_background_gradient": "",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
@@ -809,9 +693,7 @@
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
     "81f56374-33bb-4153-b87f-6f5be4026165",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
-    "008f5159-b527-4c70-b38e-af80df1ce35e",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
-    "176bfb17-1b54-464d-8dea-82b65abe29a2",
     "e0d50b40-660c-4f52-bc6c-e18294190402",
     "dd9eb39e-7511-47e7-9add-7ee2a994dad3",
     "23a65bae-1921-413d-8f45-a5a71140750c",

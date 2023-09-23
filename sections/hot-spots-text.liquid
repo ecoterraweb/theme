@@ -86,6 +86,9 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
     .hotspot-content-desktop > div{
       flex: 1;
     }
+    .tap-area{
+      z-index: 1;
+    }
     @media screen and (min-width: 1000px) {
       #block-{{ section.id }}-{{ block.id }} {
         --hot-spot-horizontal-position: {{ block.settings.horizontal_position }}%;

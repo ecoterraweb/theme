@@ -318,12 +318,6 @@
     "99996713-cadd-4d07-99fc-7aa3b05e4120": {
       "type": "rich-text",
       "blocks": {
-        "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "catálogo"
-          }
-        },
         "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-heading-1": {
           "type": "heading",
           "settings": {
@@ -336,16 +330,29 @@
         "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>¡Conoce nuestro catálogo completo de productos!<\/h6>"
+            "content": "<h6>Conoce nuestro catálogo completo de productos!<\/h6>"
+          }
+        },
+        "d898b983-5ef8-413f-838b-a40f0c9ebe5e": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "xl",
+            "text": "Descárgalo aquí",
+            "url": "",
+            "background": "",
+            "text_color": "#ffffff"
           }
         }
       },
       "block_order": [
-        "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-subheading-1",
         "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-heading-1",
-        "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-richtext-1"
+        "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-richtext-1",
+        "d898b983-5ef8-413f-838b-a40f0c9ebe5e"
       ],
       "custom_css": [
+        "h2 {font-size: 35px;}",
+        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
         "button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
@@ -353,9 +360,35 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#1a1a1a",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#ffffff"
+      }
+    },
+    "f98c25b8-cd4f-4765-85dd-c78b8c6e4335": {
+      "type": "rich-text",
+      "blocks": {
+        "d94fbd59-4f66-4078-a898-7579fc35b8ed": {
+          "type": "heading",
+          "settings": {
+            "text": "¡Encuentra nuestros productos!",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "d94fbd59-4f66-4078-a898-7579fc35b8ed"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
       }
     },
     "23a30acb-e4f3-4e11-918e-6e959b1c0de3": {
@@ -372,50 +405,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "ebdf210b-ac73-4554-bfa4-34c3455d45c3": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--15546129678429__ebdf210b-ac73-4554-bfa4-34c3455d45c3-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "¡Conoce nuestro catálogo completo de productos!",
-            "heading_tag": "h5"
-          }
-        },
-        "bb4e84c4-62f8-4e6d-b3a2-4ce49f7f9769": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Descargar",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15546129678429__ebdf210b-ac73-4554-bfa4-34c3455d45c3-heading-1",
-        "bb4e84c4-62f8-4e6d-b3a2-4ce49f7f9769"
-      ],
-      "custom_css": [
-        "button {letter-spacing: 0.02em; font-weight: 500;}",
-        "div {border-image: 0px;}"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/CATALOGO.png",
-        "mobile_text_position": "place-self-end-center text-center",
-        "desktop_text_position": "sm:place-self-end-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     }
   },
   "order": [
@@ -429,7 +418,7 @@
     "37e9c351-50ee-47bc-807a-a622c311f983",
     "988affd9-0f7f-4bc5-a306-1acd526badc6",
     "99996713-cadd-4d07-99fc-7aa3b05e4120",
-    "23a30acb-e4f3-4e11-918e-6e959b1c0de3",
-    "ebdf210b-ac73-4554-bfa4-34c3455d45c3"
+    "f98c25b8-cd4f-4765-85dd-c78b8c6e4335",
+    "23a30acb-e4f3-4e11-918e-6e959b1c0de3"
   ]
 }

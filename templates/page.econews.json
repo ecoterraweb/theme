@@ -83,11 +83,10 @@
         "button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
-        "full_width": true,
-        "image": "shopify:\/\/shop_images\/newsletter.png",
+        "full_width": false,
         "show_icon": false,
-        "title": "¡No te quedes fuera!",
-        "content": "<p>Entérate de todas nuestras noticias y novedades.<\/p>",
+        "title": "Newsletter",
+        "content": "",
         "button_text": "Suscríbete aquí",
         "subtext": "",
         "background": "",

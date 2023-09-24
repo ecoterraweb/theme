@@ -13,8 +13,8 @@
         "template--15538125635677__9b61646c-a010-4320-a608-c4c9982d72a1-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_with_text_overlay-2.png",
-            "mobile_image": "shopify:\/\/shop_images\/Image_with_text_overlay-2_ac69709c-816b-4567-b0a6-7e3c17169bd7.png",
+            "image": "shopify:\/\/shop_images\/banner-productos-1.png",
+            "mobile_image": "shopify:\/\/shop_images\/banner-productos-2.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -35,11 +35,13 @@
         "6bb1c9e8-7db1-4499-9c91-fe74c2e93c00": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/banner-productos.png",
+            "mobile_image": "shopify:\/\/shop_images\/banner-productos-4.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
+            "subheading": "",
+            "title": "",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
@@ -47,7 +49,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -76,7 +78,7 @@
         "4fbca877-601e-45fc-94dd-59cad4a05aac": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani-2.png",
+            "image": "shopify:\/\/shop_images\/desafiamos.png",
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 400
@@ -90,31 +92,14 @@
         "template--15538978062429__592c85fc-a583-4781-a203-f2d81caae21f-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h4>En un mundo donde cada bocado puede cambiarlo todo, los Ecoalimentos de Ecoterra brillan como faros de sabor y sostenibilidad en un mar de opciones.<\/h4>"
-          }
-        },
-        "d68c1a95-d4f7-4dcc-849c-a7be43c0530d": {
-          "type": "heading",
-          "settings": {
-            "text": "Desafiamos las normas,redefiniendo la comida consciente.",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "d1e07204-102f-467c-ad2a-4049558a8ba6": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>En cada categoría de <strong>Ecoalimentos<\/strong>, fusionamos innovación científica con la esencia de la tierra, forjando un menú que nutre a cuerpos y al planeta. Desde cultivos en <strong>EcoAgriLab <\/strong>hasta creaciones culinarias en <strong>EcoFoodLab<\/strong>, y soluciones tecnológicas en <strong>EcoTech Lab,<\/strong> cada bocado marca un giro.<\/p>"
+            "content": "<h6>En un mundo donde cada bocado puede cambiarlo todo, los Ecoalimentos de Ecoterra brillan como faros de sabor y sostenibilidad en un mar de opciones.<\/h6><p>En cada categoría de <strong>Ecoalimentos<\/strong>, fusionamos innovación científica con la esencia de la tierra, forjando un menú que nutre a cuerpos y al planeta. Desde cultivos en <strong>EcoAgriLab <\/strong>hasta creaciones culinarias en <strong>EcoFoodLab<\/strong>, y soluciones tecnológicas en <strong>EcoTech Lab,<\/strong> cada bocado marca un giro.<\/p>"
           }
         }
       },
       "block_order": [
         "4fbca877-601e-45fc-94dd-59cad4a05aac",
         "25de009c-1c69-40e7-9334-0eff205599a8",
-        "template--15538978062429__592c85fc-a583-4781-a203-f2d81caae21f-richtext-1",
-        "d68c1a95-d4f7-4dcc-849c-a7be43c0530d",
-        "d1e07204-102f-467c-ad2a-4049558a8ba6"
+        "template--15538978062429__592c85fc-a583-4781-a203-f2d81caae21f-richtext-1"
       ],
       "custom_css": [
         "div {text-align: left;}"

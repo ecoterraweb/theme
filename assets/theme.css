@@ -10292,3 +10292,7 @@ split-lines {
   transform: rotate(45deg);
   cursor: pointer;
 }
+a.button.button--lg{
+  padding-left: 100px;
+  padding-right: 100px;
+}

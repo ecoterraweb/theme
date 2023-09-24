@@ -90,8 +90,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/desafiamos.png",
-            "width_mode": "full_width",
-            "max_width": 500,
+            "width_mode": "custom",
+            "max_width": 660,
             "mobile_max_width": 300
           }
         }

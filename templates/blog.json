@@ -7,6 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/wconews_91f6c76f-e8d7-41bc-83d6-1237f9e5d20a.png",
+            "mobile_image": "shopify:\/\/shop_images\/econews2.png",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",

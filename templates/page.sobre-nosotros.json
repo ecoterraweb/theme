@@ -81,7 +81,8 @@
       "custom_css": [
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
         "p {text-align: left;}",
-        "div {align-items: center;}"
+        "div {align-items: center;}",
+        ".section-full.bg-custom.text-custom {padding-top: 130px; padding-bottom: 130px;}"
       ],
       "settings": {
         "identifier": "",

@@ -41,7 +41,7 @@ a {
   text-decoration: inherit;
 }
 
-b, strong {
+b, strong, span strong {
   font-weight: 600;
 }
 

@@ -92,7 +92,7 @@
             "collection": "aderezos-naturales",
             "image": "shopify:\/\/shop_images\/eco-adereso.png",
             "subheading": "",
-            "title": "Ver más",
+            "title": "",
             "url": "",
             "heading_tag": "h6",
             "text_position": "place-self-end text-end",
@@ -107,7 +107,7 @@
             "collection": "huevos",
             "image": "shopify:\/\/shop_images\/eco-huevos_8d1bab5d-2e13-4071-93c7-a2fc40158830.png",
             "subheading": "",
-            "title": "Ver más",
+            "title": "",
             "url": "",
             "heading_tag": "h6",
             "text_position": "place-self-end text-end",
@@ -122,7 +122,7 @@
             "collection": "lacteos",
             "image": "shopify:\/\/shop_images\/eco-lacteos.png",
             "subheading": "",
-            "title": "Ver más",
+            "title": "",
             "url": "",
             "heading_tag": "h6",
             "text_position": "place-self-end text-end",
@@ -137,7 +137,7 @@
             "collection": "fair-foods",
             "image": "shopify:\/\/shop_images\/eco-protein.png",
             "subheading": "",
-            "title": "Ver más",
+            "title": "",
             "url": "",
             "heading_tag": "h6",
             "text_position": "place-self-end text-end",
@@ -172,7 +172,7 @@
       "custom_css": [
         "h2 {font-size: 35px;}",
         "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
-        ".text-custom strong {font-weight:400;}"
+        ".text-custom strong {font-weight: 400;}"
       ],
       "settings": {
         "full_width": true,

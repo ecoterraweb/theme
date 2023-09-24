@@ -1,56 +1,48 @@
 {
   "sections": {
-    "95648ed2-d7c2-4765-83a3-a116ec3c1c4b": {
-      "type": "multiple-images-with-text",
+    "bbc9d5bd-d3e6-4563-8d56-0fe10e49faf4": {
+      "type": "slideshow",
       "blocks": {
-        "template--15537489903709__95648ed2-d7c2-4765-83a3-a116ec3c1c4b-item-1": {
-          "type": "item",
+        "template--15546130399325__bbc9d5bd-d3e6-4563-8d56-0fe10e49faf4-image-2": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/coding-on-laptop.webp",
-            "image_rotation_degrees": -2,
+            "image": "shopify:\/\/shop_images\/wconews_91f6c76f-e8d7-41bc-83d6-1237f9e5d20a.png",
+            "content_max_width": 700,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "EcoNews",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
+            "title": "",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "template--15537489903709__95648ed2-d7c2-4765-83a3-a116ec3c1c4b-item-1"
+        "template--15546130399325__bbc9d5bd-d3e6-4563-8d56-0fe10e49faf4-image-2"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
-        "orientation": "normal",
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
       }
     },
     "main": {
       "type": "main-blog",
-      "blocks": {
-        "dce7cad6-3227-4f98-baf1-767fe9f961f0": {
-          "type": "newsletter",
-          "disabled": true,
-          "settings": {
-            "title": "Newsletter",
-            "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
-            "button_text": "Subscribe",
-            "subtext": "",
-            "position": 5,
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "dce7cad6-3227-4f98-baf1-767fe9f961f0"
-      ],
       "custom_css": [
 
       ],
@@ -81,7 +73,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/newsletter_e8aba1dc-eefe-40f3-a891-c0c7b432ade6.png",
+        "image": "shopify:\/\/shop_images\/newsletter.png",
         "show_icon": false,
         "title": "¡No te quedes fuera!",
         "content": "<p>Entérate de todas nuestras noticias y novedades.<\/p>",
@@ -96,7 +88,7 @@
     }
   },
   "order": [
-    "95648ed2-d7c2-4765-83a3-a116ec3c1c4b",
+    "bbc9d5bd-d3e6-4563-8d56-0fe10e49faf4",
     "main",
     "d12fb7c1-ced5-418c-b017-5130f0cafc84"
   ]

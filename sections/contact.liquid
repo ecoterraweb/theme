@@ -15,7 +15,10 @@
   <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
     {%- capture content -%}
       {%- if section.settings.image != blank -%}
+        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: 'image-link-blocks__image zoom-image' -}}
+        {%- comment -%}
         {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 699px) 160px, 285px', widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600', class: 'image-link-blocks__image zoom-image' -}}
+        {%- endcomment -%}
       {%- endif -%}
       {%- if section.settings.subheading != blank -%}
         <p class="bold">{{ section.settings.subheading | escape }}</p>

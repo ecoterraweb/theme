@@ -76,13 +76,16 @@
     },
     "d12fb7c1-ced5-418c-b017-5130f0cafc84": {
       "type": "newsletter",
+      "custom_css": [
+        "button {letter-spacing: 0.02em; font-weight: 500;}"
+      ],
       "settings": {
-        "full_width": true,
-        "image": "shopify:\/\/shop_images\/newsletter.png",
-        "show_icon": true,
-        "title": "Newsletter",
-        "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
-        "button_text": "Subscribe",
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/newsletter_e8aba1dc-eefe-40f3-a891-c0c7b432ade6.png",
+        "show_icon": false,
+        "title": "¡No te quedes fuera!",
+        "content": "<p>Entérate de todas nuestras noticias y novedades.<\/p>",
+        "button_text": "Suscríbete aquí",
         "subtext": "",
         "background": "",
         "background_gradient": "",

@@ -1,5 +1,47 @@
 {
   "sections": {
+    "9b252a1d-20be-41e1-ae4f-5d0d8f298207": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ecotech.png",
+            "mobile_image": "shopify:\/\/shop_images\/Ecotech2.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -27,7 +69,8 @@
         "template--15538504171613__8e32e533-98bf-401b-849d-2b20a1e1f28c-item-1"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
+        "orientation": "normal",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -345,6 +388,7 @@
     }
   },
   "order": [
+    "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "main",
     "8e32e533-98bf-401b-849d-2b20a1e1f28c",
     "50cc92fa-8507-48c2-b382-89ea0097be7a",

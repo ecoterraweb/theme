@@ -172,7 +172,7 @@
       "custom_css": [
         "h2 {font-size: 35px;}",
         "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
-        ".text-custom strong {font-weight: 400;}"
+        ".text-custom strong {font-weight:400;}"
       ],
       "settings": {
         "full_width": true,

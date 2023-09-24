@@ -1,1 +1,107 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"content_width":"80ch"}},"9fa25b14-4fab-4dc7-a401-effe3c474485":{"type":"multiple-images-with-text","blocks":{"template--15537731993693__9fa25b14-4fab-4dc7-a401-effe3c474485-item-1":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/coding-on-laptop.webp","image_rotation_degrees":-2,"subheading":"","title":"EcoNews","content":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","button_url":"","button_text":""}}},"block_order":["template--15537731993693__9fa25b14-4fab-4dc7-a401-effe3c474485-item-1"],"settings":{"full_width":true,"images_layout":"stacked","collage_images_alignment":"middle","background":"","background_gradient":"","text_color":"","button_background":"","button_text_color":""}},"63303b90-3a37-407c-9926-07e8e5d5910f":{"type":"blog-posts","blocks":{"template--15537731993693__63303b90-3a37-407c-9926-07e8e5d5910f-blog-1":{"type":"blog","settings":{"blog":"noticias","posts_count":3,"stack_items":false}}},"block_order":["template--15537731993693__63303b90-3a37-407c-9926-07e8e5d5910f-blog-1"],"settings":{"full_width":true,"show_excerpt":true,"show_date":true,"show_author":false,"show_comments_count":false,"show_category":true,"subheading":"","title":"Blog posts","content":"","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"c42f0049-c68f-44be-83af-98004fd5b001":{"type":"newsletter","settings":{"full_width":true,"show_icon":true,"title":"Newsletter","content":"<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>","button_text":"Subscribe","subtext":"","background":"","background_gradient":"","text_color":"","button_background":"","button_text_color":""}}},"order":["main","9fa25b14-4fab-4dc7-a401-effe3c474485","63303b90-3a37-407c-9926-07e8e5d5910f","c42f0049-c68f-44be-83af-98004fd5b001"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "9fa25b14-4fab-4dc7-a401-effe3c474485": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--15537731993693__9fa25b14-4fab-4dc7-a401-effe3c474485-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coding-on-laptop.webp",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "EcoNews",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15537731993693__9fa25b14-4fab-4dc7-a401-effe3c474485-item-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "orientation": "normal",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "63303b90-3a37-407c-9926-07e8e5d5910f": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15537731993693__63303b90-3a37-407c-9926-07e8e5d5910f-blog-1": {
+          "type": "blog",
+          "settings": {
+            "blog": "noticias",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15537731993693__63303b90-3a37-407c-9926-07e8e5d5910f-blog-1"
+      ],
+      "custom_css": [
+        "h2 {font-size: 35px;}",
+        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        ".text-custom strong {font-weight: 400;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "blog posts",
+        "title": "Novedades",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "c42f0049-c68f-44be-83af-98004fd5b001": {
+      "type": "newsletter",
+      "custom_css": [
+        "button {letter-spacing: 0.02em; font-weight: 500;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/newsletter.png",
+        "show_icon": false,
+        "title": "¡No te quedes fuera!",
+        "content": "<p>Entérate de todas nuestras noticias y novedades.<\/p>",
+        "button_text": "Suscríbete aquí",
+        "subtext": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9fa25b14-4fab-4dc7-a401-effe3c474485",
+    "63303b90-3a37-407c-9926-07e8e5d5910f",
+    "c42f0049-c68f-44be-83af-98004fd5b001"
+  ]
+}

@@ -135,7 +135,7 @@
         "template--15538125635677__5eda4943-37f5-4688-a245-925e754d2358-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco-huevos_8d1bab5d-2e13-4071-93c7-a2fc40158830.png",
+            "image": "shopify:\/\/shop_images\/eco_huevos.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoHuevos",
@@ -148,15 +148,18 @@
       "block_order": [
         "template--15538125635677__5eda4943-37f5-4688-a245-925e754d2358-item-1"
       ],
+      "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+      ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "orientation": "normal",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#7dac00",
+        "button_background": "#1a1a1a",
         "button_text_color": ""
       }
     },
@@ -166,7 +169,7 @@
         "3a9f287e-a4e7-4b5f-ab8e-67be54b8e654": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco-protein.png",
+            "image": "shopify:\/\/shop_images\/eco_protein.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoProtein",
@@ -179,15 +182,18 @@
       "block_order": [
         "3a9f287e-a4e7-4b5f-ab8e-67be54b8e654"
       ],
+      "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+      ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "orientation": "reversed",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#7dac00",
+        "button_background": "#1a1a1a",
         "button_text_color": ""
       }
     },
@@ -197,7 +203,7 @@
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco-lacteos.png",
+            "image": "shopify:\/\/shop_images\/eco_lacteos.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoLácteos",
@@ -210,15 +216,18 @@
       "block_order": [
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e"
       ],
+      "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+      ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "orientation": "normal",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#7dac00",
+        "button_background": "#1a1a1a",
         "button_text_color": ""
       }
     },
@@ -228,7 +237,7 @@
         "1cc55f40-3ae8-4834-b200-df431c412e23": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco-despenza.png",
+            "image": "shopify:\/\/shop_images\/eco_despensa.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoDespensa",
@@ -241,15 +250,18 @@
       "block_order": [
         "1cc55f40-3ae8-4834-b200-df431c412e23"
       ],
+      "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+      ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "orientation": "reversed",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#7dac00",
+        "button_background": "#1a1a1a",
         "button_text_color": ""
       }
     },
@@ -259,7 +271,7 @@
         "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco-adereso.png",
+            "image": "shopify:\/\/shop_images\/eco_aderezos.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoAderezos",
@@ -272,85 +284,93 @@
       "block_order": [
         "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf"
       ],
+      "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+      ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "orientation": "normal",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#7dac00",
+        "button_background": "#1a1a1a",
         "button_text_color": ""
       }
     },
-    "c393969b-28d1-4237-80fa-0e47893b1fc5": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15546129678429__c393969b-28d1-4237-80fa-0e47893b1fc5-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "¡Encuentra nuestros productos!",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15546129678429__c393969b-28d1-4237-80fa-0e47893b1fc5-heading-1"
-      ],
+    "988affd9-0f7f-4bc5-a306-1acd526badc6": {
+      "type": "image-with-text-overlay",
       "settings": {
         "identifier": "",
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/vaca.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "23a30acb-e4f3-4e11-918e-6e959b1c0de3": {
       "type": "custom-html",
+      "custom_css": [
+        "div {align-content: center;}"
+      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "html": "<iframe src=\"https:\/\/www.google.com\/maps\/d\/embed?mid=1A-uWepStfF33vuq4LuvBVlA61wk-TDY&amp;ehbc=2E312F&amp;noprof=1\" width=\"100%\" height=\"480\"><\/iframe>",
-        "background": "",
+        "background": "#000000",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "6fb9880b-ad9c-4b88-b622-7303989963d9": {
-      "type": "multiple-images-with-text",
+    "ebdf210b-ac73-4554-bfa4-34c3455d45c3": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "ed9fa797-a789-4e79-9f75-9bd44c4a9324": {
-          "type": "item",
+        "template--15546129678429__ebdf210b-ac73-4554-bfa4-34c3455d45c3-heading-1": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/favicon.png",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Catálogo de productos",
-            "content": "<p>¡Conoce nuestro catálogo completo de productos!<\/p>",
-            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0280\/0854\/6397\/files\/file-pdf-solid.svg?v=1691702893",
-            "button_text": "Descargar"
+            "text": "¡Conoce nuestro catálogo completo de productos!",
+            "heading_tag": "h5"
+          }
+        },
+        "bb4e84c4-62f8-4e6d-b3a2-4ce49f7f9769": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Descargar",
+            "url": "",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "ed9fa797-a789-4e79-9f75-9bd44c4a9324"
+        "template--15546129678429__ebdf210b-ac73-4554-bfa4-34c3455d45c3-heading-1",
+        "bb4e84c4-62f8-4e6d-b3a2-4ce49f7f9769"
+      ],
+      "custom_css": [
+        "button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
-        "orientation": "normal",
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "#7dac00",
-        "button_text_color": ""
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/catalogo2.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     }
   },
@@ -363,8 +383,8 @@
     "39ad79e5-8c09-4e41-9da5-ebd5cbb71b89",
     "b284511b-c5db-49b7-958a-f9f447c5b8c9",
     "37e9c351-50ee-47bc-807a-a622c311f983",
-    "c393969b-28d1-4237-80fa-0e47893b1fc5",
+    "988affd9-0f7f-4bc5-a306-1acd526badc6",
     "23a30acb-e4f3-4e11-918e-6e959b1c0de3",
-    "6fb9880b-ad9c-4b88-b622-7303989963d9"
+    "ebdf210b-ac73-4554-bfa4-34c3455d45c3"
   ]
 }

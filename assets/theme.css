@@ -42,7 +42,7 @@ a {
 }
 
 b, strong {
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 code, kbd, samp, pre {

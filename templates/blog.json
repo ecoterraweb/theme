@@ -56,7 +56,7 @@
       ],
       "settings": {
         "allow_transparent_header": false,
-        "content": "<p>Get access to our latest news by signing up for our newsletter.<\/p>",
+        "content": "",
         "show_newsletter_form": false,
         "show_tags": true,
         "banner_background": "",
@@ -64,7 +64,7 @@
         "button_background": "",
         "button_text_color": "",
         "articles_per_page": 6,
-        "feature_first_article": true,
+        "feature_first_article": false,
         "feature_article_background": "",
         "feature_article_text_color": "",
         "show_excerpt": true,
@@ -80,7 +80,7 @@
         "button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "image": "shopify:\/\/shop_images\/newsletter_e8aba1dc-eefe-40f3-a891-c0c7b432ade6.png",
         "show_icon": false,
         "title": "¡No te quedes fuera!",

@@ -8,6 +8,12 @@
   </style>
 
   <div {% render 'section-properties' %} id="{{ section.settings.identifier }}">
+    {%- if section.settings.image != blank -%}
+        {%- assign mobile_image = section.settings.mobile_image | default: section.settings.image -%}
+
+        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: class: 'hidden md:block', loading: 'lazy', sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+        {{- mobile_image | image_url: width: mobile_image.width | image_tag: class: 'md:hidden', loading: 'lazy', sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+      {%- endif -%}
     {%- assign text_position = section.settings.text_position -%}
     {%- assign blocks_before_divider = '' -%}
     {%- assign blocks_after_divider = '' -%}
@@ -150,6 +156,18 @@
       "id": "full_width",
       "label": "Full width",
       "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "2500 x 1200px .jpg recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile image",
+      "info": "1500 x 1900px .jpg recommended. Default to desktop image."
     },
     {
       "type": "select",

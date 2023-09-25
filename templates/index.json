@@ -13,7 +13,8 @@
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
             "title": "Elige con propósito",
-            "heading_tag": "h1",
+            "heading_tag": "h0",
+            "heading_style": "font--secondary",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -36,6 +37,7 @@
             "subheading": "",
             "title": "Disfruta con sentido",
             "heading_tag": "h1",
+            "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -226,7 +228,7 @@
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
       ],
       "custom_css": [
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {

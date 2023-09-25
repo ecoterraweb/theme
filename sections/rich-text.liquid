@@ -5,7 +5,7 @@
     #shopify-section-{{ section.id }} {
       --rich-text-max-width: {% if section.settings.content_width == 'small' %}650px{% elsif section.settings.content_width == 'medium' %}780px{% else %}100%{% endif %}
     }
-    .section-bg-rich-text{
+    .section-bg-rich-text:has(img){
       display: grid;
       padding: 0;
       place-items: center;

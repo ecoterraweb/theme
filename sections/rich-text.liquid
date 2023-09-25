@@ -5,14 +5,27 @@
     #shopify-section-{{ section.id }} {
       --rich-text-max-width: {% if section.settings.content_width == 'small' %}650px{% elsif section.settings.content_width == 'medium' %}780px{% else %}100%{% endif %}
     }
+    .section-bg-rich-text{
+      display: grid;
+      padding: 0;
+    }
+    .section-bg-rich-text .img-bg-rich-text, .section-bg-rich-text .rich-text {
+      grid-area: 1 / -1;
+    }
   </style>
+  {%- if section.settings.image != blank -%}
+    {%- assign class_bg = 'section-bg-rich-text' -%}
+  {%- else -%}
+    {%- assign class_bg = blank -%}
+  {%- endif -%}
 
-  <div {% render 'section-properties' %} id="{{ section.settings.identifier }}">
+
+  <div {% render 'section-properties', class: 'section-bg-rich-text' %} id="{{ section.settings.identifier }}">
     {%- if section.settings.image != blank -%}
         {%- assign mobile_image = section.settings.mobile_image | default: section.settings.image -%}
 
-        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: class: 'hidden md:block', loading: 'lazy', sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
-        {{- mobile_image | image_url: width: mobile_image.width | image_tag: class: 'md:hidden', loading: 'lazy', sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: class: 'img-bg-rich-text hidden md:block', loading: 'lazy', sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+        {{- mobile_image | image_url: width: mobile_image.width | image_tag: class: 'img-bg-rich-text md:hidden', loading: 'lazy', sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
       {%- endif -%}
     {%- assign text_position = section.settings.text_position -%}
     {%- assign blocks_before_divider = '' -%}

@@ -26,24 +26,24 @@
             "background_gradient": ""
           }
         },
-        "3ef2e401-94a9-4928-8e2e-a053038668ef": {
+        "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-2.png",
-            "mobile_image": "shopify:\/\/shop_images\/Image_with_text_overlay-2-1_63e492a1-f836-4cfb-ab2c-28e2a56ba39f.png",
-            "content_max_width": 780,
+            "image": "shopify:\/\/shop_images\/banner-1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Image_with_text_overlay-1_289601a5-ac71-468e-9da0-006b52f04297.png",
+            "content_max_width": 580,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
             "title": "Disfruta con sentido",
-            "heading_tag": "h1",
-            "heading_style": "font--primary",
+            "heading_tag": "h0",
+            "heading_style": "font--secondary",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "overlay_color": "#000000",
+            "overlay_color": "#052e1e",
             "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
@@ -52,7 +52,10 @@
       },
       "block_order": [
         "slide-1",
-        "3ef2e401-94a9-4928-8e2e-a053038668ef"
+        "266ea942-f3bc-46b8-896b-dccd9dc58ff5"
+      ],
+      "custom_css": [
+        "div{text-align:right;}"
       ],
       "settings": {
         "identifier": "",

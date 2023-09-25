@@ -204,7 +204,9 @@
         "45323da3-7952-4c8b-be2c-67823a1b23e1": {
           "type": "subheading",
           "settings": {
-            "text": "sobre nosotros"
+            "text": "sobre nosotros",
+            "custom_pill_subheading": true,
+            "subheading_background_color": "#000000"
           }
         },
         "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1": {
@@ -212,6 +214,12 @@
           "settings": {
             "text": "<strong>ESTAMOS CAMBIANDO<\/strong> LA FORMA DE HACER LAS COSAS",
             "heading_tag": "h2"
+          }
+        },
+        "a9f2f904-aa6f-49b3-8311-d664fd603779": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9": {
@@ -229,6 +237,7 @@
       "block_order": [
         "45323da3-7952-4c8b-be2c-67823a1b23e1",
         "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1",
+        "a9f2f904-aa6f-49b3-8311-d664fd603779",
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
       ],
       "custom_css": [

@@ -9514,6 +9514,10 @@ split-lines {
   place-self: end center;
 }
 
+.place-self-end-end {
+  place-self: end center;
+}
+
 @media screen and (min-width: 700px) {
   .sm\:text-start {
     text-align: start;
@@ -9561,6 +9565,10 @@ split-lines {
 
   .sm\:place-self-end-center {
     place-self: end center;
+  }
+
+  .sm\:place-self-end-end {
+    place-self: end end;
   }
 
   .sm\:justify-items-center {

@@ -194,17 +194,17 @@
     "81738a72-0073-43da-bec4-810deabf91f6": {
       "type": "image-with-text-overlay",
       "blocks": {
+        "45323da3-7952-4c8b-be2c-67823a1b23e1": {
+          "type": "subheading",
+          "settings": {
+            "text": "sobre nosotros"
+          }
+        },
         "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Manifiesto",
+            "text": "¿Por qué hacemos lo que hacemos?",
             "heading_tag": "h2"
-          }
-        },
-        "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>¿Por qué hacemos lo que hacemos?<\/p>"
           }
         },
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9": {
@@ -220,11 +220,12 @@
         }
       },
       "block_order": [
+        "45323da3-7952-4c8b-be2c-67823a1b23e1",
         "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1",
-        "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-richtext-1",
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
       ],
       "custom_css": [
+        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {

@@ -40,7 +40,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -132,6 +132,7 @@
         "template--15546130202717__c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54-item-1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ecoagrilab.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoAgri Lab",
@@ -165,6 +166,7 @@
         "d618a6c3-e3ca-48dc-875c-ca13d1a4e4e8": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EcoFoodLab.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoFood Lab",
@@ -198,6 +200,7 @@
         "26d97ecb-fb74-485a-95f3-74aef5e6ae15": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EcofTechLab.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoTech Lab",
@@ -223,6 +226,145 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "574ad31f-5867-415a-8ded-ab9b3450fe68": {
+      "type": "video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "sm",
+        "video": "shopify:\/\/files\/videos\/Cap 4 Proof of Eco - Offline.mov",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "c4e0f3c9-e70f-4d8f-b147-37ed29969b4e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "certificaciones y sellos"
+          }
+        },
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "PROOF OF ECO",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Utilizamos la seguridad e inmutabilidad de las cadenas de bloques sobre tecnología sostenible de la red Polygon para darte visibilidad y transparencia de nuestros certificados gobernado por nuestro smart contract Proof of ECO.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-subheading-1",
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-heading-1",
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1"
+      ],
+      "custom_css": [
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+      ],
+      "settings": {
+        "identifier": "Impacto-section",
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/fondo_hotspot.png",
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "37898fe7-2722-4dd8-a4a7-e03f62d7698e": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CH.png",
+            "column_size": "3",
+            "title": "Certified Humane: Bienestar Animal",
+            "heading_tag": "h4",
+            "content": "<p>Mejoramiento del bienestar animal en sistemas agrícolas y de acuicultura. Los estándares son específicos al tipo de agricultura (interior, exterior, de libre pastoreo o orgánico) y cubren toda la cadena de producción (desde la salud y la dieta hasta el sacrificio).<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EB.png",
+            "column_size": "3",
+            "title": "Empresa B",
+            "heading_tag": "h4",
+            "content": "<p>Empresa B es una certificación ofrecida por B Lab, una organización independiente, no gubernamental y sin fines de lucro. La certificación evalúa el rendimiento social y ambiental de una empresa, desde la cadena de suministro y los materiales de entrada hasta la donación caritativa y los beneficios para los empleados. La certificación B Corp señala la intención de una empresa de mantener el propósito en el núcleo de la compañía.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EC.png",
+            "column_size": "3",
+            "title": "Organic ECOCERT",
+            "heading_tag": "h4",
+            "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "cf891f50-77c6-445e-8961-75bda27c688a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VA.png",
+            "column_size": "3",
+            "title": "Apto para veganos",
+            "heading_tag": "h4",
+            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-1",
+        "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-2",
+        "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-3",
+        "cf891f50-77c6-445e-8961-75bda27c688a"
+      ],
+      "custom_css": [
+        "p {text-align: left;}",
+        "h2 {text-align: left;}",
+        "div {vertical-align: center;}",
+        "button {letter-spacing: 0.02em; font-weight: 500;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "end",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
       }
     },
     "main": {
@@ -386,20 +528,6 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
-    },
-    "574ad31f-5867-415a-8ded-ab9b3450fe68": {
-      "type": "video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "sm",
-        "video": "shopify:\/\/files\/videos\/Cap 4 Proof of Eco - Offline.mov",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     }
   },
   "order": [
@@ -410,10 +538,12 @@
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",
     "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2",
     "a0af0435-390a-4f29-9870-4724c6b9beab",
+    "574ad31f-5867-415a-8ded-ab9b3450fe68",
+    "c4e0f3c9-e70f-4d8f-b147-37ed29969b4e",
+    "37898fe7-2722-4dd8-a4a7-e03f62d7698e",
     "main",
     "50cc92fa-8507-48c2-b382-89ea0097be7a",
     "b3000c38-f83c-4e34-a224-8dc889f73759",
-    "ce07879f-1661-4db2-ad40-d55d48bf83e2",
-    "574ad31f-5867-415a-8ded-ab9b3450fe68"
+    "ce07879f-1661-4db2-ad40-d55d48bf83e2"
   ]
 }

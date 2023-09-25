@@ -338,7 +338,8 @@
       "custom_css": [
         "h2 {font-size: 35px;}",
         "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
-        "button {letter-spacing: 0.02em; font-weight: 500;}"
+        "button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".section-full.bg-custom.text-custom {padding-top: 130px; padding-bottom: 130px;}"
       ],
       "settings": {
         "identifier": "",

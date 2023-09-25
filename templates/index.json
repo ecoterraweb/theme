@@ -210,7 +210,7 @@
         "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "ESTAMOS CAMBIANDO LA FORMA DE HACER LAS COSAS",
+            "text": "<strong>ESTAMOS CAMBIANDO<\/strong> LA FORMA DE HACER LAS COSAS",
             "heading_tag": "h2"
           }
         },
@@ -232,8 +232,7 @@
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
       ],
       "custom_css": [
-        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
       ],
       "settings": {
         "identifier": "",
@@ -250,30 +249,20 @@
         "overlay_opacity": 20
       }
     },
-    "569026d3-eea7-469c-9ef5-49e163cf37bf": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15546130071645__569026d3-eea7-469c-9ef5-49e163cf37bf-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "¿Cómo impactamos?",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15546130071645__569026d3-eea7-469c-9ef5-49e163cf37bf-heading-1"
-      ],
+    "c9425867-ab87-49e6-8262-e16b1ad8d9bb": {
+      "type": "image-with-text-overlay",
       "settings": {
         "identifier": "",
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#052e1e",
-        "background_gradient": "",
-        "text_color": "#ffffff"
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/nuestro-impacto_f0e711a2-2b55-4708-bac9-10849532fd6f.png",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#1a1a1a",
+        "overlay_opacity": 0
       }
     },
     "f6845132-3793-464a-b1d9-3b7b0ab1c835": {
@@ -353,13 +342,12 @@
         "491911ff-d434-4b87-95f3-d95c9eddc998"
       ],
       "custom_css": [
-
+        "impact-text {font-weight: 600; letter-spacing: 0.05em;}"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/Fondo.png",
-        "mobile_image": "shopify:\/\/shop_images\/Fondo-1.png",
+        "image": "shopify:\/\/shop_images\/imact-text-sf.png",
         "title": "",
         "heading_gradient_title": "",
         "text": "",
@@ -369,7 +357,7 @@
         "text_divider": "none",
         "impact_text_size_ratio": 1.5,
         "impact_text_size_ratio_mobile": 1,
-        "background": "#1a1a1a",
+        "background": "#7101b1",
         "background_gradient": "",
         "heading_text_color": "#ffffff",
         "heading_gradient": "",
@@ -431,14 +419,15 @@
     "05a7910e-b59d-4b0e-af73-ee980f02b1d3": {
       "type": "before-after-image",
       "custom_css": [
-        "h2 {font-size: 35px;}",
-        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+        ".h2 {font-size: 35px;}",
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
+        "strong {color: #ff6700;}"
       ],
       "settings": {
         "full_width": true,
         "subheading": "ecotech",
-        "title": "¿Sábes de donde vienen tus alimentos?",
-        "content": "<p>Con nuestra plataforma colaborativa, <strong>conectamos a productores conscientes con consumidores responsables<\/strong> y te contamos todo lo que pasa entre medio.<\/p>",
+        "title": "",
+        "content": "<h2>¿SÁBES DE <strong>DONDE VIENEN<\/strong> TUS ALIMENTOS?<\/h2><p>Gracias a la tecnología de <strong>WEB.3<\/strong>  y la revolución del <strong>BLOCKCHAIN<\/strong>, te lo podemos contar.<\/p>",
         "before_image": "shopify:\/\/shop_images\/ecoterra_frames_alta-4.png",
         "after_image": "shopify:\/\/shop_images\/gallina.png",
         "expand_image": true,
@@ -462,7 +451,7 @@
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "collection-list",
     "81738a72-0073-43da-bec4-810deabf91f6",
-    "569026d3-eea7-469c-9ef5-49e163cf37bf",
+    "c9425867-ab87-49e6-8262-e16b1ad8d9bb",
     "f6845132-3793-464a-b1d9-3b7b0ab1c835",
     "df3ede33-9fbf-4a2b-8206-3f667522cbc9",
     "featured-collection",

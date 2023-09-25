@@ -36,7 +36,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/facebook.jpg",
             "stretch_image": true,
-            "link_text": "Facebook Ecoterra",
+            "link_text": "",
             "link_url": "https:\/\/www.facebook.com\/ecoterrachile",
             "background": "",
             "text_color": "#ffffff",
@@ -72,6 +72,7 @@
         },
         "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-4": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/x.png",
             "stretch_image": true,

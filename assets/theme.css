@@ -441,6 +441,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   display: block;
   position: relative;
   overflow: hidden;
+  height: 415px;
 }
 
 .blog-post-card__figure > .badge {

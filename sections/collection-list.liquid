@@ -10,7 +10,16 @@ CSS
   #shopify-section-{{ section.id }} .collection-list {
     --collection-list-grid: {% if section.settings.stack_collections %}none{% else %}auto / auto-flow 73vw{% endif %};
   }
-
+  .custom-pill {
+    padding: 5.5px 22px 10px;
+    background-color: #1a1a1a;
+    color: #Fff;
+    border-radius: 100px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    line-height: 100%;
+  }
   @media screen and (min-width: 700px) {
     #shopify-section-{{ section.id }} .collection-list {
       --collection-list-grid: {% if section.settings.stack_collections %}auto / repeat(2, minmax(0, 1fr)){% else %}auto / auto-flow 36vw{% endif %};

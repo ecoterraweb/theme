@@ -204,7 +204,7 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoTech Lab",
-            "content": "<p><strong>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab<\/strong>. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo.<strong>¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en el libro inmutable de la tecnología blockchain?<\/strong>Contamos con los programadores más agudos trabajando en una plataforma que será la red neuronal de una Tierra nueva y sostenible. Un mundo donde cada transacción, cada acción y cada decisión es una inversión en el futuro.<\/p><p>Individualmente, cada laboratorio es un cambio de juego. ¿Pero juntos? Forman los pilares de Ecoterra, un modelo que trasciende disciplinas e industrias. Hemos aprovechado el poder de la blockchain para hacer que estas innovaciones no solo sean accesibles, sino fundamentales para nuestro ecosistema global compartido. Con Web 3, estamos creando una plataforma descentralizada y democratizada donde cualquiera, en cualquier lugar, puede contribuir a la revolución regenerativa.<\/p>",
+            "content": "<p><strong>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab<\/strong>. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo. <strong>¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en el libro inmutable de la tecnología blockchain? <\/strong>Contamos con los programadores más agudos trabajando en una plataforma que será la red neuronal de una Tierra nueva y sostenible. Un mundo donde cada transacción, cada acción y cada decisión es una inversión en el futuro.<\/p><p>Individualmente, cada laboratorio es un cambio de juego. ¿Pero juntos? Forman los pilares de Ecoterra, un modelo que trasciende disciplinas e industrias. Hemos aprovechado el poder de la blockchain para hacer que estas innovaciones no solo sean accesibles, sino fundamentales para nuestro ecosistema global compartido. Con Web 3, estamos creando una plataforma descentralizada y democratizada donde cualquiera, en cualquier lugar, puede contribuir a la revolución regenerativa.<\/p><p>Los EcoLabs no son solo laboratorios; son faros en un mundo nublado, guiándonos hacia un futuro sostenible.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -228,6 +228,32 @@
         "button_text_color": ""
       }
     },
+    "c4e0f3c9-e70f-4d8f-b147-37ed29969b4e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h6>Esto NO es simplemente otra empresa. <br\/>ESTO ES UN MOVIMIENTO, UNA REVOLUCIÓN<\/h6><h2>¡ESTO ES ECOTERRA!<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1"
+      ],
+      "custom_css": [
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+      ],
+      "settings": {
+        "identifier": "Impacto-section",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#052e1e",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
     "574ad31f-5867-415a-8ded-ab9b3450fe68": {
       "type": "video",
       "settings": {
@@ -242,16 +268,39 @@
         "overlay_opacity": 0
       }
     },
-    "c4e0f3c9-e70f-4d8f-b147-37ed29969b4e": {
+    "461d714d-63b1-42dc-9ed9-1740773c042e": {
       "type": "rich-text",
       "blocks": {
-        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-subheading-1": {
+        "af2cfa2a-4aa6-4045-a603-8cc45416c684": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h6>Gracias por ser parte de este viaje,<br\/>mientras redefinimos lo que es posible y recuperamos lo que es esencial<\/h6><p>Hacia un futuro más verde y mejor. <\/p><h3>¡BIENVENIDO A ECOTERRA!<br\/>Bienvenido a casa<\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "af2cfa2a-4aa6-4045-a603-8cc45416c684"
+      ],
+      "settings": {
+        "identifier": "Impacto-section",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#394ff0",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "b9bd2f55-09fc-493c-9156-e94f1f316727": {
+      "type": "rich-text",
+      "blocks": {
+        "e359ea7a-6a72-42a8-946b-b105b42245f6": {
           "type": "subheading",
           "settings": {
             "text": "certificaciones y sellos"
           }
         },
-        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-heading-1": {
+        "2684c6de-6f1c-4a49-b6ba-194d2d4c02ca": {
           "type": "heading",
           "settings": {
             "text": "PROOF OF ECO",
@@ -260,7 +309,7 @@
             "gradient": ""
           }
         },
-        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1": {
+        "a874ecb1-1984-478f-b0aa-b7d83d4959d6": {
           "type": "richtext",
           "settings": {
             "content": "<p>Utilizamos la seguridad e inmutabilidad de las cadenas de bloques sobre tecnología sostenible de la red Polygon para darte visibilidad y transparencia de nuestros certificados gobernado por nuestro smart contract Proof of ECO.<\/p>"
@@ -268,9 +317,9 @@
         }
       },
       "block_order": [
-        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-subheading-1",
-        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-heading-1",
-        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1"
+        "e359ea7a-6a72-42a8-946b-b105b42245f6",
+        "2684c6de-6f1c-4a49-b6ba-194d2d4c02ca",
+        "a874ecb1-1984-478f-b0aa-b7d83d4959d6"
       ],
       "custom_css": [
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
@@ -538,8 +587,10 @@
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",
     "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2",
     "a0af0435-390a-4f29-9870-4724c6b9beab",
-    "574ad31f-5867-415a-8ded-ab9b3450fe68",
     "c4e0f3c9-e70f-4d8f-b147-37ed29969b4e",
+    "574ad31f-5867-415a-8ded-ab9b3450fe68",
+    "461d714d-63b1-42dc-9ed9-1740773c042e",
+    "b9bd2f55-09fc-493c-9156-e94f1f316727",
     "37898fe7-2722-4dd8-a4a7-e03f62d7698e",
     "main",
     "50cc92fa-8507-48c2-b382-89ea0097be7a",

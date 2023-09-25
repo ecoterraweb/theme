@@ -3,7 +3,7 @@
     "banner": {
       "type": "collection-banner",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "show_collection_title": false,
@@ -11,11 +11,12 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/eco-adereso.png",
+        "image": "shopify:\/\/shop_images\/banner-productos.png",
+        "mobile_image": "shopify:\/\/shop_images\/banner-productos-4.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
-        "featured_product_heading": "Featured product",
+        "featured_product_heading": "",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0

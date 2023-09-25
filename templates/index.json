@@ -436,6 +436,8 @@
       "settings": {
         "full_width": true,
         "subheading": "ecotech",
+        "custom_pill_subheading": true,
+        "subheading_background_color": "#1a1a1a",
         "title": "",
         "content": "<h2>¿SÁBES DE <strong>DONDE VIENEN<\/strong> TUS ALIMENTOS?<\/h2><p>Gracias a la tecnología de <strong>WEB.3<\/strong>  y la revolución del <strong>BLOCKCHAIN<\/strong>, te lo podemos contar.<\/p>",
         "before_image": "shopify:\/\/shop_images\/ecoterra_frames_alta-4.png",

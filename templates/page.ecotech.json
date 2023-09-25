@@ -40,7 +40,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -228,6 +228,64 @@
         "button_text_color": ""
       }
     },
+    "574ad31f-5867-415a-8ded-ab9b3450fe68": {
+      "type": "video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "sm",
+        "video": "shopify:\/\/files\/videos\/Cap 4 Proof of Eco - Offline.mov",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "c4e0f3c9-e70f-4d8f-b147-37ed29969b4e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "certificaciones y sellos"
+          }
+        },
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "PROOF OF ECO",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Utilizamos la seguridad e inmutabilidad de las cadenas de bloques sobre tecnología sostenible de la red Polygon para darte visibilidad y transparencia de nuestros certificados gobernado por nuestro smart contract Proof of ECO.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-subheading-1",
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-heading-1",
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1"
+      ],
+      "custom_css": [
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+      ],
+      "settings": {
+        "identifier": "Impacto-section",
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/fondo_hotspot.png",
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -389,20 +447,6 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
-    },
-    "574ad31f-5867-415a-8ded-ab9b3450fe68": {
-      "type": "video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "sm",
-        "video": "shopify:\/\/files\/videos\/Cap 4 Proof of Eco - Offline.mov",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     }
   },
   "order": [
@@ -413,10 +457,11 @@
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",
     "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2",
     "a0af0435-390a-4f29-9870-4724c6b9beab",
+    "574ad31f-5867-415a-8ded-ab9b3450fe68",
+    "c4e0f3c9-e70f-4d8f-b147-37ed29969b4e",
     "main",
     "50cc92fa-8507-48c2-b382-89ea0097be7a",
     "b3000c38-f83c-4e34-a224-8dc889f73759",
-    "ce07879f-1661-4db2-ad40-d55d48bf83e2",
-    "574ad31f-5867-415a-8ded-ab9b3450fe68"
+    "ce07879f-1661-4db2-ad40-d55d48bf83e2"
   ]
 }

@@ -80,7 +80,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -99,7 +99,7 @@
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-2": {
@@ -114,7 +114,7 @@
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-3": {
@@ -129,7 +129,7 @@
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "b62f9824-0178-418a-ad41-c459d244bc96": {
@@ -144,7 +144,7 @@
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "629479de-4800-4434-af33-b8e92ed05571": {
@@ -159,7 +159,7 @@
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },

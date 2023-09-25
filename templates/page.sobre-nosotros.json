@@ -129,7 +129,7 @@
       ],
       "settings": {
         "identifier": "",
-        "full_width": true,
+        "full_width": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#ffffff",

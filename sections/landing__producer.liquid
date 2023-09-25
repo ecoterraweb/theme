@@ -166,8 +166,10 @@
         const data = await response.json();
         const producers = data.producers;
         producers.forEach(producer => {
-          const producerElement = createProducerElement(producer);
-          container.appendChild(producerElement);
+          if(producer.claims){
+            const producerElement = createProducerElement(producer);
+            container.appendChild(producerElement);
+          }
         });
 
 // Eliminar el div del DOM

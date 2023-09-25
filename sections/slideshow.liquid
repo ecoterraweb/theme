@@ -92,7 +92,7 @@ LIQUID
               {%- endif -%}
 
               {%- if block.settings.title != blank -%}
-                <p class="{{ block.settings.heading_tag }}" data-sequence="heading">
+                <p class="{{ block.settings.heading_tag }} {{ block.settings.heading_style }}" data-sequence="heading">
                   {%- render 'styled-text', content: block.settings.title, apparition_effect: true -%}
                 </p>
               {%- endif -%}
@@ -460,6 +460,22 @@ LIQUID
             }
           ],
           "default": "h0"
+        },
+        {
+          "type": "select",
+          "id": "heading_style",
+          "label": "Heading font",
+          "options": [
+            {
+              "value": "font--primary",
+              "label": "Primary"
+            },
+            {
+              "value": "font--secondary",
+              "label": "Secondary"
+            }
+          ],
+          "default": "primary"
         },
         {
           "type": "text",

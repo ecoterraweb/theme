@@ -17,10 +17,68 @@
         "subtext": "<p>Descripcion Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquam sapiente earum est sunt assumenda officiis, illum ipsam dicta nulla voluptas aliquid commodi ipsa. Tenetur deserunt ut illo nemo quidem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, ipsa? Praesentium tempore officiis amet aspernatur saepe distinctio! Ab esse inventore velit, sunt facere accusamus veniam optio eius expedita nostrum ea.<\/p>",
         "prooftitle": "Nuestros sellos"
       }
+    },
+    "3889d12c-1380-4df6-9da0-84b592aabdae": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15546130563165__3889d12c-1380-4df6-9da0-84b592aabdae-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "certificaciones y sellos"
+          }
+        },
+        "template--15546130563165__3889d12c-1380-4df6-9da0-84b592aabdae-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "PROOF OF ECO",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15546130563165__3889d12c-1380-4df6-9da0-84b592aabdae-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Muchas empresas hacen reclamos y diseñan paquetes que promocionan sus productos como seguros para las personas o el medio ambiente. La ley requiere que estas afirmaciones sean veraces. Esto es lo que necesita saber cuando compra afirmaciones ecológicas comunes que aparecen en productos y paquetes.<\/p>"
+          }
+        },
+        "b1ad532d-b11a-4c87-bd74-90055d20d517": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Link de referencia",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130563165__3889d12c-1380-4df6-9da0-84b592aabdae-subheading-1",
+        "template--15546130563165__3889d12c-1380-4df6-9da0-84b592aabdae-heading-1",
+        "template--15546130563165__3889d12c-1380-4df6-9da0-84b592aabdae-richtext-1",
+        "b1ad532d-b11a-4c87-bd74-90055d20d517"
+      ],
+      "custom_css": [
+        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        "button {letter-spacing: 0.02em; font-weight: 500;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/fondo_proof.png",
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "4de99ac9-fc19-4b4b-a646-5697cae5e0bf"
+    "4de99ac9-fc19-4b4b-a646-5697cae5e0bf",
+    "3889d12c-1380-4df6-9da0-84b592aabdae"
   ]
 }

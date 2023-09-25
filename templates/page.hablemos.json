@@ -36,8 +36,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/facebook.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
+            "link_text": "Facebook Ecoterra",
+            "link_url": "https:\/\/www.facebook.com\/ecoterrachile",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",

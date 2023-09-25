@@ -47,3 +47,24 @@
   .font--secondary{
     font-family: 'PalmerLakePrint', sans-serif !important;
   }
+  .font--secondary.h0{
+    font-size: 11rem;
+  }
+  .font--secondary.h1{
+    font-size: 10rem;
+  }
+  .font--secondary.h2{
+    font-size: 9rem;
+  }
+  .font--secondary.h3{
+    font-size: 8rem;
+  }
+  .font--secondary.h4{
+    font-size: 7rem;
+  }
+  .font--secondary.h5{
+    font-size: 6rem;
+  }
+  .font--secondary.h6{
+    font-size: 5rem;
+  }

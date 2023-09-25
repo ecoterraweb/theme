@@ -274,12 +274,15 @@
         "af2cfa2a-4aa6-4045-a603-8cc45416c684": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>Gracias por ser parte de este viaje,<br\/>mientras redefinimos lo que es posible y recuperamos lo que es esencial<\/h6><p>Hacia un futuro más verde y mejor. <\/p><h3>¡BIENVENIDO A ECOTERRA!<br\/>Bienvenido a casa<\/h3>"
+            "content": "<h6>Gracias por ser parte de este viaje,<br\/>mientras redefinimos lo que es posible y recuperamos lo que es esencial<\/h6><p>hacia un futuro más verde y mejor. <\/p><h3>¡BIENVENIDO A ECOTERRA!<br\/>Bienvenido a casa<\/h3>"
           }
         }
       },
       "block_order": [
         "af2cfa2a-4aa6-4045-a603-8cc45416c684"
+      ],
+      "custom_css": [
+        "p {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
       ],
       "settings": {
         "identifier": "Impacto-section",

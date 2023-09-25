@@ -566,6 +566,9 @@
       "block_order": [
         "template--15537731993693__63303b90-3a37-407c-9926-07e8e5d5910f-blog-1"
       ],
+      "custom_css": [
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+      ],
       "settings": {
         "full_width": true,
         "show_excerpt": true,
@@ -573,8 +576,8 @@
         "show_author": false,
         "show_comments_count": false,
         "show_category": true,
-        "subheading": "",
-        "title": "EcoNews",
+        "subheading": "econews",
+        "title": "Noticias recientes",
         "content": "",
         "link_url": "",
         "link_text": "Ver más",

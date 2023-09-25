@@ -70,7 +70,8 @@
     "d12fb7c1-ced5-418c-b017-5130f0cafc84": {
       "type": "newsletter",
       "custom_css": [
-        "button {letter-spacing: 0.02em; font-weight: 500;}"
+        "button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".newsletter-content>.form{max-width: fit-content;}"
       ],
       "settings": {
         "full_width": true,

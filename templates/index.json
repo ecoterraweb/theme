@@ -171,7 +171,7 @@
       ],
       "custom_css": [
         ".h2 {font-size: 35px;}",
-        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
         "strong {color: #7dac00;}"
       ],
       "settings": {
@@ -182,7 +182,7 @@
         "subheading": "nuestros productos",
         "custom_pill_subheading": true,
         "title": "",
-        "content": "<h2>Mucho más que alimentos, <strong>productos honestos<\/strong> que salvan al planeta.<\/h2>",
+        "content": "<h2>MUCHO MÁS QUE ALIMENTOS, <strong>PRODUCTOS HONESTOS<\/strong> QUE SALVAN AL PLANETA.<\/h2>",
         "link_url": "shopify:\/\/collections",
         "link_text": "Ver Todas",
         "background": "#ffffff",

@@ -372,7 +372,7 @@
         "button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",

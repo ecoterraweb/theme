@@ -11,13 +11,14 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/eco-adereso.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
         "featured_product_heading": "Featured product",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 12
+        "overlay_opacity": 0
       }
     },
     "main": {

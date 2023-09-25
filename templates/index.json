@@ -55,7 +55,7 @@
         "266ea942-f3bc-46b8-896b-dccd9dc58ff5"
       ],
       "custom_css": [
-        "div{text-align:right;}"
+        "div {text-align: right;}"
       ],
       "settings": {
         "identifier": "",
@@ -186,6 +186,7 @@
         "show_progress_bar": true,
         "subheading": "nuestros productos",
         "custom_pill_subheading": true,
+        "subheading_background_color": "#000000",
         "title": "",
         "content": "<h2>MUCHO MÁS QUE ALIMENTOS, <strong>PRODUCTOS HONESTOS<\/strong> QUE SALVAN AL PLANETA.<\/h2>",
         "link_url": "shopify:\/\/collections",

@@ -28,7 +28,7 @@
         "template--15546130169949__98c0b151-f1aa-4e54-8738-e3490afedf3b-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "aderezos-naturales",
             "image": "shopify:\/\/shop_images\/eco-adereso.png",
             "subheading": "",
             "title": "",
@@ -43,7 +43,7 @@
         "template--15546130169949__98c0b151-f1aa-4e54-8738-e3490afedf3b-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "huevos",
             "image": "shopify:\/\/shop_images\/eco-huevos_8d1bab5d-2e13-4071-93c7-a2fc40158830.png",
             "subheading": "",
             "title": "",
@@ -58,7 +58,7 @@
         "94764b20-90cf-438a-bbe3-808cc45c97ff": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "lacteos",
             "image": "shopify:\/\/shop_images\/eco-lacteos.png",
             "subheading": "",
             "title": "",
@@ -73,7 +73,7 @@
         "template--15546130169949__98c0b151-f1aa-4e54-8738-e3490afedf3b-collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "despensa-pantry",
             "image": "shopify:\/\/shop_images\/eco-despenza.png",
             "subheading": "",
             "title": "",
@@ -88,7 +88,7 @@
         "cbc77678-af51-45bc-8537-5fd7a484d67a": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "fair-foods",
             "image": "shopify:\/\/shop_images\/eco-protein.png",
             "subheading": "",
             "title": "",
@@ -119,6 +119,8 @@
         "collections_per_row": 3,
         "show_progress_bar": false,
         "subheading": "categorías",
+        "custom_pill_subheading": false,
+        "subheading_background_color": "",
         "title": "Mucho más que alimentos, productos honestos que salvan al planeta.",
         "content": "",
         "link_url": "",

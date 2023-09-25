@@ -67,7 +67,7 @@ LIQUID
 
                     <div class="collection-card__content prose">
                       {%- if block.settings.subheading != blank -%}
-                        <p class="bold">{{ block.settings.subheading | escape }}</p>
+                        <p class="bold {%- if block.settings.custom_pill_subheading -%} custom-pill {%- endif -%}">{{ block.settings.subheading | escape }}</p>
                       {%- endif -%}
 
                       {%- if block.settings.title != blank -%}
@@ -163,6 +163,12 @@ LIQUID
       "type": "text",
       "id": "subheading",
       "label": "Subheading"
+    },
+    {
+      "type": "checkbox",
+      "id": "custom_pill_subheading",
+      "label": "Custom pill subheading",
+      "default": false
     },
     {
       "type": "text",

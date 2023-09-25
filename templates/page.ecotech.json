@@ -29,8 +29,7 @@
         "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1"
       ],
       "custom_css": [
-        "div {text-align: right;}",
-        " slideshow {margin-right:48px;}"
+        "div {text-align: right;}"
       ],
       "settings": {
         "identifier": "",
@@ -185,7 +184,7 @@
       ],
       "settings": {
         "full_width": false,
-        "orientation": "normal",
+        "orientation": "reversed",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -291,7 +290,7 @@
         "af2cfa2a-4aa6-4045-a603-8cc45416c684": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>Gracias por ser parte de este viaje,<br\/>mientras redefinimos lo que es posible y recuperamos lo que es esencial<\/h6><p><\/p><h3>¡BIENVENIDO A ECOTERRA!<br\/>Bienvenido a casa<\/h3>"
+            "content": "<h6>Gracias por ser parte de este viaje,<br\/>mientras redefinimos lo que es posible y recuperamos lo que es esencial<\/h6><p><\/p><h2>¡BIENVENIDO A ECOTERRA!<br\/>Bienvenido a casa<\/h2>"
           }
         }
       },

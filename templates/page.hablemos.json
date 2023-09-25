@@ -12,8 +12,8 @@
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/89-1000x600.jpg",
-        "subheading": "¿Tienes alguna pregunta?",
-        "title": "¡Contáctanos!",
+        "subheading": "Contact Us",
+        "title": "Do you have any question?",
         "content": "",
         "text_position": "start",
         "contact_form_size": "large",
@@ -72,7 +72,6 @@
         },
         "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-4": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/x.png",
             "stretch_image": true,

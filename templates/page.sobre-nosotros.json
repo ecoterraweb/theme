@@ -594,9 +594,9 @@
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/nosotros_f7d28bc9-70cf-4a12-8d0b-40a0966fc168.png",
-        "subheading": "conctáctanos",
-        "title": "¿Hablémos?",
-        "content": "<p>Si tienes alguna duda, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros. Déjanos un mensaje. y nos contactaremos contigo.<\/p>",
+        "subheading": "contáctanos",
+        "title": "¿Hablemos?",
+        "content": "<p>Si tienes alguna duda, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros. Déjanos un mensaje, y nos contactaremos contigo.<\/p>",
         "text_position": "center",
         "contact_form_size": "large",
         "background": "#ffffff",

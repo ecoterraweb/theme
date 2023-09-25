@@ -191,12 +191,14 @@
     function renderProducer(producer) {
       const titleElement = document.querySelector('.landing__producer--head_title');
       const textElement = document.querySelector('.landing__producer--head_text');
-      const iframe = document.querySelector('#youtubeIframe');
+      const imageElement = document.querySelector('.landing__producer--head_text');
+     // const iframe = document.querySelector('#youtubeIframe');
 
 // Actualizar el contenido de los elementos con la información del claim
       titleElement.textContent = producer.name;
       textElement.textContent = producer.description;
-      iframe.src = producer.videoUrl;
+      imageElement.src = producer.imageUrl;
+     // iframe.src = producer.videoUrl;
 
 // Iterar sobre cada productor y agregar sus elementos al contenedor
       const container = document.querySelector('.landing__producer--boxes');
@@ -337,8 +339,10 @@
     <div class="container">
 
       <div class="landing__producer--head">
+        <img id="landing__producer--image" src="" alt="">
         <h1 class="landing__producer--head_title text-center"></h1>
         <p class="landing__producer--head_text"></p>
+        <!-- 
         <iframe
           id="youtubeIframe"
           width="560"
@@ -346,6 +350,7 @@
           src="https://www.youtube.com/embed/W5-RsmMzcT0"
           frameborder="0"
           allowfullscreen></iframe>
+          -->
       </div>
       <h2 class="landing__claim--subtitle text-center">
         Nuestros sellos

@@ -10,7 +10,7 @@
             "mobile_image": "shopify:\/\/shop_images\/Image_with_text_overlay-1_289601a5-ac71-468e-9da0-006b52f04297.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
             "title": "Elige con propósito",
             "heading_tag": "h1",

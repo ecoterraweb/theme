@@ -11,6 +11,7 @@ Supported variables
 
 * subheading: the subheading (if any)
 * heading: the heading to show
+* class_heading: the heading to show
 * heading_color: the color heading
 * heading_gradient: the optional gradient to use for the heading
 * content: an optional content to show
@@ -24,7 +25,7 @@ Supported variables
     {%- if subheading != blank or heading != blank or content != blank -%}
       <div class="prose">
         {%- if subheading != blank -%}
-          <p class="bold">{{- subheading | escape -}}</p>
+          <p class="bold {%- if class_heading -%}custom-pill{%- endif -%}">{{- subheading | escape -}}</p>
         {%- endif -%}
 
         {%- if heading != blank -%}

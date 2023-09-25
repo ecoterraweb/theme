@@ -97,7 +97,7 @@
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d"
       ],
       "custom_css": [
-        "div{text-align:left;}"
+        "div {text-align: left;}"
       ],
       "settings": {
         "identifier": "",
@@ -109,30 +109,120 @@
         "text_color": "#1a1a1a"
       }
     },
-    "45618e37-4573-4ad9-aba4-0c483539888b": {
-      "type": "rich-text",
+    "889a2e3f-147c-4db4-af7c-a0f697e25a9e": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/icon-photo-l.png",
+        "mobile_image": "shopify:\/\/shop_images\/icon-photo-s.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54": {
+      "type": "multiple-images-with-text",
       "blocks": {
-        "d999b248-f0b2-423a-92bd-45623fb3bcb4": {
-          "type": "image",
+        "template--15546130202717__c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54-item-1": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icons_34f1fc79-71ad-42a4-ae4a-1764d6eda112.png",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "EcoAgri Lab",
+            "content": "<p><strong>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida<\/strong>. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza, degradándolo con productos químicos. <strong>En EcoAgriLab, un equipo de agrónomos de clase mundial está redescubriendo la sinfonía de la agricultura natural. No solo estamos plantando cultivos; estamos cultivando ecosistemas<\/strong>. Utilizando modelos de aprendizaje automático para interpretar la Tierra como nunca antes, estamos descifrando el lenguaje del suelo para cultivar de formas que son tanto abundantes como sostenibles.<\/p>",
+            "button_url": "",
+            "button_text": ""
           }
         }
       },
       "block_order": [
-        "d999b248-f0b2-423a-92bd-45623fb3bcb4"
+        "template--15546130202717__c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54-item-1"
+      ],
+      "custom_css": [
+        "div {align-items: center; text-align: left;}"
       ],
       "settings": {
-        "identifier": "",
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#f5f5f5",
+        "full_width": false,
+        "orientation": "normal",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "d618a6c3-e3ca-48dc-875c-ca13d1a4e4e8": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "EcoFood Lab",
+            "content": "<p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? <strong>EcoFood Lab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula. Aquí, lo orgánico se encuentra con la tecnología para crear alimentos que son nutritivos, deliciosos y ecológicamente sólidos<\/strong>. Esto no es simplemente cocina; es alquimia. Aquí es donde el sueño de una dieta equilibrada se encuentra con la realidad de un planeta equilibrado.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "d618a6c3-e3ca-48dc-875c-ca13d1a4e4e8"
+      ],
+      "custom_css": [
+        "div {align-items: center; text-align: left;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "orientation": "normal",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "a0af0435-390a-4f29-9870-4724c6b9beab": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "26d97ecb-fb74-485a-95f3-74aef5e6ae15": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "EcoTech Lab",
+            "content": "<p><strong>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab<\/strong>. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo.<strong>¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en el libro inmutable de la tecnología blockchain?<\/strong>Contamos con los programadores más agudos trabajando en una plataforma que será la red neuronal de una Tierra nueva y sostenible. Un mundo donde cada transacción, cada acción y cada decisión es una inversión en el futuro.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "26d97ecb-fb74-485a-95f3-74aef5e6ae15"
+      ],
+      "custom_css": [
+        "div {align-items: center; text-align: left;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "orientation": "normal",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "main": {
@@ -297,126 +387,6 @@
         "accordion_text_color": ""
       }
     },
-    "e039059c-fb9b-482d-840d-4f363d83ed73": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "EcoAgri Lab",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida<\/strong>. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza, degradándolo con productos químicos. <strong>En EcoAgriLab, un equipo de agrónomos de clase mundial está redescubriendo la sinfonía de la agricultura natural. No solo estamos plantando cultivos; estamos cultivando ecosistemas<\/strong>. Utilizando modelos de aprendizaje automático para interpretar la Tierra como nunca antes, estamos descifrando el lenguaje del suelo para cultivar de formas que son tanto abundantes como sostenibles.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-subheading-1",
-        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-heading-1",
-        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-richtext-1"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "d96a80b4-1d32-4541-80c3-94fcb2d2792e": {
-      "type": "rich-text",
-      "blocks": {
-        "1c94900e-7f27-4143-8653-593e4b975740": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "4538a18e-89fd-4f41-a66c-8c8792379185": {
-          "type": "heading",
-          "settings": {
-            "text": "EcoFood Lab",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "08c43f5a-ce14-4333-9c97-d680b85eb8ac": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? <strong>EcoFood Lab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula. Aquí, lo orgánico se encuentra con la tecnología para crear alimentos que son nutritivos, deliciosos y ecológicamente sólidos<\/strong>. Esto no es simplemente cocina; es alquimia. Aquí es donde el sueño de una dieta equilibrada se encuentra con la realidad de un planeta equilibrado.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1c94900e-7f27-4143-8653-593e4b975740",
-        "4538a18e-89fd-4f41-a66c-8c8792379185",
-        "08c43f5a-ce14-4333-9c97-d680b85eb8ac"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "e8f27ed3-c561-42d0-bd65-67565492fa3f": {
-      "type": "rich-text",
-      "blocks": {
-        "07c61139-ed2f-42c0-9d7d-5a98914011ec": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "63eed39c-a255-47bf-aaa4-875a56ba045f": {
-          "type": "heading",
-          "settings": {
-            "text": "EcoTech Lab",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "23e49f37-c76d-4a8f-97a5-21df8097e489": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab<\/strong>. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo. <strong>¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en el libro inmutable de la tecnología blockchain?<\/strong> Contamos con los programadores más agudos trabajando en una plataforma que será la red neuronal de una Tierra nueva y sostenible. Un mundo donde cada transacción, cada acción y cada decisión es una inversión en el futuro.<\/p><p>Individualmente, cada laboratorio es un cambio de juego. ¿Pero juntos? Forman los pilares de Ecoterra, un modelo que trasciende disciplinas e industrias. <strong>Hemos aprovechado el poder de la blockchain para hacer que estas innovaciones no solo sean accesibles, sino fundamentales para nuestro ecosistema global compartido. Con Web 3, estamos creando una plataforma descentralizada y democratizada donde cualquiera, en cualquier lugar, puede contribuir a la revolución regenerativa.<\/strong><\/p><p>Los Ecolabs no son solo laboratorios; son faros en un mundo nublado, guiándonos hacia un futuro sostenible. <strong>Esto no es simplemente otra empresa. Esto es un movimiento. Esto es una revolución. Esto es Ecoterra.<\/strong><\/p><p>Gracias por ser parte de este viaje, mientras redefinimos lo que es posible y recuperamos lo que es esencial.<\/p><p>Hacia un futuro más verde y mejor. Bienvenidos a Ecoterra. Bienvenidos a casa.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "07c61139-ed2f-42c0-9d7d-5a98914011ec",
-        "63eed39c-a255-47bf-aaa4-875a56ba045f",
-        "23e49f37-c76d-4a8f-97a5-21df8097e489"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "574ad31f-5867-415a-8ded-ab9b3450fe68": {
       "type": "video",
       "blocks": {
@@ -453,14 +423,14 @@
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "b32b6855-949c-445c-bdcb-c8fbf129f34d",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
-    "45618e37-4573-4ad9-aba4-0c483539888b",
+    "889a2e3f-147c-4db4-af7c-a0f697e25a9e",
+    "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",
+    "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2",
+    "a0af0435-390a-4f29-9870-4724c6b9beab",
     "main",
     "50cc92fa-8507-48c2-b382-89ea0097be7a",
     "b3000c38-f83c-4e34-a224-8dc889f73759",
     "ce07879f-1661-4db2-ad40-d55d48bf83e2",
-    "e039059c-fb9b-482d-840d-4f363d83ed73",
-    "d96a80b4-1d32-4541-80c3-94fcb2d2792e",
-    "e8f27ed3-c561-42d0-bd65-67565492fa3f",
     "574ad31f-5867-415a-8ded-ab9b3450fe68"
   ]
 }

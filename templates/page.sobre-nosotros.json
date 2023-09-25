@@ -500,7 +500,6 @@
         },
         "42935295-9570-4ec7-be6d-beb6124e1a8b": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/VA.png",
             "column_size": "3",

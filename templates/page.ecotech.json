@@ -228,6 +228,22 @@
         "button_text_color": ""
       }
     },
+    "4c327609-cbef-4f89-8ce3-1155eab0e2ab": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/futuro-mas-verde.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "c4e0f3c9-e70f-4d8f-b147-37ed29969b4e": {
       "type": "rich-text",
       "blocks": {
@@ -274,7 +290,7 @@
         "af2cfa2a-4aa6-4045-a603-8cc45416c684": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>Gracias por ser parte de este viaje,<br\/>mientras redefinimos lo que es posible y recuperamos lo que es esencial<\/h6><p>hacia un futuro más verde y mejor. <\/p><h3>¡BIENVENIDO A ECOTERRA!<br\/>Bienvenido a casa<\/h3>"
+            "content": "<h6>Gracias por ser parte de este viaje,<br\/>mientras redefinimos lo que es posible y recuperamos lo que es esencial<\/h6><p><\/p><h3>¡BIENVENIDO A ECOTERRA!<br\/>Bienvenido a casa<\/h3>"
           }
         }
       },
@@ -590,6 +606,7 @@
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",
     "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2",
     "a0af0435-390a-4f29-9870-4724c6b9beab",
+    "4c327609-cbef-4f89-8ce3-1155eab0e2ab",
     "c4e0f3c9-e70f-4d8f-b147-37ed29969b4e",
     "574ad31f-5867-415a-8ded-ab9b3450fe68",
     "461d714d-63b1-42dc-9ed9-1740773c042e",

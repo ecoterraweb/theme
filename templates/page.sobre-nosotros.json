@@ -143,7 +143,7 @@
         "d6dfdd0c-d135-4529-8938-8cde418de2e1": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>¿Y qué papel juega Ecoterra en todo esto?<br\/><\/strong>Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<\/p>"
+            "content": "<p><strong>¿Y qué papel juega Ecoterra en todo esto?<br\/><\/strong><\/p><p>Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<\/p>"
           }
         },
         "998dd2e7-ad5c-4754-ab9d-b97bb14cf468": {
@@ -175,7 +175,7 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "#f5f5f5",
         "background_gradient": "",
         "text_color": "#1a1a1a"
       }
@@ -593,7 +593,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/nosotros.png",
+        "image": "shopify:\/\/shop_images\/nosotros_f7d28bc9-70cf-4a12-8d0b-40a0966fc168.png",
         "subheading": "conctáctanos",
         "title": "¿Hablémos?",
         "content": "<p>Si tienes alguna duda, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros. Déjanos un mensaje. y nos contactaremos contigo.<\/p>",

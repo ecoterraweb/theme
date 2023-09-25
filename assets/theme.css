@@ -441,6 +441,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   display: block;
   position: relative;
   overflow: hidden;
+  height: 415px;
 }
 
 .blog-post-card__figure > .badge {
@@ -10292,7 +10293,7 @@ split-lines {
   transform: rotate(45deg);
   cursor: pointer;
 }
-a.button.button--lg{
+a.button.button--lg, button.button.button--xl{
   padding-left: 100px;
   padding-right: 100px;
 }

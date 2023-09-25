@@ -180,6 +180,7 @@
         "collections_per_row": 3,
         "show_progress_bar": true,
         "subheading": "nuestros productos",
+        "custom_pill_subheading": true,
         "title": "Mucho más que alimentos, <strong>productos honestos<\/strong> que salvan al planeta.",
         "content": "",
         "link_url": "shopify:\/\/collections",

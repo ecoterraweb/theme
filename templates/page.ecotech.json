@@ -132,6 +132,7 @@
         "template--15546130202717__c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54-item-1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ecoagrilab.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoAgri Lab",
@@ -165,6 +166,7 @@
         "d618a6c3-e3ca-48dc-875c-ca13d1a4e4e8": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EcoFoodLab.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoFood Lab",
@@ -198,6 +200,7 @@
         "26d97ecb-fb74-485a-95f3-74aef5e6ae15": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EcofTechLab.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoTech Lab",

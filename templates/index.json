@@ -6,11 +6,11 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_with_text_overlay_f465ab33-ac01-400a-8952-71aacb85f411.png",
+            "image": "shopify:\/\/shop_images\/banner-1.png",
             "mobile_image": "shopify:\/\/shop_images\/Image_with_text_overlay-1_289601a5-ac71-468e-9da0-006b52f04297.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
             "title": "Elige con propósito",
             "heading_tag": "h1",
@@ -28,11 +28,11 @@
         "3ef2e401-94a9-4928-8e2e-a053038668ef": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_with_text_overlay-2_5bb487b2-4035-47fc-84b0-1e7b2dedde42.png",
+            "image": "shopify:\/\/shop_images\/banner-2.png",
             "mobile_image": "shopify:\/\/shop_images\/Image_with_text_overlay-2-1_63e492a1-f836-4cfb-ab2c-28e2a56ba39f.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
             "title": "Disfruta con sentido",
             "heading_tag": "h1",
@@ -42,7 +42,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 8,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -171,7 +171,7 @@
       ],
       "custom_css": [
         ".h2 {font-size: 35px;}",
-        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
         "strong {color: #7dac00;}"
       ],
       "settings": {
@@ -182,7 +182,7 @@
         "subheading": "nuestros productos",
         "custom_pill_subheading": true,
         "title": "",
-        "content": "<h2>Mucho más que alimentos, <strong>productos honestos<\/strong> que salvan al planeta.<\/h2>",
+        "content": "<h2>MUCHO MÁS QUE ALIMENTOS, <strong>PRODUCTOS HONESTOS<\/strong> QUE SALVAN AL PLANETA.<\/h2>",
         "link_url": "shopify:\/\/collections",
         "link_text": "Ver Todas",
         "background": "#ffffff",
@@ -204,7 +204,7 @@
         "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "¿Por qué hacemos lo que hacemos?",
+            "text": "ESTAMOS CAMBIANDO LA FORMA DE HACER LAS COSAS",
             "heading_tag": "h2"
           }
         },
@@ -213,7 +213,7 @@
           "settings": {
             "style": "fill",
             "size": "lg",
-            "text": "Conócenos",
+            "text": "¡Aquí te mostramos cómo!",
             "url": "shopify:\/\/pages\/sobre-nosotros",
             "background": "#1a1a1a",
             "text_color": "#ffffff"
@@ -226,7 +226,7 @@
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
       ],
       "custom_css": [
-        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
@@ -237,8 +237,8 @@
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/Sideshow-1.png",
         "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#1a1a1a",
         "overlay_opacity": 20

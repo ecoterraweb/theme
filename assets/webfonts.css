@@ -36,8 +36,12 @@
   /* Importar la fuente Secundaria */
   @font-face {
     font-family: 'PalmerLakePrint';
-    src: url('./PalmerLakePrint-Regular.ttf') format('woff2');
-    font-weight: 400; /* Peso de fuente regular */
+    src: url('./PalmerLakePrint-Regular.woff2') format('woff2'),
+        url('./PalmerLakePrint-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    /* font-weight: 400; Peso de fuente regular */
   }
   
   /* Usar la fuente en tu estilo CSS */

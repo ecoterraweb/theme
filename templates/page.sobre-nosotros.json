@@ -563,7 +563,7 @@
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Rich_text.png",
         "content_width": "medium",
-        "text_position": "center",
+        "text_position": "start",
         "background": "#fafafa",
         "background_gradient": "",
         "text_color": "#1a1a1a"

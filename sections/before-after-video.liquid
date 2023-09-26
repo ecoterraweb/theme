@@ -1,0 +1,253 @@
+{%- render 'section-spacing-collapsing' -%}
+
+{%- assign text_position = section.settings.text_position -%}
+
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+CSS
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    --section-stack-intro: {% if text_position == 'center' %}50%{% else %}33.3333%{% endif %};
+    --section-stack-main: {% if text_position == 'center' and section.settings.expand_image %}100%{% else %}66.6667%{% endif %};
+
+    --before-after-initial-drag-position: {{ section.settings.drag_initial_position }}%;
+  }
+</style>
+
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+LIQUID
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<div {% render 'section-properties' %}>
+  <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
+    {%- capture content -%}
+      {%- if section.settings.subheading != blank -%}
+        {%- if section.settings.custom_pill_subheading -%}
+            <p class="bold custom-pill" style="background-color: {{ section.settings.subheading_background_color }};">{{ section.settings.subheading | escape }}</p>
+          {% else %}
+            <p class="bold">{{ section.settings.subheading | escape }}</p>
+          {%- endif -%}
+      {%- endif -%}
+
+      {%- if section.settings.title != blank -%}
+        <h2 class="h2">{{ section.settings.title | escape }}</h2>
+      {%- endif -%}
+
+      {{- section.settings.content -}}
+    {%- endcapture -%}
+
+    {%- if content != blank -%}
+      <div class="section-stack__intro">
+        <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
+          {{ content }}
+        </div>
+      </div>
+    {%- endif -%}
+
+    <div class="section-stack__main">
+      <div {% render 'surface', class: class, text_color: section.settings.text_color %}>
+        {%- capture poster -%}
+          {%- assign poster_image = section.settings.poster | default: section.settings.video.preview_image -%}
+
+          {%- if section.settings.autoplay == false and poster_image != blank -%}
+            {%- capture sizes -%}{% if section.settings.full_width %}100vw{% else %}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min({{ settings.page_width }}px, 100vw - 96px){% endif %}{%- endcapture -%}
+            {{- poster_image | image_url: width: poster_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
+          {%- endif -%}
+        {%- endcapture -%}
+
+        {%- if section.settings.video -%}
+          <video-media {% if section.settings.autoplay %}autoplay{% endif %}>
+            {%- if section.settings.autoplay -%}
+              {%- assign show_controls = false -%}
+            {%- else -%}
+              {%- assign show_controls = true -%}
+            {%- endif -%}
+
+            {{- section.settings.video | video_tag: playsinline: true, preload: 'metadata', muted: section.settings.autoplay, loop: section.settings.autoplay, controls: show_controls, image_size: '800x' -}}
+            {{- poster -}}
+          </video-media>
+        {%- else -%}
+          <video-media host="{{ section.settings.external_video_url.type }}" {% if section.settings.autoplay %}autoplay class="pointer-events-none"{% endif %}>
+            {{- poster -}}
+
+            <template>
+              {%- if section.settings.external_video_url.type == 'youtube' -%}
+                <iframe src="https://www.youtube.com/embed/{{ section.settings.external_video_url.id }}?playsinline=1&{% if section.settings.autoplay %}autoplay=1&controls=0&mute=1&loop=1&{% endif %}playlist={{ section.settings.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+              {%- elsif section.settings.external_video_url.type == 'vimeo' -%}
+                <iframe src="https://player.vimeo.com/video/{{ section.settings.external_video_url.id }}?autopause=1&{% if section.settings.autoplay %}background=1&autoplay=1&loop=1&muted=1&{% endif %}transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}" allow="autoplay; encrypted-media;" allowfullscreen="allowfullscreen"></iframe>
+              {%- endif -%}
+            </template>
+          </video-media>
+        {%- endif -%}
+
+        {%- if section.blocks.size > 0 -%}
+          <div class="place-self-center text-center">
+            <div class="prose">
+                <button class="video-play-button" type="button" {{ block.shopify_attributes }}>
+                  <span class="sr-only">{{ 'general.accessibility.play_video' | t }}</span>
+                  {%- render 'icon' with 'play-button', width: 48, height: 48 -%}
+                </button>
+            </div>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Before/after image",
+  "class": "shopify-section--before-after-image",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "checkbox",
+      "id": "custom_pill_subheading",
+      "label": "Custom pill subheading",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "subheading_background_color",
+      "label": "Subheading background color"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Before/after"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Showcase your product benefit by using before/after image comparison.</p>"
+    },
+    {
+      "type": "select",
+      "id": "text_position",
+      "label": "Text position",
+      "options": [
+        {
+          "value": "start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Right"
+        }
+      ],
+      "default": "start"
+    },
+
+    {
+      "type": "select",
+      "id": "video_size",
+      "label": "Video size",
+      "options": [
+        {
+          "value": "auto",
+          "label": "16/9 (recommended)"
+        },
+        {
+          "value": "sm",
+          "label": "Small"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
+        },
+        {
+          "value": "lg",
+          "label": "Large"
+        },
+        {
+          "value": "fill",
+          "label": "Fill screen"
+        }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Video",
+      "info": "Replaces external video if both are set."
+    },
+    {
+      "type": "video_url",
+      "id": "external_video_url",
+      "accept": ["vimeo", "youtube"],
+      "label": "Video URL",
+      "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+    },
+    {
+      "type": "image_picker",
+      "id": "poster",
+      "label": "Poster image",
+      "info": "3200 x 1600px .jpg recommended. Poster is not visible when autoplay is enabled."
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "drag_cursor_background",
+      "label": "Drag cursor background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "drag_cursor_color",
+      "label": "Drag cursor color",
+      "default": "#000000"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Before/after image"
+    }
+  ]
+}
+{% endschema %}

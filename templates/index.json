@@ -12,9 +12,9 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
-            "title": "Elige con propósito",
-            "heading_tag": "h0",
-            "heading_style": "font--secondary",
+            "title": "ELIGE CON PROPÓSITO",
+            "heading_tag": "h1",
+            "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -429,37 +429,6 @@
         "product_card_text_color": ""
       }
     },
-    "05a7910e-b59d-4b0e-af73-ee980f02b1d3": {
-      "type": "before-after-image",
-      "custom_css": [
-        ".h2 {font-size: 35px;}",
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
-        "h2 strong {color: #ff6700;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "subheading": "ecotech",
-        "custom_pill_subheading": true,
-        "subheading_background_color": "#1a1a1a",
-        "title": "",
-        "content": "<h2>¿SÁBES DE <strong>DONDE VIENEN<\/strong> TUS ALIMENTOS?<\/h2><p>Gracias a la tecnología de <strong>WEB.3<\/strong>  y la revolución del <strong>BLOCKCHAIN<\/strong>, te lo podemos contar.<\/p>",
-        "before_image": "shopify:\/\/shop_images\/ecoterra_frames_alta-4.png",
-        "after_image": "shopify:\/\/shop_images\/gallina.png",
-        "expand_image": true,
-        "text_position": "start",
-        "before_after_text_position": "bottom",
-        "before_text": "",
-        "after_text": "",
-        "drag_initial_position": 50,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#1a1a1a",
-        "before_text_color": "rgba(0,0,0,0)",
-        "after_text_color": "rgba(0,0,0,0)",
-        "drag_cursor_background": "#1a1a1a",
-        "drag_cursor_color": "#ffffff"
-      }
-    },
     "78eb0dc2-bbc9-46b4-ae9f-2d01e79ca5fb": {
       "type": "before-after-video",
       "custom_css": [
@@ -494,7 +463,6 @@
     "f6845132-3793-464a-b1d9-3b7b0ab1c835",
     "df3ede33-9fbf-4a2b-8206-3f667522cbc9",
     "featured-collection",
-    "05a7910e-b59d-4b0e-af73-ee980f02b1d3",
     "78eb0dc2-bbc9-46b4-ae9f-2d01e79ca5fb"
   ]
 }

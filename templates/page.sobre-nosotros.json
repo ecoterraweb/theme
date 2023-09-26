@@ -39,7 +39,7 @@
       ],
       "custom_css": [
         "div {text-align: right;}",
-        "@media screen and (max-width: 700px) {.h1 {font-size: 50px; }}"
+        "@media screen and (max-width: 700px) {.h1 {font-size: 155px; }}"
       ],
       "settings": {
         "identifier": "",
@@ -250,7 +250,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/papel.png",
-        "mobile_image": "shopify:\/\/shop_images\/impact-2.png",
+        "mobile_image": "shopify:\/\/shop_images\/papel.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#ffffff",
@@ -389,17 +389,15 @@
       ],
       "custom_css": [
         ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #96D123;}",
+        ".prose h2 strong {color: #96d123;}",
         "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        "div {align-items: center;"
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/fondo_hotspot.png",
-        "hotspot_image": "shopify:\/\/shop_images\/esquema.png",
-        "title": "Modelo",
+        "image": "shopify:\/\/shop_images\/fondo_hotspot_fe40d2b2-c7f2-46d8-a9b8-f3d59b5a5c1c.png",
+        "hotspot_image": "shopify:\/\/shop_images\/esquema_b4740aac-51d2-4491-b88d-324aca10c8ba.png",
+        "title": "",
         "content": "<h2><strong>DONDE LA INNOVACIÓN SE ENCUENTRA CON LA ACCIÓN <\/strong>Y LA COMUNIDAD SE CONVIERTE EN CATALIZADORA DE CAMBIO<\/h2><p>Nuestra plataforma une a <strong>EcoFarmers, EcoPartners y EcoLovers<\/strong>, creando un ciclo virtuoso de impacto sostenible.<\/p><h1><\/h1>",
         "button_text": "",
         "button_url": "",
@@ -408,7 +406,7 @@
         "image_background_gradient": "",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
-        "overlay_text_color": "#000000",
+        "overlay_text_color": "#ffffff",
         "overlay_button_background": "",
         "overlay_button_text_color": "",
         "hot_spot_dot_background": "#ffffff",
@@ -422,7 +420,7 @@
     "e0d50b40-660c-4f52-bc6c-e18294190402": {
       "type": "image-with-text-overlay",
       "custom_css": [
-
+        "div {padding: 66px 36px 33px; align-items: center;}"
       ],
       "settings": {
         "identifier": "",
@@ -430,49 +428,13 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/impact.png",
-        "mobile_image": "shopify:\/\/shop_images\/impact-2.png",
+        "image": "shopify:\/\/shop_images\/cifras.png",
+        "mobile_image": "shopify:\/\/shop_images\/cifras.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "dd9eb39e-7511-47e7-9add-7ee2a994dad3": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15537731993693__dd9eb39e-7511-47e7-9add-7ee2a994dad3-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Impacto",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--15537731993693__dd9eb39e-7511-47e7-9add-7ee2a994dad3-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>En Ecoterra, cada acción que tomamos es una onda de impacto en el lago de la sostenibilidad global. Desde el suelo hasta el plato, y todo el camino hasta la blockchain, creamos una huella que es auditable, transparente y radicalmente sostenible. Pero no esperamos que simplemente nos crean en nuestra palabra: nuestro compromiso con la excelencia está respaldado por las certificaciones internacionales más rigurosas, que avalan cada aspecto de nuestra operación como líder en prácticas ecológicas y sostenibles. Así, cuando dices \"Ecoterra\", estás eligiendo un futuro validado y verificablemente más verde.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15537731993693__dd9eb39e-7511-47e7-9add-7ee2a994dad3-heading-1",
-        "template--15537731993693__dd9eb39e-7511-47e7-9add-7ee2a994dad3-richtext-1"
-      ],
-      "custom_css": [
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
-      ],
-      "settings": {
-        "identifier": "Impacto-section",
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "#1a1a1a",
-        "background_gradient": "",
-        "text_color": "#ffffff"
       }
     },
     "23a65bae-1921-413d-8f45-a5a71140750c": {
@@ -535,7 +497,7 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1,
-        "impact_text_size_ratio_mobile": 0.7,
+        "impact_text_size_ratio_mobile": 0.6,
         "background": "#1a1a1a",
         "background_gradient": "",
         "heading_text_color": "",
@@ -754,7 +716,6 @@
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
     "e0d50b40-660c-4f52-bc6c-e18294190402",
-    "dd9eb39e-7511-47e7-9add-7ee2a994dad3",
     "23a65bae-1921-413d-8f45-a5a71140750c",
     "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5",
     "dfc8565e-4587-4b83-bfb7-8042178e6e77",

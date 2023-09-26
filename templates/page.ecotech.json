@@ -306,7 +306,7 @@
         "p {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
         ".prose h6 {font-size: 25px; font-weight: 600;}",
         ".prose h2 {color: #10ccf4; font-size: 56px; font-weight: 600;}",
-        ".prose h2 strong {color: #47FFD6; font-weight: 600;}"
+        ".prose h2 strong {color: #47ffd6; font-weight: 600;}"
       ],
       "settings": {
         "identifier": "Impacto-section",
@@ -336,6 +336,11 @@
             "gradient": ""
           }
         },
+        "6a4b4684-eb8f-4db3-92c5-f405bedf126c": {
+          "type": "divider",
+          "settings": {
+          }
+        },
         "a874ecb1-1984-478f-b0aa-b7d83d4959d6": {
           "type": "richtext",
           "settings": {
@@ -346,6 +351,7 @@
       "block_order": [
         "e359ea7a-6a72-42a8-946b-b105b42245f6",
         "2684c6de-6f1c-4a49-b6ba-194d2d4c02ca",
+        "6a4b4684-eb8f-4db3-92c5-f405bedf126c",
         "a874ecb1-1984-478f-b0aa-b7d83d4959d6"
       ],
       "custom_css": [

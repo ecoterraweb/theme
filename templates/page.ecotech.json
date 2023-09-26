@@ -38,7 +38,7 @@
         "identifier": "",
         "full_width": true,
         "allow_transparent_header": false,
-        "image_size": "auto",
+        "image_size": "fill",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": false,
@@ -66,8 +66,7 @@
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        "@media screen and (max-width: 1000px) {.prose h1 {line-height: 40px; font-size: 32px; }}"
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "identifier": "",
@@ -129,8 +128,7 @@
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        "@media screen and (max-width: 1000px) {.prose h1 {line-height: 40px; font-size: 32px; }}"
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "identifier": "",
@@ -492,16 +490,15 @@
         "cf891f50-77c6-445e-8961-75bda27c688a"
       ],
       "custom_css": [
-        "p {text-align: left;}",
-        "h2 {text-align: left;}",
-        "div {vertical-align: center;}",
-        "button {letter-spacing: 0.02em; font-weight: 500;}"
+        "p.h4 {font-size: 25px; font-style: normal; font-weight: 500; line-height: normal; letter-spacing: -0.5px;}",
+        "button {letter-spacing: 0.02em; font-weight: 500;}",
+        "div{text-align:left;}"
       ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": true,
         "gap": "medium",
-        "text_alignment": "end",
+        "text_alignment": "center",
         "subheading": "",
         "title": "",
         "content": "",

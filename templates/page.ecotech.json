@@ -359,7 +359,7 @@
       ],
       "custom_css": [
         ".prose h1 {font-size: 40px; text-align: left;}",
-        ".prose h1 strong {color: #96d123;}",
+        ".prose h1 strong {color: #F50149;}",
         ".prose h2 {font-size: 55px; text-align: left;}",
         ".prose h2 strong {color: #dbde3b;}",
         "p {text-align: left;}",
@@ -372,7 +372,7 @@
         "full_width": true,
         "content_width": "large",
         "text_position": "center",
-        "background": "#394ff0",
+        "background": "#ff8d00",
         "background_gradient": "",
         "text_color": "#ffffff"
       }

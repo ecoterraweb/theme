@@ -221,6 +221,23 @@
         "text_color": "#1a1a1a"
       }
     },
+    "999d98b6-1d5d-49ff-af7c-aa62dcf29d69": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/papel.png",
+        "mobile_image": "shopify:\/\/shop_images\/impact-2.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f": {
       "type": "video",
       "blocks": {
@@ -661,6 +678,7 @@
     "7cd3d7f7-2352-41a3-ae02-8b23ab69cfbc",
     "44c15b8b-fa32-40f0-b5b7-79d15b1a2a87",
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
+    "999d98b6-1d5d-49ff-af7c-aa62dcf29d69",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
     "e0d50b40-660c-4f52-bc6c-e18294190402",

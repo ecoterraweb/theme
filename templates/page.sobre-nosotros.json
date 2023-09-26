@@ -145,7 +145,7 @@
         "9df8e6ae-0332-4fe6-afb7-011c52b84453": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani_1.png",
+            "image": "shopify:\/\/shop_images\/mani-2.png",
             "width_mode": "custom",
             "max_width": 450,
             "mobile_max_width": 280
@@ -159,7 +159,7 @@
         "87ccbca3-4805-4f5e-a84c-0817d10540eb": {
           "type": "richtext",
           "settings": {
-            "content": "<p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.<\/p><p>La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p>"
+            "content": "<h1><strong>LA VERDADERA REVOLUCIÓN ESTÁ EN EL CÓMO<\/strong><\/h1><p>Nos cansamos de los monocultivos que agotan los suelos, pesticidas que envenenan las aguas, animales explotados y la desvinculación social que sufren los pequeños productores. En Ecoterra demostramos que <strong>NO <\/strong>tiene que ser así y que el verdadero cambio está en <strong>COMO <\/strong>hacemos nuestra comida.<\/p>"
           }
         }
       },

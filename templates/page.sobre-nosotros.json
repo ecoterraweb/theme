@@ -15,13 +15,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Sideshow-1.png",
             "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
-            "content_max_width": 1200,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 600,
+            "mobile_text_position": "place-self-end-end text-center",
+            "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
-            "title": "Sobre Nosotros",
+            "title": "estamos cambiando las cosas",
             "heading_tag": "h1",
-            "heading_style": "font--primary",
+            "heading_style": "font--secondary",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -36,6 +36,9 @@
       },
       "block_order": [
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1"
+      ],
+      "custom_css": [
+        "div {text-align: right;}"
       ],
       "settings": {
         "identifier": "",
@@ -102,7 +105,7 @@
         "41efcc92-f932-4288-98fc-289a59065d2e": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>SALVA EL PLANETA<br\/>¡UN PLATO A LA VEZ!<\/h1><p>Cada compra, es una elección y queremos que esa ¡sea con propósito. Estamos seguros de que nuestras acciones y decisiones impactan, te inivtamos a comprar con sentido y cambiar el mundo a través de lo que comes.<\/p>"
+            "content": "<h1>SALVA EL PLANETA<br\/>¡UN PLATO A LA VEZ!<\/h1><p><br\/>Cada compra, es una elección y queremos que esa ¡sea con propósito. Estamos seguros de que nuestras acciones y decisiones impactan, te inivtamos a comprar con sentido y cambiar el mundo a través de lo que comes.<\/p>"
           }
         },
         "c2592919-2256-4b41-acb9-f58bb253fe3a": {
@@ -273,11 +276,6 @@
         "dcde1d51-21d6-4a43-a517-1fc5b69a2891",
         "a81b9b40-0ecd-4875-8eb5-5415754549ae",
         "1d273f80-b02f-4387-8ad3-801ac1f508ec"
-      ],
-      "custom_css": [
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}"
       ],
       "settings": {
         "identifier": "",

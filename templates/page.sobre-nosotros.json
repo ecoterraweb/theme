@@ -183,7 +183,7 @@
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px;}",
+        ".rich-text {padding: 40px 15px 100px;}",
         ".rich-text h2 {font-size: 35px;}"
       ],
       "settings": {
@@ -231,7 +231,7 @@
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px;}"
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "identifier": "",
@@ -295,7 +295,7 @@
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px;}",
+        ".rich-text {padding: 40px 15px 100px;}",
         ".rich-text h2 {font-size: 35px;}"
       ],
       "settings": {

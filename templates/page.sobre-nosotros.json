@@ -127,7 +127,8 @@
       ],
       "custom_css": [
         "p {text-align: left;}",
-        "div {align-items: center;}"
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}"
       ],
       "settings": {
         "identifier": "",
@@ -170,7 +171,8 @@
       ],
       "custom_css": [
         "p {text-align: left;}",
-        "div {align-items: center;}"
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px 0;}"
       ],
       "settings": {
         "identifier": "",
@@ -213,7 +215,8 @@
       ],
       "custom_css": [
         "p {text-align: left;}",
-        "div {align-items: center;}"
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px 0;}"
       ],
       "settings": {
         "identifier": "",
@@ -562,7 +565,6 @@
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CH.png",
             "column_size": "3",
             "title": "Certified Humane: Bienestar Animal",
             "heading_tag": "h4",
@@ -575,7 +577,6 @@
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB.png",
             "column_size": "3",
             "title": "Empresa B",
             "heading_tag": "h4",
@@ -588,7 +589,6 @@
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EC.png",
             "column_size": "3",
             "title": "Organic ECOCERT",
             "heading_tag": "h4",
@@ -601,7 +601,6 @@
         "42935295-9570-4ec7-be6d-beb6124e1a8b": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VA.png",
             "column_size": "3",
             "title": "Apto para vegetarianos",
             "heading_tag": "h4",

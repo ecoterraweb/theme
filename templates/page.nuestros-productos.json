@@ -103,7 +103,7 @@
         "template--15538125635677__5eda4943-37f5-4688-a245-925e754d2358-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco_huevos.png",
+            "image": "shopify:\/\/shop_images\/ecohuevos.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -143,7 +143,7 @@
         "3a9f287e-a4e7-4b5f-ab8e-67be54b8e654": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco_protein.png",
+            "image": "shopify:\/\/shop_images\/eco-protein_c001ad4d-3edb-45f4-bdc8-b6ba12f4cd14.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -184,11 +184,11 @@
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco_lacteos.png",
+            "image": "shopify:\/\/shop_images\/eco-lacteos_a6c72c31-c37c-40ab-8085-bf0a04b4c86d.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoLácteos",
-            "content": "<p>Producidos en alianza con productores locales de la Región de Los Lagos, certificados en bienestar animal. <br\/>Las vacas pastorean libremente y no se utilizan antibióticos ni hormonas de forma rutinaria, de hecho, ¡todos nuestros lácteos son sin hormona rbST!<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>LÁCTEOS<\/strong><\/h2><p>Producidos en alianza con productores locales de la Región de Los Lagos, certificados en bienestar animal. <br\/>Las vacas pastorean libremente y no se utilizan antibióticos ni hormonas de forma rutinaria, de hecho, ¡todos nuestros lácteos son sin hormona rbST!<\/p>",
             "button_url": "shopify:\/\/collections\/lacteos",
             "button_text": "Comprar aquí"
           }
@@ -226,11 +226,11 @@
         "1cc55f40-3ae8-4834-b200-df431c412e23": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco_despensa.png",
+            "image": "shopify:\/\/shop_images\/eco-despensa.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoDespensa",
-            "content": "<p>Proveniente de cultivos sustentables y orgánicos, es decir, libres de fertilizantes químicos, pesticidas y herbicidas. Preocupados por tu salud y la del planeta.<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>DESPENSA<\/strong><\/h2><p>Proveniente de cultivos sustentables y orgánicos, es decir, libres de fertilizantes químicos, pesticidas y herbicidas. Preocupados por tu salud y la del planeta.<\/p>",
             "button_url": "shopify:\/\/collections\/despensa-pantry",
             "button_text": "Comprar aquí"
           }
@@ -242,7 +242,7 @@
       "custom_css": [
         "a.button {letter-spacing: 0.02em; font-weight: 500;}",
         ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: ##ff3e72;}",
+        ".prose h2 strong {color: #ff3e72;}",
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",
@@ -268,11 +268,11 @@
         "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco_aderezos.png",
+            "image": "shopify:\/\/shop_images\/eco-aderezos.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoAderezos",
-            "content": "<p>Nuestros EcoAderezos son ideales para acompañar todo. Sabrosos, únicos y bullsh*t free, te sacaran de apuro y llevaran tus comidas al siguiente nivel. Únicos que apoyan la vinculación social de pequeños productores. Naturales, éticos y sustentables. <\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>ADEREZOS<\/strong><\/h2><p>Nuestros EcoAderezos son ideales para acompañar todo. Sabrosos, únicos y bullsh*t free, te sacaran de apuro y llevaran tus comidas al siguiente nivel. Únicos que apoyan la vinculación social de pequeños productores. Naturales, éticos y sustentables. <\/p>",
             "button_url": "shopify:\/\/collections\/aderezos-naturales",
             "button_text": "Comprar aquí"
           }

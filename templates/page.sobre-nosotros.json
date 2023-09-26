@@ -38,7 +38,8 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1"
       ],
       "custom_css": [
-        "div {text-align: right;}"
+        "div {text-align: right;}",
+        ".h1 {font-size: 50px;}"
       ],
       "settings": {
         "identifier": "",
@@ -295,7 +296,7 @@
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px 0;}",
         ".rich-text {padding: 40px 15px;}",
-        ".rich-text h2 {font-size: 35px; }"
+        ".rich-text h2 {font-size: 35px;}"
       ],
       "settings": {
         "identifier": "",

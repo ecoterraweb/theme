@@ -324,7 +324,10 @@
         "e359ea7a-6a72-42a8-946b-b105b42245f6": {
           "type": "subheading",
           "settings": {
-            "text": "certificaciones y sellos"
+            "text": "certificaciones y sellos",
+            "custom_pill_subheading": true,
+            "subheading_background_color": "#1a1a1a",
+            "subheading_text_color": ""
           }
         },
         "2684c6de-6f1c-4a49-b6ba-194d2d4c02ca": {
@@ -458,7 +461,10 @@
         "template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "Pero antes..."
+            "text": "Pero antes...",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
           }
         },
         "template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-heading-1": {

@@ -702,7 +702,8 @@
         "a4c61d3f-7af3-4671-9042-0da7ca63d7cd"
       ],
       "custom_css": [
-
+        "p.h4 {font-size: 25px; font-style: normal; font-weight: 500; line-height: normal; letter-spacing: -0.5px;}",
+        "button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
         "full_width": true,

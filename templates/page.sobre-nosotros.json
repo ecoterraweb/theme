@@ -553,7 +553,7 @@
         "h2 {font-size: 45px;}",
         "p.strong {color: #1a1a1a;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
-        "div {align-items: center; text-align: left;}",
+        "div {align-items: left; text-align: left;}",
         "h2 strong {color: #10ccf4;}",
         ".split-rich-text {padding: 44px 48px;}",
         ".rich-text {padding: 40px 15px 100px;}"

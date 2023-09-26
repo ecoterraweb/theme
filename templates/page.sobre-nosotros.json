@@ -555,7 +555,7 @@
         ".h2 {font-size: 45px;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
         "div {align-items: center; text-align: left;}",
-        "strong {color: #ff8d00;}",
+        "strong {color: #10CCF4;}",
         ".split-rich-text {padding: 44px 48px;}",
         ".rich-text {padding: 40px 15px 100px;}"
       ],
@@ -564,7 +564,7 @@
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Rich_text.png",
         "content_width": "medium",
-        "text_position": "center",
+        "text_position": "start",
         "background": "#fafafa",
         "background_gradient": "",
         "text_color": "#1a1a1a"

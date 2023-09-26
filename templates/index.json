@@ -435,7 +435,8 @@
       "type": "before-after-video",
       "custom_css": [
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
-        "h2 strong {color: #ff6700;}"
+        "h2 strong {color: #ff6700;}",
+        ".full-bleed{max-width: 100%; margin: 0;}"
       ],
       "settings": {
         "full_width": true,
@@ -445,6 +446,7 @@
         "title": "",
         "content": "<h2>¿SÁBES DE <strong>DONDE VIENEN<\/strong> TUS ALIMENTOS?<\/h2><p>Gracias a la tecnología de <strong>WEB.3<\/strong>  y la revolución del <strong>BLOCKCHAIN<\/strong>, te lo podemos contar.<\/p>",
         "text_position": "start",
+        "autoplay": true,
         "video_size": "auto",
         "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
         "background": "",

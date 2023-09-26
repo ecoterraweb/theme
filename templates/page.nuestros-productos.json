@@ -14,13 +14,13 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-np.png",
-            "mobile_image": "shopify:\/\/shop_images\/banner-productos-2.png",
+            "mobile_image": "shopify:\/\/shop_images\/banner-nps.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
             "title": "Hambre de cambio",
-            "heading_tag": "h0",
+            "heading_tag": "h6",
             "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
@@ -38,8 +38,10 @@
         "template--15538125635677__9b61646c-a010-4320-a608-c4c9982d72a1-image-1"
       ],
       "custom_css": [
-        ".h0 strong {color: #47ffd6;}",
-        "@media screen and (min-width: 700px) {.h0 {max-width: 500px; font-size: 90px; line-height: 90px; text-transform: uppercase; }}"
+        "div {text-align: right;}",
+        ".h6{font-size: 85px; font-weight: 700; text-transform: uppercase; line-height: 90px; word-wrap: break-word;}",
+        "@media screen and (max-width: 1000px) {.prose p {font-size: 99px; font-style: normal; font-weight: 700; line-height: 77px; \/* 100% *\/ letter-spacing: -1.54px; }}",
+        "@media screen and (max-width: 700px) {.prose p {font-size: 45px; font-style: normal; font-weight: 700; line-height: 45px; \/* 100% *\/ letter-spacing: -1.54px; }}"
       ],
       "settings": {
         "identifier": "",
@@ -448,7 +450,7 @@
     "3ebda82d-d311-40e5-a12d-759aaa3d00a8": {
       "type": "contact",
       "custom_css": [
-        "button{font-size: 16px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: 0.32px;}"
+        "button {font-size: 16px; font-style: normal; font-weight: 600; line-height: normal; letter-spacing: 0.32px;}"
       ],
       "settings": {
         "full_width": true,

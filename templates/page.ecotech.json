@@ -52,20 +52,56 @@
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
           "type": "richtext",
           "settings": {
-            "content": "<h3>EN EL CORAZÓN DE ECOTERRA SE ENCUENTRAN NUESTRO REVOLUCIONARIOS ECOLABS: ECO<strong>AGRI<\/strong>LAB, ECO<strong>FOO<\/strong>DLAB Y ECO<strong>TECH<\/strong>LAB<\/h3><p> Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
+            "content": "<h6>EN EL CORAZÓN DE ECOTERRA SE ENCUENTRAN NUESTRO REVOLUCIONARIOS ECOLABS: <\/h6>"
+          }
+        },
+        "3e94cec3-6b18-4bfb-8dd9-28124b20f0fe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>ECO<strong>AGRI<\/strong>LAB, <\/h1>"
+          }
+        },
+        "ffadacbd-d9a4-44c9-be10-bbb726dc8021": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>ECO<strong>TECH<\/strong>LAB<\/h3>"
+          }
+        },
+        "3136ac33-705a-4db9-a140-0d0b444ebaae": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>ECO<strong>FOO<\/strong>DLAB <\/h2>"
+          }
+        },
+        "516574b4-1f82-44c4-8986-a5950a83674f": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "a2ce0d58-079d-433b-b866-a5cfa3d51f80": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
           }
         }
       },
       "block_order": [
-        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d"
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d",
+        "3e94cec3-6b18-4bfb-8dd9-28124b20f0fe",
+        "ffadacbd-d9a4-44c9-be10-bbb726dc8021",
+        "3136ac33-705a-4db9-a140-0d0b444ebaae",
+        "516574b4-1f82-44c4-8986-a5950a83674f",
+        "a2ce0d58-079d-433b-b866-a5cfa3d51f80"
       ],
       "custom_css": [
-        ".prose h3 {font-size: 30px; text-align: left;}",
-        ".prose h2 {font-size: 30px; text-align: left;}",
-        ".prose h1 {font-size: 30px; text-align: left;}",
+        ".prose h4 {font-size: 30px; text-align: left;}",
+        ".prose h6 {font-size: 30px; text-align: left;}",
+        ".prose h3 {font-size: 70px; text-align: left; line-height: 20px;}",
+        ".prose h2 {font-size: 70px; text-align: left;}",
+        ".prose h1 {font-size: 70px; text-align: left;}",
         ".prose h1 strong {color: #96d123;}",
         ".prose h2 strong {color: #ff8d00;}",
-        ".prose h3 strong {color: #394FF0;}",
+        ".prose h3 strong {color: #394ff0;}",
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",
@@ -75,7 +111,7 @@
         "identifier": "",
         "full_width": true,
         "content_width": "medium",
-        "text_position": "center",
+        "text_position": "start",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#1a1a1a"

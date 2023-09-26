@@ -533,7 +533,7 @@
         "39c19eab-4214-48f8-a818-d31e8d4bc0ae": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>LOS <strong>SELLOS<\/strong> QUE NOS <strong>RESPALDAN <\/strong><\/h1><p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta. <\/p><p>¡Encuentra estos sellos en nuestros productos!<\/p>"
+            "content": "<h2>LOS <strong>SELLOS<\/strong> QUE NOS <strong>RESPALDAN <\/strong><\/h2><p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta. <\/p><p><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>"
           }
         }
       },
@@ -543,10 +543,11 @@
         "39c19eab-4214-48f8-a818-d31e8d4bc0ae"
       ],
       "custom_css": [
-        ".h2 {font-size: 45px;}",
+        "h2 {font-size: 45px;}",
+        "p.strong {color: #1a1a1a;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
         "div {align-items: center; text-align: left;}",
-        "strong {color: #10ccf4;}",
+        "h2 strong {color: #10ccf4;}",
         ".split-rich-text {padding: 44px 48px;}",
         ".rich-text {padding: 40px 15px 100px;}"
       ],

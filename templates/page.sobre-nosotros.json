@@ -394,7 +394,7 @@
         ".prose h2 {font-size: 50px; text-align: left;}",
         ".prose h2 strong {color: #96d123;}",
         "p {text-align: left;}",
-        "div {align-items: center;"
+        "div {align-items: center; @media screen and (max-width: 700px) {.prose h2 {font-size: 32px; padding-top: 40px; }}"
       ],
       "settings": {
         "full_width": true,

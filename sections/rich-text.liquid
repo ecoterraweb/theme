@@ -70,7 +70,7 @@
 
           {%- when 'image' -%}
             {%- if block.settings.image != blank -%}
-              <div {{ block.shopify_attributes }} style="margin-block-start: 0">
+              <div {{ block.shopify_attributes }} style="margin-block-start: 0; order: -1;">
                 {%- capture image_style_attribute -%}{% if section.settings.text_position == 'center' %}margin-inline: auto;{% endif %}{%- endcapture -%}
 
                 {%- if block.settings.width_mode == 'custom' -%}

@@ -61,7 +61,7 @@ LIQUID
         {%- endcapture -%}
 
         {%- if section.settings.video -%}
-          <video-media {% if section.settings.autoplay %}autoplay{% endif %}>
+          <video-media {% if section.settings.autoplay %}autoplay{% endif %} loaded>
             {%- if section.settings.autoplay -%}
               {%- assign show_controls = false -%}
             {%- else -%}
@@ -72,7 +72,7 @@ LIQUID
             {{- poster -}}
           </video-media>
         {%- else -%}
-          <video-media host="{{ section.settings.external_video_url.type }}" {% if section.settings.autoplay %}autoplay class="pointer-events-none"{% endif %}>
+          <video-media host="{{ section.settings.external_video_url.type }}" {% if section.settings.autoplay %}autoplay class="pointer-events-none"{% endif %} loaded>
             {{- poster -}}
 
             <template>

@@ -39,7 +39,7 @@
       ],
       "custom_css": [
         ".h0 strong {color: #47ffd6;}",
-        ".h0 {max-width: 500px; font-size: 90px; line-height: 90px; text-transform: uppercase;}"
+        "@media screen and (min-width: 700px) {.h0 {max-width: 500px; font-size: 90px; line-height: 90px; text-transform: uppercase;}}"
       ],
       "settings": {
         "identifier": "",

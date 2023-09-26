@@ -51,6 +51,7 @@
   .font--secondary{
     font-family: 'PalmerLakePrint', sans-serif !important;
     line-height: 60%;
+    font-weight: normal !important;
   }
   .font--secondary.h0{
     font-size: 11rem;

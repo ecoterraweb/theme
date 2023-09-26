@@ -21,6 +21,7 @@
             "subheading": "",
             "title": "",
             "heading_tag": "h0",
+            "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -43,6 +44,7 @@
             "subheading": "",
             "title": "",
             "heading_tag": "h0",
+            "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -393,6 +395,26 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "3ebda82d-d311-40e5-a12d-759aaa3d00a8": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "¡Únete a nuestra cruzada!",
+        "title": "¡Conviértete en un EcoPartner!",
+        "content": "<p>¿Te interesan nuestros productos? Quieres una cotización? Escríbenos y nuestros KAM te contactarán!<\/p>",
+        "text_position": "center",
+        "contact_form_size": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -407,6 +429,7 @@
     "988affd9-0f7f-4bc5-a306-1acd526badc6",
     "99996713-cadd-4d07-99fc-7aa3b05e4120",
     "f98c25b8-cd4f-4765-85dd-c78b8c6e4335",
-    "23a30acb-e4f3-4e11-918e-6e959b1c0de3"
+    "23a30acb-e4f3-4e11-918e-6e959b1c0de3",
+    "3ebda82d-d311-40e5-a12d-759aaa3d00a8"
   ]
 }

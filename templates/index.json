@@ -73,7 +73,8 @@
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d": {
       "type": "scrolling-text",
       "custom_css": [
-
+        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 66px; font-weight: 400;}",
+        ".bg-custom.text-custom{padding: 40px 0;}"
       ],
       "settings": {
         "full_width": true,
@@ -243,7 +244,8 @@
       ],
       "custom_css": [
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".custom-pill {margin: auto; font-size: 20px; letter-spacing: 1px;}"
       ],
       "settings": {
         "identifier": "",
@@ -254,7 +256,7 @@
         "image": "shopify:\/\/shop_images\/Sideshow-1.png",
         "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#1a1a1a",
         "overlay_opacity": 20
@@ -432,7 +434,7 @@
       "custom_css": [
         ".h2 {font-size: 35px;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
-        "strong {color: #ff6700;}"
+        "h2 strong {color: #ff6700;}"
       ],
       "settings": {
         "full_width": true,

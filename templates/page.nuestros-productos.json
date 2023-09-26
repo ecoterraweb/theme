@@ -447,6 +447,9 @@
     },
     "3ebda82d-d311-40e5-a12d-759aaa3d00a8": {
       "type": "contact",
+      "custom_css": [
+        "button{font-size: 16px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: 0.32px;}"
+      ],
       "settings": {
         "full_width": true,
         "subheading": "¡Únete a nuestra cruzada!",

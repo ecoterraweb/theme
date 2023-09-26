@@ -13,36 +13,13 @@
         "template--15538125635677__9b61646c-a010-4320-a608-c4c9982d72a1-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-productos-1.png",
+            "image": "shopify:\/\/shop_images\/banner-np.png",
             "mobile_image": "shopify:\/\/shop_images\/banner-productos-2.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "heading_style": "font--primary",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "6bb1c9e8-7db1-4499-9c91-fe74c2e93c00": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-productos.png",
-            "mobile_image": "shopify:\/\/shop_images\/banner-productos-4.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
+            "title": "Hambre de cambio",
             "heading_tag": "h0",
             "heading_style": "font--primary",
             "button_text": "",
@@ -58,8 +35,10 @@
         }
       },
       "block_order": [
-        "template--15538125635677__9b61646c-a010-4320-a608-c4c9982d72a1-image-1",
-        "6bb1c9e8-7db1-4499-9c91-fe74c2e93c00"
+        "template--15538125635677__9b61646c-a010-4320-a608-c4c9982d72a1-image-1"
+      ],
+      "custom_css": [
+        ".h0 strong {color: #47ffd6;}"
       ],
       "settings": {
         "identifier": "",
@@ -80,7 +59,7 @@
         "template--15538978062429__592c85fc-a583-4781-a203-f2d81caae21f-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h4>En un mundo donde cada bocado puede cambiarlo todo, los Ecoalimentos de Ecoterra brillan como faros de sabor y sostenibilidad en un mar de opciones.<\/h4><p>En cada categoría de <strong>Ecoalimentos<\/strong>, fusionamos innovación científica con la esencia de la tierra, forjando un menú que nutre a cuerpos y al planeta. Desde cultivos en <strong>EcoAgriLab <\/strong>hasta creaciones culinarias en <strong>EcoFoodLab<\/strong>, y soluciones tecnológicas en <strong>EcoTechLab,<\/strong> cada bocado marca un giro.<\/p>"
+            "content": "<h2><strong>DESAFIAMOS LAS NORMAS<\/strong>, REDEFINIENDO LA COMIDA CONSCINETE<\/h2><p>En cada categoría de <strong>Ecoalimentos<\/strong>, fusionamos innovación científica con la esencia de la tierra, forjando un menú que nutre a cuerpos y al planeta. Desde cultivos en <strong>EcoAgriLab <\/strong>hasta creaciones culinarias en <strong>EcoFoodLab<\/strong>, y soluciones tecnológicas en <strong>EcoTechLab,<\/strong> cada bocado marca un giro.<\/p>"
           }
         },
         "25de009c-1c69-40e7-9334-0eff205599a8": {
@@ -91,7 +70,7 @@
         "4fbca877-601e-45fc-94dd-59cad4a05aac": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/desafiamos.png",
+            "image": "shopify:\/\/shop_images\/mani-2.png",
             "width_mode": "custom",
             "max_width": 660,
             "mobile_max_width": 300
@@ -104,9 +83,12 @@
         "4fbca877-601e-45fc-94dd-59cad4a05aac"
       ],
       "custom_css": [
-        "div {text-align: left; align-items: center;}",
-        ".split-rich-text {padding: 0 48px;}",
-        "@media screen and (max-width: 700px) {.split-rich-text {padding: 0 15px; }}"
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #ff00e8;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "identifier": "",
@@ -124,11 +106,11 @@
         "template--15538125635677__5eda4943-37f5-4688-a245-925e754d2358-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco_huevos.png",
+            "image": "shopify:\/\/shop_images\/ecohuevos.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoHuevos",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>HUEVOS<\/strong><\/h2><p>Todos nuestros ecohuevos provienen de gallinas que pastorean libres, en donde las aves pueden desarrollar sus conductas naturales. Además, comen una dieta 100% vegetariana y libre de antibióticos. <br\/>Porque creemos en un mundo más justo, colaboramos con pequeños productores certificados bajo estándares de comercio justo.<\/p>",
             "button_url": "shopify:\/\/collections\/huevos",
             "button_text": "Comprar aquí"
           }
@@ -138,7 +120,13 @@
         "template--15538125635677__5eda4943-37f5-4688-a245-925e754d2358-item-1"
       ],
       "custom_css": [
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #10ccf4;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "full_width": false,
@@ -158,11 +146,11 @@
         "3a9f287e-a4e7-4b5f-ab8e-67be54b8e654": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco_protein.png",
+            "image": "shopify:\/\/shop_images\/eco-protein_c001ad4d-3edb-45f4-bdc8-b6ba12f4cd14.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoProtein",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>PROTEIN<\/strong><\/h2><p>¡Te presentamos la nueva forma de comer huevo!<br\/>Una manera mucho más fácil de obtener la proteína más biodisponible del mundo. <br\/>El complemento perfecto para tu día a día: fácil y práctico!<\/p>",
             "button_url": "shopify:\/\/collections\/fair-foods",
             "button_text": "Comprar aquí"
           }
@@ -172,6 +160,13 @@
         "3a9f287e-a4e7-4b5f-ab8e-67be54b8e654"
       ],
       "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #ff6700;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
@@ -192,11 +187,11 @@
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco_lacteos.png",
+            "image": "shopify:\/\/shop_images\/eco-lacteos_a6c72c31-c37c-40ab-8085-bf0a04b4c86d.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoLácteos",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>LÁCTEOS<\/strong><\/h2><p>Producidos en alianza con productores locales de la Región de Los Lagos, certificados en bienestar animal. <br\/>Las vacas pastorean libremente y no se utilizan antibióticos ni hormonas de forma rutinaria, de hecho, ¡todos nuestros lácteos son sin hormona rbST!<\/p>",
             "button_url": "shopify:\/\/collections\/lacteos",
             "button_text": "Comprar aquí"
           }
@@ -206,6 +201,14 @@
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e"
       ],
       "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #394ff0;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}",
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
@@ -226,11 +229,11 @@
         "1cc55f40-3ae8-4834-b200-df431c412e23": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco_despensa.png",
+            "image": "shopify:\/\/shop_images\/eco-despensa.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoDespensa",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>DESPENSA<\/strong><\/h2><p>Proveniente de cultivos sustentables y orgánicos, es decir, libres de fertilizantes químicos, pesticidas y herbicidas. Preocupados por tu salud y la del planeta.<\/p>",
             "button_url": "shopify:\/\/collections\/despensa-pantry",
             "button_text": "Comprar aquí"
           }
@@ -240,6 +243,14 @@
         "1cc55f40-3ae8-4834-b200-df431c412e23"
       ],
       "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #ff3e72;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}",
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
@@ -260,11 +271,11 @@
         "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco_aderezos.png",
+            "image": "shopify:\/\/shop_images\/eco-aderezos.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoAderezos",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>ADEREZOS<\/strong><\/h2><p>Nuestros EcoAderezos son ideales para acompañar todo. Sabrosos, únicos y bullsh*t free, te sacaran de apuro y llevaran tus comidas al siguiente nivel. Únicos que apoyan la vinculación social de pequeños productores. Naturales, éticos y sustentables. <\/p>",
             "button_url": "shopify:\/\/collections\/aderezos-naturales",
             "button_text": "Comprar aquí"
           }
@@ -274,6 +285,14 @@
         "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf"
       ],
       "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #7dac00;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}",
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {

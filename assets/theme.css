@@ -3344,6 +3344,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   text-underline: none;
   background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 0 1px no-repeat;
   transition: background-size .3s ease-in-out;
+  font-weight: 600;
 }
 
 @media screen and (pointer: fine) {
@@ -3840,6 +3841,7 @@ tfoot td {
   gap: var(--spacing-3);
   align-items: center;
   display: flex;
+  font-weight: 600;
 }
 
 .text-with-icon > svg {

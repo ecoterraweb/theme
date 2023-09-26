@@ -350,8 +350,8 @@
           "settings": {
             "horizontal_position": 23,
             "vertical_position": 38,
-            "horizontal_position_mobile": 26,
-            "vertical_position_mobile": 43,
+            "horizontal_position_mobile": 47,
+            "vertical_position_mobile": 11,
             "icon": "shopify:\/\/shop_images\/agriculture.png",
             "icon_width": 32,
             "title": "EcoAgri Lab",
@@ -399,6 +399,7 @@
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/fondo_hotspot_fe40d2b2-c7f2-46d8-a9b8-f3d59b5a5c1c.png",
+        "mobile_image": "shopify:\/\/shop_images\/fondo_hotspot_a6f16021-a1f4-4767-91e8-5455719b3ba0.png",
         "hotspot_image": "shopify:\/\/shop_images\/esquema_b4740aac-51d2-4491-b88d-324aca10c8ba.png",
         "title": "",
         "content": "<h2><strong>DONDE LA INNOVACIÓN SE ENCUENTRA CON LA ACCIÓN <\/strong>Y LA COMUNIDAD SE CONVIERTE EN CATALIZADORA DE CAMBIO<\/h2><p>Nuestra plataforma une a <strong>EcoFarmers, EcoPartners y EcoLovers<\/strong>, creando un ciclo virtuoso de impacto sostenible.<\/p><h1><\/h1>",
@@ -549,7 +550,7 @@
       "custom_css": [
         ".h2 {font-size: 45px;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
-        "div{align-items: center;}",
+        "div {align-items: center;}",
         "strong {color: #7dac00;}",
         ".split-rich-text {padding: 44px 48px;}",
         ".rich-text {padding: 40px 15px 100px;}"

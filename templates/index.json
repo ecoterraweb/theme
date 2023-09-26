@@ -431,7 +431,6 @@
     },
     "05a7910e-b59d-4b0e-af73-ee980f02b1d3": {
       "type": "before-after-image",
-      "disabled": true,
       "custom_css": [
         ".h2 {font-size: 35px;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",

@@ -102,7 +102,7 @@
         "41efcc92-f932-4288-98fc-289a59065d2e": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>SALVA EL PLANETA<\/h1><h1>¡UN PLATO A LA VEZ!<\/h1><p><br\/>Cada compra, es una elección y queremos que esa ¡sea con propósito. Estamos seguros de que nuestras acciones y decisiones impactan, te inivtamos a comprar con sentido y cambiar el mundo a través de lo que comes.<\/p>"
+            "content": "<h1>SALVA EL PLANETA<br\/>¡UN PLATO A LA VEZ!<\/h1><p><br\/>Cada compra, es una elección y queremos que esa ¡sea con propósito. Estamos seguros de que nuestras acciones y decisiones impactan, te inivtamos a comprar con sentido y cambiar el mundo a través de lo que comes.<\/p>"
           }
         },
         "c2592919-2256-4b41-acb9-f58bb253fe3a": {
@@ -167,6 +167,10 @@
         "9df8e6ae-0332-4fe6-afb7-011c52b84453",
         "5f3227a5-17c2-41e1-9a55-c140f60d9272",
         "87ccbca3-4805-4f5e-a84c-0817d10540eb"
+      ],
+      "custom_css": [
+        "p {text-align: left;}",
+        "div {align-items: center;}"
       ],
       "settings": {
         "identifier": "",
@@ -236,45 +240,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "996c8fef-4311-466d-bcb7-fd2255fe9236": {
-      "type": "rich-text",
-      "blocks": {
-        "403b9c67-66a9-42e3-8656-9ace38b39ef1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1><strong>BEST FRIENDS: TECNOLOGÍA Y NATURALEZA<\/strong><\/h1><p>Trabajamos en el desarrollo de sistemas de producción que son justos y sostenibles. Buscamos un equilibrio entre la tecnología actual y la sabiduría de la naturaleza para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p>"
-          }
-        },
-        "de7c9a28-d51b-4099-9c41-0042e114adcf": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "8f6dc365-a7d4-4aa2-b482-264603439f42": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mani-eco.png",
-            "width_mode": "custom",
-            "max_width": 450,
-            "mobile_max_width": 320
-          }
-        }
-      },
-      "block_order": [
-        "403b9c67-66a9-42e3-8656-9ace38b39ef1",
-        "de7c9a28-d51b-4099-9c41-0042e114adcf",
-        "8f6dc365-a7d4-4aa2-b482-264603439f42"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "#f5f5f5",
-        "background_gradient": "",
-        "text_color": "#1a1a1a"
       }
     },
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f": {
@@ -718,7 +683,6 @@
     "44c15b8b-fa32-40f0-b5b7-79d15b1a2a87",
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
     "999d98b6-1d5d-49ff-af7c-aa62dcf29d69",
-    "996c8fef-4311-466d-bcb7-fd2255fe9236",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
     "e0d50b40-660c-4f52-bc6c-e18294190402",

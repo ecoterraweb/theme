@@ -38,7 +38,8 @@
         "template--15538125635677__9b61646c-a010-4320-a608-c4c9982d72a1-image-1"
       ],
       "custom_css": [
-        ".h0 strong {color: #47ffd6;}"
+        ".h0 strong {color: #47ffd6;}",
+        ".h0 {max-width: 500px; font-size: 90px; line-height: 90px; text-transform: uppercase;}"
       ],
       "settings": {
         "identifier": "",
@@ -53,13 +54,32 @@
         "background_gradient": ""
       }
     },
+    "70d4769d-43ae-4c89-a099-9dc64d1399a8": {
+      "type": "scrolling-text",
+      "custom_css": [
+        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 66px; font-weight: 400;}",
+        ".bg-custom.text-custom {padding: 40px 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "text": "¡Cambiemos el mundo a través de lo que comemos!",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#7dac00",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
     "592c85fc-a583-4781-a203-f2d81caae21f": {
       "type": "rich-text",
       "blocks": {
         "template--15538978062429__592c85fc-a583-4781-a203-f2d81caae21f-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>DESAFIAMOS LAS NORMAS<\/strong>, REDEFINIENDO LA COMIDA CONSCINETE<\/h2><p>En cada categoría de <strong>Ecoalimentos<\/strong>, fusionamos innovación científica con la esencia de la tierra, forjando un menú que nutre a cuerpos y al planeta. Desde cultivos en <strong>EcoAgriLab <\/strong>hasta creaciones culinarias en <strong>EcoFoodLab<\/strong>, y soluciones tecnológicas en <strong>EcoTechLab,<\/strong> cada bocado marca un giro.<\/p>"
+            "content": "<h2><strong>DESAFIAMOS LAS NORMAS,<\/strong> REDEFINIENDO LA COMIDA CONSCIENTE<\/h2><p>En cada categoría de <strong>Ecoalimentos<\/strong>, fusionamos innovación científica con la esencia de la tierra, forjando un menú que nutre a cuerpos y al planeta. Desde cultivos en <strong>EcoAgriLab <\/strong>hasta creaciones culinarias en <strong>EcoFoodLab<\/strong>, y soluciones tecnológicas en <strong>EcoTechLab,<\/strong> cada bocado marca un giro.<\/p>"
           }
         },
         "25de009c-1c69-40e7-9334-0eff205599a8": {
@@ -126,7 +146,9 @@
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".rich-text {padding: 40px 15px 100px;}",
+        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
+        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
       ],
       "settings": {
         "full_width": false,
@@ -167,7 +189,9 @@
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",
         ".rich-text {padding: 40px 15px 100px;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
+        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
       ],
       "settings": {
         "full_width": false,
@@ -209,7 +233,9 @@
         ".split-rich-text {padding: 44px 48px;}",
         ".rich-text {padding: 40px 15px 100px;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
+        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
       ],
       "settings": {
         "full_width": false,
@@ -251,7 +277,9 @@
         ".split-rich-text {padding: 44px 48px;}",
         ".rich-text {padding: 40px 15px 100px;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
+        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
       ],
       "settings": {
         "full_width": false,
@@ -293,7 +321,9 @@
         ".split-rich-text {padding: 44px 48px;}",
         ".rich-text {padding: 40px 15px 100px;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
+        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
       ],
       "settings": {
         "full_width": false,
@@ -439,6 +469,7 @@
   "order": [
     "main",
     "9b61646c-a010-4320-a608-c4c9982d72a1",
+    "70d4769d-43ae-4c89-a099-9dc64d1399a8",
     "592c85fc-a583-4781-a203-f2d81caae21f",
     "5eda4943-37f5-4688-a245-925e754d2358",
     "a7b3ce38-e344-41bf-8495-bc96050b2f1d",

@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/eco.png",
-            "content_max_width": 420,
+            "content_max_width": 660,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
@@ -30,7 +30,8 @@
         "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1"
       ],
       "custom_css": [
-        "div {text-align: right;}"
+        "div {text-align: right;}",
+        ".h0 {font-size: 85px; font-weight: 700; text-transform: uppercase; line-height: 90px; word-wrap: break-word;}"
       ],
       "settings": {
         "identifier": "",
@@ -61,6 +62,7 @@
       "block_order": [
         "template--15546130202717__b32b6855-949c-445c-bdcb-c8fbf129f34d-heading-1"
       ],
+      "disabled": true,
       "settings": {
         "identifier": "",
         "full_width": true,
@@ -69,45 +71,6 @@
         "background": "#052e1e",
         "background_gradient": "",
         "text_color": "#ffffff"
-      }
-    },
-    "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
-      "type": "rich-text",
-      "blocks": {
-        "64a51e1c-2077-4c54-ade4-a0fc50bcf8c4": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Imaginen un mundo donde las mismas cosas en las que confiamos para nuestra supervivencia están en armonía perfecta con el poder de la tecnología y la sabiduría de la naturaleza<\/strong>. Imaginen no tener que elegir entre la ciencia de vanguardia y la sabiduría que nos brinda la Tierra. Bienvenidos al futuro, bienvenidos a Ecoterra.<\/p>"
-          }
-        },
-        "0e4f708e-3e3f-4a6d-bb89-2056298e4a3e": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>En el corazón de Ecoterra se encuentran nuestros revolucionarios EcoLabs: EcoAgri Lab, EcoFood Lab y EcoTech Lab<\/strong>; cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "64a51e1c-2077-4c54-ade4-a0fc50bcf8c4",
-        "0e4f708e-3e3f-4a6d-bb89-2056298e4a3e",
-        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d"
-      ],
-      "custom_css": [
-        "div {text-align: left;}"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#1a1a1a"
       }
     },
     "889a2e3f-147c-4db4-af7c-a0f697e25a9e": {
@@ -125,6 +88,45 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
+      "type": "rich-text",
+      "blocks": {
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>En el corazón de Ecoterra se encuentran nuestros revolucionarios EcoLabs: EcoAgri Lab, EcoFood Lab y EcoTech Lab<\/strong>; cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
+          }
+        },
+        "0e4f708e-3e3f-4a6d-bb89-2056298e4a3e": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "64a51e1c-2077-4c54-ade4-a0fc50bcf8c4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Imaginen un mundo donde las mismas cosas en las que confiamos para nuestra supervivencia están en armonía perfecta con el poder de la tecnología y la sabiduría de la naturaleza<\/strong>. Imaginen no tener que elegir entre la ciencia de vanguardia y la sabiduría que nos brinda la Tierra. Bienvenidos al futuro, bienvenidos a Ecoterra.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d",
+        "0e4f708e-3e3f-4a6d-bb89-2056298e4a3e",
+        "64a51e1c-2077-4c54-ade4-a0fc50bcf8c4"
+      ],
+      "custom_css": [
+        "div {text-align: left; align-items: center;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
       }
     },
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54": {
@@ -251,7 +253,7 @@
         "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>Esto NO es simplemente otra empresa. <br\/>ESTO ES UN MOVIMIENTO, UNA REVOLUCIÓN<\/h6><h2>¡ESTO ES ECOTERRA!<\/h2>"
+            "content": "<h6>Esto NO es simplemente otra empresa. <br\/><strong>ESTO ES UN MOVIMIENTO, UNA REVOLUCIÓN<\/strong><\/h6><h2>¡ESTO ES ECOTERRA!<\/h2>"
           }
         }
       },
@@ -259,7 +261,10 @@
         "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1"
       ],
       "custom_css": [
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        ".prose h6 {font-size: 25px; font-weight: 600; word-wrap: break-word;}",
+        ".prose h6 strong {color: #96d123; font-size: 25px; font-weight: 600; word-wrap: break-word;}",
+        ".prose h2 {color: #dbde3b; font-size: 56px; font-weight: 600;}"
       ],
       "settings": {
         "identifier": "Impacto-section",
@@ -290,7 +295,7 @@
         "af2cfa2a-4aa6-4045-a603-8cc45416c684": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>Gracias por ser parte de este viaje,<br\/>mientras redefinimos lo que es posible y recuperamos lo que es esencial<\/h6><p><\/p><h2>¡BIENVENIDO A ECOTERRA!<br\/>Bienvenido a casa<\/h2>"
+            "content": "<h6>Gracias por ser parte de este viaje,<br\/>mientras redefinimos lo que es posible y recuperamos lo que es esencial<\/h6><p><\/p><h2>¡BIENVENIDO A ECOTERRA!<br\/><strong>Bienvenido a casa<\/strong><\/h2>"
           }
         }
       },
@@ -298,12 +303,15 @@
         "af2cfa2a-4aa6-4045-a603-8cc45416c684"
       ],
       "custom_css": [
-        "p {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+        "p {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        ".prose h6 {font-size: 25px; font-weight: 600;}",
+        ".prose h2 {color: #10ccf4; font-size: 56px; font-weight: 600;}",
+        ".prose h2 strong {color: #47ffd6; font-weight: 600;}"
       ],
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
-        "content_width": "small",
+        "content_width": "large",
         "text_position": "center",
         "background": "#394ff0",
         "background_gradient": "",
@@ -328,6 +336,11 @@
             "gradient": ""
           }
         },
+        "6a4b4684-eb8f-4db3-92c5-f405bedf126c": {
+          "type": "divider",
+          "settings": {
+          }
+        },
         "a874ecb1-1984-478f-b0aa-b7d83d4959d6": {
           "type": "richtext",
           "settings": {
@@ -338,6 +351,7 @@
       "block_order": [
         "e359ea7a-6a72-42a8-946b-b105b42245f6",
         "2684c6de-6f1c-4a49-b6ba-194d2d4c02ca",
+        "6a4b4684-eb8f-4db3-92c5-f405bedf126c",
         "a874ecb1-1984-478f-b0aa-b7d83d4959d6"
       ],
       "custom_css": [
@@ -360,7 +374,6 @@
         "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CH.png",
             "column_size": "3",
             "title": "Certified Humane: Bienestar Animal",
             "heading_tag": "h4",
@@ -373,7 +386,6 @@
         "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB.png",
             "column_size": "3",
             "title": "Empresa B",
             "heading_tag": "h4",
@@ -386,7 +398,6 @@
         "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EC.png",
             "column_size": "3",
             "title": "Organic ECOCERT",
             "heading_tag": "h4",
@@ -399,7 +410,6 @@
         "cf891f50-77c6-445e-8961-75bda27c688a": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VA.png",
             "column_size": "3",
             "title": "Apto para veganos",
             "heading_tag": "h4",
@@ -601,8 +611,8 @@
   "order": [
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "b32b6855-949c-445c-bdcb-c8fbf129f34d",
-    "7a0252a9-9b49-4057-8614-7c8b84f9269d",
     "889a2e3f-147c-4db4-af7c-a0f697e25a9e",
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d",
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",
     "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2",
     "a0af0435-390a-4f29-9870-4724c6b9beab",

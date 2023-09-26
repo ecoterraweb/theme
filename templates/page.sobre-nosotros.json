@@ -538,7 +538,9 @@
         "39c19eab-4214-48f8-a818-d31e8d4bc0ae"
       ],
       "custom_css": [
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+        ".h2 {font-size: 45px;}",
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
+        "strong {color: #7dac00;}"
       ],
       "settings": {
         "identifier": "Impacto-section",
@@ -556,6 +558,7 @@
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/CH_fdf38afc-b166-42a2-9311-5b16fcbb7a78.png",
             "column_size": "3",
             "title": "Certified Humane: Bienestar Animal",
             "heading_tag": "h4",
@@ -568,6 +571,7 @@
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-2": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EB_37bb085b-f3e4-4082-afb4-eb4d8bc92444.png",
             "column_size": "3",
             "title": "Empresa B",
             "heading_tag": "h4",
@@ -580,6 +584,7 @@
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-3": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EC_0b248f6c-4f0d-4920-8160-45dfb697d3a6.png",
             "column_size": "3",
             "title": "Organic ECOCERT",
             "heading_tag": "h4",
@@ -592,8 +597,74 @@
         "42935295-9570-4ec7-be6d-beb6124e1a8b": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/VA_006f0119-90aa-408f-a167-65ec899dced2.png",
             "column_size": "3",
             "title": "Apto para vegetarianos",
+            "heading_tag": "h4",
+            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "81466fbc-47af-47fb-8c6f-fe99711c2679": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F4F.png",
+            "column_size": "3",
+            "title": "Food for future",
+            "heading_tag": "h4",
+            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "810690e6-b909-4030-b1b9-2256e814b43a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TR.png",
+            "column_size": "3",
+            "title": "Lorem ipsum",
+            "heading_tag": "h4",
+            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LSQA.png",
+            "column_size": "3",
+            "title": "Lorem ipsum",
+            "heading_tag": "h4",
+            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "038f4d60-9086-4579-943c-1d4f67f66241": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAG.png",
+            "column_size": "3",
+            "title": "Lorem ipsum",
+            "heading_tag": "h4",
+            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LM.png",
+            "column_size": "3",
+            "title": "Lorem ipsum",
             "heading_tag": "h4",
             "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
             "link_url": "",
@@ -606,13 +677,12 @@
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-1",
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-2",
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-3",
-        "42935295-9570-4ec7-be6d-beb6124e1a8b"
-      ],
-      "custom_css": [
-        "p {text-align: left;}",
-        "h2 {text-align: left;}",
-        "div {vertical-align: center;}",
-        "button {letter-spacing: 0.02em; font-weight: 500;}"
+        "42935295-9570-4ec7-be6d-beb6124e1a8b",
+        "81466fbc-47af-47fb-8c6f-fe99711c2679",
+        "810690e6-b909-4030-b1b9-2256e814b43a",
+        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9",
+        "038f4d60-9086-4579-943c-1d4f67f66241",
+        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd"
       ],
       "settings": {
         "full_width": true,

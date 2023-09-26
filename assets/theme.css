@@ -10312,3 +10312,13 @@ a.button.button--lg, button.button.button--xl{
 .prose p strong{
   font-weight: 600;
 }
+.custom-pill {
+  padding: 5.5px 22px 10px;
+  background-color: #1a1a1a;
+  color: #Fff;
+  border-radius: 100px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  line-height: 100%;
+}

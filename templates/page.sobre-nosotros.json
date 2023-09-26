@@ -39,7 +39,8 @@
       ],
       "custom_css": [
         "div {text-align: right;}",
-        "@media screen and (max-width: 700px) {.h1 {font-size: 40px; }}"
+        " \/* Cambios\/Desktop\/H0\/H0 *\/P.h6 {font-size: 85px; font-style: normal; font-weight: 700; line-height: 90px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase;}",
+        "@media screen and (max-width: 700px) {P.h6 {font-size: 50px; font-style: normal; font-weight: 700; line-height: 55px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase; }}"
       ],
       "settings": {
         "identifier": "",
@@ -527,7 +528,7 @@
         "034e8c63-725b-407f-88da-7d44e52827f0": {
           "type": "heading",
           "settings": {
-            "text": "",
+            "text": "LOS SELLOS QUE NOS RESPALDAN",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -541,7 +542,7 @@
         "39c19eab-4214-48f8-a818-d31e8d4bc0ae": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>LOS <strong>SELLOS <\/strong>QUE NOS <strong>RESPALDAN<\/strong> Y LAS <strong>CERTIFICACIONES <\/strong>QUE NOS <strong>ENORGULLECEN<\/strong><\/h2><p>Utilizamos la seguridad e inmutabilidad de las cadenas de bloques sobre tecnología sostenible de la red Polygon para darte visibilidad y transparencia de nuestros certificados gobernado por nuestro smart contract Proof of ECO.<\/p>"
+            "content": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta. <\/p><p>¡Encuentra estos sellos en nuestros productos!<\/p>"
           }
         }
       },
@@ -564,7 +565,7 @@
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Rich_text.png",
         "content_width": "medium",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#fafafa",
         "background_gradient": "",
         "text_color": "#1a1a1a"
@@ -645,7 +646,7 @@
             "column_size": "3",
             "title": "Todos Recilcamos",
             "heading_tag": "h4",
-            "content": "<p>El sello de Todos Reciclamos garantiza ante los consumidores el compromiso ambiental de las marcas y su triple impacto positivo: medioambiental, social y económico<\/p>",
+            "content": "<p>El sello de Todos Reciclamos garantiza ante los consumidores el compromiso ambiental de las marcas y su triple impacto positivo: medioambiental, social y económico.<\/p>",
             "link_url": "",
             "link_text": "Ver más",
             "link_style": "button"
@@ -671,7 +672,7 @@
             "column_size": "3",
             "title": "HACCP",
             "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "content": "<p>El sello de certificación de HACCP International confirma la capacidad de un producto no alimenticio para respaldar la integridad y seguridad de los alimentos según lo exigido por las expectativas de la industria, la legislación y los estándares respaldados por GSFI (Iniciativa Global para la Seguridad Alimentaria).<\/p>",
             "link_url": "",
             "link_text": "Ver más",
             "link_style": "button"
@@ -712,8 +713,7 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",
-        "video": "shopify:\/\/files\/videos\/Cap 5 Certificaciones - Offline.mov",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "external_video_url": "https:\/\/youtu.be\/5dSHtyxKUvw",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -745,7 +745,7 @@
         "show_comments_count": false,
         "show_category": true,
         "subheading": "econews",
-        "title": "ÚLTIMAS NOVEDADES",
+        "title": "Noticias recientes",
         "content": "",
         "link_url": "",
         "link_text": "Ver más",
@@ -767,7 +767,7 @@
         "image": "shopify:\/\/shop_images\/nosotros_f7d28bc9-70cf-4a12-8d0b-40a0966fc168.png",
         "subheading": "contáctanos",
         "title": "¿Hablemos?",
-        "content": "<p>Si tienes alguna duda, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros. Déjanos un mensaje, y nos contactaremos contigo.<\/p>",
+        "content": "<p>Si tienes alguna duda, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros, déjanos un mensaje y ¡nos contactaremos contigo!<\/p>",
         "text_position": "center",
         "contact_form_size": "large",
         "background": "#ffffff",

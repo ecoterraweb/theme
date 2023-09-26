@@ -274,6 +274,11 @@
         "a81b9b40-0ecd-4875-8eb5-5415754549ae",
         "1d273f80-b02f-4387-8ad3-801ac1f508ec"
       ],
+      "custom_css": [
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text{padding: 44px 48px;}"
+      ],
       "settings": {
         "identifier": "",
         "full_width": true,

@@ -184,7 +184,7 @@
         "d6dfdd0c-d135-4529-8938-8cde418de2e1": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>¿Y qué papel juega Ecoterra en todo esto?<br\/><\/strong><\/p><p>Pues bien, estamos aplicando la ciencia y la tecnología para ir más allá de los métodos convencionales. Estamos trabajando en el desarrollo de sistemas de producción que son tanto justos como sostenibles. Estamos buscando un equilibrio entre la eficiencia moderna y la sabiduría ancestral para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p><p>En el panorama global, este es un enfoque que aspira a más que solo alimentar cuerpos; busca nutrir comunidades y regenerar ecosistemas. Y sí, estamos emocionados por lo que estamos construyendo, pero estamos aún más emocionados por lo que todos podemos lograr juntos. Porque en la búsqueda de un mundo más sostenible, cada elección cuenta, cada voz importa, y cada bocado es una oportunidad para el cambio.<\/p>"
+            "content": "<h1>EN ECOTERRA HACEMOS MUCHO MÁS QUE ALIMENTOS<\/h1><p>Hacemos innovación y desarrollo para garantizar productos honestos, a través de la creación de modelos de producción justos, replicables y escalables. Colaboramos con la naturaleza para construir alimentos con propósito que sean parte de la solución y no del problema.<\/p>"
           }
         },
         "998dd2e7-ad5c-4754-ab9d-b97bb14cf468": {
@@ -195,7 +195,7 @@
         "a80fbbc7-e9ce-49c6-b127-de269a324faf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani-2.png",
+            "image": "shopify:\/\/shop_images\/mani_1.png",
             "width_mode": "custom",
             "max_width": 450,
             "mobile_max_width": 320
@@ -219,6 +219,23 @@
         "background": "#f5f5f5",
         "background_gradient": "",
         "text_color": "#1a1a1a"
+      }
+    },
+    "999d98b6-1d5d-49ff-af7c-aa62dcf29d69": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/papel.png",
+        "mobile_image": "shopify:\/\/shop_images\/impact-2.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f": {
@@ -250,7 +267,6 @@
         "autoplay": true,
         "video_size": "auto",
         "external_video_url": "https:\/\/youtu.be\/5dSHtyxKUvw",
-        "poster": "shopify:\/\/shop_images\/Captura_de_Pantalla_2023-08-30_a_la_s_4.20.24_p._m..png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 8
@@ -662,6 +678,7 @@
     "7cd3d7f7-2352-41a3-ae02-8b23ab69cfbc",
     "44c15b8b-fa32-40f0-b5b7-79d15b1a2a87",
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
+    "999d98b6-1d5d-49ff-af7c-aa62dcf29d69",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
     "e0d50b40-660c-4f52-bc6c-e18294190402",

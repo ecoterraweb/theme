@@ -71,7 +71,7 @@
         "identifier": "",
         "full_width": true,
         "content_width": "medium",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#026338",
         "background_gradient": "",
         "text_color": "#ffffff"
@@ -103,7 +103,7 @@
         "mobile_image": "shopify:\/\/shop_images\/Hot_spot_w_Image.png",
         "content_width": "small",
         "text_position": "center",
-        "background": "#052e1e",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -133,39 +133,10 @@
         "identifier": "",
         "full_width": true,
         "content_width": "medium",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#052e1e",
         "background_gradient": "",
         "text_color": "#ffffff"
-      }
-    },
-    "a7240951-e27f-4888-8d57-6c81a2b3d359": {
-      "type": "rich-text",
-      "blocks": {
-        "eb45be22-4517-41a1-a2eb-f8be1c313045": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "f5cf7716-04a6-440d-9b07-603a55f5ccf8": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Imaginen un mundo donde las mismas cosas en las que confiamos para nuestra supervivencia están en armonía perfecta con el poder de la tecnología y la sabiduría de la naturaleza<\/strong>. Imaginen no tener que elegir entre la ciencia de vanguardia y la sabiduría que nos brinda la Tierra. Bienvenidos al futuro, bienvenidos a Ecoterra.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "eb45be22-4517-41a1-a2eb-f8be1c313045",
-        "f5cf7716-04a6-440d-9b07-603a55f5ccf8"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#1a1a1a"
       }
     },
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54": {
@@ -681,7 +652,6 @@
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
     "b32b6855-949c-445c-bdcb-c8fbf129f34d",
     "3a8a9794-7117-43b6-af87-e8f4592a4cb6",
-    "a7240951-e27f-4888-8d57-6c81a2b3d359",
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",
     "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2",
     "a0af0435-390a-4f29-9870-4724c6b9beab",

@@ -363,8 +363,8 @@
           "settings": {
             "horizontal_position": 17,
             "vertical_position": 60,
-            "horizontal_position_mobile": 19,
-            "vertical_position_mobile": 70,
+            "horizontal_position_mobile": 28,
+            "vertical_position_mobile": 26,
             "icon": "shopify:\/\/shop_images\/egg.png",
             "icon_width": 32,
             "title": "EcoFood Lab",
@@ -376,8 +376,8 @@
           "settings": {
             "horizontal_position": 32,
             "vertical_position": 60,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
+            "horizontal_position_mobile": 64,
+            "vertical_position_mobile": 26,
             "icon": "shopify:\/\/shop_images\/account_tree.png",
             "icon_width": 32,
             "title": "EcoTech Lab",

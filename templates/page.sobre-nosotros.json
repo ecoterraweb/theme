@@ -165,7 +165,7 @@
         "87ccbca3-4805-4f5e-a84c-0817d10540eb": {
           "type": "richtext",
           "settings": {
-            "content": "<h1><strong>LA VERDADERA REVOLUCIÓN ESTÁ EN EL CÓMO<\/strong><\/h1><p>Nos cansamos de los monocultivos que agotan los suelos, pesticidas que envenenan las aguas, animales explotados y la desvinculación social que sufren los pequeños productores. En Ecoterra demostramos que <strong>NO <\/strong>tiene que ser así y que el verdadero cambio está en <strong>COMO <\/strong>hacemos nuestra comida.<\/p>"
+            "content": "<h2>LA VERDADERA REVOLUCIÓN ESTÁ EN EL <strong>CÓMO<\/strong><\/h2><p>Nos cansamos de los monocultivos que agotan los suelos, pesticidas que envenenan las aguas, animales explotados y la desvinculación social que sufren los pequeños productores. En Ecoterra demostramos que <strong>NO <\/strong>tiene que ser así y que el verdadero cambio está en <strong>COMO <\/strong>hacemos nuestra comida.<\/p>"
           }
         }
       },
@@ -175,6 +175,8 @@
         "87ccbca3-4805-4f5e-a84c-0817d10540eb"
       ],
       "custom_css": [
+        ".prose h2 {font-size: 50px;}",
+        ".prose h2 strong {color: #FF00E8;}",
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px 0;}"

@@ -39,7 +39,7 @@
       ],
       "custom_css": [
         ".h0 strong {color: #47ffd6;}",
-        "@media screen and (min-width: 700px) {.h0 {max-width: 500px; font-size: 90px; line-height: 90px; text-transform: uppercase;}}"
+        "@media screen and (min-width: 700px) {.h0 {max-width: 500px; font-size: 90px; line-height: 90px; text-transform: uppercase; }}"
       ],
       "settings": {
         "identifier": "",
@@ -377,7 +377,7 @@
             "style": "outline",
             "size": "xl",
             "text": "Descárgalo aquí",
-            "url": "",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0280\/0854\/6397\/files\/Catalogo-Ecoterra_web.pdf?v=1695752250",
             "background": "",
             "text_color": "#ffffff"
           }

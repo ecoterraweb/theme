@@ -33,7 +33,7 @@
         "div {text-align: right;}",
         ".h0 {font-size: 85px; font-weight: 700; text-transform: uppercase; line-height: 90px; word-wrap: break-word;}",
         "@media screen and (max-width: 1000px) {.prose p {font-size: 77px; font-style: normal; font-weight: 700; line-height: 77px; \/* 100% *\/ letter-spacing: -1.54px; }}",
-        "@media screen and (max-width: 700px) {.prose p {font-size:45px; font-style: normal; font-weight: 700; line-height: 45px; \/* 100% *\/ letter-spacing: -1.54px; }}"
+        "@media screen and (max-width: 700px) {.prose p {font-size: 45px; font-style: normal; font-weight: 700; line-height: 45px; \/* 100% *\/ letter-spacing: -1.54px; }}"
       ],
       "settings": {
         "identifier": "",
@@ -363,7 +363,7 @@
         ".prose h1 {font-size: 55px; text-align: left;}",
         ".prose h1 strong {color: #96d123;}",
         ".prose h2 {font-size: 55px; text-align: left;}",
-        ".prose h2 strong {color: #96d123;}",
+        ".prose h2 strong {color: ;}",
         "p {text-align: left;}",
         "div {text-align: left; align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",
@@ -374,9 +374,9 @@
         "full_width": true,
         "content_width": "large",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "#7dac00",
         "background_gradient": "",
-        "text_color": "#1a1a1a"
+        "text_color": "#ffffff"
       }
     },
     "b9bd2f55-09fc-493c-9156-e94f1f316727": {
@@ -408,7 +408,7 @@
         "a874ecb1-1984-478f-b0aa-b7d83d4959d6": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Utilizamos la seguridad e inmutabilidad de las cadenas de bloques sobre tecnología sostenible de la red Polygon para darte visibilidad y transparencia de nuestros certificados gobernado por nuestro smart contract Proof of ECO.<\/p>"
+            "content": "<h2>LOS <strong>SELLOS <\/strong>QUE NOS <strong>RESPALDAN<\/strong> Y LAS <strong>CERTIFICACIONES <\/strong>QUE NOS <strong>ENORGULLECEN<\/strong><\/h2><p>Utilizamos la seguridad e inmutabilidad de las cadenas de bloques sobre tecnología sostenible de la red Polygon para darte visibilidad y transparencia de nuestros certificados gobernado por nuestro smart contract Proof of ECO.<\/p>"
           }
         }
       },
@@ -422,7 +422,7 @@
         ".h2 {font-size: 45px;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
         "div {align-items: center; text-align: left;}",
-        "strong {color: #7dac00;}",
+        "strong {color: #FF8D00;}",
         ".split-rich-text {padding: 44px 48px;}",
         ".rich-text {padding: 40px 15px 100px;}"
       ],

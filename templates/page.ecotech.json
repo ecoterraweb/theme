@@ -264,7 +264,7 @@
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
         ".prose h6 {font-size: 25px; font-weight: 600; word-wrap: break-word;}",
         ".prose h6 strong {color: #96d123; font-size: 25px; font-weight: 600; word-wrap: break-word;}",
-        ".prose h2 {color: #dbde3b; font-size: 56px;font-weight: 600;}"
+        ".prose h2 {color: #dbde3b; font-size: 56px; font-weight: 600;}"
       ],
       "settings": {
         "identifier": "Impacto-section",
@@ -303,7 +303,8 @@
         "af2cfa2a-4aa6-4045-a603-8cc45416c684"
       ],
       "custom_css": [
-        "p {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+        "p {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        ".prose h6 {font-size: 25px; font-weight: 600;}"
       ],
       "settings": {
         "identifier": "Impacto-section",

@@ -57,8 +57,8 @@
     "70d4769d-43ae-4c89-a099-9dc64d1399a8": {
       "type": "scrolling-text",
       "custom_css": [
-        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 66px; font-weight: 400;}",
-        ".bg-custom.text-custom {padding: 40px 0;}"
+        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 50px; font-weight: 400;}",
+        ".bg-custom.text-custom {padding: 20px 0;}"
       ],
       "settings": {
         "full_width": true,

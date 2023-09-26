@@ -612,14 +612,14 @@
             "link_style": "button"
           }
         },
-        "42935295-9570-4ec7-be6d-beb6124e1a8b": {
+        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VA_006f0119-90aa-408f-a167-65ec899dced2.png",
+            "image": "shopify:\/\/shop_images\/LM.png",
             "column_size": "3",
-            "title": "Apto para vegetarianos",
+            "title": "Land2Market",
             "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "content": "<p>Productos provenientes de tierras manejadas con prácticas regenerativas. El programa L2M asegura que las tierras de donde provienen los productos no solo están sosteniendo, sino activamente mejorando, la salud del ecosistema.<br\/><\/p>",
             "link_url": "",
             "link_text": "Ver más",
             "link_style": "button"
@@ -630,9 +630,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/F4F.png",
             "column_size": "3",
-            "title": "Food for future",
+            "title": "Food For Future",
             "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "content": "<p>Producidos bajo modelos de economía circular, en donde parte de la proteína del alimento de las gallinas es reemplazado por ¡harina de insectos hecha a partir de residuos orgánicos de supermercados! logrando neutralizar la contaminación, pues evitamos la emisión de metano. Este producto fue realizado en colaboración con la startup F4F: Food For The Future.<br\/><\/p>",
             "link_url": "",
             "link_text": "Ver más",
             "link_style": "button"
@@ -643,22 +643,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TR.png",
             "column_size": "3",
-            "title": "Lorem ipsum",
+            "title": "Todos Recilcamos",
             "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
-            "link_url": "",
-            "link_text": "Ver más",
-            "link_style": "button"
-          }
-        },
-        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LSQA.png",
-            "column_size": "3",
-            "title": "Lorem ipsum",
-            "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "content": "<p>El sello de Todos Reciclamos garantiza ante los consumidores el compromiso ambiental de las marcas y su triple impacto positivo: medioambiental, social y económico<\/p>",
             "link_url": "",
             "link_text": "Ver más",
             "link_style": "button"
@@ -669,20 +656,20 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/SAG.png",
             "column_size": "3",
-            "title": "Lorem ipsum",
+            "title": "Orgánico SAG",
             "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
             "link_url": "",
             "link_text": "Ver más",
             "link_style": "button"
           }
         },
-        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd": {
+        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LM.png",
+            "image": "shopify:\/\/shop_images\/LSQA.png",
             "column_size": "3",
-            "title": "Lorem ipsum",
+            "title": "HACCP",
             "heading_tag": "h4",
             "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
             "link_url": "",
@@ -695,12 +682,11 @@
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-1",
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-2",
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-3",
-        "42935295-9570-4ec7-be6d-beb6124e1a8b",
+        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd",
         "81466fbc-47af-47fb-8c6f-fe99711c2679",
         "810690e6-b909-4030-b1b9-2256e814b43a",
-        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9",
         "038f4d60-9086-4579-943c-1d4f67f66241",
-        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd"
+        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9"
       ],
       "custom_css": [
         "p.h4 {font-size: 25px; font-style: normal; font-weight: 500; line-height: normal; letter-spacing: -0.5px;}",

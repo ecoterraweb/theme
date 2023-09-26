@@ -53,6 +53,21 @@
         "background_gradient": ""
       }
     },
+    "70d4769d-43ae-4c89-a099-9dc64d1399a8": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "¡Cambiemos el mundo a través de lo que comemos!",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
     "592c85fc-a583-4781-a203-f2d81caae21f": {
       "type": "rich-text",
       "blocks": {
@@ -449,6 +464,7 @@
   "order": [
     "main",
     "9b61646c-a010-4320-a608-c4c9982d72a1",
+    "70d4769d-43ae-4c89-a099-9dc64d1399a8",
     "592c85fc-a583-4781-a203-f2d81caae21f",
     "5eda4943-37f5-4688-a245-925e754d2358",
     "a7b3ce38-e344-41bf-8495-bc96050b2f1d",

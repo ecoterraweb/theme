@@ -56,7 +56,7 @@
         "template--15538978062429__592c85fc-a583-4781-a203-f2d81caae21f-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h4>En un mundo donde cada bocado puede cambiarlo todo, los Ecoalimentos de Ecoterra brillan como faros de sabor y sostenibilidad en un mar de opciones.<\/h4><p>En cada categoría de <strong>Ecoalimentos<\/strong>, fusionamos innovación científica con la esencia de la tierra, forjando un menú que nutre a cuerpos y al planeta. Desde cultivos en <strong>EcoAgriLab <\/strong>hasta creaciones culinarias en <strong>EcoFoodLab<\/strong>, y soluciones tecnológicas en <strong>EcoTechLab,<\/strong> cada bocado marca un giro.<\/p>"
+            "content": "<h2><strong>DESAFIAMOS LAS NORMAS<\/strong>, REDEFINIENDO LA COMIDA CONSCINETE<\/h2><p>En cada categoría de <strong>Ecoalimentos<\/strong>, fusionamos innovación científica con la esencia de la tierra, forjando un menú que nutre a cuerpos y al planeta. Desde cultivos en <strong>EcoAgriLab <\/strong>hasta creaciones culinarias en <strong>EcoFoodLab<\/strong>, y soluciones tecnológicas en <strong>EcoTechLab,<\/strong> cada bocado marca un giro.<\/p>"
           }
         },
         "25de009c-1c69-40e7-9334-0eff205599a8": {
@@ -67,7 +67,7 @@
         "4fbca877-601e-45fc-94dd-59cad4a05aac": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/desafiamos.png",
+            "image": "shopify:\/\/shop_images\/mani-2.png",
             "width_mode": "custom",
             "max_width": 660,
             "mobile_max_width": 300
@@ -80,9 +80,12 @@
         "4fbca877-601e-45fc-94dd-59cad4a05aac"
       ],
       "custom_css": [
-        "div {text-align: left; align-items: center;}",
-        ".split-rich-text {padding: 0 48px;}",
-        "@media screen and (max-width: 700px) {.split-rich-text {padding: 0 15px; }}"
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #ff00e8;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "identifier": "",
@@ -103,8 +106,8 @@
             "image": "shopify:\/\/shop_images\/eco_huevos.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoHuevos",
-            "content": "<p>Todos nuestros ecohuevos provienen de gallinas que pastorean libres, en donde las aves pueden desarrollar sus conductas naturales. Además, comen una dieta 100% vegetariana y libre de antibióticos. <br\/>Porque creemos en un mundo más justo, colaboramos con pequeños productores certificados bajo estándares de comercio justo.<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>HUEVOS<\/strong><\/h2><p>Todos nuestros ecohuevos provienen de gallinas que pastorean libres, en donde las aves pueden desarrollar sus conductas naturales. Además, comen una dieta 100% vegetariana y libre de antibióticos. <br\/>Porque creemos en un mundo más justo, colaboramos con pequeños productores certificados bajo estándares de comercio justo.<\/p>",
             "button_url": "shopify:\/\/collections\/huevos",
             "button_text": "Comprar aquí"
           }
@@ -114,7 +117,13 @@
         "template--15538125635677__5eda4943-37f5-4688-a245-925e754d2358-item-1"
       ],
       "custom_css": [
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #10ccf4;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "full_width": false,
@@ -137,8 +146,8 @@
             "image": "shopify:\/\/shop_images\/eco_protein.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoProtein",
-            "content": "<p>¡Te presentamos la nueva forma de comer huevo!<br\/>Una manera mucho más fácil de obtener la proteína más biodisponible del mundo. <br\/>El complemento perfecto para tu día a día: fácil y práctico!<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>PROTEIN<\/strong><\/h2><p>¡Te presentamos la nueva forma de comer huevo!<br\/>Una manera mucho más fácil de obtener la proteína más biodisponible del mundo. <br\/>El complemento perfecto para tu día a día: fácil y práctico!<\/p>",
             "button_url": "shopify:\/\/collections\/fair-foods",
             "button_text": "Comprar aquí"
           }
@@ -148,6 +157,13 @@
         "3a9f287e-a4e7-4b5f-ab8e-67be54b8e654"
       ],
       "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #ff6700;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
@@ -182,6 +198,14 @@
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e"
       ],
       "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #394ff0;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}",
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
@@ -216,6 +240,14 @@
         "1cc55f40-3ae8-4834-b200-df431c412e23"
       ],
       "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: ##ff3e72;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}",
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
@@ -250,6 +282,14 @@
         "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf"
       ],
       "custom_css": [
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #7dac00;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}",
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {

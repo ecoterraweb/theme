@@ -359,9 +359,9 @@
       ],
       "custom_css": [
         ".prose h1 {font-size: 40px; text-align: left;}",
-        ".prose h1 strong {color: #F50149;}",
+        ".prose h1 strong {color: #96d123;}",
         ".prose h2 {font-size: 55px; text-align: left;}",
-        ".prose h2 strong {color: #dbde3b;}",
+        ".prose h2 strong {color: #96d123;}",
         "p {text-align: left;}",
         "div {text-align: left; align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",
@@ -372,9 +372,9 @@
         "full_width": true,
         "content_width": "large",
         "text_position": "center",
-        "background": "#ff8d00",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": "#1a1a1a"
       }
     },
     "b9bd2f55-09fc-493c-9156-e94f1f316727": {

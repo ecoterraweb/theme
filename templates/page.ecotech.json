@@ -96,9 +96,10 @@
             "vertical_position": 57,
             "horizontal_position_mobile": 24,
             "vertical_position_mobile": 70,
+            "icon": "shopify:\/\/shop_images\/egg.png",
             "icon_width": 32,
             "title": "FoodLab",
-            "content": ""
+            "content": "<p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? EcoFoodLab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
           }
         },
         "template--15546130202717__4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d-item-3": {

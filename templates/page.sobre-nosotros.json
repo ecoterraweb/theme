@@ -242,6 +242,45 @@
         "overlay_opacity": 0
       }
     },
+    "d07111a9-60b5-48f9-be37-2f15e92837d2": {
+      "type": "rich-text",
+      "blocks": {
+        "dcde1d51-21d6-4a43-a517-1fc5b69a2891": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>EN ECOTERRA HACEMOS MUCHO MÁS QUE ALIMENTOS<\/h1><p>Hacemos innovación y desarrollo para garantizar productos honestos, a través de la creación de modelos de producción justos, replicables y escalables. Colaboramos con la naturaleza para construir alimentos con propósito que sean parte de la solución y no del problema.<\/p>"
+          }
+        },
+        "a81b9b40-0ecd-4875-8eb5-5415754549ae": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "1d273f80-b02f-4387-8ad3-801ac1f508ec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mani-eco.png",
+            "width_mode": "custom",
+            "max_width": 450,
+            "mobile_max_width": 320
+          }
+        }
+      },
+      "block_order": [
+        "dcde1d51-21d6-4a43-a517-1fc5b69a2891",
+        "a81b9b40-0ecd-4875-8eb5-5415754549ae",
+        "1d273f80-b02f-4387-8ad3-801ac1f508ec"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f": {
       "type": "video",
       "blocks": {
@@ -683,6 +722,7 @@
     "44c15b8b-fa32-40f0-b5b7-79d15b1a2a87",
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
     "999d98b6-1d5d-49ff-af7c-aa62dcf29d69",
+    "d07111a9-60b5-48f9-be37-2f15e92837d2",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
     "e0d50b40-660c-4f52-bc6c-e18294190402",

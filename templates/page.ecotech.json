@@ -391,15 +391,6 @@
             "subheading_text_color": ""
           }
         },
-        "2684c6de-6f1c-4a49-b6ba-194d2d4c02ca": {
-          "type": "heading",
-          "settings": {
-            "text": "PROOF OF ECO",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "6a4b4684-eb8f-4db3-92c5-f405bedf126c": {
           "type": "divider",
           "settings": {
@@ -414,7 +405,6 @@
       },
       "block_order": [
         "e359ea7a-6a72-42a8-946b-b105b42245f6",
-        "2684c6de-6f1c-4a49-b6ba-194d2d4c02ca",
         "6a4b4684-eb8f-4db3-92c5-f405bedf126c",
         "a874ecb1-1984-478f-b0aa-b7d83d4959d6"
       ],
@@ -422,7 +412,7 @@
         ".h2 {font-size: 45px;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
         "div {align-items: center; text-align: left;}",
-        "strong {color: #FF8D00;}",
+        "strong {color: #ff8d00;}",
         ".split-rich-text {padding: 44px 48px;}",
         ".rich-text {padding: 40px 15px 100px;}"
       ],

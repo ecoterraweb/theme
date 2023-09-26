@@ -17,10 +17,10 @@
             "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
             "content_max_width": 600,
             "mobile_text_position": "place-self-end-end text-center",
-            "desktop_text_position": "sm:place-self-end-end sm:text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
             "title": "ESTAMOS CAMBIANDO LAS COSAS",
-            "heading_tag": "h0",
+            "heading_tag": "h6",
             "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
@@ -38,7 +38,7 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1"
       ],
       "custom_css": [
-        "div {text-align: right;}",
+        "div {text-align: ;}",
         " \/* Cambios\/Desktop\/H0\/H0 *\/P.h6 {font-size: 85px; font-style: normal; font-weight: 700; line-height: 90px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase;}",
         "@media screen and (max-width: 700px) {P.h6 {font-size: 50px; font-style: normal; font-weight: 700; line-height: 55px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase; }}"
       ],

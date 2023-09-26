@@ -78,6 +78,7 @@
       "blocks": {
         "template--15546130202717__4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d-item-2": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "horizontal_position": 24,
             "vertical_position": 32,
@@ -91,6 +92,7 @@
         },
         "template--15546130202717__4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d-item-1": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "horizontal_position": 17,
             "vertical_position": 57,
@@ -104,6 +106,7 @@
         },
         "template--15546130202717__4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d-item-3": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "horizontal_position": 32,
             "vertical_position": 57,

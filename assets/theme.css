@@ -10307,3 +10307,6 @@ a.button.button--lg, button.button.button--xl{
   padding-left: 100px;
   padding-right: 100px;
 }
+.prose p strong{
+  font-weight: 600;
+}

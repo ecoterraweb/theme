@@ -39,7 +39,7 @@
     "color_swatch_style": "round",
     "product_color_display": "swatch",
     "product_info_alignment": "start",
-    "cart_type": "popover",
+    "cart_type": "drawer",
     "cart_icon": "shopping_cart",
     "social_facebook": "https:\/\/web.facebook.com\/ecoterrachile?_rdc=1&_rdr",
     "social_instagram": "https:\/\/www.instagram.com\/ecoterrafoods\/",

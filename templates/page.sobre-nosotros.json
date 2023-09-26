@@ -106,7 +106,7 @@
         "41efcc92-f932-4288-98fc-289a59065d2e": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>SALVA EL PLANETA<\/strong><br\/>¡UN PLATO A LA VEZ!<\/h2><p>Cada compra, es una elección y queremos que esa ¡sea con propósito. Estamos seguros de que nuestras acciones y decisiones impactan, te inivtamos a comprar con sentido y cambiar el mundo a través de lo que comes.<\/p>"
+            "content": "<h2><strong>SALVA EL PLANETA <\/strong>¡UN PLATO A LA VEZ!<\/h2><p>Cada compra, es una elección y queremos que esa ¡sea con propósito. Estamos seguros de que nuestras acciones y decisiones impactan, te inivtamos a comprar con sentido y cambiar el mundo a través de lo que comes.<\/p>"
           }
         },
         "c2592919-2256-4b41-acb9-f58bb253fe3a": {
@@ -135,8 +135,7 @@
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        ".rich-text h2 {font-size: 35px; color: #66f3ff;}"
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "identifier": "",
@@ -183,8 +182,7 @@
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        ".rich-text h2 {font-size: 35px;}"
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "identifier": "",
@@ -295,8 +293,7 @@
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        ".rich-text h2 {font-size: 35px;}"
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "identifier": "",
@@ -390,12 +387,20 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1",
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3"
       ],
+      "custom_css": [
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #96D123;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/fondo_hotspot.png",
         "hotspot_image": "shopify:\/\/shop_images\/esquema.png",
         "title": "Modelo",
-        "content": "<p>Ecoterra es donde la innovación se encuentra con la acción y la comunidad se convierte en catalizadora de cambio.<strong> Nuestra plataforma une a EcoFarmers, EcoPartners y EcoLovers, creando un ciclo virtuoso de impacto sostenible.<\/strong><\/p><p>Los EcoFarmers revitalizan la tierra, los EcoPartners llevan <strong>esa sostenibilidad a nuevas escalas<\/strong> y los EcoLovers <strong>hacen que todo valga la pena, eligiendo un futuro más verde <\/strong>con cada compra. Mediante tecnología punta, trazamos este impacto, demostrando que <strong>la sostenibilidad no solo es posible, sino que está sucediendo ahora<\/strong>. En Ecoterra, cada click, cada elección y cada interacción es un paso optimista hacia un futuro más sostenible<\/p>",
+        "content": "<h2><strong>DONDE LA INNOVACIÓN SE ENCUENTRA CON LA ACCIÓN <\/strong>Y LA COMUNIDAD SE CONVIERTE EN CATALIZADORA DE CAMBIO<\/h2><p>Nuestra plataforma une a <strong>EcoFarmers, EcoPartners y EcoLovers<\/strong>, creando un ciclo virtuoso de impacto sostenible.<\/p><h1><\/h1>",
         "button_text": "",
         "button_url": "",
         "desktop_text_position": "left-right",

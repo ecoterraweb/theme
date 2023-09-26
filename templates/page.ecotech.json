@@ -73,6 +73,74 @@
         "text_color": "#ffffff"
       }
     },
+    "4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d": {
+      "type": "hot-spots-text",
+      "blocks": {
+        "template--15546130202717__4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d-item-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "template--15546130202717__4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d-item-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "template--15546130202717__4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d-item-3": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130202717__4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d-item-1",
+        "template--15546130202717__4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d-item-2",
+        "template--15546130202717__4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "hotspot_image": "shopify:\/\/shop_images\/fondo_hotspot_a6f16021-a1f4-4767-91e8-5455719b3ba0.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "left-right",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
     "889a2e3f-147c-4db4-af7c-a0f697e25a9e": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -640,6 +708,7 @@
   "order": [
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "b32b6855-949c-445c-bdcb-c8fbf129f34d",
+    "4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d",
     "889a2e3f-147c-4db4-af7c-a0f697e25a9e",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",

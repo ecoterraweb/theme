@@ -32,7 +32,7 @@
       "custom_css": [
         "div {text-align: right;}",
         ".h0 {font-size: 85px; font-weight: 700; text-transform: uppercase; line-height: 90px; word-wrap: break-word;}",
-        "@media screen and (max-width: 700px) {.prose p {line-height: 40px; font-size: 32px; }}"
+        "@media screen and (max-width: 1000px) {.prose p {line-height: 40px; font-size: 32px; }}"
       ],
       "settings": {
         "identifier": "",
@@ -359,7 +359,7 @@
         "af2cfa2a-4aa6-4045-a603-8cc45416c684"
       ],
       "custom_css": [
-        ".prose h1 {font-size: 40px; text-align: left;}",
+        ".prose h1 {font-size: 55px; text-align: left;}",
         ".prose h1 strong {color: #96d123;}",
         ".prose h2 {font-size: 55px; text-align: left;}",
         ".prose h2 strong {color: #96d123;}",
@@ -418,14 +418,19 @@
         "a874ecb1-1984-478f-b0aa-b7d83d4959d6"
       ],
       "custom_css": [
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+        ".h2 {font-size: 45px;}",
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
+        "div {align-items: center; text-align: left;}",
+        "strong {color: #7dac00;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Rich_text.png",
         "content_width": "medium",
-        "text_position": "center",
+        "text_position": "start",
         "background": "#fafafa",
         "background_gradient": "",
         "text_color": "#1a1a1a"
@@ -437,6 +442,7 @@
         "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/CH_fdf38afc-b166-42a2-9311-5b16fcbb7a78.png",
             "column_size": "3",
             "title": "Certified Humane: Bienestar Animal",
             "heading_tag": "h4",
@@ -449,6 +455,7 @@
         "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-2": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EB_37bb085b-f3e4-4082-afb4-eb4d8bc92444.png",
             "column_size": "3",
             "title": "Empresa B",
             "heading_tag": "h4",
@@ -461,6 +468,7 @@
         "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-3": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EC_0b248f6c-4f0d-4920-8160-45dfb697d3a6.png",
             "column_size": "3",
             "title": "Organic ECOCERT",
             "heading_tag": "h4",
@@ -473,10 +481,63 @@
         "cf891f50-77c6-445e-8961-75bda27c688a": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/LM.png",
             "column_size": "3",
-            "title": "Apto para veganos",
+            "title": "Land2Market",
             "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "content": "<p>Productos provenientes de tierras manejadas con prácticas regenerativas. El programa L2M asegura que las tierras de donde provienen los productos no solo están sosteniendo, sino activamente mejorando, la salud del ecosistema.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "03b6b164-8615-441f-922e-c6dbfe44f684": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F4F.png",
+            "column_size": "3",
+            "title": "Food For Future",
+            "heading_tag": "h4",
+            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.Producidos bajo modelos de economía circular, en donde parte de la proteína del alimento de las gallinas es reemplazado por ¡harina de insectos hecha a partir de residuos orgánicos de supermercados! logrando neutralizar la contaminación, pues evitamos la emisión de metano. Este producto fue realizado en colaboración con la startup F4F: Food For The Future.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "146c77a7-b20f-436a-9e7c-7302afea286c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TR.png",
+            "column_size": "3",
+            "title": "Todos Reciclamos",
+            "heading_tag": "h4",
+            "content": "<p>El sello de Todos Reciclamos garantiza ante los consumidores el compromiso ambiental de las marcas y su triple impacto positivo: medioambiental, social y económico.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "32798020-abac-4db0-bc2d-3148e694afbc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAG.png",
+            "column_size": "3",
+            "title": "Orgánico SAG",
+            "heading_tag": "h4",
+            "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "ed1a399a-e8c4-4002-a27f-e4074d91445e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAG.png",
+            "column_size": "3",
+            "title": "HACCP",
+            "heading_tag": "h4",
+            "content": "<p>El sello de certificación de HACCP International confirma la capacidad de un producto no alimenticio para respaldar la integridad y seguridad de los alimentos según lo exigido por las expectativas de la industria, la legislación y los estándares respaldados por GSFI (Iniciativa Global para la Seguridad Alimentaria).<br\/>Los productos certificados se difunden a través de los registros de HACCP International, boletines de seguridad alimentaria, eventos y promociones.<\/p>",
             "link_url": "",
             "link_text": "Ver más",
             "link_style": "button"
@@ -487,7 +548,11 @@
         "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-1",
         "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-2",
         "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-3",
-        "cf891f50-77c6-445e-8961-75bda27c688a"
+        "cf891f50-77c6-445e-8961-75bda27c688a",
+        "03b6b164-8615-441f-922e-c6dbfe44f684",
+        "146c77a7-b20f-436a-9e7c-7302afea286c",
+        "32798020-abac-4db0-bc2d-3148e694afbc",
+        "ed1a399a-e8c4-4002-a27f-e4074d91445e"
       ],
       "custom_css": [
         "p.h4 {font-size: 25px; font-style: normal; font-weight: 500; line-height: normal; letter-spacing: -0.5px;}",

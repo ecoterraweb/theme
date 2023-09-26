@@ -11,7 +11,7 @@
       "type": "contact",
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/89-1000x600.jpg",
+        "image": "shopify:\/\/shop_images\/banner-np.png",
         "subheading": "¿Tienes dudas, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros?",
         "title": "Déjanos un mensaje ¡nos contactaremos contigo!",
         "content": "",
@@ -98,7 +98,7 @@
         "full_width": false,
         "block_size": "small",
         "subheading": "",
-        "title": "",
+        "title": "¡Encuéntranos en Redes Sociales!",
         "content": "",
         "link_url": "",
         "link_text": "",

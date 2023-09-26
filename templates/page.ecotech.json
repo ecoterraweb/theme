@@ -258,33 +258,41 @@
         "button_text_color": ""
       }
     },
-    "0a37caa7-f1bb-4d98-9d28-699f33728cbb": {
+    "0b796c11-d8a0-4343-b446-a2b154b6b2e0": {
       "type": "rich-text",
       "blocks": {
-        "template--15546130202717__0a37caa7-f1bb-4d98-9d28-699f33728cbb-richtext-1": {
+        "6963b46c-9aad-4eea-8c95-b45bc2e1de2d": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Individualmente, cada laboratorio rompe paradigmas. ¿Y juntos? Forman los pilares de Ecoterra, un modelo que trasciende disciplinas e industrias. Hemos aprovechado el poder de la <strong>blockchain <\/strong>para hacer que estas innovaciones no solo sean accesibles, sino fundamentales para nuestro ecosistema global compartido. Con <strong>Web3<\/strong>, estamos creando una plataforma descentralizada y democratizada donde cualquiera, en cualquier lugar, puede contribuir a la revolución regenerativa.<\/p><p>Los EcoLabs no son solo laboratorios; son faros en un mundo nublado, guiándonos hacia un futuro sostenible.<\/p>"
+            "content": "<h1>CADA UNO ROMPE PARADIGMAS ¿Y <strong>JUNTOS<\/strong>? FORMAN <strong>LOS PILARES DE ECOTERRA<\/strong><\/h1><p>Individualmente, cada laboratorio rompe paradigmas. ¿Y juntos? Forman los pilares de Ecoterra, un modelo que trasciende disciplinas e industrias. Hemos aprovechado el poder de la <strong>BLOCKCHAIN <\/strong>para hacer que estas innovaciones no solo sean accesibles, sino fundamentales para nuestro ecosistema global compartido. Con <strong>Web3<\/strong>, estamos creando una plataforma descentralizada y democratizada donde cualquiera, en cualquier lugar, puede contribuir a la revolución regenerativa.<\/p><p>Los EcoLabs no son solo laboratorios; son faros en un mundo nublado, guiándonos hacia un futuro sostenible.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--15546130202717__0a37caa7-f1bb-4d98-9d28-699f33728cbb-richtext-1"
+        "6963b46c-9aad-4eea-8c95-b45bc2e1de2d"
+      ],
+      "custom_css": [
+        ".prose h1 {font-size: 40px; text-align: left;}",
+        ".prose h1 strong {color: #dbde3b;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
-        "content_width": "small",
+        "content_width": "medium",
         "text_position": "center",
-        "background": "",
+        "background": "#052e1e",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#ffffff"
       }
     },
     "4c327609-cbef-4f89-8ce3-1155eab0e2ab": {
       "type": "image-with-text-overlay",
       "custom_css": [
-        "div {padding-top: 100px;}"
+        "div {padding-top: 130px;}"
       ],
       "settings": {
         "identifier": "",
@@ -737,7 +745,7 @@
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",
     "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2",
     "a0af0435-390a-4f29-9870-4724c6b9beab",
-    "0a37caa7-f1bb-4d98-9d28-699f33728cbb",
+    "0b796c11-d8a0-4343-b446-a2b154b6b2e0",
     "4c327609-cbef-4f89-8ce3-1155eab0e2ab",
     "c4e0f3c9-e70f-4d8f-b147-37ed29969b4e",
     "574ad31f-5867-415a-8ded-ab9b3450fe68",

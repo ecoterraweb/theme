@@ -5853,6 +5853,8 @@ split-lines {
   border-radius: inherit;
   transition: inherit;
   display: grid;
+      padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .header:hover {
@@ -7077,7 +7079,7 @@ split-lines {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 700px) {
   .multiple-images-with-text__content-with-nav {
     row-gap: var(--spacing-12);
   }

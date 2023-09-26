@@ -253,7 +253,7 @@
         "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>Esto NO es simplemente otra empresa. <br\/>ESTO ES UN MOVIMIENTO, UNA REVOLUCIÓN<\/h6><h2>¡ESTO ES ECOTERRA!<\/h2>"
+            "content": "<h6>Esto NO es simplemente otra empresa. <br\/><strong>ESTO ES UN MOVIMIENTO, UNA REVOLUCIÓN<\/strong><\/h6><h2>¡ESTO ES ECOTERRA!<\/h2>"
           }
         }
       },
@@ -261,7 +261,10 @@
         "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1"
       ],
       "custom_css": [
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        ".prose h6 {font-size: 25px; font-weight: 600; word-wrap: break-word;}",
+        ".prose h6 strong {color: #96d123; font-size: 25px; font-weight: 600; word-wrap: break-word;}",
+        ".prose h2 {color: #dbde3b; font-size: 56px;font-weight: 600;}"
       ],
       "settings": {
         "identifier": "Impacto-section",

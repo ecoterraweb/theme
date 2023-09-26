@@ -26,13 +26,13 @@
         "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_Huevos2_compressed.png",
-            "mobile_image": "shopify:\/\/shop_images\/Home_Huevos2_Mobile_cc4da88a-8020-4960-9035-2129d387b8fb.png",
+            "image": "shopify:\/\/shop_images\/banner-productos.png",
+            "mobile_image": "shopify:\/\/shop_images\/banner-productos-4.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Conoce",
-            "title": "los <strong>nuevos<\/strong> huevos restorativos y circulares",
+            "subheading": "",
+            "title": "",
             "heading_tag": "h2",
             "heading_style": "font--primary",
             "button_text": "",

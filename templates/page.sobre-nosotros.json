@@ -153,7 +153,7 @@
         "9df8e6ae-0332-4fe6-afb7-011c52b84453": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani-2.png",
+            "image": "shopify:\/\/shop_images\/mani-final.png",
             "width_mode": "custom",
             "max_width": 450,
             "mobile_max_width": 280
@@ -178,7 +178,7 @@
       ],
       "custom_css": [
         ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #ff00e8;}",
+        ".prose h2 strong {color: #FF3E72;}",
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px 0;}",

@@ -528,6 +528,11 @@
             "gradient": ""
           }
         },
+        "501e073a-a8c5-4846-a584-69881fb4852c": {
+          "type": "divider",
+          "settings": {
+          }
+        },
         "39c19eab-4214-48f8-a818-d31e8d4bc0ae": {
           "type": "richtext",
           "settings": {
@@ -538,16 +543,20 @@
       "block_order": [
         "3a78ca24-56a4-4b02-aa3c-f59a523f7d6c",
         "034e8c63-725b-407f-88da-7d44e52827f0",
+        "501e073a-a8c5-4846-a584-69881fb4852c",
         "39c19eab-4214-48f8-a818-d31e8d4bc0ae"
       ],
       "custom_css": [
         ".h2 {font-size: 45px;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
-        "strong {color: #7dac00;}"
+        "strong {color: #7dac00;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "image": "shopify:\/\/shop_images\/Rich_text.png",
         "content_width": "medium",
         "text_position": "center",
         "background": "#fafafa",

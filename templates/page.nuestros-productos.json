@@ -38,7 +38,8 @@
         "template--15538125635677__9b61646c-a010-4320-a608-c4c9982d72a1-image-1"
       ],
       "custom_css": [
-        ".h0 strong {color: #47ffd6;}"
+        ".h0 strong {color: #47ffd6;}",
+        ".h0 {max-width: 500px; font-size: 90px; line-height: 90px; text-transform: uppercase;}"
       ],
       "settings": {
         "identifier": "",

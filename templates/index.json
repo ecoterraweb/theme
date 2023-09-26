@@ -57,7 +57,7 @@
       "custom_css": [
         "div {text-align: right;}",
         " \/* Cambios\/Desktop\/H0\/H0 *\/P.h6 {font-size: 85px; font-style: normal; font-weight: 700; line-height: 90px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase;}",
-        "@media screen and (max-width: 700px) {P.h6 {font-size: 50px; font-style: normal; font-weight: 700; line-height: 55px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase;}}"
+        "@media screen and (max-width: 700px) {P.h6 {font-size: 50px; font-style: normal; font-weight: 700; line-height: 55px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase; }}"
       ],
       "settings": {
         "identifier": "",
@@ -446,7 +446,7 @@
         "content": "<h2>¿SÁBES DE <strong>DONDE VIENEN<\/strong> TUS ALIMENTOS?<\/h2><p>Gracias a la tecnología de <strong>WEB.3<\/strong>  y la revolución del <strong>BLOCKCHAIN<\/strong>, te lo podemos contar.<\/p>",
         "text_position": "start",
         "video_size": "auto",
-        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=GTxfG4dpnMU&feature=youtu.be",
         "background": "",
         "background_gradient": "",
         "text_color": "",

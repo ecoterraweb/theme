@@ -39,7 +39,7 @@
       ],
       "custom_css": [
         "div {text-align: right;}",
-        ".h1 {font-size: 50px;}"
+        "@media screen and (max-width: 700px) {.h1{font-size: 50px;}}"
       ],
       "settings": {
         "identifier": "",

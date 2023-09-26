@@ -176,7 +176,7 @@
       ],
       "custom_css": [
         ".prose h2 {font-size: 50px;}",
-        ".prose h2 strong {color: #FF00E8;}",
+        ".prose h2 strong {color: #ff00e8;}",
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px 0;}"
@@ -197,7 +197,7 @@
         "d6dfdd0c-d135-4529-8938-8cde418de2e1": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>EN ECOTERRA HACEMOS MUCHO MÁS QUE ALIMENTOS<\/h1><p>Hacemos innovación y desarrollo para garantizar productos honestos, a través de la creación de modelos de producción justos, replicables y escalables. Colaboramos con la naturaleza para construir alimentos con propósito que sean parte de la solución y no del problema.<\/p>"
+            "content": "<h1>EN ECOTERRA HACEMOS <strong>MUCHO MÁS QUE ALIMENTOS<\/strong><\/h1><p>Hacemos innovación y desarrollo para garantizar productos honestos, a través de la creación de modelos de producción justos, replicables y escalables. Colaboramos con la naturaleza para construir alimentos con propósito que sean parte de la solución y no del problema.<\/p>"
           }
         },
         "998dd2e7-ad5c-4754-ab9d-b97bb14cf468": {
@@ -221,6 +221,8 @@
         "a80fbbc7-e9ce-49c6-b127-de269a324faf"
       ],
       "custom_css": [
+        ".prose h2 {font-size: 50px;}",
+        ".prose h2 strong {color: #FF6700;}",
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px 0;}"

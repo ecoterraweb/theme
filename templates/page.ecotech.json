@@ -52,57 +52,16 @@
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
           "type": "richtext",
           "settings": {
-            "content": "<h4>EN EL CORAZÓN DE ECOTERRA SE ENCUENTRAN NUESTRO REVOLUCIONARIOS ECOLABS: <\/h4>"
-          }
-        },
-        "3e94cec3-6b18-4bfb-8dd9-28124b20f0fe": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1>ECO<strong>AGRI<\/strong>LAB, <\/h1>"
-          }
-        },
-        "ffadacbd-d9a4-44c9-be10-bbb726dc8021": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h3>ECO<strong>TECH<\/strong>LAB<\/h3>"
-          }
-        },
-        "3136ac33-705a-4db9-a140-0d0b444ebaae": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2>ECO<strong>FOOD<\/strong>LAB <\/h2>"
-          }
-        },
-        "516574b4-1f82-44c4-8986-a5950a83674f": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "a2ce0d58-079d-433b-b866-a5cfa3d51f80": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
+            "content": "<h1>EN EL CORAZÓN DE ECOTERRA SE ENCUENTRAN NUESTRO REVOLUCIONARIOS ECOLABS: <\/h1><h1>ECO<strong>AGRI<\/strong>LAB, ECO<strong>FOOD<\/strong>LAB Y ECO<strong>TECH<\/strong>LAB <\/h1><p>Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
           }
         }
       },
       "block_order": [
-        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d",
-        "3e94cec3-6b18-4bfb-8dd9-28124b20f0fe",
-        "ffadacbd-d9a4-44c9-be10-bbb726dc8021",
-        "3136ac33-705a-4db9-a140-0d0b444ebaae",
-        "516574b4-1f82-44c4-8986-a5950a83674f",
-        "a2ce0d58-079d-433b-b866-a5cfa3d51f80"
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d"
       ],
-      "disabled": true,
       "custom_css": [
-        ".prose h4 {font-size: 35px; font-style: normal; font-weight: 700; line-height: 40px; \/* 100% *\/ letter-spacing: -0.2px;}",
-        ".prose h6 {font-size: 30px; text-align: left;}",
-        ".prose h3 {font-size: 50px; text-align: left; line-height: 20px;}",
-        ".prose h2 {font-size: 50px; text-align: left;}",
         ".prose h1 {font-size: 50px; text-align: left;}",
         ".prose h1 strong {color: #96d123;}",
-        ".prose h2 strong {color: #ff8d00;}",
-        ".prose h3 strong {color: #394ff0;}",
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",
@@ -113,9 +72,9 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "start",
-        "background": "#ffffff",
+        "background": "#026338",
         "background_gradient": "",
-        "text_color": "#1a1a1a"
+        "text_color": "#ffffff"
       }
     },
     "b32b6855-949c-445c-bdcb-c8fbf129f34d": {
@@ -149,32 +108,40 @@
         "text_color": "#ffffff"
       }
     },
-    "889a2e3f-147c-4db4-af7c-a0f697e25a9e": {
-      "type": "image-with-text-overlay",
+    "3a8a9794-7117-43b6-af87-e8f4592a4cb6": {
+      "type": "rich-text",
+      "blocks": {
+        "d03b891d-8819-4ea6-ab3b-18ec913ac9dc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>IMAGINEN UN MUNDO DONDE LAS MISMAS COSAS EN QUE CONFIAMOS PARA NUESTRA SUPERVIVENCIA ESTÁN EN ARMONÍA PERFECTA CON <strong>EL PODER DE LA TECNOLOGÍA Y LA SABIDURÍA DE LA NATURALEZA.<\/strong><\/h1><p>Imaginen no tener que elegir entre la ciencia de vanguardia y la sabiduría que nos brinda la Tierra. Bienvenidos al futuro, bienvenidos a Ecoterra.<\/p><p>Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d03b891d-8819-4ea6-ab3b-18ec913ac9dc"
+      ],
+      "custom_css": [
+        ".prose h1 {font-size: 40px; text-align: left;}",
+        ".prose h1 strong {color: #dbde3b;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
       "settings": {
         "identifier": "",
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/icon-photo-l.png",
-        "mobile_image": "shopify:\/\/shop_images\/icon-photo-s.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "#052e1e",
+        "background_gradient": "",
+        "text_color": "#ffffff"
       }
     },
     "a7240951-e27f-4888-8d57-6c81a2b3d359": {
       "type": "rich-text",
       "blocks": {
-        "fa4c280a-c502-4370-9818-4ed44e0ce90d": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>En el corazón de Ecoterra se encuentran nuestros revolucionarios EcoLabs: EcoAgri Lab, EcoFood Lab y EcoTech Lab<\/strong>; cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
-          }
-        },
         "eb45be22-4517-41a1-a2eb-f8be1c313045": {
           "type": "divider",
           "settings": {
@@ -188,7 +155,6 @@
         }
       },
       "block_order": [
-        "fa4c280a-c502-4370-9818-4ed44e0ce90d",
         "eb45be22-4517-41a1-a2eb-f8be1c313045",
         "f5cf7716-04a6-440d-9b07-603a55f5ccf8"
       ],
@@ -714,7 +680,7 @@
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
     "b32b6855-949c-445c-bdcb-c8fbf129f34d",
-    "889a2e3f-147c-4db4-af7c-a0f697e25a9e",
+    "3a8a9794-7117-43b6-af87-e8f4592a4cb6",
     "a7240951-e27f-4888-8d57-6c81a2b3d359",
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",
     "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2",

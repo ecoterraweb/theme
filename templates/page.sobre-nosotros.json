@@ -79,6 +79,7 @@
         "91000d66-fcee-4d42-ba4c-9054db49ffd3",
         "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-richtext-1"
       ],
+      "disabled": true,
       "custom_css": [
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
         "p {text-align: left;}",
@@ -98,7 +99,50 @@
     "7cd3d7f7-2352-41a3-ae02-8b23ab69cfbc": {
       "type": "rich-text",
       "blocks": {
+        "41efcc92-f932-4288-98fc-289a59065d2e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>SALVA EL PLANETA<\/h1><h1>¡UN PLATO A LA VEZ!<\/h1><p><br\/>Cada compra, es una elección y queremos que esa ¡sea con propósito. Estamos seguros de que nuestras acciones y decisiones impactan, te inivtamos a comprar con sentido y cambiar el mundo a través de lo que comes.<\/p>"
+          }
+        },
+        "c2592919-2256-4b41-acb9-f58bb253fe3a": {
+          "type": "divider",
+          "settings": {
+          }
+        },
         "eb669705-b208-4b03-9d17-674985343137": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mani-13.png",
+            "width_mode": "custom",
+            "max_width": 450,
+            "mobile_max_width": 280
+          }
+        }
+      },
+      "block_order": [
+        "41efcc92-f932-4288-98fc-289a59065d2e",
+        "c2592919-2256-4b41-acb9-f58bb253fe3a",
+        "eb669705-b208-4b03-9d17-674985343137"
+      ],
+      "custom_css": [
+        "p {text-align: left;}",
+        "div {align-items: center;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "#394ff0",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "44c15b8b-fa32-40f0-b5b7-79d15b1a2a87": {
+      "type": "rich-text",
+      "blocks": {
+        "9df8e6ae-0332-4fe6-afb7-011c52b84453": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/mani_1.png",
@@ -107,12 +151,12 @@
             "mobile_max_width": 280
           }
         },
-        "c2592919-2256-4b41-acb9-f58bb253fe3a": {
+        "5f3227a5-17c2-41e1-9a55-c140f60d9272": {
           "type": "divider",
           "settings": {
           }
         },
-        "41efcc92-f932-4288-98fc-289a59065d2e": {
+        "87ccbca3-4805-4f5e-a84c-0817d10540eb": {
           "type": "richtext",
           "settings": {
             "content": "<p>La agricultura industrial de hoy es un ataque continuo contra la tierra: monocultivos que agotan los suelos, pesticidas que envenenan las aguas, y un sistema de producción que daña más de lo que cura. A esto añádele el maltrato a los animales y la desconexión de los pequeños agricultores de sus tierras. Pero no tiene que ser así.<\/p><p>La agricultura tiene el potencial de ser algo más que la suma de sus partes: una fuerza para el bien que repara en lugar de destruir. Así es como llegamos a un punto crucial: para salvar nuestro planeta, necesitamos más que buenas intenciones; necesitamos acción. Acción que replantee cómo cultivamos, cómo producimos y cómo comemos. Acción que involucre tanto la justicia hacia los trabajadores como la preservación del medio ambiente.<\/p>"
@@ -120,13 +164,9 @@
         }
       },
       "block_order": [
-        "eb669705-b208-4b03-9d17-674985343137",
-        "c2592919-2256-4b41-acb9-f58bb253fe3a",
-        "41efcc92-f932-4288-98fc-289a59065d2e"
-      ],
-      "custom_css": [
-        "p {text-align: left;}",
-        "div {align-items: center;}"
+        "9df8e6ae-0332-4fe6-afb7-011c52b84453",
+        "5f3227a5-17c2-41e1-9a55-c140f60d9272",
+        "87ccbca3-4805-4f5e-a84c-0817d10540eb"
       ],
       "settings": {
         "identifier": "",
@@ -620,6 +660,7 @@
     "f578399d-fcbf-449d-9cff-a4983346d5b7",
     "2fd160cb-cfa1-4c86-84fa-5b8689889a46",
     "7cd3d7f7-2352-41a3-ae02-8b23ab69cfbc",
+    "44c15b8b-fa32-40f0-b5b7-79d15b1a2a87",
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",

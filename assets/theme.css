@@ -41,9 +41,9 @@ a {
   text-decoration: inherit;
 }
 
-b, strong, .text-custom strong {
+/* b, strong, .text-custom strong {
   font-weight: 600;
-}
+} */
 
 code, kbd, samp, pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;

@@ -133,7 +133,7 @@
         "identifier": "",
         "full_width": true,
         "content_width": "medium",
-        "text_position": "center",
+        "text_position": "start",
         "background": "#394ff0",
         "background_gradient": "",
         "text_color": "#ffffff"

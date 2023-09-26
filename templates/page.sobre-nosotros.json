@@ -555,7 +555,7 @@
         ".h2 {font-size: 45px;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
         "div {align-items: center; text-align: left;}",
-        "strong {color: #10CCF4;}",
+        "strong {color: #10ccf4;}",
         ".split-rich-text {padding: 44px 48px;}",
         ".rich-text {padding: 40px 15px 100px;}"
       ],
@@ -745,7 +745,7 @@
         "show_comments_count": false,
         "show_category": true,
         "subheading": "econews",
-        "title": "Noticias recientes",
+        "title": "ÚLTIMAS NOVEDADES",
         "content": "",
         "link_url": "",
         "link_text": "Ver más",

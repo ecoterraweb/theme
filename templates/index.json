@@ -56,7 +56,8 @@
       ],
       "custom_css": [
         "div {text-align: right;}",
-        " \/* Cambios\/Desktop\/H0\/H0 *\/P.h6 {font-size: 85px; font-style: normal; font-weight: 700; line-height: 90px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase;}"
+        " \/* Cambios\/Desktop\/H0\/H0 *\/P.h6 {font-size: 85px; font-style: normal; font-weight: 700; line-height: 90px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase;}",
+        "@media screen and (max-width: 700px) {P.h6 {font-size: 50px; font-style: normal; font-weight: 700; line-height: 55px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase;}}"
       ],
       "settings": {
         "identifier": "",

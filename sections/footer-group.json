@@ -25,7 +25,7 @@
           "type": "text",
           "settings": {
             "title": "contacto",
-            "content": "<p>Camino 8 poniente, Parcela 209, Paine, Santiago de Chile<\/p><p><a href=\"mailto:ventas@ecoterra.cl\" title=\"mailto:ventas@ecoterra.cl\">ventas@ecoterra.cl<\/a><br\/><a href=\"https:\/\/quick-start-d3583d38.myshopify.com\/pages\/contacto\" title=\"https:\/\/quick-start-d3583d38.myshopify.com\/pages\/contacto\">Escribenos<\/a><\/p>",
+            "content": "<p>Camino 8 poniente, Parcela 209, Paine, Santiago de Chile<\/p><p><a href=\"mailto:ventas@ecoterra.cl\" title=\"mailto:ventas@ecoterra.cl\">ventas@ecoterra.cl<\/a><br\/><a href=\"\/pages\/contacto-general\" title=\"Contacto General\">Escríbenos<\/a><\/p>",
             "enable_follow_on_shop": true
           }
         },

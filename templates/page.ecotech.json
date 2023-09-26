@@ -295,7 +295,7 @@
         "af2cfa2a-4aa6-4045-a603-8cc45416c684": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>Gracias por ser parte de este viaje,<br\/>mientras redefinimos lo que es posible y recuperamos lo que es esencial<\/h6><p><\/p><h2>¡BIENVENIDO A ECOTERRA!<br\/>Bienvenido a casa<\/h2>"
+            "content": "<h6>Gracias por ser parte de este viaje,<br\/>mientras redefinimos lo que es posible y recuperamos lo que es esencial<\/h6><p><\/p><h2>¡BIENVENIDO A ECOTERRA!<br\/><strong>Bienvenido a casa<\/strong><\/h2>"
           }
         }
       },
@@ -304,12 +304,14 @@
       ],
       "custom_css": [
         "p {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
-        ".prose h6 {font-size: 25px; font-weight: 600;}"
+        ".prose h6 {font-size: 25px; font-weight: 600;}",
+        ".prose h2 {color: #10ccf4; font-size: 56px; font-weight: 600;}",
+        ".prose h2 strong {color: #47FFD6; font-weight: 600;}"
       ],
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
-        "content_width": "small",
+        "content_width": "large",
         "text_position": "center",
         "background": "#394ff0",
         "background_gradient": "",

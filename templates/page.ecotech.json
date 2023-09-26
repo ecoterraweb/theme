@@ -46,6 +46,37 @@
         "background_gradient": ""
       }
     },
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
+      "type": "rich-text",
+      "blocks": {
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>EN EL CORAZÓN DE ECOTERRA SE ENCUENTRAN NUESTRO REVOLUCIONARIOS ECOLABS: ECO<strong>AGRI<\/strong>LAB, ECO<strong>FOO<\/strong>DLAB Y ECO<strong>TECH<\/strong>LAB<\/h3><p> Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d"
+      ],
+      "custom_css": [
+        ".prose h3 {text-align: left;}",
+        ".prose h3 strong {color: #66f3ff;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
     "b32b6855-949c-445c-bdcb-c8fbf129f34d": {
       "type": "rich-text",
       "blocks": {
@@ -166,21 +197,21 @@
         "overlay_opacity": 0
       }
     },
-    "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
+    "a7240951-e27f-4888-8d57-6c81a2b3d359": {
       "type": "rich-text",
       "blocks": {
-        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
+        "fa4c280a-c502-4370-9818-4ed44e0ce90d": {
           "type": "richtext",
           "settings": {
             "content": "<p><strong>En el corazón de Ecoterra se encuentran nuestros revolucionarios EcoLabs: EcoAgri Lab, EcoFood Lab y EcoTech Lab<\/strong>; cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
           }
         },
-        "0e4f708e-3e3f-4a6d-bb89-2056298e4a3e": {
+        "eb45be22-4517-41a1-a2eb-f8be1c313045": {
           "type": "divider",
           "settings": {
           }
         },
-        "64a51e1c-2077-4c54-ade4-a0fc50bcf8c4": {
+        "f5cf7716-04a6-440d-9b07-603a55f5ccf8": {
           "type": "richtext",
           "settings": {
             "content": "<p><strong>Imaginen un mundo donde las mismas cosas en las que confiamos para nuestra supervivencia están en armonía perfecta con el poder de la tecnología y la sabiduría de la naturaleza<\/strong>. Imaginen no tener que elegir entre la ciencia de vanguardia y la sabiduría que nos brinda la Tierra. Bienvenidos al futuro, bienvenidos a Ecoterra.<\/p>"
@@ -188,12 +219,9 @@
         }
       },
       "block_order": [
-        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d",
-        "0e4f708e-3e3f-4a6d-bb89-2056298e4a3e",
-        "64a51e1c-2077-4c54-ade4-a0fc50bcf8c4"
-      ],
-      "custom_css": [
-        "div {text-align: left; align-items: center;}"
+        "fa4c280a-c502-4370-9818-4ed44e0ce90d",
+        "eb45be22-4517-41a1-a2eb-f8be1c313045",
+        "f5cf7716-04a6-440d-9b07-603a55f5ccf8"
       ],
       "settings": {
         "identifier": "",
@@ -715,10 +743,11 @@
   },
   "order": [
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d",
     "b32b6855-949c-445c-bdcb-c8fbf129f34d",
     "4027e50c-5cae-4bb6-8fdd-c9bf8d4e455d",
     "889a2e3f-147c-4db4-af7c-a0f697e25a9e",
-    "7a0252a9-9b49-4057-8614-7c8b84f9269d",
+    "a7240951-e27f-4888-8d57-6c81a2b3d359",
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",
     "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2",
     "a0af0435-390a-4f29-9870-4724c6b9beab",

@@ -31,7 +31,7 @@
       ],
       "custom_css": [
         "div {text-align: right;}",
-        ".h0 {font-size: 85px;font-weight: 700;text-transform: uppercase;line-height: 90px;word-wrap: break-word}"
+        ".h0 {font-size: 85px; font-weight: 700; text-transform: uppercase; line-height: 90px; word-wrap: break-word;}"
       ],
       "settings": {
         "identifier": "",
@@ -62,6 +62,7 @@
       "block_order": [
         "template--15546130202717__b32b6855-949c-445c-bdcb-c8fbf129f34d-heading-1"
       ],
+      "disabled": true,
       "settings": {
         "identifier": "",
         "full_width": true,

@@ -85,7 +85,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/esquema_b4740aac-51d2-4491-b88d-324aca10c8ba.png",
             "width_mode": "custom",
-            "max_width": 500,
+            "max_width": 470,
             "mobile_max_width": 330
           }
         }
@@ -98,7 +98,7 @@
       ],
       "settings": {
         "identifier": "",
-        "full_width": false,
+        "full_width": true,
         "image": "shopify:\/\/shop_images\/Hot_spot_w_Image.png",
         "mobile_image": "shopify:\/\/shop_images\/Hot_spot_w_Image.png",
         "content_width": "small",

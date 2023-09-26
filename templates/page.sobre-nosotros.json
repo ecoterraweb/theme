@@ -687,11 +687,14 @@
         "038f4d60-9086-4579-943c-1d4f67f66241",
         "a4c61d3f-7af3-4671-9042-0da7ca63d7cd"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": true,
         "gap": "medium",
-        "text_alignment": "end",
+        "text_alignment": "start",
         "subheading": "",
         "title": "",
         "content": "",

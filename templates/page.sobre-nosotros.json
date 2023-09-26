@@ -130,8 +130,8 @@
         "eb669705-b208-4b03-9d17-674985343137"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px;}",
-        ".prose h2 strong {color: #66F3FF;}",
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #66f3ff;}",
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",
@@ -142,7 +142,7 @@
         "identifier": "",
         "full_width": true,
         "content_width": "medium",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#394ff0",
         "background_gradient": "",
         "text_color": "#ffffff"

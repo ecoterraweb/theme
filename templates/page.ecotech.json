@@ -210,7 +210,7 @@
         "orientation": "reversed",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
-        "background": "",
+        "background": "#f5f5f5",
         "background_gradient": "",
         "text_color": "",
         "button_background": "",
@@ -226,8 +226,8 @@
             "image": "shopify:\/\/shop_images\/EcofTechLab.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoTech Lab",
-            "content": "<p><strong>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab<\/strong>. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo. <strong>¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en la inmutabilidad de la tecnología blockchain? <\/strong>Contamos con los programadores más agudos trabajando en una plataforma que será la red neuronal de una Tierra nueva y sostenible. Un mundo donde cada transacción, cada acción y cada decisión es una inversión en el futuro.<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>TECH<\/strong>LAB<\/h2><p><strong>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab<\/strong>. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo. <strong>¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en la inmutabilidad de la tecnología blockchain? <\/strong>Contamos con los programadores más agudos trabajando en una plataforma que será la red neuronal de una Tierra nueva y sostenible. Un mundo donde cada transacción, cada acción y cada decisión es una inversión en el futuro.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -238,7 +238,7 @@
       ],
       "custom_css": [
         ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #ff8d00;}",
+        ".prose h2 strong {color: #394ff0;}",
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",
@@ -249,7 +249,7 @@
         "orientation": "normal",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "button_background": "",

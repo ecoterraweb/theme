@@ -31,7 +31,7 @@
       ],
       "custom_css": [
         "div {text-align: right;}",
-        ".h0 strong {color: red;}"
+        ".h0 {font-size: 85px;font-weight: 700;text-transform: uppercase;line-height: 90px;word-wrap: break-word}"
       ],
       "settings": {
         "identifier": "",

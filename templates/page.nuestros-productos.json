@@ -20,7 +20,7 @@
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
             "title": "Hambre de cambio",
-            "heading_tag": "h6",
+            "heading_tag": "h0",
             "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
@@ -39,8 +39,8 @@
       ],
       "custom_css": [
         "div {text-align: right;}",
-        ".h6{font-size: 85px; font-weight: 700; text-transform: uppercase; line-height: 90px; word-wrap: break-word;}",
-        "@media screen and (max-width: 1000px) {.prose p {font-size: 99px; font-style: normal; font-weight: 700; line-height: 77px; \/* 100% *\/ letter-spacing: -1.54px; }}",
+        ".h0 {font-size: 85px; font-weight: 700; text-transform: uppercase; line-height: 90px; word-wrap: break-word;}",
+        "@media screen and (max-width: 1000px) {.prose p {font-size: 77px; font-style: normal; font-weight: 700; line-height: 77px; \/* 100% *\/ letter-spacing: -1.54px; }}",
         "@media screen and (max-width: 700px) {.prose p {font-size: 45px; font-style: normal; font-weight: 700; line-height: 45px; \/* 100% *\/ letter-spacing: -1.54px; }}"
       ],
       "settings": {

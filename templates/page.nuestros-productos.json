@@ -19,7 +19,7 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
-            "title": "Hambre  <strong>de cambio<\/strong>",
+            "title": "Hambre de cambio",
             "heading_tag": "h0",
             "heading_style": "font--primary",
             "button_text": "",
@@ -36,6 +36,9 @@
       },
       "block_order": [
         "template--15538125635677__9b61646c-a010-4320-a608-c4c9982d72a1-image-1"
+      ],
+      "custom_css": [
+        ".h0 strong {color: #47ffd6;}"
       ],
       "settings": {
         "identifier": "",

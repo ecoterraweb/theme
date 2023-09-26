@@ -131,7 +131,7 @@
       ],
       "custom_css": [
         ".prose h2 {font-size: 50px;}",
-        ".prose h2 strong {}",
+        ".prose h2 strong {color: #66F3FF;}",
         "p {text-align: left;}",
         "div {align-items: center;}",
         ".split-rich-text {padding: 44px 48px;}",

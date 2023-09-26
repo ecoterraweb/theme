@@ -243,7 +243,8 @@
       ],
       "custom_css": [
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}"
+        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
+        ".custom-pill{margin: auto; }"
       ],
       "settings": {
         "identifier": "",

@@ -196,7 +196,7 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoLácteos",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Producidos en alianza con productores locales de la Región de Los Lagos, certificados en bienestar animal. <br\/>Las vacas pastorean libremente y no se utilizan antibióticos ni hormonas de forma rutinaria, de hecho, ¡todos nuestros lácteos son sin hormona rbST!<\/p>",
             "button_url": "shopify:\/\/collections\/lacteos",
             "button_text": "Comprar aquí"
           }
@@ -230,7 +230,7 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "EcoDespensa",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Proveniente de cultivos sustentables y orgánicos, es decir, libres de fertilizantes químicos, pesticidas y herbicidas. Preocupados por tu salud y la del planeta.<\/p>",
             "button_url": "shopify:\/\/collections\/despensa-pantry",
             "button_text": "Comprar aquí"
           }

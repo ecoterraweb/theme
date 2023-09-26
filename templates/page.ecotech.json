@@ -148,8 +148,8 @@
             "image": "shopify:\/\/shop_images\/ecoagrilab.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoAgri Lab",
-            "content": "<p><strong>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida<\/strong>. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza, degradándolo con productos químicos. <strong>En EcoAgriLab, un equipo de agrónomos de clase mundial está redescubriendo la sinfonía de la agricultura natural. <\/strong>Utilizando modelos de machine learning, desciframos el lenguaje de la Tierra para empujar una agricultura abundante y sostenible.<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>AGRI<\/strong>LAB<\/h2><p><strong>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida<\/strong>. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza, degradándolo con productos químicos. <strong>En EcoAgriLab, un equipo de agrónomos de clase mundial está redescubriendo la sinfonía de la agricultura natural. <\/strong>Utilizando modelos de machine learning, desciframos el lenguaje de la Tierra para empujar una agricultura abundante y sostenible.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -159,7 +159,12 @@
         "template--15546130202717__c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54-item-1"
       ],
       "custom_css": [
-        "div {align-items: center; text-align: left;}"
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #96d123;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "full_width": false,
@@ -182,8 +187,8 @@
             "image": "shopify:\/\/shop_images\/EcoFoodLab.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoFood Lab",
-            "content": "<p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? <strong>EcoFood Lab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula. Aquí, lo orgánico se encuentra con la tecnología para crear alimentos que son nutritivos, deliciosos y ecológicamente sólidos<\/strong>. Esto no es simplemente cocina; es alquimia. Aquí es donde el sueño de una dieta equilibrada se encuentra con la realidad de un planeta equilibrado.<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>FOOD<\/strong>LAB<\/h2><p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? <strong>EcoFood Lab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula. Aquí, lo orgánico se encuentra con la tecnología para crear alimentos que son nutritivos, deliciosos y ecológicamente sólidos<\/strong>. Esto no es simplemente cocina; es alquimia. Aquí es donde el sueño de una dieta equilibrada se encuentra con la realidad de un planeta equilibrado.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -193,7 +198,12 @@
         "d618a6c3-e3ca-48dc-875c-ca13d1a4e4e8"
       ],
       "custom_css": [
-        "div {align-items: center; text-align: left;}"
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #ff8d00;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "full_width": false,
@@ -227,7 +237,12 @@
         "26d97ecb-fb74-485a-95f3-74aef5e6ae15"
       ],
       "custom_css": [
-        "div {align-items: center; text-align: left;}"
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #ff8d00;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
         "full_width": false,

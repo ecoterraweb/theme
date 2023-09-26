@@ -7079,7 +7079,7 @@ split-lines {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
   .multiple-images-with-text__content-with-nav {
     row-gap: var(--spacing-12);
   }

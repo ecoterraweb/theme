@@ -527,7 +527,7 @@
         "034e8c63-725b-407f-88da-7d44e52827f0": {
           "type": "heading",
           "settings": {
-            "text": "PROOF OF ECO",
+            "text": "LOS SELLOS QUE NOS RESPALDAN",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -541,7 +541,7 @@
         "39c19eab-4214-48f8-a818-d31e8d4bc0ae": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Utilizamos la seguridad e inmutabilidad de las cadenas de bloques sobre tecnología sostenible de la red Polygon para darte visibilidad y transparencia de nuestros certificados gobernado por nuestro smart contract Proof of ECO.<\/p>"
+            "content": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta. <\/p><p>¡Encuentra estos sellos en nuestros productos!<\/p>"
           }
         }
       },

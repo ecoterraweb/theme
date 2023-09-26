@@ -39,7 +39,7 @@
       ],
       "custom_css": [
         ".h0 strong {color: #47ffd6;}",
-        ".h0 {max-width: 500px; font-size: 90px; line-height: 90px; text-transform: uppercase;}"
+        "@media screen and (min-width: 700px) {.h0 {max-width: 500px; font-size: 90px; line-height: 90px; text-transform: uppercase;}}"
       ],
       "settings": {
         "identifier": "",
@@ -57,8 +57,8 @@
     "70d4769d-43ae-4c89-a099-9dc64d1399a8": {
       "type": "scrolling-text",
       "custom_css": [
-        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 66px; font-weight: 400;}",
-        ".bg-custom.text-custom {padding: 40px 0;}"
+        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 50px; font-weight: 400;}",
+        ".bg-custom.text-custom {padding: 20px 0;}"
       ],
       "settings": {
         "full_width": true,
@@ -211,7 +211,7 @@
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco-lacteos_a6c72c31-c37c-40ab-8085-bf0a04b4c86d.png",
+            "image": "shopify:\/\/shop_images\/eco-lacteos_20e7a89a-7d50-4411-b32a-bf88d40024b5.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -255,7 +255,7 @@
         "1cc55f40-3ae8-4834-b200-df431c412e23": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco-despensa.png",
+            "image": "shopify:\/\/shop_images\/eco-despensa_e428ecbe-1931-4cf9-ba53-c7757961be38.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",

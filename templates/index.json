@@ -3,7 +3,7 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide-1": {
+        "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-1.png",
@@ -12,8 +12,8 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
-            "title": "ELIGE CON PROPÓSITO",
-            "heading_tag": "h1",
+            "title": "elige con propósito",
+            "heading_tag": "h6",
             "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
@@ -26,7 +26,7 @@
             "background_gradient": ""
           }
         },
-        "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
+        "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-2.png",
@@ -35,9 +35,9 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
-            "title": "Disfruta con sentido",
-            "heading_tag": "h0",
-            "heading_style": "font--secondary",
+            "title": "DISFRUTA CON SENTIDO",
+            "heading_tag": "h6",
+            "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -51,11 +51,13 @@
         }
       },
       "block_order": [
-        "slide-1",
-        "266ea942-f3bc-46b8-896b-dccd9dc58ff5"
+        "266ea942-f3bc-46b8-896b-dccd9dc58ff5",
+        "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
       ],
       "custom_css": [
-        "div {text-align: right;}"
+        "div {text-align: right;}",
+        " \/* Cambios\/Desktop\/H0\/H0 *\/P.h6 {font-size: 85px; font-style: normal; font-weight: 700; line-height: 90px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase;}",
+        "@media screen and (max-width: 700px) {P.h6 {font-size: 50px; font-style: normal; font-weight: 700; line-height: 55px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase; }}"
       ],
       "settings": {
         "identifier": "",
@@ -73,8 +75,8 @@
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d": {
       "type": "scrolling-text",
       "custom_css": [
-        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 66px; font-weight: 400;}",
-        ".bg-custom.text-custom {padding: 40px 0;}"
+        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 50px; font-weight: 400;}",
+        ".bg-custom.text-custom {padding: 20px 0;}"
       ],
       "settings": {
         "full_width": true,
@@ -206,8 +208,8 @@
           "type": "subheading",
           "settings": {
             "text": "sobre nosotros",
-            "custom_pill_subheading": true,
-            "subheading_background_color": "#000000"
+            "custom_pill_subheading": false,
+            "subheading_background_color": "rgba(0,0,0,0)"
           }
         },
         "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1": {
@@ -221,7 +223,7 @@
         "a9f2f904-aa6f-49b3-8311-d664fd603779": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>ESTAMOS CAMBIANDO<\/strong> LA FORMA DE HACER LAS COSAS<\/h2>"
+            "content": "<h2><strong>ACTIVISTAS OPTIMISTAS <br\/><\/strong>QUE TIENEN HAMBRE DE CAMBIO<\/h2>"
           }
         },
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9": {
@@ -231,7 +233,7 @@
             "size": "lg",
             "text": "¡Aquí te mostramos cómo!",
             "url": "shopify:\/\/pages\/sobre-nosotros",
-            "background": "#7dac00",
+            "background": "#000000",
             "text_color": "#ffffff"
           }
         }
@@ -245,7 +247,8 @@
       "custom_css": [
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
         "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".custom-pill {margin: auto; font-size: 20px; letter-spacing: 1px;}"
+        "h2 {letter-spacing: -0.5px;}",
+        "strong {color: #dbde3b;}"
       ],
       "settings": {
         "identifier": "",
@@ -255,8 +258,8 @@
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/Sideshow-1.png",
         "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "mobile_text_position": "place-self-center-end text-end",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#1a1a1a",
         "overlay_opacity": 20
@@ -370,7 +373,7 @@
         "text_divider": "none",
         "impact_text_size_ratio": 1.5,
         "impact_text_size_ratio_mobile": 1,
-        "background": "#7101b1",
+        "background": "#026338",
         "background_gradient": "",
         "heading_text_color": "#ffffff",
         "heading_gradient": "",
@@ -389,8 +392,7 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",
-        "video": "shopify:\/\/files\/videos\/Cap 3 El modelo - Offline.mov",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "external_video_url": "https:\/\/youtu.be\/5dSHtyxKUvw",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 14
@@ -432,20 +434,19 @@
     "78eb0dc2-bbc9-46b4-ae9f-2d01e79ca5fb": {
       "type": "before-after-video",
       "custom_css": [
-        ".h2 {font-size: 35px;}",
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
         "h2 strong {color: #ff6700;}"
       ],
       "settings": {
         "full_width": true,
-        "subheading": "ECOTECH",
+        "subheading": "ecotech",
         "custom_pill_subheading": true,
         "subheading_background_color": "#1a1a1a",
         "title": "",
         "content": "<h2>¿SÁBES DE <strong>DONDE VIENEN<\/strong> TUS ALIMENTOS?<\/h2><p>Gracias a la tecnología de <strong>WEB.3<\/strong>  y la revolución del <strong>BLOCKCHAIN<\/strong>, te lo podemos contar.<\/p>",
         "text_position": "start",
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
         "background": "",
         "background_gradient": "",
         "text_color": "",

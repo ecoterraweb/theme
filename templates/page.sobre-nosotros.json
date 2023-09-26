@@ -19,9 +19,9 @@
             "mobile_text_position": "place-self-end-end text-center",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
-            "title": "estamos cambiando las cosas",
-            "heading_tag": "h1",
-            "heading_style": "font--secondary",
+            "title": "ESTAMOS CAMBIANDO LAS COSAS",
+            "heading_tag": "h0",
+            "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -39,7 +39,7 @@
       ],
       "custom_css": [
         "div {text-align: right;}",
-        "@media screen and (max-width: 700px) {.h1 {font-size: 140px; }}"
+        "@media screen and (max-width: 700px) {.h1 {font-size: 40px; }}"
       ],
       "settings": {
         "identifier": "",
@@ -349,7 +349,7 @@
           "type": "item",
           "settings": {
             "horizontal_position": 23,
-            "vertical_position": 38,
+            "vertical_position": 33,
             "horizontal_position_mobile": 47,
             "vertical_position_mobile": 11,
             "icon": "shopify:\/\/shop_images\/agriculture.png",
@@ -361,8 +361,8 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 17,
-            "vertical_position": 60,
+            "horizontal_position": 14,
+            "vertical_position": 64,
             "horizontal_position_mobile": 28,
             "vertical_position_mobile": 26,
             "icon": "shopify:\/\/shop_images\/egg.png",
@@ -374,8 +374,8 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3": {
           "type": "item",
           "settings": {
-            "horizontal_position": 32,
-            "vertical_position": 60,
+            "horizontal_position": 30,
+            "vertical_position": 64,
             "horizontal_position_mobile": 64,
             "vertical_position_mobile": 26,
             "icon": "shopify:\/\/shop_images\/account_tree.png",
@@ -391,7 +391,8 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".hotspot-content-desktop{width: 100%}",
+        " .prose h2 {font-size: 46px; text-align: left;}",
         ".prose h2 strong {color: #96d123;}",
         "p {text-align: left;}",
         "div {align-items: center; @media screen and (max-width: 700px) {.prose h2 {font-size: 32px; padding-top: 40px; }}"
@@ -517,13 +518,16 @@
         "3a78ca24-56a4-4b02-aa3c-f59a523f7d6c": {
           "type": "subheading",
           "settings": {
-            "text": "certificaciones y sellos"
+            "text": "certificaciones y sellos",
+            "custom_pill_subheading": true,
+            "subheading_background_color": "#000000",
+            "subheading_text_color": "#ffffff"
           }
         },
         "034e8c63-725b-407f-88da-7d44e52827f0": {
           "type": "heading",
           "settings": {
-            "text": "PROOF OF ECO",
+            "text": "LOS SELLOS QUE NOS RESPALDAN",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -537,7 +541,7 @@
         "39c19eab-4214-48f8-a818-d31e8d4bc0ae": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Utilizamos la seguridad e inmutabilidad de las cadenas de bloques sobre tecnología sostenible de la red Polygon para darte visibilidad y transparencia de nuestros certificados gobernado por nuestro smart contract Proof of ECO.<\/p>"
+            "content": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta. <\/p><p>¡Encuentra estos sellos en nuestros productos!<\/p>"
           }
         }
       },
@@ -608,14 +612,14 @@
             "link_style": "button"
           }
         },
-        "42935295-9570-4ec7-be6d-beb6124e1a8b": {
+        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VA_006f0119-90aa-408f-a167-65ec899dced2.png",
+            "image": "shopify:\/\/shop_images\/LM.png",
             "column_size": "3",
-            "title": "Apto para vegetarianos",
+            "title": "Land2Market",
             "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "content": "<p>Productos provenientes de tierras manejadas con prácticas regenerativas. El programa L2M asegura que las tierras de donde provienen los productos no solo están sosteniendo, sino activamente mejorando, la salud del ecosistema.<br\/><\/p>",
             "link_url": "",
             "link_text": "Ver más",
             "link_style": "button"
@@ -626,9 +630,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/F4F.png",
             "column_size": "3",
-            "title": "Food for future",
+            "title": "Food For Future",
             "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "content": "<p>Producidos bajo modelos de economía circular, en donde parte de la proteína del alimento de las gallinas es reemplazado por ¡harina de insectos hecha a partir de residuos orgánicos de supermercados! logrando neutralizar la contaminación, pues evitamos la emisión de metano. Este producto fue realizado en colaboración con la startup F4F: Food For The Future.<br\/><\/p>",
             "link_url": "",
             "link_text": "Ver más",
             "link_style": "button"
@@ -639,22 +643,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TR.png",
             "column_size": "3",
-            "title": "Lorem ipsum",
+            "title": "Todos Recilcamos",
             "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
-            "link_url": "",
-            "link_text": "Ver más",
-            "link_style": "button"
-          }
-        },
-        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LSQA.png",
-            "column_size": "3",
-            "title": "Lorem ipsum",
-            "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "content": "<p>El sello de Todos Reciclamos garantiza ante los consumidores el compromiso ambiental de las marcas y su triple impacto positivo: medioambiental, social y económico.<\/p>",
             "link_url": "",
             "link_text": "Ver más",
             "link_style": "button"
@@ -665,22 +656,22 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/SAG.png",
             "column_size": "3",
-            "title": "Lorem ipsum",
+            "title": "Orgánico SAG",
             "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
             "link_url": "",
             "link_text": "Ver más",
             "link_style": "button"
           }
         },
-        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd": {
+        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LM.png",
+            "image": "shopify:\/\/shop_images\/LSQA.png",
             "column_size": "3",
-            "title": "Lorem ipsum",
+            "title": "HACCP",
             "heading_tag": "h4",
-            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.<\/p>",
+            "content": "<p>El sello de certificación de HACCP International confirma la capacidad de un producto no alimenticio para respaldar la integridad y seguridad de los alimentos según lo exigido por las expectativas de la industria, la legislación y los estándares respaldados por GSFI (Iniciativa Global para la Seguridad Alimentaria).<\/p>",
             "link_url": "",
             "link_text": "Ver más",
             "link_style": "button"
@@ -691,15 +682,15 @@
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-1",
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-2",
         "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-3",
-        "42935295-9570-4ec7-be6d-beb6124e1a8b",
+        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd",
         "81466fbc-47af-47fb-8c6f-fe99711c2679",
         "810690e6-b909-4030-b1b9-2256e814b43a",
-        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9",
         "038f4d60-9086-4579-943c-1d4f67f66241",
-        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd"
+        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9"
       ],
       "custom_css": [
-
+        "p.h4 {font-size: 25px; font-style: normal; font-weight: 500; line-height: normal; letter-spacing: -0.5px;}",
+        "button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
       "settings": {
         "full_width": true,
@@ -776,7 +767,7 @@
         "image": "shopify:\/\/shop_images\/nosotros_f7d28bc9-70cf-4a12-8d0b-40a0966fc168.png",
         "subheading": "contáctanos",
         "title": "¿Hablemos?",
-        "content": "<p>Si tienes alguna duda, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros. Déjanos un mensaje, y nos contactaremos contigo.<\/p>",
+        "content": "<p>Si tienes alguna duda, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros, déjanos un mensaje y ¡nos contactaremos contigo!<\/p>",
         "text_position": "center",
         "contact_form_size": "large",
         "background": "#ffffff",

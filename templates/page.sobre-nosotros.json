@@ -517,7 +517,10 @@
         "3a78ca24-56a4-4b02-aa3c-f59a523f7d6c": {
           "type": "subheading",
           "settings": {
-            "text": "certificaciones y sellos"
+            "text": "certificaciones y sellos",
+            "custom_pill_subheading": true,
+            "subheading_background_color": "#000000",
+            "subheading_text_color": "#ffffff"
           }
         },
         "034e8c63-725b-407f-88da-7d44e52827f0": {

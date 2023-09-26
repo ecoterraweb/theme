@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/eco.png",
-            "content_max_width": 420,
+            "content_max_width": 660,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
@@ -360,7 +360,6 @@
         "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CH.png",
             "column_size": "3",
             "title": "Certified Humane: Bienestar Animal",
             "heading_tag": "h4",
@@ -373,7 +372,6 @@
         "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB.png",
             "column_size": "3",
             "title": "Empresa B",
             "heading_tag": "h4",
@@ -386,7 +384,6 @@
         "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EC.png",
             "column_size": "3",
             "title": "Organic ECOCERT",
             "heading_tag": "h4",
@@ -399,7 +396,6 @@
         "cf891f50-77c6-445e-8961-75bda27c688a": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VA.png",
             "column_size": "3",
             "title": "Apto para veganos",
             "heading_tag": "h4",

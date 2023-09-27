@@ -2263,6 +2263,10 @@ video-media[autoplay], video-media:not([autoplay]) ~ * {
   pointer-events: none;
 }
 
+video-media[autoplay].pointer-events-all, video-media:not([autoplay]).pointer-events-all ~ *  {
+  pointer-events: all !important;
+}
+
 video-media:not([playing]) {
   cursor: pointer;
 }
@@ -9169,9 +9173,6 @@ split-lines {
 .pointer-events-none {
   pointer-events: none;
 }
-.pointer-events-all {
-  pointer-events: all !important;
-}
 
 .scroll-area {
   scrollbar-width: none;
@@ -10324,4 +10325,9 @@ a.button.button--lg, button.button.button--xl{
   display: flex;
   align-items: center;
   line-height: 100%;
+}
+
+
+.pointer-events-all {
+  pointer-events: all !important;
 }

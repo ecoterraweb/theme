@@ -9169,6 +9169,9 @@ split-lines {
 .pointer-events-none {
   pointer-events: none;
 }
+.pointer-events-all {
+  pointer-events: all;
+}
 
 .scroll-area {
   scrollbar-width: none;

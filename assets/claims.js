@@ -327,7 +327,7 @@ function initMap(elementId, points, templateId = null) {
   `
           : ""
       }
-      <a href="/pages/producer-landing?producer_id=1">Ver más del Productor</a>
+      // <a href="/pages/producer-landing?producer_id=1">Ver más del Productor</a>
 
       ${
         template[0] && template[0].blockchainTx.length !== 0

@@ -37,6 +37,7 @@
     "show_page_transition": true,
     "heading_apparition": "split_clip",
     "color_swatch_style": "round",
+    "show_quick_buy": false,
     "product_color_display": "swatch",
     "product_info_alignment": "start",
     "cart_type": "popover",

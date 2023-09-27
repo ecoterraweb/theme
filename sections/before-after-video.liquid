@@ -73,7 +73,7 @@ LIQUID
             {{- poster -}}
           </video-media>
         {%- else -%}
-          <video-media host="{{ section.settings.external_video_url.type }}" {% if section.settings.autoplay %}autoplay {% endif %} loaded style="pointer-events: all;">
+          <video-media host="{{ section.settings.external_video_url.type }}" {% if section.settings.autoplay %}autoplay class="pointer-events-all"{% endif %} loaded>
             {{- poster -}}
 
             <template>

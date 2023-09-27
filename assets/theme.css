@@ -9170,7 +9170,7 @@ split-lines {
   pointer-events: none;
 }
 .pointer-events-all {
-  pointer-events: all;
+  pointer-events: all !important;
 }
 
 .scroll-area {

@@ -208,7 +208,7 @@
         ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "orientation": "reversed",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",

@@ -2,33 +2,6 @@
   "sections": {
     "bbc9d5bd-d3e6-4563-8d56-0fe10e49faf4": {
       "type": "slideshow",
-      "blocks": {
-        "template--15546130399325__bbc9d5bd-d3e6-4563-8d56-0fe10e49faf4-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wconews_91f6c76f-e8d7-41bc-83d6-1237f9e5d20a.png",
-            "mobile_image": "shopify:\/\/shop_images\/econews2.png",
-            "content_max_width": 700,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h1",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15546130399325__bbc9d5bd-d3e6-4563-8d56-0fe10e49faf4-image-2"
-      ],
       "settings": {
         "identifier": "",
         "full_width": true,
@@ -52,7 +25,7 @@
         "content": "",
         "show_newsletter_form": false,
         "show_tags": true,
-        "banner_background": "#000000",
+        "banner_background": "#052e1e",
         "banner_text_color": "#ffffff",
         "button_background": "",
         "button_text_color": "",
@@ -71,7 +44,7 @@
       "type": "newsletter",
       "custom_css": [
         "button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".newsletter-content>.form{max-width: fit-content;}"
+        ".newsletter-content > .form {max-width: fit-content;}"
       ],
       "settings": {
         "full_width": true,

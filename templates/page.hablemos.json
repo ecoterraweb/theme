@@ -92,7 +92,7 @@
         "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-4"
       ],
       "custom_css": [
-
+        ".section-stack {display: flex; flex-direction: column; align-items: center;}"
       ],
       "settings": {
         "full_width": false,

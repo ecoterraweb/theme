@@ -50,7 +50,7 @@
             "image": "shopify:\/\/shop_images\/Instagram_logo_2022.svg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "https:\/\/www.instagram.com\/ecoterrafoods\/",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -63,7 +63,7 @@
             "image": "shopify:\/\/shop_images\/linkedin.png",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "https:\/\/www.linkedin.com\/company\/ecoterra-foods\/",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -92,7 +92,8 @@
         "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-4"
       ],
       "custom_css": [
-
+        ".section-stack {display: flex; flex-direction: column; align-items: center;}",
+        ".image-link-blocks__item img {width: 60%; height: auto;}"
       ],
       "settings": {
         "full_width": false,

@@ -361,7 +361,7 @@
         "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "¡No te los pierdas!",
+            "text": "¡NO TE LOS PIERDAS!",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -370,17 +370,17 @@
         "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>Conoce nuestro catálogo completo de productos!<\/h6>"
+            "content": "<p>Conoce nuestro catálogo completo de productos.<\/p>"
           }
         },
         "d898b983-5ef8-413f-838b-a40f0c9ebe5e": {
           "type": "button",
           "settings": {
-            "style": "outline",
+            "style": "fill",
             "size": "xl",
             "text": "Descárgalo aquí",
             "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0280\/0854\/6397\/files\/Catalogo-Ecoterra_web.pdf?v=1695752250",
-            "background": "",
+            "background": "#96d123",
             "text_color": "#ffffff"
           }
         }
@@ -392,8 +392,8 @@
       ],
       "custom_css": [
         "h2 {font-size: 35px;}",
+        "a {letter-spacing: 0.02em; font-weight: 500;}",
         "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
-        "button {letter-spacing: 0.02em; font-weight: 500;}",
         ".section-full.bg-custom.text-custom {padding-top: 130px; padding-bottom: 130px;}"
       ],
       "settings": {
@@ -401,7 +401,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#1a1a1a",
+        "background": "#026338",
         "background_gradient": "",
         "text_color": "#ffffff"
       }

@@ -249,7 +249,7 @@
         "p {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
         "a {letter-spacing: 0.02em; font-weight: 500;}",
         "h2 {letter-spacing: -0.5px;}",
-        "strong {color: #96d123;}"
+        "strong {color: #dbde3b;}"
       ],
       "settings": {
         "identifier": "",
@@ -368,6 +368,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
+        "image": "shopify:\/\/shop_images\/fondo-impact-text.png",
         "title": "",
         "heading_gradient_title": "",
         "text": "",
@@ -515,7 +516,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#026338",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "#ffffff"
       }

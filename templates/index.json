@@ -463,7 +463,7 @@
     "d0200df7-18b5-46d9-a6b3-ed990ba40fc6": {
       "type": "rich-text",
       "blocks": {
-        "5d38e80a-ab70-4017-8760-7733023fc9db": {
+        "6096a9da-2986-42cc-b231-2bcf0066a505": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cambios.png",
@@ -483,10 +483,10 @@
           "settings": {
           }
         },
-        "6096a9da-2986-42cc-b231-2bcf0066a505": {
+        "a195e4a7-ba5f-4323-adfd-a35ddadf5c97": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cambios.png",
+            "image": "shopify:\/\/shop_images\/envios.png",
             "width_mode": "custom",
             "max_width": 120,
             "mobile_max_width": 400
@@ -495,15 +495,15 @@
         "32c14394-0a2d-42d7-8506-a3b227a938a1": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>CAMBIOS<\/strong> Y<br\/>DEVOLUCIONES<\/h3>"
+            "content": "<h3>POLÍTICAS DE <strong>ENVÍOS <br\/><\/strong>Y DESPACHOS<\/h3>"
           }
         }
       },
       "block_order": [
-        "5d38e80a-ab70-4017-8760-7733023fc9db",
+        "6096a9da-2986-42cc-b231-2bcf0066a505",
         "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1",
         "1f3d1298-7731-4378-8c52-aee327afa65f",
-        "6096a9da-2986-42cc-b231-2bcf0066a505",
+        "a195e4a7-ba5f-4323-adfd-a35ddadf5c97",
         "32c14394-0a2d-42d7-8506-a3b227a938a1"
       ],
       "custom_css": [

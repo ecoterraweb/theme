@@ -476,7 +476,7 @@
         "32c14394-0a2d-42d7-8506-a3b227a938a1": {
           "type": "richtext",
           "settings": {
-            "content": "<h3>POLÍTICAS DE <strong>ENVÍOS <br\/><\/strong>Y<strong> DESPACHOS<\/strong><\/h3>"
+            "content": "<h3><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">POLÍTICAS DE <strong>ENVÍOS <br\/><\/strong>Y<strong> DESPACHOS<\/strong><\/a><\/h3>"
           }
         },
         "1f3d1298-7731-4378-8c52-aee327afa65f": {

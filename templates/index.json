@@ -249,7 +249,7 @@
         "p {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
         "a {letter-spacing: 0.02em; font-weight: 500;}",
         "h2 {letter-spacing: -0.5px;}",
-        "strong {color: #96d123;}"
+        "strong {color: #dbde3b;}"
       ],
       "settings": {
         "identifier": "",
@@ -368,6 +368,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
+        "image": "shopify:\/\/shop_images\/fondo-impact-text.png",
         "title": "",
         "heading_gradient_title": "",
         "text": "",
@@ -459,6 +460,66 @@
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#000000"
       }
+    },
+    "d0200df7-18b5-46d9-a6b3-ed990ba40fc6": {
+      "type": "rich-text",
+      "blocks": {
+        "6096a9da-2986-42cc-b231-2bcf0066a505": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cambios_41b866d6-dcca-438e-a205-b738311f4453.png",
+            "width_mode": "custom",
+            "max_width": 120,
+            "mobile_max_width": 400
+          }
+        },
+        "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>POLÍTICAS DE <br\/><strong>CAMBIOS <\/strong>Y <strong>REEMBOLSOS<\/strong><\/h3>"
+          }
+        },
+        "1f3d1298-7731-4378-8c52-aee327afa65f": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "a195e4a7-ba5f-4323-adfd-a35ddadf5c97": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/envios_c2e63124-0a13-40ae-a67d-a4b924cae9b5.png",
+            "width_mode": "custom",
+            "max_width": 120,
+            "mobile_max_width": 400
+          }
+        },
+        "32c14394-0a2d-42d7-8506-a3b227a938a1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>POLÍTICAS DE <strong>ENVÍOS <br\/><\/strong>Y<strong> DESPACHOS<\/strong><\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "6096a9da-2986-42cc-b231-2bcf0066a505",
+        "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1",
+        "1f3d1298-7731-4378-8c52-aee327afa65f",
+        "a195e4a7-ba5f-4323-adfd-a35ddadf5c97",
+        "32c14394-0a2d-42d7-8506-a3b227a938a1"
+      ],
+      "custom_css": [
+        "strong {color: #96d123;}",
+        "div {padding-top: 20px; padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#004228",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -470,6 +531,7 @@
     "f6845132-3793-464a-b1d9-3b7b0ab1c835",
     "df3ede33-9fbf-4a2b-8206-3f667522cbc9",
     "featured-collection",
-    "78eb0dc2-bbc9-46b4-ae9f-2d01e79ca5fb"
+    "78eb0dc2-bbc9-46b4-ae9f-2d01e79ca5fb",
+    "d0200df7-18b5-46d9-a6b3-ed990ba40fc6"
   ]
 }

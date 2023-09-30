@@ -10335,7 +10335,7 @@ a.button.button--lg, button.button.button--xl{
 /* QUERIES NEW CHANGES */
 
 /* mobile */
-.prose--slideshow h1{
+.prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
   font-size: 55px;
   text-transform: uppercase;
   line-height: 55px;
@@ -10343,7 +10343,7 @@ a.button.button--lg, button.button.button--xl{
 
 /* tablet */
 @media screen and (min-width: 770px) {
-  .prose--slideshow h1{
+  .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
     font-size: 66px;
     line-height: 66px;
   }
@@ -10351,14 +10351,14 @@ a.button.button--lg, button.button.button--xl{
 
 /* desktop */
 @media screen and (min-width: 1150px) {
-  .prose--slideshow h1{
+  .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
     font-size: 88px;
     line-height: 88px;
   }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
-  .prose--slideshow h1{
+  .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
     font-size: 110px;
     text-transform: uppercase;
     line-height: 110px;

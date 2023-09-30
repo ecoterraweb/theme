@@ -36,8 +36,8 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
-            "content": "",
-            "title": "DISFRUTA CON SENTIDO",
+            "content": "<h1><strong>DISFRUTA<\/strong> CON SENTIDO<\/h1>",
+            "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
             "button_text": "",
@@ -57,7 +57,7 @@
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
       ],
       "custom_css": [
-        "strong {color: #66F3FF;}"
+        "strong {color: #66f3ff;}"
       ],
       "settings": {
         "identifier": "",

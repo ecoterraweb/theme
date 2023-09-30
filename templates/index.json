@@ -12,7 +12,8 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
-            "title": "elige con propósito",
+            "content": "<h1><strong>Elige<\/strong> con propósito<\/h1>",
+            "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
             "button_text": "",
@@ -35,6 +36,7 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
+            "content": "",
             "title": "DISFRUTA CON SENTIDO",
             "heading_tag": "h6",
             "heading_style": "font--primary",
@@ -55,9 +57,7 @@
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
       ],
       "custom_css": [
-        "div {text-align: right;}",
-        " \/* Cambios\/Desktop\/H0\/H0 *\/P.h6 {font-size: 85px; font-style: normal; font-weight: 700; line-height: 90px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase;}",
-        "@media screen and (max-width: 700px) {P.h6 {font-size: 50px; font-style: normal; font-weight: 700; line-height: 55px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase; }}"
+        "strong {color: #66F3FF;}"
       ],
       "settings": {
         "identifier": "",

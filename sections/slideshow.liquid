@@ -92,9 +92,13 @@ LIQUID
               {%- endif -%}
 
               {%- if block.settings.title != blank -%}
+                {%  comment  %}
                 <p class="{{ block.settings.heading_tag }} {{ block.settings.heading_style }}" data-sequence="heading">
                   {%- render 'styled-text', content: block.settings.title, apparition_effect: true -%}
                 </p>
+                {% endcomment %}  
+                {{- block.settings.title -}}
+
               {%- endif -%}
 
               {%- if block.settings.button_text != blank -%}
@@ -420,46 +424,9 @@ LIQUID
           "default": "Tell your story"
         },
         {
-          "type": "text",
+          "type": "richtext",
           "id": "title",
-          "label": "Heading",
-          "default": "Slide title"
-        },
-        {
-          "type": "select",
-          "id": "heading_tag",
-          "label": "Heading size",
-          "options": [
-            {
-              "value": "h0",
-              "label": "H0"
-            },
-            {
-              "value": "h1",
-              "label": "H1"
-            },
-            {
-              "value": "h2",
-              "label": "H2"
-            },
-            {
-              "value": "h3",
-              "label": "H3"
-            },
-            {
-              "value": "h4",
-              "label": "H4"
-            },
-            {
-              "value": "h5",
-              "label": "H5"
-            },
-            {
-              "value": "h6",
-              "label": "H6"
-            }
-          ],
-          "default": "h0"
+          "label": "Heading"
         },
         {
           "type": "select",

@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -116,9 +117,9 @@
       "settings": {
         "full_width": true,
         "stack_collections": false,
-        "collections_per_row": 3,
+        "collections_per_row": 5,
         "show_progress_bar": false,
-        "subheading": "categorías",
+        "subheading": "",
         "custom_pill_subheading": false,
         "subheading_background_color": "",
         "title": "Mucho más que alimentos, productos honestos que salvan al planeta.",
@@ -137,14 +138,14 @@
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "filter_layout": "sidebar",
-        "show_sort_by": true,
-        "show_filters": true,
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
         "show_filter_group_name": false,
         "show_color_swatch": true,
         "show_empty_filter_values": false,
-        "show_filter_values_count": true,
+        "show_filter_values_count": false,
         "open_first_filter_group": false
       }
     }

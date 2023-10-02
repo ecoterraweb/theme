@@ -540,7 +540,7 @@
         ".section-bg-rich-text {padding-top: 110px; padding-bottom: 110px;}"
       ],
       "settings": {
-        "identifier": "",
+        "identifier": "policies-banner",
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",

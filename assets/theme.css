@@ -543,7 +543,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   padding-block-end: var(--spacing-2-5);
   padding-inline-start: var(--spacing-5);
   padding-inline-end: var(--spacing-5);
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.6;
   transition: background-color .15s ease-in-out, color .15s ease-in-out, box-shadow .15s ease-in-out;
   display: inline-block;

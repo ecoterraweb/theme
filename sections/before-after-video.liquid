@@ -39,9 +39,6 @@ LIQUID
       {%- endif -%}
 
       {{- section.settings.content -}}
-      {%- if section.settings.button_text != blank -%}
-        {% render 'button', content: section.settings.button_text, href: section.settings.button_url, background: section.settings.button_background, text_color: section.settings.button_text_color %}
-      {%- endif -%}
     {%- endcapture -%}
 
     {%- if content != blank -%}
@@ -49,6 +46,9 @@ LIQUID
         <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
           {{ content }}
         </div>
+        {%- if section.settings.button_text != blank -%}
+          {% render 'button', content: section.settings.button_text, href: section.settings.button_url, background: section.settings.button_background, text_color: section.settings.button_text_color %}
+        {%- endif -%}
       </div>
     {%- endif -%}
     {%- if section.settings.button_text != blank -%}

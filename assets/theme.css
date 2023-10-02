@@ -10382,6 +10382,17 @@ a.button.button--lg, button.button.button--xl{
   text-transform: uppercase;
   word-wrap: break-word;
 }
+/* Before After Video */
+.shopify-section--before-after-video .prose *+:is(.h2,.h3,.h4,h2,h3,h4){
+  margin: 0;
+}
+.shopify-section--before-after-video .prose{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  text-align: center;
+  align-items: center;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10404,6 +10415,10 @@ a.button.button--lg, button.button.button--xl{
     font-size: 33px;
     line-height: 33px;
   }
+  /* Before After Video */
+  .shopify-section--before-after-video .prose{
+    gap: 33px;
+  }
 }
 
 /* desktop */
@@ -10423,6 +10438,10 @@ a.button.button--lg, button.button.button--xl{
   .shopify-section--image-with-text-overlay h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
     font-size: 44px;
     line-height: 44px;
+  }
+  /* Before After Video */
+  .shopify-section--before-after-video .prose{
+    gap: 44px;
   }
 }
 /* full width */

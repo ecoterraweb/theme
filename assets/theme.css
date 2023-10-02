@@ -10366,6 +10366,22 @@ a.button.button--lg, button.button.button--xl{
   word-wrap: break-word;
   padding: 10px 20px;
 }
+
+/* shopify-section--image-with-text-overlay */
+.shopify-section--image-with-text-overlay .custom-pill-none{
+ font-size: 14px;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: 0.70px;
+ word-wrap: break-word;
+}
+.shopify-section--image-with-text-overlay h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10379,6 +10395,14 @@ a.button.button--lg, button.button.button--xl{
   }
   .shopify-section--collection-list .section-header .prose .custom-pill {
     font-size: 16px;
+  }
+  .shopify-section--image-with-text-overlay .custom-pill-none{
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .shopify-section--image-with-text-overlay h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 33px;
+    line-height: 33px;
   }
 }
 
@@ -10395,6 +10419,10 @@ a.button.button--lg, button.button.button--xl{
   }
   .shopify-section--collection-list .section-header .prose .custom-pill {
     font-size: 20px;
+  }
+  .shopify-section--image-with-text-overlay h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 44px;
+    line-height: 44px;
   }
 }
 /* full width */
@@ -10415,5 +10443,9 @@ a.button.button--lg, button.button.button--xl{
   }
   .shopify-section--collection-list .section-header .prose .custom-pill {
     font-size: 20px;
+  }
+  .shopify-section--image-with-text-overlay h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 55px;
+    line-height: 55px;
   }
 }

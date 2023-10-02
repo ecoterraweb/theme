@@ -19,6 +19,7 @@
             "mobile_text_position": "place-self-end-end text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
+            "content": "",
             "title": "ESTAMOS CAMBIANDO LAS COSAS",
             "heading_tag": "h6",
             "heading_style": "font--primary",
@@ -119,6 +120,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/mani-13.png",
+            "invert_image": true,
             "width_mode": "custom",
             "max_width": 450,
             "mobile_max_width": 280
@@ -155,6 +157,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/mani-2f.png",
+            "invert_image": true,
             "width_mode": "custom",
             "max_width": 450,
             "mobile_max_width": 280
@@ -213,6 +216,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/mani_1.png",
+            "invert_image": true,
             "width_mode": "custom",
             "max_width": 450,
             "mobile_max_width": 320
@@ -254,7 +258,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/papel_af4a9327-5ba3-4e45-ab65-f13af9f27d42.png",
-        "mobile_image": "shopify:\/\/shop_images\/papel.png",
+        "mobile_image": "shopify:\/\/shop_images\/papel-s.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#ffffff",
@@ -280,6 +284,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/mani-eco.png",
+            "invert_image": true,
             "width_mode": "custom",
             "max_width": 450,
             "mobile_max_width": 320

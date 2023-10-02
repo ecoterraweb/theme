@@ -33,8 +33,44 @@
     font-weight: 400; /* Peso de fuente regular */
   }
   
+  /* Importar la fuente Secundaria */
+  @font-face {
+    font-family: 'PalmerLakePrint';
+    src: url('./PalmerLakePrint-Regular.woff2') format('woff2'),
+        url('./PalmerLakePrint-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    /* font-weight: 400; Peso de fuente regular */
+  }
+  
   /* Usar la fuente en tu estilo CSS */
   body, .heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .prose :is(h1,h2,h3,h4,h5,h6) {
     font-family: 'VolteRounded', sans-serif;
   }
-  
+  .font--secondary{
+    font-family: 'PalmerLakePrint', sans-serif !important;
+    line-height: 60%;
+    font-weight: normal !important;
+  }
+  .font--secondary.h0{
+    font-size: 11rem;
+  }
+  .font--secondary.h1{
+    font-size: 10rem;
+  }
+  .font--secondary.h2{
+    font-size: 9rem;
+  }
+  .font--secondary.h3{
+    font-size: 8rem;
+  }
+  .font--secondary.h4{
+    font-size: 7rem;
+  }
+  .font--secondary.h5{
+    font-size: 6rem;
+  }
+  .font--secondary.h6{
+    font-size: 5rem;
+  }

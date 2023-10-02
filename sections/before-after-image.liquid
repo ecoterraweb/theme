@@ -27,7 +27,11 @@ LIQUID
   <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
     {%- capture content -%}
       {%- if section.settings.subheading != blank -%}
-        <p class="bold">{{ section.settings.subheading | escape }}</p>
+        {%- if section.settings.custom_pill_subheading -%}
+            <p class="bold custom-pill" style="background-color: {{ section.settings.subheading_background_color }};">{{ section.settings.subheading | escape }}</p>
+          {% else %}
+            <p class="bold">{{ section.settings.subheading | escape }}</p>
+          {%- endif -%}
       {%- endif -%}
 
       {%- if section.settings.title != blank -%}
@@ -111,6 +115,17 @@ LIQUID
       "type": "text",
       "id": "subheading",
       "label": "Subheading"
+    },
+    {
+      "type": "checkbox",
+      "id": "custom_pill_subheading",
+      "label": "Custom pill subheading",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "subheading_background_color",
+      "label": "Subheading background color"
     },
     {
       "type": "text",

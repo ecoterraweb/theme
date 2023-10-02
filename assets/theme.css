@@ -41,9 +41,9 @@ a {
   text-decoration: inherit;
 }
 
-b, strong {
-  font-weight: bolder;
-}
+/* b, strong, .text-custom strong {
+  font-weight: 600;
+} */
 
 code, kbd, samp, pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
@@ -441,6 +441,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   display: block;
   position: relative;
   overflow: hidden;
+  height: 415px;
 }
 
 .blog-post-card__figure > .badge {
@@ -2262,6 +2263,10 @@ video-media[autoplay], video-media:not([autoplay]) ~ * {
   pointer-events: none;
 }
 
+video-media[autoplay].pointer-events-all, video-media:not([autoplay]).pointer-events-all ~ *  {
+  pointer-events: all !important;
+}
+
 video-media:not([playing]) {
   cursor: pointer;
 }
@@ -3343,6 +3348,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   text-underline: none;
   background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 0 1px no-repeat;
   transition: background-size .3s ease-in-out;
+  font-weight: 600;
 }
 
 @media screen and (pointer: fine) {
@@ -3839,6 +3845,7 @@ tfoot td {
   gap: var(--spacing-3);
   align-items: center;
   display: flex;
+  font-weight: 600;
 }
 
 .text-with-icon > svg {
@@ -5852,6 +5859,8 @@ split-lines {
   border-radius: inherit;
   transition: inherit;
   display: grid;
+      padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .header:hover {
@@ -6764,7 +6773,8 @@ split-lines {
 .impact-text--design{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 .impact-text--title{
   margin-bottom: 20px;
@@ -7075,7 +7085,7 @@ split-lines {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
   .multiple-images-with-text__content-with-nav {
     row-gap: var(--spacing-12);
   }
@@ -9512,6 +9522,10 @@ split-lines {
   place-self: end center;
 }
 
+.place-self-end-end {
+  place-self: end center;
+}
+
 @media screen and (min-width: 700px) {
   .sm\:text-start {
     text-align: start;
@@ -9559,6 +9573,10 @@ split-lines {
 
   .sm\:place-self-end-center {
     place-self: end center;
+  }
+
+  .sm\:place-self-end-end {
+    place-self: end end;
   }
 
   .sm\:justify-items-center {
@@ -9818,7 +9836,7 @@ split-lines {
 
 .heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .prose :is(h1, h2, h3, h4, h5, h6) {
   font-family: var(--heading-font-family);
-  font-weight: var(--heading-font-weight);
+  font-weight: bold;
   font-style: var(--heading-font-style);
   letter-spacing: var(--heading-letter-spacing);
   text-transform: var(--heading-text-transform);
@@ -10313,5 +10331,106 @@ split-lines {
   }
   .list__claims--li-img{
     max-height: 200px;
+  }
+}
+a.button.button--lg, button.button.button--xl{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.prose p strong{
+  font-weight: 600;
+}
+.custom-pill {
+  padding: 5.5px 22px 10px;
+  background-color: #1a1a1a;
+  color: #Fff;
+  border-radius: 100px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  line-height: 100%;
+}
+
+
+.pointer-events-all {
+  pointer-events: all !important;
+}
+
+/* QUERIES NEW CHANGES */
+
+/* mobile */
+.prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+  font-size: 55px;
+  text-transform: uppercase;
+  line-height: 55px;
+}
+.shopify-section--collection-list .section-header .prose h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+ font-size: 25px;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 25px;
+ text-align: center;
+ word-wrap: break-word;
+}
+.shopify-section--collection-list .section-header .prose h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6) strong{
+  font-weight: 700;
+}
+.shopify-section--collection-list .section-header .prose .custom-pill {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.70px;
+  word-wrap: break-word
+}
+/* tablet */
+@media screen and (min-width: 770px) {
+  .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 66px;
+    line-height: 66px;
+  }
+  .shopify-section--collection-list .section-header .prose h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6)
+  {
+    font-size: 33px;
+    line-height: 33px;
+  }
+  .shopify-section--collection-list .section-header .prose .custom-pill {
+    font-size: 16px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1150px) {
+  .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 88px;
+    line-height: 88px;
+  }
+  .shopify-section--collection-list .section-header .prose h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 44px;
+    line-height: 44px;
+    text-align: left; 
+  }
+  .shopify-section--collection-list .section-header .prose .custom-pill {
+    font-size: 20px;
+  }
+}
+/* full width */
+@media screen and (min-width: 1400px) {
+  .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 110px;
+    text-transform: uppercase;
+    line-height: 110px;
+  }
+  .shopify-section--collection-list .section-header .prose h2{
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .shopify-section--collection-list .section-header .prose h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 55px;
+    line-height: 55px;
+    text-align: left; 
+  }
+  .shopify-section--collection-list .section-header .prose .custom-pill {
+    font-size: 20px;
   }
 }

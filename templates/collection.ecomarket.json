@@ -1,0 +1,358 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 12
+      }
+    },
+    "e6be5a4e-ac99-4383-bebc-c0c03b448a2f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-productos.png",
+            "mobile_image": "shopify:\/\/shop_images\/banner-productos-4.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-1",
+        "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-2"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "aderezos-naturales",
+            "image": "shopify:\/\/shop_images\/eco-adereso.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "despensa-pantry",
+            "image": "shopify:\/\/shop_images\/eco-despenza.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "huevos",
+            "image": "shopify:\/\/shop_images\/eco-huevos_8d1bab5d-2e13-4071-93c7-a2fc40158830.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "b62f9824-0178-418a-ad41-c459d244bc96": {
+          "type": "collection",
+          "settings": {
+            "collection": "lacteos",
+            "image": "shopify:\/\/shop_images\/eco-lacteos.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "629479de-4800-4434-af33-b8e92ed05571": {
+          "type": "collection",
+          "settings": {
+            "collection": "fair-foods",
+            "image": "shopify:\/\/shop_images\/eco-protein.png",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-1",
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-2",
+        "template--15549504061533__c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8-collection-3",
+        "b62f9824-0178-418a-ad41-c459d244bc96",
+        "629479de-4800-4434-af33-b8e92ed05571"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 5,
+        "show_progress_bar": false,
+        "subheading": "",
+        "custom_pill_subheading": false,
+        "subheading_background_color": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
+    "490508c8-0b7c-41f9-af8d-508320fe9ec6": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "aderezos-naturales",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "EcoAderezos",
+        "content": "",
+        "link_url": "",
+        "link_text": "Ver todos",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "7042b7a2-3d72-4854-ad98-282952ed6324": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "despensa-pantry",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "EcoDespensa",
+        "content": "",
+        "link_url": "",
+        "link_text": "Ver todos",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "299ff626-3484-4c1b-8ea4-22bd676eac56": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "huevos",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "EcoHuevos",
+        "content": "",
+        "link_url": "",
+        "link_text": "Ver todos",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "4c1ab09a-2ab5-4759-ac6c-95911ed5cf32": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "lacteos",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "EcoLácteos",
+        "content": "",
+        "link_url": "",
+        "link_text": "Ver todos",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "c1408482-f4b1-40e1-b630-e46677f35b14": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "fair-foods",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "EcoProtein",
+        "content": "",
+        "link_url": "",
+        "link_text": "Ver todos",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "e6be5a4e-ac99-4383-bebc-c0c03b448a2f",
+    "c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8",
+    "main",
+    "490508c8-0b7c-41f9-af8d-508320fe9ec6",
+    "7042b7a2-3d72-4854-ad98-282952ed6324",
+    "299ff626-3484-4c1b-8ea4-22bd676eac56",
+    "4c1ab09a-2ab5-4759-ac6c-95911ed5cf32",
+    "c1408482-f4b1-40e1-b630-e46677f35b14"
+  ]
+}

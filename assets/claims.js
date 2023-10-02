@@ -8,7 +8,7 @@ async function fetchData() {
     );
 
     const data = await response.json();
-    product = data.product;
+    const product = data.product;
     // llenamos los claims
     if (product.claims.length > 0) {
       product.claims.forEach((element) => {
@@ -19,7 +19,7 @@ async function fetchData() {
       product.producers.forEach((producer) => {
         if (producer.claims.length > 0) {
           producer.claims.forEach((claim) => {
-            pushClaimIfNotExist(claim);
+            pushClaimIfNotExist(claim, producer);
           });
         }
       });
@@ -240,7 +240,7 @@ function formatDateToDDMMYYYY(dateString) {
   return `${day}/${month}/${year}`;
 }
 
-function pushClaimIfNotExist(claim) {
+function pushClaimIfNotExist(claim, producer = null) {
   const claimExists = claims.some(
     (existingClaim) => existingClaim.templateId === claim.templateId
   );
@@ -269,12 +269,16 @@ function initMap(elementId, points, templateId = null) {
   // Iterar sobre los puntos y agregar marcadores al mapa
   points.forEach(function (point) {
     const template = point.claims.filter((e) => e.templateId == templateId);
+    console.log('point', point);
+    console.log('template[0]', template[0]);
     // Crear marcador
-    var marker = new google.maps.Marker({
-      position: { lat: point.location.lat, lng: point.location.lng },
-      map: map,
-      title: point.title,
-    });
+    if(template[0]){
+      var marker = new google.maps.Marker({
+        position: { lat: point.location.lat, lng: point.location.lng },
+        map: map,
+        title: point.title,
+      });
+    
     // Crear el contenido personalizado con HTML
     // '<img src="' +
     // point.imgUrl +
@@ -323,8 +327,7 @@ function initMap(elementId, points, templateId = null) {
   `
           : ""
       }
-      <a href="/pages/producer-landing?producer_id=1">Ver más del Productor</a>
-
+q
       ${
         template[0] && template[0].blockchainTx.length !== 0
           ? `
@@ -360,6 +363,7 @@ function initMap(elementId, points, templateId = null) {
         });
       });
     });
+    }
   });
   // Capturamos todos los elementos con la clase claim__popup__open
 }

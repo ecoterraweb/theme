@@ -15,13 +15,36 @@
           64vw{% endif %}
       {% endif %};
     }
-
+    .impact--image--class{
+      position: absolute;
+      z-index: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+    }
+    .impact-text--title, .impact-text--design {
+      position: relative;
+      z-index: 1;
+    }
+    @media screen and (max-width: 700px) {
+      #shopify-section-{{ section.id }}{
+        --impact-text-font-size: calc(min(50vw, var(--container-max-width) * 0.15) / {{ section.blocks.size }} * {{ section.settings.impact_text_size_ratio_mobile }});
+      }
+    }
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }}{
         --impact-text-font-size: calc(min(15vw, var(--container-max-width) * 0.15) / {{ section.blocks.size }} * {{ section.settings.impact_text_size_ratio }});
         --impact-text-auto-columns: {% if section.settings.text_divider != 'none' %}
           minmax(0, 1fr) auto{% else %}
           minmax(0, 1fr){% endif %};
+      }
+      .impact-text--title{
+        margin-bottom: 50px;
       }
     }
   </style>
@@ -32,6 +55,17 @@
   ------------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}<div {% render 'section-properties' %} >
     <div {% unless section.settings.stack_mobile %}class="scroll-area bleed {% if section.blocks.size < 5 %}sm:unbleed{% else %}md:unbleed{% endif %}"{% endunless %}>
+      {%- if section.settings.image != blank -%}
+        {%- capture image_class -%}{% if section.settings.mobile_image != blank %}hidden sm:block{% endif %}{%- endcapture -%}
+        {%- capture sizes -%}{% if section.settings.full_width %}100vw{% else %}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min({{ settings.page_width }}px, 100vw - 96px){% endif %}{%- endcapture -%}
+  
+        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: "impact--image--class" -}}
+  
+        {%- if section.settings.mobile_image != blank -%}
+          {{- section.settings.mobile_image | image_url: width: section.settings.mobile_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600', class: 'sm:hidden impact--image--class' -}}
+        {%- endif -%}
+      {%- endif -%}
+  
       {%- if section.settings.title != blank -%}
         <h2 class="impact-text--title h1 impact-text-design--{{ section.settings.div_alignment }}">
           {%- render 'styled-text', content: section.settings.title,  gradient: section.settings.heading_gradient_title -%}
@@ -178,6 +212,18 @@
         "default": true
       },
       {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image",
+        "info": "3200 x 1600px .jpg recommended"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_image",
+        "label": "Mobile image",
+        "info": "1300 x 1500px .jpg recommended. Default to desktop image."
+      },
+      {
         "type": "text",
         "id": "title",
         "label": "Title",
@@ -272,6 +318,14 @@
         "label": "Impact text size ratio",
         "min": 0.5,
         "max": 1.5,
+        "step": 0.1,
+        "default": 1
+      }, {
+        "type": "range",
+        "id": "impact_text_size_ratio_mobile",
+        "label": "Impact text size ratio mobile",
+        "min": 0.5,
+        "max": 2,
         "step": 0.1,
         "default": 1
       }, {

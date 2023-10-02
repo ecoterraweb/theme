@@ -5,9 +5,32 @@
     #shopify-section-{{ section.id }} {
       --rich-text-max-width: {% if section.settings.content_width == 'small' %}650px{% elsif section.settings.content_width == 'medium' %}780px{% else %}100%{% endif %}
     }
+    .section-bg-rich-text:has(img){
+      display: grid;
+      padding: 0;
+      place-items: center;
+    }
+    .section-bg-rich-text .img-bg-rich-text{
+      width: 100%;
+    }
+    .section-bg-rich-text .img-bg-rich-text, .section-bg-rich-text .rich-text, .section-bg-rich-text .split-rich-text  {
+      grid-area: 1 / -1;
+    }
   </style>
+  {%- if section.settings.image != blank -%}
+    {%- assign class_bg = 'section-bg-rich-text' -%}
+  {%- else -%}
+    {%- assign class_bg = blank -%}
+  {%- endif -%}
 
-  <div {% render 'section-properties' %} id="{{ section.settings.identifier }}">
+
+  <div {% render 'section-properties', class: 'section-bg-rich-text' %} id="{{ section.settings.identifier }}">
+    {%- if section.settings.image != blank -%}
+        {%- assign mobile_image = section.settings.mobile_image | default: section.settings.image -%}
+
+        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: class: 'img-bg-rich-text hidden md:block', loading: 'lazy', sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+        {{- mobile_image | image_url: width: mobile_image.width | image_tag: class: 'img-bg-rich-text md:hidden', loading: 'lazy', sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+      {%- endif -%}
     {%- assign text_position = section.settings.text_position -%}
     {%- assign blocks_before_divider = '' -%}
     {%- assign blocks_after_divider = '' -%}
@@ -17,7 +40,11 @@
         {%- case block.type -%}
           {%- when 'subheading' -%}
             {%- if block.settings.text != blank -%}
-              <p class="bold" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
+              {%- if block.settings.custom_pill_subheading -%}
+                <p class="bold custom-pill" style="background-color: {{ block.settings.subheading_background_color }}; color: {{ block.settings.subheading_text_color}}" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
+              {% else %}
+                <p class="bold" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
+              {%- endif -%}
             {%- endif -%}
 
           {%- when 'heading' -%}
@@ -50,7 +77,7 @@
 
           {%- when 'image' -%}
             {%- if block.settings.image != blank -%}
-              <div {{ block.shopify_attributes }} style="margin-block-start: 0">
+              <div {{ block.shopify_attributes }} style="margin-block-start: 0; order: -1;">
                 {%- capture image_style_attribute -%}{% if section.settings.text_position == 'center' %}margin-inline: auto;{% endif %}{%- endcapture -%}
 
                 {%- if block.settings.width_mode == 'custom' -%}
@@ -152,6 +179,18 @@
       "default": true
     },
     {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "2500 x 1200px .jpg recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile image",
+      "info": "1500 x 1900px .jpg recommended. Default to desktop image."
+    },
+    {
       "type": "select",
       "id": "content_width",
       "label": "Content width",
@@ -222,6 +261,22 @@
           "id": "text",
           "label": "Text",
           "default": "Subheading"
+        },
+        {
+          "type": "checkbox",
+          "id": "custom_pill_subheading",
+          "label": "Custom pill subheading",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "subheading_background_color",
+          "label": "Subheading background color"
+        },
+        {
+          "type": "color",
+          "id": "subheading_text_color",
+          "label": "Subheading text color"
         }
       ]
     },

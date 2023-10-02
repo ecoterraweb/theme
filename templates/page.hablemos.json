@@ -11,12 +11,12 @@
       "type": "contact",
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/89-1000x600.jpg",
-        "subheading": "Contact Us",
-        "title": "Do you have any question?",
+        "image": "shopify:\/\/shop_images\/banner-np.png",
+        "subheading": "¿Tienes dudas, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros?",
+        "title": "Déjanos un mensaje ¡nos contactaremos contigo!",
         "content": "",
-        "text_position": "start",
-        "contact_form_size": "large",
+        "text_position": "center",
+        "contact_form_size": "small",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -37,7 +37,7 @@
             "image": "shopify:\/\/shop_images\/facebook.jpg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "https:\/\/www.facebook.com\/ecoterrachile",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -50,7 +50,7 @@
             "image": "shopify:\/\/shop_images\/Instagram_logo_2022.svg",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "https:\/\/www.instagram.com\/ecoterrafoods\/",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -63,7 +63,7 @@
             "image": "shopify:\/\/shop_images\/linkedin.png",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "",
+            "link_url": "https:\/\/www.linkedin.com\/company\/ecoterra-foods\/",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -72,6 +72,7 @@
         },
         "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-4": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/x.png",
             "stretch_image": true,
@@ -91,13 +92,14 @@
         "template--15537731993693__d62d6ca2-4536-4886-a371-795e53d59385-item-4"
       ],
       "custom_css": [
-
+        ".section-stack {display: flex; flex-direction: column; align-items: center;}",
+        ".image-link-blocks__item img {width: 60%; height: auto;}"
       ],
       "settings": {
         "full_width": false,
         "block_size": "small",
         "subheading": "",
-        "title": "",
+        "title": "¡Encuéntranos en Redes Sociales!",
         "content": "",
         "link_url": "",
         "link_text": "",

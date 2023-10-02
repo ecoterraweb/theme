@@ -1,33 +1,176 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
+    "9b252a1d-20be-41e1-ae4f-5d0d8f298207": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eco.png",
+            "content_max_width": 660,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "",
+            "title": "HACIA LA TRAZABILIDAD BASADA EN BLOCKCHAIN",
+            "heading_tag": "h0",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1"
+      ],
+      "custom_css": [
+        "div {text-align: right;}",
+        ".h0 {font-size: 85px; font-weight: 700; text-transform: uppercase; line-height: 90px; word-wrap: break-word;}",
+        "@media screen and (max-width: 1000px) {.prose p {font-size: 77px; font-style: normal; font-weight: 700; line-height: 77px; \/* 100% *\/ letter-spacing: -1.54px; }}",
+        "@media screen and (max-width: 700px) {.prose p {font-size: 45px; font-style: normal; font-weight: 700; line-height: 45px; \/* 100% *\/ letter-spacing: -1.54px; }}"
+      ],
       "settings": {
-        "content_width": "80ch"
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "fill",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
       }
     },
-    "8e32e533-98bf-401b-849d-2b20a1e1f28c": {
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
+      "type": "rich-text",
+      "blocks": {
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>EN EL CORAZÓN DE ECOTERRA SE ENCUENTRAN NUESTRO REVOLUCIONARIOS ECOLABS: <\/h1><h1>ECO<strong>AGRI<\/strong>LAB, ECO<strong>FOOD<\/strong>LAB Y ECO<strong>TECH<\/strong>LAB <\/h1><p>Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d"
+      ],
+      "custom_css": [
+        ".prose h1 {font-size: 50px; text-align: left;}",
+        ".prose h1 strong {color: #96d123;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#026338",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "b32b6855-949c-445c-bdcb-c8fbf129f34d": {
+      "type": "rich-text",
+      "blocks": {
+        "51146ea0-3c9a-4f3c-b5ac-a7a5939a0e2a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/esquema_b4740aac-51d2-4491-b88d-324aca10c8ba.png",
+            "width_mode": "custom",
+            "max_width": 470,
+            "mobile_max_width": 330
+          }
+        }
+      },
+      "block_order": [
+        "51146ea0-3c9a-4f3c-b5ac-a7a5939a0e2a"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/HS-BG.png",
+        "mobile_image": "shopify:\/\/shop_images\/HS-BG.png",
+        "content_width": "small",
+        "text_position": "center",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "3a8a9794-7117-43b6-af87-e8f4592a4cb6": {
+      "type": "rich-text",
+      "blocks": {
+        "d03b891d-8819-4ea6-ab3b-18ec913ac9dc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>IMAGINEN UN MUNDO DONDE LAS MISMAS COSAS EN QUE CONFIAMOS PARA NUESTRA SUPERVIVENCIA ESTÁN EN ARMONÍA PERFECTA CON <strong>EL PODER DE LA TECNOLOGÍA Y LA SABIDURÍA DE LA NATURALEZA.<\/strong><\/h1><p>Imaginen no tener que elegir entre la ciencia de vanguardia y la sabiduría que nos brinda la Tierra. Bienvenidos al futuro, bienvenidos a Ecoterra.<\/p><p>Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d03b891d-8819-4ea6-ab3b-18ec913ac9dc"
+      ],
+      "custom_css": [
+        ".prose h1 {font-size: 40px; text-align: left;}",
+        ".prose h1 strong {color: #dbde3b;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#052e1e",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54": {
       "type": "multiple-images-with-text",
       "blocks": {
-        "template--15538504171613__8e32e533-98bf-401b-849d-2b20a1e1f28c-item-1": {
+        "template--15546130202717__c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/coding-on-laptop.webp",
+            "image": "shopify:\/\/shop_images\/agrilab.png",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "EcoLabs",
-            "content": "<p><strong>Imaginen un mundo donde las mismas cosas en las que confiamos para nuestra supervivencia están en armonía perfecta con el poder de la tecnología y la sabiduría de la naturaleza<\/strong>. Imaginen no tener que elegir entre la ciencia de vanguardia y la sabiduría que nos brinda la Tierra. Bienvenidos al futuro, bienvenidos a Ecoterra.<\/p><p><strong>En el corazón de Ecoterra se encuentran nuestros revolucionarios EcoLabs: EcoAgri Lab, EcoFood Lab y EcoTech Lab<\/strong>; cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>",
+            "title": "",
+            "content": "<h2>ECO<strong>AGRI<\/strong>LAB<\/h2><p><strong>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida<\/strong>. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza, degradándolo con productos químicos. <strong>En EcoAgriLab, un equipo de agrónomos de clase mundial está redescubriendo la sinfonía de la agricultura natural. <\/strong>Utilizando modelos de machine learning, desciframos el lenguaje de la Tierra para empujar una agricultura abundante y sostenible.<\/p>",
             "button_url": "",
             "button_text": ""
           }
         }
       },
       "block_order": [
-        "template--15538504171613__8e32e533-98bf-401b-849d-2b20a1e1f28c-item-1"
+        "template--15546130202717__c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54-item-1"
+      ],
+      "custom_css": [
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #96d123;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
+        "orientation": "normal",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -37,13 +180,414 @@
         "button_text_color": ""
       }
     },
+    "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "d618a6c3-e3ca-48dc-875c-ca13d1a4e4e8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/foodlab.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "",
+            "content": "<h2>ECO<strong>FOOD<\/strong>LAB<\/h2><p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? <strong>EcoFood Lab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula. Aquí, lo orgánico se encuentra con la tecnología para crear alimentos que son nutritivos, deliciosos y ecológicamente sólidos<\/strong>. Esto no es simplemente cocina; es alquimia. Aquí es donde el sueño de una dieta equilibrada se encuentra con la realidad de un planeta equilibrado.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "d618a6c3-e3ca-48dc-875c-ca13d1a4e4e8"
+      ],
+      "custom_css": [
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #ff8d00;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "orientation": "reversed",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "a0af0435-390a-4f29-9870-4724c6b9beab": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "26d97ecb-fb74-485a-95f3-74aef5e6ae15": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/techlab_26589aa5-0422-4a39-ab68-de6221e8d2bb.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "",
+            "content": "<h2>ECO<strong>TECH<\/strong>LAB<\/h2><p><strong>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab<\/strong>. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo. <strong>¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en la inmutabilidad de la tecnología blockchain? <\/strong>Contamos con los programadores más agudos trabajando en una plataforma que será la red neuronal de una Tierra nueva y sostenible. Un mundo donde cada transacción, cada acción y cada decisión es una inversión en el futuro.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "26d97ecb-fb74-485a-95f3-74aef5e6ae15"
+      ],
+      "custom_css": [
+        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 strong {color: #394ff0;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "orientation": "normal",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "0b796c11-d8a0-4343-b446-a2b154b6b2e0": {
+      "type": "rich-text",
+      "blocks": {
+        "6963b46c-9aad-4eea-8c95-b45bc2e1de2d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>CADA UNO ROMPE PARADIGMAS ¿Y <strong>JUNTOS<\/strong>? FORMAN <strong>LOS PILARES DE ECOTERRA<\/strong><\/h1><p>Individualmente, cada laboratorio rompe paradigmas. ¿Y juntos? Forman los pilares de Ecoterra, un modelo que trasciende disciplinas e industrias. Hemos aprovechado el poder de la <strong>BLOCKCHAIN <\/strong>para hacer que estas innovaciones no solo sean accesibles, sino fundamentales para nuestro ecosistema global compartido. Con <strong>Web3<\/strong>, estamos creando una plataforma descentralizada y democratizada donde cualquiera, en cualquier lugar, puede contribuir a la revolución regenerativa.<\/p><p>Los EcoLabs no son solo laboratorios; son faros en un mundo nublado, guiándonos hacia un futuro sostenible.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6963b46c-9aad-4eea-8c95-b45bc2e1de2d"
+      ],
+      "custom_css": [
+        ".prose h1 {font-size: 40px; text-align: left;}",
+        ".prose h1 strong {color: #dbde3b;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#052e1e",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "4c327609-cbef-4f89-8ce3-1155eab0e2ab": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "div {padding-top: 130px;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/futuro-mas-verde.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "c4e0f3c9-e70f-4d8f-b147-37ed29969b4e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>ESTO NO ES SIMPLEMENTE OTRA EMPRESA. ESTO ES UN <strong>MOVIMIENTO, <\/strong>UNA <strong>REVOLUCIÓN.<\/strong><\/h1><h2>¡ESTO ES <strong>ECOTERRA<\/strong>!<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130202717__c4e0f3c9-e70f-4d8f-b147-37ed29969b4e-richtext-1"
+      ],
+      "custom_css": [
+        ".prose h1 {font-size: 40px; text-align: left;}",
+        ".prose h1 strong {color: #96d123;}",
+        ".prose h2 {font-size: 55px; text-align: left;}",
+        ".prose h2 strong {color: #dbde3b;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
+      "settings": {
+        "identifier": "Impacto-section",
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#052e1e",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "574ad31f-5867-415a-8ded-ab9b3450fe68": {
+      "type": "video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "461d714d-63b1-42dc-9ed9-1740773c042e": {
+      "type": "rich-text",
+      "blocks": {
+        "af2cfa2a-4aa6-4045-a603-8cc45416c684": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Gracias por ser parte de este viaje,<br\/>mientras redefinimos lo que es posible y recuperamos lo que es esencial<\/p><h1>¡BIENVENIDO A <strong>ECOTERRA!<\/strong><br\/>¡BIENVENIDO <strong>A CASA!<\/strong><\/h1>"
+          }
+        }
+      },
+      "block_order": [
+        "af2cfa2a-4aa6-4045-a603-8cc45416c684"
+      ],
+      "custom_css": [
+        ".prose h1 {font-size: 55px; text-align: left;}",
+        ".prose h1 strong {color: #96d123;}",
+        ".prose h2 {font-size: 55px; text-align: left;}",
+        ".prose h2 strong {color: ;}",
+        "p {text-align: left;}",
+        "div {text-align: left; align-items: center;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
+      "settings": {
+        "identifier": "Impacto-section",
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#7dac00",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "b9bd2f55-09fc-493c-9156-e94f1f316727": {
+      "type": "rich-text",
+      "blocks": {
+        "e359ea7a-6a72-42a8-946b-b105b42245f6": {
+          "type": "subheading",
+          "settings": {
+            "text": "certificaciones y sellos",
+            "custom_pill_subheading": true,
+            "subheading_background_color": "#1a1a1a",
+            "subheading_text_color": ""
+          }
+        },
+        "6a4b4684-eb8f-4db3-92c5-f405bedf126c": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "a874ecb1-1984-478f-b0aa-b7d83d4959d6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>LOS <strong>SELLOS <\/strong>QUE NOS <strong>RESPALDAN<\/strong> Y LAS <strong>CERTIFICACIONES <\/strong>QUE NOS <strong>ENORGULLECEN<\/strong><\/h2><p>Utilizamos la seguridad e inmutabilidad de las cadenas de bloques sobre tecnología sostenible de la red Polygon para darte visibilidad y transparencia de nuestros certificados gobernado por nuestro smart contract Proof of ECO.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "e359ea7a-6a72-42a8-946b-b105b42245f6",
+        "6a4b4684-eb8f-4db3-92c5-f405bedf126c",
+        "a874ecb1-1984-478f-b0aa-b7d83d4959d6"
+      ],
+      "custom_css": [
+        ".h2 {font-size: 45px;}",
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
+        "div {align-items: center; text-align: left;}",
+        "strong {color: #ff8d00;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
+      "settings": {
+        "identifier": "Impacto-section",
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Rich_text.png",
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "37898fe7-2722-4dd8-a4a7-e03f62d7698e": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CH_fdf38afc-b166-42a2-9311-5b16fcbb7a78.png",
+            "column_size": "3",
+            "title": "Certified Humane: Bienestar Animal",
+            "heading_tag": "h4",
+            "content": "<p>Mejoramiento del bienestar animal en sistemas agrícolas y de acuicultura. Los estándares son específicos al tipo de agricultura (interior, exterior, de libre pastoreo o orgánico) y cubren toda la cadena de producción (desde la salud y la dieta hasta el sacrificio).<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EB_37bb085b-f3e4-4082-afb4-eb4d8bc92444.png",
+            "column_size": "3",
+            "title": "Empresa B",
+            "heading_tag": "h4",
+            "content": "<p>Empresa B es una certificación ofrecida por B Lab, una organización independiente, no gubernamental y sin fines de lucro. La certificación evalúa el rendimiento social y ambiental de una empresa, desde la cadena de suministro y los materiales de entrada hasta la donación caritativa y los beneficios para los empleados. La certificación B Corp señala la intención de una empresa de mantener el propósito en el núcleo de la compañía.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EC_0b248f6c-4f0d-4920-8160-45dfb697d3a6.png",
+            "column_size": "3",
+            "title": "Organic ECOCERT",
+            "heading_tag": "h4",
+            "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "cf891f50-77c6-445e-8961-75bda27c688a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LM.png",
+            "column_size": "3",
+            "title": "Land2Market",
+            "heading_tag": "h4",
+            "content": "<p>Productos provenientes de tierras manejadas con prácticas regenerativas. El programa L2M asegura que las tierras de donde provienen los productos no solo están sosteniendo, sino activamente mejorando, la salud del ecosistema.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "03b6b164-8615-441f-922e-c6dbfe44f684": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F4F_d6ab9a3c-5fbf-414c-88d3-04cb30c9483a.png",
+            "column_size": "3",
+            "title": "Food For Future",
+            "heading_tag": "h4",
+            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.Producidos bajo modelos de economía circular, en donde parte de la proteína del alimento de las gallinas es reemplazado por ¡harina de insectos hecha a partir de residuos orgánicos de supermercados! logrando neutralizar la contaminación, pues evitamos la emisión de metano. Este producto fue realizado en colaboración con la startup F4F: Food For The Future.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "146c77a7-b20f-436a-9e7c-7302afea286c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TR.png",
+            "column_size": "3",
+            "title": "Todos Reciclamos",
+            "heading_tag": "h4",
+            "content": "<p>El sello de Todos Reciclamos garantiza ante los consumidores el compromiso ambiental de las marcas y su triple impacto positivo: medioambiental, social y económico.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "32798020-abac-4db0-bc2d-3148e694afbc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAG.png",
+            "column_size": "3",
+            "title": "Orgánico SAG",
+            "heading_tag": "h4",
+            "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        },
+        "ed1a399a-e8c4-4002-a27f-e4074d91445e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LSQA.png",
+            "column_size": "3",
+            "title": "HACCP",
+            "heading_tag": "h4",
+            "content": "<p>El sello de certificación de HACCP International confirma la capacidad de un producto no alimenticio para respaldar la integridad y seguridad de los alimentos según lo exigido por las expectativas de la industria, la legislación y los estándares respaldados por GSFI (Iniciativa Global para la Seguridad Alimentaria).<br\/>Los productos certificados se difunden a través de los registros de HACCP International, boletines de seguridad alimentaria, eventos y promociones.<\/p>",
+            "link_url": "",
+            "link_text": "Ver más",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-1",
+        "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-2",
+        "template--15546130202717__37898fe7-2722-4dd8-a4a7-e03f62d7698e-item-3",
+        "cf891f50-77c6-445e-8961-75bda27c688a",
+        "03b6b164-8615-441f-922e-c6dbfe44f684",
+        "146c77a7-b20f-436a-9e7c-7302afea286c",
+        "32798020-abac-4db0-bc2d-3148e694afbc",
+        "ed1a399a-e8c4-4002-a27f-e4074d91445e"
+      ],
+      "custom_css": [
+        "p.h4 {font-size: 25px; font-style: normal; font-weight: 500; line-height: normal; letter-spacing: -0.5px;}",
+        "button {letter-spacing: 0.02em; font-weight: 500;}",
+        "div {text-align: left;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
     "50cc92fa-8507-48c2-b382-89ea0097be7a": {
       "type": "rich-text",
       "blocks": {
         "template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "Pero antes..."
+            "text": "Pero antes...",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
           }
         },
         "template--15538504171613__50cc92fa-8507-48c2-b382-89ea0097be7a-heading-1": {
@@ -191,168 +735,26 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
-    },
-    "e039059c-fb9b-482d-840d-4f363d83ed73": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "EcoAgri Lab",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida<\/strong>. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza, degradándolo con productos químicos. <strong>En EcoAgriLab, un equipo de agrónomos de clase mundial está redescubriendo la sinfonía de la agricultura natural. No solo estamos plantando cultivos; estamos cultivando ecosistemas<\/strong>. Utilizando modelos de aprendizaje automático para interpretar la Tierra como nunca antes, estamos descifrando el lenguaje del suelo para cultivar de formas que son tanto abundantes como sostenibles.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-subheading-1",
-        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-heading-1",
-        "template--15538977931357__e039059c-fb9b-482d-840d-4f363d83ed73-richtext-1"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "d96a80b4-1d32-4541-80c3-94fcb2d2792e": {
-      "type": "rich-text",
-      "blocks": {
-        "1c94900e-7f27-4143-8653-593e4b975740": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "4538a18e-89fd-4f41-a66c-8c8792379185": {
-          "type": "heading",
-          "settings": {
-            "text": "EcoFood Lab",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "08c43f5a-ce14-4333-9c97-d680b85eb8ac": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? <strong>EcoFood Lab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula. Aquí, lo orgánico se encuentra con la tecnología para crear alimentos que son nutritivos, deliciosos y ecológicamente sólidos<\/strong>. Esto no es simplemente cocina; es alquimia. Aquí es donde el sueño de una dieta equilibrada se encuentra con la realidad de un planeta equilibrado.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1c94900e-7f27-4143-8653-593e4b975740",
-        "4538a18e-89fd-4f41-a66c-8c8792379185",
-        "08c43f5a-ce14-4333-9c97-d680b85eb8ac"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "e8f27ed3-c561-42d0-bd65-67565492fa3f": {
-      "type": "rich-text",
-      "blocks": {
-        "07c61139-ed2f-42c0-9d7d-5a98914011ec": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "63eed39c-a255-47bf-aaa4-875a56ba045f": {
-          "type": "heading",
-          "settings": {
-            "text": "EcoTech Lab",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "23e49f37-c76d-4a8f-97a5-21df8097e489": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab<\/strong>. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo. <strong>¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en el libro inmutable de la tecnología blockchain?<\/strong> Contamos con los programadores más agudos trabajando en una plataforma que será la red neuronal de una Tierra nueva y sostenible. Un mundo donde cada transacción, cada acción y cada decisión es una inversión en el futuro.<\/p><p>Individualmente, cada laboratorio es un cambio de juego. ¿Pero juntos? Forman los pilares de Ecoterra, un modelo que trasciende disciplinas e industrias. <strong>Hemos aprovechado el poder de la blockchain para hacer que estas innovaciones no solo sean accesibles, sino fundamentales para nuestro ecosistema global compartido. Con Web 3, estamos creando una plataforma descentralizada y democratizada donde cualquiera, en cualquier lugar, puede contribuir a la revolución regenerativa.<\/strong><\/p><p>Los Ecolabs no son solo laboratorios; son faros en un mundo nublado, guiándonos hacia un futuro sostenible. <strong>Esto no es simplemente otra empresa. Esto es un movimiento. Esto es una revolución. Esto es Ecoterra.<\/strong><\/p><p>Gracias por ser parte de este viaje, mientras redefinimos lo que es posible y recuperamos lo que es esencial.<\/p><p>Hacia un futuro más verde y mejor. Bienvenidos a Ecoterra. Bienvenidos a casa.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "07c61139-ed2f-42c0-9d7d-5a98914011ec",
-        "63eed39c-a255-47bf-aaa4-875a56ba045f",
-        "23e49f37-c76d-4a8f-97a5-21df8097e489"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "574ad31f-5867-415a-8ded-ab9b3450fe68": {
-      "type": "video",
-      "blocks": {
-        "template--15538977931357__574ad31f-5867-415a-8ded-ab9b3450fe68-play-1": {
-          "type": "play",
-          "settings": {
-          }
-        },
-        "template--15538977931357__574ad31f-5867-415a-8ded-ab9b3450fe68-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Cápsula Proof of ECO",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--15538977931357__574ad31f-5867-415a-8ded-ab9b3450fe68-play-1",
-        "template--15538977931357__574ad31f-5867-415a-8ded-ab9b3450fe68-heading-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
     }
   },
   "order": [
+    "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d",
+    "b32b6855-949c-445c-bdcb-c8fbf129f34d",
+    "3a8a9794-7117-43b6-af87-e8f4592a4cb6",
+    "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",
+    "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2",
+    "a0af0435-390a-4f29-9870-4724c6b9beab",
+    "0b796c11-d8a0-4343-b446-a2b154b6b2e0",
+    "4c327609-cbef-4f89-8ce3-1155eab0e2ab",
+    "c4e0f3c9-e70f-4d8f-b147-37ed29969b4e",
+    "574ad31f-5867-415a-8ded-ab9b3450fe68",
+    "461d714d-63b1-42dc-9ed9-1740773c042e",
+    "b9bd2f55-09fc-493c-9156-e94f1f316727",
+    "37898fe7-2722-4dd8-a4a7-e03f62d7698e",
     "main",
-    "8e32e533-98bf-401b-849d-2b20a1e1f28c",
     "50cc92fa-8507-48c2-b382-89ea0097be7a",
     "b3000c38-f83c-4e34-a224-8dc889f73759",
-    "ce07879f-1661-4db2-ad40-d55d48bf83e2",
-    "e039059c-fb9b-482d-840d-4f363d83ed73",
-    "d96a80b4-1d32-4541-80c3-94fcb2d2792e",
-    "e8f27ed3-c561-42d0-bd65-67565492fa3f",
-    "574ad31f-5867-415a-8ded-ab9b3450fe68"
+    "ce07879f-1661-4db2-ad40-d55d48bf83e2"
   ]
 }

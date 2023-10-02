@@ -124,10 +124,10 @@
     <div class="list__claims--content">
       <ul id="listClaims" class="list__claims--ul"></ul>
     </div>
+    {%- if section.settings.button_text != blank -%}
+      {% render 'button', content: section.settings.button_text, href: section.settings.url, style: section.settings.style, block: block, class: 'list__claims--button' %}
+    {%- endif -%}
   </div>
-  {%- if section.settings.text != blank -%}
-    {% render 'button', content: section.settings.text, href: section.settings.url, style: section.settings.style, block: block %}
-  {%- endif -%}
 </section>
 
 {% schema %}
@@ -165,7 +165,7 @@
         "default": "#1dbe67"
       }, {
         "type": "text",
-        "id": "text",
+        "id": "button_text",
         "label": "Text",
         "default": "Button text"
       }, {

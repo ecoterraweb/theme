@@ -40,7 +40,11 @@
             {%- case block.type -%}
               {%- when 'subheading' -%}
                 {%- if block.settings.text != blank -%}
-                  <p class="bold" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
+                  {%- if block.settings.custom_pill_subheading -%}
+                    <p class="bold custom-pill" style="background-color: {{ block.settings.subheading_background_color }};" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
+                  {% else %}
+                    <p class="bold " {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
+                  {%- endif -%}
                 {%- endif -%}
 
               {%- when 'heading' -%}
@@ -278,6 +282,17 @@
           "id": "text",
           "label": "Text",
           "default": "Subheading"
+        },
+        {
+          "type": "checkbox",
+          "id": "custom_pill_subheading",
+          "label": "Custom pill subheading",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "subheading_background_color",
+          "label": "Subheading background color"
         }
       ]
     },

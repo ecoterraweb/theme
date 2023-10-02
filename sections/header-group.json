@@ -30,19 +30,19 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "span.reversed-link {color: #fff; font-weight: 500;}"
+
       ],
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
         "logo": "shopify:\/\/shop_images\/logoeco.svg",
-        "logo_max_width": 220,
+        "logo_max_width": 180,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
         "sidebar_menu": "menu-mobile",
         "secondary_menu": "",
         "menu_open_trigger": "hover",
-        "opening_from": "bottom",
+        "opening_from": "left",
         "layout": "logo_left_navigation_center",
         "show_social_media": true,
         "show_locale_selector": true,

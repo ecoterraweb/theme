@@ -8,8 +8,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-1.png",
             "mobile_image": "shopify:\/\/shop_images\/banner-1s_d8ec94f2-d6b5-4feb-8ffe-9091b3f5fece.png",
-            "content_max_width": 500,
-            "mobile_text_position": "place-self-center text-center",
+            "content_max_width": 600,
+            "mobile_text_position": "place-self-center-end text-end",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
             "content": "<h1><strong>Elige<\/strong> con propósito<\/h1>",
@@ -32,8 +32,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-2.png",
             "mobile_image": "shopify:\/\/shop_images\/banner-2s.png",
-            "content_max_width": 500,
-            "mobile_text_position": "place-self-center text-center",
+            "content_max_width": 600,
+            "mobile_text_position": "place-self-center-end text-end",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
             "content": "<h1><strong>DISFRUTA<\/strong> CON SENTIDO<\/h1>",
@@ -464,6 +464,26 @@
     "d0200df7-18b5-46d9-a6b3-ed990ba40fc6": {
       "type": "rich-text",
       "blocks": {
+        "a195e4a7-ba5f-4323-adfd-a35ddadf5c97": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/envios_c2e63124-0a13-40ae-a67d-a4b924cae9b5.png",
+            "width_mode": "custom",
+            "max_width": 120,
+            "mobile_max_width": 400
+          }
+        },
+        "32c14394-0a2d-42d7-8506-a3b227a938a1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">POLÍTICAS DE <strong>ENVÍOS <br\/><\/strong>Y<strong> DESPACHOS<\/strong><\/a><\/h3>"
+          }
+        },
+        "1f3d1298-7731-4378-8c52-aee327afa65f": {
+          "type": "divider",
+          "settings": {
+          }
+        },
         "6096a9da-2986-42cc-b231-2bcf0066a505": {
           "type": "image",
           "settings": {
@@ -478,44 +498,24 @@
           "settings": {
             "content": "<h3>POLÍTICAS DE <br\/><strong>CAMBIOS <\/strong>Y <strong>REEMBOLSOS<\/strong><\/h3>"
           }
-        },
-        "1f3d1298-7731-4378-8c52-aee327afa65f": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "a195e4a7-ba5f-4323-adfd-a35ddadf5c97": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/envios_c2e63124-0a13-40ae-a67d-a4b924cae9b5.png",
-            "width_mode": "custom",
-            "max_width": 120,
-            "mobile_max_width": 400
-          }
-        },
-        "32c14394-0a2d-42d7-8506-a3b227a938a1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h3>POLÍTICAS DE <strong>ENVÍOS <br\/><\/strong>Y<strong> DESPACHOS<\/strong><\/h3>"
-          }
         }
       },
       "block_order": [
-        "6096a9da-2986-42cc-b231-2bcf0066a505",
-        "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1",
-        "1f3d1298-7731-4378-8c52-aee327afa65f",
         "a195e4a7-ba5f-4323-adfd-a35ddadf5c97",
-        "32c14394-0a2d-42d7-8506-a3b227a938a1"
+        "32c14394-0a2d-42d7-8506-a3b227a938a1",
+        "1f3d1298-7731-4378-8c52-aee327afa65f",
+        "6096a9da-2986-42cc-b231-2bcf0066a505",
+        "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1"
       ],
       "custom_css": [
         "strong {color: #96d123;}",
-        "div {padding-top: 20px; padding-bottom: 20px;}"
+        ".section-bg-rich-text {padding-top: 110px; padding-bottom: 110px;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
+        "content_width": "medium",
+        "text_position": "center",
         "background": "#004228",
         "background_gradient": "",
         "text_color": "#ffffff"

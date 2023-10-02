@@ -1,9 +1,10 @@
 async function fetchData() {
   try {
     const response = await fetch(
-      `https://ecotech.ecoterra.cl/api/products/${productSku}`, {
-        method: 'GET',
-        credentials: 'omit' // Esto evita que las cookies se incluyan en la solicitud
+      `https://ecotech.ecoterra.cl/api/products/${productSku}`,
+      {
+        method: "GET",
+        credentials: "omit", // Esto evita que las cookies se incluyan en la solicitud
       }
     );
 
@@ -24,7 +25,6 @@ async function fetchData() {
         }
       });
     }
-   
 
     const tagsContainer = document.querySelector(".tags-container");
     tagsContainer.innerHTML = "";
@@ -62,9 +62,11 @@ async function fetchData() {
 
     const generalButtonClaim = document.querySelector("#ecoClaimsButton");
     const activePopup = document.querySelector("#claim--general");
-    const activeContainerGeneral = document.querySelector(".tags-container--general");
+    const activeContainerGeneral = document.querySelector(
+      ".tags-container--general"
+    );
     if (activeContainerGeneral && claims.length > 0) {
-      activeContainerGeneral.classList.add('active');
+      activeContainerGeneral.classList.add("active");
     }
     if (generalButtonClaim && claims.length > 0) {
       generalButtonClaim.addEventListener("click", function (e) {
@@ -147,7 +149,9 @@ async function fetchData() {
           if (claim.claimObject == "Producto") {
             div.innerHTML = `
             <div class="claim--popup__body--head">
-              <img src="${claim.image}" alt="" class="claim--popup__img" loading="lazy"/>
+              <img src="${
+                claim.image
+              }" alt="" class="claim--popup__img" loading="lazy"/>
               <h4 class="claim--popup__subtitle">${claim.claimName}</h4>
             </div>
             <p class="claim--popup__text">
@@ -227,7 +231,6 @@ async function fetchData() {
         });
       });
     }
-
   } catch (error) {
     console.error("Error:", error);
   }
@@ -267,35 +270,65 @@ function initMap(elementId, points, templateId = null) {
   // Variable global para almacenar la referencia al InfoWindow actualmente abierto
   var currentInfoWindow = null;
   // fitbounds
-  var bounds = new google.maps.LatLngBounds();
+  if (points.length === 1) {
+    // Si solo hay un punto, establece un zoom predeterminado y centro en ese punto
+    var singlePoint = points[0];
+    var mapOptions = {
+      zoom: 15, // Establece el zoom predeterminado (ajústalo según tus preferencias)
+      center: { lat: singlePoint.location.lat, lng: singlePoint.location.lng }, // Centro en la ubicación del único punto
+      zoomControl: false,
+      mapTypeControl: false,
+    };
 
-  // Iterar sobre los puntos y agregar marcadores al mapa
-  points.forEach(function (point) {
-    const template = point.claims.filter((e) => e.templateId == templateId);
-    console.log('point', point);
-    console.log('template[0]', template[0]);
-    // Crear marcador
-    if(template[0]){
-      var marker = new google.maps.Marker({
-        position: { lat: point.location.lat, lng: point.location.lng },
-        map: map,
-        title: point.title,
-      });
-    
-    // Crear el contenido personalizado con HTML
-    // '<img src="' +
-    // point.imgUrl +
-    // '" alt="Imagen del lugar" style="width:50px;height:50px;object-fit: cover">' +
-    // <div id="bodyContent">
-    // <p>
-    // ${point.description}
-    // </p>
-    // </div>
-    var contentString = `<div id="content" style="width: 200px; display:flex; flex-direction: column; gap: 10px;">
+    // Crea el mapa con las opciones actualizadas
+    var map = new google.maps.Map(
+      document.querySelector(`${elementId}--map`),
+      mapOptions
+    );
+
+    // Crea el marcador para el único punto
+    var marker = new google.maps.Marker({
+      position: {
+        lat: singlePoint.location.lat,
+        lng: singlePoint.location.lng,
+      },
+      map: map,
+      title: singlePoint.title,
+    });
+
+    // ... (resto de tu código para mostrar información del marcador)
+  } else {
+    var bounds = new google.maps.LatLngBounds();
+
+    // Iterar sobre los puntos y agregar marcadores al mapa
+    points.forEach(function (point) {
+      const template = point.claims.filter((e) => e.templateId == templateId);
+      console.log("point", point);
+      console.log("template[0]", template[0]);
+      // Crear marcador
+      if (template[0]) {
+        var marker = new google.maps.Marker({
+          position: { lat: point.location.lat, lng: point.location.lng },
+          map: map,
+          title: point.title,
+        });
+
+        // Crear el contenido personalizado con HTML
+        // '<img src="' +
+        // point.imgUrl +
+        // '" alt="Imagen del lugar" style="width:50px;height:50px;object-fit: cover">' +
+        // <div id="bodyContent">
+        // <p>
+        // ${point.description}
+        // </p>
+        // </div>
+        var contentString = `<div id="content" style="width: 200px; display:flex; flex-direction: column; gap: 10px;">
       <h2 id="firstHeading" class="firstHeading">
       ${point.name}
       </h2>
-      <img src="${point.imgUrl}" style="height: 50px; width: 100px; object-fit: cover;" loading="lazy"/>
+      <img src="${
+        point.imgUrl
+      }" style="height: 50px; width: 100px; object-fit: cover;" loading="lazy"/>
       <p>${point.description}</p>
       ${
         template[0]
@@ -341,35 +374,40 @@ function initMap(elementId, points, templateId = null) {
       </div>
       </div>`;
 
-    // Agregar evento click al marcador para mostrar información
-    marker.addListener("click", function () {
-      // Cerrar el InfoWindow actualmente abierto, si existe
-      if (currentInfoWindow) {
-        currentInfoWindow.close();
-      }
-      // Crear ventana de información
-      var infoWindow = new google.maps.InfoWindow({
-        content: contentString,
-      });
+        // Agregar evento click al marcador para mostrar información
+        marker.addListener("click", function () {
+          // Cerrar el InfoWindow actualmente abierto, si existe
+          if (currentInfoWindow) {
+            currentInfoWindow.close();
+          }
+          // Crear ventana de información
+          var infoWindow = new google.maps.InfoWindow({
+            content: contentString,
+          });
 
-      // Mostrar ventana de información
-      infoWindow.open(map, marker);
+          // Mostrar ventana de información
+          infoWindow.open(map, marker);
 
-      // Actualizar la referencia al InfoWindow actualmente abierto
-      currentInfoWindow = infoWindow;
-      google.maps.event.addListenerOnce(infoWindow, "domready", function () {
-        var closeButton = document.querySelector(".gm-style-iw button");
-        closeButton.addEventListener("click", function (e) {
-          e.preventDefault();
-          closeCurrentInfoWindow();
+          // Actualizar la referencia al InfoWindow actualmente abierto
+          currentInfoWindow = infoWindow;
+          google.maps.event.addListenerOnce(
+            infoWindow,
+            "domready",
+            function () {
+              var closeButton = document.querySelector(".gm-style-iw button");
+              closeButton.addEventListener("click", function (e) {
+                e.preventDefault();
+                closeCurrentInfoWindow();
+              });
+            }
+          );
         });
-      });
+      }
+      bounds.extend(marker.getPosition());
     });
-    }
-    bounds.extend(marker.getPosition());
-  });
-  // Ajustar el mapa para que se ajuste a todos los marcadores
-  map.fitBounds(bounds);
+    // Ajustar el mapa para que se ajuste a todos los marcadores
+    map.fitBounds(bounds);
+  }
 }
 // Función para cerrar el InfoWindow actualmente abierto
 function closeCurrentInfoWindow() {

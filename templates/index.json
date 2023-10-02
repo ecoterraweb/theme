@@ -478,7 +478,11 @@
         "background_gradient": "",
         "text_color": "",
         "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
+        "drag_cursor_color": "#000000",
+        "button_text": "¡Quiero saber más!",
+        "button_url": "shopify:\/\/pages\/ecotech",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "d0200df7-18b5-46d9-a6b3-ed990ba40fc6": {

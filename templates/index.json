@@ -465,6 +465,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/envios_c2e63124-0a13-40ae-a67d-a4b924cae9b5.png",
+            "invert_image": false,
             "width_mode": "custom",
             "max_width": 120,
             "mobile_max_width": 400
@@ -485,6 +486,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cambios_41b866d6-dcca-438e-a205-b738311f4453.png",
+            "invert_image": false,
             "width_mode": "custom",
             "max_width": 120,
             "mobile_max_width": 400

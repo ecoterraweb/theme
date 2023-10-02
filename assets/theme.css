@@ -10351,7 +10351,7 @@ a.button.button--lg, button.button.button--xl{
 .shopify-section--collection-list .section-header .prose h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6) strong{
   font-weight: 700;
 }
-.shopify-section--collection-list .section-header .prose .cusstom-pill {
+.shopify-section--collection-list .section-header .prose .custom-pill {
   color: white;
   font-size: 14px;
   font-weight: 500;
@@ -10370,7 +10370,7 @@ a.button.button--lg, button.button.button--xl{
     font-size: 33px;
     line-height: 33px;
   }
-  .shopify-section--collection-list .section-header .prose .cusstom-pill {
+  .shopify-section--collection-list .section-header .prose .custom-pill {
     font-size: 16px;
   }
 }
@@ -10386,7 +10386,7 @@ a.button.button--lg, button.button.button--xl{
     line-height: 44px;
     text-align: left; 
   }
-  .shopify-section--collection-list .section-header .prose .cusstom-pill {
+  .shopify-section--collection-list .section-header .prose .custom-pill {
     font-size: 20px;
   }
 }
@@ -10406,7 +10406,7 @@ a.button.button--lg, button.button.button--xl{
     line-height: 55px;
     text-align: left; 
   }
-  .shopify-section--collection-list .section-header .prose .cusstom-pill {
+  .shopify-section--collection-list .section-header .prose .custom-pill {
     font-size: 20px;
   }
 }

@@ -9508,6 +9508,7 @@ split-lines {
 
 .place-self-center-end {
   place-self: center end;
+  text-align: right;
 }
 
 .place-self-end {

@@ -80,7 +80,7 @@
         "identifier": "",
         "full_width": true,
         "allow_transparent_header": true,
-        "image_size": "md",
+        "image_size": "auto",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": false,

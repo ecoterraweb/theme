@@ -23,11 +23,11 @@
     "e6be5a4e-ac99-4383-bebc-c0c03b448a2f": {
       "type": "slideshow",
       "blocks": {
-        "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-2": {
+        "f9326b3f-fbe8-476d-b57b-fbce599149c3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_CyberDay_62d37bd9-43e1-4f3b-8259-ffe1eadb72c8.png",
-            "mobile_image": "shopify:\/\/shop_images\/Movil_Banner_CyberDay_9326dea5-4c0c-48c1-a564-d6acade6e5d4.png",
+            "image": "shopify:\/\/shop_images\/Banner_CyberDay-Bombazo-Huevos.png",
+            "mobile_image": "shopify:\/\/shop_images\/Movil_Banner_CyberDay-Bombazo-Huevos.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -47,11 +47,11 @@
             "background_gradient": ""
           }
         },
-        "f9326b3f-fbe8-476d-b57b-fbce599149c3": {
+        "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_CyberDay-Bombazo-Huevos.png",
-            "mobile_image": "shopify:\/\/shop_images\/Movil_Banner_CyberDay-Bombazo-Huevos.png",
+            "image": "shopify:\/\/shop_images\/Banner_CyberDay_62d37bd9-43e1-4f3b-8259-ffe1eadb72c8.png",
+            "mobile_image": "shopify:\/\/shop_images\/Movil_Banner_CyberDay_9326dea5-4c0c-48c1-a564-d6acade6e5d4.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -97,8 +97,8 @@
         }
       },
       "block_order": [
-        "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-2",
         "f9326b3f-fbe8-476d-b57b-fbce599149c3",
+        "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-2",
         "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-1"
       ],
       "settings": {

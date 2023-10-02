@@ -62,7 +62,7 @@
       "open_menu": "Abrir menú de navegación",
       "open_search": "Abrir búsqueda",
       "open_account": "Abrir página de la cuenta",
-      "open_cart": "Abrir cesta"
+      "open_cart": "Abrir carrito"
     }
   },
   "product": {
@@ -71,11 +71,11 @@
       "view_product": "Ver producto",
       "quick_add": "+ Adición rápida",
       "add_to_cart_short": "+ Añadir",
-      "add_to_cart_button": "Añadir a la cesta",
+      "add_to_cart_button": "Añadir al carrito",
       "pre_order_button": "Pedido previo",
       "sold_out_button": "Agotado",
       "unavailable_button": "No disponible",
-      "added_to_cart": "Añadido a la cesta",
+      "added_to_cart": "Añadido al carrito",
       "sold_out_badge": "Agotado",
       "on_sale_badge": "Oferta",
       "discount_badge_html": "Ahorra {{ savings }}",
@@ -295,8 +295,8 @@
   },
   "cart": {
     "general": {
-      "title": "Cesta",
-      "empty": "La cesta está vacía",
+      "title": "Carrito",
+      "empty": "El carrito está vacío",
       "continue_shopping": "Seguir comprando",
       "weight": "Peso",
       "subtotal": "Subtotal",
@@ -309,7 +309,7 @@
       "edit_order_note": "Editar nota del pedido",
       "order_note": "Nota del pedido",
       "save_note": "Guardar",
-      "view_cart": "Ver cesta",
+      "view_cart": "Ver carrito",
       "checkout": "Finalizar compra",
       "we_accept": "Aceptamos"
     },

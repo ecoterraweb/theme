@@ -11,6 +11,7 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
+            "content": "",
             "title": "HACIA LA TRAZABILIDAD BASADA EN BLOCKCHAIN",
             "heading_tag": "h0",
             "heading_style": "font--primary",
@@ -86,6 +87,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/esquema_b4740aac-51d2-4491-b88d-324aca10c8ba.png",
+            "image_link": "",
+            "invert_image": true,
             "width_mode": "custom",
             "max_width": 470,
             "mobile_max_width": 330
@@ -264,7 +267,7 @@
         "6963b46c-9aad-4eea-8c95-b45bc2e1de2d": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>CADA UNO ROMPE PARADIGMAS ¿Y <strong>JUNTOS<\/strong>? FORMAN <strong>LOS PILARES DE ECOTERRA<\/strong><\/h1><p>Individualmente, cada laboratorio rompe paradigmas. ¿Y juntos? Forman los pilares de Ecoterra, un modelo que trasciende disciplinas e industrias. Hemos aprovechado el poder de la <strong>BLOCKCHAIN <\/strong>para hacer que estas innovaciones no solo sean accesibles, sino fundamentales para nuestro ecosistema global compartido. Con <strong>Web3<\/strong>, estamos creando una plataforma descentralizada y democratizada donde cualquiera, en cualquier lugar, puede contribuir a la revolución regenerativa.<\/p><p>Los EcoLabs no son solo laboratorios; son faros en un mundo nublado, guiándonos hacia un futuro sostenible.<\/p>"
+            "content": "<h1>CADA UNO ROMPE PARADIGMAS <strong>¿Y JUNTOS? <\/strong>FORMAN<strong> LOS PILARES DE ECOTERRA<\/strong><\/h1><p>Individualmente, cada laboratorio rompe paradigmas. ¿Y juntos? Forman los pilares de Ecoterra, un modelo que trasciende disciplinas e industrias. Hemos aprovechado el poder de la <strong>BLOCKCHAIN <\/strong>para hacer que estas innovaciones no solo sean accesibles, sino fundamentales para nuestro ecosistema global compartido. Con <strong>Web3<\/strong>, estamos creando una plataforma descentralizada y democratizada donde cualquiera, en cualquier lugar, puede contribuir a la revolución regenerativa.<\/p><p>Los EcoLabs no son solo laboratorios; son faros en un mundo nublado, guiándonos hacia un futuro sostenible.<\/p>"
           }
         }
       },

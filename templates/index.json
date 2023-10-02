@@ -464,7 +464,7 @@
         ".full-bleed {max-width: 100%; margin: 0;}"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "subheading": "ecotech",
         "custom_pill_subheading": true,
         "subheading_background_color": "#1a1a1a",

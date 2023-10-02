@@ -82,7 +82,8 @@
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
       ],
       "custom_css": [
-        "strong {color: #66f3ff;}"
+        "strong {color: #66f3ff;}",
+        ".slideshow__slide:nth-of-type(3) strong {color: #dbde3b;}"
       ],
       "settings": {
         "identifier": "",

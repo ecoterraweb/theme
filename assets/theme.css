@@ -10311,8 +10311,8 @@ split-lines {
   cursor: pointer;
 }
 a.button.button--lg, button.button.button--xl{
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .prose p strong{
   font-weight: 600;

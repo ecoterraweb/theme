@@ -10,7 +10,7 @@
             "mobile_image": "shopify:\/\/shop_images\/banner-1s_d8ec94f2-d6b5-4feb-8ffe-9091b3f5fece.png",
             "content_max_width": 600,
             "mobile_text_position": "place-self-center-end text-end",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
             "content": "<h2><strong>Elige<\/strong> con propósito<\/h2>",
             "title": "",
@@ -34,7 +34,7 @@
             "mobile_image": "shopify:\/\/shop_images\/banner-2s.png",
             "content_max_width": 600,
             "mobile_text_position": "place-self-center-end text-end",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
             "content": "<h1><strong>DISFRUTA<\/strong> CON SENTIDO<\/h1>",
             "title": "",
@@ -57,10 +57,7 @@
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
       ],
       "custom_css": [
-        "h1 strong {color: #66f3ff;}",
-        "h2 {font-size: 66px; font-style: normal; font-weight: 700; line-height: 66px; \/* 100% *\/ letter-spacing: -1.32px; text-transform: uppercase;}",
-        "h2 strong {color: #dbde3b;}",
-        "div {text-align: right;}"
+        "strong {color: #66f3ff;}"
       ],
       "settings": {
         "identifier": "",

@@ -82,8 +82,8 @@
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
       ],
       "custom_css": [
-        "strong {color: #dbde3b;}",
-        ".slideshow__slide:nth-of-type(3) strong {color: #66f3ff;}"
+        "strong {color: #66f3ff;}",
+        ".slideshow__slide:nth-of-type(3) strong {color: #dbde3b;}"
       ],
       "settings": {
         "identifier": "",
@@ -491,6 +491,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/envios_c2e63124-0a13-40ae-a67d-a4b924cae9b5.png",
+            "image_link": "shopify:\/\/policies\/privacy-policy",
             "invert_image": false,
             "width_mode": "custom",
             "max_width": 120,
@@ -512,6 +513,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cambios_41b866d6-dcca-438e-a205-b738311f4453.png",
+            "image_link": "shopify:\/\/policies\/refund-policy",
             "invert_image": false,
             "width_mode": "custom",
             "max_width": 120,

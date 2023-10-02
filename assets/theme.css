@@ -10317,9 +10317,14 @@ a.button.button--lg, button.button.button--xl{
   font-weight: 600;
 }
 .custom-pill {
-  padding: 5.5px 22px 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.70px;
+  word-wrap: break-word;
+  padding: 10px 20px;
   background-color: #1a1a1a;
-  color: #Fff;
   border-radius: 100px;
   width: fit-content;
   display: flex;

@@ -50,11 +50,36 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "e717a180-2c83-4e79-8890-ff14077b4d90": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_CyberDay.png",
+            "mobile_image": "shopify:\/\/shop_images\/Movil_Banner_CyberDay.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "content": "",
+            "title": "Slide title",
+            "heading_tag": "h0",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
         "266ea942-f3bc-46b8-896b-dccd9dc58ff5",
-        "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
+        "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b",
+        "e717a180-2c83-4e79-8890-ff14077b4d90"
       ],
       "custom_css": [
         "strong {color: #66f3ff;}"

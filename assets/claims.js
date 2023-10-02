@@ -266,6 +266,9 @@ function initMap(elementId, points, templateId = null) {
 
   // Variable global para almacenar la referencia al InfoWindow actualmente abierto
   var currentInfoWindow = null;
+  // fitbounds
+  var bounds = new google.maps.LatLngBounds();
+
   // Iterar sobre los puntos y agregar marcadores al mapa
   points.forEach(function (point) {
     const template = point.claims.filter((e) => e.templateId == templateId);
@@ -363,8 +366,10 @@ function initMap(elementId, points, templateId = null) {
       });
     });
     }
+    bounds.extend(marker.getPosition());
   });
-  // Capturamos todos los elementos con la clase claim__popup__open
+  // Ajustar el mapa para que se ajuste a todos los marcadores
+  map.fitBounds(bounds);
 }
 // Función para cerrar el InfoWindow actualmente abierto
 function closeCurrentInfoWindow() {

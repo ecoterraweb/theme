@@ -48,7 +48,9 @@ LIQUID
         </div>
       </div>
     {%- endif -%}
-
+    {%- if section.settings.button_text != blank -%}
+      {% render 'button', content: section.settings.button_text, href: section.settings.button_url, background: section.settings.button_background, text_color: section.settings.button_text_color %}
+    {%- endif -%}
     <div class="section-stack__main">
        {%- capture class -%}content-over-media {% if section.settings.video_size != 'auto' %}content-over-media--{{ section.settings.video_size }}{% endif %} {% if section.settings.full_width %}full-bleed{% else %}shadow-block rounded-lg{% endif %}{%- endcapture -%}
       <div {% render 'surface', class: class, text_color: section.settings.text_color %}>
@@ -249,6 +251,26 @@ LIQUID
       "id": "drag_cursor_color",
       "label": "Drag cursor color",
       "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button Link"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button Background"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text color"
     }
   ],
   "presets": [

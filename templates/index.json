@@ -34,7 +34,7 @@
             "mobile_image": "shopify:\/\/shop_images\/banner-2s.png",
             "content_max_width": 600,
             "mobile_text_position": "place-self-center-end text-end",
-            "desktop_text_position": "sm:place-self-end-end sm:text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
             "content": "<h1><strong>DISFRUTA<\/strong> CON SENTIDO<\/h1>",
             "title": "",

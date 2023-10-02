@@ -269,9 +269,6 @@
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
       ],
       "custom_css": [
-        "p {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
-        "a {letter-spacing: 0.02em; font-weight: 500;}",
-        "h2 {letter-spacing: -0.5px;}",
         "strong {color: #dbde3b;}"
       ],
       "settings": {
@@ -282,7 +279,7 @@
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/Sideshow-1.png",
         "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
-        "mobile_text_position": "place-self-center-end text-end",
+        "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#1a1a1a",
@@ -491,6 +488,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/envios_c2e63124-0a13-40ae-a67d-a4b924cae9b5.png",
+            "image_link": "shopify:\/\/policies\/privacy-policy",
             "invert_image": false,
             "width_mode": "custom",
             "max_width": 120,
@@ -512,6 +510,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cambios_41b866d6-dcca-438e-a205-b738311f4453.png",
+            "image_link": "shopify:\/\/policies\/refund-policy",
             "invert_image": false,
             "width_mode": "custom",
             "max_width": 120,

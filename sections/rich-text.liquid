@@ -77,7 +77,7 @@
 
           {%- when 'image' -%}
             {%- if block.settings.image != blank -%}
-              <div {{ block.shopify_attributes }} style="margin-block-start: 0; order: -1;">
+              <div {{ block.shopify_attributes }} style="margin-block-start: 0; {%- if block.settings.invert_image -%} order: -1; {%- endif -%}">
                 {%- capture image_style_attribute -%}{% if section.settings.text_position == 'center' %}margin-inline: auto;{% endif %}{%- endcapture -%}
 
                 {%- if block.settings.width_mode == 'custom' -%}
@@ -382,6 +382,12 @@
           "id": "image",
           "label": "Image",
           "info": "1600 x 800px .jpg recommended"
+        },
+        {
+          "type": "checkbox",
+          "id": "invert_image",
+          "label": "First image on mobile",
+          "default": true
         },
         {
           "type": "radio",

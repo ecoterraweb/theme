@@ -10385,6 +10385,7 @@ a.button.button--lg, button.button.button--xl{
 /* Before After Video */
 .shopify-section--before-after-video .prose *+:is(.h2,.h3,.h4,h2,h3,h4), .shopify-section--before-after-video .prose :is(.h0,.h1,.h2,.h3,.h4,h1,h2,h3,h4)+*, .shopify-section--before-after-video .prose *+.button{
   margin: 0;
+  margin-block-start: 0 !important;
 }
 .shopify-section--before-after-video .prose{
   display: flex;

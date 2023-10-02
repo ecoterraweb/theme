@@ -12,7 +12,7 @@
             "mobile_text_position": "place-self-center-end text-end",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
-            "content": "<h1><strong>Elige<\/strong> con propósito<\/h1>",
+            "content": "",
             "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
@@ -36,7 +36,7 @@
             "mobile_text_position": "place-self-center-end text-end",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
             "subheading": "",
-            "content": "<h1><strong>DISFRUTA<\/strong> CON SENTIDO<\/h1>",
+            "content": "",
             "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
@@ -493,7 +493,7 @@
         "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h3>POLÍTICAS DE <br\/><strong>CAMBIOS <\/strong>Y <strong>REEMBOLSOS<\/strong><\/h3>"
+            "content": "<h3><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">POLÍTICAS DE <br\/><strong>CAMBIOS <\/strong>Y <strong>REEMBOLSOS<\/strong><\/a><\/h3>"
           }
         }
       },

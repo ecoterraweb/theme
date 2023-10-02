@@ -86,7 +86,7 @@ LIQUID
           {%- capture content_class -%}{{ block.settings.mobile_text_position }} {{ block.settings.desktop_text_position }}{%- endcapture -%}
 
           <div {% render 'surface', class: content_class, text_color: block.settings.text_color %}>
-            <div class="prose">
+            <div class="prose prose--slideshow">
               {%- if block.settings.subheading != blank -%}
                 <p class="bold" data-sequence="subheading">{{ block.settings.subheading | escape }}</p>
               {%- endif -%}
@@ -95,6 +95,9 @@ LIQUID
                 <p class="{{ block.settings.heading_tag }} {{ block.settings.heading_style }}" data-sequence="heading">
                   {%- render 'styled-text', content: block.settings.title, apparition_effect: true -%}
                 </p>
+              {%- endif -%}
+              {%- if block.settings.content != blank -%}
+                  {{- block.settings.content -}}
               {%- endif -%}
 
               {%- if block.settings.button_text != blank -%}
@@ -418,6 +421,11 @@ LIQUID
           "id": "subheading",
           "label": "Subheading",
           "default": "Tell your story"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
         },
         {
           "type": "text",

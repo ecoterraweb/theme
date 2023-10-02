@@ -370,7 +370,7 @@
         "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Conoce nuestro catálogo completo de productos.<\/p>"
+            "content": "<p><strong>Conoce nuestro catálogo completo de productos!<\/strong><\/p>"
           }
         },
         "d898b983-5ef8-413f-838b-a40f0c9ebe5e": {
@@ -381,7 +381,7 @@
             "text": "Descárgalo aquí",
             "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0280\/0854\/6397\/files\/Catalogo-Ecoterra_web.pdf?v=1695752250",
             "background": "#96d123",
-            "text_color": "#ffffff"
+            "text_color": "#004228"
           }
         }
       },
@@ -401,7 +401,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#026338",
+        "background": "#004228",
         "background_gradient": "",
         "text_color": "#ffffff"
       }

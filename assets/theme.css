@@ -10331,3 +10331,82 @@ a.button.button--lg, button.button.button--xl{
 .pointer-events-all {
   pointer-events: all !important;
 }
+
+/* QUERIES NEW CHANGES */
+
+/* mobile */
+.prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+  font-size: 55px;
+  text-transform: uppercase;
+  line-height: 55px;
+}
+.shopify-section--collection-list .section-header .prose h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+ font-size: 25px;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 25px;
+ text-align: center;
+ word-wrap: break-word;
+}
+.shopify-section--collection-list .section-header .prose h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6) strong{
+  font-weight: 700;
+}
+.shopify-section--collection-list .section-header .prose .custom-pill {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.70px;
+  word-wrap: break-word
+}
+/* tablet */
+@media screen and (min-width: 770px) {
+  .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 66px;
+    line-height: 66px;
+  }
+  .shopify-section--collection-list .section-header .prose h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6)
+  {
+    font-size: 33px;
+    line-height: 33px;
+  }
+  .shopify-section--collection-list .section-header .prose .custom-pill {
+    font-size: 16px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1150px) {
+  .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 88px;
+    line-height: 88px;
+  }
+  .shopify-section--collection-list .section-header .prose h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 44px;
+    line-height: 44px;
+    text-align: left; 
+  }
+  .shopify-section--collection-list .section-header .prose .custom-pill {
+    font-size: 20px;
+  }
+}
+/* full width */
+@media screen and (min-width: 1400px) {
+  .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 110px;
+    text-transform: uppercase;
+    line-height: 110px;
+  }
+  .shopify-section--collection-list .section-header .prose h2{
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .shopify-section--collection-list .section-header .prose h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 55px;
+    line-height: 55px;
+    text-align: left; 
+  }
+  .shopify-section--collection-list .section-header .prose .custom-pill {
+    font-size: 20px;
+  }
+}

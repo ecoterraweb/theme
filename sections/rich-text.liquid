@@ -77,7 +77,13 @@
 
           {%- when 'image' -%}
             {%- if block.settings.image != blank -%}
-              <div {{ block.shopify_attributes }} style="margin-block-start: 0; {%- if block.settings.invert_image -%} order: -1; {%- endif -%}">
+            
+              {%- if block.settings.image_link != blank -%}
+                <a href="{{ block.settings.image_link }}" {{ block.shopify_attributes }} style="margin-block-start: 0; {%- if block.settings.invert_image -%} order: -1; {%- endif -%}">
+              {%- else -%}
+                 <div {{ block.shopify_attributes }} style="margin-block-start: 0; {%- if block.settings.invert_image -%} order: -1; {%- endif -%}">
+              {%- endif -%}
+
                 {%- capture image_style_attribute -%}{% if section.settings.text_position == 'center' %}margin-inline: auto;{% endif %}{%- endcapture -%}
 
                 {%- if block.settings.width_mode == 'custom' -%}
@@ -88,7 +94,11 @@
                 {%- endif -%}
 
                 {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: image_sizes_attribute, widths: '200,300,400,500,600,800,1000,1200,1400,1600', style: image_style_attribute -}}
-              </div>
+              {%- if block.settings.image_link != blank -%}
+                </a>
+              {%- else -%}
+                    </div>
+              {%- endif -%}
             {%- endif -%}
 
           {%- when 'button' -%}
@@ -382,6 +392,11 @@
           "id": "image",
           "label": "Image",
           "info": "1600 x 800px .jpg recommended"
+        },
+        {
+          "type": "url",
+          "id": "image_link",
+          "label": "Link image"
         },
         {
           "type": "checkbox",

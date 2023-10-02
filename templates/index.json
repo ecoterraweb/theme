@@ -269,7 +269,7 @@
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
       ],
       "custom_css": [
-        "strong{color :#DBDE3B}"
+        "strong {color: #dbde3b;}"
       ],
       "settings": {
         "identifier": "",
@@ -279,7 +279,7 @@
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/Sideshow-1.png",
         "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
-        "mobile_text_position": "place-self-center-start text-start",
+        "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#1a1a1a",

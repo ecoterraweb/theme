@@ -24,7 +24,7 @@
   {%- endif -%}
 
 
-<div {% render 'section-properties', class: 'section-bg-rich-text {%- if section.settings.mode_image -%} section-bg-rich-text--image {%- endif -%}' %} id="{{ section.settings.identifier }}">
+<div {% render 'section-properties', class: 'section-bg-rich-text' %} id="{{ section.settings.identifier }}">
   {%- if section.settings.image != blank -%}
         {%- assign mobile_image = section.settings.mobile_image | default: section.settings.image -%}
 

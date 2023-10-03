@@ -5,6 +5,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "fd8b7c4d-d92b-4bb4-9044-2bdefd6d57e8": {
+          "type": "text_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_380f66ce-dcfc-40ea-970c-6533e32e4680.png",
+            "content": "<p>Nuestra misión es crear una comunidad comprometida con respetar los tiempos de la naturaleza y disminuir el impacto medioambiental a través de las prácticas de comercio justo y  el fomento del bienestar animal #AlimentosConPropósito<\/p>",
+            "enable_follow_on_shop": true
+          }
+        },
         "newsletter": {
           "type": "newsletter",
           "settings": {
@@ -28,21 +36,13 @@
             "content": "<p>Camino 8 poniente, Parcela 209, Paine, Santiago de Chile<\/p><p><a href=\"mailto:ventas@ecoterra.cl\" title=\"mailto:ventas@ecoterra.cl\">ventas@ecoterra.cl<\/a><br\/><a href=\"\/pages\/contacto-general\" title=\"Contacto General\">Escríbenos<\/a><\/p>",
             "enable_follow_on_shop": false
           }
-        },
-        "17dba3d1-a5bc-4aa5-8023-4aa839966c91": {
-          "type": "text",
-          "settings": {
-            "title": "ecoterra",
-            "content": "<p>Nuestra misión es crear una comunidad comprometida con respetar los tiempos de la naturaleza y disminuir el impacto medioambiental a través de las prácticas de comercio justo y  el fomento del bienestar animal #AlimentosConPropósito<\/p>",
-            "enable_follow_on_shop": true
-          }
         }
       },
       "block_order": [
+        "fd8b7c4d-d92b-4bb4-9044-2bdefd6d57e8",
         "newsletter",
         "links",
-        "404c1460-b0ff-49d5-9ca3-3b62bf3e1689",
-        "17dba3d1-a5bc-4aa5-8023-4aa839966c91"
+        "404c1460-b0ff-49d5-9ca3-3b62bf3e1689"
       ],
       "custom_css": [
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",

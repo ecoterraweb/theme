@@ -133,7 +133,7 @@
         "eb669705-b208-4b03-9d17-674985343137"
       ],
       "custom_css": [
-
+        ".prose h2 strong {color: #66f3ff;}"
       ],
       "settings": {
         "identifier": "",

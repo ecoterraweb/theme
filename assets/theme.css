@@ -10472,6 +10472,16 @@ p.custom__policies--text a{
 .footer__newsletter-form .icon-chevron-right-small path{
   stroke: #004228;
 } 
+.footer__newsletter-form.form{
+  margin-top: 10px
+}
+.footer__block--newsletter .h5{
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  word-wrap: break-word;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

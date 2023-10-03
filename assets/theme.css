@@ -10500,6 +10500,10 @@ p.custom__policies--text a{
   word-wrap: break-word;
   opacity: 1;
 }
+.footer__block--text{
+  gap: 0;
+  margin-top: auto;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

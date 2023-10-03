@@ -10511,6 +10511,9 @@ p.custom__policies--text a{
 .section-bg-rich-text--image .rich-text {
   padding: 40px 15px 100px;
 }
+.section-bg-rich-text--image .rich-text .prose {
+  align-items: center;
+}
 .section-bg-rich-text--image .rich-text .prose h2{
   color: white;
   font-size: 25px;

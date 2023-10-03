@@ -223,17 +223,12 @@
         "a80fbbc7-e9ce-49c6-b127-de269a324faf"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #ff6700;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h2 strong {color: #ff6700;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
-        "mode_image": false,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#f5f5f5",

@@ -10593,4 +10593,14 @@ p.custom__policies--text a{
   p.custom__policies--text{
     font-size: 20px;
   }
+  .footer__block-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr)
+  }
+  .footer__block--text-image,  .footer__block--newsletter{
+    grid-column: span 2;
+  }
+  .footer__block--text{
+    grid-column: span 1;
+  }
 }

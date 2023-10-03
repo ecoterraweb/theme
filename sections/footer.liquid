@@ -29,7 +29,7 @@
             {%- case block.type -%}
               {%- when 'text_image' -%}
                 {%- if block.settings.title != blank or block.settings.content != blank or shop.features.follow_on_shop? and block.settings.enable_follow_on_shop -%}
-                  <div class="footer__block footer__block--text" {{ block.shopify_attributes }}>
+                  <div class="footer__block footer__block--text-image" {{ block.shopify_attributes }}>
                     {%- if block.settings.image != blank -%}
                       {%- capture sizes -%}{{ block.settings.image_width }}px{%- endcapture -%}
                       {%- capture widths -%}{{ block.settings.image_width }}, {{ block.settings.image_width | times: 2 | at_most: block.settings.image.width }}{%- endcapture -%}

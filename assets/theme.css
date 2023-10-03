@@ -10398,6 +10398,7 @@ a.button.button--lg, button.button.button--xl{
 .shopify-policy__container{
   margin: 0 !important;
   padding: 0 !important;
+  gap: 0 !important;
 }
 .shopify-policy__title h1{
   padding-left: 48px;

@@ -10417,6 +10417,18 @@ a.button.button--lg, button.button.button--xl{
   margin: auto;
   width: 100%;
 }
+.custom__policies--subtitle{
+  color: #004228;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18px;
+  word-wrap: break-word;
+}
+
+.custom__policies--subtitle:nth-of-type(1){
+  margin: 0;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10449,6 +10461,10 @@ a.button.button--lg, button.button.button--xl{
   }
   .shopify-policy__body{
     padding: 44px 36px;
+  }
+  .custom__policies--subtitle{
+    font-size: 20px;
+    letter-spacing: 0.20px;
   }
 }
 
@@ -10490,6 +10506,10 @@ a.button.button--lg, button.button.button--xl{
     padding: 115px 36px;
     max-width: 1054px;
   }
+  .custom__policies--subtitle{
+    font-size: 25px;
+    letter-spacing: 0.25px;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -10525,5 +10545,9 @@ a.button.button--lg, button.button.button--xl{
   }
   .shopify-policy__body{
     max-width: 1122px;
+  }
+  .custom__policies--subtitle{
+    font-size: 30px;
+    letter-spacing: 0.30px;
   }
 }

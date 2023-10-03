@@ -34,7 +34,15 @@
           "type": "text",
           "settings": {
             "title": "contacto",
-            "content": "<p>Camino 8 poniente, Parcela 209, Paine, Santiago de Chile<\/p><p><a href=\"mailto:ventas@ecoterra.cl\" title=\"mailto:ventas@ecoterra.cl\">ventas@ecoterra.cl<\/a><br\/><a href=\"\/pages\/contacto-general\" title=\"Contacto General\">Escríbenos<\/a><\/p>",
+            "content": "<p><a href=\"mailto:ventas@ecoterra.cl\" title=\"mailto:ventas@ecoterra.cl\">entas@ecoterra.cl<\/a><br\/><a href=\"\/pages\/contacto-general\" title=\"Contacto General\">Escríbenos<\/a><\/p>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "e6b7f4de-98cc-4cff-814d-4fcc9ef1c8a8": {
+          "type": "text",
+          "settings": {
+            "title": "dirección",
+            "content": "<p>Camino 8 poniente, <br\/>Parcela 209, Paine<br\/>Santiago de Chile<\/p>",
             "enable_follow_on_shop": false
           }
         }
@@ -43,7 +51,8 @@
         "fd8b7c4d-d92b-4bb4-9044-2bdefd6d57e8",
         "newsletter",
         "links",
-        "404c1460-b0ff-49d5-9ca3-3b62bf3e1689"
+        "404c1460-b0ff-49d5-9ca3-3b62bf3e1689",
+        "e6b7f4de-98cc-4cff-814d-4fcc9ef1c8a8"
       ],
       "custom_css": [
         "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",

@@ -10524,6 +10524,7 @@ p.custom__policies--text a{
   text-align: center;
   max-width: 250px;
   margin: auto;
+  margin-block-start: 22px !important;
 }
 .section-bg-rich-text--image .rich-text .prose p{
   color: white;
@@ -10532,6 +10533,7 @@ p.custom__policies--text a{
   line-height: 20px;
   word-wrap: break-word;
   text-align: center;
+  margin-block-start: 22px !important;
 }
 .section-bg-rich-text--image .rich-text .prose strong{
   font-weight: 600;
@@ -10583,7 +10585,16 @@ p.custom__policies--text a{
   .footer__block--newsletter .floating-label{
     font-size: 11px;
   }
-    
+  .section-bg-rich-text--image .rich-text .prose h2{
+    font-size: 33px;
+    line-height: 33px;
+    max-width: 330px;
+  }
+  .section-bg-rich-text--image .rich-text .prose p{
+    font-size: 16px;
+    line-height: 16px;
+
+  }    
 }
 
 /* desktop */

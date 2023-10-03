@@ -10505,7 +10505,13 @@ p.custom__policies--text a{
   margin-top: auto;
 }
 /* Rich text */
-.rich-text .prose h2{
+.section-bg-rich-text--image .split-rich-text {
+  padding: 44px 48px;
+}
+.section-bg-rich-text--image .rich-text {
+  padding: 40px 15px 100px;
+}
+.section-bg-rich-text--image .rich-text .prose h2{
   color: white;
   font-size: 25px;
   font-weight: 700;
@@ -10516,7 +10522,7 @@ p.custom__policies--text a{
   max-width: 250px;
   margin: auto;
 }
-.rich-text .prose p{
+.section-bg-rich-text--image .rich-text .prose p{
   color: white;
   font-size: 14px;
   font-weight: 500;
@@ -10524,7 +10530,7 @@ p.custom__policies--text a{
   word-wrap: break-word;
   text-align: center;
 }
-.rich-text .prose strong{
+.section-bg-rich-text--image .rich-text .prose strong{
   font-weight: 600;
 }
 

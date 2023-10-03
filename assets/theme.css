@@ -10450,6 +10450,7 @@ a.button.button--lg, button.button.button--xl{
   #policies-banner .split-rich-text .prose{
     grid-template-columns: 66px 1fr;
     gap: 22px;
+    text-align: left;
   }
 }
 /* full width */

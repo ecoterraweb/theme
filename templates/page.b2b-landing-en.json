@@ -131,15 +131,15 @@
         "dbad0198-1b21-4cfb-899b-61f0c5a12653": {
           "type": "item",
           "settings": {
-            "title": "¿Hay un monto mínimo de compra para convertirse en cliente?",
-            "content": "<p>El monto mínimo son 2 cajas de producto. El pago es a través de factura.<\/p>"
+            "title": "Is there a minimum purchase amount to become a customer?",
+            "content": "<p>The minimum amount is 2 boxes of product. Payment is by invoice.<\/p>"
           }
         },
         "68d1124b-2021-4222-9701-d94af64b8b74": {
           "type": "item",
           "settings": {
-            "title": "¿Cuál es la frecuencia de despachos?",
-            "content": "<p>Depende de la comuna en que se encuentre tu negocio, ya que trabajamos con un calendario de despachos por sector.  Los pedidos se tienen que hacer con 48 hrs de anticipación.<\/p>"
+            "title": "What is the frequency of dispatches?",
+            "content": "<p>It depends on the commune where your business is located, since we work with a delivery calendar by sector.  Orders must be placed 48 hours in advance.<\/p>"
           }
         }
       },

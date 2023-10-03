@@ -10451,10 +10451,10 @@ p.custom__policies--text{
   font-weight: 500;
   word-wrap: break-word
 }
-.p.custom__policies--text strong{
+p.custom__policies--text strong{
   font-weight: 600;
 }
-.p.custom__policies--text a{
+p.custom__policies--text a{
   color: #7DAC00;
   font-weight: 600;
 }

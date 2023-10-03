@@ -9,6 +9,7 @@
           "type": "text_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Logo_380f66ce-dcfc-40ea-970c-6533e32e4680.png",
+            "image_width": 150,
             "content": "<p>Nuestra misión es crear una comunidad comprometida con respetar los tiempos de la naturaleza y disminuir el impacto medioambiental a través de las prácticas de comercio justo y  el fomento del bienestar animal #AlimentosConPropósito<\/p>",
             "enable_follow_on_shop": true
           }
@@ -51,9 +52,9 @@
       "settings": {
         "show_social_media": true,
         "show_payment_icons": false,
-        "show_country_selector": true,
-        "show_country_flag": true,
-        "show_country_name": true,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
         "show_locale_selector": true
       }
     }

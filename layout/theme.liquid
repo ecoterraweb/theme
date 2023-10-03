@@ -88,6 +88,24 @@ all events, dependencies...) in the "documentation.txt" file, located in the Ass
 
       gtag('config', 'G-FPV98LJMDQ');
     </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+  
+        var currentUrl = window.location.pathname;
+        var linkFadedReverseElements = document.querySelectorAll('.link-faded-reverse');
+      
+        linkFadedReverseElements.forEach(function(element) {
+          var menuItemUrl = element.getAttribute('data-url') || element.getAttribute('href');
+          console.log(menuItemUrl);
+      
+          if (currentUrl === menuItemUrl) {
+            element.classList.add('active');
+          }
+        });
+      
+      });
+      
+    </script>
     <!-- Google MAP -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC-T1UUdidtBvlR3HsFDne14mAhJMV2ts"></script>
 

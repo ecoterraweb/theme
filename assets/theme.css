@@ -10438,8 +10438,8 @@ ul.custom__policies--list{
   font-weight: 500;
   word-wrap: break-word;
 }
-ul.custom__policies--list strong{
-  font-weight: 500;
+ul.custom__policies--list li strong{
+  font-weight: 600;
 }
 /* tablet */
 @media screen and (min-width: 770px) {

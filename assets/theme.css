@@ -10441,6 +10441,10 @@ ul.custom__policies--list{
 ul.custom__policies--list li strong{
   font-weight: 600;
 }
+ul.custom__policies--list li a{
+  color: #7DAC00;
+  font-weight: 600;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

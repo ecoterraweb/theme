@@ -19,8 +19,10 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
+            "content": "",
             "title": "",
             "heading_tag": "h0",
+            "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -37,6 +39,7 @@
         "template--15540312113245__77458498-be5c-4ebb-9018-f56f854708ca-image-1"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "allow_transparent_header": false,
         "image_size": "auto",
@@ -44,7 +47,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -54,7 +57,7 @@
         "title": "¡Conviértete en un EcoPartner y colabora con nosotros para mover la aguja y salvar nuestro planeta!",
         "button_text": "Enviar",
         "form_action": "https:\/\/formspree.io\/f\/xzblpper",
-        "language": "es"
+        "language": "en"
       }
     },
     "40d74cfc-0f13-48b3-9d4b-a80a4d6016db": {
@@ -69,8 +72,10 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
+            "content": "",
             "title": "",
             "heading_tag": "h0",
+            "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -87,6 +92,7 @@
         "5b12b8ba-8d6b-405d-89bc-e2b0803db8c3"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "allow_transparent_header": true,
         "image_size": "auto",
@@ -94,7 +100,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },

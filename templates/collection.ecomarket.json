@@ -389,7 +389,7 @@
         "d3d71059-a2ff-4ff4-9345-ec1de623ca35": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<h3><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">POLÍTICAS DE <strong>ENVÍOS <br\/><\/strong>Y<strong> DESPACHOS<\/strong><\/a><\/h3>"
           }
         },
         "4ef0a91e-952d-49e6-bacf-a18e862d5c9d": {
@@ -411,7 +411,7 @@
         "c8156990-11bf-403c-b547-ac58205c2ce3": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<h3><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">POLÍTICAS DE <br\/><strong>CAMBIOS <\/strong>Y <strong>REEMBOLSOS<\/strong><\/a><\/h3>"
           }
         }
       },

@@ -288,17 +288,12 @@
         "1d273f80-b02f-4387-8ad3-801ac1f508ec"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #dbde3b;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h2 strong {color: #dbde3b;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
-        "mode_image": false,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#026338",

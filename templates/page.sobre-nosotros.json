@@ -15,12 +15,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Sideshow-1.png",
             "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
-            "content_max_width": 600,
-            "mobile_text_position": "place-self-end-end text-center",
+            "content_max_width": 740,
+            "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
-            "content": "",
-            "title": "ESTAMOS CAMBIANDO LAS COSAS",
+            "content": "<h1>ESTAMOS<strong> CAMBIANDO<\/strong> LAS COSAS<\/h1>",
+            "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
             "button_text": "",
@@ -39,9 +39,7 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1"
       ],
       "custom_css": [
-        "div {text-align: ;}",
-        " \/* Cambios\/Desktop\/H0\/H0 *\/P.h6 {font-size: 85px; font-style: normal; font-weight: 700; line-height: 90px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase;}",
-        "@media screen and (max-width: 700px) {P.h6 {font-size: 50px; font-style: normal; font-weight: 700; line-height: 55px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase; }}"
+        "strong {color: #dbde3b;}"
       ],
       "settings": {
         "identifier": "",

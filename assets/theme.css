@@ -10543,12 +10543,14 @@ p.custom__policies--text a{
   font-weight: 700;
   text-transform: uppercase;
   line-height: 44px;
-  word-wrap: break-word
+  word-wrap: break-word;
+  text-align: left;
 }
 .section-bg-rich-text--image .split-rich-text .prose p{
   font-size: 16px;
   font-weight: 500;
-  word-wrap: break-word
+  word-wrap: break-word;
+  text-align: left;
 }   
 /* tablet */
 @media screen and (min-width: 770px) {

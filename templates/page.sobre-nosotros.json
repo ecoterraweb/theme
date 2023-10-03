@@ -120,6 +120,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/mani-13.png",
+            "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
             "max_width": 450,
@@ -157,6 +158,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/mani-2f.png",
+            "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
             "max_width": 450,
@@ -216,6 +218,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/mani_1.png",
+            "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
             "max_width": 450,
@@ -284,6 +287,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/mani-eco.png",
+            "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
             "max_width": 450,
@@ -499,7 +503,8 @@
       "settings": {
         "full_width": false,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/huevos_7d9b2b5f-6401-4f78-b59e-e0965d1453d7.png",
+        "image": "shopify:\/\/shop_images\/BG_IMPCT2.png",
+        "mobile_image": "shopify:\/\/shop_images\/BG__IMPCT2_S.png",
         "title": "",
         "heading_gradient_title": "",
         "text": "",

@@ -13,8 +13,8 @@
         "template--15540312113245__77458498-be5c-4ebb-9018-f56f854708ca-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Desktop-1366px-x-540px.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Mobile-540px-x-677px_1.jpg",
+            "image": "shopify:\/\/shop_images\/b2b-landing-eng-banner-desktop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/b2b-landing-eng-banner-mobile.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -54,8 +54,8 @@
     "8d49537b-9f26-4b2a-8041-630231b6d82b": {
       "type": "custom__form",
       "settings": {
-        "title": "¡Conviértete en un EcoPartner y colabora con nosotros para mover la aguja y salvar nuestro planeta!",
-        "button_text": "Enviar",
+        "title": "Become an EcoPartner and collaborate with us to move the needle and save our planet!",
+        "button_text": "Send",
         "form_action": "https:\/\/formspree.io\/f\/xzblpper",
         "language": "en"
       }
@@ -66,8 +66,8 @@
         "5b12b8ba-8d6b-405d-89bc-e2b0803db8c3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DESKTOP-2-1800-x-900px.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/MOBILE-1800-x-900px.jpg",
+            "image": "shopify:\/\/shop_images\/b2b-landing-eng-principles-desktop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/b2b-landing-eng-principles-mobile.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",

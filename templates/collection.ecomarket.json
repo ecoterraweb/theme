@@ -371,6 +371,70 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "f1f3bc1d-d676-43e6-8760-d7a1ed89cd6e": {
+      "type": "rich-text",
+      "blocks": {
+        "fd7437c3-9728-46cb-9fe9-2b2c56e9b1e1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/envios_c2e63124-0a13-40ae-a67d-a4b924cae9b5.png",
+            "image_link": "shopify:\/\/policies\/shipping-policy",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 120,
+            "mobile_max_width": 400
+          }
+        },
+        "d3d71059-a2ff-4ff4-9345-ec1de623ca35": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "4ef0a91e-952d-49e6-bacf-a18e862d5c9d": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "282a4fab-125c-4424-85c7-e97429893596": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cambios_41b866d6-dcca-438e-a205-b738311f4453.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 120,
+            "mobile_max_width": 400
+          }
+        },
+        "c8156990-11bf-403c-b547-ac58205c2ce3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "fd7437c3-9728-46cb-9fe9-2b2c56e9b1e1",
+        "d3d71059-a2ff-4ff4-9345-ec1de623ca35",
+        "4ef0a91e-952d-49e6-bacf-a18e862d5c9d",
+        "282a4fab-125c-4424-85c7-e97429893596",
+        "c8156990-11bf-403c-b547-ac58205c2ce3"
+      ],
+      "custom_css": [
+        "strong {color: #96d123;}",
+        ".section-bg-rich-text {padding-top: 110px; padding-bottom: 110px;}"
+      ],
+      "settings": {
+        "identifier": "policies-banner",
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#004228",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -382,6 +446,7 @@
     "7042b7a2-3d72-4854-ad98-282952ed6324",
     "299ff626-3484-4c1b-8ea4-22bd676eac56",
     "4c1ab09a-2ab5-4759-ac6c-95911ed5cf32",
-    "c1408482-f4b1-40e1-b630-e46677f35b14"
+    "c1408482-f4b1-40e1-b630-e46677f35b14",
+    "f1f3bc1d-d676-43e6-8760-d7a1ed89cd6e"
   ]
 }

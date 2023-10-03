@@ -17,14 +17,14 @@
       grid-area: 1 / -1;
     }
   </style>
-  {%- if section.settings.image != blank -%}
-    {%- assign class_bg = 'section-bg-rich-text' -%}
+  {%- if section.settings.mode_image  -%}
+    {%- assign class_bg = 'section-bg-rich-text section-bg-rich-text--image' -%}
   {%- else -%}
-    {%- assign class_bg = blank -%}
+    {%- assign class_bg = 'section-bg-rich-text' -%}
   {%- endif -%}
 
 
-<div {% render 'section-properties', class: 'section-bg-rich-text' %} id="{{ section.settings.identifier }}">
+<div {% render 'section-properties', class: class_bg %} id="{{ section.settings.identifier }}">
   {%- if section.settings.image != blank -%}
         {%- assign mobile_image = section.settings.mobile_image | default: section.settings.image -%}
 

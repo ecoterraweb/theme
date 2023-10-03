@@ -93,6 +93,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "small",
         "text_position": "center",
         "background": "#1a1a1a",
@@ -132,16 +133,12 @@
         "eb669705-b208-4b03-9d17-674985343137"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #66f3ff;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#394ff0",
@@ -191,6 +188,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#ffffff",
@@ -240,6 +238,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#f5f5f5",
@@ -309,6 +308,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#026338",
@@ -569,6 +569,7 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "mode_image": false,
         "image": "shopify:\/\/shop_images\/Rich_text.png",
         "content_width": "medium",
         "text_position": "start",

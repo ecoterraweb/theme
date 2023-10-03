@@ -101,3 +101,19 @@ class CustomSprHeader extends HTMLElement {
 if (!window.customElements.get('custom-spr-header')) {
   window.customElements.define('custom-spr-header', CustomSprHeader);
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  
+  var currentUrl = window.location.pathname;
+var linkFadedReverseElements = document.querySelectorAll('.link-faded-reverse');
+
+linkFadedReverseElements.forEach(function(element) {
+  var menuItemUrl = element.getAttribute('data-url') || element.getAttribute('href');
+  console.log(menuItemUrl);
+
+  if (currentUrl === menuItemUrl) {
+    element.classList.add('active');
+  }
+});
+
+});

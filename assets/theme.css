@@ -10394,6 +10394,23 @@ a.button.button--lg, button.button.button--xl{
   text-align: center;
   align-items: center;
 }
+/* POLITICAS CAMBIOS */
+.shopify-policy__container{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.shopify-policy__title h1{
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  background: #026338;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 18px;
+  word-wrap: break-word;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10419,6 +10436,10 @@ a.button.button--lg, button.button.button--xl{
   /* Before After Video */
   .shopify-section--before-after-video .prose{
     gap: 33px;
+  }
+  .shopify-policy__title h1{
+    font-size: 22px;
+    line-height: 22px;
   }
 }
 
@@ -10452,6 +10473,10 @@ a.button.button--lg, button.button.button--xl{
     gap: 22px;
     text-align: left;
   }
+  .shopify-policy__title h1{
+    font-size: 33px;
+    line-height: 33px;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -10480,5 +10505,9 @@ a.button.button--lg, button.button.button--xl{
   #policies-banner .split-rich-text .prose{
     grid-template-columns: 120px 1fr;
     gap: 44px;
+  }
+  .shopify-policy__title h1{
+    font-size: 44px;
+    line-height: 44px;
   }
 }

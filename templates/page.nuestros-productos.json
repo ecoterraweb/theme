@@ -19,6 +19,7 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
+            "content": "",
             "title": "Hambre de cambio",
             "heading_tag": "h0",
             "heading_style": "font--primary",
@@ -93,6 +94,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/mani-2.png",
+            "image_link": "",
+            "invert_image": true,
             "width_mode": "custom",
             "max_width": 660,
             "mobile_max_width": 300
@@ -458,7 +461,7 @@
         "full_width": true,
         "subheading": "",
         "title": "",
-        "content": "<h1>¡únete a nuestra cruzada!<br\/><\/h1><h2>¡CONVIÉRTETE EN UN <strong>ECOPARTNER<\/strong>!<\/h2><p>¿Te interesan nuestros productos?<br\/>¿Quieres una cotización?<br\/>¡Escríbenos y nuestros KAM te contactarán!<\/p>",
+        "content": "<h2><strong>ÚNETE<\/strong> A NUESTRA CAUSA ¡CONVIÉRTETE EN UN <strong>ECOPARTNER<\/strong>!<\/h2><p>¿Te interesan nuestros productos?<br\/>¿Quieres una cotización?<br\/>¡Escríbenos y nuestros KAM te contactarán!<\/p>",
         "text_position": "center",
         "contact_form_size": "small",
         "background": "",

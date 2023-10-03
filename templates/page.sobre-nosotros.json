@@ -19,7 +19,7 @@
             "mobile_text_position": "place-self-end-end text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
-            "content": "<h1><strong>ESTAMOS CAMBIANDO<\/strong> LAS COSAS<\/h1>",
+            "content": "<h1>ESTAMOS<strong> CAMBIANDO<\/strong> LAS COSAS<\/h1>",
             "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
@@ -39,7 +39,7 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1"
       ],
       "custom_css": [
-        "strong {color: #DBDE3B;}"
+        "strong {color: #dbde3b;}"
       ],
       "settings": {
         "identifier": "",

@@ -10446,6 +10446,11 @@ a.button.button--lg, button.button.button--xl{
     align-items: flex-start;
     gap: 44px;
   }
+  /* Policies Banner */
+  #policies-banner .split-rich-text .prose{
+    grid-template-columns: 66px 1fr;
+    gap: 22px;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -10469,5 +10474,10 @@ a.button.button--lg, button.button.button--xl{
   .shopify-section--image-with-text-overlay h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
     font-size: 55px;
     line-height: 55px;
+  }
+  /* Policies Banner */
+  #policies-banner .split-rich-text .prose{
+    grid-template-columns: 120px 1fr;
+    gap: 44px;
   }
 }

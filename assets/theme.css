@@ -5633,9 +5633,10 @@ split-lines {
     flex-basis: 50%;
   }
 
-  .footer__newsletter-form {
+  /* .footer__newsletter-form {
     max-width: 400px;
-  }
+  } 
+  */
 }
 
 @media screen and (min-width: 1150px) {
@@ -10465,6 +10466,12 @@ p.custom__policies--text a{
   color: #7DAC00;
   font-weight: 600;
 }
+.footer__newsletter-form .circle-chevron{
+  background: #DBDE3B;
+} 
+.footer__newsletter-form .icon-chevron-right-small path{
+  stroke: #004228;
+} 
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

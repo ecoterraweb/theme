@@ -10411,6 +10411,11 @@ a.button.button--lg, button.button.button--xl{
   line-height: 18px;
   word-wrap: break-word;
 }
+.shopify-policy__body{
+  padding: 22px 15px;
+  margin: auto;
+  width: 100%;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10440,6 +10445,9 @@ a.button.button--lg, button.button.button--xl{
   .shopify-policy__title h1{
     font-size: 22px;
     line-height: 22px;
+  }
+  .shopify-policy__body{
+    padding: 44px 36px;
   }
 }
 
@@ -10477,6 +10485,10 @@ a.button.button--lg, button.button.button--xl{
     font-size: 33px;
     line-height: 33px;
   }
+  .shopify-policy__body{
+    padding: 115px 36px;
+    max-width: 1054px;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -10509,5 +10521,8 @@ a.button.button--lg, button.button.button--xl{
   .shopify-policy__title h1{
     font-size: 44px;
     line-height: 44px;
+  }
+  .shopify-policy__body{
+    max-width: 1122px;
   }
 }

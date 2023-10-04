@@ -10735,4 +10735,8 @@ p.custom__policies--text a{
   .section-bg-rich-text--image .split-rich-text .prose p{
     font-size: 20px;
   }
+  .shopify-section--collection-list .section-header, .shopify-section--collection-list .scrollbar {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }

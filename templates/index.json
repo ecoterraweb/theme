@@ -383,7 +383,7 @@
         "491911ff-d434-4b87-95f3-d95c9eddc998"
       ],
       "custom_css": [
-
+        "impact-text {font-weight: 700; letter-spacing: 0.05em;}"
       ],
       "settings": {
         "full_width": true,

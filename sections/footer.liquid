@@ -81,7 +81,7 @@
                     <p class="bold">{{ block.settings.menu.title }}</p>
                   {%- endif -%}
 
-                  <ul class="v-stack gap-3" role="list">
+                  <ul class="v-stack" role="list">
                     {%- for link in block.settings.menu.links -%}
                       <li>
                         <a href="{{ link.url }}" class="inline-block link-faded break-all">{{ link.title }}</a>
@@ -140,14 +140,14 @@
             {%- endcase -%}
           {%- endfor -%}
           {%- if section.settings.show_social_media -%}
-          {%- capture social_media -%}
+            {%- capture social_media -%}
               {%- render 'social-media' -%}{%- endcapture -%}
           {%- endif -%}
           {%- if social_media != blank or country_selector or locale_selector -%}
-          <div class="footer__block footer__block--text align-right">
-            {{- social_media -}}
-          </div>
-        {%- endif -%}
+            <div class="footer__block footer__block--text align-right">
+              {{- social_media -}}
+            </div>
+          {%- endif -%}
         </div>
       {%- endif -%}
 
@@ -166,40 +166,40 @@
         {%- comment -%}
 
         {%- if section.settings.show_social_media -%}
-          {%- capture social_media -%}
-            {%- render 'social-media' -%}{%- endcapture -%}
+        {%- capture social_media -%}
+        {%- render 'social-media' -%}{%- endcapture -%}
         {%- endif -%}
 
         {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
-          {%- assign country_selector = true -%}
+        {%- assign country_selector = true -%}
         {%- endif -%}
 
         {%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
-          {%- assign locale_selector = true -%}
+        {%- assign locale_selector = true -%}
         {%- endif -%}
 
         {%- if social_media != blank or country_selector or locale_selector -%}
-          <div class="footer__aside-top">
-            {{- social_media -}}
+        <div class="footer__aside-top">
+        {{- social_media -}}
 
-            {%- if country_selector or locale_selector -%}
-              <div class="h-stack gap-6">
-                {%- if social_media == blank -%}
-                  {%- assign popover_horizontal_position = 'start' -%}
-                {%- else -%}
-                  {%- assign popover_horizontal_position = 'end' -%}
-                {%- endif -%}
+        {%- if country_selector or locale_selector -%}
+        <div class="h-stack gap-6">
+        {%- if social_media == blank -%}
+        {%- assign popover_horizontal_position = 'start' -%}
+        {%- else -%}
+        {%- assign popover_horizontal_position = 'end' -%}
+        {%- endif -%}
 
-                {%- if country_selector -%}
-                  {%- render 'localization-selector', type: 'country', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag, popover_horizontal_position: popover_horizontal_position -%}
-                {%- endif -%}
+        {%- if country_selector -%}
+        {%- render 'localization-selector', type: 'country', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag, popover_horizontal_position: popover_horizontal_position -%}
+        {%- endif -%}
 
-                {%- if locale_selector -%}
-                  {%- render 'localization-selector', type: 'locale', popover_horizontal_position: popover_horizontal_position -%}
-                {%- endif -%}
-              </div>
-            {%- endif -%}
-          </div>
+        {%- if locale_selector -%}
+        {%- render 'localization-selector', type: 'locale', popover_horizontal_position: popover_horizontal_position -%}
+        {%- endif -%}
+        </div>
+        {%- endif -%}
+        </div>
         {%- endif -%}
         {%- endcomment -%}
         {%- comment -%}
@@ -208,8 +208,7 @@
         ----------------------------------------------------------------------------------------------------------------
         {%- endcomment -%}
 
-        <div class="footer__aside-bottom">
-          {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
+          <div class="footer__aside-bottom"> {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
             <div class="footer__payment-icons h-stack wrap gap-2">
               {%- for type in shop.enabled_payment_types -%}
                 {{- type | payment_type_svg_tag -}}

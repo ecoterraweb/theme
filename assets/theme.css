@@ -10563,6 +10563,10 @@ p.custom__policies--text a{
 .footer__block .text-subdued{
   color: #fff;
 }
+.footer__block--menu li .link-faded{
+  opacity: 1;
+  color: #DBDE3B;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

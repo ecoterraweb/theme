@@ -10609,7 +10609,7 @@ p.custom__policies--text a{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 44px 22px;
   }
-  .footer__block--text-image,  .footer__block--newsletter{
+  .footer__block--text-image,  .footer__block--newsletter, .footer__block--menu{
     grid-column: span 2;
   }
   .footer__block--text{
@@ -10695,7 +10695,7 @@ p.custom__policies--text a{
   .footer__block--text-image,  .footer__block--newsletter{
     grid-column: span 2;
   }
-  .footer__block--text{
+  .footer__block--text, .footer__block--menu{
     grid-column: span 1;
   }
   .footer__block--text.align-right{

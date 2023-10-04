@@ -10738,6 +10738,9 @@ p.custom__policies--text a{
   .footer__block--text{
     grid-column: span 1;
   }
+  .footer__block--text.align-right{
+    justify-content: end;
+  }
   .footer__block--newsletter .h5{
     font-size: 16px;
   }

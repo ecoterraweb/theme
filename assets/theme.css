@@ -10615,6 +10615,10 @@ p.custom__policies--text a{
   .footer__block--text{
     grid-column: span 1;
   }
+  .footer__block--text.align-right{
+    grid-column: span 4;
+    justify-content: end;
+  }
   .footer__block--newsletter{
     grid-row: 2;
   }
@@ -10695,11 +10699,8 @@ p.custom__policies--text a{
   .footer__block--text-image,  .footer__block--newsletter{
     grid-column: span 2;
   }
-  .footer__block--text, .footer__block--menu{
+  .footer__block--text, .footer__block--menu, .footer__block--text.align-right{
     grid-column: span 1;
-  }
-  .footer__block--text.align-right{
-    justify-content: end;
   }
   .footer__block--newsletter .h5{
     font-size: 14px;

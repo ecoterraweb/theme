@@ -10563,7 +10563,7 @@ p.custom__policies--text a{
 .footer__block .text-subdued{
   color: #fff;
 }
-.footer__block--menu li .link-faded{
+.footer__block--menu .link-faded{
   opacity: 1;
   color: #DBDE3B;
 }

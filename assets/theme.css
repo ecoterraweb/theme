@@ -10570,6 +10570,14 @@ p.custom__policies--text a{
 .footer__block--text-image,  .footer__block--newsletter, .footer__block--menu{
   grid-column: span 2;
 }
+
+  .footer__block--text{
+    grid-column: span 1;
+  }
+  .footer__block--text.align-right{
+    grid-column: span 2;
+    justify-content: end;
+  }
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

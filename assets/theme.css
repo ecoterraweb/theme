@@ -10794,7 +10794,9 @@ p.custom__policies--text a{
   p.custom__policies--text{
     font-size: 20px;
   }
-  
+  .footer__block--newsletter{
+    grid-row: auto;
+  }
   .footer__block--newsletter .h5{
     font-size: 16px;
   }

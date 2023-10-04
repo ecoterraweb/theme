@@ -10552,6 +10552,14 @@ p.custom__policies--text a{
   word-wrap: break-word;
   text-align: left;
 }   
+.impact-text__text .text-custom {
+ font-size: 35px;
+ font-weight: 700;
+}
+.impact-text__content .h5{
+  font-size: 18px;
+  font-weight: 600;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10608,6 +10616,12 @@ p.custom__policies--text a{
     line-height: 16px;
 
   }    
+  .impact-text__text .text-custom {
+    font-size: 40px;
+   }
+   .impact-text__content .h5{
+     font-size: 20px;
+   }
 }
 
 /* desktop */
@@ -10661,7 +10675,12 @@ p.custom__policies--text a{
   .footer__block--newsletter .floating-label{
     font-size: 14px;
   }
-   
+  .impact-text__text .text-custom {
+    font-size: 64px;
+   }
+   .impact-text__content .h5{
+     font-size: 25px;
+   }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -10739,4 +10758,10 @@ p.custom__policies--text a{
     padding-left: 100px;
     padding-right: 100px;
   }
+  .impact-text__text .text-custom {
+    font-size: 77px;
+   }
+   .impact-text__content .h5{
+     font-size: 30px;
+   }
 }

@@ -10819,8 +10819,11 @@ p.custom__policies--text a{
   }
   .impact-text__text .text-custom {
     font-size: 77px;
-   }
-   .impact-text__content .h5{
-     font-size: 30px;
-   }
+  }
+  .impact-text__content .h5{
+    font-size: 30px;
+  }
+  .section-full .split-rich-text {
+    max-width: 1690px;
+  }
 }

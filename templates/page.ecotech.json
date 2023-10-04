@@ -56,7 +56,7 @@
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
           "type": "richtext",
           "settings": {
-            "content": "<h1><strong>EN EL CORAZÓN DE ECOTERRA<\/strong> SE ENCUENTRAN NUESTRO REVOLUCIONARIOS ECOLABS: <\/h1><h1>ECO<strong>AGRI<\/strong>LAB, ECO<strong>FOOD<\/strong>LAB Y ECO<strong>TECH<\/strong>LAB <\/h1><p>Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
+            "content": "<h1><strong>EN EL CORAZÓN DE ECOTERRA<\/strong> SE ENCUENTRAN NUESTROS REVOLUCIONARIOS ECOLABS: <\/h1><h1>ECO<strong>AGRI<\/strong>LAB, ECO<strong>FOOD<\/strong>LAB Y ECO<strong>TECH<\/strong>LAB <\/h1><p>Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
           }
         }
       },
@@ -74,6 +74,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#026338",
@@ -105,6 +106,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "image": "shopify:\/\/shop_images\/HS-BG.png",
         "mobile_image": "shopify:\/\/shop_images\/HS-BG_S.png",
         "content_width": "small",
@@ -138,6 +140,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#052e1e",
@@ -286,6 +289,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#052e1e",
@@ -339,6 +343,7 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "mode_image": false,
         "content_width": "large",
         "text_position": "center",
         "background": "#052e1e",
@@ -385,6 +390,7 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "mode_image": false,
         "content_width": "large",
         "text_position": "center",
         "background": "#7dac00",
@@ -432,6 +438,7 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "mode_image": false,
         "image": "shopify:\/\/shop_images\/Rich_text.png",
         "content_width": "medium",
         "text_position": "start",
@@ -620,6 +627,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "large",
         "text_position": "center",
         "background": "",

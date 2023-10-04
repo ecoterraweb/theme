@@ -10560,6 +10560,9 @@ p.custom__policies--text a{
   font-size: 18px;
   font-weight: 600;
 }
+.footer__block .text-subdued{
+  color: #fff;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

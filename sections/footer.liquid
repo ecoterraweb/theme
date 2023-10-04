@@ -139,6 +139,15 @@
               </div>
             {%- endcase -%}
           {%- endfor -%}
+          {%- if section.settings.show_social_media -%}
+          {%- capture social_media -%}
+              {%- render 'social-media' -%}{%- endcapture -%}
+          {%- endif -%}
+          {%- if social_media != blank or country_selector or locale_selector -%}
+          <div class="footer__aside-top">
+            {{- social_media -}}
+          </div>
+        {%- endif -%}
         </div>
       {%- endif -%}
 
@@ -154,6 +163,7 @@
         SOCIAL MEDIA + LOCALIZATION
         ----------------------------------------------------------------------------------------------------------------
         {%- endcomment -%}
+        {%- comment -%}
 
         {%- if section.settings.show_social_media -%}
           {%- capture social_media -%}
@@ -191,7 +201,7 @@
             {%- endif -%}
           </div>
         {%- endif -%}
-
+endcomment
         {%- comment -%}
         ----------------------------------------------------------------------------------------------------------------
         COPYRIGHT + PAYMENT METHODS

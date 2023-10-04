@@ -83,7 +83,7 @@
       ],
       "custom_css": [
         "strong {color: #dbde3b;}",
-        ".slideshow__slide:nth-of-type(3) strong {color: #66f3ff;}"
+        ".slideshow__slide:nth-of-type(1) strong {color: #66f3ff;}"
       ],
       "settings": {
         "identifier": "",
@@ -383,7 +383,7 @@
         "491911ff-d434-4b87-95f3-d95c9eddc998"
       ],
       "custom_css": [
-        "impact-text {font-weight: 700; letter-spacing: 0.05em;}"
+
       ],
       "settings": {
         "full_width": true,
@@ -492,7 +492,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/envios_c2e63124-0a13-40ae-a67d-a4b924cae9b5.png",
-            "image_link": "shopify:\/\/policies\/privacy-policy",
+            "image_link": "shopify:\/\/policies\/shipping-policy",
             "invert_image": false,
             "width_mode": "custom",
             "max_width": 120,
@@ -542,6 +542,7 @@
       "settings": {
         "identifier": "policies-banner",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#004228",

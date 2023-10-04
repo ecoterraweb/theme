@@ -15,12 +15,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Sideshow-1.png",
             "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
-            "content_max_width": 600,
-            "mobile_text_position": "place-self-end-end text-center",
+            "content_max_width": 740,
+            "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
-            "content": "",
-            "title": "ESTAMOS CAMBIANDO LAS COSAS",
+            "content": "<h1>ESTAMOS<strong> CAMBIANDO<\/strong> LAS COSAS<\/h1>",
+            "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
             "button_text": "",
@@ -39,9 +39,7 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1"
       ],
       "custom_css": [
-        "div {text-align: ;}",
-        " \/* Cambios\/Desktop\/H0\/H0 *\/P.h6 {font-size: 85px; font-style: normal; font-weight: 700; line-height: 90px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase;}",
-        "@media screen and (max-width: 700px) {P.h6 {font-size: 50px; font-style: normal; font-weight: 700; line-height: 55px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase; }}"
+        "strong {color: #dbde3b;}"
       ],
       "settings": {
         "identifier": "",
@@ -95,6 +93,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "small",
         "text_position": "center",
         "background": "#1a1a1a",
@@ -134,16 +133,12 @@
         "eb669705-b208-4b03-9d17-674985343137"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #66f3ff;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h2 strong {color: #66f3ff;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#394ff0",
@@ -183,16 +178,12 @@
         "87ccbca3-4805-4f5e-a84c-0817d10540eb"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #ff3e72;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h2 strong {color: #ff3e72;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#ffffff",
@@ -232,16 +223,12 @@
         "a80fbbc7-e9ce-49c6-b127-de269a324faf"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #ff6700;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h2 strong {color: #ff6700;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#f5f5f5",
@@ -275,7 +262,7 @@
         "dcde1d51-21d6-4a43-a517-1fc5b69a2891": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>BEST FRIENDS<\/strong>: TECNOLOGÍA Y NATURALEZA<\/h2><p>Trabajamos en el desarrollo de sistemas de producción que son justos y sostenibles. Buscamos un equilibrio entre la tecnología actual y la sabiduría de la naturaleza para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p>"
+            "content": "<h2><strong>BEST FRIENDS:<\/strong> TECNOLOGÍA Y NATURALEZA<\/h2><p>Trabajamos en el desarrollo de sistemas de producción que son justos y sostenibles. Buscamos un equilibrio entre la tecnología actual y la sabiduría de la naturaleza para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p>"
           }
         },
         "a81b9b40-0ecd-4875-8eb5-5415754549ae": {
@@ -301,16 +288,12 @@
         "1d273f80-b02f-4387-8ad3-801ac1f508ec"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #dbde3b;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h2 strong {color: #dbde3b;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#026338",
@@ -571,6 +554,7 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "mode_image": false,
         "image": "shopify:\/\/shop_images\/Rich_text.png",
         "content_width": "medium",
         "text_position": "start",

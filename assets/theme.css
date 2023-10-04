@@ -5633,9 +5633,10 @@ split-lines {
     flex-basis: 50%;
   }
 
-  .footer__newsletter-form {
+  /* .footer__newsletter-form {
     max-width: 400px;
-  }
+  } 
+  */
 }
 
 @media screen and (min-width: 1150px) {
@@ -6060,7 +6061,7 @@ split-lines {
   justify-content: space-between;
   align-items: center;
   gap: var(--spacing-6);
-  opacity: .7;
+  /* opacity: .7; */
   transition: opacity .2s ease-in-out;
   display: flex;
 }
@@ -10465,6 +10466,128 @@ p.custom__policies--text a{
   color: #7DAC00;
   font-weight: 600;
 }
+.footer__newsletter-form .circle-chevron{
+  background: #DBDE3B;
+} 
+.footer__newsletter-form .icon-chevron-right-small path{
+  stroke: #004228;
+} 
+.footer__newsletter-form.form{
+  margin-top: 10px
+}
+.footer__block--newsletter .h5{
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.footer__block--newsletter .prose p{
+  color: white;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.footer__block--newsletter .input.is-floating{
+  border: 1px solid #fff;
+}
+.footer__block--newsletter .floating-label{
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 20px;
+  word-wrap: break-word;
+  opacity: 1;
+}
+.footer__block--text{
+  gap: 0;
+  margin-top: auto;
+}
+/* Rich text */
+.section-bg-rich-text--image .split-rich-text {
+  padding: 44px 48px;
+}
+.section-bg-rich-text--image .rich-text {
+  padding: 40px 15px 100px;
+}
+.section-bg-rich-text--image .rich-text .prose, .section-bg-rich-text--image .split-rich-text .prose {
+  align-items: center;
+}
+.section-bg-rich-text--image .rich-text .prose h2{
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 25px;
+  word-wrap: break-word;
+  text-align: center;
+  max-width: 250px;
+  margin: auto;
+  margin-block-start: 22px !important;
+}
+.section-bg-rich-text--image .rich-text .prose p{
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+  text-align: center;
+  margin-block-start: 22px !important;
+}
+.section-bg-rich-text--image .rich-text .prose strong{
+  font-weight: 600;
+}
+.section-bg-rich-text--image .split-rich-text .prose h2{
+  font-size: 44px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 44px;
+  word-wrap: break-word;
+  text-align: left;
+}
+.section-bg-rich-text--image .split-rich-text .prose p{
+  font-size: 16px;
+  font-weight: 500;
+  word-wrap: break-word;
+  text-align: left;
+}   
+.impact-text__text .text-custom {
+ font-size: 35px;
+ font-weight: 700;
+}
+.impact-text__content .h5{
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer__block .text-subdued{
+  color: #fff;
+}
+.footer__block--menu .link-faded{
+  opacity: 1;
+  color: #DBDE3B;
+}
+.footer__block--text-image,  .footer__block--newsletter, .footer__block--menu{
+  grid-column: span 2;
+}
+.footer__block--text{
+  grid-column: span 1;
+}
+.footer__block--text.align-right{
+  grid-column: span 2;
+  justify-content: end;
+}
+.footer__block--text-image p{
+ font-size: 11px;
+ font-weight: 500;
+ line-height: 20px;
+ word-wrap: break-word;
+}
+.footer__block--text{
+  font-size: 11px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10501,6 +10624,53 @@ p.custom__policies--text a{
   .custom__policies--subtitle:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
     font-size: 20px;
     letter-spacing: 0.20px;
+  }
+  .footer__block-list{    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 44px 22px;
+  }
+ 
+  .footer__block--text{
+    grid-column: span 1;
+  }
+  .footer__block--text.align-right{
+    grid-column: span 4;
+    justify-content: end;
+  }
+  .footer__block--newsletter{
+    grid-row: 2;
+  }
+  .footer__block--newsletter .h5{
+    font-size: 11px;
+  }
+  .footer__block--newsletter .prose p{
+    font-size: 12px;
+  }
+  .footer__block--newsletter .floating-label{
+    font-size: 11px;
+  }
+  .footer__block--text-image p{
+    font-size: 12px;
+  }
+  .section-bg-rich-text--image .rich-text .prose h2{
+    font-size: 33px;
+    line-height: 33px;
+    max-width: 330px;
+  }
+  .section-bg-rich-text--image .rich-text .prose p{
+    font-size: 16px;
+    line-height: 16px;
+
+  }    
+  .impact-text__text .text-custom {
+  font-size: 40px;
+  }
+  .impact-text__content .h5{
+    font-size: 20px;
+  }
+  .footer__block--text{
+    font-size: 12px;
   }
 }
 
@@ -10546,7 +10716,38 @@ p.custom__policies--text a{
     font-size: 25px;
     letter-spacing: 0.25px;
   }
-  
+  .footer__block-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 44px 22px;
+  }
+  .footer__block--text-image,  .footer__block--newsletter{
+    grid-column: span 2;
+  }
+  .footer__block--text, .footer__block--menu, .footer__block--text.align-right{
+    grid-column: span 1;
+  }
+  .footer__block--text{
+    font-size: 14px;
+  }
+  .footer__block--newsletter .h5{
+    font-size: 14px;
+  }
+  .footer__block--newsletter .prose p{
+    font-size: 14px;
+  }
+  .footer__block--newsletter .floating-label{
+    font-size: 14px;
+  }
+  .footer__block--text-image p{
+    font-size: 14px;
+  }
+  .impact-text__text .text-custom {
+  font-size: 64px;
+  }
+  .impact-text__content .h5{
+    font-size: 25px;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -10593,4 +10794,31 @@ p.custom__policies--text a{
   p.custom__policies--text{
     font-size: 20px;
   }
+  
+  .footer__block--newsletter .h5{
+    font-size: 16px;
+  }
+  .footer__block--newsletter .prose p{
+    font-size: 16px;
+  }
+  .footer__block--newsletter .floating-label{
+    font-size: 16px;
+  }
+  .section-bg-rich-text--image .split-rich-text .prose h2{
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .section-bg-rich-text--image .split-rich-text .prose p{
+    font-size: 20px;
+  }
+  .shopify-section--collection-list .section-header, .shopify-section--collection-list .scrollbar {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .impact-text__text .text-custom {
+    font-size: 77px;
+   }
+   .impact-text__content .h5{
+     font-size: 30px;
+   }
 }

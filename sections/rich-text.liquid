@@ -17,15 +17,15 @@
       grid-area: 1 / -1;
     }
   </style>
-  {%- if section.settings.image != blank -%}
-    {%- assign class_bg = 'section-bg-rich-text' -%}
+  {%- if section.settings.mode_image  -%}
+    {%- assign class_bg = 'section-bg-rich-text section-bg-rich-text--image' -%}
   {%- else -%}
-    {%- assign class_bg = blank -%}
+    {%- assign class_bg = 'section-bg-rich-text' -%}
   {%- endif -%}
 
 
-  <div {% render 'section-properties', class: 'section-bg-rich-text' %} id="{{ section.settings.identifier }}">
-    {%- if section.settings.image != blank -%}
+<div {% render 'section-properties', class: class_bg %} id="{{ section.settings.identifier }}">
+  {%- if section.settings.image != blank -%}
         {%- assign mobile_image = section.settings.mobile_image | default: section.settings.image -%}
 
         {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: class: 'img-bg-rich-text hidden md:block', loading: 'lazy', sizes: '100vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
@@ -187,6 +187,12 @@
       "id": "full_width",
       "label": "Full width",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "mode_image",
+      "label": "Mode text and image center",
+      "default": false
     },
     {
       "type": "image_picker",

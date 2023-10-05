@@ -3,30 +3,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "e717a180-2c83-4e79-8890-ff14077b4d90": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_CyberDay_62d37bd9-43e1-4f3b-8259-ffe1eadb72c8.png",
-            "mobile_image": "shopify:\/\/shop_images\/Movil_Banner_CyberDay_9326dea5-4c0c-48c1-a564-d6acade6e5d4.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "content": "",
-            "title": "",
-            "heading_tag": "h0",
-            "heading_style": "font--primary",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/todos-los-productos",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
           "type": "image",
           "settings": {
@@ -77,7 +53,6 @@
         }
       },
       "block_order": [
-        "e717a180-2c83-4e79-8890-ff14077b4d90",
         "266ea942-f3bc-46b8-896b-dccd9dc58ff5",
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
       ],

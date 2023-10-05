@@ -273,8 +273,9 @@ function initMap(elementId, points, templateId = null) {
   if (points.length === 1) {
     // Si solo hay un punto, establece un zoom predeterminado y centro en ese punto
     var singlePoint = points[0];
+  const template = singlePoint.claims.filter((e) => e.templateId == templateId);
     var mapOptions = {
-      zoom: 15, // Establece el zoom predeterminado (ajústalo según tus preferencias)
+      zoom: 15, // const template = point.claims.filter((e) => e.templateId == templateId); el zoom predeterminado (ajústalo según tus preferencias)
       center: { lat: singlePoint.location.lat, lng: singlePoint.location.lng }, // Centro en la ubicación del único punto
       zoomControl: false,
       mapTypeControl: false,
@@ -299,12 +300,12 @@ function initMap(elementId, points, templateId = null) {
     // ... (resto de tu código para mostrar información del marcador)
   var contentString = `<div id="content" style="width: 200px; display:flex; flex-direction: column; gap: 10px;">
       <h2 id="firstHeading" class="firstHeading">
-      ${point.name}
+      ${singlePoint.name}
       </h2>
       <img src="${
-        point.imgUrl
+        singlePoint.imgUrl
       }" style="height: 50px; width: 100px; object-fit: cover;" loading="lazy"/>
-      <p>${point.description}</p>
+      <p>${singlePoint.description}</p>
       ${
         template[0]
           ? template[0].claimFiles

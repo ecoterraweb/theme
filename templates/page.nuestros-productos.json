@@ -118,6 +118,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#f5f5f5",
@@ -402,6 +403,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "small",
         "text_position": "center",
         "background": "#004228",
@@ -428,6 +430,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "small",
         "text_position": "center",
         "background": "#ffffff",
@@ -444,7 +447,7 @@
         "full_width": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<iframe src=\"https:\/\/www.google.com\/maps\/d\/embed?mid=1A-uWepStfF33vuq4LuvBVlA61wk-TDY&amp;ehbc=2E312F&amp;noprof=1\" width=\"100%\" height=\"480\"><\/iframe>",
+        "html": "<iframe src=\"https:\/\/www.google.com\/maps\/d\/embed?mid=1A-uWepStfF33vuq4LuvBVlA61wk-TDY&amp;ehbc=2E312F\" width=\"640\" height=\"480\"><\/iframe>",
         "background": "#f5f5f5",
         "background_gradient": "",
         "text_color": ""

@@ -23,54 +23,6 @@
     "e6be5a4e-ac99-4383-bebc-c0c03b448a2f": {
       "type": "slideshow",
       "blocks": {
-        "f9326b3f-fbe8-476d-b57b-fbce599149c3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Web_Aderezos.png",
-            "mobile_image": "shopify:\/\/shop_images\/Web-Movil_Aderezos.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "content": "",
-            "title": "",
-            "heading_tag": "h0",
-            "heading_style": "font--primary",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/aderezos-naturales",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Web_Huevos.png",
-            "mobile_image": "shopify:\/\/shop_images\/Web-Movil_Huevos.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "content": "",
-            "title": "",
-            "heading_tag": "h0",
-            "heading_style": "font--primary",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-1": {
           "type": "image",
           "settings": {
@@ -97,8 +49,6 @@
         }
       },
       "block_order": [
-        "f9326b3f-fbe8-476d-b57b-fbce599149c3",
-        "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-2",
         "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-1"
       ],
       "settings": {

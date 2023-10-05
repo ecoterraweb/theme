@@ -10633,12 +10633,13 @@ p.custom__policies--text a{
  
   .footer__block--text{
     grid-column: span 1;
+    
   }
   .footer__block--text.align-right{
     grid-column: span 4;
     justify-content: end;
   }
-  .footer__block--newsletter{
+  .footer__block--newslette, .footer__block--text{
     grid-row: 2;
   }
   .footer__block--newsletter .h5{

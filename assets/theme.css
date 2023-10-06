@@ -10515,7 +10515,6 @@ p.custom__policies--text a{
   align-items: center;
 }
 .section-bg-rich-text--image .rich-text .prose h2{
-  color: white;
   font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
@@ -10527,7 +10526,6 @@ p.custom__policies--text a{
   margin-block-start: 22px !important;
 }
 .section-bg-rich-text--image .rich-text .prose p{
-  color: white;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;

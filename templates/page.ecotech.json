@@ -74,6 +74,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#026338",
@@ -105,6 +106,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "image": "shopify:\/\/shop_images\/HS-BG.png",
         "mobile_image": "shopify:\/\/shop_images\/HS-BG_S.png",
         "content_width": "small",
@@ -138,6 +140,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#052e1e",
@@ -286,6 +289,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#052e1e",
@@ -304,8 +308,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/FMV_L.png",
-        "mobile_image": "shopify:\/\/shop_images\/FMV_S.png",
+        "image": "shopify:\/\/shop_images\/FMV_L_f1e11a63-eea0-4ef7-962f-46f7759c5364.png",
+        "mobile_image": "shopify:\/\/shop_images\/FMV_S_1756a3eb-09ab-4d77-afb5-9748fbbbaa3a.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -339,6 +343,7 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "mode_image": false,
         "content_width": "large",
         "text_position": "center",
         "background": "#052e1e",
@@ -385,6 +390,7 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "mode_image": false,
         "content_width": "large",
         "text_position": "center",
         "background": "#7dac00",
@@ -432,6 +438,7 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "mode_image": false,
         "image": "shopify:\/\/shop_images\/Rich_text.png",
         "content_width": "medium",
         "text_position": "start",
@@ -620,6 +627,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "large",
         "text_position": "center",
         "background": "",

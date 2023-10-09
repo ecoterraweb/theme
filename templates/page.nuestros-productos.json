@@ -93,7 +93,7 @@
         "4fbca877-601e-45fc-94dd-59cad4a05aac": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani-2.png",
+            "image": "shopify:\/\/shop_images\/NP_1.png",
             "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
@@ -118,6 +118,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#f5f5f5",
@@ -131,7 +132,7 @@
         "template--15538125635677__5eda4943-37f5-4688-a245-925e754d2358-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ecohuevos.png",
+            "image": "shopify:\/\/shop_images\/ECO_H2.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -173,7 +174,7 @@
         "3a9f287e-a4e7-4b5f-ab8e-67be54b8e654": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco-protein_c001ad4d-3edb-45f4-bdc8-b6ba12f4cd14.png",
+            "image": "shopify:\/\/shop_images\/ECO_P2.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -216,7 +217,7 @@
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ecolacteos.png",
+            "image": "shopify:\/\/shop_images\/ECO_L2.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -260,7 +261,7 @@
         "1cc55f40-3ae8-4834-b200-df431c412e23": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ecodespensa_933be646-4598-45a6-9e10-45c86d24ddf1.png",
+            "image": "shopify:\/\/shop_images\/ECO_D2.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -304,7 +305,7 @@
         "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ecoaderezo.png",
+            "image": "shopify:\/\/shop_images\/ECO_A2.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -350,7 +351,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/vaca.png",
+        "image": "shopify:\/\/shop_images\/CAT_L.png",
+        "mobile_image": "shopify:\/\/shop_images\/CAT_S.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -402,6 +404,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "small",
         "text_position": "center",
         "background": "#004228",
@@ -428,6 +431,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "small",
         "text_position": "center",
         "background": "#ffffff",

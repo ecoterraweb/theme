@@ -13,13 +13,13 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sideshow-1.png",
-            "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
+            "image": "shopify:\/\/shop_images\/SN_L_3c1a3fa7-6f44-46c2-baa6-f04d3fc609ae.png",
+            "mobile_image": "shopify:\/\/shop_images\/SN_S.png",
             "content_max_width": 740,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
-            "content": "<h1>ESTAMOS<strong> CAMBIANDO<\/strong> LAS COSAS<\/h1>",
+            "content": "<h1>HACEMOS CAMBIOS DE VERDAD<\/h1>",
             "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
@@ -39,7 +39,7 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1"
       ],
       "custom_css": [
-        "strong {color: #dbde3b;}"
+
       ],
       "settings": {
         "identifier": "",
@@ -118,7 +118,7 @@
         "eb669705-b208-4b03-9d17-674985343137": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani-13.png",
+            "image": "shopify:\/\/shop_images\/MANI_1.png",
             "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
@@ -152,7 +152,7 @@
         "9df8e6ae-0332-4fe6-afb7-011c52b84453": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani-2f.png",
+            "image": "shopify:\/\/shop_images\/MANI_2.png",
             "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
@@ -188,7 +188,7 @@
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#1a1a1a"
+        "text_color": "#505050"
       }
     },
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c": {
@@ -208,7 +208,7 @@
         "a80fbbc7-e9ce-49c6-b127-de269a324faf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani_1.png",
+            "image": "shopify:\/\/shop_images\/MANI_3.png",
             "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
@@ -247,8 +247,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/papel_af4a9327-5ba3-4e45-ab65-f13af9f27d42.png",
-        "mobile_image": "shopify:\/\/shop_images\/papel-s.png",
+        "image": "shopify:\/\/shop_images\/MANI_4_L.png",
+        "mobile_image": "shopify:\/\/shop_images\/MANI_4_S.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#ffffff",
@@ -273,7 +273,7 @@
         "1d273f80-b02f-4387-8ad3-801ac1f508ec": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani-eco.png",
+            "image": "shopify:\/\/shop_images\/MANI_5.png",
             "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
@@ -415,26 +415,6 @@
         "hot_spot_content_blur_radius": 3
       }
     },
-    "e0d50b40-660c-4f52-bc6c-e18294190402": {
-      "type": "image-with-text-overlay",
-      "custom_css": [
-        "div {padding: 50px 50px; align-items: center;}"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/cifras-que-impactan_ac100dc3-30ad-46c4-9403-8a4a3b227763.png",
-        "mobile_image": "shopify:\/\/shop_images\/cifras-que-impactan_ac100dc3-30ad-46c4-9403-8a4a3b227763.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-end-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "23a65bae-1921-413d-8f45-a5a71140750c": {
       "type": "impact-text-design",
       "blocks": {
@@ -483,14 +463,17 @@
         "06c64f74-2029-44d5-a02b-9fb219a1701e",
         "a284952e-3b96-4953-ab52-123c0822855f"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": false,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/BG_IMPCT2.png",
-        "mobile_image": "shopify:\/\/shop_images\/BG__IMPCT2_S.png",
-        "title": "",
+        "image": "shopify:\/\/shop_images\/BG_IMPCT2_L.png",
+        "mobile_image": "shopify:\/\/shop_images\/BG_IMPCT2_S.png",
+        "title": "CIFRAS QUE CAMBIAN EL MUNDO Y LA FORMA DE HACER LAS COSAS",
         "heading_gradient_title": "",
-        "text": "",
+        "text": "Estamos orgullosos de nuestros números  y cada día buscamos generar más impacto en el mundo.",
         "div_alignment": "center",
         "text_alignment": "center",
         "impact_text_style": "fill",
@@ -499,7 +482,7 @@
         "impact_text_size_ratio_mobile": 0.6,
         "background": "#1a1a1a",
         "background_gradient": "",
-        "heading_text_color": "",
+        "heading_text_color": "#ffffff",
         "heading_gradient": "",
         "text_color": "#ffffff",
         "button_background": "",
@@ -785,7 +768,6 @@
     "d07111a9-60b5-48f9-be37-2f15e92837d2",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
-    "e0d50b40-660c-4f52-bc6c-e18294190402",
     "23a65bae-1921-413d-8f45-a5a71140750c",
     "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5",
     "dfc8565e-4587-4b83-bfb7-8042178e6e77",

@@ -2,6 +2,34 @@
   "sections": {
     "bbc9d5bd-d3e6-4563-8d56-0fe10e49faf4": {
       "type": "slideshow",
+      "blocks": {
+        "8fc4af4b-3baf-46c1-b3e9-dd8e0ef622f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EN-BG_L.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "content": "",
+            "title": "NOTICIAS RECIENTES",
+            "heading_tag": "h0",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "8fc4af4b-3baf-46c1-b3e9-dd8e0ef622f5"
+      ],
       "settings": {
         "identifier": "",
         "full_width": true,
@@ -48,7 +76,7 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/newsletter.png",
+        "image": "shopify:\/\/shop_images\/NSL_L.png",
         "show_icon": false,
         "title": "¡No te quedes fuera!",
         "content": "<p>Entérate de todas nuestras noticias y novedades.<\/p>",

@@ -3,35 +3,11 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "e717a180-2c83-4e79-8890-ff14077b4d90": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_CyberDay_62d37bd9-43e1-4f3b-8259-ffe1eadb72c8.png",
-            "mobile_image": "shopify:\/\/shop_images\/Movil_Banner_CyberDay_9326dea5-4c0c-48c1-a564-d6acade6e5d4.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "content": "",
-            "title": "",
-            "heading_tag": "h0",
-            "heading_style": "font--primary",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/todos-los-productos",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-1.png",
-            "mobile_image": "shopify:\/\/shop_images\/banner-1s_d8ec94f2-d6b5-4feb-8ffe-9091b3f5fece.png",
+            "image": "shopify:\/\/shop_images\/HM_1_L.png",
+            "mobile_image": "shopify:\/\/shop_images\/HM1_S.png",
             "content_max_width": 600,
             "mobile_text_position": "place-self-center-end text-end",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
@@ -54,8 +30,8 @@
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-2.png",
-            "mobile_image": "shopify:\/\/shop_images\/banner2-small.png",
+            "image": "shopify:\/\/shop_images\/HM2_L.png",
+            "mobile_image": "shopify:\/\/shop_images\/HM2_S.png",
             "content_max_width": 600,
             "mobile_text_position": "place-self-center-end text-end",
             "desktop_text_position": "sm:place-self-end-end sm:text-center",
@@ -77,13 +53,11 @@
         }
       },
       "block_order": [
-        "e717a180-2c83-4e79-8890-ff14077b4d90",
         "266ea942-f3bc-46b8-896b-dccd9dc58ff5",
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
       ],
       "custom_css": [
-        "strong {color: #dbde3b;}",
-        ".slideshow__slide:nth-of-type(1) strong {color: #66f3ff;}"
+
       ],
       "settings": {
         "identifier": "",
@@ -96,25 +70,6 @@
         "cycle_speed": 6,
         "background": "#ffffff",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
-      }
-    },
-    "ff400f13-7ef4-4b86-bcd4-12be32e9d22d": {
-      "type": "scrolling-text",
-      "custom_css": [
-        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 50px; font-weight: 400;}",
-        ".bg-custom.text-custom {padding: 20px 0;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "text": "¡Cambiemos el mundo a través de lo que comemos!",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 16,
-        "background": "#394ff0",
-        "background_gradient": "",
-        "text_color": "#ffffff",
-        "text_gradient": ""
       }
     },
     "collection-list": {
@@ -257,7 +212,7 @@
             "size": "lg",
             "text": "¡Aquí te mostramos cómo!",
             "url": "shopify:\/\/pages\/sobre-nosotros",
-            "background": "#000000",
+            "background": "rgba(0,0,0,0)",
             "text_color": "#ffffff"
           }
         }
@@ -277,13 +232,13 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Sideshow-1.png",
+        "image": "shopify:\/\/shop_images\/SN_L.png",
         "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#1a1a1a",
-        "overlay_opacity": 20
+        "overlay_opacity": 0
       }
     },
     "c9425867-ab87-49e6-8262-e16b1ad8d9bb": {
@@ -297,13 +252,32 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/nuestro-impacto.png",
-        "mobile_image": "shopify:\/\/shop_images\/nuestro-impacto-s.png",
+        "image": "shopify:\/\/shop_images\/NI_L.png",
+        "mobile_image": "shopify:\/\/shop_images\/NI_S.png",
         "mobile_text_position": "place-self-end-start text-start",
         "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#1a1a1a",
         "overlay_opacity": 0
+      }
+    },
+    "ff400f13-7ef4-4b86-bcd4-12be32e9d22d": {
+      "type": "scrolling-text",
+      "custom_css": [
+        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 50px; font-weight: 400;}",
+        ".bg-custom.text-custom {padding: 20px 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "text": "¡Cambiemos el mundo a través de lo que comemos!",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 16,
+        "background": "#7dac00",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
       }
     },
     "f6845132-3793-464a-b1d9-3b7b0ab1c835": {
@@ -386,9 +360,10 @@
 
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/fondo-impact-text.png",
+        "image": "shopify:\/\/shop_images\/BG_IMPCT1_L.png",
+        "mobile_image": "shopify:\/\/shop_images\/BG_IMPCT1_S.png",
         "title": "",
         "heading_gradient_title": "",
         "text": "",
@@ -491,7 +466,7 @@
         "a195e4a7-ba5f-4323-adfd-a35ddadf5c97": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/envios_c2e63124-0a13-40ae-a67d-a4b924cae9b5.png",
+            "image": "shopify:\/\/shop_images\/ENVIOS.png",
             "image_link": "shopify:\/\/policies\/shipping-policy",
             "invert_image": false,
             "width_mode": "custom",
@@ -513,7 +488,7 @@
         "6096a9da-2986-42cc-b231-2bcf0066a505": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cambios_41b866d6-dcca-438e-a205-b738311f4453.png",
+            "image": "shopify:\/\/shop_images\/CAMBIOS.png",
             "image_link": "shopify:\/\/policies\/refund-policy",
             "invert_image": false,
             "width_mode": "custom",
@@ -536,8 +511,7 @@
         "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1"
       ],
       "custom_css": [
-        "strong {color: #96d123;}",
-        ".section-bg-rich-text {padding-top: 110px; padding-bottom: 110px;}"
+
       ],
       "settings": {
         "identifier": "policies-banner",
@@ -545,18 +519,18 @@
         "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#004228",
+        "background": "#f5f5f5",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": "#004228"
       }
     }
   },
   "order": [
     "slideshow",
-    "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "collection-list",
     "81738a72-0073-43da-bec4-810deabf91f6",
     "c9425867-ab87-49e6-8262-e16b1ad8d9bb",
+    "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "f6845132-3793-464a-b1d9-3b7b0ab1c835",
     "df3ede33-9fbf-4a2b-8206-3f667522cbc9",
     "featured-collection",

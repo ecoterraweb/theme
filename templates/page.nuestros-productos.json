@@ -70,7 +70,7 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 10,
-        "background": "#7dac00",
+        "background": "#394ff0",
         "background_gradient": "",
         "text_color": "#ffffff",
         "text_gradient": ""
@@ -217,7 +217,7 @@
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ECO_L2.png",
+            "image": "shopify:\/\/shop_images\/ECO_L2_042a6783-b981-4e77-9b9e-3567c59f6907.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",

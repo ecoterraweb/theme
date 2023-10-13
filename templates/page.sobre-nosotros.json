@@ -208,7 +208,7 @@
         "a80fbbc7-e9ce-49c6-b127-de269a324faf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani_1.png",
+            "image": "shopify:\/\/shop_images\/MANI_1.png",
             "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
@@ -636,7 +636,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TR.png",
             "column_size": "3",
-            "title": "Todos Recilcamos",
+            "title": "Todos Reciclamos",
             "heading_tag": "h4",
             "content": "<p>El sello de Todos Reciclamos garantiza ante los consumidores el compromiso ambiental de las marcas y su triple impacto positivo: medioambiental, social y económico.<\/p>",
             "link_url": "",

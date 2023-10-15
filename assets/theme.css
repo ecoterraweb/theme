@@ -10695,6 +10695,12 @@ p.custom__policies--text a{
     font-weight: 400;
     font-size: 18px;
   }
+  @media screen and (pointer: fine){
+    .group:hover .reversed-link {
+      background-size: 0;
+    }
+  }
+
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
     font-size: 88px;
     line-height: 88px;

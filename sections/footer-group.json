@@ -10,7 +10,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Logo_380f66ce-dcfc-40ea-970c-6533e32e4680.png",
             "image_width": 150,
-            "content": "<p>Nuestra misión es crear una comunidad comprometida con respetar los tiempos de la naturaleza y disminuir el impacto medioambiental a través de las prácticas de comercio justo y  el fomento del bienestar animal #AlimentosConPropósito<\/p>",
+            "content": "<p>Nuestra misión es crear una comunidad comprometida con respetar los tiempos de la naturaleza y disminuir el impacto medioambiental a través de las prácticas de comercio justo y  el fomento del bienestar animal <strong>#AlimentosConPropósito<\/strong><\/p>",
             "enable_follow_on_shop": true
           }
         },
@@ -19,8 +19,8 @@
           "settings": {
             "image_width": 150,
             "heading_size": "h5",
-            "title": "¡Suscríbete aquí!",
-            "content": "<p>Entérate de todo lo nuevo<\/p>"
+            "title": "¡SUSCRÍBETE AQUÍ!",
+            "content": "<p><strong>Entérate de todo lo nuevo<\/strong><\/p>"
           }
         },
         "links": {

@@ -10631,20 +10631,19 @@ p.custom__policies--text a{
   }
   .footer__block-list{    
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     gap: 44px 22px;
   }
  
-  .footer__block--text{
+  .footer__block--text, .footer__block--menu, .footer__block--newsletter, .footer__block--text-image {
     grid-column: span 1;
-    
   }
-  .footer__block--text.align-right{
-    grid-column: span 4;
-    justify-content: end;
-  }
-  .footer__block--newslette, .footer__block--text{
+  .footer__block--newsletter{
     grid-row: 2;
+  }
+  .footer__block.footer__block--text:nth-child(5){
+    grid-row: 1;
+    grid-column: 3;
   }
   .footer__block--newsletter .h5{
     font-size: 11px;

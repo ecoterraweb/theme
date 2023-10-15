@@ -10591,6 +10591,9 @@ p.custom__policies--text a{
 }
 .footer__block p.bold{
   margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
 }
 /* tablet */
 @media screen and (min-width: 770px) {

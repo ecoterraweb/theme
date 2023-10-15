@@ -10687,10 +10687,19 @@ p.custom__policies--text a{
     display: flex;
     justify-content: space-around;
   }
+  .dropdown-menu.dropdown-menu--restrictable{
+    border: 11px solid #fff;
+    padding: 33px;
+  }
+  .dropdown-menu.dropdown-menu--restrictable .reversed-link, .shopify-section--header .link-faded-reverse{
+    font-weight: 400;
+    font-size: 18px;
+  }
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
     font-size: 88px;
     line-height: 88px;
   }
+
   .shopify-section--collection-list .section-header .prose h2:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
     font-size: 44px;
     line-height: 44px;

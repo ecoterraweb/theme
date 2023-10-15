@@ -10682,7 +10682,7 @@ p.custom__policies--text a{
   .header__link-list{
     width: 100%;
   }
-  .header__link-list .contents{
+  .header__link-list > .contents{
     width: 100%;
     display: flex;
     justify-content: space-around;

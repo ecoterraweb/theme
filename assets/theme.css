@@ -10675,6 +10675,18 @@ p.custom__policies--text a{
 
 /* desktop */
 @media screen and (min-width: 1150px) {
+  /* HEADER */
+  .header__wrapper{
+    grid-template: "logo main-nav secondary-nav" / auto 1fr auto;
+  }
+  .header__link-list{
+    width: 100%;
+  }
+  .header__link-list .contents{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
     font-size: 88px;
     line-height: 88px;

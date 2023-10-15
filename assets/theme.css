@@ -10594,6 +10594,7 @@ p.custom__policies--text a{
   font-size: 12px;
   font-weight: 600;
   line-height: 20px;
+  text-transform: uppercase;
 }
 /* tablet */
 @media screen and (min-width: 770px) {

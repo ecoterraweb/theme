@@ -10818,7 +10818,7 @@ p.custom__policies--text a{
     margin: 25px 0 0;
   }
   .shopify-section--collection-list .section-header{
-    grid-template-columns: 850px;
+    grid-template-columns: 100%;
   }
   .shopify-section--collection-list .section-header, .shopify-section--collection-list .scrollbar {
     max-width: 1210px;
@@ -10901,5 +10901,8 @@ p.custom__policies--text a{
   }
   .section-full .split-rich-text {
     max-width: 1690px;
+  }
+  .section-header .text-with-icon.group{
+    margin: 25px 0 0 auto;
   }
 }

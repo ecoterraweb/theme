@@ -10700,6 +10700,10 @@ p.custom__policies--text a{
     margin: auto;
     max-width: 510px;
   }
+  .custom-pill-none{
+    margin-bottom: 30px;
+  }
+  
 }
 
 /* desktop */

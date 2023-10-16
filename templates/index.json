@@ -516,7 +516,7 @@
       "settings": {
         "identifier": "policies-banner",
         "full_width": true,
-        "mode_image": false,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#f5f5f5",

@@ -34,7 +34,7 @@
           "type": "text",
           "settings": {
             "title": "contacto",
-            "content": "<p><a href=\"mailto:ventas@ecoterra.cl\" title=\"mailto:ventas@ecoterra.cl\">ventas@ecoterra.cl<\/a><br\/><a href=\"\/pages\/contacto-general\" title=\"Contacto General\">ESCRIBENOS<\/a><\/p>",
+            "content": "<p><a href=\"mailto:ventas@ecoterra.cl\" title=\"mailto:ventas@ecoterra.cl\">ventas@ecoterra.cl<\/a><br\/><a href=\"\/pages\/contacto-general\" title=\"Contacto General\"><strong>ESCRIBENOS<\/strong><\/a><\/p>",
             "enable_follow_on_shop": false
           }
         },

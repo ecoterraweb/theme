@@ -10820,6 +10820,11 @@ p.custom__policies--text a{
   .shopify-section--collection-list .section-header{
     grid-template-columns: 850px;
   }
+  .shopify-section--collection-list .section-header, .shopify-section--collection-list .scrollbar {
+    max-width: 1210px;
+    width: 100%;
+    margin: auto;
+  }
   .section-header .text-with-icon.group .reversed-link{
     font-size: 18px;
   }
@@ -10887,10 +10892,6 @@ p.custom__policies--text a{
   }
   .section-bg-rich-text--image .split-rich-text .prose p{
     font-size: 20px;
-  }
-  .shopify-section--collection-list .section-header, .shopify-section--collection-list .scrollbar {
-    padding-left: 100px;
-    padding-right: 100px;
   }
   .impact-text__text .text-custom {
     font-size: 77px;

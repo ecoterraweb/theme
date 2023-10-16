@@ -159,7 +159,7 @@
         "504a19e4-093c-4d4c-814a-abe0c051e2a1"
       ],
       "custom_css": [
-        "strong {color: #DBDE3B;}"
+        "strong {color: #dbde3b;}"
       ],
       "settings": {
         "full_width": true,
@@ -188,7 +188,8 @@
           "settings": {
             "text": "sobre nosotros",
             "custom_pill_subheading": false,
-            "subheading_background_color": "rgba(0,0,0,0)"
+            "subheading_background_color": "rgba(0,0,0,0)",
+            "subheading_text_color": "#ffffff"
           }
         },
         "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1": {

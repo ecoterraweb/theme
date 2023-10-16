@@ -87,7 +87,7 @@
             {%- if block.settings.title != blank -%}
               <h2 class="impact-text__text heading break-all">
                 <impact-text {% if block.settings.animate_impact_text %}count-up="{{ block.settings.animate_impact_text_duration }}"{% endif %} reveal-js>
-                  {%- render 'styled-text', content: block.settings.title, text_color: section.settings.heading_text_color, gradient: section.settings.heading_gradient, style: section.settings.impact_text_style -%}
+                  {%- render 'styled-text', content: block.settings.title, text_color: section.settings.heading_text_color, gradient: section.settings.heading_gradient, style: section.settings.impact_text_style, class: 'font--secondary' -%}
                 </impact-text>
               </h2>
             {%- endif -%}

@@ -548,6 +548,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   transition: background-color .15s ease-in-out, color .15s ease-in-out, box-shadow .15s ease-in-out;
   display: inline-block;
   position: relative;
+  text-transform: uppercase;
 }
 
 .button--sm {

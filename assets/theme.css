@@ -2058,9 +2058,9 @@ scroll-carousel {
     align-items: end;
   }
 
-  .section-header > .text-with-icon {
+  /* .section-header > .text-with-icon {
     grid-column-start: 2;
-  }
+  } */
 }
 
 .section-stack {
@@ -10703,7 +10703,7 @@ p.custom__policies--text a{
   .custom-pill-none{
     margin-bottom: 30px;
   }
-  
+
 }
 
 /* desktop */
@@ -10806,6 +10806,12 @@ p.custom__policies--text a{
   }
   .impact-text__content .h5{
     font-size: 25px;
+  }
+  .custom-pill-none{
+    text-align: left;
+  }
+  .section-header .text-with-icon.group{
+    margin: 25px 0 0;
   }
 }
 /* full width */

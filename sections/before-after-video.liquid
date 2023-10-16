@@ -28,7 +28,7 @@ LIQUID
     {%- capture content -%}
       {%- if section.settings.subheading != blank -%}
         {%- if section.settings.custom_pill_subheading -%}
-            <p class="bold custom-pill" style="background-color: {{ section.settings.subheading_background_color }};">{{ section.settings.subheading | escape }}</p>
+            <p class="bold custom-pill custom-pill-none" style="background-color: {{ section.settings.subheading_background_color }};">{{ section.settings.subheading | escape }}</p>
           {% else %}
             <p class="bold">{{ section.settings.subheading | escape }}</p>
           {%- endif -%}

@@ -10820,6 +10820,9 @@ p.custom__policies--text a{
   .shopify-section--collection-list .section-header{
     grid-template-columns: 850px;
   }
+  .section-header .text-with-icon.group .reversed-link{
+    font-size: 18px;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {

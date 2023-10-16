@@ -10810,6 +10810,9 @@ p.custom__policies--text a{
   .custom-pill-none{
     text-align: left;
   }
+  .section-header .prose{
+    max-width: fit-content;
+  }
   .section-header .text-with-icon.group{
     margin: 25px 0 0;
   }

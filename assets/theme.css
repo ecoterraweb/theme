@@ -10625,13 +10625,17 @@ p.custom__policies--text a{
 }
 #policies-banner .rich-text__wrapper .prose{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-#policies-banner .rich-text__wrapper .prose > div{
-  grid-row: 2;
+  grid-template-columns: 1fr;
 }
 #policies-banner .rich-text__wrapper .prose > a img{
   margin: 0;
+}
+#policies-banner .rich-text__wrapper .prose > a div h3{
+  font-size: 18px;
+  /* font-family: Volte Rounded; */
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 18px;
 }
 /* tablet */
 @media screen and (min-width: 770px) {
@@ -10724,7 +10728,13 @@ p.custom__policies--text a{
   .custom-pill-none{
     margin-bottom: 30px;
   }
-
+  #policies-banner .rich-text__wrapper .prose{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #policies-banner .rich-text__wrapper .prose > div{
+    grid-row: 2;
+  }
 }
 
 /* desktop */

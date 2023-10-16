@@ -10596,6 +10596,15 @@ p.custom__policies--text a{
   line-height: 20px;
   text-transform: uppercase;
 }
+.custom-pill-none{
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.70px;
+  word-wrap: break-word;
+  text-align: center;
+  color: #505050;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

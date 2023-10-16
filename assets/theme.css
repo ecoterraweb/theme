@@ -10696,6 +10696,10 @@ p.custom__policies--text a{
   .footer__block--text{
     font-size: 12px;
   }
+  .section-header .prose{
+    margin: auto;
+    max-width: 510px;
+  }
 }
 
 /* desktop */

@@ -10623,6 +10623,13 @@ p.custom__policies--text a{
   flex-direction: column;
   gap: 35px;
 }
+#policies-banner .rich-text__wrapper .prose{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#policies-banner .rich-text__wrapper .prose > div{
+  grid-row: 2;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

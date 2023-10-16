@@ -493,7 +493,7 @@
             "invert_image": false,
             "width_mode": "custom",
             "max_width": 120,
-            "mobile_max_width": 400
+            "mobile_max_width": 100
           }
         },
         "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1": {

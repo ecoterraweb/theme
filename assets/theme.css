@@ -10617,6 +10617,12 @@ p.custom__policies--text a{
   position: relative;
   overflow: hidden;
 }
+
+.section-stack__intro--bottom{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10832,6 +10838,9 @@ p.custom__policies--text a{
   }
   .section-header .text-with-icon.group .reversed-link{
     font-size: 18px;
+  }
+  .section-stack__intro--bottom{
+    flex-direction: row;
   }
 }
 /* full width */

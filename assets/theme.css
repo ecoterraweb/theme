@@ -10626,6 +10626,7 @@ p.custom__policies--text a{
 #policies-banner .rich-text__wrapper .prose{
   display: grid;
   grid-template-columns: 1fr;
+  gap: 25px;
 }
 #policies-banner .rich-text__wrapper .prose > a img{
   margin: 0;

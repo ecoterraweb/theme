@@ -10612,6 +10612,10 @@ p.custom__policies--text a{
   font-size: 14px;
   font-weight: 500;
 }
+.shopify-section--impact-text .bg-custom{
+  position: relative;
+  overflow: hidden;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

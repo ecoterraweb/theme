@@ -6832,7 +6832,7 @@ split-lines {
   }
   .impact-text--design.impact-text-design--center{
     margin: auto;
-    justify-content: center;
+    justify-content: space-between;
   }
   .impact-text--design.impact-text-design--end{
     margin-left: auto;
@@ -10551,8 +10551,8 @@ p.custom__policies--text a{
   text-align: left;
 }   
 .impact-text__text .text-custom {
- font-size: 35px;
- font-weight: 700;
+ font-size: 110px;
+ font-weight: 400;
 }
 .impact-text__content .h5{
   font-size: 18px;
@@ -10692,7 +10692,7 @@ p.custom__policies--text a{
 
   }    
   .impact-text__text .text-custom {
-  font-size: 40px;
+  font-size: 120px;
   }
   .impact-text__content .h5{
     font-size: 20px;
@@ -10806,7 +10806,7 @@ p.custom__policies--text a{
     font-size: 14px;
   }
   .impact-text__text .text-custom {
-  font-size: 64px;
+  font-size: 130px;
   }
   .impact-text__content .h5{
     font-size: 25px;
@@ -10898,7 +10898,7 @@ p.custom__policies--text a{
     font-size: 20px;
   }
   .impact-text__text .text-custom {
-    font-size: 77px;
+    font-size: 150px;
   }
   .impact-text__content .h5{
     font-size: 30px;

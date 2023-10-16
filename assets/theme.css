@@ -10817,6 +10817,9 @@ p.custom__policies--text a{
   .section-header .text-with-icon.group{
     margin: 25px 0 0;
   }
+  .shopify-section--collection-list .section-header{
+    grid-template-columns: 850px;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {

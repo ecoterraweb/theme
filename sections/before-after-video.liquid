@@ -45,9 +45,16 @@ LIQUID
       <div class="section-stack__intro">
         <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
           {{ content }}
-          {%- if section.settings.button_text != blank -%}
-            {% render 'button', content: section.settings.button_text, href: section.settings.button_url, background: section.settings.button_background, text_color: section.settings.button_text_color %}
-          {%- endif -%}
+          <div class="section-stack__intro--bottom">
+            {%- if section.settings.button_text != blank -%}
+              {% render 'button', content: section.settings.button_text, href: section.settings.button_url, background: section.settings.button_background, text_color: section.settings.button_text_color %}
+            {%- endif -%}
+            <img
+              src="{{ 'eco-blockchain.svg' | asset_url }}"
+              alt=""
+              class="ecoblockain-icon"
+            >
+          </div>
         </div>
       </div>
     {%- endif -%}

@@ -10809,6 +10809,7 @@ p.custom__policies--text a{
   }
   .custom-pill-none{
     text-align: left;
+    font-size: 20px;
   }
   .section-header .prose{
     max-width: fit-content;

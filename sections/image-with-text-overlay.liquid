@@ -41,7 +41,7 @@
               {%- when 'subheading' -%}
                 {%- if block.settings.text != blank -%}
                   {%- if block.settings.custom_pill_subheading -%}
-                    <p class="bold custom-pill" style="background-color: {{ block.settings.subheading_background_color }};" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
+                    <p class="bold custom-pill" style="background-color: {{ block.settings.subheading_background_color }}; color: {{ block.settings.subheading_text_color }}" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
                   {% else %}
                     <p class="bold custom-pill-none" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
                   {%- endif -%}
@@ -293,6 +293,11 @@
           "type": "color",
           "id": "subheading_background_color",
           "label": "Subheading background color"
+        },
+        {
+          "type": "color",
+          "id": "subheading_text_color",
+          "label": "Subheading text color"
         }
       ]
     },

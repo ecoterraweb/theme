@@ -435,7 +435,6 @@
     "78eb0dc2-bbc9-46b4-ae9f-2d01e79ca5fb": {
       "type": "before-after-video",
       "custom_css": [
-        "p.bold:not(.custom-pill) {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
         "h2 strong {color: #ff6700;}",
         ".full-bleed {max-width: 100%; margin: 0;}"
       ],

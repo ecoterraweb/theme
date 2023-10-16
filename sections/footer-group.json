@@ -55,7 +55,7 @@
         "e6b7f4de-98cc-4cff-814d-4fcc9ef1c8a8"
       ],
       "custom_css": [
-
+        ".footer__block.footer__block--text .prose.text-subdued a strong {color: #DBDE3B;}"
       ],
       "settings": {
         "show_social_media": true,

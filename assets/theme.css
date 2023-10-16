@@ -10605,6 +10605,13 @@ p.custom__policies--text a{
   text-align: center;
   color: #505050;
 }
+.section-header .text-with-icon.group{
+  margin: 25px auto 0;
+}
+.section-header .text-with-icon.group .reversed-link{
+  font-size: 14px;
+  font-weight: 500;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

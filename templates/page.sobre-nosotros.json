@@ -415,6 +415,50 @@
         "hot_spot_content_blur_radius": 3
       }
     },
+    "d88f52d8-b117-43fc-96fe-5d439dea6412": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Impacto",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
+          }
+        },
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "CIFRAS QUE CAMBIAN EL MUNDO Y LA FORMA DE HACER LAS COSAS",
+            "heading_tag": "h1",
+            "text_color": "#004228",
+            "gradient": ""
+          }
+        },
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Estamos orgullosos de nuestros números y cada día buscamos generar más impacto en el mundo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-subheading-1",
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-heading-1",
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "23a65bae-1921-413d-8f45-a5a71140750c": {
       "type": "impact-text-design",
       "blocks": {
@@ -464,7 +508,7 @@
         "a284952e-3b96-4953-ab52-123c0822855f"
       ],
       "custom_css": [
-        ".impact-text--design{max-width: 1100px;}"
+        ".impact-text--design {max-width: 1100px;}"
       ],
       "settings": {
         "full_width": false,
@@ -768,6 +812,7 @@
     "d07111a9-60b5-48f9-be37-2f15e92837d2",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
+    "d88f52d8-b117-43fc-96fe-5d439dea6412",
     "23a65bae-1921-413d-8f45-a5a71140750c",
     "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5",
     "dfc8565e-4587-4b83-bfb7-8042178e6e77",

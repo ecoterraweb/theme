@@ -447,7 +447,7 @@
       ],
       "custom_css": [
         "strong {color: #ff00e8;}",
-        ".rich-text__wrapper{max-width: 900px;}"
+        ".rich-text__wrapper {max-width: 950px;}"
       ],
       "settings": {
         "identifier": "",

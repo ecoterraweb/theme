@@ -10531,7 +10531,7 @@ p.custom__policies--text a{
   font-weight: 500;
   line-height: 20px;
   word-wrap: break-word;
-  text-align: center;
+  text-align: left;
   margin-block-start: 22px !important;
 }
 .section-bg-rich-text--image .rich-text .prose strong{

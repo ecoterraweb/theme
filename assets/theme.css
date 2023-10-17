@@ -10735,6 +10735,11 @@ p.custom__policies--text a{
   #policies-banner .rich-text__wrapper .prose > div{
     grid-row: 2;
   }
+  .section-bg-rich-text--image .split-rich-text .prose p{
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 506px;
+  }
 }
 
 /* desktop */
@@ -10863,6 +10868,11 @@ p.custom__policies--text a{
   .section-stack__intro--bottom{
     flex-direction: row;
   }
+  .section-bg-rich-text--image .split-rich-text .prose p{
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 600;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -10924,10 +10934,6 @@ p.custom__policies--text a{
   .section-bg-rich-text--image .split-rich-text .prose h2{
     font-size: 55px;
     line-height: 55px;
-  }
-  .section-bg-rich-text--image .split-rich-text .prose p{
-    font-size: 20px;
-    max-width: 506px;
   }
   .impact-text__text .text-custom {
     font-size: 150px;

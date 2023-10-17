@@ -341,7 +341,7 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 25,
+            "horizontal_position": 22,
             "vertical_position": 33,
             "horizontal_position_mobile": 47,
             "vertical_position_mobile": 11,
@@ -354,7 +354,7 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 18,
+            "horizontal_position": 14,
             "vertical_position": 64,
             "horizontal_position_mobile": 28,
             "vertical_position_mobile": 26,
@@ -367,7 +367,7 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3": {
           "type": "item",
           "settings": {
-            "horizontal_position": 35,
+            "horizontal_position": 30,
             "vertical_position": 64,
             "horizontal_position_mobile": 64,
             "vertical_position_mobile": 26,

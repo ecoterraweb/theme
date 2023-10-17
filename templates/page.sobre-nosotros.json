@@ -446,7 +446,8 @@
         "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1"
       ],
       "custom_css": [
-        "strong {color: #ff00e8;}"
+        "strong {color: #ff00e8;}",
+        ".rich-text__wrapper{max-width: 900px;}"
       ],
       "settings": {
         "identifier": "",

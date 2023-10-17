@@ -10873,6 +10873,10 @@ p.custom__policies--text a{
     line-height: 24px;
     max-width: 600;
   }
+  .section-bg-rich-text--image .split-rich-text{
+    width: 100%;
+    max-width: 1210px;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {

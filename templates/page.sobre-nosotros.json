@@ -441,12 +441,19 @@
           "settings": {
             "content": "<p>Estamos orgullosos de nuestros números y cada día buscamos generar más impacto en el mundo.<\/p>"
           }
+        },
+        "6e48a8bb-3641-4b93-bf22-847f7751fa9f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1><strong>CIFRAS QUE CAMBIAN EL MUNDO<\/strong> Y LA FORMA DE HACER LAS COSAS<\/h1>"
+          }
         }
       },
       "block_order": [
         "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-subheading-1",
         "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-heading-1",
-        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1"
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1",
+        "6e48a8bb-3641-4b93-bf22-847f7751fa9f"
       ],
       "settings": {
         "identifier": "",

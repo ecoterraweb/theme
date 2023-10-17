@@ -341,7 +341,7 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 25,
+            "horizontal_position": 22,
             "vertical_position": 33,
             "horizontal_position_mobile": 47,
             "vertical_position_mobile": 11,
@@ -354,7 +354,7 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 18,
+            "horizontal_position": 14,
             "vertical_position": 64,
             "horizontal_position_mobile": 28,
             "vertical_position_mobile": 26,
@@ -367,7 +367,7 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3": {
           "type": "item",
           "settings": {
-            "horizontal_position": 35,
+            "horizontal_position": 30,
             "vertical_position": 64,
             "horizontal_position_mobile": 64,
             "vertical_position_mobile": 26,
@@ -415,6 +415,51 @@
         "hot_spot_content_blur_radius": 3
       }
     },
+    "d88f52d8-b117-43fc-96fe-5d439dea6412": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Impacto",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
+          }
+        },
+        "6e48a8bb-3641-4b93-bf22-847f7751fa9f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1><strong>CIFRAS QUE CAMBIAN EL MUNDO<\/strong> <br\/>Y LA FORMA DE HACER LAS COSAS<\/h1>"
+          }
+        },
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Estamos orgullosos de nuestros números y cada día buscamos generar más impacto en el mundo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-subheading-1",
+        "6e48a8bb-3641-4b93-bf22-847f7751fa9f",
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1"
+      ],
+      "custom_css": [
+        "strong {color: #ff00e8;}",
+        ".rich-text__wrapper {max-width: 950px;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "23a65bae-1921-413d-8f45-a5a71140750c": {
       "type": "impact-text-design",
       "blocks": {
@@ -423,8 +468,8 @@
           "settings": {
             "title": "1.393",
             "superheading": "",
-            "subheading": "Hectáreas",
-            "content": "<p>destinadas a sistemas sustentables<\/p>",
+            "subheading": "",
+            "content": "<p>Hectáreas destinadas a<br\/>sistemas sustentables<\/p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
@@ -436,8 +481,8 @@
           "settings": {
             "title": "143.200",
             "superheading": "",
-            "subheading": "Animales",
-            "content": "<p>habitando un sistema de bienestar<\/p>",
+            "subheading": "",
+            "content": "<p>Animales habitando un sistema de bienestar<\/p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
@@ -449,8 +494,8 @@
           "settings": {
             "title": "6,86",
             "superheading": "",
-            "subheading": "Toneladas",
-            "content": "<p>reducidas del despericio de alimentos<\/p>",
+            "subheading": "",
+            "content": "<p>Toneladas reducidas del despericio de alimentos<\/p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
@@ -464,16 +509,16 @@
         "a284952e-3b96-4953-ab52-123c0822855f"
       ],
       "custom_css": [
-
+        ".impact-text--design {max-width: 1100px;}"
       ],
       "settings": {
         "full_width": false,
         "stack_mobile": true,
         "image": "shopify:\/\/shop_images\/BG_IMPCT2_L.png",
         "mobile_image": "shopify:\/\/shop_images\/BG_IMPCT2_S.png",
-        "title": "CIFRAS QUE CAMBIAN EL MUNDO Y LA FORMA DE HACER LAS COSAS",
+        "title": "",
         "heading_gradient_title": "",
-        "text": "Estamos orgullosos de nuestros números  y cada día buscamos generar más impacto en el mundo.",
+        "text": "",
         "div_alignment": "center",
         "text_alignment": "center",
         "impact_text_style": "fill",
@@ -768,6 +813,7 @@
     "d07111a9-60b5-48f9-be37-2f15e92837d2",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
+    "d88f52d8-b117-43fc-96fe-5d439dea6412",
     "23a65bae-1921-413d-8f45-a5a71140750c",
     "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5",
     "dfc8565e-4587-4b83-bfb7-8042178e6e77",

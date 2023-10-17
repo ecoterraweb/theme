@@ -10875,7 +10875,7 @@ p.custom__policies--text a{
   }
   .section-bg-rich-text--image .split-rich-text{
     width: 100%;
-    max-width: 1210px;
+    max-width: 1210px !important;
   }
 }
 /* full width */

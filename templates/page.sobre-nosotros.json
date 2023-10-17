@@ -423,8 +423,8 @@
           "settings": {
             "title": "1.393",
             "superheading": "",
-            "subheading": "Hectáreas",
-            "content": "<p>destinadas a sistemas sustentables<\/p>",
+            "subheading": "",
+            "content": "<p>Hectáreas destinadas a<br\/>sistemas sustentables<\/p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
@@ -436,8 +436,8 @@
           "settings": {
             "title": "143.200",
             "superheading": "",
-            "subheading": "Animales",
-            "content": "<p>habitando un sistema de bienestar<\/p>",
+            "subheading": "",
+            "content": "<p>Animales habitando un sistema de bienestar<\/p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
@@ -449,8 +449,8 @@
           "settings": {
             "title": "6,86",
             "superheading": "",
-            "subheading": "Toneladas",
-            "content": "<p>reducidas del despericio de alimentos<\/p>",
+            "subheading": "",
+            "content": "<p>Toneladas reducidas del despericio de alimentos<\/p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,

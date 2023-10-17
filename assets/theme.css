@@ -10711,7 +10711,7 @@ p.custom__policies--text a{
   .section-bg-rich-text--image .rich-text .prose p{
     font-size: 16px;
     line-height: 16px;
-
+    max-width: 506px;
   }    
   .impact-text__text .text-custom {
   font-size: 120px;

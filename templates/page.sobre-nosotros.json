@@ -445,6 +445,9 @@
         "6e48a8bb-3641-4b93-bf22-847f7751fa9f",
         "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1"
       ],
+      "custom_css": [
+        "strong {color: #FF00E8;}"
+      ],
       "settings": {
         "identifier": "",
         "full_width": true,

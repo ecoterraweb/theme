@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/EN-BG_L.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
             "content": "",
             "title": "NOTICIAS RECIENTES",

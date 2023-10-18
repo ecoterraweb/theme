@@ -10639,8 +10639,8 @@ p.custom__policies--text a{
   font-size: 25px;
 }
 .blog-post-card__info{
-  height: 100%;
   display: flex;
+  flex: 1;
 }
 .blog-post-card.blog-post-card.snap-center.group {
   height: 100%;

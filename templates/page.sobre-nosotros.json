@@ -537,13 +537,13 @@
     "dbd57f90-5146-4835-adb4-220ac07d91a0": {
       "type": "certificate-list",
       "settings": {
-        "subheading": "",
+        "subheading": "certificaciones y sellos",
         "title": "<h1>los sellos que nos enorgullecen y los certificados que nos respaldan<\/h1>",
-        "color_title": "",
+        "color_title": "#004228",
         "color_title_strong": "",
-        "paragraph": "",
-        "button_text": "",
-        "button_link": "",
+        "paragraph": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta.<br\/><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>",
+        "button_text": "Ir a certificaciones",
+        "button_link": "#",
         "api_url": "",
         "api_key": ""
       }

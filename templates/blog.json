@@ -71,10 +71,10 @@
     "d12fb7c1-ced5-418c-b017-5130f0cafc84": {
       "type": "newsletter",
       "custom_css": [
-
+        ".newsletter{grid-template-columns: 1fr;}"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "image": "shopify:\/\/shop_images\/NSL_L.png",
         "show_icon": false,
         "title": "¡No te quedes fuera!",

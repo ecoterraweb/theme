@@ -201,7 +201,7 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
-            "content": "<h2>ECO<strong>LÁCTEOS<\/strong><\/h2><p>Producidos en alianza con productores locales de la Región de Los Lagos, certificados en bienestar animal. <br\/>Las vacas pastorean libremente y no se utilizan antibióticos ni hormonas de forma rutinaria, de hecho, ¡todos nuestros lácteos son sin hormona rbST!<\/p>",
+            "content": "<h2>ECO<strong>LÁCTEOS<\/strong><\/h2><p>Producidos en alianza con productores locales de la Región de Los Lagos, certificados en bienestar animal. <br\/>Las vacas pastorean libremente y no se utilizan antibióticos ni hormonas de forma rutinaria, de hecho, <strong>¡TODOS NUESTROS LÁCTEOS SON SIN HORMONA rbST! <\/strong><\/p>",
             "button_url": "shopify:\/\/collections\/lacteos",
             "button_text": "Comprar aquí"
           }
@@ -211,17 +211,7 @@
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e"
       ],
       "custom_css": [
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #394ff0;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
-        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
+        ".prose h2 strong {color: #394ff0;}"
       ],
       "settings": {
         "full_width": false,
@@ -231,7 +221,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#1a1a1a",
+        "button_background": "#026338",
         "button_text_color": ""
       }
     },

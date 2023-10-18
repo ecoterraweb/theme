@@ -110,7 +110,7 @@
         <div class="fieldset-with-submit">
           {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}
           {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}
-          {%- render 'button', type: 'submit', content: section.settings.button_text, size: 'xl', icon: 'picto-envelope', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+          {%- render 'button', type: 'submit', content: section.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
         </div>
       {%- endif -%}
 

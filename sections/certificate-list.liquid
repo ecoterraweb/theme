@@ -1,6 +1,9 @@
 <style>
+  #shopify-section-{{ section.id }} {
+    background-color: {{ section.settings.background_color  }};
+  }
   #shopify-section-{{ section.id }} h1 {
-    color:   {{ section.settings.color_title  }};
+    color: {{ section.settings.color_title  }};
   }
   #shopify-section-{{ section.id }} h1 strong{
     color:   {{ section.settings.color_title_strong  }};
@@ -72,6 +75,11 @@
 {
   "name": "List of certificates",
   "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color"
+    },
     {
       "type": "text",
       "label": "Subheading",

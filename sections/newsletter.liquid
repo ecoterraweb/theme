@@ -15,6 +15,12 @@
         padding-inline-start: 0;
       }
     {%- endif -%}
+    .newsletter--image{
+      grid-template-columns: 1fr;
+    }
+    .newsletter--image  > .newsletter-box {
+      justify-content: center;
+    }
   </style>
 {%- endif -%}
 
@@ -64,7 +70,7 @@
 
 <div {% render 'section-properties' %}>
   {%- if section.settings.image != blank -%}
-    <div class="newsletter">
+  <div class="newsletter {%- if  section.settings.image -%} newsletter--image {%- endif -%}">
       {%- capture sizes -%}(max-width: 999px) 100vw, min(50vw, {{ settings.page_width }}px / 2){%- endcapture -%}
       {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, class: 'h-full object-cover' -}}
 

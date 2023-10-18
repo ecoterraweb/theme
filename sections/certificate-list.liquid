@@ -190,11 +190,13 @@
         
         // Detener el desplazamiento automático al pasar el puntero sobre collectionList
         collectionList.addEventListener("mouseover", () => {
+          console.log('puntero');
           clearInterval(scrollIntervalId);
         });
         
         // Reanudar el desplazamiento automático al quitar el puntero de collectionList
         collectionList.addEventListener("mouseout", () => {
+          console.log('puntero');
           clearInterval(scrollIntervalId);
           scrollIntervalId = setInterval(scrollElements, scrollInterval);
         });

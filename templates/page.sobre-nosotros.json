@@ -585,6 +585,7 @@
         "501e073a-a8c5-4846-a584-69881fb4852c",
         "a481fea8-5a98-4cb2-91ce-ad90f9a3e6bd"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 45px;}",
         "p.strong {color: #1a1a1a;}",
@@ -724,6 +725,7 @@
         "038f4d60-9086-4579-943c-1d4f67f66241",
         "3ace27f8-37ec-471f-8b2b-459d7f67f0b9"
       ],
+      "disabled": true,
       "custom_css": [
         "p.h4 {font-size: 25px; font-style: normal; font-weight: 500; line-height: normal; letter-spacing: -0.5px;}",
         "button {letter-spacing: 0.02em; font-weight: 500;}"

@@ -11,20 +11,20 @@
 <div class="certificate">
   <div class="certificate-container">
     <div class="certificate-container-left">
-      {%- if block.settings.subheading != blank -%}
-        <p class="bold custom-pill-none">{{ block.settings.subheading }}</p>
+      {%- if section.settings.subheading != blank -%}
+        <p class="bold custom-pill-none">{{ section.settings.subheading }}</p>
       {%- endif -%}
-      {%- if block.settings.title != blank -%}
-        {{- block.settings.title -}}
+      {%- if section.settings.title != blank -%}
+        {{- section.settings.title -}}
       {%- endif -%}
     </div>
     <div class="certificate-container-right">
-        {%- if block.settings.paragraph != blank -%}
-          {{- block.settings.paragraph -}}
+        {%- if section.settings.paragraph != blank -%}
+          {{- section.settings.paragraph -}}
         {%- endif -%}
         
-        {%- if block.settings.button_link != blank or block.settings.button_text != blank -%}
-          <a href="{{ block.settings.button_link }}">{{ block.settings.button_text }}</a>
+        {%- if section.settings.button_link != blank or section.settings.button_text != blank -%}
+          <a href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
         {%- endif -%}
     </div>
 

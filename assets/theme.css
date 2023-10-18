@@ -432,7 +432,6 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   --blog-post-card-figure-gap: var(--spacing-5);
   --blog-post-card-meta-gap: var(--spacing-1) var(--spacing-5);
   gap: var(--blog-post-card-figure-gap);
-  /* align-content: start; */
   display: grid;
   overflow: hidden;
 }

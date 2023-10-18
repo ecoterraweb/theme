@@ -173,7 +173,25 @@
         // Agregar el artículo al contenedor de la lista
         collectionList.appendChild(collectionCard);
       });
-
+      import { timeline as timeline2, inView } from "{{ 'vendor.min.js' | asset_url }}";
+      var CollectionList = class extends HTMLElement {
+        connectedCallback() {
+          if (window.matchMedia("(prefers-reduced-motion: no-preference)").matches) {
+            inView(this, this._reveal.bind(this), { margin: "-100px" });
+          }
+        }
+        _reveal() {
+          const toReveal = Array.from(this.querySelectorAll("[reveal-js]"));
+          timeline2([
+            [toReveal, { opacity: 1 }, { duration: 0 }],
+            [toReveal.map((item) => item.querySelector("img, svg")), { opacity: [0, 1], transform: ["scale(1.03)", "auto"] }, { duration: 0.2 }],
+            [toReveal.map((item) => item.querySelector(".collection-card__content-wrapper")), { opacity: [0, 1] }, { duration: 0.2 }]
+          ]);
+        }
+      };
+      if (!window.customElements.get("collection-list")) {
+        window.customElements.define("collection-list", CollectionList);
+      }
     })
     .catch(error => {
       console.error("Error al obtener datos de la API:", error);

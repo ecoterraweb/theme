@@ -34,7 +34,7 @@
         "identifier": "",
         "full_width": true,
         "allow_transparent_header": false,
-        "image_size": "auto",
+        "image_size": "lg",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": false,

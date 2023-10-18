@@ -1,103 +1,12 @@
-<style>
-    #shopify-section-{{ section.id }} h1 {
-      color:   {%- section.settings.color_title  -%};
-    }
-    #shopify-section-{{ section.id }} h1 strong{
-      color:   {%- section.settings.color_title_strong  -%};
-    }
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}
 
-</style>
+{% stylesheet %}
+{% endstylesheet %}
 
-<div class="certificate">
-  <div class="certificate-container">
-    <div class="certificate-container-left">
-      {%- if block.settings.subheading != blank -%}
-        <p class="bold custom-pill-none">{{ block.settings.subheading }}</p>
-      {%- endif -%}
-      {%- if block.settings.title != blank -%}
-        {{- block.settings.title -}}
-      {%- endif -%}
-    </div>
-    <div class="certificate-container-right">
-        {%- if block.settings.paragraph != blank -%}
-          <p>{{ block.settings.paragraph }}</p>
-        {%- endif -%}
-        
-        {%- if block.settings.button_link != blank or block.settings.button_text != blank -%}
-          <a href="{{ block.settings.button_link }}">{{ block.settings.button_text }}</a>
-        {%- endif -%}
-    </div>
-
-  </div>
-    <div class="api-slider">
-    </div>
-</div>
-<script>
-    // Código JavaScript para hacer una solicitud a la API y mostrar resultados en el slider
-</script>
-
-{%  schema  %}
-{
-  "name": "List of certificates",
-  "settings": [
-    {
-      "type": "text",
-      "label": "Subheading",
-      "id": "subheading",
-      "info": "Introduce el subtítulo para el bloque."
-    },
-    {
-      "type": "textarea",
-      "label": "Title",
-      "id": "title",
-      "info": "Ingresa el contenido del título."
-    },
-    {
-      "type": "color",
-      "id": "color_title",
-      "label": "Title color"
-    },
-    {
-      "type": "color",
-      "id": "color_title_strong",
-      "label": "Title color strong"
-    },
-    {
-      "type": "textarea",
-      "label": "Paragraph",
-      "id": "paragraph",
-      "info": "Ingresa el contenido del párrafo."
-    },
-    {
-      "type": "text",
-      "label": "Botón Text",
-      "id": "button_text",
-      "info": "Texto para el botón."
-    },
-    {
-      "type": "url",
-      "label": "Botón Link",
-      "id": "button_link",
-      "info": "Enlace para el botón."
-    },
-    {
-      "type": "text",
-      "label": "API URL",
-      "id": "api_url",
-      "info": "Enlace de la API para obtener los datos del slider."
-    },
-    {
-      "type": "text",
-      "label": "API Key",
-      "id": "api_key",
-      "info": "Clave de acceso a la API (si es necesaria)."
-    }
-  ],
-  "presets": [
-    {
-      "name": "List of certificates"
-    }
-  ]
-}
-
-{% endschema %} 
+{% javascript %}
+{% endjavascript %}

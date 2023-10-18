@@ -167,7 +167,7 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
-            "content": "<h2>ECO<strong>PROTEIN<\/strong><\/h2><p>¡Te presentamos la nueva forma de comer huevo!<br\/>Una manera mucho más fácil de obtener la proteína más biodisponible del mundo. <br\/>El complemento perfecto para tu día a día: fácil y práctico!<\/p>",
+            "content": "<h2>ECO<strong>PROTEIN<\/strong><\/h2><p><strong>¡TE PRESENTAMOS LA NUEVA FORMA DE COMER HUEVO!. <\/strong> Una manera mucho más fácil de obtener la proteína más biodisponible del mundo. El complemento perfecto para tu día a día: fácil y práctico!<\/p>",
             "button_url": "shopify:\/\/collections\/fair-foods",
             "button_text": "Comprar aquí"
           }
@@ -177,16 +177,7 @@
         "3a9f287e-a4e7-4b5f-ab8e-67be54b8e654"
       ],
       "custom_css": [
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #ff6700;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
-        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
+        ".prose h2 strong {color: #ff6700;}"
       ],
       "settings": {
         "full_width": false,
@@ -196,7 +187,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#1a1a1a",
+        "button_background": "#026338",
         "button_text_color": ""
       }
     },

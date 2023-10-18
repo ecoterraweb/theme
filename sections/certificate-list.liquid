@@ -109,32 +109,9 @@
 
   </div>
     <div class="api-slider">
-      <div class="{% if section.settings.show_progress_bar %}scrollable-with-controls{% else %}floating-controls-container{% endif %}">
-        {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
-
-        <scroll-carousel selector=".collection-card" id="{{ scroll_area_id }}" class="scroll-area bleed {% if section.blocks.size > section.settings.collections_per_row %}is-scrollable{% endif %}">
-          <collection-list id="collectionList" class="collection-list">
-            
-          </collection-list>
-        </scroll-carousel>
-
-        {%- if section.settings.stack_collections == false -%}
-          {%- if section.settings.show_progress_bar -%}
-            {%- assign default_progress = section.settings.collections_per_row | times: 1.0 | divided_by: section.blocks.size -%}
-            {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
-          {%- else -%}
-            <button is="prev-button" class="circle-button circle-button--lg circle-button--fill border group" aria-controls="{{ scroll_area_id }}" disabled>
-              <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
-              <span class="animated-arrow animated-arrow--reverse"></span>
-            </button>
-
-            <button is="next-button" class="circle-button circle-button--lg circle-button--fill border group" aria-controls="{{ scroll_area_id }}">
-              <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
-              <span class="animated-arrow"></span>
-            </button>
-          {%- endif -%}
-        {%- endif -%}
-      </div>
+      <collection-list id="collectionList" class="collection-list">
+        
+      </collection-list>
     </div>
 </div>
 <script>

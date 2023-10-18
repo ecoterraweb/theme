@@ -18,6 +18,9 @@
     .newsletter--image{
       grid-template-columns: 1fr;
     }
+    .newsletter--image .h2{
+      color: #004228;
+    }
     .newsletter--image  > .newsletter-box {
       justify-content: center;
       display: flex;
@@ -49,6 +52,24 @@
     .newsletter--image  .newsletter-content>.form .fieldset-with-submit .form-control {
       width: 100%;
     }
+    .newsletter--image .newsletter-content p{
+      color: #505050;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    @media screen and (min-width: 770px) {
+      .newsletter--image .newsletter-content p{
+        font-size: 20px;
+      }
+    }
+    @media screen and (min-width: 1150px) {
+      .newsletter--image .newsletter-content p{
+        font-size: 25px;
+      }
+    }
+    @media screen and (min-width: 1400px) {
+    }
+
   </style>
 {%- endif -%}
 
@@ -106,7 +127,7 @@
       {%- capture sizes -%}(max-width: 999px) 100vw, min(50vw, {{ settings.page_width }}px / 2){%- endcapture -%}
       {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, class: 'h-full object-cover' -}}
 
-      <div {% render 'surface', class: 'newsletter-box', background: section.settings.background, background_gradient: section.settings.background_gradient, background_fallback: 'bg-secondary', text_color: section.settings.text_color %}>
+      <div {% render 'surface', class: 'newsletter-box', background: section.settings.background, background_gradient: section.settings.background_gradient, text_color: section.settings.text_color %}>
         {{- newsletter_content -}}
       </div>
     </div>

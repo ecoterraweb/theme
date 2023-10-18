@@ -20,7 +20,7 @@
     </div>
     <div class="certificate-container-right">
         {%- if block.settings.paragraph != blank -%}
-          <p>{{ block.settings.paragraph }}</p>
+          {{- block.settings.paragraph -}}
         {%- endif -%}
         
         {%- if block.settings.button_link != blank or block.settings.button_text != blank -%}
@@ -47,7 +47,7 @@
       "info": "Introduce el subtítulo para el bloque."
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "label": "Title",
       "id": "title",
       "info": "Ingresa el contenido del título."
@@ -63,7 +63,7 @@
       "label": "Title color strong"
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "label": "Paragraph",
       "id": "paragraph",
       "info": "Ingresa el contenido del párrafo."

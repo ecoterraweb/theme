@@ -800,6 +800,20 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "dbd57f90-5146-4835-adb4-220ac07d91a0": {
+      "type": "certificate-list",
+      "settings": {
+        "subheading": "",
+        "title": "<h1>los sellos que nos enorgullecen y los certificados que nos respaldan<\/h1>",
+        "color_title": "",
+        "color_title_strong": "",
+        "paragraph": "",
+        "button_text": "",
+        "button_link": "",
+        "api_url": "",
+        "api_key": ""
+      }
     }
   },
   "order": [
@@ -819,6 +833,7 @@
     "dfc8565e-4587-4b83-bfb7-8042178e6e77",
     "ccff1d20-57b9-402b-9f62-d36451f0be52",
     "63303b90-3a37-407c-9926-07e8e5d5910f",
-    "f091270f-8f95-48b7-88b0-50147dbf74c4"
+    "f091270f-8f95-48b7-88b0-50147dbf74c4",
+    "dbd57f90-5146-4835-adb4-220ac07d91a0"
   ]
 }

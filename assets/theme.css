@@ -10635,7 +10635,8 @@ p.custom__policies--text a{
 }
 .blog-post-card__info .h3{
   color: #505050;
-  font-size: 25 px;
+  font-weight: 500;
+  font-size: 25px;
 }
 /* tablet */
 @media screen and (min-width: 770px) {

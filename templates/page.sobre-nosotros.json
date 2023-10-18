@@ -534,6 +534,20 @@
         "button_text_color": ""
       }
     },
+    "dbd57f90-5146-4835-adb4-220ac07d91a0": {
+      "type": "certificate-list",
+      "settings": {
+        "subheading": "",
+        "title": "<h1>los sellos que nos enorgullecen y los certificados que nos respaldan<\/h1>",
+        "color_title": "",
+        "color_title_strong": "",
+        "paragraph": "",
+        "button_text": "",
+        "button_link": "",
+        "api_url": "",
+        "api_key": ""
+      }
+    },
     "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5": {
       "type": "rich-text",
       "blocks": {
@@ -800,20 +814,6 @@
         "button_background": "",
         "button_text_color": ""
       }
-    },
-    "dbd57f90-5146-4835-adb4-220ac07d91a0": {
-      "type": "certificate-list",
-      "settings": {
-        "subheading": "",
-        "title": "<h1>los sellos que nos enorgullecen y los certificados que nos respaldan<\/h1>",
-        "color_title": "",
-        "color_title_strong": "",
-        "paragraph": "",
-        "button_text": "",
-        "button_link": "",
-        "api_url": "",
-        "api_key": ""
-      }
     }
   },
   "order": [
@@ -829,11 +829,11 @@
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
     "d88f52d8-b117-43fc-96fe-5d439dea6412",
     "23a65bae-1921-413d-8f45-a5a71140750c",
+    "dbd57f90-5146-4835-adb4-220ac07d91a0",
     "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5",
     "dfc8565e-4587-4b83-bfb7-8042178e6e77",
     "ccff1d20-57b9-402b-9f62-d36451f0be52",
     "63303b90-3a37-407c-9926-07e8e5d5910f",
-    "f091270f-8f95-48b7-88b0-50147dbf74c4",
-    "dbd57f90-5146-4835-adb4-220ac07d91a0"
+    "f091270f-8f95-48b7-88b0-50147dbf74c4"
   ]
 }

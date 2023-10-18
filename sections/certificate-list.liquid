@@ -1,16 +1,48 @@
 <style>
-    #shopify-section-{{ section.id }} h1 {
-      color:   {{ section.settings.color_title  }};
-    }
-    #shopify-section-{{ section.id }} h1 strong{
-      color:   {{ section.settings.color_title_strong  }};
-    }
+  #shopify-section-{{ section.id }} h1 {
+    color:   {{ section.settings.color_title  }};
+  }
+  #shopify-section-{{ section.id }} h1 strong{
+    color:   {{ section.settings.color_title_strong  }};
+  }
+  #shopify-section-{{ section.id }} .certificate{
+    padding: 110px 0;
+  }
 
+  .certificate-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+    padding-left: 33px;
+    padding-right: 33px;
+    align-items: flex-end;
+    text-align: center;
+  }
+  /* tablet */
+  @media screen and (min-width: 770px) {
+  }
+    /* desktop */
+  @media screen and (min-width: 1150px) {
+    .certificate-container{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      width: 100%;
+      max-width: 1210px;
+      margin: auto;
+      align-items: flex-end;
+    }
+  }
+  /* full width */
+  @media screen and (min-width: 1400px) {
+  }
 </style>
 
 <div class="certificate">
   <div class="certificate-container">
-    <div class="certificate-container-left">
+    <div class="certificate-container-left prose">
       {%- if section.settings.subheading != blank -%}
         <p class="bold custom-pill-none">{{ section.settings.subheading }}</p>
       {%- endif -%}
@@ -24,7 +56,7 @@
         {%- endif -%}
         
         {%- if section.settings.button_link != blank or section.settings.button_text != blank -%}
-          <a href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
+          <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_text }}</a>
         {%- endif -%}
     </div>
 

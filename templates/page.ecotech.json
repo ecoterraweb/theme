@@ -8,12 +8,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/eco.png",
             "mobile_image": "shopify:\/\/shop_images\/B_ECT_S.png",
-            "content_max_width": 660,
+            "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
             "content": "",
-            "title": "HACIA LA TRAZABILIDAD BASADA EN BLOCKCHAIN",
+            "title": "TRAZAMOS NUESTROS PROCESOS CON BASE BLOCKCHAIN",
             "heading_tag": "h0",
             "heading_style": "font--primary",
             "button_text": "",
@@ -32,16 +32,13 @@
         "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1"
       ],
       "custom_css": [
-        "div {text-align: right;}",
-        ".h0 {font-size: 85px; font-weight: 700; text-transform: uppercase; line-height: 90px; word-wrap: break-word;}",
-        "@media screen and (max-width: 1000px) {.prose p {font-size: 77px; font-style: normal; font-weight: 700; line-height: 77px; \/* 100% *\/ letter-spacing: -1.54px; }}",
-        "@media screen and (max-width: 700px) {.prose p {font-size: 45px; font-style: normal; font-weight: 700; line-height: 45px; \/* 100% *\/ letter-spacing: -1.54px; }}"
+
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
         "allow_transparent_header": false,
-        "image_size": "fill",
+        "image_size": "lg",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": false,

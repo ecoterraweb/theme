@@ -15,7 +15,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-np.png",
             "mobile_image": "shopify:\/\/shop_images\/banner-nps.png",
-            "content_max_width": 780,
+            "content_max_width": 620,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
@@ -39,10 +39,7 @@
         "template--15538125635677__9b61646c-a010-4320-a608-c4c9982d72a1-image-1"
       ],
       "custom_css": [
-        "div {text-align: right;}",
-        ".h0 {font-size: 85px; font-weight: 700; text-transform: uppercase; line-height: 90px; word-wrap: break-word;}",
-        "@media screen and (max-width: 1000px) {.prose p {font-size: 77px; font-style: normal; font-weight: 700; line-height: 77px; \/* 100% *\/ letter-spacing: -1.54px; }}",
-        "@media screen and (max-width: 700px) {.prose p {font-size: 45px; font-style: normal; font-weight: 700; line-height: 45px; \/* 100% *\/ letter-spacing: -1.54px; }}"
+
       ],
       "settings": {
         "identifier": "",
@@ -82,7 +79,7 @@
         "template--15538978062429__592c85fc-a583-4781-a203-f2d81caae21f-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>DESAFIAMOS LAS NORMAS,<\/strong> REDEFINIENDO LA COMIDA CONSCIENTE<\/h2><p>En cada categoría de <strong>Ecoalimentos<\/strong>, fusionamos innovación científica con la esencia de la tierra, forjando un menú que nutre a cuerpos y al planeta. Desde cultivos en <strong>EcoAgriLab <\/strong>hasta creaciones culinarias en <strong>EcoFoodLab<\/strong>, y soluciones tecnológicas en <strong>EcoTechLab,<\/strong> cada bocado marca un giro.<\/p>"
+            "content": "<h2><strong>DESAFIAMOS LAS <br\/>NORMAS,<\/strong> REDEFINIENDO LA COMIDA CONSCIENTE<\/h2><p>En cada categoría de Ecoalimentos, fusionamos innovación científica con la esencia de la tierra, forjando un menú que nutre a cuerpos y al planeta. Desde cultivos en <strong>EcoAgriLab<\/strong> hasta creaciones culinarias en <strong>EcoFoodLab<\/strong>, y soluciones tecnológicas en <strong>EcoTechLab<\/strong>, cada bocado marca un giro. Salva el planeta.<\/p>"
           }
         },
         "25de009c-1c69-40e7-9334-0eff205599a8": {
@@ -136,9 +133,9 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
-            "content": "<h2>ECO<strong>HUEVOS<\/strong><\/h2><p>Todos nuestros ecohuevos provienen de gallinas que pastorean libres, en donde las aves pueden desarrollar sus conductas naturales. Además, comen una dieta 100% vegetariana y libre de antibióticos. <br\/>Porque creemos en un mundo más justo, colaboramos con pequeños productores certificados bajo estándares de comercio justo.<\/p>",
+            "content": "<h2>ECO<strong>HUEVOS<\/strong><\/h2><p>Todos nuestros ecohuevos provienen de gallinas que pastorean libres, en donde las aves pueden desarrollar sus conductas naturales. Además, comen una dieta 100% vegetariana y libre  de antibióticos. <br\/><br\/><strong>Porque creemos en un mundo más justo,<\/strong> colaboramos con pequeños productores certificados bajo estándares de comercio justo.<\/p>",
             "button_url": "shopify:\/\/collections\/huevos",
-            "button_text": "Comprar aquí"
+            "button_text": "Compra aquí"
           }
         }
       },
@@ -146,15 +143,7 @@
         "template--15538125635677__5eda4943-37f5-4688-a245-925e754d2358-item-1"
       ],
       "custom_css": [
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #10ccf4;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
-        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
+        ".prose h2 strong {color: #10ccf4;}"
       ],
       "settings": {
         "full_width": false,
@@ -164,7 +153,7 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#1a1a1a",
+        "button_background": "#026338",
         "button_text_color": ""
       }
     },
@@ -178,9 +167,9 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
-            "content": "<h2>ECO<strong>PROTEIN<\/strong><\/h2><p>¡Te presentamos la nueva forma de comer huevo!<br\/>Una manera mucho más fácil de obtener la proteína más biodisponible del mundo. <br\/>El complemento perfecto para tu día a día: fácil y práctico!<\/p>",
+            "content": "<h2>ECO<strong>PROTEIN<\/strong><\/h2><p><strong>¡TE PRESENTAMOS LA NUEVA FORMA DE COMER HUEVO!. <\/strong> Una manera mucho más fácil de obtener la proteína más biodisponible del mundo. El complemento perfecto para tu día a día: fácil y práctico!<\/p>",
             "button_url": "shopify:\/\/collections\/fair-foods",
-            "button_text": "Comprar aquí"
+            "button_text": "Compra aquí"
           }
         }
       },
@@ -188,16 +177,7 @@
         "3a9f287e-a4e7-4b5f-ab8e-67be54b8e654"
       ],
       "custom_css": [
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #ff6700;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
-        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
+        ".prose h2 strong {color: #ff6700;}"
       ],
       "settings": {
         "full_width": false,
@@ -207,7 +187,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#1a1a1a",
+        "button_background": "#026338",
         "button_text_color": ""
       }
     },
@@ -221,9 +201,9 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
-            "content": "<h2>ECO<strong>LÁCTEOS<\/strong><\/h2><p>Producidos en alianza con productores locales de la Región de Los Lagos, certificados en bienestar animal. <br\/>Las vacas pastorean libremente y no se utilizan antibióticos ni hormonas de forma rutinaria, de hecho, ¡todos nuestros lácteos son sin hormona rbST!<\/p>",
+            "content": "<h2>ECO<strong>LÁCTEOS<\/strong><\/h2><p>Producidos en alianza con productores locales de la Región de Los Lagos, certificados en bienestar animal. <br\/>Las vacas pastorean libremente y no se utilizan antibióticos ni hormonas de forma rutinaria, de hecho, <strong>¡TODOS NUESTROS LÁCTEOS SON SIN HORMONA rbST! <\/strong><\/p>",
             "button_url": "shopify:\/\/collections\/lacteos",
-            "button_text": "Comprar aquí"
+            "button_text": "Compra aquí"
           }
         }
       },
@@ -231,17 +211,7 @@
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e"
       ],
       "custom_css": [
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #394ff0;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
-        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
+        ".prose h2 strong {color: #394ff0;}"
       ],
       "settings": {
         "full_width": false,
@@ -251,7 +221,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#1a1a1a",
+        "button_background": "#026338",
         "button_text_color": ""
       }
     },
@@ -265,9 +235,9 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
-            "content": "<h2>ECO<strong>DESPENSA<\/strong><\/h2><p>Proveniente de cultivos sustentables y orgánicos, es decir, libres de fertilizantes químicos, pesticidas y herbicidas. Preocupados por tu salud y la del planeta.<\/p>",
+            "content": "<h2>ECO<strong>DESPENSA<\/strong><\/h2><p>Proveniente de cultivos sustentables y orgánicos, es decir, libres de fertilizantes químicos, pesticidas y herbicidas. Preocupados por tu salud y la del planeta.<\/p>",
             "button_url": "shopify:\/\/collections\/despensa-pantry",
-            "button_text": "Comprar aquí"
+            "button_text": "Compra aquí"
           }
         }
       },
@@ -275,17 +245,7 @@
         "1cc55f40-3ae8-4834-b200-df431c412e23"
       ],
       "custom_css": [
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #ff3e72;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
-        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
+        ".prose h2 strong {color: #ff3e72;}"
       ],
       "settings": {
         "full_width": false,
@@ -295,7 +255,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#1a1a1a",
+        "button_background": "#026338",
         "button_text_color": ""
       }
     },
@@ -311,7 +271,7 @@
             "title": "",
             "content": "<h2>ECO<strong>ADEREZOS<\/strong><\/h2><p>Nuestros EcoAderezos son ideales para acompañar todo. Sabrosos, únicos y bullsh*t free, te sacaran de apuro y llevaran tus comidas al siguiente nivel. Únicos que apoyan la vinculación social de pequeños productores. Naturales, éticos y sustentables. <\/p>",
             "button_url": "shopify:\/\/collections\/aderezos-naturales",
-            "button_text": "Comprar aquí"
+            "button_text": "Compra aquí"
           }
         }
       },
@@ -319,17 +279,7 @@
         "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf"
       ],
       "custom_css": [
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #7dac00;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
-        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
+        ".prose h2 strong {color: #7dac00;}"
       ],
       "settings": {
         "full_width": false,
@@ -339,7 +289,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#1a1a1a",
+        "button_background": "#026338",
         "button_text_color": ""
       }
     },
@@ -367,7 +317,7 @@
           "type": "heading",
           "settings": {
             "text": "¡NO TE LOS PIERDAS!",
-            "heading_tag": "h2",
+            "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
           }
@@ -375,7 +325,7 @@
         "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Conoce nuestro catálogo completo de productos!<\/strong><\/p>"
+            "content": "<p>Conoce nuestro catálogo completo de productos!<\/p>"
           }
         },
         "d898b983-5ef8-413f-838b-a40f0c9ebe5e": {
@@ -396,10 +346,7 @@
         "d898b983-5ef8-413f-838b-a40f0c9ebe5e"
       ],
       "custom_css": [
-        "h2 {font-size: 35px;}",
-        "a {letter-spacing: 0.02em; font-weight: 500;}",
-        "p.bold {font-size: 30px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
-        ".section-full.bg-custom.text-custom {padding-top: 130px; padding-bottom: 130px;}"
+
       ],
       "settings": {
         "identifier": "",
@@ -418,7 +365,7 @@
         "cc440d76-0e5c-4a60-aa3b-b327f3a59ea5": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>¡ENCUENTRA <strong>NUESTROS PRODUCTOS<\/strong>!<\/h2>"
+            "content": "<h1>ENCUENTRA <strong>NUESTROS PRODUCTOS<\/strong><\/h1>"
           }
         }
       },
@@ -426,13 +373,13 @@
         "cc440d76-0e5c-4a60-aa3b-b327f3a59ea5"
       ],
       "custom_css": [
-        "strong {color: #026338;}"
+        "strong {color: #8f46ff;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
         "mode_image": false,
-        "content_width": "small",
+        "content_width": "large",
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
@@ -465,9 +412,9 @@
         "full_width": true,
         "subheading": "",
         "title": "",
-        "content": "<h2><strong>ÚNETE<\/strong> A NUESTRA CAUSA ¡CONVIÉRTETE EN UN <strong>ECOPARTNER<\/strong>!<\/h2><p>¿Te interesan nuestros productos?<br\/>¿Quieres una cotización?<br\/>¡Escríbenos y nuestros KAM te contactarán!<\/p>",
+        "content": "<h2><strong>ÚNETE A NUESTRA CAUSA<\/strong><br\/>¡CONVIÉRTETE EN UN ECOPARTNER!<\/h2><p>¿Te interesan nuestros productos? ¿Quieres una cotización? ¡Escríbenos y nuestros KAM te contactarán!<\/p>",
         "text_position": "center",
-        "contact_form_size": "small",
+        "contact_form_size": "large",
         "background": "",
         "background_gradient": "",
         "text_color": "",

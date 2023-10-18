@@ -10645,6 +10645,14 @@ p.custom__policies--text a{
 .blog-post-card.blog-post-card.snap-center.group {
   height: 100%;
 }
+.blog-post-card__figure .badge--primary{
+  font-size: 14px;
+  font-weight: 600;
+  left: 11px;
+  line-height: 20px;
+  text-transform: capitalize;
+  top: 11px;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10754,6 +10762,10 @@ p.custom__policies--text a{
   .blog-post-card__info .h3{
     font-size: 25px;
   } 
+  .blog-post-card__figure .badge--primary{
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 /* desktop */
@@ -10976,4 +10988,8 @@ p.custom__policies--text a{
   .blog-post-card__info .h3{
     font-size: 30px;
   } 
+  .blog-post-card__figure .badge--primary{
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

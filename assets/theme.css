@@ -10638,6 +10638,13 @@ p.custom__policies--text a{
   font-weight: 500;
   font-size: 25px;
 }
+.blog-post-card__info{
+  height: 100%;
+  display: flex;
+}
+.blog-post-card.blog-post-card.snap-center.group {
+  height: 100%;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

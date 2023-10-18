@@ -92,11 +92,78 @@
 
   </div>
     <div class="api-slider">
+      <div class="{% if section.settings.show_progress_bar %}scrollable-with-controls{% else %}floating-controls-container{% endif %}">
+        {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
+
+        <scroll-carousel selector=".collection-card" id="{{ scroll_area_id }}" class="scroll-area bleed {% if section.blocks.size > section.settings.collections_per_row %}is-scrollable{% endif %}">
+          <collection-list id="collectionList" class="collection-list">
+            
+          </collection-list>
+        </scroll-carousel>
+
+        {%- if section.settings.stack_collections == false -%}
+          {%- if section.settings.show_progress_bar -%}
+            {%- assign default_progress = section.settings.collections_per_row | times: 1.0 | divided_by: section.blocks.size -%}
+            {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
+          {%- else -%}
+            <button is="prev-button" class="circle-button circle-button--lg circle-button--fill border group" aria-controls="{{ scroll_area_id }}" disabled>
+              <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
+              <span class="animated-arrow animated-arrow--reverse"></span>
+            </button>
+
+            <button is="next-button" class="circle-button circle-button--lg circle-button--fill border group" aria-controls="{{ scroll_area_id }}">
+              <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
+              <span class="animated-arrow"></span>
+            </button>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
     </div>
 </div>
 <script>
-    // Código JavaScript para hacer una solicitud a la API y mostrar resultados en el slider
+  // Código JavaScript para hacer una solicitud a la API y mostrar resultados en el slider
+
+  // URL de la API y parámetros
+  const apiUrl = "https://ecotech.ecoterra.cl/api/claims?limit=10&offset=0";
+
+  // Realizar la solicitud a la API utilizando fetch
+  fetch(apiUrl)
+    .then(response => response.json())
+    .then(data => {
+      // Aquí puedes procesar los datos recibidos de la API y mostrarlos en el slider
+      // Por ejemplo, puedes recorrer los datos y crear elementos HTML para mostrarlos en el slider.
+      const collectionList = document.getElementById("collectionList");
+
+      data.forEach(item => {
+        const collectionCard = document.createElement("article");
+        collectionCard.className = "collection-card";
+
+        // Crear un enlace (a)
+        const collectionLink = document.createElement("a");
+        // collectionLink.href = item.link; // Ajusta la propiedad 'href' según la estructura de tus datos
+        collectionLink.href = '#'; // Ajusta la propiedad 'href' según la estructura de tus datos
+
+        // Crear una imagen (img)
+        const collectionImage = document.createElement("img");
+        collectionImage.src = item.image; // Ajusta la propiedad 'src' según la estructura de tus datos
+        collectionImage.alt = item.claimName; // Ajusta la propiedad 'alt' según la estructura de tus datos
+
+        // Agregar la imagen al enlace
+        collectionLink.appendChild(collectionImage);
+
+        // Agregar el enlace al artículo
+        collectionCard.appendChild(collectionLink);
+
+        // Agregar el artículo al contenedor de la lista
+        collectionList.appendChild(collectionCard);
+      });
+
+    })
+    .catch(error => {
+      console.error("Error al obtener datos de la API:", error);
+    });
 </script>
+
 
 {%  schema  %}
 {
@@ -158,7 +225,13 @@
       "label": "API Key",
       "id": "api_key",
       "info": "Clave de acceso a la API (si es necesaria)."
-    }
+    },
+    {
+      "type": "checkbox",
+      "id": "show_progress_bar",
+      "label": "Show carousel progress bar",
+      "default": false
+    },
   ],
   "presets": [
     {

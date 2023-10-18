@@ -368,7 +368,7 @@
         "cc440d76-0e5c-4a60-aa3b-b327f3a59ea5": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>¡ENCUENTRA <strong>NUESTROS PRODUCTOS<\/strong>!<\/h2>"
+            "content": "<h1>ENCUENTRA <strong>NUESTROS PRODUCTOS<\/strong><\/h1>"
           }
         }
       },
@@ -376,13 +376,13 @@
         "cc440d76-0e5c-4a60-aa3b-b327f3a59ea5"
       ],
       "custom_css": [
-        "strong {color: #026338;}"
+        "strong {color: #8f46ff;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
         "mode_image": false,
-        "content_width": "small",
+        "content_width": "large",
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",

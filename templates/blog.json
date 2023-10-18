@@ -46,7 +46,7 @@
     "main": {
       "type": "main-blog",
       "custom_css": [
-        ".blog-banner-content{display: none;}"
+        ".blog-banner-content {display: none;}"
       ],
       "settings": {
         "allow_transparent_header": false,
@@ -71,11 +71,10 @@
     "d12fb7c1-ced5-418c-b017-5130f0cafc84": {
       "type": "newsletter",
       "custom_css": [
-        "button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".newsletter-content > .form {max-width: fit-content;}"
+
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "image": "shopify:\/\/shop_images\/NSL_L.png",
         "show_icon": false,
         "title": "¡No te quedes fuera!",

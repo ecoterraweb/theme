@@ -10638,9 +10638,19 @@ p.custom__policies--text a{
   text-transform: uppercase;
   line-height: 18px;
 }
+.prose--slideshow .h0{
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 50px;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
+    font-size: 66px;
+    line-height: 66px;
+  }
+  .prose--slideshow .h0{
     font-size: 66px;
     line-height: 66px;
   }
@@ -10877,6 +10887,10 @@ p.custom__policies--text a{
     width: 100%;
     max-width: 1210px !important;
   }
+  .prose--slideshow .h0{
+    font-size: 88px;
+    line-height: 88px;
+  } 
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -10951,4 +10965,8 @@ p.custom__policies--text a{
   .section-header .text-with-icon.group{
     margin: 25px 0 0 auto;
   }
+  .prose--slideshow .h0{
+    font-size: 110px;
+    line-height: 110px;
+  } 
 }

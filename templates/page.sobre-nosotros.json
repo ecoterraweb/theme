@@ -537,6 +537,7 @@
     "dbd57f90-5146-4835-adb4-220ac07d91a0": {
       "type": "certificate-list",
       "settings": {
+        "background_color": "#f5f5f5",
         "subheading": "certificaciones y sellos",
         "title": "<h1><strong>Los sellos que nos enorgullecen<\/strong> y los certificados que nos respaldan<\/h1>",
         "color_title": "#004228",

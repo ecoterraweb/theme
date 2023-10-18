@@ -176,26 +176,27 @@
 
 
       function scrollCollectionList() {
+        const collectionListVar = document.getElementById("collectionList");
         console.log('scrollCollectionList')
         const scrollInterval = 3000; // Intervalo de desplazamiento en milisegundos (3 segundos en este ejemplo)
         const scrollDistance = 200; // Distancia de desplazamiento en píxeles (ajusta según tus necesidades)
         
         // Función para desplazar los elementos dentro de collectionList
         function scrollElements() {
-          collectionList.scrollLeft += scrollDistance;
+          collectionListVar.scrollLeft += scrollDistance;
         }
         
         // Iniciar el desplazamiento automático
         const scrollIntervalId = setInterval(scrollElements, scrollInterval);
         
         // Detener el desplazamiento automático al pasar el puntero sobre collectionList
-        collectionList.addEventListener("mouseover", () => {
+        collectionListVar.addEventListener("mouseover", () => {
           console.log('puntero');
           clearInterval(scrollIntervalId);
         });
         
         // Reanudar el desplazamiento automático al quitar el puntero de collectionList
-        collectionList.addEventListener("mouseout", () => {
+        collectionListVar.addEventListener("mouseout", () => {
           console.log('puntero');
           clearInterval(scrollIntervalId);
           scrollIntervalId = setInterval(scrollElements, scrollInterval);

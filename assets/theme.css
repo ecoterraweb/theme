@@ -9986,8 +9986,7 @@ split-lines {
 }
 .shopify-section--header .link-faded-reverse{
   color: #fff;
-  font-weight: 500;
-}
+} 
 .shopify-section--header svg.icon {
   filter: brightness(15);
 }
@@ -10097,8 +10096,7 @@ split-lines {
   gap: 20px;
 }
 .claim--popup__title {
-  font-weight: 500;
-  color: #000;
+  color:25 000;
   margin: 0 0 10px;
   font-size: 30px;
   font-style: italic;
@@ -10329,7 +10327,6 @@ a.button.button--lg, button.button.button--xl{
 .custom-pill {
   color: white;
   font-size: 14px;
-  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.70px;
   word-wrap: break-word;
@@ -10369,7 +10366,6 @@ a.button.button--lg, button.button.button--xl{
 .shopify-section--collection-list .section-header .prose .custom-pill {
   color: white;
   font-size: 14px;
-  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.70px;
   word-wrap: break-word;
@@ -10444,7 +10440,6 @@ ul.custom__policies--list{
   gap: 0;
   color: #004228;
   font-size: 16px;
-  font-weight: 500;
   word-wrap: break-word;
 }
 ul.custom__policies--list li strong{
@@ -10457,7 +10452,6 @@ ul.custom__policies--list li a{
 p.custom__policies--text{
   color: #004228;
   font-size: 16px;
-  font-weight: 500;
   word-wrap: break-word
 }
 p.custom__policies--text strong{
@@ -10528,7 +10522,6 @@ p.custom__policies--text a{
 }
 .section-bg-rich-text--image .rich-text .prose p{
   font-size: 14px;
-  font-weight: 500;
   line-height: 20px;
   word-wrap: break-word;
   text-align: left;
@@ -10547,7 +10540,6 @@ p.custom__policies--text a{
 }
 .section-bg-rich-text--image .split-rich-text .prose p{
   font-size: 16px;
-  font-weight: 500;
   word-wrap: break-word;
   text-align: left;
 }   
@@ -10566,7 +10558,6 @@ p.custom__policies--text a{
   opacity: 1;
   color: #DBDE3B;
   font-size: 11px;
-  font-weight: 500;
   line-height: 20px;
 }
 .footer__block--text-image,  .footer__block--newsletter, .footer__block--menu{
@@ -10581,7 +10572,6 @@ p.custom__policies--text a{
 }
 .footer__block--text-image p{
  font-size: 11px;
- font-weight: 500;
  line-height: 20px;
  word-wrap: break-word;
 }
@@ -10610,8 +10600,7 @@ p.custom__policies--text a{
   margin: 25px auto 0;
 }
 .section-header .text-with-icon.group .reversed-link{
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 25 px;
 }
 .shopify-section--impact-text .bg-custom{
   position: relative;
@@ -10643,6 +10632,10 @@ p.custom__policies--text a{
   font-weight: 700;
   text-transform: uppercase;
   line-height: 50px;
+}
+.blog-post-card__info .h3{
+  color: #505050;
+  font-size: 25 px;
 }
 /* tablet */
 @media screen and (min-width: 770px) {
@@ -10750,6 +10743,9 @@ p.custom__policies--text a{
     line-height: 20px;
     max-width: 506px;
   }
+  .blog-post-card__info .h3{
+    font-size: 25px;
+  } 
 }
 
 /* desktop */
@@ -10968,5 +10964,8 @@ p.custom__policies--text a{
   .prose--slideshow .h0{
     font-size: 110px;
     line-height: 110px;
+  } 
+  .blog-post-card__info .h3{
+    font-size: 30px;
   } 
 }

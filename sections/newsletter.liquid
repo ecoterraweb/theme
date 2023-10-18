@@ -18,7 +18,7 @@
     .newsletter--image{
       grid-template-columns: 1fr;
     }
-    .newsletter--image .h2{
+    .newsletter--image .h1{
       color: #004228;
     }
     .newsletter--image  > .newsletter-box {
@@ -86,7 +86,7 @@
           <p class="custom-pill-none">{{ section.settings.subheading }}</p>
         {%- endif -%}
         {%- if section.settings.title != blank -%}
-          <h2 class="h2">{{ section.settings.title }}</h2>
+          <h1 class="h1">{{ section.settings.title }}</h1>
         {%- endif -%}
 
         {{- section.settings.content -}}

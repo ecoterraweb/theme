@@ -33,7 +33,10 @@
     align-items: center;
   }
   #collectionList{
-    display: flex;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
     margin: 120px 0 44px;
   }
   #collectionList .collection-card{
@@ -41,6 +44,7 @@
     height: 157px;
     border-radius: 11px;
     background: #fff; 
+    display: inline-block;
   }
   #collectionList .collection-card a{
     width: 100%;

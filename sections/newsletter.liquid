@@ -28,6 +28,7 @@
       display: flex;
       flex-direction: column;
       width: 100%;
+      max-width: 1210px;
     }
     .newsletter--image  .newsletter-content>.form {
       max-width: initial;
@@ -56,6 +57,10 @@
 
     {%- if section.settings.title != blank or section.settings.content -%}
       <div class="prose">
+
+        {%- if section.settings.subheading != blank -%}
+          <p class="custom-pill-none">{{ section.settings.subheading }}</p>
+        {%- endif -%}
         {%- if section.settings.title != blank -%}
           <h2 class="h2">{{ section.settings.title }}</h2>
         {%- endif -%}
@@ -144,6 +149,12 @@
       "id": "show_icon",
       "label": "Show icon",
       "default": true
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Newsletter"
     },
     {
       "type": "text",

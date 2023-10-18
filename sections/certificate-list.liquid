@@ -107,7 +107,7 @@
       // Aquí puedes procesar los datos recibidos de la API y mostrarlos en el slider
       // Por ejemplo, puedes recorrer los datos y crear elementos HTML para mostrarlos en el slider.
       const collectionList = document.getElementById("collectionList");
-
+      console.log('data', data);
       data.templates.forEach(item => {
         const collectionCard = document.createElement("article");
         collectionCard.className = "collection-card";

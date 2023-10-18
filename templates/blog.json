@@ -46,7 +46,7 @@
     "main": {
       "type": "main-blog",
       "custom_css": [
-
+        ".blog-banner-content{display: none;}"
       ],
       "settings": {
         "allow_transparent_header": false,

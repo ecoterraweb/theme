@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/eco.png",
             "mobile_image": "shopify:\/\/shop_images\/B_ECT_S.png",
-            "content_max_width": 660,
+            "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",

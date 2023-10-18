@@ -462,6 +462,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   gap: var(--blog-post-card-meta-gap);
   flex-wrap: wrap;
   display: flex;
+  align-items: flex-end;
 }
 
 .blog-post-card--featured {

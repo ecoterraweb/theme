@@ -279,17 +279,7 @@
         "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf"
       ],
       "custom_css": [
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #7dac00;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        "a.button {letter-spacing: 0.02em; font-weight: 500;}",
-        ".multiple-images-with-text__content-list .prose {display: flex; flex-direction: column; align-items: flex-start;}",
-        "@media screen and (min-width: 1000px) {a.button {margin-left: auto; }}"
+        ".prose h2 strong {color: #7dac00;}"
       ],
       "settings": {
         "full_width": false,
@@ -299,7 +289,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "button_background": "#1a1a1a",
+        "button_background": "#026338",
         "button_text_color": ""
       }
     },

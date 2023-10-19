@@ -27,7 +27,7 @@ async function fetchData() {
     }
 
     const tagsContainer = document.querySelector(".tags-container");
-    tagsContainer.innerHTML = "";
+    // tagsContainer.innerHTML = "";
 
     if (tagsContainer) {
       claims.forEach((claim) => {

@@ -10113,9 +10113,11 @@ split-lines {
   font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.3px;
+  letter-spacing: .3px;
+  word-wrap: break-word;
   margin: 0;
   max-width: 304px;
+  line-height: 35px;
 }
 .claim--popup__verified {
   font-weight: 400;
@@ -10126,9 +10128,10 @@ split-lines {
   /* cursor: pointer; */
 }
 .claim--popup__text {
-  font-size: 18px;
+  color: #505050;
+  font-size: 20px;
   font-weight: 400;
-  margin-bottom: 20px;
+  line-height: 20px;
 }
 .claim--popup__body .card {
   padding: 20px;

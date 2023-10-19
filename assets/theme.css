@@ -10141,6 +10141,13 @@ split-lines {
   font-weight: 800;
   font-size: 32px;
 }
+.claim--general--map--title{
+  color: #505050;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 /* Estilos para pantallas más pequeñas o dispositivos móviles */
 @media screen and (max-width: 600px) {
   .claim--popup {

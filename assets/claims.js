@@ -209,6 +209,7 @@ async function fetchData() {
           <p class="claim--popup__text">
             ${claim.description}
           </p>
+          <h5 class="claim--general--map--title">certificaciones asociadas</h5>
           <div id="claim--general--map" style="height: 300px; width: 100%;margin-bottom: 30px;"></div>
           <div class="claim--popup__card">
           <h4>¿Cómo se verifica?</h4>

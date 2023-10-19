@@ -104,48 +104,57 @@
         </div>
       </div>
       <div id="claim--general" class="claim--popup">
-            <div class="claim--popup__header">
-              <button id="closeButtonGeneral" class="claim--popup__close-button">
-                &times;
-              </button>
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0280/0854/6397/files/LOGO_PROOF-OF-ECO-v2.png?v=1692209257"
-                  alt="ecoterra proof of eco"
-                  class="claim--popup__img"
-                />
-            </div>
-            <div class="claim--popup__body">
-              <h4 class="claim--popup__title">Proof of ECO</h4>
-              <p class="claim--popup__text">Utilizamos la seguridad e inmutabilidad de las cadenas de bloques sobre tecnología sostenible de la red Polygon para darte visibilidad y transparencia de nuestros certificados gobernado por nuestro smart contract Proof of ECO</p>
-              <a
-              href="https://polygon.technology"
-              class="claim--popup__header--link"
-              target="_blank"
-              rel="noopener noreferrer"
-              >
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0280/0854/6397/files/polygon.png?v=1692152219"
-                  alt=""
-                  class="claim--popup__polygon"
-                />
-              </a>
-              <div class="claim--popup__div-select">
-                <!-- <div id="claimGeneralSelect" class="claim--popup__select">
-                  <span>Seleccione un claim para ver su información</span>
-                </div> -->
-                <div id="claimGeneralOptions" class="claim--popup__options">
-                  <!-- Options -->
-                  <ul></ul>
-                </div>
-              </div>
-              <div id="claimContent"></div>
-              <!-- <h4 class="claim--popup__subtitle">Nuestra tecnología en blockchain</h4>
-              <p class="claim--popup__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                malesuada mollis fringilla. Duis rutrum vulputate tortor in vehicula.
-              </p> -->
+        <div class="claim--popup__header">
+          <button id="closeButtonGeneral" class="claim--popup__close-button">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0280/0854/6397/files/close.svg?v=1697732258"
+              alt="ecoterra proof of eco"
+              class="claim--popup__close"
+            />
+          </button>
+          <img
+            src="https://cdn.shopify.com/s/files/1/0280/0854/6397/files/eco-logo.svg?v=1697732293"
+            alt="ecoterra proof of eco"
+            class="claim--popup__img"
+          />
+        </div>
+        <div class="claim--popup__body">
+          <div class="claim--popup__body--head">
+            <h4 class="claim--popup__title">Bienvenido a Proof of ECO</h4>
+            <a
+            href="https://polygon.technology"
+            class="claim--popup__header--link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://cdn.shopify.com/s/files/1/0280/0854/6397/files/polygon.png?v=1692152219"
+              alt=""
+              class="claim--popup__polygon"
+            />
+          </a>
+          </div>
+          <p class="claim--popup__text">
+            Gracias a la tecnología inmutable y segura de Blockchain y la red Polygon, hemos desarrollado esta sección para poder transparentar todos nuestros procesos. Aquí, podrás revisar e informarte acerca de los certificados asociados a todos nuestros productos y productores Ecoterra.
+          </p>
+          
+          <div class="claim--popup__div-select">
+            <!-- <div id="claimGeneralSelect" class="claim--popup__select">
+              <span>Seleccione un claim para ver su información</span>
+            </div> -->
+            <div id="claimGeneralOptions" class="claim--popup__options">
+              <!-- Options -->
+              <ul></ul>
             </div>
           </div>
+          <div id="claimContent"></div>
+          <!-- <h4 class="claim--popup__subtitle">Nuestra tecnología en blockchain</h4>
+          <p class="claim--popup__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            malesuada mollis fringilla. Duis rutrum vulputate tortor in vehicula.
+          </p> -->
+        </div>
+      </div>
       {%- when 'description' -%}
         {%- if block.settings.collapse_content -%}
           {%- if product.description != blank -%}

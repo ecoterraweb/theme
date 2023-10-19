@@ -10017,23 +10017,35 @@ split-lines {
   gap: 20px;
   background: #dbdd3b;
   padding: 0;
-  /* box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.08); */
+  padding-top: 12px;
   position: relative;
+  padding-bottom: 9px;
+  background-color: #052e1e;
 }
 .claim--popup__close-button {
-  font-size: 40px;
-  color: #000;
-  background-color: transparent;
   border: none;
-  line-height: 1;
   cursor: pointer;
   position: absolute;
   top: 0;
-  right: 10px;
+  right: 35px;
   font-weight: 300;
   bottom: 0;
   margin: auto;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  background: none;
+  background-color: #026338;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
+.claim--popup__body--head{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
 
 .claim--popup__close-button:focus {
   outline: none;
@@ -10084,7 +10096,7 @@ split-lines {
   max-height: 70px;
 }
 .claim--popup__polygon{
-  margin: 0 auto 20px;
+  margin: 0 auto;
   display: flex;
 }
 .claim--popup__body--head {
@@ -10097,11 +10109,13 @@ split-lines {
   gap: 20px;
 }
 .claim--popup__title {
-  color:25 000;
-  margin: 0 0 10px;
+  color: #004228;
   font-size: 30px;
-  font-style: italic;
-  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  word-wrap: break-word;
+  margin: 0;
 }
 .claim--popup__verified {
   font-weight: 400;
@@ -10287,6 +10301,9 @@ split-lines {
 .claim--popup__header--link{
   display: flex;
 }
+.ecoClaimsButtonImage img {
+  pointer-events: none;
+}
 .ecoClaimsButtonImage{
   padding-left: 22px;
   padding-right: 22px;
@@ -10347,6 +10364,7 @@ p.tags-container--text {
   margin: 0;
   max-width: fit-content;
 }
+
 .close-popover-button{
   position: absolute;
   right: 30px;

@@ -91,12 +91,12 @@ async function fetchData() {
       });
     }
     const buttonClose = document.querySelector("#closeButtonGeneral");
+    const claimOptionDivActive = document.querySelector(
+      "#claimOptionActiveDiv"
+    );
     if (buttonClose) {
       buttonClose.addEventListener("click", function (e) {
         activePopup.classList.remove("active");
-        const claimOptionDivActive = document.querySelector(
-          "#claimOptionActiveDiv"
-        );
         if(claimOptionDivActive){
           claimOptionDivActive.innerHTML = "";
         }
@@ -108,6 +108,9 @@ async function fetchData() {
       const isClickOnButton = e.target === generalButtonClaim;
       if (!isClickInsidePopup && !isClickOnButton) {
         activePopup.classList.remove("active");
+      }
+      if(claimOptionDivActive){
+        claimOptionDivActive.innerHTML = "";
       }
     });
     const generalSelectClaim = document.querySelector("#claimGeneralSelect");

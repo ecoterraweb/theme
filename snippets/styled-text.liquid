@@ -25,7 +25,11 @@ Supported variables
     if gradient != blank
       echo 'text-gradient '
     elsif text_color != blank and text_color != 'rgba(0,0,0,0)'
-      echo 'text-custom '
+      if font_secondary  
+        echo 'text-custom font--secondary'
+      else 
+        echo 'text-custom '
+      endif
     endif
 
     if style == 'outline'

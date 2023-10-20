@@ -15,6 +15,61 @@
         padding-inline-start: 0;
       }
     {%- endif -%}
+    .newsletter--image{
+      grid-template-columns: 1fr;
+    }
+    .newsletter--image .h1{
+      color: #004228;
+    }
+    .newsletter--image  > .newsletter-box {
+      justify-content: center;
+      display: flex;
+    }
+    .newsletter--image  .newsletter-content {
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 1210px;
+    }
+    .newsletter--image  .newsletter-content>.form {
+      max-width: initial;
+      
+    }
+    .newsletter--image  .newsletter-content .custom-pill-none {
+      text-align: center;
+    }
+    .newsletter--image  .newsletter-content>.form .fieldset-with-submit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 44px;
+      background-color: #F5F5F5;
+      border-radius: 22px;
+      width: 100%;
+    }
+    .newsletter--image  .newsletter-content>.form .fieldset-with-submit .form-control {
+      width: 100%;
+    }
+    .newsletter--image .newsletter-content p{
+      color: #505050;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    @media screen and (min-width: 770px) {
+      .newsletter--image .newsletter-content p{
+        font-size: 20px;
+      }
+    }
+    @media screen and (min-width: 1150px) {
+      .newsletter--image .newsletter-content p{
+        font-size: 25px;
+      }
+    }
+    @media screen and (min-width: 1400px) {
+    }
+
   </style>
 {%- endif -%}
 
@@ -26,8 +81,12 @@
 
     {%- if section.settings.title != blank or section.settings.content -%}
       <div class="prose">
+
+        {%- if section.settings.subheading != blank -%}
+          <p class="custom-pill-none">{{ section.settings.subheading }}</p>
+        {%- endif -%}
         {%- if section.settings.title != blank -%}
-          <h2 class="h2">{{ section.settings.title }}</h2>
+          <h1 class="h1">{{ section.settings.title }}</h1>
         {%- endif -%}
 
         {{- section.settings.content -}}
@@ -51,7 +110,7 @@
         <div class="fieldset-with-submit">
           {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}
           {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}
-          {%- render 'button', type: 'submit', content: section.settings.button_text, size: 'xl', icon: 'picto-envelope', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+          {%- render 'button', type: 'submit', content: section.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
         </div>
       {%- endif -%}
 
@@ -64,11 +123,11 @@
 
 <div {% render 'section-properties' %}>
   {%- if section.settings.image != blank -%}
-    <div class="newsletter">
+  <div class="{%- if  section.settings.grid_image -%} newsletter newsletter--image {%- else -%} newsletter {%- endif -%}">
       {%- capture sizes -%}(max-width: 999px) 100vw, min(50vw, {{ settings.page_width }}px / 2){%- endcapture -%}
       {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, class: 'h-full object-cover' -}}
 
-      <div {% render 'surface', class: 'newsletter-box', background: section.settings.background, background_gradient: section.settings.background_gradient, background_fallback: 'bg-secondary', text_color: section.settings.text_color %}>
+      <div {% render 'surface', class: 'newsletter-box', background: section.settings.background, background_gradient: section.settings.background_gradient, text_color: section.settings.text_color %}>
         {{- newsletter_content -}}
       </div>
     </div>
@@ -105,9 +164,21 @@
     },
     {
       "type": "checkbox",
+      "id": "grid_image",
+      "label": "grid image",
+      "default": false
+    },
+    {
+      "type": "checkbox",
       "id": "show_icon",
       "label": "Show icon",
       "default": true
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Newsletter"
     },
     {
       "type": "text",

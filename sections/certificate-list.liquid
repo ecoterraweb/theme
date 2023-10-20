@@ -1,0 +1,280 @@
+<style>
+  #shopify-section-{{ section.id }} {
+    background-color: {{ section.settings.background_color  }};
+  }
+  #shopify-section-{{ section.id }} h1 {
+    font-size: 25px;
+    color: {{ section.settings.color_title  }};
+  }
+  #shopify-section-{{ section.id }} h1 strong{
+    color: {{ section.settings.color_title_strong  }};
+  }
+  #shopify-section-{{ section.id }} .certificate{
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+
+  .certificate-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+    padding-left: 33px;
+    padding-right: 33px;
+    align-items: flex-end;
+    text-align: center;
+    max-width: 375px;
+  }
+  .certificate-container-right{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+  }
+  .api-slider{
+    overflow: hidden;
+  }
+  #collectionList{
+    display: block;
+    overflow: scroll;
+    white-space: nowrap;
+    width: 100%;
+    margin: 44px 0;
+    margin-left: 22px;
+  }
+  #collectionList .collection-card{
+    width: 157px;
+    height: 157px;
+    border-radius: 11px;
+    background: #fff; 
+    display: inline-block;
+    margin-right: 10px;
+  }
+  #collectionList .collection-card a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #collectionList .collection-card a img{
+    max-width: 100px;
+  }
+    
+  /* tablet */
+  @media screen and (min-width: 770px) {
+    #shopify-section-{{ section.id }} .certificate{
+      padding-top: 110px;
+      padding-bottom: 110px;
+    }
+    #shopify-section-{{ section.id }} h1 {
+      font-size: 33px;
+    }
+    .certificate-container{
+      max-width: 506px;
+    }
+    #collectionList{
+      margin: 120px 0 44px;
+      margin-left: calc(50vw - 605px);
+      padding-right: calc(50vw - 605px);
+    }
+  }
+    /* desktop */
+  @media screen and (min-width: 1150px) {
+    
+    #shopify-section-{{ section.id }} h1 {
+      font-size: 44px;
+    }
+    .certificate-container{
+      grid-template-columns: 1fr 1fr;
+      max-width: 1210px;
+      align-items: flex-end;
+      text-align: left;
+    }
+    .certificate-container-right{
+      gap: 33px;
+      align-items: flex-start;
+    }
+  }
+  /* full width */
+  @media screen and (min-width: 1400px) {
+    #shopify-section-{{ section.id }} h1 {
+      font-size: 55px;
+    }
+  }
+</style>
+
+<div class="certificate">
+  <div class="certificate-container">
+    <div class="certificate-container-left prose">
+      {%- if section.settings.subheading != blank -%}
+        <p class="bold custom-pill-none">{{ section.settings.subheading }}</p>
+      {%- endif -%}
+      {%- if section.settings.title != blank -%}
+        {{- section.settings.title -}}
+      {%- endif -%}
+    </div>
+    <div class="certificate-container-right">
+        {%- if section.settings.paragraph != blank -%}
+          {{- section.settings.paragraph -}}
+        {%- endif -%}
+        
+        {%- if section.settings.button_link != blank or section.settings.button_text != blank -%}
+          <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_text }}</a>
+        {%- endif -%}
+    </div>
+
+  </div>
+    <div class="api-slider">
+      <collection-list id="collectionList" class="collection-list">
+        
+      </collection-list>
+    </div>
+</div>
+<script>
+  // Código JavaScript para hacer una solicitud a la API y mostrar resultados en el slider
+  // URL de la API y parámetros
+  const apiUrl = "https://ecotech.ecoterra.cl/api/claims?limit=10&offset=0";
+
+  // Realizar la solicitud a la API utilizando fetch
+  fetch(apiUrl)
+    .then(response => response.json())
+    .then(data => {
+      // Aquí puedes procesar los datos recibidos de la API y mostrarlos en el slider
+      // Por ejemplo, puedes recorrer los datos y crear elementos HTML para mostrarlos en el slider.
+      const collectionList = document.getElementById("collectionList");
+
+      data.templates.forEach(item => {
+        const collectionCard = document.createElement("article");
+        collectionCard.className = "collection-card";
+
+        // Crear un enlace (a)
+        const collectionLink = document.createElement("a");
+        // collectionLink.href = item.link; // Ajusta la propiedad 'href' según la estructura de tus datos
+        collectionLink.href = '#'; // Ajusta la propiedad 'href' según la estructura de tus datos
+
+        // Crear una imagen (img)
+        const collectionImage = document.createElement("img");
+        collectionImage.src = item.image; // Ajusta la propiedad 'src' según la estructura de tus datos
+        collectionImage.alt = item.claimName; // Ajusta la propiedad 'alt' según la estructura de tus datos
+
+        // Agregar la imagen al enlace
+        collectionLink.appendChild(collectionImage);
+
+        // Agregar el enlace al artículo
+        collectionCard.appendChild(collectionLink);
+
+        // Agregar el artículo al contenedor de la lista
+        collectionList.appendChild(collectionCard);
+      });
+
+
+      // function scrollCollectionList() {
+      //   const collectionListVar = document.getElementById("collectionList");
+      //   console.log('scrollCollectionList')
+      //   const scrollInterval = 3000; // Intervalo de desplazamiento en milisegundos (3 segundos en este ejemplo)
+      //   const scrollDistance = 200; // Distancia de desplazamiento en píxeles (ajusta según tus necesidades)
+        
+      //   // Función para desplazar los elementos dentro de collectionList
+      //   function scrollElements() {
+      //     collectionListVar.scrollLeft += scrollDistance;
+      //   }
+        
+      //   // Iniciar el desplazamiento automático
+      //   const scrollIntervalId = setInterval(scrollElements, scrollInterval);
+        
+      //   // Detener el desplazamiento automático al pasar el puntero sobre collectionList
+      //   collectionListVar.addEventListener("mouseover", () => {
+      //     console.log('puntero');
+      //     clearInterval(scrollIntervalId);
+      //   });
+        
+      //   // Reanudar el desplazamiento automático al quitar el puntero de collectionList
+      //   collectionListVar.addEventListener("mouseout", () => {
+      //     console.log('puntero');
+      //     clearInterval(scrollIntervalId);
+      //     scrollIntervalId = setInterval(scrollElements, scrollInterval);
+      //   });
+      // }
+
+      // // Llamar a la función para iniciar el slider automático
+      // scrollCollectionList();
+      
+    })
+    .catch(error => {
+      console.error("Error al obtener datos de la API:", error);
+    });
+</script>
+
+
+{%  schema  %}
+{
+  "name": "List of certificates",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color"
+    },
+    {
+      "type": "text",
+      "label": "Subheading",
+      "id": "subheading",
+      "info": "Introduce el subtítulo para el bloque."
+    },
+    {
+      "type": "richtext",
+      "label": "Title",
+      "id": "title",
+      "info": "Ingresa el contenido del título."
+    },
+    {
+      "type": "color",
+      "id": "color_title",
+      "label": "Title color"
+    },
+    {
+      "type": "color",
+      "id": "color_title_strong",
+      "label": "Title color strong"
+    },
+    {
+      "type": "richtext",
+      "label": "Paragraph",
+      "id": "paragraph",
+      "info": "Ingresa el contenido del párrafo."
+    },
+    {
+      "type": "text",
+      "label": "Botón Text",
+      "id": "button_text",
+      "info": "Texto para el botón."
+    },
+    {
+      "type": "url",
+      "label": "Botón Link",
+      "id": "button_link",
+      "info": "Enlace para el botón."
+    },
+    {
+      "type": "text",
+      "label": "API URL",
+      "id": "api_url",
+      "info": "Enlace de la API para obtener los datos del slider."
+    },
+    {
+      "type": "text",
+      "label": "API Key",
+      "id": "api_key",
+      "info": "Clave de acceso a la API (si es necesaria)."
+    }
+  ],
+  "presets": [
+    {
+      "name": "List of certificates"
+    }
+  ]
+}
+
+{% endschema %} 

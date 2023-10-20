@@ -23,6 +23,109 @@ Supported variables
 {%- assign variant_picker_block = section.blocks | where: 'type', 'variant_picker' | first -%}
 
 {%- form 'product', product, is: 'product-form', id: form_id -%}
+
+    {% assign productTags = product.tags | join: '|' %}
+        {% if productTags contains 'Suscripción' %}
+            <style>
+                .opciones_de_recurrencia {
+                   display: block; 
+                }
+
+                .opciones_de_recurrencia label {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    align-items: center;
+                    width: min-content;
+                    margin: 0;
+                    padding: 0.3rem 1rem;
+                    font-size: 1rem;
+                    white-space: nowrap;
+                    line-height: 1;
+                    cursor: pointer;
+                }
+
+                .opciones_de_recurrencia label._cont_select {
+                    display: none;
+                    margin-left: 3rem;
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+
+                .opciones_de_recurrencia label span {
+                    font-weight: 500;
+                    font-size: 1rem;
+                    line-height: 1;
+                }
+
+                .opciones_de_recurrencia input[type="radio"] {
+                    margin-right: 0.6rem;
+                    width: 20px;
+                    height: 20px;
+                }
+                
+                .opciones_de_recurrencia select {
+                    margin-left: 1rem;
+                    padding: 0.4rem 0.3rem 0.4rem 0.2rem;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    outline: none;
+                }
+            </style>
+            <div class="opciones_de_recurrencia">
+                <label>
+                    <input type="radio" name="properties[_tipo_compra]" value="normal" onchange="cambiaTipo(this)" checked>
+                    <span>Compra única</span>
+                </label>
+                <label>
+                    <input type="radio" name="properties[_tipo_compra]" value="recurrente" onchange="cambiaTipo(this)">
+                    <span>Suscripción</span>
+                </label>
+                <label class="_cont_select" id="cont_sel_frecuencia">
+                    Frecuencia
+                    <select name="properties[Frecuencia]" id="sel_frecuencia">
+                        <option value="Semanal">Cada semana</option>
+                        <option value="Cada 2 semanas">Cada 2 semanas</option>
+                        <option value="Mensual">Cada mes</option>
+                    </select>
+                </label>
+                <label class="_cont_select" id="cont_sel_dias">
+                    Días de entrega
+                    <select name="properties[Día entrega]" id="sel_dias">
+                        <option>Lunes</option>
+                        <option>Martes</option>
+                        <option>Miércoles</option>
+                        <option>Jueves</option>
+                        <option>Viernes</option>
+                    </select>
+                </label>
+                <br>
+            </div>
+            <script>
+                const _cont_sel_frecuencia = document.getElementById("cont_sel_frecuencia");
+                const _cont_sel_dias = document.getElementById("cont_sel_dias");
+                const _sel_frecuencia = document.getElementById("sel_frecuencia");
+                const _sel_dias = document.getElementById("sel_dias");
+                _sel_frecuencia.value = "";
+                _sel_dias.value = "";
+
+                const cambiaTipo = (_this) => {
+                    if(_this.value === "recurrente") {
+                        _cont_sel_frecuencia.style.display = "flex";
+                        _cont_sel_dias.style.display = "flex";
+                        _sel_frecuencia.value = "Semanal";
+                        _sel_dias.value = "Lunes";
+                    } else {
+                        _cont_sel_frecuencia.style.display = "none";
+                        _cont_sel_dias.style.display = "none";
+                        _sel_frecuencia.value = "";
+                        _sel_dias.value = "";
+                    }
+                }
+            </script>
+        {% else %}
+            <input type="hidden" name="properties[_tipo_compra]" value="normal">
+        {% endif %}
+        
   <input type="hidden" {% if variant_picker_block != blank %}disabled{% endif %} name="id" value="{{ product.selected_or_first_available_variant.id }}">
 
   {%- assign button_disabled = false -%}

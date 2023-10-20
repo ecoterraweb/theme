@@ -1,0 +1,110 @@
+<div class="container">
+  {% assign id_length = customer.id | size %}
+  {% assign subscriptions_length = 0 %}
+
+  {%- if id_length > 4 -%}
+    {%- if subscriptions_length == 0 -%}
+      <div class="empty-state">
+        <div class="empty-state__icon-wrapper">
+          {%- render 'icon' with 'picto-box'
+            , width: 32
+            , height: 32
+            , stroke_width: 1 -%}
+          <span class="count-bubble count-bubble--lg">0</span>
+        </div>
+
+        <div class="prose">
+          <p class="h6">Aún no has realizado ninguna suscripción.</p>
+
+          {%- assign button_content = 'customer.account.continue_shopping' | t -%}
+          {%- render 'button'
+            , href: routes.all_products_collection_url
+            , size: 'xl'
+            , content: button_content -%}
+        </div>
+      </div>
+    {%- else -%}
+      <div class="page-spacer">
+        <div class="account">
+          <div class="account-header">
+            <div class="text-with-bubble justify-self-center">
+              <h1 class="h3">Suscripciones</h1>
+              <span class="count-bubble count-bubble--lg">{{ customer.orders.size }}</span>
+            </div>
+          </div>
+
+          <div class="account__block-list">
+
+            <div class="v-stack gap-5" {{ block.shopify_attributes }}>
+
+              <table class="order-table-list">
+                <thead>
+                  <tr>
+                    <th>{{ 'customer.order.order' | t }}</th>
+                    <th>{{ 'customer.order.date' | t }}</th>
+                    <th>{{ 'customer.order.payment_status' | t }}</th>
+                    <th>{{ 'customer.order.fulfillment_status' | t }}</th>
+                    <th class="text-end">{{ 'customer.order.total' | t }}</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  {%- for order in customer.orders -%}
+                    <tr class="table-row-hover" onclick="window.location.href = '{{ order.customer_url }}'">
+                      <td class="bold">{{ order.name }}</td>
+                      <td class="text-subdued">{{ order.created_at | date: format: 'date' }}</td>
+                      <td class="text-subdued">{{ order.financial_status_label }}</td>
+                      <td class="text-subdued">{{ order.fulfillment_status_label }}</td>
+                      <td class="text-subdued text-end">{{ order.total_net_amount | money }}</td>
+                    </tr>
+                  {%- endfor -%}
+                </tbody>
+              </table>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+      <script>
+        var _getSubscriptions = (_params = {}) => {
+            console.log("Inicio de consulta de suscripciones id: " + _params.customer_id);
+        }
+
+        window.addEventListener('load', function() {
+            _getSubscriptions({
+                customer_id: '{{customer.id}}'
+            });
+        });
+      </script>
+    {%- endif -%}
+  {%- else -%}
+    <div class="empty-state">
+      <div class="empty-state__icon-wrapper">
+        {%- render 'icon' with 'warning'
+          , width: 32
+          , height: 32
+          , stroke_width: 1 -%}
+      </div>
+
+      <div class="prose">
+        <p class="h6">Debes iniciar sesión para ver este contenido.</p>
+
+        {%- assign button_content = 'customer.login.submit' | t -%}
+        {%- render 'button'
+          , href: routes.account_login_url
+          , size: 'xl'
+          , content: button_content -%}
+      </div>
+    </div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+  {
+    "name": "Customer subscriptions",
+    "class": "shopify-section--main-customers-subscriptions",
+    "tag": "section"
+  }
+{% endschema %}

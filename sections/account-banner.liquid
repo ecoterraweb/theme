@@ -29,6 +29,8 @@
     <ul class="h-stack justify-center gap-8" role="list">
       {%- if request.page_type == 'customers/account' or request.page_type == 'customers/order' -%}
         {%- assign orders_tab_active = true -%}
+      {%- elsif request.path == '/pages/suscripciones' -%}
+        {%- assign subscriptions_tab_active = true -%}
       {%- elsif request.page_type == 'customers/addresses' -%}
         {%- assign addresses_tab_active = true -%}
       {%- endif -%}
@@ -36,6 +38,12 @@
       <li class="account-nav__item" {% if orders_tab_active %}aria-current="page"{% endif %}>
         <a href="{{ routes.account_url }}" class="bold {% unless orders_tab_active %}link-faded{% endunless %}">
           {{- 'customer.account.orders' | t -}}
+        </a>
+      </li>
+      
+      <li class="account-nav__item" {% if subscriptions_tab_active %}aria-current="page"{% endif %}>
+        <a href="/pages/suscripciones" class="bold {% unless subscriptions_tab_active %}link-faded{% endunless %}">
+          Suscripciones
         </a>
       </li>
 

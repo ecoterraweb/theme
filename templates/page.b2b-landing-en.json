@@ -1,0 +1,183 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "77458498-be5c-4ebb-9018-f56f854708ca": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15540312113245__77458498-be5c-4ebb-9018-f56f854708ca-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b2b-landing-eng-banner-desktop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/b2b-landing-eng-banner-mobile.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "content": "",
+            "title": "",
+            "heading_tag": "h0",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15540312113245__77458498-be5c-4ebb-9018-f56f854708ca-image-1"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "8d49537b-9f26-4b2a-8041-630231b6d82b": {
+      "type": "custom__form",
+      "settings": {
+        "title": "Become an EcoPartner and collaborate with us to move the needle and save our planet!",
+        "button_text": "Send",
+        "form_action": "https:\/\/formspree.io\/f\/xzblpper",
+        "language": "en"
+      }
+    },
+    "40d74cfc-0f13-48b3-9d4b-a80a4d6016db": {
+      "type": "slideshow",
+      "blocks": {
+        "5b12b8ba-8d6b-405d-89bc-e2b0803db8c3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b2b-landing-eng-principles-desktop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/b2b-landing-eng-principles-mobile.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "content": "",
+            "title": "",
+            "heading_tag": "h0",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "5b12b8ba-8d6b-405d-89bc-e2b0803db8c3"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "cd1423a3-0bf8-4521-8c22-1036b2103ee5": {
+      "type": "faq",
+      "blocks": {
+        "template--15540312113245__cd1423a3-0bf8-4521-8c22-1036b2103ee5-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "How does Ecoterra contribute to saving the planet?",
+            "content": "<p>Eating is a basic need. We all do it, every day. Therefore, to save our planet, we believe that the real revolution is in agriculture, food is the way.today, modern industrial agriculture resorts to annual monocultures, toxic herbicides and pesticides, synthetic fertilizers and water wastage, all of which are destroying topsoil much faster than it can be replenished. This leads to other major costs: lousy living conditions for animals, disengagement of small farmers, tasteless food that makes people sick, and an absurd amount of food waste.We are certain that if we want to move the needle and save our home, changes in agriculture are the most necessary. And that is Ecoterra, an alternative that ensures animal welfare, minimizes food waste, protects farm workers and innovates practices that care for our soils.At Ecoterra we do much more than food. We do innovation and development to guarantee honest products, through the creation of fair, replicable and scalable production models. We collaborate with nature to build purposeful foods that are part of the solution and not part of the problem.<\/p>"
+          }
+        },
+        "template--15540312113245__cd1423a3-0bf8-4521-8c22-1036b2103ee5-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "How do you link small agricultural producers (Ecofarmers) socially?",
+            "content": "<p>Through fair trade practices. These are: <\/p><ul><li>Fair, transparent and formal contracts. No fine print.<\/li><li>Payment at fair prices (aligned with the market) and on time.<\/li><li>Assurance of the purchase of production (short, medium and long term) to reduce uncertainty and avoid food waste.<\/li><li>Financial support to enhance your sustainable production.<\/li><li>Technical support to achieve the best production standards.<\/li><\/ul>"
+          }
+        },
+        "template--15540312113245__cd1423a3-0bf8-4521-8c22-1036b2103ee5-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "What is the difference between Cage Free and Free Range? What system does Ecoterra use?",
+            "content": "<p>All Ecoterra eggs are Free Range, certified by the Certified Humane seal. <\/p><p>The difference between the two systems is that the Free Range system ensures that the birds are released to irrigated pastures (2 m2 per bird), while the Cage Free system only ensures that the birds are cage-free but do not leave the aviary (0.14 m2 per bird).<\/p>"
+          }
+        },
+        "dbad0198-1b21-4cfb-899b-61f0c5a12653": {
+          "type": "item",
+          "settings": {
+            "title": "Is there a minimum purchase amount to become a customer?",
+            "content": "<p>The minimum amount is 2 boxes of product. Payment is by invoice.<\/p>"
+          }
+        },
+        "68d1124b-2021-4222-9701-d94af64b8b74": {
+          "type": "item",
+          "settings": {
+            "title": "What is the frequency of dispatches?",
+            "content": "<p>It depends on the commune where your business is located, since we work with a delivery calendar by sector.  Orders must be placed 48 hours in advance.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15540312113245__cd1423a3-0bf8-4521-8c22-1036b2103ee5-item-1",
+        "template--15540312113245__cd1423a3-0bf8-4521-8c22-1036b2103ee5-item-2",
+        "template--15540312113245__cd1423a3-0bf8-4521-8c22-1036b2103ee5-item-3",
+        "dbad0198-1b21-4cfb-899b-61f0c5a12653",
+        "68d1124b-2021-4222-9701-d94af64b8b74"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "77458498-be5c-4ebb-9018-f56f854708ca",
+    "8d49537b-9f26-4b2a-8041-630231b6d82b",
+    "40d74cfc-0f13-48b3-9d4b-a80a4d6016db",
+    "cd1423a3-0bf8-4521-8c22-1036b2103ee5"
+  ]
+}

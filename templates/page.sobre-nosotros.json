@@ -13,14 +13,14 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sideshow-1.png",
-            "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
-            "content_max_width": 600,
-            "mobile_text_position": "place-self-end-end text-center",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "image": "shopify:\/\/shop_images\/SN_L_3c1a3fa7-6f44-46c2-baa6-f04d3fc609ae.png",
+            "mobile_image": "shopify:\/\/shop_images\/SN_S.png",
+            "content_max_width": 740,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
-            "content": "",
-            "title": "ESTAMOS CAMBIANDO LAS COSAS",
+            "content": "<h1>HACEMOS CAMBIOS DE VERDAD<\/h1>",
+            "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
             "button_text": "",
@@ -39,9 +39,7 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1"
       ],
       "custom_css": [
-        "div {text-align: ;}",
-        " \/* Cambios\/Desktop\/H0\/H0 *\/P.h6 {font-size: 85px; font-style: normal; font-weight: 700; line-height: 90px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase;}",
-        "@media screen and (max-width: 700px) {P.h6 {font-size: 50px; font-style: normal; font-weight: 700; line-height: 55px; \/* 105.882% *\/ letter-spacing: -1.7px; text-transform: uppercase; }}"
+
       ],
       "settings": {
         "identifier": "",
@@ -95,6 +93,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "small",
         "text_position": "center",
         "background": "#1a1a1a",
@@ -119,7 +118,8 @@
         "eb669705-b208-4b03-9d17-674985343137": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani-13.png",
+            "image": "shopify:\/\/shop_images\/MANI_1.png",
+            "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
             "max_width": 450,
@@ -133,16 +133,12 @@
         "eb669705-b208-4b03-9d17-674985343137"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #66f3ff;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h2 strong {color: #66f3ff;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#394ff0",
@@ -156,7 +152,8 @@
         "9df8e6ae-0332-4fe6-afb7-011c52b84453": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani-2f.png",
+            "image": "shopify:\/\/shop_images\/MANI_2.png",
+            "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
             "max_width": 450,
@@ -181,21 +178,17 @@
         "87ccbca3-4805-4f5e-a84c-0817d10540eb"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #ff3e72;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h2 strong {color: #ff3e72;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#1a1a1a"
+        "text_color": "#505050"
       }
     },
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c": {
@@ -215,7 +208,8 @@
         "a80fbbc7-e9ce-49c6-b127-de269a324faf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani_1.png",
+            "image": "shopify:\/\/shop_images\/MANI_1.png",
+            "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
             "max_width": 450,
@@ -229,16 +223,12 @@
         "a80fbbc7-e9ce-49c6-b127-de269a324faf"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #ff6700;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h2 strong {color: #ff6700;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#f5f5f5",
@@ -257,8 +247,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/papel_af4a9327-5ba3-4e45-ab65-f13af9f27d42.png",
-        "mobile_image": "shopify:\/\/shop_images\/papel-s.png",
+        "image": "shopify:\/\/shop_images\/MANI_4_L.png",
+        "mobile_image": "shopify:\/\/shop_images\/MANI_4_S.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#ffffff",
@@ -272,7 +262,7 @@
         "dcde1d51-21d6-4a43-a517-1fc5b69a2891": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>BEST FRIENDS<\/strong>: TECNOLOGÍA Y NATURALEZA<\/h2><p>Trabajamos en el desarrollo de sistemas de producción que son justos y sostenibles. Buscamos un equilibrio entre la tecnología actual y la sabiduría de la naturaleza para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p>"
+            "content": "<h2><strong>BEST FRIENDS:<\/strong> TECNOLOGÍA Y NATURALEZA<\/h2><p>Trabajamos en el desarrollo de sistemas de producción que son justos y sostenibles. Buscamos un equilibrio entre la tecnología actual y la sabiduría de la naturaleza para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p>"
           }
         },
         "a81b9b40-0ecd-4875-8eb5-5415754549ae": {
@@ -283,7 +273,8 @@
         "1d273f80-b02f-4387-8ad3-801ac1f508ec": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mani-eco.png",
+            "image": "shopify:\/\/shop_images\/MANI_5.png",
+            "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
             "max_width": 450,
@@ -297,16 +288,12 @@
         "1d273f80-b02f-4387-8ad3-801ac1f508ec"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #dbde3b;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px 0;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h2 strong {color: #dbde3b;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#026338",
@@ -354,7 +341,7 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 23,
+            "horizontal_position": 30,
             "vertical_position": 33,
             "horizontal_position_mobile": 47,
             "vertical_position_mobile": 11,
@@ -367,11 +354,11 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 14,
+            "horizontal_position": 23,
             "vertical_position": 64,
             "horizontal_position_mobile": 28,
             "vertical_position_mobile": 26,
-            "icon": "shopify:\/\/shop_images\/egg.png",
+            "icon": "shopify:\/\/shop_images\/ICON_FL.png",
             "icon_width": 32,
             "title": "EcoFood Lab",
             "content": "<p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? EcoFoodLab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
@@ -380,7 +367,7 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3": {
           "type": "item",
           "settings": {
-            "horizontal_position": 30,
+            "horizontal_position": 37,
             "vertical_position": 64,
             "horizontal_position_mobile": 64,
             "vertical_position_mobile": 26,
@@ -428,24 +415,49 @@
         "hot_spot_content_blur_radius": 3
       }
     },
-    "e0d50b40-660c-4f52-bc6c-e18294190402": {
-      "type": "image-with-text-overlay",
+    "d88f52d8-b117-43fc-96fe-5d439dea6412": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Impacto",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
+          }
+        },
+        "6e48a8bb-3641-4b93-bf22-847f7751fa9f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1><strong>CIFRAS QUE CAMBIAN EL MUNDO<\/strong> <br\/>Y LA FORMA DE HACER LAS COSAS<\/h1>"
+          }
+        },
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Estamos orgullosos de nuestros números y cada día buscamos generar más impacto en el mundo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-subheading-1",
+        "6e48a8bb-3641-4b93-bf22-847f7751fa9f",
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1"
+      ],
       "custom_css": [
-        "div {padding: 50px 50px; align-items: center;}"
+        "strong {color: #ff00e8;}",
+        ".rich-text__wrapper {max-width: 950px;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/cifras-que-impactan_ac100dc3-30ad-46c4-9403-8a4a3b227763.png",
-        "mobile_image": "shopify:\/\/shop_images\/cifras-que-impactan_ac100dc3-30ad-46c4-9403-8a4a3b227763.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-end-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "mode_image": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "23a65bae-1921-413d-8f45-a5a71140750c": {
@@ -456,8 +468,8 @@
           "settings": {
             "title": "1.393",
             "superheading": "",
-            "subheading": "Hectáreas",
-            "content": "<p>destinadas a sistemas sustentables<\/p>",
+            "subheading": "",
+            "content": "<p>Hectáreas destinadas a<br\/>sistemas sustentables<\/p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
@@ -469,8 +481,8 @@
           "settings": {
             "title": "143.200",
             "superheading": "",
-            "subheading": "Animales",
-            "content": "<p>habitando un sistema de bienestar<\/p>",
+            "subheading": "",
+            "content": "<p>Animales habitando un sistema de bienestar<\/p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
@@ -482,8 +494,8 @@
           "settings": {
             "title": "6,86",
             "superheading": "",
-            "subheading": "Toneladas",
-            "content": "<p>reducidas del despericio de alimentos<\/p>",
+            "subheading": "",
+            "content": "<p>Toneladas reducidas del despericio de alimentos<\/p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
@@ -496,10 +508,14 @@
         "06c64f74-2029-44d5-a02b-9fb219a1701e",
         "a284952e-3b96-4953-ab52-123c0822855f"
       ],
+      "custom_css": [
+        ".impact-text--design {max-width: 1100px;}"
+      ],
       "settings": {
         "full_width": false,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/huevos_7d9b2b5f-6401-4f78-b59e-e0965d1453d7.png",
+        "image": "shopify:\/\/shop_images\/BG_IMPCT2_L.png",
+        "mobile_image": "shopify:\/\/shop_images\/BG_IMPCT2_S.png",
         "title": "",
         "heading_gradient_title": "",
         "text": "",
@@ -511,11 +527,26 @@
         "impact_text_size_ratio_mobile": 0.6,
         "background": "#1a1a1a",
         "background_gradient": "",
-        "heading_text_color": "",
+        "heading_text_color": "#ffffff",
         "heading_gradient": "",
         "text_color": "#ffffff",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "dbd57f90-5146-4835-adb4-220ac07d91a0": {
+      "type": "certificate-list",
+      "settings": {
+        "background_color": "#f5f5f5",
+        "subheading": "certificaciones y sellos",
+        "title": "<h1><strong>Los sellos que nos enorgullecen<\/strong> y los certificados que nos respaldan<\/h1>",
+        "color_title": "#004228",
+        "color_title_strong": "#394ff0",
+        "paragraph": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta.<br\/><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>",
+        "button_text": "Ir a certificaciones",
+        "button_link": "#",
+        "api_url": "",
+        "api_key": ""
       }
     },
     "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5": {
@@ -554,6 +585,7 @@
         "501e073a-a8c5-4846-a584-69881fb4852c",
         "a481fea8-5a98-4cb2-91ce-ad90f9a3e6bd"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 45px;}",
         "p.strong {color: #1a1a1a;}",
@@ -566,6 +598,7 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "mode_image": false,
         "image": "shopify:\/\/shop_images\/Rich_text.png",
         "content_width": "medium",
         "text_position": "start",
@@ -586,7 +619,7 @@
             "heading_tag": "h4",
             "content": "<p>Mejoramiento del bienestar animal en sistemas agrícolas y de acuicultura. Los estándares son específicos al tipo de agricultura (interior, exterior, de libre pastoreo o orgánico) y cubren toda la cadena de producción (desde la salud y la dieta hasta el sacrificio).<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -599,7 +632,7 @@
             "heading_tag": "h4",
             "content": "<p>Empresa B es una certificación ofrecida por B Lab, una organización independiente, no gubernamental y sin fines de lucro. La certificación evalúa el rendimiento social y ambiental de una empresa, desde la cadena de suministro y los materiales de entrada hasta la donación caritativa y los beneficios para los empleados. La certificación B Corp señala la intención de una empresa de mantener el propósito en el núcleo de la compañía.<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -612,7 +645,7 @@
             "heading_tag": "h4",
             "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -625,7 +658,7 @@
             "heading_tag": "h4",
             "content": "<p>Productos provenientes de tierras manejadas con prácticas regenerativas. El programa L2M asegura que las tierras de donde provienen los productos no solo están sosteniendo, sino activamente mejorando, la salud del ecosistema.<br\/><\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -638,7 +671,7 @@
             "heading_tag": "h4",
             "content": "<p>Producidos bajo modelos de economía circular, en donde parte de la proteína del alimento de las gallinas es reemplazado por ¡harina de insectos hecha a partir de residuos orgánicos de supermercados! logrando neutralizar la contaminación, pues evitamos la emisión de metano. Este producto fue realizado en colaboración con la startup F4F: Food For The Future.<br\/><\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -647,11 +680,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TR.png",
             "column_size": "3",
-            "title": "Todos Recilcamos",
+            "title": "Todos Reciclamos",
             "heading_tag": "h4",
             "content": "<p>El sello de Todos Reciclamos garantiza ante los consumidores el compromiso ambiental de las marcas y su triple impacto positivo: medioambiental, social y económico.<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -664,7 +697,7 @@
             "heading_tag": "h4",
             "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -677,7 +710,7 @@
             "heading_tag": "h4",
             "content": "<p>El sello de certificación de HACCP International confirma la capacidad de un producto no alimenticio para respaldar la integridad y seguridad de los alimentos según lo exigido por las expectativas de la industria, la legislación y los estándares respaldados por GSFI (Iniciativa Global para la Seguridad Alimentaria).<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         }
@@ -692,6 +725,7 @@
         "038f4d60-9086-4579-943c-1d4f67f66241",
         "3ace27f8-37ec-471f-8b2b-459d7f67f0b9"
       ],
+      "disabled": true,
       "custom_css": [
         "p.h4 {font-size: 25px; font-style: normal; font-weight: 500; line-height: normal; letter-spacing: -0.5px;}",
         "button {letter-spacing: 0.02em; font-weight: 500;}"
@@ -796,8 +830,9 @@
     "d07111a9-60b5-48f9-be37-2f15e92837d2",
     "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
-    "e0d50b40-660c-4f52-bc6c-e18294190402",
+    "d88f52d8-b117-43fc-96fe-5d439dea6412",
     "23a65bae-1921-413d-8f45-a5a71140750c",
+    "dbd57f90-5146-4835-adb4-220ac07d91a0",
     "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5",
     "dfc8565e-4587-4b83-bfb7-8042178e6e77",
     "ccff1d20-57b9-402b-9f62-d36451f0be52",

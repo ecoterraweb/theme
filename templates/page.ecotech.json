@@ -7,11 +7,13 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/eco.png",
-            "content_max_width": 660,
+            "mobile_image": "shopify:\/\/shop_images\/B_ECT_S.png",
+            "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
-            "title": "HACIA LA TRAZABILIDAD BASADA EN BLOCKCHAIN",
+            "content": "",
+            "title": "TRAZAMOS NUESTROS PROCESOS CON BASE BLOCKCHAIN",
             "heading_tag": "h0",
             "heading_style": "font--primary",
             "button_text": "",
@@ -30,16 +32,13 @@
         "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1"
       ],
       "custom_css": [
-        "div {text-align: right;}",
-        ".h0 {font-size: 85px; font-weight: 700; text-transform: uppercase; line-height: 90px; word-wrap: break-word;}",
-        "@media screen and (max-width: 1000px) {.prose p {font-size: 77px; font-style: normal; font-weight: 700; line-height: 77px; \/* 100% *\/ letter-spacing: -1.54px; }}",
-        "@media screen and (max-width: 700px) {.prose p {font-size: 45px; font-style: normal; font-weight: 700; line-height: 45px; \/* 100% *\/ letter-spacing: -1.54px; }}"
+
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
         "allow_transparent_header": false,
-        "image_size": "fill",
+        "image_size": "lg",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": false,
@@ -54,7 +53,7 @@
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>EN EL CORAZÓN DE ECOTERRA SE ENCUENTRAN NUESTRO REVOLUCIONARIOS ECOLABS: <\/h1><h1>ECO<strong>AGRI<\/strong>LAB, ECO<strong>FOOD<\/strong>LAB Y ECO<strong>TECH<\/strong>LAB <\/h1><p>Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
+            "content": "<h1><strong>EN EL CORAZÓN DE ECOTERRA<\/strong> SE ENCUENTRAN NUESTROS REVOLUCIONARIOS ECOLABS: <\/h1><h1>ECO<strong>AGRI<\/strong>LAB, ECO<strong>FOOD<\/strong>LAB Y ECO<strong>TECH<\/strong>LAB <\/h1><p>Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
           }
         }
       },
@@ -72,6 +71,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#026338",
@@ -85,7 +85,9 @@
         "51146ea0-3c9a-4f3c-b5ac-a7a5939a0e2a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/esquema_b4740aac-51d2-4491-b88d-324aca10c8ba.png",
+            "image": "shopify:\/\/shop_images\/ESQ.png",
+            "image_link": "",
+            "invert_image": true,
             "width_mode": "custom",
             "max_width": 470,
             "mobile_max_width": 330
@@ -101,8 +103,9 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "image": "shopify:\/\/shop_images\/HS-BG.png",
-        "mobile_image": "shopify:\/\/shop_images\/HS-BG.png",
+        "mobile_image": "shopify:\/\/shop_images\/HS-BG_S.png",
         "content_width": "small",
         "text_position": "center",
         "background": "rgba(0,0,0,0)",
@@ -116,7 +119,7 @@
         "d03b891d-8819-4ea6-ab3b-18ec913ac9dc": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>IMAGINEN UN MUNDO DONDE LAS MISMAS COSAS EN QUE CONFIAMOS PARA NUESTRA SUPERVIVENCIA ESTÁN EN ARMONÍA PERFECTA CON <strong>EL PODER DE LA TECNOLOGÍA Y LA SABIDURÍA DE LA NATURALEZA.<\/strong><\/h1><p>Imaginen no tener que elegir entre la ciencia de vanguardia y la sabiduría que nos brinda la Tierra. Bienvenidos al futuro, bienvenidos a Ecoterra.<\/p><p>Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
+            "content": "<p>Imaginen un mundo donde las mismas cosas en que confiamos para nuestra supervivencia están en perfecta armonía con <strong>el poder de la tecnología y la sabiduría de la naturaleza. <\/strong><\/p><h1>BIENVENIDOS AL<strong> FUTURO, <\/strong>BIENVENIDOS A <strong>ECOTERRA.<\/strong><\/h1>"
           }
         }
       },
@@ -134,6 +137,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#052e1e",
@@ -264,7 +268,7 @@
         "6963b46c-9aad-4eea-8c95-b45bc2e1de2d": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>CADA UNO ROMPE PARADIGMAS ¿Y <strong>JUNTOS<\/strong>? FORMAN <strong>LOS PILARES DE ECOTERRA<\/strong><\/h1><p>Individualmente, cada laboratorio rompe paradigmas. ¿Y juntos? Forman los pilares de Ecoterra, un modelo que trasciende disciplinas e industrias. Hemos aprovechado el poder de la <strong>BLOCKCHAIN <\/strong>para hacer que estas innovaciones no solo sean accesibles, sino fundamentales para nuestro ecosistema global compartido. Con <strong>Web3<\/strong>, estamos creando una plataforma descentralizada y democratizada donde cualquiera, en cualquier lugar, puede contribuir a la revolución regenerativa.<\/p><p>Los EcoLabs no son solo laboratorios; son faros en un mundo nublado, guiándonos hacia un futuro sostenible.<\/p>"
+            "content": "<h1>CADA UNO ROMPE PARADIGMAS <strong>¿Y JUNTOS? <\/strong>FORMAN<strong> LOS PILARES DE ECOTERRA<\/strong><\/h1><p>Individualmente, cada laboratorio rompe paradigmas. ¿Y juntos? Forman los pilares de Ecoterra, un modelo que trasciende disciplinas e industrias. Hemos aprovechado el poder de la <strong>BLOCKCHAIN <\/strong>para hacer que estas innovaciones no solo sean accesibles, sino fundamentales para nuestro ecosistema global compartido. Con <strong>Web3<\/strong>, estamos creando una plataforma descentralizada y democratizada donde cualquiera, en cualquier lugar, puede contribuir a la revolución regenerativa.<\/p><p>Los EcoLabs no son solo laboratorios; son faros en un mundo nublado, guiándonos hacia un futuro sostenible.<\/p>"
           }
         }
       },
@@ -282,6 +286,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
         "background": "#052e1e",
@@ -300,7 +305,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/futuro-mas-verde.png",
+        "image": "shopify:\/\/shop_images\/FMV_L_f1e11a63-eea0-4ef7-962f-46f7759c5364.png",
+        "mobile_image": "shopify:\/\/shop_images\/FMV_S_1756a3eb-09ab-4d77-afb5-9748fbbbaa3a.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -334,6 +340,7 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "mode_image": false,
         "content_width": "large",
         "text_position": "center",
         "background": "#052e1e",
@@ -380,6 +387,7 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "mode_image": false,
         "content_width": "large",
         "text_position": "center",
         "background": "#7dac00",
@@ -427,6 +435,7 @@
       "settings": {
         "identifier": "Impacto-section",
         "full_width": true,
+        "mode_image": false,
         "image": "shopify:\/\/shop_images\/Rich_text.png",
         "content_width": "medium",
         "text_position": "start",
@@ -447,7 +456,7 @@
             "heading_tag": "h4",
             "content": "<p>Mejoramiento del bienestar animal en sistemas agrícolas y de acuicultura. Los estándares son específicos al tipo de agricultura (interior, exterior, de libre pastoreo o orgánico) y cubren toda la cadena de producción (desde la salud y la dieta hasta el sacrificio).<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -460,7 +469,7 @@
             "heading_tag": "h4",
             "content": "<p>Empresa B es una certificación ofrecida por B Lab, una organización independiente, no gubernamental y sin fines de lucro. La certificación evalúa el rendimiento social y ambiental de una empresa, desde la cadena de suministro y los materiales de entrada hasta la donación caritativa y los beneficios para los empleados. La certificación B Corp señala la intención de una empresa de mantener el propósito en el núcleo de la compañía.<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -473,7 +482,7 @@
             "heading_tag": "h4",
             "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -486,7 +495,7 @@
             "heading_tag": "h4",
             "content": "<p>Productos provenientes de tierras manejadas con prácticas regenerativas. El programa L2M asegura que las tierras de donde provienen los productos no solo están sosteniendo, sino activamente mejorando, la salud del ecosistema.<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -495,11 +504,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/F4F_d6ab9a3c-5fbf-414c-88d3-04cb30c9483a.png",
             "column_size": "3",
-            "title": "Food For Future",
+            "title": "Insect Fed",
             "heading_tag": "h4",
             "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.Producidos bajo modelos de economía circular, en donde parte de la proteína del alimento de las gallinas es reemplazado por ¡harina de insectos hecha a partir de residuos orgánicos de supermercados! logrando neutralizar la contaminación, pues evitamos la emisión de metano. Este producto fue realizado en colaboración con la startup F4F: Food For The Future.<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -512,7 +521,7 @@
             "heading_tag": "h4",
             "content": "<p>El sello de Todos Reciclamos garantiza ante los consumidores el compromiso ambiental de las marcas y su triple impacto positivo: medioambiental, social y económico.<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -525,7 +534,7 @@
             "heading_tag": "h4",
             "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         },
@@ -538,7 +547,7 @@
             "heading_tag": "h4",
             "content": "<p>El sello de certificación de HACCP International confirma la capacidad de un producto no alimenticio para respaldar la integridad y seguridad de los alimentos según lo exigido por las expectativas de la industria, la legislación y los estándares respaldados por GSFI (Iniciativa Global para la Seguridad Alimentaria).<br\/>Los productos certificados se difunden a través de los registros de HACCP International, boletines de seguridad alimentaria, eventos y promociones.<\/p>",
             "link_url": "",
-            "link_text": "Ver más",
+            "link_text": "",
             "link_style": "button"
           }
         }
@@ -615,6 +624,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
+        "mode_image": false,
         "content_width": "large",
         "text_position": "center",
         "background": "",

@@ -108,9 +108,6 @@ async function fetchData() {
       const isClickOnButton = e.target === generalButtonClaim;
       if (!isClickInsidePopup && !isClickOnButton) {
         activePopup.classList.remove("active");
-        if(claimOptionDivActive){
-          claimOptionDivActive.innerHTML = "";
-        }
       }
     });
     const generalSelectClaim = document.querySelector("#claimGeneralSelect");

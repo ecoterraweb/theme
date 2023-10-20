@@ -115,6 +115,7 @@
     {%- endif -%}
   </div>
   {%- if section.settings.product != blank -%}
+    <h1>CMBIOS</h1>
     {%- for block in section.blocks -%}
       {%- assign previous_block_index = forloop.index0 | minus: 1 -%}
       {%- assign previous_block = section.blocks[previous_block_index] -%}

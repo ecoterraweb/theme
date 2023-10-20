@@ -146,7 +146,7 @@
       const collectionList = document.getElementById("collectionList");
 
       data.templates.forEach(item => {
-        if(item.products.length && item.producers.length ){
+        if(item.products.length || item.producers.length ){
 
         const collectionCard = document.createElement("article");
         collectionCard.className = "collection-card";

@@ -10132,6 +10132,7 @@ split-lines {
   font-size: 20px;
   font-weight: 400;
   line-height: 20px;
+  margin-bottom: 20px;
 }
 .claim--popup__body .card {
   padding: 20px;
@@ -10241,6 +10242,11 @@ split-lines {
 .claim--popup__div-select {
   position: relative;
   margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 10px;
+  padding: 10px;
+  background-color: #F5F5F5;
 }
 .claim--popup__select {
   border: 1px solid #d1d1d1;
@@ -10255,20 +10261,16 @@ split-lines {
 }
 .claim--popup__options {
   margin: 0;
-  background-color: #fff;
   z-index: 1;
-  border-radius: 10px;
-  border: 0.5px solid #d1d1d1;
 }
 .claim--popup__options ul {
   list-style: none;
-  padding: 10px 0;
   margin: 0;
   gap: 10px;
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 10px 5px;
+  display: flex;
+  flex-wrap: wrap;
   border: none;
+  padding: 0;
 }
 .claim--popup__options ul li:hover {
   /* background-color: #e8e8e8; */
@@ -10279,21 +10281,24 @@ split-lines {
 .claim--popup__options ul li img {
   height: 40px;
 }
-.claim--popup__options ul li a.active {
-  border: 1px solid #000;
+.claims--link-options.active {
+  opacity: 0.4;
 }
-.claim--popup__options ul li a {
+.claims--link-options {
   color: #000;
   text-decoration: none;
-  width: 100%;
-  height: 100%;
   display: flex;
   gap: 10px;
   padding: 10px;
-  background-color: #BBDEC3;
+  background-color: #fff;
   border-radius: 15px;
   align-items: center;
   font-weight: 400;
+}
+.claim--popup__div-active img{
+  height: 90px;
+  max-width: 100px;
+  margin: auto;
 }
 .button__action__claim span{
   pointer-events: none;

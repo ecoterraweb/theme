@@ -123,7 +123,6 @@ async function fetchData() {
     <li>
       <a class="claims--link-options" href="${claim.id}" data-target-id="${claim.templateId}">
       <img src="${claim.image}" alt="${claim.claimName}" loading="lazy" />
-      <span>${claim.claimName}</span>
       </a>
     </li>
     `;
@@ -139,12 +138,22 @@ async function fetchData() {
           if (claimOptionActive) {
             claimOptionActive.classList.remove("active");
           }
+          const claimOptionDivActive = document.querySelector(
+            "#claimOptionActiveDiv"
+          );
 
           element.classList.add("active");
           generalOptions.classList.remove("active");
           let id = element.getAttribute("data-target-id");
           const claim = claims.find((e) => e.templateId == id);
           claimContent.innerHTML = ``;
+          
+          if (claimOptionDivActive) {
+            const image = document.createElement("img");
+            image.src = claim.image;
+            claimOptionDivActive.innerHTML = ``;
+            claimOptionDivActive.appendChild(image);
+          }
           const div = document.createElement("div");
           if (claim.claimObject == "Producto") {
             div.innerHTML = `

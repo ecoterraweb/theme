@@ -94,6 +94,12 @@ async function fetchData() {
     if (buttonClose) {
       buttonClose.addEventListener("click", function (e) {
         activePopup.classList.remove("active");
+        const claimOptionDivActive = document.querySelector(
+          "#claimOptionActiveDiv"
+        );
+        if(claimOptionDivActive){
+          claimOptionDivActive.innerHTML = "";
+        }
       });
     }
     document.addEventListener("click", function (e) {

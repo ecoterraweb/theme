@@ -147,7 +147,7 @@ async function fetchData() {
           let id = element.getAttribute("data-target-id");
           const claim = claims.find((e) => e.templateId == id);
           claimContent.innerHTML = ``;
-          
+
           if (claimOptionDivActive) {
             const image = document.createElement("img");
             image.src = claim.image;
@@ -158,9 +158,6 @@ async function fetchData() {
           if (claim.claimObject == "Producto") {
             div.innerHTML = `
             <div class="claim--popup__body--head">
-              <img src="${
-                claim.image
-              }" alt="" class="claim--popup__img" loading="lazy"/>
               <h4 class="claim--popup__subtitle">${claim.claimName}</h4>
             </div>
             <p class="claim--popup__text">
@@ -212,7 +209,6 @@ async function fetchData() {
           } else {
             div.innerHTML = `
           <div class="claim--popup__body--head">
-            <img src="${claim.image}" alt="" class="claim--popup__img" loading="lazy"/>
             <h4 class="claim--popup__subtitle">${claim.claimName}</h4>
           </div>
           <p class="claim--popup__text">

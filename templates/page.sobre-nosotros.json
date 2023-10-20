@@ -341,7 +341,7 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 30,
+            "horizontal_position": 17,
             "vertical_position": 33,
             "horizontal_position_mobile": 47,
             "vertical_position_mobile": 11,
@@ -539,7 +539,7 @@
       "settings": {
         "background_color": "#f5f5f5",
         "subheading": "certificaciones y sellos",
-        "title": "<h1><strong>Los sellos que nos enorgullecen<\/strong> y los certificados que nos respaldan<\/h1>",
+        "title": "<h1><strong>LOS SELLOS QUE NOS ENORGULLECEN <\/strong>Y LOS CERTIFICADOS QUE NOS RESPALDAN<\/h1>",
         "color_title": "#004228",
         "color_title_strong": "#394ff0",
         "paragraph": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta.<br\/><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>",

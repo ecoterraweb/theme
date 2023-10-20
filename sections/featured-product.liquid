@@ -113,38 +113,38 @@
         {%- endfor -%}
       </safe-sticky>
     {%- endif -%}
-  </div>
-  {%- if section.settings.product != blank -%}
-    <h1>CMBIOS</h1>
-    {%- for block in section.blocks -%}
-      {%- assign previous_block_index = forloop.index0 | minus: 1 -%}
-      {%- assign previous_block = section.blocks[previous_block_index] -%}
-      {%- assign next_block = section.blocks[forloop.index] -%}
-  
-      {%- case block.type -%}
-        {%- when 'description' -%}
-          {%- if block.settings.collapse_content -%}
-            {%- if product.description != blank -%}
-              {%- capture accordion_title -%}{{ 'product.general.description' | t }}{%- endcapture -%}
-              {%- capture accordion_content -%}<div class="prose">{{ product.description }}</div>{%- endcapture -%}
-  
-              {%- render 'accordion', title: accordion_title, content: accordion_content, class: 'product-info__accordion', block: block -%}
-            {%- endif -%}
-          {%- else -%}
-            {%- if product.description != blank -%}
-              <div class="product-info__description" {{ block.shopify_attributes }}>
-                <div class="prose">
-                  {{- product.description -}}
+    {%- if section.settings.product != blank -%}
+      <h1>CMBIOS</h1>
+      {%- for block in section.blocks -%}
+        {%- assign previous_block_index = forloop.index0 | minus: 1 -%}
+        {%- assign previous_block = section.blocks[previous_block_index] -%}
+        {%- assign next_block = section.blocks[forloop.index] -%}
+    
+        {%- case block.type -%}
+          {%- when 'description' -%}
+            {%- if block.settings.collapse_content -%}
+              {%- if product.description != blank -%}
+                {%- capture accordion_title -%}{{ 'product.general.description' | t }}{%- endcapture -%}
+                {%- capture accordion_content -%}<div class="prose">{{ product.description }}</div>{%- endcapture -%}
+    
+                {%- render 'accordion', title: accordion_title, content: accordion_content, class: 'product-info__accordion', block: block -%}
+              {%- endif -%}
+            {%- else -%}
+              {%- if product.description != blank -%}
+                <div class="product-info__description" {{ block.shopify_attributes }}>
+                  <div class="prose">
+                    {{- product.description -}}
+                  </div>
                 </div>
-              </div>
+              {%- endif -%}
             {%- endif -%}
-          {%- endif -%}
-  
-      {%- endcase -%}
-    {%- endfor -%}
-  {%- else -%}
-    <h1>Otros cambios</h1>
-  {%- endif -%}
+    
+        {%- endcase -%}
+      {%- endfor -%}
+    {%- else -%}
+      <h1>Otros cambios</h1>
+    {%- endif -%}
+  </div>
 </div>
 
 {% schema %}

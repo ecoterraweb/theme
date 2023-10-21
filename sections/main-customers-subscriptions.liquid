@@ -16,12 +16,6 @@
 
             <div class="prose">
                 <p class="h6">Cargando suscripciones...</p>
-
-                {%- assign button_content = 'customer.account.continue_shopping' | t -%}
-                {%- render 'button'
-                , href: routes.all_products_collection_url
-                , size: 'xl'
-                , content: button_content -%}
             </div>
         </div>
     </div>
@@ -113,19 +107,19 @@
         formData.append('offset', 0);
 
 
-        await fetch('https://director-fuzzy-honey-gerald.trycloudflare.com/suscripciones', {
+        await fetch('https://dust-dublin-keep-trailers.trycloudflare.com/suscripciones', {
             method: 'OPTION',
             headers: {
-                // 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
                 'Accept': 'application/json',
-            //     'content-type': 'multipart/form-data',
-            //     'x-shopify-api-version': '2023-10',
-            //     'x-shopify-hmac-sha256': 'kivaNbTsq1XYKXZSPMPkGlwB8280OQBLOVxsumigqE4=',
-            //     'x-shopify-shop-domain': 'quickstart-21f6cefe.myshopify.com',
-            //     'x-shopify-test': 'true',
-            //     'x-shopify-topic': 'orders/paid',
-            //     'x-shopify-triggered-at': '2023-10-21T01:50:56.809393052Z',
-            //     'x-shopify-webhook-id': 'fd618b43-35cd-4c18-b935-9d9668fbfed0'
+                // 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                //     'content-type': 'multipart/form-data',
+                //     'x-shopify-api-version': '2023-10',
+                //     'x-shopify-hmac-sha256': 'kivaNbTsq1XYKXZSPMPkGlwB8280OQBLOVxsumigqE4=',
+                //     'x-shopify-shop-domain': 'quickstart-21f6cefe.myshopify.com',
+                //     'x-shopify-test': 'true',
+                //     'x-shopify-topic': 'orders/paid',
+                //     'x-shopify-triggered-at': '2023-10-21T01:50:56.809393052Z',
+                //     'x-shopify-webhook-id': 'fd618b43-35cd-4c18-b935-9d9668fbfed0'
             },
             body: formData
         })
@@ -138,7 +132,7 @@
                 console.log("respondio");
                 console.log(data);
                 console.log("\n\n");
-                // _cont_subscriptons.innerHTML = _obj_list.innerHTML;
+                _cont_subscriptons.innerHTML = _obj_list.innerHTML;
             })
             .catch((error) => {
                 console.clear();
@@ -146,6 +140,7 @@
                 console.log("Ocurrio un error");
                 console.log({ "response": -1, "msg": error.toString() });
                 console.log("\n\n");
+                _cont_subscriptons.innerHTML = _obj_list.innerHTML;
             });
     }
 

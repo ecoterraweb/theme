@@ -797,8 +797,7 @@
     "f091270f-8f95-48b7-88b0-50147dbf74c4": {
       "type": "contact",
       "custom_css": [
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
-        "button {letter-spacing: 0.02em; font-weight: 500;}"
+        ".section-stack__main {width: 100%; max-width: 1210px;}"
       ],
       "settings": {
         "full_width": true,

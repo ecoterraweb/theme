@@ -68,9 +68,11 @@
         {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
 
         {%- if previous_block.type != 'price' -%}
-          <div class="product-info__rating">
-            {%- render 'product-rating', product: product, show_empty: block.settings.show_empty, block: block -%}
-          </div>
+          {%- if product.metafields.reviews.rating.value != blank or block.settings.show_empty  -%}
+            <div class="product-info__rating">
+              {%- render 'product-rating', product: product, show_empty: block.settings.show_empty, block: block -%}
+            </div>
+          {%- endif -%}
         {%- endif -%}
 
       {%- when 'payment_terms' -%}

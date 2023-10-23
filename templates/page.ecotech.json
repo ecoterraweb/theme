@@ -129,14 +129,16 @@
           "type": "item",
           "settings": {
             "title": "Transparencia y Sostenibilidad:",
-            "content": "<p>Cada producto trazado con ecotech garantiza a los ecolovers que están consumiendo productos 100% sostenibles y éticos.<\/p>"
+            "content": "<p>Cada producto trazado con ecotech garantiza a los ecolovers que están consumiendo productos 100% sostenibles y éticos.<\/p>",
+            "logo": "shopify:\/\/shop_images\/Transparencia.png"
           }
         },
         "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-3": {
           "type": "item",
           "settings": {
             "title": "Acceso Ampliado:",
-            "content": "<p>Una de nuestras misiones principales es democratizar el acceso a alimentos sostenibles. Gracias a EcoTech, a nuestra tienda y a nuestros EcoLabs, podemos conectar a miles de eco farmers con millones de ecolovers, creando un ecosistema global de sostenibilidad.<\/p>"
+            "content": "<p>Una de nuestras misiones principales es democratizar el acceso a alimentos sostenibles. Gracias a EcoTech, a nuestra tienda y a nuestros EcoLabs, podemos conectar a miles de eco farmers con millones de ecolovers, creando un ecosistema global de sostenibilidad.<\/p>",
+            "logo": "shopify:\/\/shop_images\/Acceso.png"
           }
         }
       },

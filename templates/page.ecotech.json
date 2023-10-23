@@ -8,11 +8,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/BG_ECT_L.jpg",
             "mobile_image": "shopify:\/\/shop_images\/B_ECT_S.png",
-            "content_max_width": 700,
+            "content_max_width": 640,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
-            "content": "<h2><strong>Impulsamos modelos sostenibles<\/strong> a través  de la tecnología<\/h2><h3><strong>web3 y blockchain <\/strong>faciLITAN una <br\/>agricultura descentralizada y justa.<\/h3>",
+            "content": "<h2><strong>IMPULSAMOS MODELOS SOTENIBLES <\/strong>A TRAVÉS <br\/>DE LA TECNOLOGÍA<\/h2><h3><strong>web3 y blockchain <\/strong>faciLITAN una <br\/>agricultura descentralizada y justa.<\/h3>",
             "title": "",
             "heading_tag": "h0",
             "heading_style": "font--primary",

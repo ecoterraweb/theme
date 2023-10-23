@@ -80,83 +80,17 @@
         "text_color": "#ffffff"
       }
     },
-    "b32b6855-949c-445c-bdcb-c8fbf129f34d": {
-      "type": "rich-text",
-      "blocks": {
-        "51146ea0-3c9a-4f3c-b5ac-a7a5939a0e2a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ESQ.png",
-            "image_link": "",
-            "invert_image": true,
-            "width_mode": "custom",
-            "max_width": 470,
-            "mobile_max_width": 330
-          }
-        }
-      },
-      "block_order": [
-        "51146ea0-3c9a-4f3c-b5ac-a7a5939a0e2a"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "mode_image": false,
-        "image": "shopify:\/\/shop_images\/HS-BG.png",
-        "mobile_image": "shopify:\/\/shop_images\/HS-BG_S.png",
-        "content_width": "small",
-        "text_position": "center",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "#ffffff"
-      }
-    },
-    "3a8a9794-7117-43b6-af87-e8f4592a4cb6": {
-      "type": "rich-text",
-      "blocks": {
-        "d03b891d-8819-4ea6-ab3b-18ec913ac9dc": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Imaginen un mundo donde las mismas cosas en que confiamos para nuestra supervivencia están en perfecta armonía con <strong>el poder de la tecnología y la sabiduría de la naturaleza. <\/strong><\/p><h1>BIENVENIDOS AL<strong> FUTURO, <\/strong>BIENVENIDOS A <strong>ECOTERRA.<\/strong><\/h1>"
-          }
-        }
-      },
-      "block_order": [
-        "d03b891d-8819-4ea6-ab3b-18ec913ac9dc"
-      ],
-      "custom_css": [
-        ".prose h1 {font-size: 40px; text-align: left;}",
-        ".prose h1 strong {color: #dbde3b;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "mode_image": false,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "#052e1e",
-        "background_gradient": "",
-        "text_color": "#ffffff"
-      }
-    },
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54": {
       "type": "multiple-images-with-text",
       "blocks": {
         "template--15546130202717__c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/agrilab.png",
+            "image": "shopify:\/\/shop_images\/eco_blockchain.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
-            "content": "<h2>ECO<strong>AGRI<\/strong>LAB<\/h2><p><strong>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida<\/strong>. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza, degradándolo con productos químicos. <strong>En EcoAgriLab, un equipo de agrónomos de clase mundial está redescubriendo la sinfonía de la agricultura natural. <\/strong>Utilizando modelos de machine learning, desciframos el lenguaje de la Tierra para empujar una agricultura abundante y sostenible.<\/p>",
+            "content": "<h2>EL ROL DE BLOCKCHAIN EN ECOTECH<\/h2><p>Blockchain es una tecnología que permite la trazabilidad y transparencia total de la información. En Ecoterra, lo utilizamos para garantizar que cada etapa del proceso, desde la producción hasta el consumo, sea verificable y transparente. Esto no solo nos da escalabilidad, reduciendo costos administrativos, sino que también garantiza una total transparencia para nuestros consumidores.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -166,12 +100,7 @@
         "template--15546130202717__c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54-item-1"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
-        ".prose h2 strong {color: #96d123;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h2 {color: #004228;}"
       ],
       "settings": {
         "full_width": false,
@@ -751,8 +680,6 @@
   "order": [
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
-    "b32b6855-949c-445c-bdcb-c8fbf129f34d",
-    "3a8a9794-7117-43b6-af87-e8f4592a4cb6",
     "c9b9f8f4-eb87-48a5-86d4-cbc9cd354c54",
     "23302c23-69a6-4b3a-8a1c-d1d096e4a7d2",
     "a0af0435-390a-4f29-9870-4724c6b9beab",

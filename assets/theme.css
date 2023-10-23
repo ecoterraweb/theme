@@ -9867,7 +9867,6 @@ split-lines {
 .h2, .prose h2:not(.h0, .h1, .h2, .h3, .h4, .h5, .h6) {
   font-size: var(--text-h2);
   line-height: 1.1;
-  color: #004228;
 }
 
 .h3, .prose h3:not(.h0, .h1, .h2, .h3, .h4, .h5, .h6) {
@@ -10601,6 +10600,7 @@ p.custom__policies--text a{
   margin-block-start: 22px !important;
 }
 .section-bg-rich-text--image .rich-text .prose strong{
+  /* font-weight: 600; */
 }
 .section-bg-rich-text--image .split-rich-text .prose h2{
   font-size: 44px;
@@ -10609,7 +10609,6 @@ p.custom__policies--text a{
   line-height: 44px;
   word-wrap: break-word;
   text-align: left;
-  color: #004228;
 }
 .section-bg-rich-text--image .split-rich-text .prose p{
   font-size: 16px;

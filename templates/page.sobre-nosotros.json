@@ -786,14 +786,14 @@
         "show_comments_count": false,
         "show_category": true,
         "subheading": "econews",
-        "title": "Noticias recientes",
+        "title": "ÚLTIMAS NOTICIAS",
         "content": "",
         "link_url": "",
         "link_text": "Ver más",
         "background": "#f5f5f5",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
+        "heading_color": "#004228",
         "heading_gradient": ""
       }
     },

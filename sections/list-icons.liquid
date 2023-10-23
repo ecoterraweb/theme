@@ -1,10 +1,78 @@
 {%- render 'section-spacing-collapsing' -%}
 
 <style>
-    #shopify-section-{{ section.id }} {
-        background-color: {{ section.settings.background }};
+  #shopify-section-{{ section.id }} {
+      background-color: {{ section.settings.background }};
+  }
+  .shopify-section--logo-icon .section-stack{
+    
+  }
+  .list-icon-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list-icon-item-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .list-icon-item-content h3{
+    color: #004228;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.18px;
+    text-align: center;
+  }
+  .list-icon-item-content p{
+    color: #505050;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  @media screen and (min-width: 770px) {
+    .shopify-section--logo-icon .section-stack{
+  
     }
-
+    .list-icon-item{
+      flex-direction: row;
+    }
+    .list-icon-item-content h3{
+      font-size: 20px;
+      text-align: left;
+    }
+    .list-icon-item-content p{
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  @media screen and (min-width: 1150px) {
+    .shopify-section--logo-icon .section-stack{
+      grid-template-columns: 1fr 1fr;
+    }
+    .shopify-section--logo-icon .section-stack .prose{
+      display: flex;
+      align-items: center;
+    }
+    .list-icon-item-content h3{
+      font-size: 25px;
+    }
+    .list-icon-item-content p{
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    .shopify-section--logo-icon .section-stack{
+    }
+    .list-icon-item-content h3{
+      font-size: 30px;
+    }
+    .list-icon-item-content p{
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
 </style>
 
 <div {% render 'section-properties', class: 'shopify-section--logo-icon' %}>

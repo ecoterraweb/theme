@@ -16,7 +16,7 @@
             "image": "shopify:\/\/shop_images\/SN_L_3c1a3fa7-6f44-46c2-baa6-f04d3fc609ae.png",
             "mobile_image": "shopify:\/\/shop_images\/SN_S.png",
             "content_max_width": 740,
-            "mobile_text_position": "place-self-end-center text-center",
+            "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
             "content": "<h1>HACEMOS CAMBIOS DE VERDAD<\/h1>",

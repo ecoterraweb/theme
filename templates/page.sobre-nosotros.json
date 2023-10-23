@@ -510,7 +510,7 @@
       ],
       "custom_css": [
         ".impact-text--design {max-width: 1100px;}",
-        "@media screen and (min-width: 1150px) {.bg-custom {min-height: 500px; align-items: center; display: flex; justify-content: center;}.impact-text--design .snap-center {flex: 1;}}"
+        "@media screen and (min-width: 1150px) {.bg-custom {min-height: 500px; align-items: center; display: flex; justify-content: center; } .impact-text--design .snap-center {flex: 1; }}"
       ],
       "settings": {
         "full_width": false,
@@ -773,7 +773,7 @@
         "template--15537731993693__63303b90-3a37-407c-9926-07e8e5d5910f-blog-1"
       ],
       "custom_css": [
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}"
+        "@media screen and (min-width: 1150px) {.section-header {display: flex; } .section-header .prose {margin: inherit; }}"
       ],
       "settings": {
         "full_width": true,

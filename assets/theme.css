@@ -10979,6 +10979,19 @@ p.custom__policies--text a{
     font-size: 88px;
     line-height: 88px;
   } 
+  .product-info__variant-picker{
+    display: inline-flex;
+    width: 50%;
+  }
+  .product-info__variant-picker .rating-with-text{
+    flex-direction: column;
+  }
+
+  .product-info__quantity-selector {
+    display: inline-flex;
+    width: 50%;
+    justify-content: end;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {

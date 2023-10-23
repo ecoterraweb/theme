@@ -105,7 +105,7 @@
         "4fbca877-601e-45fc-94dd-59cad4a05aac"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left;}",
+        ".prose h2 {font-size: 50px; text-align: left; color: #004228;}",
         ".prose h2 strong {color: #ff00e8;}",
         "p {text-align: left;}",
         "div {align-items: center;}",
@@ -143,6 +143,7 @@
         "template--15538125635677__5eda4943-37f5-4688-a245-925e754d2358-item-1"
       ],
       "custom_css": [
+        ".prose h2 {color: #004228;}",
         ".prose h2 strong {color: #10ccf4;}"
       ],
       "settings": {
@@ -177,6 +178,7 @@
         "3a9f287e-a4e7-4b5f-ab8e-67be54b8e654"
       ],
       "custom_css": [
+        ".prose h2 {color: #004228;}",
         ".prose h2 strong {color: #ff6700;}"
       ],
       "settings": {
@@ -211,6 +213,7 @@
         "9f96151b-b5fa-4eb0-a2f1-889d68250b7e"
       ],
       "custom_css": [
+        ".prose h2 {color: #004228;}",
         ".prose h2 strong {color: #394ff0;}"
       ],
       "settings": {
@@ -245,6 +248,7 @@
         "1cc55f40-3ae8-4834-b200-df431c412e23"
       ],
       "custom_css": [
+        ".prose h2 {color: #004228;}",
         ".prose h2 strong {color: #ff3e72;}"
       ],
       "settings": {
@@ -279,6 +283,7 @@
         "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf"
       ],
       "custom_css": [
+        ".prose h2 {color: #004228;}",
         ".prose h2 strong {color: #7dac00;}"
       ],
       "settings": {
@@ -383,7 +388,7 @@
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#1a1a1a"
+        "text_color": "#004228"
       }
     },
     "23a30acb-e4f3-4e11-918e-6e959b1c0de3": {
@@ -418,7 +423,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
+        "heading_color": "#004228",
         "heading_gradient": "",
         "contact_background": "",
         "contact_text_color": "",

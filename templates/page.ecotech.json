@@ -6,14 +6,14 @@
         "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eco.png",
+            "image": "shopify:\/\/shop_images\/BG_ECT_L.jpg",
             "mobile_image": "shopify:\/\/shop_images\/B_ECT_S.png",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
-            "content": "",
-            "title": "TRAZAMOS NUESTROS PROCESOS CON BASE BLOCKCHAIN",
+            "content": "<h1><strong>Impulsamos modelos sostenibles<\/strong> a través  de la tecnología<\/h1><h3><strong>web3 y blockchain <\/strong>faciLITAN una <br\/>agricultura descentralizada y justa.<\/h3>",
+            "title": "",
             "heading_tag": "h0",
             "heading_style": "font--primary",
             "button_text": "",
@@ -32,7 +32,7 @@
         "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1"
       ],
       "custom_css": [
-
+        ".prose strong{color: #DBDE3B;}"
       ],
       "settings": {
         "identifier": "",

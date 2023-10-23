@@ -58,7 +58,7 @@
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
           "type": "richtext",
           "settings": {
-            "content": "<h1><strong>EN EL CORAZÓN DE ECOTERRA<\/strong> SE ENCUENTRAN NUESTROS REVOLUCIONARIOS ECOLABS: <\/h1><h1>ECO<strong>AGRI<\/strong>LAB, ECO<strong>FOOD<\/strong>LAB Y ECO<strong>TECH<\/strong>LAB <\/h1><p>Cada uno de ellos un faro de innovación, un esfuerzo revolucionario para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. Pero no sólo hablemos de ellos; profundicemos en lo que los hace revolucionarios.<\/p>"
+            "content": "<h1>¿QUÉ ES ECOTECH?<\/h1><h3>ECOTECH ES EL CORAZÓN DE ECOTERRA<\/h3><p><br\/>Una plataforma basada en blockchain que nos permite auditar (Proof of Eco), rastrear (EcoNFT) y validar sellos de sostenibilidad. Esta tecnología garantiza que cada producto que lleva nuestro sello cumpla con los más altos estándares de sostenibilidad y ética.<br\/><\/p>"
           }
         }
       },
@@ -66,12 +66,8 @@
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d"
       ],
       "custom_css": [
-        ".prose h1 {font-size: 50px; text-align: left;}",
-        ".prose h1 strong {color: #96d123;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h3 {color: #dbde3b; font-size: 30px; font-weight: 500;}",
+        ".prose p {font-size: 20px; line-height: 110%;}"
       ],
       "settings": {
         "identifier": "",

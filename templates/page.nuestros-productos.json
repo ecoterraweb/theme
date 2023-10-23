@@ -346,13 +346,13 @@
         "d898b983-5ef8-413f-838b-a40f0c9ebe5e"
       ],
       "custom_css": [
-
+        ".prose > div > p {font-size: 30px; font-weight: 500; word-wrap: break-word;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
         "mode_image": false,
-        "content_width": "small",
+        "content_width": "medium",
         "text_position": "center",
         "background": "#004228",
         "background_gradient": "",

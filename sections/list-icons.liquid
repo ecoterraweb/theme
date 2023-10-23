@@ -1,12 +1,126 @@
-{% schema %}
+{%- render 'section-spacing-collapsing' -%}
+
+<style>
+    #shopify-section-{{ section.id }} {
+        background-color: {{ section.settings.background }};
+    }
+
+</style>
+
+<div {% render 'section-properties' %}>
+    <div class="section-stack">
+        <div class="prose {% if section.settings.text_alignment == 'center' %}text-center{% endif %}">
+            {%- if section.settings.title != blank -%}
+                <h2 class="h2">
+                    {%- render 'styled-text', content: section.settings.title, text_color: section.settings.heading_color -%}
+                </h2>
+            {%- endif -%}
+
+        </div>
+        <div class="list-icon">
+            {%- for block in section.blocks -%}
+                <div class="list-icon-item">
+                    {%- if block.settings.logo != blank -%}
+                        {%- capture sizes -%}{{ block.settings.logo_width }}px{%- endcapture -%}
+                        {%- capture widths -%}{{ block.settings.logo_width }}, {{ block.settings.logo_width | times: 2 | at_most: block.settings.logo.width }}{%- endcapture -%}
+                        {%- capture max_width -%}--logo-list-image-max-width: {{ block.settings.logo_width }}px{%- endcapture -%}
+                        {{- block.settings.logo | image_url: width: block.settings.logo.width | image_tag: style: max_width, loading: 'lazy', widths: widths, class: 'logo-list__image', sizes: sizes -}}
+                    {%- else -%}
+                        {{- 'image' | placeholder_svg_tag: 'logo-list__image' -}}
+                    {%- endif -%}
+                    <div class="list-icon-item-content">
+                        {%- if block.settings.title != blank -%}
+                            <h3>
+                                {{  block.settings.title }}
+                            </h3>
+                        {%- endif -%}
+                        {%- if block.settings.content != blank -%}
+                                {{  block.settings.content }}
+                        {%- endif -%}
+                    </div>
+                </div>
+            {%- endfor -%}
+        </div>
+
+    </div>
+</div>
+  
+  {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "List with Icons",
+    "class": "shopify-section--logo-icon",
+    "tag": "section",
+    "max_blocks": 3,
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "full_width",
+        "label": "Full width",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Logo list"
+      },
+      {
+        "type": "color",
+        "id": "background",
+        "label": "Background"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text"
+      },
+      {
+        "type": "color",
+        "id": "heading_color",
+        "label": "Heading color"
+      }
+    ],
+    "blocks": [
+        {
+        "name": "Item",
+        "type": "item",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Title"
+            },
+            {
+                "type": "richtext",
+                "id": "content",
+                "label": "Content",
+                "default": "<p>Write content to help your customers to better understand your products or policies.</p>"
+            },
+            {
+                "type": "image_picker",
+                "id": "logo",
+                "label": "Logo",
+                "info": "120 x 120px .png recommended"
+            }
+        ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "List with Icons",
+        "blocks": [
+          {
+            "type": "item"
+          },
+          {
+            "type": "item"
+          },
+          {
+            "type": "item"
+          }
+        ]
+      }
+    ]
   }
-{% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+  {% endschema %}

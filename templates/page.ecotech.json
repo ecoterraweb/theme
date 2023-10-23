@@ -89,8 +89,11 @@
     },
     "f16b99ca-720a-48c2-a812-ebe319eb0607": {
       "type": "before-after-video",
+      "custom_css": [
+        ".full-bleed {max-width: 100%; margin: 0;}"
+      ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "subheading": "",
         "custom_pill_subheading": false,
         "subheading_background_color": "",
@@ -99,7 +102,7 @@
         "text_position": "start",
         "autoplay": true,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
         "background": "",
         "background_gradient": "",
         "text_color": "",

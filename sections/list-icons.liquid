@@ -7,6 +7,15 @@
   .shopify-section--logo-icon .section-stack{
     
   }
+  .shopify-section--logo-icon .prose .h2{
+    color: #004228;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 25px;
+    text-align: center;
+  }
+
   .list-icon-item{
     display: flex;
     flex-direction: column;
@@ -22,6 +31,7 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.18px;
+    line-height: 120%;
     text-align: center;
   }
   .list-icon-item-content p{
@@ -31,8 +41,9 @@
     line-height: 20px;
   }
   @media screen and (min-width: 770px) {
-    .shopify-section--logo-icon .section-stack{
-  
+    .shopify-section--logo-icon .prose .h2{
+      font-size: 33px; 
+      line-height: 33px;
     }
     .list-icon{
       display: flex;
@@ -54,6 +65,11 @@
     }
   }
   @media screen and (min-width: 1150px) {
+    .shopify-section--logo-icon .prose .h2{
+      font-size: 44px; 
+      line-height: 44px;
+      text-align: left;
+    }
     .shopify-section--logo-icon .section-stack{
       grid-template-columns: 1fr 1fr;
     }
@@ -70,6 +86,11 @@
     }
   }
   @media screen and (min-width: 1400px) {
+    .shopify-section--logo-icon .prose .h2{
+      font-size: 55px; 
+      line-height: 55px;
+      text-align: left;
+    }
     .shopify-section--logo-icon .section-stack{
     }
     .list-icon-item-content h3{

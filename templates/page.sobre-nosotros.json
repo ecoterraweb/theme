@@ -509,7 +509,8 @@
         "a284952e-3b96-4953-ab52-123c0822855f"
       ],
       "custom_css": [
-        ".impact-text--design {max-width: 1100px;}"
+        ".impact-text--design {max-width: 1100px;}",
+        ".bg-custom {min-height: 500px; align-items: center; display: flex; justify-content: center;}"
       ],
       "settings": {
         "full_width": false,

@@ -113,12 +113,51 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e": {
+      "type": "list-icons",
+      "blocks": {
+        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        },
+        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        },
+        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-1",
+        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-2",
+        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "Logo list",
+        "background": "#f5f5f5",
+        "text_color": "",
+        "heading_color": ""
+      }
     }
   },
   "order": [
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
     "main",
-    "f16b99ca-720a-48c2-a812-ebe319eb0607"
+    "f16b99ca-720a-48c2-a812-ebe319eb0607",
+    "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e"
   ]
 }

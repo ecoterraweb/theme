@@ -224,6 +224,7 @@
         "a80fbbc7-e9ce-49c6-b127-de269a324faf"
       ],
       "custom_css": [
+        ".prose h2 {color: #004228;}",
         ".prose h2 strong {color: #ff6700;}"
       ],
       "settings": {
@@ -447,6 +448,7 @@
         "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1"
       ],
       "custom_css": [
+        ".prose h1 {color: #004228;}",
         "strong {color: #ff00e8;}",
         ".rich-text__wrapper {max-width: 950px;}"
       ],

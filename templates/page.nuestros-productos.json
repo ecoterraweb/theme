@@ -42,7 +42,7 @@
 
       ],
       "settings": {
-        "identifier": "",
+        "identifier": "Manifiesto-section",
         "full_width": true,
         "allow_transparent_header": false,
         "image_size": "auto",

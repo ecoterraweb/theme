@@ -224,6 +224,7 @@
         "a80fbbc7-e9ce-49c6-b127-de269a324faf"
       ],
       "custom_css": [
+        ".prose h2 {color: #004228;}",
         ".prose h2 strong {color: #ff6700;}"
       ],
       "settings": {
@@ -447,6 +448,7 @@
         "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1"
       ],
       "custom_css": [
+        ".prose h1 {color: #004228;}",
         "strong {color: #ff00e8;}",
         ".rich-text__wrapper {max-width: 950px;}"
       ],
@@ -784,14 +786,14 @@
         "show_comments_count": false,
         "show_category": true,
         "subheading": "econews",
-        "title": "Noticias recientes",
+        "title": "ÚLTIMAS NOTICIAS",
         "content": "",
         "link_url": "",
-        "link_text": "Ver más",
+        "link_text": "Ver todas",
         "background": "#f5f5f5",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
+        "heading_color": "#004228",
         "heading_gradient": ""
       }
     },
@@ -812,7 +814,7 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
+        "heading_color": "#004228",
         "heading_gradient": "",
         "contact_background": "#f5f5f5",
         "contact_text_color": "",

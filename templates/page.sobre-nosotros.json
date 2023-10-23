@@ -450,7 +450,7 @@
         ".rich-text__wrapper {max-width: 950px;}"
       ],
       "settings": {
-        "identifier": "",
+        "identifier": "Impacto-section",
         "full_width": true,
         "mode_image": false,
         "content_width": "medium",

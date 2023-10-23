@@ -39,6 +39,7 @@
       {%- when 'price' -%}
         <div class="product-info__price">
           <div class="rating-with-text">
+            <h4>Valor unidad</h4>
             {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: product_form_id, size: 'lg', block: block -%}
             {%- render 'product-badges', types: 'sold_out, discount', product: product, form_id: product_form_id, class: 'product-info__badge-list' -%}
 

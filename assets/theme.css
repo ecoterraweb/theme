@@ -10979,11 +10979,11 @@ p.custom__policies--text a{
     font-size: 88px;
     line-height: 88px;
   } 
-  .product-info__variant-picker{
+  .product-info__price{
     display: inline-flex;
     width: 50%;
   }
-  .product-info__variant-picker .rating-with-text{
+  .product-info__price .rating-with-text{
     flex-direction: column;
   }
 

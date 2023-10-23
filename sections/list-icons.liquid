@@ -7,7 +7,7 @@
 
 </style>
 
-<div {% render 'section-properties' %}>
+<div {% render 'section-properties', class: 'shopify-section--logo-icon' %}>
     <div class="section-stack">
         <div class="prose {% if section.settings.text_alignment == 'center' %}text-center{% endif %}">
             {%- if section.settings.title != blank -%}

@@ -180,7 +180,7 @@
         {%- endif -%}
 
       {%- when 'variant_picker' -%}
-        <div class="product-info__variant-picker {%- unless product.has_only_default_variant or hide_sold_out_variants and product.available == false -%}' product-attribbutte-nouse'{%- endunless -%}" {{ block.shopify_attributes }}>
+        <div class="product-info__variant-picker {%- unless product.has_only_default_variant != false and hide_sold_out_variants != false or product.available != false -%}' product-attribbutte-nouse'{%- endunless -%}" {{ block.shopify_attributes }}>
           {%- render 'variant-picker', product: product, form_id: product_form_id, update_url: update_url, hide_sold_out_variants: block.settings.hide_sold_out_variants, block: block -%}
         </div>
 

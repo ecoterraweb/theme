@@ -291,7 +291,7 @@
         ".prose h2 strong {color: #dbde3b;}"
       ],
       "settings": {
-        "identifier": "",
+        "identifier": "Modelo-section",
         "full_width": true,
         "mode_image": true,
         "content_width": "medium",

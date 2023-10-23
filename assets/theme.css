@@ -10349,7 +10349,7 @@ split-lines {
 .tags-container--general{
   margin-top: 20px;
   display: none;
-  max-width: 600px;
+  /* max-width: 600px; */
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
@@ -10985,8 +10985,20 @@ p.custom__policies--text a{
   }
   .product-info__price .rating-with-text{
     flex-direction: column;
+    color: #505050;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
 
+  .product-info__quantity-selector .form-control, .product-info__quantity-selector .form-control .text-subdued{
+    color: #505050;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
   .product-info__quantity-selector {
     display: inline-flex;
     width: 50%;

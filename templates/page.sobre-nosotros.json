@@ -510,7 +510,7 @@
       ],
       "custom_css": [
         ".impact-text--design {max-width: 1100px;}",
-        ".bg-custom {min-height: 500px; align-items: center; display: flex; justify-content: center;}"
+        "@media screen and (min-width: 1150px) {.bg-custom {min-height: 500px; align-items: center; display: flex; justify-content: center;}.impact-text--design .snap-center {flex: 1;}}"
       ],
       "settings": {
         "full_width": false,

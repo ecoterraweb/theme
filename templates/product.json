@@ -19,12 +19,6 @@
           "settings": {
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -50,6 +44,12 @@
             "selector_mode": "block",
             "color_mode": "color",
             "size_chart_page": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
           }
         },
         "quantity_selector": {
@@ -79,11 +79,11 @@
         "vendor",
         "title",
         "badges",
-        "price",
         "rating",
         "payment_terms",
         "separator",
         "variant_picker",
+        "price",
         "quantity_selector",
         "buy_buttons",
         "description"

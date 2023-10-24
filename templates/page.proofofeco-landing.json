@@ -135,12 +135,63 @@
       "settings": {
         "content_width": "80ch"
       }
+    },
+    "dc8d4687-f60c-4082-ba65-193d82e3fac9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
+          }
+        },
+        "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "d1ce5ef7-e197-4e9a-81a9-40f9dab5995a": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-subheading-1",
+        "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-heading-1",
+        "d1ce5ef7-e197-4e9a-81a9-40f9dab5995a",
+        "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-richtext-1"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "92dec7c9-3720-4b43-b951-bc8b7985c563",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
-    "main"
+    "main",
+    "dc8d4687-f60c-4082-ba65-193d82e3fac9"
   ]
 }

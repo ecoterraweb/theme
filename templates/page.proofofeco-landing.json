@@ -175,15 +175,18 @@
         "d1ce5ef7-e197-4e9a-81a9-40f9dab5995a",
         "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-richtext-1"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "identifier": "",
         "full_width": true,
         "mode_image": false,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#026338",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#ffffff"
       }
     }
   },

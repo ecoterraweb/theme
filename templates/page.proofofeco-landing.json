@@ -72,12 +72,13 @@
       "settings": {
         "identifier": "",
         "full_width": true,
-        "mode_image": false,
+        "mode_image": true,
+        "image": "shopify:\/\/shop_images\/img.png",
         "content_width": "medium",
-        "text_position": "center",
-        "background": "#026338",
+        "text_position": "end",
+        "background": "#f5f5f5",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": "#052e1e"
       }
     },
     "main": {

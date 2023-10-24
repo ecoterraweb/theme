@@ -148,13 +148,10 @@
             "subheading_text_color": ""
           }
         },
-        "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-heading-1": {
-          "type": "heading",
+        "a17a7f49-e090-4829-afbd-60ffa693099e": {
+          "type": "richtext",
           "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
+            "content": "<h2><strong>LOS SELLOS QUE NOS ENORGULLECEN<\/strong> Y LOS CERTIFICADOS QUE NOS RESPALDAN<\/h2>"
           }
         },
         "d1ce5ef7-e197-4e9a-81a9-40f9dab5995a": {
@@ -171,7 +168,7 @@
       },
       "block_order": [
         "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-subheading-1",
-        "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-heading-1",
+        "a17a7f49-e090-4829-afbd-60ffa693099e",
         "d1ce5ef7-e197-4e9a-81a9-40f9dab5995a",
         "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-richtext-1"
       ],
@@ -181,7 +178,7 @@
       "settings": {
         "identifier": "",
         "full_width": true,
-        "mode_image": false,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#026338",

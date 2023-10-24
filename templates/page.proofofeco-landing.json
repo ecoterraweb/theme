@@ -241,13 +241,27 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "8108c0b2-32f0-45cd-b424-bc8a06560821": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TR_ead0e031-b018-41f8-bd85-d0724328e13d.png",
+            "column_size": "3",
+            "title": "Todos Reciclamos",
+            "heading_tag": "h4",
+            "content": "<p>El sello de Todos Reciclamos garantiza ante los consumidores el compromiso ambiental de las marcas y su triple impacto positivo: medioambiental, social y económico.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
         "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-1",
         "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-2",
         "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-3",
-        "e917c553-0ce1-4e9b-bb66-e788ff0ebe76"
+        "e917c553-0ce1-4e9b-bb66-e788ff0ebe76",
+        "8108c0b2-32f0-45cd-b424-bc8a06560821"
       ],
       "custom_css": [
         ".h4 {color: #505050; font-size: 30px; font-weight: 400;}"

@@ -162,7 +162,7 @@
         "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Estamos orgullosos de tener estas certificaciones; reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta.<br\/>Utilizamos la seguridad e inmutanilidad de las cadenas de bloques sobre la red Polygon para darte visibilidad y transparencia sobre nuestros certificados, gobernado por nuestro Smart contract Proof of Eco.  <br\/><br\/><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>"
           }
         }
       },
@@ -173,7 +173,7 @@
         "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-richtext-1"
       ],
       "custom_css": [
-        "strong {color: #7dac00;}",
+        "h2 strong {color: #7dac00;}",
         ".bold.custom-pill-none {color: #fff; margin-right: auto;}"
       ],
       "settings": {

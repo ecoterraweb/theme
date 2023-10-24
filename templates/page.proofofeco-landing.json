@@ -249,6 +249,9 @@
         "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-3",
         "e917c553-0ce1-4e9b-bb66-e788ff0ebe76"
       ],
+      "custom_css": [
+        ".h4 {color: #505050; font-size: 30px; font-weight: 400;}"
+      ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,

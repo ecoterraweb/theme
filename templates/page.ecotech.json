@@ -149,8 +149,8 @@
         "text_color": "",
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#000000",
-        "button_text": "",
-        "button_url": "",
+        "button_text": "¡Quiero saber más!",
+        "button_url": "shopify:\/\/pages\/proof-of-eco",
         "button_background": "",
         "button_text_color": ""
       }

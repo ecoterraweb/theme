@@ -173,7 +173,7 @@
         "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-richtext-1"
       ],
       "custom_css": [
-        "strong {color: #7dac00;}",
+        "h2 strong {color: #7dac00;}",
         ".bold.custom-pill-none {color: #fff; margin-right: auto;}"
       ],
       "settings": {

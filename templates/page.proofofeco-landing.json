@@ -6,13 +6,13 @@
         "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BG_ECT_L.jpg",
+            "image": "shopify:\/\/shop_images\/EN-BG_L.png",
             "mobile_image": "shopify:\/\/shop_images\/BG_ECT_S.jpg",
-            "content_max_width": 640,
+            "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "content": "<h2><strong>IMPULSAMOS MODELOS SOTENIBLES <\/strong>A TRAVÉS <br\/>DE LA TECNOLOGÍA<\/h2><h4><strong>WEB3 Y BLOCKCHAIN <\/strong>FACILITAN UNA <br\/>AGRICULTURA DESCENTRALIZADA Y JUSTA<\/h4>",
+            "content": "<h2>PORQUE NOS IMPORTA LA TRANSPARENCIA,<strong><br\/>TE PRESENTAMOS PROOF OF ECO<\/strong><\/h2><p>Gracias a la inmutabilidad y seguridad de la red Blockchain en Polygon, hemos desarrollado esta tecnología para demostrarte que nuestras certificaciones son 100% reales.<\/p>",
             "title": "",
             "heading_tag": "h0",
             "heading_style": "font--primary",
@@ -34,10 +34,10 @@
       "custom_css": [
         ".prose strong {color: #dbde3b;}",
         ".prose h2 {font-size: 25px; line-height: 100%;}",
-        ".prose h4 {font-size: 18px; letter-spacing: 0.18px;}",
-        "@media screen and (min-width: 770px) {.prose h2 {font-size: 33px; } .prose h4 {font-size: 20px; }}",
-        "@media screen and (min-width: 1150px) {.prose h2 {font-size: 44px; } .prose h4 {font-size: 25px; }}",
-        "@media screen and (min-width: 1400px) {.prose h2 {font-size: 55px; } .prose h4 {font-size: 30px; }}"
+        ".prose p {font-size: 14px; letter-spacing: 0.18px;}",
+        "@media screen and (min-width: 770px) {.prose h2 {font-size: 33px; } .prose p {font-size: 16px; }}",
+        "@media screen and (min-width: 1150px) {.prose h2 {font-size: 44px; } .prose p {font-size: 16px; max-width: 680px; margin-left: auto; margin-right: auto; }}",
+        "@media screen and (min-width: 1400px) {.prose h2 {font-size: 55px; } .prose p {font-size: 20px; }}"
       ],
       "settings": {
         "identifier": "",

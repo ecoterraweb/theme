@@ -145,7 +145,7 @@
             "text": "Certificaciones y sellos",
             "custom_pill_subheading": false,
             "subheading_background_color": "",
-            "subheading_text_color": ""
+            "subheading_text_color": "#ffffff"
           }
         },
         "a17a7f49-e090-4829-afbd-60ffa693099e": {
@@ -173,7 +173,7 @@
         "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-richtext-1"
       ],
       "custom_css": [
-
+        "strong {color: #7dac00;}"
       ],
       "settings": {
         "identifier": "",

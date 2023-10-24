@@ -142,7 +142,7 @@
         "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading",
+            "text": "Certificaciones y sellos",
             "custom_pill_subheading": false,
             "subheading_background_color": "",
             "subheading_text_color": ""
@@ -182,7 +182,7 @@
         "identifier": "",
         "full_width": true,
         "mode_image": false,
-        "content_width": "small",
+        "content_width": "medium",
         "text_position": "center",
         "background": "#026338",
         "background_gradient": "",

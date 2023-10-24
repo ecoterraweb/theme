@@ -52,6 +52,37 @@
         "background_gradient": ""
       }
     },
+    "92dec7c9-3720-4b43-b951-bc8b7985c563": {
+      "type": "video",
+      "blocks": {
+        "template--15637777809501__92dec7c9-3720-4b43-b951-bc8b7985c563-play-1": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "template--15637777809501__92dec7c9-3720-4b43-b951-bc8b7985c563-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15637777809501__92dec7c9-3720-4b43-b951-bc8b7985c563-play-1",
+        "template--15637777809501__92dec7c9-3720-4b43-b951-bc8b7985c563-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
       "type": "rich-text",
       "blocks": {
@@ -104,81 +135,12 @@
       "settings": {
         "content_width": "80ch"
       }
-    },
-    "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e": {
-      "type": "list-icons",
-      "blocks": {
-        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-1": {
-          "type": "item",
-          "settings": {
-            "title": "Escalabilidad y Reducción de Costos:",
-            "content": "<p>Ecotech reduce significativamente nuestros costos administrativos y operativos, permitiéndonos escalar y expandirnos globalmente.<\/p>",
-            "logo": "shopify:\/\/shop_images\/Escalabilidad.png"
-          }
-        },
-        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-2": {
-          "type": "item",
-          "settings": {
-            "title": "Transparencia y Sostenibilidad:",
-            "content": "<p>Cada producto trazado con ecotech garantiza a los ecolovers que están consumiendo productos 100% sostenibles y éticos.<\/p>",
-            "logo": "shopify:\/\/shop_images\/Transparencia.png"
-          }
-        },
-        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-3": {
-          "type": "item",
-          "settings": {
-            "title": "Acceso Ampliado:",
-            "content": "<p>Una de nuestras misiones principales es democratizar el acceso a alimentos sostenibles. Gracias a EcoTech, a nuestra tienda y a nuestros EcoLabs, podemos conectar a miles de eco farmers con millones de ecolovers, creando un ecosistema global de sostenibilidad.<\/p>",
-            "logo": "shopify:\/\/shop_images\/Acceso.png"
-          }
-        }
-      },
-      "block_order": [
-        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-1",
-        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-2",
-        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "title": "¿QUÉ BENEFICIOS TIENE PARA NUESTRA COMUNIDAD DE ECOLOVERS Y ECOPARTNERS?",
-        "background": "#f5f5f5",
-        "text_color": "",
-        "heading_color": ""
-      }
-    },
-    "f16b99ca-720a-48c2-a812-ebe319eb0607": {
-      "type": "before-after-video",
-      "custom_css": [
-        ".full-bleed {max-width: 100%; margin: 0;}"
-      ],
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "custom_pill_subheading": false,
-        "subheading_background_color": "",
-        "title": "PROOF OF ECO",
-        "content": "<p>Registramos en blockchain para demostrarte  que nuestras certificaciones son 100% reales. <br\/>¡En este video te contamos cómo!<\/p>",
-        "text_position": "start",
-        "autoplay": true,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000",
-        "button_text": "",
-        "button_url": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
     }
   },
   "order": [
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
+    "92dec7c9-3720-4b43-b951-bc8b7985c563",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
-    "main",
-    "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e",
-    "f16b99ca-720a-48c2-a812-ebe319eb0607"
+    "main"
   ]
 }

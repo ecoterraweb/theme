@@ -74,7 +74,7 @@
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>¿QUÉ ES ECOTECH?<\/h1><h3>ECOTECH ES EL CORAZÓN DE ECOTERRA<\/h3><p><br\/>Una plataforma basada en blockchain que nos permite auditar (Proof of Eco), rastrear (EcoNFT) y validar sellos de sostenibilidad. Esta tecnología garantiza que cada producto que lleva nuestro sello cumpla con los más altos estándares de sostenibilidad y ética.<br\/><\/p>"
+            "content": "<h1>¡AQUÍ TE EXPLICAMOS CÓMO!<\/h1><p>Al hacer click en el botón Eco puedes acceder a ver las evidencias de nuestros sellos y certificados, gracias a nuestra tecnología Proof of Eco, la que asegura que cumplimos rigurosamente con nuestras certificaciones, ya que estas están registradas en la red de blockchain (Polygon), lo que hace que la inscripción de estas sea inmutable y pública. <\/p><h3>¿QUÉ BENEFICIOS TIENE? <\/h3><p><strong>Para nuestros EcoLovers y EcoPartners:<\/strong> Transparencia y confianza, pueden estar seguros de que nuestros sellos y certificaciones son reales y cumplen con todos los estándares.<\/p>"
           }
         }
       },
@@ -84,7 +84,7 @@
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d"
       ],
       "custom_css": [
-        ".prose h3 {color: #dbde3b; font-size: 30px; font-weight: 500;}",
+        ".prose h3 {font-size: 30px; font-weight: 500;}",
         ".prose p {font-size: 20px; line-height: 110%;}"
       ],
       "settings": {
@@ -92,7 +92,7 @@
         "full_width": true,
         "mode_image": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "#f5f5f5",
         "background_gradient": "",
         "text_color": "#052e1e"

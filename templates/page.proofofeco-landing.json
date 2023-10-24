@@ -206,10 +206,11 @@
         "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-2": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EB.png",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Empresa B",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "content": "<p>Empresa B es una certificación ofrecida por B Lab, una organización independiente, no gubernamental y sin fines de lucro. La certificación evalúa el rendimiento social y ambiental de una empresa, desde la cadena de suministro y los materiales de entrada hasta la donación caritativa y los beneficios para los empleados. La certificación B Corp señala la intención de una empresa de mantener el propósito en el núcleo de la compañía.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"

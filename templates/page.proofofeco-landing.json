@@ -6,8 +6,8 @@
         "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EN-BG_L.png",
-            "mobile_image": "shopify:\/\/shop_images\/BG_ECT_S.jpg",
+            "image": "shopify:\/\/shop_images\/POE_BG_L-min.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/POE_BG_S.jpg",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",

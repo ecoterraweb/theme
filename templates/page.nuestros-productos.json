@@ -142,7 +142,10 @@
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #10ccf4;}"
+        ".prose h2 strong {color: #10ccf4;}",
+        ".prose p {font-size: 14px; font-weight: 400; line-height: 20px;}",
+        "@media screen and (min-width: 770px) {.prose p {font-size: 16px; line-height: 24px; }}",
+        "@media screen and (min-width: 1400px) {.prose p {font-size: 20px; line-height: 28px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -151,7 +154,7 @@
         "collage_images_alignment": "middle",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#505050",
         "button_background": "#026338",
         "button_text_color": ""
       }

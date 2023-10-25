@@ -42,7 +42,7 @@
             {%- for block in section.blocks -%}
               {%- case block.type -%}
                 {%- when 'item' -%}
-                  <div class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}>
+                  <div class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start"  {{ block.shopify_attributes }}>
                     {%- if block.settings.video != blank -%}
                       <video-media autoplay style="--aspect-ratio: {{ block.settings.video.aspect_ratio }}">
                         {{ block.settings.video | video_tag: playsinline: true, muted: true, loop: true, preload: 'metadata', class: 'rounded' }}

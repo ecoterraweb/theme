@@ -12,6 +12,75 @@
     <div class="section-stack">
       {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: section.settings.text_alignment -%}
 
+    {% if section.settings.scroll %}
+      <div class="{% if section.settings.show_progress_bar %}scrollable-with-controls{% else %}floating-controls-container{% endif %}">
+        {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
+
+        <scroll-carousel selector=".collection-card" id="{{ scroll_area_id }}" class="scroll-area bleed {% if section.blocks.` > section.settings.collections_per_row %}is-scrollable{% endif %}">
+          <collection-list class="collection-list">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when 'item' -%}
+                  <div class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}>
+                    {%- if block.settings.video != blank -%}
+                      <video-media autoplay style="--aspect-ratio: {{ block.settings.video.aspect_ratio }}">
+                        {{ block.settings.video | video_tag: playsinline: true, muted: true, loop: true, preload: 'metadata', class: 'rounded' }}
+                      </video-media>
+                    {%- elsif block.settings.image != blank -%}
+                      {%- capture sizes -%}(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min({{ settings.page_width }}px, 100vw) / {{ block.settings.column_size }}){%- endcapture -%}
+                      {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800', class: 'rounded' -}}
+                    {%- endif -%}
+    
+                    {%- if block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
+                      <div class="v-stack gap-4 text-{{ section.settings.text_alignment }}">
+                        {%- if block.settings.title != blank -%}
+                          <p class="{{ block.settings.heading_tag }}">{{ block.settings.title | escape }}</p>
+                        {%- endif -%}
+    
+                        {%- if block.settings.content != blank or block.settings.link_text != blank -%}
+                          <div class="prose">
+                            {{- block.settings.content -}}
+    
+                            {%- if block.settings.link_text != blank -%}
+                              <div>
+                                {%- if block.settings.link_style == 'link' -%}
+                                  <a href="{{ block.settings.link_url }}" class="link">{{ block.settings.link_text | escape }}</a>
+                                {%- else -%}
+                                  {%- render 'button', href: block.settings.link_url, content: block.settings.link_text, size: 'lg' -%}
+                                {%- endif -%}
+                              </div>
+                            {%- endif -%}
+                          </div>
+                        {%- endif -%}
+                      </div>
+                    {%- endif -%}
+                  </div>
+    
+                {%- when 'spacer' -%}
+                  <div class="multi-column__item hidden md:block" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}></div>
+              {%- endcase -%}
+            {%- endfor -%}
+          </collection-list>
+        </scroll-carousel>
+
+        {%- if section.settings.stack_collections == false -%}
+          {%- if section.settings.show_progress_bar -%}
+            {%- assign default_progress = section.settings.collections_per_row | times: 1.0 | divided_by: section.blocks.size -%}
+            {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
+          {%- else -%}
+            <button is="prev-button" class="circle-button circle-button--lg circle-button--fill border group" aria-controls="{{ scroll_area_id }}" disabled>
+              <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
+              <span class="animated-arrow animated-arrow--reverse"></span>
+            </button>
+
+            <button is="next-button" class="circle-button circle-button--lg circle-button--fill border group" aria-controls="{{ scroll_area_id }}">
+              <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
+              <span class="animated-arrow"></span>
+            </button>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+    {% else %}
       <div class="multi-column scroll-area bleed md:unbleed">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -56,6 +125,7 @@
           {%- endcase -%}
         {%- endfor -%}
       </div>
+    {% endif %}
     </div>
   </div>
 {%- endif -%}
@@ -81,6 +151,32 @@
       "id": "stack_on_mobile",
       "label": "Stack on mobile",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "scroll",
+      "label": "Scroll columns",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_progress_bar",
+      "label": "Show carousel progress bar",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "collections_per_row",
+      "min": 2,
+      "max": 5,
+      "label": "Collections per row (desktop)",
+      "default": 3
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_collections",
+      "label": "Stack collections",
+      "default": true
     },
     {
       "type": "select",

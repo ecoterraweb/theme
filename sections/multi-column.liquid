@@ -6,6 +6,27 @@
       --multi-column-grid: {% if section.settings.stack_on_mobile %}none{% else %}auto / auto-flow 73vw{% endif %};
       --multi-column-list-gap: {% if section.settings.gap == 'small' %}var(--grid-gutter){% elsif section.settings.gap == 'medium' %}var(--spacing-12){% elsif section.settings.gap == 'large' %}var(--spacing-20){% else %}var(--spacing-28){% endif %};
     }
+    #shopify-section-{{ section.id }} .collection-list {
+    --collection-list-grid: {% if section.settings.stack_collections %}none{% else %}auto / auto-flow 73vw{% endif %};
+  }
+ 
+  @media screen and (min-width: 700px) {
+    #shopify-section-{{ section.id }} .collection-list {
+      --collection-list-grid: {% if section.settings.stack_collections %}auto / repeat(2, minmax(0, 1fr)){% else %}auto / auto-flow 36vw{% endif %};
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    #shopify-section-{{ section.id }} .collection-list {
+      --collection-list-grid: {% if section.settings.stack_collections %}auto / repeat({{ 3 | at_most: section.settings.collections_per_row }}, minmax(0, 1fr)){% else %}auto / auto-flow calc(var(--container-inner-width) / {{ section.settings.collections_per_row }} - (var(--grid-gutter) / 3 * 2)){% endif %};
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    #shopify-section-{{ section.id }} .collection-list {
+      --collection-list-grid: {% if section.settings.stack_collections %}auto / repeat({{ section.settings.collections_per_row }}, minmax(0, 1fr)){% else %}auto / auto-flow calc(var(--container-inner-width) / {{ section.settings.collections_per_row }} - (var(--grid-gutter) / {{ section.settings.collections_per_row }} * {{ section.settings.collections_per_row | minus: 1 }})){% endif %};
+    }
+  }
   </style>
 
   <div {% render 'section-properties' %}>

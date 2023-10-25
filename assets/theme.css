@@ -10982,6 +10982,7 @@ p.custom__policies--text a{
     width: 100%;
     max-width: 1210px !important;
     padding: 44px 0;
+    gap: 30px;
   }
   .prose--slideshow .h0{
     font-size: 88px;

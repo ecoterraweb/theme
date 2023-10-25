@@ -39,7 +39,7 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1"
       ],
       "custom_css": [
-
+        ".content-over-media{--container-max-width: 1250px;}"
       ],
       "settings": {
         "identifier": "Manifiesto-section",

@@ -57,7 +57,7 @@
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
       ],
       "custom_css": [
-
+        ".content-over-media{--container-max-width: 1250px;}"
       ],
       "settings": {
         "identifier": "",
@@ -439,16 +439,17 @@
     "78eb0dc2-bbc9-46b4-ae9f-2d01e79ca5fb": {
       "type": "before-after-video",
       "custom_css": [
+        ".prose h2 {color: #004228;}",
         "h2 strong {color: #ff6700;}",
         ".full-bleed {max-width: 100%; margin: 0;}",
         ".prose .bold {margin-bottom: 0 !important;}",
-        ".prose{gap: 22px;}"
+        ".prose {gap: 22px;}"
       ],
       "settings": {
         "full_width": false,
         "subheading": "ecotech",
         "custom_pill_subheading": false,
-        "subheading_background_color": "#1a1a1a",
+        "subheading_background_color": "#505050",
         "title": "",
         "content": "<h2>¿SABES DE <strong>DÓNDE VIENEN<\/strong> TUS ALIMENTOS?<\/h2><p>Gracias a la tecnología de <strong>WEB.3<\/strong>  y la revolución del <strong>BLOCKCHAIN<\/strong>, te lo podemos contar.<\/p>",
         "text_position": "start",

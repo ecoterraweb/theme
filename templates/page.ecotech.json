@@ -131,7 +131,9 @@
     "f16b99ca-720a-48c2-a812-ebe319eb0607": {
       "type": "before-after-video",
       "custom_css": [
-        ".full-bleed {max-width: 100%; margin: 0;}"
+        ".full-bleed {max-width: 100%; margin: 0;}",
+        ".prose .bold {margin-bottom: 0 !important;}",
+        ".prose {gap: 22px;}"
       ],
       "settings": {
         "full_width": false,

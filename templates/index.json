@@ -440,7 +440,9 @@
       "type": "before-after-video",
       "custom_css": [
         "h2 strong {color: #ff6700;}",
-        ".full-bleed {max-width: 100%; margin: 0;}"
+        ".full-bleed {max-width: 100%; margin: 0;}",
+        ".prose .bold {margin-bottom: 0 !important;}",
+        ".prose{gap: 22px;}"
       ],
       "settings": {
         "full_width": false,

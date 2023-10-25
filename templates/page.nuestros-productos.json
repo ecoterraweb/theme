@@ -133,7 +133,7 @@
             "title": "",
             "content": "<h2>ECO<strong>HUEVOS<\/strong><\/h2><p>Todos nuestros ecohuevos provienen de gallinas que pastorean libres, en donde las aves pueden desarrollar sus conductas naturales. Además, comen una dieta 100% vegetariana y libre  de antibióticos. <br\/><br\/><strong>Porque creemos en un mundo más justo,<\/strong> colaboramos con pequeños productores certificados bajo estándares de comercio justo.<\/p>",
             "button_url": "shopify:\/\/collections\/huevos",
-            "button_text": "Compra aquí"
+            "button_text": "Comprar aquí"
           }
         }
       },
@@ -171,7 +171,7 @@
             "title": "",
             "content": "<h2>ECO<strong>PROTEIN<\/strong><\/h2><p><strong>¡TE PRESENTAMOS LA NUEVA FORMA DE COMER HUEVO!. <\/strong> Una manera mucho más fácil de obtener la proteína más biodisponible del mundo. El complemento perfecto para tu día a día: fácil y práctico!<\/p>",
             "button_url": "shopify:\/\/collections\/fair-foods",
-            "button_text": "Compra aquí"
+            "button_text": "Comprar aquí"
           }
         }
       },
@@ -180,7 +180,10 @@
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #ff6700;}"
+        ".prose h2 strong {color: #ff6700;}",
+        ".prose p {font-size: 14px; font-weight: 400; line-height: 20px;}",
+        "@media screen and (min-width: 770px) {.prose p {font-size: 16px; line-height: 24px; }}",
+        "@media screen and (min-width: 1400px) {.prose p {font-size: 20px; line-height: 28px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -189,7 +192,7 @@
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#505050",
         "button_background": "#026338",
         "button_text_color": ""
       }
@@ -206,7 +209,7 @@
             "title": "",
             "content": "<h2>ECO<strong>LÁCTEOS<\/strong><\/h2><p>Producidos en alianza con productores locales de la Región de Los Lagos, certificados en bienestar animal. <br\/>Las vacas pastorean libremente y no se utilizan antibióticos ni hormonas de forma rutinaria, de hecho, <strong>¡TODOS NUESTROS LÁCTEOS SON SIN HORMONA rbST! <\/strong><\/p>",
             "button_url": "shopify:\/\/collections\/lacteos",
-            "button_text": "Compra aquí"
+            "button_text": "Comprar aquí"
           }
         }
       },
@@ -215,7 +218,10 @@
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #394ff0;}"
+        ".prose h2 strong {color: #394ff0;}",
+        ".prose p {font-size: 14px; font-weight: 400; line-height: 20px;}",
+        "@media screen and (min-width: 770px) {.prose p {font-size: 16px; line-height: 24px; }}",
+        "@media screen and (min-width: 1400px) {.prose p {font-size: 20px; line-height: 28px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -241,7 +247,7 @@
             "title": "",
             "content": "<h2>ECO<strong>DESPENSA<\/strong><\/h2><p>Proveniente de cultivos sustentables y orgánicos, es decir, libres de fertilizantes químicos, pesticidas y herbicidas. Preocupados por tu salud y la del planeta.<\/p>",
             "button_url": "shopify:\/\/collections\/despensa-pantry",
-            "button_text": "Compra aquí"
+            "button_text": "Comprar aquí"
           }
         }
       },
@@ -250,7 +256,10 @@
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #ff3e72;}"
+        ".prose h2 strong {color: #ff3e72;}",
+        ".prose p {font-size: 14px; font-weight: 400; line-height: 20px;}",
+        "@media screen and (min-width: 770px) {.prose p {font-size: 16px; line-height: 24px; }}",
+        "@media screen and (min-width: 1400px) {.prose p {font-size: 20px; line-height: 28px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -259,7 +268,7 @@
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#505050",
         "button_background": "#026338",
         "button_text_color": ""
       }

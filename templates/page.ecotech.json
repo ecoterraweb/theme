@@ -32,6 +32,7 @@
         "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1"
       ],
       "custom_css": [
+        ".content-over-media{--container-max-width: 1250px;}",
         ".prose strong {color: #dbde3b;}",
         ".prose h2 {font-size: 25px; line-height: 100%;}",
         ".prose h4 {font-size: 18px; letter-spacing: 0.18px;}",

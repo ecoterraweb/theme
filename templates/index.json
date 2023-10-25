@@ -268,7 +268,8 @@
       "type": "scrolling-text",
       "custom_css": [
         "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 88px; font-weight: 400;}",
-        ".bg-custom.text-custom {padding: 20px 0;}"
+        ".bg-custom.text-custom {padding: 20px 0;}",
+        "@media screen and (max-width: 770px) {span.scrolling-text__text {font-size: 66px; }}"
       ],
       "settings": {
         "full_width": true,

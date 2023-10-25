@@ -440,7 +440,9 @@
       "type": "before-after-video",
       "custom_css": [
         "h2 strong {color: #ff6700;}",
-        ".full-bleed {max-width: 100%; margin: 0;}"
+        ".full-bleed {max-width: 100%; margin: 0;}",
+        ".prose .bold {margin-bottom: 0 !important;}",
+        ".prose{gap: 22px;}"
       ],
       "settings": {
         "full_width": false,
@@ -515,7 +517,7 @@
         "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1"
       ],
       "custom_css": [
-        ".prose .bold {margin-bottom: 0 !important;}"
+
       ],
       "settings": {
         "identifier": "policies-banner",

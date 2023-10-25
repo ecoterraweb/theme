@@ -39,7 +39,7 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1"
       ],
       "custom_css": [
-        ".content-over-media{--container-max-width: 1250px;}"
+        ".content-over-media {--container-max-width: 1250px;}"
       ],
       "settings": {
         "identifier": "Manifiesto-section",
@@ -107,7 +107,7 @@
         "41efcc92-f932-4288-98fc-289a59065d2e": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>SALVA EL PLANETA <\/strong>¡UN PLATO A LA VEZ!<\/h2><p>Cada compra, es una elección y queremos que esa ¡sea con propósito. <strong>Estamos seguros de que nuestras acciones y decisiones impactan,<\/strong> te inivtamos a comprar con sentido y cambiar el mundo a través de lo que comes.<\/p>"
+            "content": "<h2><strong>SALVA EL PLANETA <br\/><\/strong>¡UN PLATO A LA VEZ!<\/h2><p>Cada compra, es una elección y queremos que esa ¡sea con propósito. <strong>Estamos seguros de que nuestras acciones y decisiones impactan,<\/strong> te inivtamos a comprar con sentido y cambiar el mundo a través de lo que comes.<\/p>"
           }
         },
         "c2592919-2256-4b41-acb9-f58bb253fe3a": {
@@ -168,7 +168,7 @@
         "87ccbca3-4805-4f5e-a84c-0817d10540eb": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>LA VERDADERA REVOLUCIÓN ESTÁ EN EL <strong>CÓMO<\/strong><\/h2><p>Nos cansamos de los monocultivos que agotan los suelos, pesticidas que envenenan las aguas, animales explotados y la desvinculación social que sufren los pequeños productores. En Ecoterra demostramos que <strong>NO <\/strong>tiene que ser así y que el verdadero cambio está en <strong>CÓMO <\/strong>hacemos nuestra comida.<\/p>"
+            "content": "<h2>LA VERDADERA REVOLUCIÓN <strong>ESTÁ EN EL CÓMO<\/strong><\/h2><p>Nos cansamos de los monocultivos que agotan los suelos, pesticidas que envenenan las aguas, animales explotados y la desvinculación social que sufren los pequeños productores. En Ecoterra demostramos que <strong>NO <\/strong>tiene que ser así y que el verdadero cambio está en <strong>CÓMO <\/strong>hacemos nuestra comida.<\/p>"
           }
         }
       },

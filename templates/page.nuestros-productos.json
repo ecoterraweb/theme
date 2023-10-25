@@ -39,7 +39,7 @@
         "template--15538125635677__9b61646c-a010-4320-a608-c4c9982d72a1-image-1"
       ],
       "custom_css": [
-        ".content-over-media{--container-max-width: 1250px;}"
+        ".content-over-media {--container-max-width: 1250px;}"
       ],
       "settings": {
         "identifier": "Manifiesto-section",
@@ -57,8 +57,10 @@
     "70d4769d-43ae-4c89-a099-9dc64d1399a8": {
       "type": "scrolling-text",
       "custom_css": [
-        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 50px; font-weight: 400;}",
-        ".bg-custom.text-custom {padding: 20px 0;}"
+        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 88px; font-weight: 400;}",
+        ".bg-custom.text-custom {padding: 20px 0;}",
+        "@media screen and (max-width: 1150px) {span.scrolling-text__text {font-size: 66px; }}",
+        "@media screen and (max-width: 770px) {span.scrolling-text__text {font-size: 50px; }}"
       ],
       "settings": {
         "full_width": true,

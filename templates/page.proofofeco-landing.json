@@ -250,7 +250,7 @@
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "scroll": true,
         "show_progress_bar": true,
         "collections_per_row": 3,

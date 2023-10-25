@@ -515,7 +515,7 @@
         "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1"
       ],
       "custom_css": [
-
+        ".custom-pill-none {margin-bottom: 0;}"
       ],
       "settings": {
         "identifier": "policies-banner",

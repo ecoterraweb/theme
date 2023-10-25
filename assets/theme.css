@@ -10981,6 +10981,7 @@ p.custom__policies--text a{
   .section-bg-rich-text--image .split-rich-text{
     width: 100%;
     max-width: 1210px !important;
+    padding: 44px 0;
   }
   .prose--slideshow .h0{
     font-size: 88px;

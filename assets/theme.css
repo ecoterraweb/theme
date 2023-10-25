@@ -11037,8 +11037,11 @@ p.custom__policies--text a{
   }
   /* Policies Banner */
   #policies-banner .split-rich-text .prose{
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: 1fr;
     gap: 44px;
+  }
+  #policies-banner .split-rich-text .prose>:last-child{
+    margin-block-start: 0!important;
   }
   .shopify-policy__title h1{
     font-size: 44px;

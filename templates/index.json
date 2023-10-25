@@ -226,6 +226,7 @@
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
       ],
       "custom_css": [
+        ".content-over-media {--container-max-width: 1250px;}",
         "strong {color: #dbde3b;}"
       ],
       "settings": {
@@ -266,8 +267,10 @@
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d": {
       "type": "scrolling-text",
       "custom_css": [
-        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 50px; font-weight: 400;}",
-        ".bg-custom.text-custom {padding: 20px 0;}"
+        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 88px; font-weight: 400;}",
+        ".bg-custom.text-custom {padding: 20px 0;}",
+        "@media screen and (max-width: 1150px) {span.scrolling-text__text {font-size: 66px; }}",
+        "@media screen and (max-width: 770px) {span.scrolling-text__text {font-size: 50px; }}"
       ],
       "settings": {
         "full_width": true,

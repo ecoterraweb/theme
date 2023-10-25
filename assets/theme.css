@@ -10965,6 +10965,7 @@ p.custom__policies--text a{
   }
   .section-header .text-with-icon.group .reversed-link{
     font-size: 18px;
+    font-weight: 400;
   }
   .section-stack__intro--bottom{
     flex-direction: row;

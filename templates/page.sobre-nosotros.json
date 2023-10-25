@@ -452,7 +452,7 @@
         ".prose h1 {color: #004228;}",
         "strong {color: #ff00e8;}",
         ".rich-text__wrapper {max-width: 950px;}",
-        ".custom-pill-none{margin: 0;}"
+        ".custom-pill-none {margin: 0;}"
       ],
       "settings": {
         "identifier": "Impacto-section",
@@ -731,19 +731,17 @@
         "038f4d60-9086-4579-943c-1d4f67f66241",
         "3ace27f8-37ec-471f-8b2b-459d7f67f0b9"
       ],
-      "disabled": true,
       "custom_css": [
-        "p.h4 {font-size: 25px; font-style: normal; font-weight: 500; line-height: normal; letter-spacing: -0.5px;}",
-        "button {letter-spacing: 0.02em; font-weight: 500;}"
+
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": true,
-        "scroll": false,
-        "show_progress_bar": false,
+        "stack_on_mobile": false,
+        "scroll": true,
+        "show_progress_bar": true,
         "collections_per_row": 3,
         "stack_collections": true,
-        "gap": "medium",
+        "gap": "large",
         "text_alignment": "start",
         "subheading": "",
         "title": "",

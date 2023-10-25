@@ -230,7 +230,7 @@
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#505050",
         "button_background": "#026338",
         "button_text_color": ""
       }
@@ -285,7 +285,7 @@
             "title": "",
             "content": "<h2>ECO<strong>ADEREZOS<\/strong><\/h2><p>Nuestros EcoAderezos son ideales para acompañar todo. Sabrosos, únicos y bullsh*t free, te sacaran de apuro y llevaran tus comidas al siguiente nivel. Únicos que apoyan la vinculación social de pequeños productores. Naturales, éticos y sustentables. <\/p>",
             "button_url": "shopify:\/\/collections\/aderezos-naturales",
-            "button_text": "Compra aquí"
+            "button_text": "Comprar aquí"
           }
         }
       },
@@ -294,7 +294,10 @@
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #7dac00;}"
+        ".prose h2 strong {color: #7dac00;}",
+        ".prose p {font-size: 14px; font-weight: 400; line-height: 20px;}",
+        "@media screen and (min-width: 770px) {.prose p {font-size: 16px; line-height: 24px; }}",
+        "@media screen and (min-width: 1400px) {.prose p {font-size: 20px; line-height: 28px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -303,7 +306,7 @@
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#505050",
         "button_background": "#026338",
         "button_text_color": ""
       }

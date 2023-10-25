@@ -10976,7 +10976,7 @@ p.custom__policies--text a{
   .section-bg-rich-text--image .split-rich-text .prose p{
     font-size: 20px;
     line-height: 24px;
-    max-width: 600;
+    max-width: 600px;
   }
   .section-bg-rich-text--image .split-rich-text{
     width: 100%;

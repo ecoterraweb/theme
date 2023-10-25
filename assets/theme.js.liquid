@@ -343,7 +343,8 @@ var PrevButton = class extends HTMLButtonElement {
 var NextButton = class extends HTMLButtonElement {
   connectedCallback() {
     this._abortController = new AbortController();
-    this.addEventListener("click", () => (this.controlledElement ?? this).dispatchEvent(new CustomEvent("control:next", { bubbles: true, cancelable: true })), { signal: this._abortController.signal });
+    this.addEventListener("click", () => { // Agregar un console.log para verificar la conexión
+      console.log("Botón conectado y clic realizado."); (this.controlledElement ?? this).dispatchEvent(new CustomEvent("control:next", { bubbles: true, cancelable: true }))}, { signal: this._abortController.signal });
     if (this.controlledElement) {
       this.controlledElement.addEventListener("scroll:edge-nearing", (event) => this.disabled = event.detail.position === "end", { signal: this._abortController.signal });
       this.controlledElement.addEventListener("scroll:edge-leaving", (event) => this.disabled = event.detail.position === "end" ? false : this.disabled, { signal: this._abortController.signal });

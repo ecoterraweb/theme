@@ -57,7 +57,7 @@
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
       ],
       "custom_css": [
-
+        ".content-over-media{--container-max-width: 1250px;}"
       ],
       "settings": {
         "identifier": "",

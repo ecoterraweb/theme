@@ -1,0 +1,273 @@
+{
+  "sections": {
+    "9b252a1d-20be-41e1-ae4f-5d0d8f298207": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/POE_BG_L-min.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/POE_BG_S.jpg",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "content": "<h2>PORQUE NOS IMPORTA LA TRANSPARENCIA,<strong><br\/>TE PRESENTAMOS PROOF OF ECO<\/strong><\/h2><p>Gracias a la inmutabilidad y seguridad de la red Blockchain en Polygon, hemos desarrollado esta tecnología para demostrarte que nuestras certificaciones son 100% reales.<\/p>",
+            "title": "",
+            "heading_tag": "h0",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1"
+      ],
+      "custom_css": [
+        ".prose strong {color: #dbde3b;}",
+        ".prose h2 {font-size: 25px; line-height: 100%;}",
+        ".prose p {font-size: 14px; letter-spacing: 0.18px;}",
+        "@media screen and (min-width: 770px) {.prose h2 {font-size: 33px; } .prose p {font-size: 16px; }}",
+        "@media screen and (min-width: 1150px) {.prose h2 {font-size: 44px; } .prose p {font-size: 16px; max-width: 680px; margin-left: auto; margin-right: auto; }}",
+        "@media screen and (min-width: 1400px) {.prose h2 {font-size: 55px; } .prose p {font-size: 20px; }}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "92dec7c9-3720-4b43-b951-bc8b7985c563": {
+      "type": "video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
+      "type": "rich-text",
+      "blocks": {
+        "df9bc2d3-7b55-471d-93cd-d3adf3005ba3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "ad035fbe-9e72-44a6-a83c-1f32eb801bfb": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>¡AQUÍ TE EXPLICAMOS CÓMO!<\/h1><p>Al hacer click en el botón Eco puedes acceder a ver las evidencias de nuestros sellos y certificados, gracias a nuestra tecnología Proof of Eco, la que asegura que cumplimos rigurosamente con nuestras certificaciones, ya que estas están registradas en la red de blockchain (Polygon), lo que hace que la inscripción de estas sea inmutable y pública. <\/p><h3>¿QUÉ BENEFICIOS TIENE? <\/h3><p><strong>Para nuestros EcoLovers y EcoPartners:<\/strong> Transparencia y confianza, pueden estar seguros de que nuestros sellos y certificaciones son reales y cumplen con todos los estándares.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "df9bc2d3-7b55-471d-93cd-d3adf3005ba3",
+        "ad035fbe-9e72-44a6-a83c-1f32eb801bfb",
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d"
+      ],
+      "custom_css": [
+        ".prose h3 {font-size: 30px; font-weight: 500;}",
+        ".prose p {font-size: 20px; line-height: 110%;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#052e1e"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "dc8d4687-f60c-4082-ba65-193d82e3fac9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Certificaciones y sellos",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": "#ffffff"
+          }
+        },
+        "a17a7f49-e090-4829-afbd-60ffa693099e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>LOS SELLOS QUE NOS ENORGULLECEN<\/strong> Y LOS CERTIFICADOS QUE NOS RESPALDAN<\/h2>"
+          }
+        },
+        "d1ce5ef7-e197-4e9a-81a9-40f9dab5995a": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-subheading-1",
+        "a17a7f49-e090-4829-afbd-60ffa693099e",
+        "d1ce5ef7-e197-4e9a-81a9-40f9dab5995a",
+        "template--15637777809501__dc8d4687-f60c-4082-ba65-193d82e3fac9-richtext-1"
+      ],
+      "custom_css": [
+        "strong {color: #7dac00;}",
+        ".bold.custom-pill-none {color: #fff; margin-right: auto;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#026338",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "2fba6212-c8f2-48d3-ab02-1efde152e2c7": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CH.png",
+            "column_size": "3",
+            "title": "Certified Humane: Bienestar Animal",
+            "heading_tag": "h4",
+            "content": "<p>Mejoramiento del bienestar animal en sistemas agrícolas y de acuicultura. Los estándares son específicos al tipo de agricultura (interior, exterior, de libre pastoreo o orgánico) y cubren toda la cadena de producción (desde la salud y la dieta hasta el sacrificio).<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EB.png",
+            "column_size": "3",
+            "title": "Empresa B",
+            "heading_tag": "h4",
+            "content": "<p>Empresa B es una certificación ofrecida por B Lab, una organización independiente, no gubernamental y sin fines de lucro. La certificación evalúa el rendimiento social y ambiental de una empresa, desde la cadena de suministro y los materiales de entrada hasta la donación caritativa y los beneficios para los empleados. La certificación B Corp señala la intención de una empresa de mantener el propósito en el núcleo de la compañía.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EC.png",
+            "column_size": "3",
+            "title": "Organic ECOCERT",
+            "heading_tag": "h4",
+            "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "e917c553-0ce1-4e9b-bb66-e788ff0ebe76": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F4F_321994eb-8347-49b7-aa70-e350caad1dac.png",
+            "column_size": "3",
+            "title": "Food For Future",
+            "heading_tag": "h4",
+            "content": "<p>Este producto no contiene ningún ingrediente que sea el resultado de la matanza de animales, ni utiliza ninguno en el proceso de producción.Producidos bajo modelos de economía circular, en donde parte de la proteína del alimento de las gallinas es reemplazado por ¡harina de insectos hecha a partir de residuos orgánicos de supermercados! logrando neutralizar la contaminación, pues evitamos la emisión de metano. Este producto fue realizado en colaboración con la startup F4F: Food For The Future.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "8108c0b2-32f0-45cd-b424-bc8a06560821": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TR_ead0e031-b018-41f8-bd85-d0724328e13d.png",
+            "column_size": "3",
+            "title": "Todos Reciclamos",
+            "heading_tag": "h4",
+            "content": "<p>El sello de Todos Reciclamos garantiza ante los consumidores el compromiso ambiental de las marcas y su triple impacto positivo: medioambiental, social y económico.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-1",
+        "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-2",
+        "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-3",
+        "e917c553-0ce1-4e9b-bb66-e788ff0ebe76",
+        "8108c0b2-32f0-45cd-b424-bc8a06560821"
+      ],
+      "custom_css": [
+        ".h4 {color: #505050; font-size: 30px; font-weight: 400;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
+    "92dec7c9-3720-4b43-b951-bc8b7985c563",
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d",
+    "main",
+    "dc8d4687-f60c-4082-ba65-193d82e3fac9",
+    "2fba6212-c8f2-48d3-ab02-1efde152e2c7"
+  ]
+}

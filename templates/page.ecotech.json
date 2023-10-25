@@ -87,33 +87,6 @@
         "content_width": "80ch"
       }
     },
-    "f16b99ca-720a-48c2-a812-ebe319eb0607": {
-      "type": "before-after-video",
-      "custom_css": [
-        ".full-bleed {max-width: 100%; margin: 0;}"
-      ],
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "custom_pill_subheading": false,
-        "subheading_background_color": "",
-        "title": "PROOF OF ECO",
-        "content": "<p>Registramos en blockchain para demostrarte  que nuestras certificaciones son 100% reales. <br\/>¡En este video te contamos cómo!<\/p>",
-        "text_position": "start",
-        "autoplay": true,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000",
-        "button_text": "¡Quiero saber más!",
-        "button_url": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e": {
       "type": "list-icons",
       "blocks": {
@@ -154,13 +127,40 @@
         "text_color": "",
         "heading_color": ""
       }
+    },
+    "f16b99ca-720a-48c2-a812-ebe319eb0607": {
+      "type": "before-after-video",
+      "custom_css": [
+        ".full-bleed {max-width: 100%; margin: 0;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "custom_pill_subheading": false,
+        "subheading_background_color": "",
+        "title": "PROOF OF ECO",
+        "content": "<p>Registramos en blockchain para demostrarte  que nuestras certificaciones son 100% reales. <br\/>¡En este video te contamos cómo!<\/p>",
+        "text_position": "start",
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000",
+        "button_text": "¡Quiero saber más!",
+        "button_url": "shopify:\/\/pages\/proof-of-eco",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
     "main",
-    "f16b99ca-720a-48c2-a812-ebe319eb0607",
-    "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e"
+    "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e",
+    "f16b99ca-720a-48c2-a812-ebe319eb0607"
   ]
 }

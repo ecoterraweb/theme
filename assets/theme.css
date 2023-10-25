@@ -10447,7 +10447,7 @@ a.button.button--lg, button.button.button--xl{
 /* shopify-section--image-with-text-overlay */
 .shopify-section--image-with-text-overlay .custom-pill-none{
  font-size: 14px;
- font-weight: 600;
+ font-weight: 500;
  text-transform: uppercase;
  letter-spacing: 0.70px;
  word-wrap: break-word;
@@ -10907,6 +10907,10 @@ p.custom__policies--text a{
   .shopify-policy__body{
     padding: 115px 36px;
     max-width: 1054px;
+  }
+  .shopify-section--image-with-text-overlay .custom-pill-none{
+    font-size: 20px;
+    letter-spacing: 1px;
   }
   .custom__policies--subtitle:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
     font-size: 25px;

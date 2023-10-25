@@ -451,7 +451,8 @@
       "custom_css": [
         ".prose h1 {color: #004228;}",
         "strong {color: #ff00e8;}",
-        ".rich-text__wrapper {max-width: 950px;}"
+        ".rich-text__wrapper {max-width: 950px;}",
+        ".custom-pill-none{margin: 0;}"
       ],
       "settings": {
         "identifier": "Impacto-section",

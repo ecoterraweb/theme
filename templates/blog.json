@@ -31,7 +31,7 @@
         "8fc4af4b-3baf-46c1-b3e9-dd8e0ef622f5"
       ],
       "custom_css": [
-        ".blog-filter-list [aria-selected=false] {opacity: 1 !important;}"
+
       ],
       "settings": {
         "identifier": "",
@@ -49,7 +49,8 @@
     "main": {
       "type": "main-blog",
       "custom_css": [
-        ".blog-banner-content {display: none;}"
+        ".blog-banner-content {display: none;}",
+        ".blog-filter-list [aria-selected=\"false\"] {opacity: 1 !important;}"
       ],
       "settings": {
         "allow_transparent_header": false,

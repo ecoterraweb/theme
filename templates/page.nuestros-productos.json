@@ -364,7 +364,10 @@
         "d898b983-5ef8-413f-838b-a40f0c9ebe5e"
       ],
       "custom_css": [
-        ".prose > div > p {font-size: 30px; font-weight: 500; word-wrap: break-word;}"
+        ".prose > div > p {font-size: 30px; font-weight: 500; word-wrap: break-word;}",
+        "@media screen and (min-width: 770px) {.section-bg-rich-text {padding-top: 150px; padding-bottom: 150px; } .prose > div {margin-block-start: 22px; } .button.button--xl {margin-block-start: 44px !important; }}",
+        "@media screen and (min-width: 1150px) {}",
+        "@media screen and (min-width: 1400px) {}"
       ],
       "settings": {
         "identifier": "",

@@ -71,7 +71,7 @@
     "d12fb7c1-ced5-418c-b017-5130f0cafc84": {
       "type": "newsletter",
       "custom_css": [
-
+        ".section-full{padding: 0}"
       ],
       "settings": {
         "full_width": true,

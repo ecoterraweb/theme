@@ -30,6 +30,9 @@
       "block_order": [
         "8fc4af4b-3baf-46c1-b3e9-dd8e0ef622f5"
       ],
+      "custom_css": [
+        ".blog-filter-list [aria-selected=false] {opacity: 1 !important;}"
+      ],
       "settings": {
         "identifier": "",
         "full_width": true,
@@ -71,7 +74,7 @@
     "d12fb7c1-ced5-418c-b017-5130f0cafc84": {
       "type": "newsletter",
       "custom_css": [
-        ".section-full{padding: 0}"
+        ".section-full {padding: 0;}"
       ],
       "settings": {
         "full_width": true,

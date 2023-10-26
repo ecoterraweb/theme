@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
         padding-left: 20px;
       }
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1150px) {
       .hotspot-content-desktop.right-left, .hotspot-content-desktop.left-right{
         flex-direction: column;
       }
@@ -112,6 +112,48 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
       }
     }
   {%- endfor -%}
+
+  #shopify-section-{{ section.id }} .prose h5{
+    text-align: center;
+  }
+  #shopify-section-{{ section.id }} .prose h2{
+    text-align: center;
+    font-size: 25px;
+    line-height: 120%;
+    padding-top: 0;
+  }
+  #shopify-section-{{ section.id }} .prose p{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  @media screen and (min-width: 770px) {
+    #shopify-section-{{ section.id }} .prose h5{
+    }
+    #shopify-section-{{ section.id }} .prose h2{
+      font-size: 33px;
+    }
+    #shopify-section-{{ section.id }} .prose p{
+      font-size: 16px;
+       line-height: 24px;
+    }
+  }
+  @media screen and (min-width: 1150px) {
+    #shopify-section-{{ section.id }} .prose h5{
+  }
+  #shopify-section-{{ section.id }} .prose h2{
+  }
+  #shopify-section-{{ section.id }} .prose p{
+  }
+  }
+  @media screen and (min-width: 1400px) {
+    #shopify-section-{{ section.id }} .prose h5{
+  }
+  #shopify-section-{{ section.id }} .prose h2{
+  }
+  #shopify-section-{{ section.id }} .prose p{
+  }
+  }
 </style>
 
 <div {% render 'section-properties' %}>

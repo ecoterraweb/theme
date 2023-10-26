@@ -78,6 +78,7 @@
         "image": "shopify:\/\/shop_images\/NSL_L.png",
         "grid_image": true,
         "show_icon": false,
+        "subheading": "Newsletter",
         "title": "¡No te quedes fuera!",
         "content": "<p>Entérate de todas nuestras noticias y novedades.<\/p>",
         "button_text": "Suscríbete aquí",

@@ -452,7 +452,7 @@
         ".prose h1 {color: #004228;}",
         "strong {color: #ff00e8;}",
         ".rich-text__wrapper {max-width: 950px;}",
-        ".custom-pill-none{margin: 0;}"
+        ".custom-pill-none {margin: 0;}"
       ],
       "settings": {
         "identifier": "Impacto-section",
@@ -621,9 +621,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/CH_fdf38afc-b166-42a2-9311-5b16fcbb7a78.png",
             "column_size": "3",
-            "title": "Certified Humane: Bienestar Animal",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>Mejoramiento del bienestar animal en sistemas agrícolas y de acuicultura. Los estándares son específicos al tipo de agricultura (interior, exterior, de libre pastoreo o orgánico) y cubren toda la cadena de producción (desde la salud y la dieta hasta el sacrificio).<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "button"
@@ -634,9 +634,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/EB_37bb085b-f3e4-4082-afb4-eb4d8bc92444.png",
             "column_size": "3",
-            "title": "Empresa B",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>Empresa B es una certificación ofrecida por B Lab, una organización independiente, no gubernamental y sin fines de lucro. La certificación evalúa el rendimiento social y ambiental de una empresa, desde la cadena de suministro y los materiales de entrada hasta la donación caritativa y los beneficios para los empleados. La certificación B Corp señala la intención de una empresa de mantener el propósito en el núcleo de la compañía.<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "button"
@@ -647,9 +647,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/EC_0b248f6c-4f0d-4920-8160-45dfb697d3a6.png",
             "column_size": "3",
-            "title": "Organic ECOCERT",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "button"
@@ -660,9 +660,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/LM.png",
             "column_size": "3",
-            "title": "Land2Market",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>Productos provenientes de tierras manejadas con prácticas regenerativas. El programa L2M asegura que las tierras de donde provienen los productos no solo están sosteniendo, sino activamente mejorando, la salud del ecosistema.<br\/><\/p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "button"
@@ -673,9 +673,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/F4F_d6ab9a3c-5fbf-414c-88d3-04cb30c9483a.png",
             "column_size": "3",
-            "title": "Insect Fed",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>Producidos bajo modelos de economía circular, en donde parte de la proteína del alimento de las gallinas es reemplazado por ¡harina de insectos hecha a partir de residuos orgánicos de supermercados! logrando neutralizar la contaminación, pues evitamos la emisión de metano. Este producto fue realizado en colaboración con la startup F4F: Food For The Future.<br\/><\/p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "button"
@@ -686,9 +686,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TR.png",
             "column_size": "3",
-            "title": "Todos Reciclamos",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>El sello de Todos Reciclamos garantiza ante los consumidores el compromiso ambiental de las marcas y su triple impacto positivo: medioambiental, social y económico.<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "button"
@@ -699,9 +699,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/SAG.png",
             "column_size": "3",
-            "title": "Orgánico SAG",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "button"
@@ -712,9 +712,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/LSQA.png",
             "column_size": "3",
-            "title": "HACCP",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>El sello de certificación de HACCP International confirma la capacidad de un producto no alimenticio para respaldar la integridad y seguridad de los alimentos según lo exigido por las expectativas de la industria, la legislación y los estándares respaldados por GSFI (Iniciativa Global para la Seguridad Alimentaria).<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "button"
@@ -731,19 +731,17 @@
         "038f4d60-9086-4579-943c-1d4f67f66241",
         "3ace27f8-37ec-471f-8b2b-459d7f67f0b9"
       ],
-      "disabled": true,
       "custom_css": [
-        "p.h4 {font-size: 25px; font-style: normal; font-weight: 500; line-height: normal; letter-spacing: -0.5px;}",
-        "button {letter-spacing: 0.02em; font-weight: 500;}"
+
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": true,
-        "scroll": false,
-        "show_progress_bar": false,
-        "collections_per_row": 3,
-        "stack_collections": true,
-        "gap": "medium",
+        "stack_on_mobile": false,
+        "scroll": true,
+        "show_progress_bar": true,
+        "collections_per_row": 5,
+        "stack_collections": false,
+        "gap": "large",
         "text_alignment": "start",
         "subheading": "",
         "title": "",

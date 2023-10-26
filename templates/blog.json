@@ -30,6 +30,9 @@
       "block_order": [
         "8fc4af4b-3baf-46c1-b3e9-dd8e0ef622f5"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "identifier": "",
         "full_width": true,
@@ -46,7 +49,9 @@
     "main": {
       "type": "main-blog",
       "custom_css": [
-        ".blog-banner-content {display: none;}"
+        ".blog-banner-content {display: none;}",
+        ".blog-filter-list [aria-selected=\"false\"] {opacity: 1 !important;}",
+        ".blog-filter-list [aria-selected=\"true\"] {border-top-left-radius: 5.5px; border-top-right-radius: 5.5px;}"
       ],
       "settings": {
         "allow_transparent_header": false,
@@ -71,13 +76,14 @@
     "d12fb7c1-ced5-418c-b017-5130f0cafc84": {
       "type": "newsletter",
       "custom_css": [
-
+        ".section-full {padding: 0;}"
       ],
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/NSL_L.png",
         "grid_image": true,
         "show_icon": false,
+        "subheading": "Newsletter",
         "title": "¡No te quedes fuera!",
         "content": "<p>Entérate de todas nuestras noticias y novedades.<\/p>",
         "button_text": "Suscríbete aquí",

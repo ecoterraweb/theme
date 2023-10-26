@@ -39,7 +39,7 @@
         "template--15538125635677__9b61646c-a010-4320-a608-c4c9982d72a1-image-1"
       ],
       "custom_css": [
-        ".content-over-media{--container-max-width: 1250px;}"
+        ".content-over-media {--container-max-width: 1250px;}"
       ],
       "settings": {
         "identifier": "Manifiesto-section",
@@ -57,8 +57,10 @@
     "70d4769d-43ae-4c89-a099-9dc64d1399a8": {
       "type": "scrolling-text",
       "custom_css": [
-        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 50px; font-weight: 400;}",
-        ".bg-custom.text-custom {padding: 20px 0;}"
+        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 88px; font-weight: 400;}",
+        ".bg-custom.text-custom {padding: 20px 0;}",
+        "@media screen and (max-width: 1150px) {span.scrolling-text__text {font-size: 66px; }}",
+        "@media screen and (max-width: 770px) {span.scrolling-text__text {font-size: 50px; }}"
       ],
       "settings": {
         "full_width": true,
@@ -105,17 +107,13 @@
         "4fbca877-601e-45fc-94dd-59cad4a05aac"
       ],
       "custom_css": [
-        ".prose h2 {font-size: 50px; text-align: left; color: #004228;}",
-        ".prose h2 strong {color: #ff00e8;}",
-        "p {text-align: left;}",
-        "div {align-items: center;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose h2 {color: #004228;}",
+        ".prose h2 strong {color: #ff00e8;}"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
-        "mode_image": false,
+        "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "#f5f5f5",
@@ -135,7 +133,7 @@
             "title": "",
             "content": "<h2>ECO<strong>HUEVOS<\/strong><\/h2><p>Todos nuestros ecohuevos provienen de gallinas que pastorean libres, en donde las aves pueden desarrollar sus conductas naturales. Además, comen una dieta 100% vegetariana y libre  de antibióticos. <br\/><br\/><strong>Porque creemos en un mundo más justo,<\/strong> colaboramos con pequeños productores certificados bajo estándares de comercio justo.<\/p>",
             "button_url": "shopify:\/\/collections\/huevos",
-            "button_text": "Compra aquí"
+            "button_text": "Comprar aquí"
           }
         }
       },
@@ -144,7 +142,10 @@
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #10ccf4;}"
+        ".prose h2 strong {color: #10ccf4;}",
+        ".prose p {font-size: 14px; font-weight: 400; line-height: 20px;}",
+        "@media screen and (min-width: 770px) {.prose p {font-size: 16px; line-height: 24px; }}",
+        "@media screen and (min-width: 1400px) {.prose p {font-size: 20px; line-height: 28px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -153,7 +154,7 @@
         "collage_images_alignment": "middle",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#505050",
         "button_background": "#026338",
         "button_text_color": ""
       }
@@ -170,7 +171,7 @@
             "title": "",
             "content": "<h2>ECO<strong>PROTEIN<\/strong><\/h2><p><strong>¡TE PRESENTAMOS LA NUEVA FORMA DE COMER HUEVO!. <\/strong> Una manera mucho más fácil de obtener la proteína más biodisponible del mundo. El complemento perfecto para tu día a día: fácil y práctico!<\/p>",
             "button_url": "shopify:\/\/collections\/fair-foods",
-            "button_text": "Compra aquí"
+            "button_text": "Comprar aquí"
           }
         }
       },
@@ -179,7 +180,10 @@
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #ff6700;}"
+        ".prose h2 strong {color: #ff6700;}",
+        ".prose p {font-size: 14px; font-weight: 400; line-height: 20px;}",
+        "@media screen and (min-width: 770px) {.prose p {font-size: 16px; line-height: 24px; }}",
+        "@media screen and (min-width: 1400px) {.prose p {font-size: 20px; line-height: 28px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -188,7 +192,7 @@
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#505050",
         "button_background": "#026338",
         "button_text_color": ""
       }
@@ -205,7 +209,7 @@
             "title": "",
             "content": "<h2>ECO<strong>LÁCTEOS<\/strong><\/h2><p>Producidos en alianza con productores locales de la Región de Los Lagos, certificados en bienestar animal. <br\/>Las vacas pastorean libremente y no se utilizan antibióticos ni hormonas de forma rutinaria, de hecho, <strong>¡TODOS NUESTROS LÁCTEOS SON SIN HORMONA rbST! <\/strong><\/p>",
             "button_url": "shopify:\/\/collections\/lacteos",
-            "button_text": "Compra aquí"
+            "button_text": "Comprar aquí"
           }
         }
       },
@@ -214,7 +218,10 @@
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #394ff0;}"
+        ".prose h2 strong {color: #394ff0;}",
+        ".prose p {font-size: 14px; font-weight: 400; line-height: 20px;}",
+        "@media screen and (min-width: 770px) {.prose p {font-size: 16px; line-height: 24px; }}",
+        "@media screen and (min-width: 1400px) {.prose p {font-size: 20px; line-height: 28px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -223,7 +230,7 @@
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#505050",
         "button_background": "#026338",
         "button_text_color": ""
       }
@@ -240,7 +247,7 @@
             "title": "",
             "content": "<h2>ECO<strong>DESPENSA<\/strong><\/h2><p>Proveniente de cultivos sustentables y orgánicos, es decir, libres de fertilizantes químicos, pesticidas y herbicidas. Preocupados por tu salud y la del planeta.<\/p>",
             "button_url": "shopify:\/\/collections\/despensa-pantry",
-            "button_text": "Compra aquí"
+            "button_text": "Comprar aquí"
           }
         }
       },
@@ -249,7 +256,10 @@
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #ff3e72;}"
+        ".prose h2 strong {color: #ff3e72;}",
+        ".prose p {font-size: 14px; font-weight: 400; line-height: 20px;}",
+        "@media screen and (min-width: 770px) {.prose p {font-size: 16px; line-height: 24px; }}",
+        "@media screen and (min-width: 1400px) {.prose p {font-size: 20px; line-height: 28px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -258,7 +268,7 @@
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#505050",
         "button_background": "#026338",
         "button_text_color": ""
       }
@@ -275,7 +285,7 @@
             "title": "",
             "content": "<h2>ECO<strong>ADEREZOS<\/strong><\/h2><p>Nuestros EcoAderezos son ideales para acompañar todo. Sabrosos, únicos y bullsh*t free, te sacaran de apuro y llevaran tus comidas al siguiente nivel. Únicos que apoyan la vinculación social de pequeños productores. Naturales, éticos y sustentables. <\/p>",
             "button_url": "shopify:\/\/collections\/aderezos-naturales",
-            "button_text": "Compra aquí"
+            "button_text": "Comprar aquí"
           }
         }
       },
@@ -284,7 +294,10 @@
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #7dac00;}"
+        ".prose h2 strong {color: #7dac00;}",
+        ".prose p {font-size: 14px; font-weight: 400; line-height: 20px;}",
+        "@media screen and (min-width: 770px) {.prose p {font-size: 16px; line-height: 24px; }}",
+        "@media screen and (min-width: 1400px) {.prose p {font-size: 20px; line-height: 28px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -293,7 +306,7 @@
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#505050",
         "button_background": "#026338",
         "button_text_color": ""
       }
@@ -397,7 +410,7 @@
         "div {align-content: center;}"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "html": "<iframe src=\"https:\/\/www.google.com\/maps\/d\/embed?mid=1A-uWepStfF33vuq4LuvBVlA61wk-TDY&amp;ehbc=2E312F\" width=\"100%\" height=\"480\"><\/iframe>",

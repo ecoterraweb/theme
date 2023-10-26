@@ -236,6 +236,32 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "c9df9f47-e653-4354-9a4b-fbf0020c4185": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAG_2cb6aeca-bca8-4dfe-bbaa-071f1ddf0d0c.png",
+            "column_size": "3",
+            "title": "Orgánico SAG",
+            "heading_tag": "h4",
+            "content": "<p>Este producto ha sido cultivado o fabricado siguiendo prácticas orgánicas certificadas, lo que significa que se han utilizado solo insumos naturales, sin pesticidas sintéticos, fertilizantes artificiales, organismos genéticamente modificados, aditivos químicos o radiaciones. El proceso orgánico promueve la salud del ecosistema, la biodiversidad y los ciclos adaptados a las condiciones locales.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "6c552144-a4fd-47b9-be0f-25be17869b6b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LSQA_bd158887-f90d-4133-b55c-81fd6592d0cb.png",
+            "column_size": "3",
+            "title": "HACCP",
+            "heading_tag": "h4",
+            "content": "<p>El sello de certificación de HACCP International confirma la capacidad de un producto no alimenticio para respaldar la integridad y seguridad de los alimentos según lo exigido por las expectativas de la industria, la legislación y los estándares respaldados por GSFI (Iniciativa Global para la Seguridad Alimentaria).<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
@@ -243,7 +269,9 @@
         "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-2",
         "template--15637777809501__2fba6212-c8f2-48d3-ab02-1efde152e2c7-item-3",
         "e917c553-0ce1-4e9b-bb66-e788ff0ebe76",
-        "8108c0b2-32f0-45cd-b424-bc8a06560821"
+        "8108c0b2-32f0-45cd-b424-bc8a06560821",
+        "c9df9f47-e653-4354-9a4b-fbf0020c4185",
+        "6c552144-a4fd-47b9-be0f-25be17869b6b"
       ],
       "custom_css": [
         ".h4 {color: #505050; font-size: 30px; font-weight: 400;}"

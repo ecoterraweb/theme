@@ -392,12 +392,7 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3"
       ],
       "custom_css": [
-        ".prose h5{font-size: 20px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px;}",
-        ".hotspot-content-desktop{width: 100%}",
-        " .prose h2 {font-size: 46px; text-align: left;}",
-        ".prose h2 strong {color: #96d123;}",
-        "p {text-align: left;}",
-        "div {align-items: center; @media screen and (max-width: 700px) {.prose h2 {font-size: 32px; padding-top: 40px; }}"
+        ".prose h2 strong {color: #96d123;}"
       ],
       "settings": {
         "full_width": true,

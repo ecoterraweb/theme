@@ -88,7 +88,7 @@
         "description"
       ],
       "custom_css": [
-        "button{text-transform: uppercase;}"
+        "button {text-transform: uppercase; font-family: VolteRounded, sans-serif; letter-spacing: 0;}"
       ],
       "settings": {
         "full_width": true,

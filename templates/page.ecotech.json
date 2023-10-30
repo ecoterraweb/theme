@@ -119,6 +119,9 @@
         "2d884ffb-e065-441d-8f17-c581241981d7",
         "008ace87-f11e-4a2d-91fd-dff7cd037e1e"
       ],
+      "custom_css": [
+        ".prose h2 {color: #004228;}"
+      ],
       "settings": {
         "identifier": "",
         "full_width": true,

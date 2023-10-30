@@ -189,7 +189,8 @@
     "490508c8-0b7c-41f9-af8d-508320fe9ec6": {
       "type": "featured-collection",
       "custom_css": [
-
+        ".section-header {grid-template-columns: 1fr;}",
+        ".section-header .prose {margin: 0;}"
       ],
       "settings": {
         "collection": "aderezos-naturales",
@@ -218,6 +219,10 @@
     },
     "7042b7a2-3d72-4854-ad98-282952ed6324": {
       "type": "featured-collection",
+      "custom_css": [
+        ".section-header {grid-template-columns: 1fr;}",
+        ".section-header .prose {margin: 0;}"
+      ],
       "settings": {
         "collection": "despensa-pantry",
         "products": [
@@ -245,6 +250,10 @@
     },
     "299ff626-3484-4c1b-8ea4-22bd676eac56": {
       "type": "featured-collection",
+      "custom_css": [
+        ".section-header {grid-template-columns: 1fr;}",
+        ".section-header .prose {margin: 0;}"
+      ],
       "settings": {
         "collection": "huevos",
         "products": [
@@ -272,6 +281,10 @@
     },
     "4c1ab09a-2ab5-4759-ac6c-95911ed5cf32": {
       "type": "featured-collection",
+      "custom_css": [
+        ".section-header {grid-template-columns: 1fr;}",
+        ".section-header .prose {margin: 0;}"
+      ],
       "settings": {
         "collection": "lacteos",
         "products": [
@@ -299,6 +312,10 @@
     },
     "c1408482-f4b1-40e1-b630-e46677f35b14": {
       "type": "featured-collection",
+      "custom_css": [
+        ".section-header {grid-template-columns: 1fr;}",
+        ".section-header .prose {margin: 0;}"
+      ],
       "settings": {
         "collection": "fair-foods",
         "products": [

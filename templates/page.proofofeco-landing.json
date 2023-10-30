@@ -156,7 +156,8 @@
       ],
       "custom_css": [
         "strong {color: #7dac00;}",
-        ".bold.custom-pill-none {color: #fff; margin-right: auto;}"
+        ".bold.custom-pill-none {color: #fff; margin-right: auto;}",
+        " @media screen and (max-width: 770px) {.custom-pill-none {text-align: center; } }"
       ],
       "settings": {
         "identifier": "",

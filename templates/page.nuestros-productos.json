@@ -425,7 +425,7 @@
     "3ebda82d-d311-40e5-a12d-759aaa3d00a8": {
       "type": "contact",
       "custom_css": [
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; text-transform: UPPERCASE;}",
+        "p.bold {text-align: center;}",
         "@media screen and (min-width: 1150px) {.section-stack__main {width: 100%; max-width: 1210px; }}",
         "strong {color: #96d123;}"
       ],

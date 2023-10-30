@@ -87,6 +87,9 @@
         "buy_buttons",
         "description"
       ],
+      "custom_css": [
+        "button {text-transform: uppercase; font-family: VolteRounded, sans-serif; letter-spacing: 0;}"
+      ],
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,

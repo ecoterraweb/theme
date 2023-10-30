@@ -32,7 +32,7 @@
         "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1"
       ],
       "custom_css": [
-        ".content-over-media{--container-max-width: 1250px;}",
+        ".content-over-media {--container-max-width: 1250px;}",
         ".prose strong {color: #dbde3b;}",
         ".prose h2 {font-size: 25px; line-height: 100%;}",
         ".prose h4 {font-size: 18px; letter-spacing: 0.18px;}",
@@ -86,6 +86,48 @@
       "disabled": true,
       "settings": {
         "content_width": "80ch"
+      }
+    },
+    "09591aa5-0395-4355-9cfc-2e4d99abe0b9": {
+      "type": "rich-text",
+      "blocks": {
+        "7b716659-f8aa-44d1-a187-ba135e497ac6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_5b2637f2-9129-4b23-bf79-075befb4dc2f.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "2d884ffb-e065-441d-8f17-c581241981d7": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "008ace87-f11e-4a2d-91fd-dff7cd037e1e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>EL ROL DE BLOCKCHAIN EN ECOTECH<\/h2><p>Blockchain es una tecnología que permite la trazabilidad y transparencia total de la información. En Ecoterra, lo utilizamos para garantizar que cada etapa del proceso, desde la producción hasta el consumo, sea verificable y transparente. Esto no solo nos da escalabilidad, reduciendo costos administrativos, sino que también garantiza una total transparencia para nuestros consumidores.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7b716659-f8aa-44d1-a187-ba135e497ac6",
+        "2d884ffb-e065-441d-8f17-c581241981d7",
+        "008ace87-f11e-4a2d-91fd-dff7cd037e1e"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e": {
@@ -163,6 +205,7 @@
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
     "main",
+    "09591aa5-0395-4355-9cfc-2e4d99abe0b9",
     "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e",
     "f16b99ca-720a-48c2-a812-ebe319eb0607"
   ]

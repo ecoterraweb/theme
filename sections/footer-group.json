@@ -20,7 +20,7 @@
             "image_width": 150,
             "heading_size": "h5",
             "title": "¡SUSCRÍBETE AQUÍ!",
-            "content": "<p><strong>Entérate de todo lo nuevo<\/strong><\/p>"
+            "content": "<p>Entérate de todo lo nuevo<\/p>"
           }
         },
         "links": {
@@ -56,7 +56,7 @@
       ],
       "custom_css": [
         ".footer__block.footer__block--text .prose.text-subdued a strong {color: #dbde3b;}",
-        ".prose{max-width: 500px;}",
+        ".prose {max-width: 500px;}",
         ".prose strong {color: #dbde3b;}"
       ],
       "settings": {

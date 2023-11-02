@@ -10283,6 +10283,7 @@ split-lines {
 }
 .claim--popup__options ul li img {
   height: 40px;
+  margin-block: 0 !important;
 }
 .claims--link-options.active {
   opacity: 0.4;
@@ -10302,6 +10303,7 @@ split-lines {
   height: 90px;
   max-width: 100px;
   margin: auto;
+  margin-block: 0 !important;
 }
 .button__action__claim span{
   pointer-events: none;

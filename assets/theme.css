@@ -10265,6 +10265,7 @@ split-lines {
 .claim--popup__options {
   margin: 0;
   z-index: 1;
+  margin-block: 0 !important;
 }
 .claim--popup__options ul {
   list-style: none;

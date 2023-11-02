@@ -10275,6 +10275,9 @@ split-lines {
   border: none;
   padding: 0;
 }
+.claim--popup__options ul > div {
+  margin-block: 0 !important;
+}
 .claim--popup__options ul li:hover {
   /* background-color: #e8e8e8; */
 }

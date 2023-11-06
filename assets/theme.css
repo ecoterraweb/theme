@@ -10265,6 +10265,7 @@ split-lines {
 .claim--popup__options {
   margin: 0;
   z-index: 1;
+  margin-block: 0 !important;
 }
 .claim--popup__options ul {
   list-style: none;
@@ -10275,6 +10276,12 @@ split-lines {
   border: none;
   padding: 0;
 }
+#claimOptionActiveDiv{
+  min-height: 110px;
+}
+.claim--popup__options ul > div {
+  margin-block: 0 !important;
+}
 .claim--popup__options ul li:hover {
   /* background-color: #e8e8e8; */
 }
@@ -10283,6 +10290,7 @@ split-lines {
 }
 .claim--popup__options ul li img {
   height: 40px;
+  margin-block: 0 !important;
 }
 .claims--link-options.active {
   opacity: 0.4;
@@ -10302,6 +10310,7 @@ split-lines {
   height: 90px;
   max-width: 100px;
   margin: auto;
+  margin-block: 0 !important;
 }
 .button__action__claim span{
   pointer-events: none;

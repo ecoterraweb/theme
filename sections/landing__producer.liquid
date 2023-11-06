@@ -180,15 +180,18 @@
 
 // Iterar sobre cada productor y agregar sus elementos al contenedor
       const container = document.querySelector('.landing__producer--boxes');
+      const listOfClaims = [];
       producer.claims.forEach(producer => {
         const producerElement = createClaimElement(producer);
         container.appendChild(producerElement);
+        listOfClaims.push(producer.claimId);
       });
       if(producer.products.length){
         producer.products.forEach(product => {
           product.claims.forEach(claim => {
             const producerElement = createClaimElement(claim);
             container.appendChild(producerElement);
+            listOfClaims.push(claim.claimId);
           });
         });
       }

@@ -190,10 +190,7 @@
       if(producer.products.length){
         producer.products.forEach(product => {
           product.claims.forEach(claim => {
-            const claimExists = listOfClaims.some(
-              (existingClaim) => existingClaim.templateId === claim.templateId
-            );
-            if (!claimExists) {
+            if (!listOfClaims.includes(claim.templateId)) {
               const producerElement = createClaimElement(claim);
               container.appendChild(producerElement);
               listOfClaims.push(claim.templateId);

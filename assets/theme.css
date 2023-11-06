@@ -10734,6 +10734,19 @@ p.custom__policies--text a{
   text-transform: capitalize;
   top: 11px;
 }
+.blog-post-card__info > .v-stack{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blog-post-card__info > .v-stack > .v-stack{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.blog-post-card__info > .v-stack > .v-stack{
+  flex: 1;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){

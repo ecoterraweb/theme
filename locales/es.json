@@ -419,6 +419,19 @@
     "checkout": {
       "contact": {
         "city_label": "Comuna"
+      },
+      "field_errors": {
+        "address_city_blank": "Introduce la comuna",
+        "address_city_too_long": "El largo de la comuna es demasiado largo (el máximo es de 255 caracteres)",
+        "address_city_contains_html_tags": "La comuna no puede contener etiquetas HTML.",
+        "address_city_contains_emojis": "La comuna no puede contener emojis"
+      },
+      "wallets": {
+        "errors": {
+          "missing": {
+            "city": "Introduce una comuna"
+          }
+        }
       }
     }
   }

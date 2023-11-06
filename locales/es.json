@@ -286,10 +286,10 @@
       "phone": "Número de teléfono",
       "address1": "Línea 1 de dirección",
       "address2": "Línea 2 de dirección",
-      "city": "Cambio aca ",
+      "city": "Comuna ",
       "zip": "Código postal",
       "country": "País",
-      "province": "Provincia y aca ",
+      "province": "Provincia",
       "set_default": "Establecer como dirección predeterminada"
     }
   },

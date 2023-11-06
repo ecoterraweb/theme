@@ -184,14 +184,20 @@
       producer.claims.forEach(producer => {
         const producerElement = createClaimElement(producer);
         container.appendChild(producerElement);
-        listOfClaims.push(producer.claimId);
+        listOfClaims.push(producer.templateId);
+        
       });
       if(producer.products.length){
         producer.products.forEach(product => {
           product.claims.forEach(claim => {
-            const producerElement = createClaimElement(claim);
-            container.appendChild(producerElement);
-            listOfClaims.push(claim.claimId);
+            const claimExists = listOfClaims.some(
+              (existingClaim) => existingClaim.templateId === claim.templateId
+            );
+            if (!claimExists) {
+              const producerElement = createClaimElement(claim);
+              container.appendChild(producerElement);
+              listOfClaims.push(claim.templateId);
+            }
           });
         });
       }

@@ -171,14 +171,14 @@
       const imageElement = document.querySelector('#landing__producer--image');
      // const iframe = document.querySelector('#youtubeIframe');
 
-// Actualizar el contenido de los elementos con la información del claim
+      // Actualizar el contenido de los elementos con la información del claim
       titleElement.textContent = producer.name;
       textElement.textContent = producer.description;
       imageElement.src = producer.imgUrl;
       imageElement.style = "100%";
-     // iframe.src = producer.videoUrl;
+      // iframe.src = producer.videoUrl;
 
-// Iterar sobre cada productor y agregar sus elementos al contenedor
+      // Iterar sobre cada productor y agregar sus elementos al contenedor
       const container = document.querySelector('.landing__producer--boxes');
       const listOfClaims = [];
       producer.claims.forEach(producer => {

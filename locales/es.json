@@ -414,5 +414,12 @@
         "other": "Ha recibido {{ count }} reseñas."
       }
     }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "city_label": "Comuna"
+      }
+    }
   }
 }

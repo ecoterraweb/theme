@@ -104,37 +104,8 @@
     }
   }
 </style>
-{% comment %}
 
-{%- assign page_url = content_for_header
-| split: '"pageurl":"'
-| last
-| split: '"'
-| first
-| split: request.host
-| last
-| replace: '\/', '/'
-| replace: '%20', ' '
-| replace: '\u0026', '&' -%}
-{% assign param = blank %}
-
-{%- for i in (1..1) -%}
-{%- unless page_url contains '?' -%}
-{% break %}
-{%- endunless -%}
-{%- assign query_string = page_url | split: '?' | last -%}
-{%- assign qry_parts = query_string | split: '&' -%}
-
-{%- for part in qry_parts -%}
-{%- assign key_and_value = part | split: '=' -%}
-{%- if key_and_value.size > 1 -%}
-{% if key_and_value[0] == 'producer_id' %}
-{% assign producer_id = key_and_value[1] %}
-{% endif %}
-{%- endif -%}
-{%- endfor -%}
-{%- endfor -%}
-{% endcomment %}<script>
+<script>
   document.addEventListener('DOMContentLoaded', function() {
 
 // Obtener los parámetros de la URL
@@ -159,7 +130,7 @@
         renderProducer(producer);
         renderMap(producer);
 
-// Eliminar el div del DOM
+        // Eliminar el div del DOM
         generalContent.parentNode.removeChild(generalContent);
         producerContent.classList.remove('d-none');
       } catch (error) {
@@ -181,7 +152,7 @@
           }
         });
 
-// Eliminar el div del DOM
+        // Eliminar el div del DOM
         producerContent.parentNode.removeChild(producerContent);
         generalContent.classList.remove('d-none');
       } catch (error) {
@@ -213,6 +184,14 @@
         const producerElement = createClaimElement(producer);
         container.appendChild(producerElement);
       });
+      if(producer.products.length){
+        producer.products.forEach(product => {
+          product.claims.forEach(claim => {
+            const producerElement = createClaimElement(claim);
+            container.appendChild(producerElement);
+          });
+        });
+      }
     }
 
     function renderMap(producer) {

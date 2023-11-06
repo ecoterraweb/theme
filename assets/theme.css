@@ -10753,7 +10753,7 @@ p.custom__policies--text a{
   flex-direction: column;
   flex: 1;
 }
-.blog-post-card__info > .v-stack > .v-stack{
+.blog-post-card__info > .v-stack > .v-stack > .h3{
   flex: 1;
 }
 /* tablet */

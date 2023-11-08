@@ -210,6 +210,44 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
             {{- section.settings.hotspot_image | image_url: width: section.settings.image.hotspot_image | image_tag: class: 'image-hostpot-image', loading: 'lazy', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
               
             {% endif %}
+            {%- for block in section.blocks -%}
+              {%- if block.settings.title == blank and block.settings.content == blank -%}
+                {%- continue -%}
+              {%- endif -%}
+      
+              <div id="block-{{ section.id }}-{{ block.id }}" class="hot-spot">
+                {%- capture popover_id -%}popover-{{ block.id }}{%- endcapture -%}
+      
+                <button type="button" aria-controls="{{ popover_id }}" aria-expanded="false" class="hot-spot__dot tap-area">
+                  <span class="sr-only">{{ 'general.accessibility.read_more' | t }}</span>
+                  {%- render 'icon' with 'plus', width: 8, height: 8 -%}
+                </button>
+      
+                {%- if block.settings.horizontal_position < 50 -%}
+                  {%- assign anchor_horizontal = 'start' -%}
+                {%- else -%}
+                  {%- assign anchor_horizontal = 'end' -%}
+                {%- endif -%}
+      
+                <x-popover id="{{ popover_id }}" class="hot-spot-popover popover" anchor-vertical="center" anchor-horizontal="{{ anchor_horizontal }}" {{ block.shopify_attributes }}>
+                  {%- render 'icon' with 'plus', class: 'close-popover-button', width: 12, height: 12 -%}
+                  <div class="prose">
+                    {%- if block.settings.icon != blank -%}
+                      {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
+                      {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.icon.width }}{%- endcapture -%}
+                      {%- capture style -%}width: {{ block.settings.icon_width }}px{%- endcapture -%}
+                      {{- block.settings.icon | image_url: width: block.settings.icon.width | image_tag: loading: 'lazy', sizes: sizes, widths: widths, style: style -}}
+                    {%- endif -%}
+      
+                    {%- if block.settings.title != blank -%}
+                      <p class="h6">{{ block.settings.title | escape }}</p>
+                    {%- endif -%}
+      
+                    {{- block.settings.content -}}
+                  </div>
+                </x-popover>
+              </div>
+            {%- endfor -%}
           </div>
           <div class="prose">
             {%- if section.settings.title != blank -%}
@@ -224,45 +262,6 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
           </div>
         </div>
       {%- endif -%}
-      
-      {%- for block in section.blocks -%}
-        {%- if block.settings.title == blank and block.settings.content == blank -%}
-          {%- continue -%}
-        {%- endif -%}
-
-        <div id="block-{{ section.id }}-{{ block.id }}" class="hot-spot">
-          {%- capture popover_id -%}popover-{{ block.id }}{%- endcapture -%}
-
-          <button type="button" aria-controls="{{ popover_id }}" aria-expanded="false" class="hot-spot__dot tap-area">
-            <span class="sr-only">{{ 'general.accessibility.read_more' | t }}</span>
-            {%- render 'icon' with 'plus', width: 8, height: 8 -%}
-          </button>
-
-          {%- if block.settings.horizontal_position < 50 -%}
-            {%- assign anchor_horizontal = 'start' -%}
-          {%- else -%}
-            {%- assign anchor_horizontal = 'end' -%}
-          {%- endif -%}
-
-          <x-popover id="{{ popover_id }}" class="hot-spot-popover popover" anchor-vertical="center" anchor-horizontal="{{ anchor_horizontal }}" {{ block.shopify_attributes }}>
-            {%- render 'icon' with 'plus', class: 'close-popover-button', width: 12, height: 12 -%}
-            <div class="prose">
-              {%- if block.settings.icon != blank -%}
-                {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
-                {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.icon.width }}{%- endcapture -%}
-                {%- capture style -%}width: {{ block.settings.icon_width }}px{%- endcapture -%}
-                {{- block.settings.icon | image_url: width: block.settings.icon.width | image_tag: loading: 'lazy', sizes: sizes, widths: widths, style: style -}}
-              {%- endif -%}
-
-              {%- if block.settings.title != blank -%}
-                <p class="h6">{{ block.settings.title | escape }}</p>
-              {%- endif -%}
-
-              {{- block.settings.content -}}
-            </div>
-          </x-popover>
-        </div>
-      {%- endfor -%}
     </div>
   </div>
 </div>

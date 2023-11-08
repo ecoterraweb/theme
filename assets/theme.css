@@ -10157,6 +10157,9 @@ split-lines {
   margin-top: 0;
   margin-block-start: -50px !important;
 }
+.content-popup-map > div, .content-popup-map > p{
+  margin-block-start: 0 !important;
+}
 
 .claim--popup__body--ecoscan .claim--popup__title{
   max-width: fit-content;

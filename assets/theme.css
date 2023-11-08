@@ -10157,7 +10157,7 @@ split-lines {
   margin-top: 0;
   margin-block-start: -50px !important;
 }
-.content-popup-map > div, .content-popup-map > p{
+.content-popup-map > div, .content-popup-map > p, .content-popup-map .claim--popup__table > p, .content-popup-map > img{
   margin-block-start: 0 !important;
 }
 

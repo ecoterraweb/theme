@@ -10152,6 +10152,17 @@ split-lines {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.claim--popup__body--ecoscan{
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.claim--popup__body--ecoscan .claim--popup__title{
+  max-width: fit-content;
+}
+.claim--popup__body--ecoscan .claim--popup__polygon{
+  margin: 0;
+}
 /* Estilos para pantallas más pequeñas o dispositivos móviles */
 @media screen and (max-width: 600px) {
   .claim--popup {

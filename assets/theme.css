@@ -10366,7 +10366,8 @@ split-lines {
 .firstHeading{
   margin: 0;
   font-size: 14px !important;
-  font-weight: 400 !important;
+  font-weight: 700 !important;
+
 }
 .claim--popup p{
   color: #000;

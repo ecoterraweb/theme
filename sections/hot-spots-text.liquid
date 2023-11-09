@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', agregarEventosAButtons);
 
       {%- if section.settings.title != blank or section.settings.content != blank or section.settings.hotspot_image != blank -%}
         <div class="{{ section.settings.desktop_text_position }} hotspot-content-desktop hidden md:block">
-          <div class="image-hotspot">
+          <div class="image-hotspot position-relative">
             {% if section.settings.hotspot_image != blank %}
             {{- section.settings.hotspot_image | image_url: width: section.settings.image.hotspot_image | image_tag: class: 'image-hostpot-image', loading: 'lazy', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
               

@@ -10408,7 +10408,9 @@ p.tags-container--text {
   margin: 0;
   max-width: fit-content;
 }
-
+.position-relative{
+  position: relative;
+}
 .close-popover-button{
   position: absolute;
   right: 30px;

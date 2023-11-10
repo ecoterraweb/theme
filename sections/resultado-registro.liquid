@@ -1,0 +1,100 @@
+<style>
+
+  .cont_msj_redireccion {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cont_msj_redireccion div {
+    display: block;
+    width: 100%;
+    padding: 2rem 1rem 3rem;
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .cont_msj_redireccion div svg {
+    margin: 1rem auto;
+    width: 3rem;
+    height: 3rem;
+    color: rgb(64, 64, 64);
+  }
+
+  .cont_msj_redireccion div h4 {
+    padding: 0.4rem 1rem;
+    color: rgb(64, 64, 64);
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .cont_msj_redireccion div button {
+    margin-top: 2rem;
+  }
+
+  .cont_msj_redireccion div h4._error,
+  ._error {
+    font-weight: bold;
+    margin-left: 1.6rem;
+    padding: 1rem 0;
+    color: rgb(255, 37, 37);
+  }
+
+  .cont_msj_redireccion div h4._error span,
+  ._error span {
+    font-weight: normal;
+    margin-left: 0.5rem;
+  }
+</style>
+<div class="cont_msj_redireccion">
+  <div class="msj_redireccion">
+    {%- render 'icon' with 'loading' -%}
+    <h4>Verificando estado del registro.</h4>
+    <h4>Por favor espera un momento…</h4>
+  </div>
+</div>
+
+<script>
+    const api_key = "{{ section.settings.api_key }}";
+    const secret_key = "{{ section.settings.secret_key }}";
+    const api_url = "{{ section.settings.api_url }}";
+
+    const getParams = () => {
+        let query = window.location.href;
+        let pair = query.split("/").pop();
+        let parametros = atob(pair).split("|");
+        let customer_id = parametros[0];
+        let correo = parametros[1];
+
+
+        console.log("customerId", customer_id);
+        console.log("correo", correo);
+
+        sendRequest({
+            "email": correo,
+            "customerId": customer_id
+        }, "POST");
+    }
+
+    window.addEventListener('load', function () {
+        getParams();
+    });
+</script>
+
+
+{% schema %}
+  {
+    "name": "Resultado del registro",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "msg_result",
+        "label": "Mensaje de espera",
+        "default": "Verificando estado del registro, por favor espera un momento…"
+      }
+    ]
+  }
+{% endschema %}

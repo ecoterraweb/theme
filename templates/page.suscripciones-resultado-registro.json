@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "suscripciones-resultado-registro",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

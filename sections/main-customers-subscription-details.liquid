@@ -1,0 +1,283 @@
+<style>
+    ._error {
+        font-weight: normal;
+        margin-left: 1rem;
+    }
+</style>
+
+<div style="display: none;">
+
+    <div id="obj_loading">
+        <div class="empty-state">
+            <div class="empty-state__icon-wrapper">
+                {%- render 'icon' with 'loading'
+                , width: 32
+                , height: 32
+                , stroke_width: 1 -%}
+            </div>
+
+            <div class="prose">
+                <p class="h6">Cargando...</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="obj_empty">
+        <div class="empty-state">
+            <div class="empty-state__icon-wrapper">
+                {%- render 'icon' with 'subscriptions'
+                , width: 32
+                , height: 32
+                , stroke_width: 1 -%}
+                <span class="count-bubble count-bubble--lg">0</span>
+            </div>
+
+            <div class="prose">
+                <p class="h6">Aún no has realizado ninguna suscripción.</p>
+
+                {%- assign button_content = 'customer.account.continue_shopping' | t -%}
+                {%- render 'button'
+                , href: routes.all_products_collection_url
+                , size: 'xl'
+                , content: button_content -%}
+            </div>
+        </div>
+    </div>
+
+    <div id="obj_error">
+        <div class="empty-state">
+            <div class="empty-state__icon-wrapper">
+                {%- render 'icon' with 'error'
+                , width: 32
+                , height: 32
+                , stroke_width: 1 -%}
+            </div>
+
+            <div class="prose">
+                <p class="h6">Ocurrio un error: <span class="_error"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="obj_list">
+        <div class="page-spacer">
+            <div class="account">
+                <div class="account-header account-header--back">
+                    <a href="/pages/suscripciones" class="back-button justify-self-start">
+                        {%- render 'icon' with 'chevron-left' -%}
+                        {{- 'customer.order.back' | t -}}
+                    </a>
+
+                    <div class="v-stack gap-2">
+                        <h1 class="h3">Suscripción</h1>
+                        <p class="_param_fecha_suscripcion"></p>
+                    </div>
+                </div>
+
+                <div class="order">
+                    <div class="v-stack gap-6">
+                        <table class="order-summary">
+                            <thead class="order-summary__header">
+                                <tr>
+                                    <th>{{ 'customer.order.product' | t }}</th>
+                                    <th class="w-0">{{ 'customer.order.quantity' | t }}</th>
+                                    <th class="text-end">{{ 'customer.order.total' | t }}</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="order-summary__body">
+                                {%- for line_item in order.line_items -%}
+                                <tr>
+                                    <td>{%- render 'line-item', line_item: line_item -%}</td>
+                                    <td class="hidden align-center text-center text-subdued sm:table-cell">{{
+                                        line_item.quantity }}</td>
+                                    <td class="hidden align-center text-subdued text-end sm:table-cell">{{
+                                        line_item.final_line_price | money }}</td>
+                                </tr>
+                                {%- endfor -%}
+                            </tbody>
+
+                            <tfoot>
+                                <tr>
+                                    <td class="hidden sm:table-cell"></td>
+
+                                    <td colspan="2">
+                                        <div class="v-stack gap-2 text-start">
+                                            <div class="h-stack gap-4 justify-between">
+                                                <span>{{ 'customer.order.subtotal' | t }}</span>
+                                                <span>{{ order.line_items_subtotal_price | money }}</span>
+                                            </div>
+
+                                            {%- for discount_application in order.cart_level_discount_applications -%}
+                                            <div class="h-stack gap-4 justify-between">
+                                                <span>{{ 'customer.order.discount' | t }} ({{ discount_application.title
+                                                    }})</span>
+                                                <span>-{{ discount_application.total_allocated_amount | money }}</span>
+                                            </div>
+                                            {%- endfor -%}
+
+                                            {%- for shipping_method in order.shipping_methods -%}
+                                            <div class="h-stack gap-4 justify-between">
+                                                <span>{{ 'customer.order.shipping' | t }} ({{ shipping_method.title
+                                                    }})</span>
+                                                <span>{{ shipping_method.price | money }}</span>
+                                            </div>
+                                            {%- endfor -%}
+
+                                            {%- for tax_line in order.tax_lines -%}
+                                            <div class="h-stack gap-4 justify-between">
+                                                {%- if cart.taxes_included -%}
+                                                <span>{{ 'customer.order.taxes_included' | t }} ({{ tax_line.title }} {{
+                                                    tax_line.rate_percentage }}%)</span>
+                                                {%- else -%}
+                                                <span>{{ 'customer.order.taxes_excluded' | t }} ({{ tax_line.title }} {{
+                                                    tax_line.rate_percentage }}%)</span>
+                                                {%- endif -%}
+
+                                                <span>{{ tax_line.price | money }}</span>
+                                            </div>
+                                            {%- endfor -%}
+
+                                            {%- if order.total_duties > 0 -%}
+                                            <div class="h-stack gap-4 justify-between">
+                                                <span>{{ 'customer.order.total_duties' | t }}</span>
+                                                <span>{{ order.total_duties | money }}</span>
+                                            </div>
+                                            {%- endif -%}
+
+                                            {%- if order.total_refunded_amount > 0 -%}
+                                            <div class="h-stack gap-4 justify-between">
+                                                <span>{{ 'customer.order.refunded_amount' | t }}</span>
+                                                <span>{{ order.total_refunded_amount | money }}</span>
+                                            </div>
+                                            {%- endif -%}
+
+                                            <div class="h-stack gap-4 justify-between">
+                                                <span class="h6">{{ 'customer.order.total' | t }}</span>
+                                                <span class="h6">{{ order.total_net_amount | money_with_currency
+                                                    }}</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+
+
+                    <div class="order-addresses-list">
+
+                        {% comment %}
+                            <div class="address gap-4 rounded-sm">
+                                <div class="text-with-icon">
+                                    {%- render 'icon' with 'picto-file' -%}
+                                    <p class="bold">{{ 'customer.order.billing_address' | t }}</p>
+                                </div>
+                                {{- order.billing_address | format_address -}}
+                            </div>
+                        {% endcomment %}
+
+                        <div class="address gap-4 rounded-sm">
+                            <div class="text-with-icon">
+                                {%- render 'icon' with 'picto-box' -%}
+                                <p class="bold">{{ 'customer.order.shipping_address' | t }}</p>
+                            </div>
+
+                            <input type="text" class="_param_frecuencia">
+                            <input type="text" class="_param_dia_entrega">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="cont_subscriptons">
+    <div class="empty-state">
+        <div class="empty-state__icon-wrapper">
+            {%- render 'icon' with 'loading'
+            , width: 32
+            , height: 32
+            , stroke_width: 1 -%}
+        </div>
+
+        <div class="prose">
+            <p class="h6">Cargando...</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+    const _cont_subscriptons = document.getElementById("cont_subscriptons");
+    const _obj_loading = document.getElementById("obj_loading");
+    const _obj_empty = document.getElementById("obj_empty");
+    const _obj_error = document.getElementById("obj_error");
+    const _obj_list = document.getElementById("obj_list");
+
+
+    const format = (_num) => {
+        return _num < 10 ? "0" + _num : _num;
+    }
+
+    const detalleSuscripcion = async (_id) => {
+        const formData = new FormData();
+
+        formData.append('accion', 'detalle_suscripcion');
+        formData.append('suscripcion_id', _id);
+        formData.append('customer_id', '{{customer.id}}');
+
+        await fetch('https://sarguero.btsmensajeria.com/suscripciones', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => {
+                return response.json();
+            })
+            .then(data => {
+                console.log("respondio");
+                console.log(data);
+
+                if (data.response == 1) {
+                    let item = data.suscripcion[0];
+                    let _fecha_suscripcion = new Date(item.fecha_suscripcion.replace('Z', ''));
+                    let _horas = _fecha_suscripcion.getHours();
+                    let _periodo = "am";
+                    if (_horas >= 12) {
+                        _periodo = "pm";
+                    }
+
+                    _obj_list.getElementsByClassName("_param_fecha_suscripcion")[0].innerText = `${meses[_fecha_suscripcion.getMonth()]} ${format(_fecha_suscripcion.getDate())}, ${_fecha_suscripcion.getFullYear()}  ${format(_horas % 12)}:${format(_fecha_suscripcion.getMinutes())} ${_periodo}`;
+                    _cont_subscriptons.innerHTML = _obj_list.innerHTML;
+                    _cont_subscriptons.getElementsByClassName("_param_frecuencia")[0].value = item.frecuencia;
+                    _cont_subscriptons.getElementsByClassName("_param_dia_entrega")[0].value = item.dia_entrega;
+                } else {
+                    _cont_subscriptons.innerHTML = _obj_empty.innerHTML;
+                }
+            })
+            .catch((error) => {
+                console.log("Ocurrio un error");
+                console.log({ "response": -1, "msg": error.toString() });
+
+                _obj_error.getElementsByClassName('_error')[0].innerText = `(${error.toString()})`;
+                _cont_subscriptons.innerHTML = _obj_error.innerHTML;
+            });
+    }
+
+    window.addEventListener('load', function () {
+        let _id = window.atob(location.href.split('?')[1].split('subs=')[1]);
+        console.clear();
+        detalleSuscripcion(_id);
+    });
+</script>
+
+{% schema %}
+{
+"name": "Subscriptions details",
+"class": "shopify-section--main-subscriptions-details",
+"tag": "section"
+}
+{% endschema %}

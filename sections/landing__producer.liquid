@@ -148,7 +148,7 @@
         const data = await response.json();
         const producers = data.producers;
         producers.forEach(producer => {
-          if(producer.claims.length){
+          if(producer.claims.length || producer.hasClaimProducer){
             const producerElement = createProducerElement(producer);
             container.appendChild(producerElement);
           }

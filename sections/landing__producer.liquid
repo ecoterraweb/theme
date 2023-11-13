@@ -176,6 +176,7 @@
       // Actualizar el contenido de los elementos con la información del claim
       titleElement.textContent = producer.name;
       textElement.textContent = producer.description;
+      console.log('imgUrl', producer.imgUrl);
       if (producer.imgUrl && producer.imgUrl.length > 0) {
           // Buscar el enlace que termine en -2 sin incluir el formato
           const imgUrlEndingIn2 = producer.imgUrl.find(url => url.endsWith('-2'));

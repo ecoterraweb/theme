@@ -405,7 +405,7 @@
         producer.producerId
       }`
       const img = document.createElement('img');
-      img.src = producer.imgUrl;
+      img.src = producer.imgUrl[0];
       img.alt = "#";
       img.classList.add('landing__producer--item_img');
       img.style.maxWidth = "250px";

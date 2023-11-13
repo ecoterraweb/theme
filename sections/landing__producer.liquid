@@ -176,8 +176,24 @@
       // Actualizar el contenido de los elementos con la información del claim
       titleElement.textContent = producer.name;
       textElement.textContent = producer.description;
-      imageElement.src = producer.imgUrl;
-      imageElement.style = "100%";
+      if (producer.imgUrl && producer.imgUrl.length > 0) {
+          // Buscar el enlace que termine en -2 sin incluir el formato
+          const imgUrlEndingIn2 = producer.imgUrl.find(url => url.endsWith('-2'));
+
+          // Asignar el enlace correspondiente a imageElement.src
+          if (imgUrlEndingIn2) {
+            imageElement.src = imgUrlEndingIn2;
+          } else {
+            // Si no se encuentra uno que termine en -2, asignar el primer enlace
+            imageElement.src = producer.imgUrl[0];
+          }
+          imageElement.style = "100%";
+
+        } else {
+          // Si no hay imgUrl o está vacío, manejar el caso según tus necesidades
+          // Por ejemplo, podrías asignar una imagen por defecto o mostrar un mensaje de error.
+          console.error("No hay imágenes disponibles.");
+        }
       // iframe.src = producer.videoUrl;
 
       // Iterar sobre cada productor y agregar sus elementos al contenedor

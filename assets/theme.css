@@ -10775,6 +10775,12 @@ p.custom__policies--text a{
 .blog-post-card__info > .v-stack > .v-stack > .h3{
   flex: 1;
 }
+.product-info__title{
+  color: #004228;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 100%;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10889,6 +10895,9 @@ p.custom__policies--text a{
   .blog-post-card__figure .badge--primary{
     font-size: 16px;
     line-height: 24px;
+  }
+  .product-info__title{
+    font-size: 33px;
   }
 }
 
@@ -11065,6 +11074,9 @@ p.custom__policies--text a{
     width: 50%;
     justify-content: end;
   }
+  .product-info__title{
+    font-size: 44px;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -11155,5 +11167,8 @@ p.custom__policies--text a{
   }
   .footer__block--menu .link-faded{
     font-size: 16px;
+  }
+  .product-info__title{
+    font-size: 55px;
   }
 }

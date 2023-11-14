@@ -410,7 +410,8 @@
     "23a30acb-e4f3-4e11-918e-6e959b1c0de3": {
       "type": "custom-html",
       "custom_css": [
-        "div {align-content: center;}"
+        "div {align-content: center;}",
+        ".i4ewOd-pzNkMb-haAclf{display: none; }"
       ],
       "settings": {
         "full_width": false,

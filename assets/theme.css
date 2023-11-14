@@ -10791,6 +10791,15 @@ p.custom__policies--text a{
   text-transform: uppercase;
   opacity: 1;
 }
+.shopify-section--product-recommendations .prose .h2{
+  color: #004228;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; 
+  letter-spacing: -0.36px;
+  text-transform: uppercase;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10911,6 +10920,10 @@ p.custom__policies--text a{
   }
   .product-info__vendor .link-faded{
     font-size: 16px;
+  }
+  .shopify-section--product-recommendations .prose .h2{
+    font-size: 28px;
+    text-align: center;
   }
 }
 
@@ -11093,6 +11106,10 @@ p.custom__policies--text a{
   .product-info__vendor .link-faded{
     font-size: 20px;
   }
+  .shopify-section--product-recommendations .prose .h2{
+    font-size: 33px;
+    text-align: left;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -11186,5 +11203,8 @@ p.custom__policies--text a{
   }
   .product-info__title{
     font-size: 55px;
+  }
+  .shopify-section--product-recommendations .prose .h2{
+    font-size: 44px;
   }
 }

@@ -10781,6 +10781,16 @@ p.custom__policies--text a{
   font-style: normal;
   line-height: 100%;
 }
+.product-info__vendor .link-faded{
+  color: #505050;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  opacity: 1;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10898,6 +10908,9 @@ p.custom__policies--text a{
   }
   .product-info__title{
     font-size: 33px;
+  }
+  .product-info__vendor .link-faded{
+    font-size: 16px;
   }
 }
 
@@ -11077,6 +11090,9 @@ p.custom__policies--text a{
   .product-info__title{
     font-size: 44px;
   }
+  .product-info__vendor .link-faded{
+    font-size: 20px;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -11171,4 +11187,5 @@ p.custom__policies--text a{
   .product-info__title{
     font-size: 55px;
   }
+  
 }

@@ -10785,7 +10785,7 @@ p.custom__policies--text a{
   color: #505050;
   font-size: 14px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
   letter-spacing: 0.7px;
   text-transform: uppercase;
@@ -11187,5 +11187,4 @@ p.custom__policies--text a{
   .product-info__title{
     font-size: 55px;
   }
-  
 }

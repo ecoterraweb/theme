@@ -19,8 +19,10 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
+            "content": "",
             "title": "¿Quieres producir con nosotros?",
             "heading_tag": "h0",
+            "heading_style": "font--primary",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -37,6 +39,7 @@
         "template--15540080017501__fe662bbf-ab92-4387-8201-29d1f356de63-image-1"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
         "allow_transparent_header": false,
         "image_size": "auto",
@@ -104,9 +107,16 @@
         "template--15540080017501__b0ca4835-29b0-4217-a46a-2de1ab4943e4-item-2",
         "template--15540080017501__b0ca4835-29b0-4217-a46a-2de1ab4943e4-item-3"
       ],
+      "custom_css": [
+        "h2{color: #004228}"
+      ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
+        "scroll": false,
+        "show_progress_bar": false,
+        "collections_per_row": 3,
+        "stack_collections": true,
         "gap": "medium",
         "text_alignment": "start",
         "subheading": "",
@@ -205,7 +215,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
+        "heading_color": "#004228",
         "heading_gradient": "",
         "logo_item_background": "",
         "logo_item_border": ""
@@ -255,7 +265,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
+        "heading_color": "#004228",
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",

@@ -10819,6 +10819,14 @@ p.custom__policies--text a{
 .product-card__title a.bold{
   font-weight: 500;
 }
+.product-card__info .price-list {
+  color: #505050;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10945,6 +10953,10 @@ p.custom__policies--text a{
     text-align: center;
   }
   .product-card__title {
+    font-size: 20px;
+    letter-spacing: -0.4px;
+  }
+  .product-card__info .price-list {
     font-size: 20px;
     letter-spacing: -0.4px;
   }
@@ -11137,6 +11149,10 @@ p.custom__policies--text a{
     font-size: 25px;
     letter-spacing: -0.5px;
   }
+  .product-card__info .price-list {
+    font-size: 25px;
+    letter-spacing: -0.5px;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -11237,5 +11253,9 @@ p.custom__policies--text a{
   .product-card__title {
     font-size: 30px;
     letter-spacing: -0.6px;
+  }
+  .product-card__info .price-list {
+    font-size: 25px;
+    letter-spacing: -0.4px;
   }
 }

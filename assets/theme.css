@@ -10801,6 +10801,7 @@ p.custom__policies--text a{
   text-transform: uppercase;
 }
 .product-card__title {
+  height: 72px;
   overflow: hidden;
   color: #505050;
   text-overflow: ellipsis;

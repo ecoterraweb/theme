@@ -10800,6 +10800,21 @@ p.custom__policies--text a{
   letter-spacing: -0.36px;
   text-transform: uppercase;
 }
+.product-card__title {
+  overflow: hidden;
+  color: #505050;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
 /* tablet */
 @media screen and (min-width: 770px) {
   .prose--slideshow h1:not(.h0,.h1,.h2,.h3,.h4,.h5,.h6){
@@ -10924,6 +10939,10 @@ p.custom__policies--text a{
   .shopify-section--product-recommendations .prose .h2{
     font-size: 28px;
     text-align: center;
+  }
+  .product-card__title {
+    font-size: 20px;
+    letter-spacing: -0.4px;
   }
 }
 
@@ -11110,6 +11129,10 @@ p.custom__policies--text a{
     font-size: 33px;
     text-align: left;
   }
+  .product-card__title {
+    font-size: 25px;
+    letter-spacing: -0.5px;
+  }
 }
 /* full width */
 @media screen and (min-width: 1400px) {
@@ -11206,5 +11229,9 @@ p.custom__policies--text a{
   }
   .shopify-section--product-recommendations .prose .h2{
     font-size: 44px;
+  }
+  .product-card__title {
+    font-size: 30px;
+    letter-spacing: -0.6px;
   }
 }

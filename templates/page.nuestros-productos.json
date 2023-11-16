@@ -447,6 +447,15 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "b7d57d10-d68c-408d-b949-21dd7974e13e": {
+      "type": "My-map",
+      "settings": {
+        "url_json": "https:\/\/cdn.shopify.com\/s\/files\/1\/0280\/0854\/6397\/files\/Datos1.json?v=1700166808",
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ"
+      }
     }
   },
   "order": [
@@ -463,6 +472,7 @@
     "99996713-cadd-4d07-99fc-7aa3b05e4120",
     "f98c25b8-cd4f-4765-85dd-c78b8c6e4335",
     "23a30acb-e4f3-4e11-918e-6e959b1c0de3",
-    "3ebda82d-d311-40e5-a12d-759aaa3d00a8"
+    "3ebda82d-d311-40e5-a12d-759aaa3d00a8",
+    "b7d57d10-d68c-408d-b949-21dd7974e13e"
   ]
 }

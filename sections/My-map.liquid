@@ -14,7 +14,11 @@
 <div {% render 'section-properties' %}>
   <div id="map-container"></div>
 </div>
-
+<div id="sidebar">
+    <div id="sidebar-content">
+        <!-- Los datos del marcador se mostrarán aquí -->
+    </div>
+</div>
 {%- comment -%}On the FAQ page, we also output the content with JSON microdata for SEO{%- endcomment -%}
 <script>
     // URL del archivo JSON
@@ -43,12 +47,13 @@
                   position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
                   map: map,
                   title: item.title || 'Marcador',
-                  icon: {
-                      scale: 6,
-                      fillColor: 'rgb(2,136,209)',
-                      fillOpacity: 1,
-                      strokeWeight: 0,
-                  },
+                  // icon: {
+                  //     path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+                  //     scale: 6,
+                  //     fillColor: 'rgb(2,136,209)',
+                  //     fillOpacity: 1,
+                  //     strokeWeight: 0,
+                  // },
                   data: item, // Adjunta los datos del marcador al marcador mismo
               });
                // Agrega un evento de clic al marcador

@@ -40,17 +40,23 @@
             if (item.lat && item.lng) {
               // Crear un marcador en el mapa
               var marker = new google.maps.Marker({
-                position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
-                map: map,
-                title: item.title || 'Marcador',
-                icon: {
-                    path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
-                    scale: 6,
-                    fillColor: 'rgb(2,136,209)',  // Color en formato RGB
-                    fillOpacity: 1,
-                    strokeWeight: 0,
-                }
+                  position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
+                  map: map,
+                  title: item.title || 'Marcador',
+                  icon: {
+                      path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+                      scale: 6,
+                      fillColor: 'rgb(2,136,209)',
+                      fillOpacity: 1,
+                      strokeWeight: 0,
+                  },
+                  data: item, // Adjunta los datos del marcador al marcador mismo
               });
+               // Agrega un evento de clic al marcador
+               marker.addListener('click', function () {
+                    showMarkerData(marker.data); // Muestra los datos en el sidebar al hacer clic
+                });
+
               bounds.extend(marker.getPosition());
             }
           });
@@ -59,6 +65,16 @@
         })
 
         .catch(error => console.error('Error al cargar el JSON:', error));
+    }
+    function showMarkerData(data) {
+        var sidebarContent = document.getElementById('sidebar-content');
+        sidebarContent.innerHTML = `
+            <h2>${data["Nombre de cliente/proveedor"]}</h2>
+            <p><strong>Dirección:</strong> ${data["Dirección"]}</p>
+            <p><strong>Comuna:</strong> ${data["Comuna"]}</p>
+            <p><strong>Ciudad:</strong> ${data["Ciudad"]}</p>
+            <p><strong>Región:</strong> ${data["(L) Región"]}</p>
+        `;
     }
   </script>
 

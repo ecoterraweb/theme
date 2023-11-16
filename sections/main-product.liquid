@@ -41,7 +41,7 @@
 
 <script>
   var product = "{{ product | escape }}";
-  console.log('product',product);
+  console.log('product',product.category);
 </script>
 
 <div {% render 'section-properties', tight: true %}>

@@ -74,7 +74,7 @@
         {%- assign vendor_block = section.blocks | where: 'type', 'vendor' -%}
 
         {%- if vendor_block != blank -%}
-          {%- render 'vendor' with product.vendor, vendor: product.category,class: 'text-xs' -%}
+          {%- render 'vendor' with product.vendor, vendor: product.collection ,class: 'text-xs' -%}
         {%- endif -%}
 
         <a href="{{ product.url }}" class="bold truncate-text">{{ product.title }}</a>
@@ -131,7 +131,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
 </template>
 
 <script>
-  var product = "{{ product.title | escape }}";
+  var product = "{{ product.collection | escape }}";
   console.log('product',product);
 </script>
 

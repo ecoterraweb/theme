@@ -132,7 +132,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
 
 <script>
   var product = "{{ product.collection | escape }}";
-  console.log('product',JSON_stringify(product));
+  console.log('product',JSON.stringify(product));
 </script>
 
 {% schema %}

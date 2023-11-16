@@ -131,7 +131,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
 </template>
 
 <script>
-  var product = "{{ product.collection | escape }}";
+  var product = "{{ product.category | escape }}";
   console.log('product',JSON.stringify(product));
 </script>
 

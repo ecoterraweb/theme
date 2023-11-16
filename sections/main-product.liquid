@@ -39,6 +39,11 @@
   }
 </style>
 
+<script>
+  var product = "{{ product | escape }}";
+  console.log('product',product);
+</script>
+
 <div {% render 'section-properties', tight: true %}>
   <div class="product">
     {%- if product.media.size > 0 -%}

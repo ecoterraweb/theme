@@ -19,11 +19,11 @@
 <script>
     // URL del archivo JSON
     var jsonUrl = "{{ jsonUrl | escape }}";
-  console.log('jsonUrl', jsonUrl);
-  initMap();
+    console.log('jsonUrl', jsonUrl);
+    initMap();
     // Inicializar el mapa
     function initMap() {
-    console.log('nuevo mapa');
+      console.log('nuevo mapa');
       // Crear un nuevo mapa de Google
       var map = new google.maps.Map(document.getElementById('map-container'), {
         zoom: 10, // Ajusta el nivel de zoom según tus necesidades
@@ -34,7 +34,8 @@
       fetch(jsonUrl)
         .then(response => response.json())
         .then(data => {
-  console.log('data', data);
+          console.log('data', data);
+          var bounds = new google.maps.LatLngBounds();
 
           data.forEach(item => {
             // Verificar que el objeto tenga latitud y longitud
@@ -46,8 +47,11 @@
                 title: item.title || 'Marcador',
               });
             }
+            bounds.extend(marker.getPosition());
           });
+          map.fitBounds(bounds);
         })
+
         .catch(error => console.error('Error al cargar el JSON:', error));
     }
   </script>
@@ -80,8 +84,7 @@
     {
       "type": "text",
       "id": "title",
-      "label": "Heading",
-      "default": "FAQ"
+      "label": "Heading"
     }
   ],
   "presets": [

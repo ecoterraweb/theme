@@ -39,11 +39,6 @@
   }
 </style>
 
-<script>
-  var product = "{{ product.title | escape }}";
-  console.log('product',product);
-  </script>
-
 <div {% render 'section-properties', tight: true %}>
   <div class="product">
     {%- if product.media.size > 0 -%}
@@ -134,6 +129,11 @@ quick buy information in a template, that will be extracted in JS, but ensure it
     {%- endfor -%}
   </div>
 </template>
+
+<script>
+  var product = "{{ product.title | escape }}";
+  console.log('product',product);
+</script>
 
 {% schema %}
 {

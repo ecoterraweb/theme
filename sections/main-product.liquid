@@ -40,8 +40,8 @@
 </style>
 
 <script>
-  var product = "{{ product  }}";
-  console.log('product',product);
+  var product = "{{ product | escape }}";
+  console.log('product',JSON.stringify(product, null, 2));
 </script>
 
 <div {% render 'section-properties', tight: true %}>

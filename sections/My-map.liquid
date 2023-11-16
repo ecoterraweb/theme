@@ -43,6 +43,13 @@
                 position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
                 map: map,
                 title: item.title || 'Marcador',
+                icon: {
+                    path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+                    scale: 6,
+                    fillColor: 'rgb(2,136,209)',  // Color en formato RGB
+                    fillOpacity: 1,
+                    strokeWeight: 0,
+                }
               });
               bounds.extend(marker.getPosition());
             }

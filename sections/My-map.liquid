@@ -19,11 +19,9 @@
 <script>
     // URL del archivo JSON
     var jsonUrl = "{{ jsonUrl | escape }}";
-    console.log('jsonUrl', jsonUrl);
     initMap();
     // Inicializar el mapa
     function initMap() {
-      console.log('nuevo mapa');
       // Crear un nuevo mapa de Google
   var center = { lat: -33.83155, lng: -70.706332 };
       var map = new google.maps.Map(document.getElementById('map-container'), {
@@ -35,7 +33,6 @@
       fetch(jsonUrl)
         .then(response => response.json())
         .then(data => {
-          console.log('data', data);
           var bounds = new google.maps.LatLngBounds();
 
           data.forEach(item => {
@@ -50,6 +47,7 @@
               bounds.extend(marker.getPosition());
             }
           });
+          console.log(bounds);
           map.fitBounds(bounds);
         })
 

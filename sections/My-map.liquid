@@ -47,8 +47,8 @@
                 map: map,
                 title: item.title || 'Marcador',
               });
+              bounds.extend(marker.getPosition());
             }
-            bounds.extend(marker.getPosition());
           });
           map.fitBounds(bounds);
         })

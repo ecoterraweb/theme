@@ -19,7 +19,7 @@
 <script>
     // URL del archivo JSON
     var jsonUrl = "{{ jsonUrl | escape }}";
-
+  console.log('jsonUrl', jsonUrl);
     // Inicializar el mapa
     function initMap() {
     console.log('nuevo mapa');
@@ -33,6 +33,8 @@
       fetch(jsonUrl)
         .then(response => response.json())
         .then(data => {
+  console.log('data', data);
+
           data.forEach(item => {
             // Verificar que el objeto tenga latitud y longitud
             if (item.lat && item.lng) {

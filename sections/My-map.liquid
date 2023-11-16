@@ -1,0 +1,90 @@
+{%- render 'section-spacing-collapsing' -%}
+
+{%- assign jsonUrl = section.settings.url_json -%}
+
+
+<style>
+  #shopify-section-{{ section.id }} {
+  }
+  #shopify-section-{{ section.id }}  #map-container {
+    height: 400px; /* Ajusta la altura según tus necesidades */
+  }
+</style>
+
+<div {% render 'section-properties' %}>
+  <div id="map-container"></div>
+</div>
+
+{%- comment -%}On the FAQ page, we also output the content with JSON microdata for SEO{%- endcomment -%}
+<script>
+    // URL del archivo JSON
+    var jsonUrl = "{{ jsonUrl | escape }}";
+
+    // Inicializar el mapa
+    function initMap() {
+    console.log('nuevo mapa');
+      // Crear un nuevo mapa de Google
+      var map = new google.maps.Map(document.getElementById('map-container'), {
+        zoom: 10, // Ajusta el nivel de zoom según tus necesidades
+        center: { lat: -34.6037, lng: -58.3816 }, // Centrar el mapa en una ubicación inicial
+      });
+
+      // Obtener los datos del JSON y agregar marcadores al mapa
+      fetch(jsonUrl)
+        .then(response => response.json())
+        .then(data => {
+          data.forEach(item => {
+            // Verificar que el objeto tenga latitud y longitud
+            if (item.lat && item.lng) {
+              // Crear un marcador en el mapa
+              var marker = new google.maps.Marker({
+                position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
+                map: map,
+                title: item.title || 'Marcador',
+              });
+            }
+          });
+        })
+        .catch(error => console.error('Error al cargar el JSON:', error));
+    }
+  </script>
+
+{% schema %}
+{
+  "name": "My Map",
+  "class": "shopify-section--faq",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "url_json",
+      "label": "URL Json"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "FAQ"
+    }
+  ],
+  "presets": [
+    {
+      "name": "My Map"
+    }
+  ]
+}
+{% endschema %}

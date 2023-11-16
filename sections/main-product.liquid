@@ -74,7 +74,7 @@
         {%- assign vendor_block = section.blocks | where: 'type', 'vendor' -%}
 
         {%- if vendor_block != blank -%}
-          {%- render 'vendor' with product.vendor, class: 'text-xs' -%}
+          {%- render 'vendor' with product.category, class: 'text-xs' -%}
         {%- endif -%}
 
         <a href="{{ product.url }}" class="bold truncate-text">{{ product.title }}</a>

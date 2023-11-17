@@ -397,9 +397,6 @@ function initMap(elementId, points, templateId = null) {
     // Iterar sobre los puntos y agregar marcadores al mapa
     points.forEach(function (point) {
       const template = point.claims.filter((e) => e.templateId == templateId);
-      console.log("point", point);
-      console.log("templateId", templateId);
-      console.log("template[0]", template[0]);
       // Crear marcador
       if (template[0]) {
         var marker = new google.maps.Marker({
@@ -497,8 +494,8 @@ function initMap(elementId, points, templateId = null) {
             }
           );
         });
+        bounds.extend(marker.getPosition());
       }
-      bounds.extend(marker.getPosition());
     });
     // Ajustar el mapa para que se ajuste a todos los marcadores
     map.fitBounds(bounds);

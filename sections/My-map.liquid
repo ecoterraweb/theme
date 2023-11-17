@@ -90,13 +90,13 @@
              // Agrega un evento de clic al marcador
             marker.addListener('click', function () {
               if (selectedMarker) {
-                console.log('selectedMarker');
-                selectedMarker.setIcon(null); // Restaura el icono del marcador previamente seleccionado
+                // console.log('selectedMarker');
+                // selectedMarker.setIcon(null); // Restaura el icono del marcador previamente seleccionado
               }
               selectedMarker = marker;
               closeSidebar(); // Cierra el sidebar si está abierto
               showMarkerData(marker.data); // Muestra los datos en el sidebar al hacer clic
-              marker.setIcon('https://maps.google.com/mapfiles/ms/icons/yellow-dot.png'); // Cambia el icono del marcador seleccionado
+              // marker.setIcon('https://maps.google.com/mapfiles/ms/icons/yellow-dot.png'); // Cambia el icono del marcador seleccionado
             });
 
 

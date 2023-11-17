@@ -85,10 +85,16 @@
                   // },
                   data: item, // Adjunta los datos del marcador al marcador mismo
               });
-               // Agrega un evento de clic al marcador
-               marker.addListener('click', function () {
-                    showMarkerData(marker.data); // Muestra los datos en el sidebar al hacer clic
-                });
+
+              marker.addListener('click', function () {
+                closeSidebar(); // Cierra el sidebar si está abierto
+                showMarkerData(marker.data); // Muestra los datos en el sidebar al hacer clic
+                marker.setAnimation(google.maps.Animation.BOUNCE); // Agrega animación al marcador
+                setTimeout(function () {
+                  marker.setAnimation(null); // Detiene la animación después de un tiempo
+                }, 1400);
+              });
+
 
               bounds.extend(marker.getPosition());
             }
@@ -98,6 +104,10 @@
         })
 
         .catch(error => console.error('Error al cargar el JSON:', error));
+         // Agregar evento de clic al mapa para cerrar el sidebar
+        map.addListener('click', function () {
+          closeSidebar();
+        });
     }
     function showMarkerData(data) {
         var sidebar = document.getElementById('sidebar');
@@ -110,6 +120,11 @@
             <p><strong>Región:</strong> ${data["(L) Región"]}</p>
         `;
         sidebar.classList.add('active')
+    }
+    function closeSidebar() {
+      if (sidebar.classList.contains('active')) {
+        sidebar.classList.remove('active');
+      }
     }
   </script>
 

@@ -8,15 +8,27 @@
   }
   #shopify-section-{{ section.id }} .map-div {
     position: relative;
+    overflow: hidden;
   }
   #shopify-section-{{ section.id }} #sidebar {
-    width: 400px;
+    width: 308px;
+    max-width: 100%;
     position: absolute;
     left: 0;
     top: 0;
     bottom: 0;
     transition: all 500ms ease-in-out;
     transform: translateX(-100%);
+    background-color: #fafafa;
+    box-shadow: inset 1px 1px 0 rgba(0,0,0,.1), inset 0 -1px 0 rgba(0,0,0,.07);
+    padding: 12px 20px;
+  }
+  #shopify-section-{{ section.id }} #sidebar #sidebar-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: scroll;
+    
   }
   #shopify-section-{{ section.id }} #sidebar.active {
     transform: translateX(0);

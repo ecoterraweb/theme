@@ -77,16 +77,9 @@
                   position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
                   map: map,
                   title: item.title || 'Marcador',
-                  // icon: {
-                  //     path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
-                  //     scale: 6,
-                  //     fillColor: 'rgb(2,136,209)',
-                  //     fillOpacity: 1,
-                  //     strokeWeight: 0,
-                  // },
-                  marker.setIcon('https://cdn.shopify.com/s/files/1/0280/0854/6397/files/map-pin-746123_640.png?v=1700192294');
                   data: item, // Adjunta los datos del marcador al marcador mismo
-              });
+                });
+                marker.setIcon('https://cdn.shopify.com/s/files/1/0280/0854/6397/files/map-pin-746123_640.png?v=1700192294');
 
              // Agrega un evento de clic al marcador
             marker.addListener('click', function () {

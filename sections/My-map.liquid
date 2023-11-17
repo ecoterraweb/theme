@@ -6,18 +6,35 @@
 <style>
   #shopify-section-{{ section.id }} {
   }
-  #shopify-section-{{ section.id }}  #map-container {
-    height: 400px; /* Ajusta la altura según tus necesidades */
+  #shopify-section-{{ section.id }} .map-div {
+    position: relative;
+  }
+  #shopify-section-{{ section.id }} #sidebar {
+    width: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 500ms ease-in-out;
+    transform: translateX(-100%);
+  }
+  #shopify-section-{{ section.id }} #sidebar.active {
+    transform: translateX(0);
+  }
+    #shopify-section-{{ section.id }}  #map-container {
+    height: 500px; /* Ajusta la altura según tus necesidades */
   }
 </style>
 
 <div {% render 'section-properties' %}>
-  <div id="map-container"></div>
-</div>
-<div id="sidebar">
-    <div id="sidebar-content">
-        <!-- Los datos del marcador se mostrarán aquí -->
+  <div class="map-div">
+    <div id="map-container"></div>
+    <div id="sidebar">
+        <div id="sidebar-content">
+            <!-- Los datos del marcador se mostrarán aquí -->
+        </div>
     </div>
+  </div>
 </div>
 {%- comment -%}On the FAQ page, we also output the content with JSON microdata for SEO{%- endcomment -%}
 <script>
@@ -71,6 +88,7 @@
         .catch(error => console.error('Error al cargar el JSON:', error));
     }
     function showMarkerData(data) {
+        var sidebar = document.getElementById('sidebar');
         var sidebarContent = document.getElementById('sidebar-content');
         sidebarContent.innerHTML = `
             <h2>${data["Nombre de cliente/proveedor"]}</h2>
@@ -79,13 +97,14 @@
             <p><strong>Ciudad:</strong> ${data["Ciudad"]}</p>
             <p><strong>Región:</strong> ${data["(L) Región"]}</p>
         `;
+        sidebar.classList.add('active')
     }
   </script>
 
 {% schema %}
 {
   "name": "My Map",
-  "class": "shopify-section--faq",
+  "class": "shopify-section--my-map",
   "tag": "section",
   "disabled_on": {
     "groups": ["header", "custom.overlay"]

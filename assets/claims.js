@@ -398,6 +398,7 @@ function initMap(elementId, points, templateId = null) {
     points.forEach(function (point) {
       const template = point.claims.filter((e) => e.templateId == templateId);
       console.log("point", point);
+      console.log("templateId", templateId);
       console.log("template[0]", template[0]);
       // Crear marcador
       if (template[0]) {

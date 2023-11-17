@@ -52,6 +52,7 @@
 <script>
     // URL del archivo JSON
     var jsonUrl = "{{ jsonUrl | escape }}";
+    var selectedMarker;
     initMap();
     // Inicializar el mapa
     function initMap() {
@@ -86,14 +87,17 @@
                   data: item, // Adjunta los datos del marcador al marcador mismo
               });
 
-              marker.addListener('click', function () {
-                closeSidebar(); // Cierra el sidebar si está abierto
-                showMarkerData(marker.data); // Muestra los datos en el sidebar al hacer clic
-                marker.setAnimation(google.maps.Animation.BOUNCE); // Agrega animación al marcador
-                setTimeout(function () {
-                  marker.setAnimation(null); // Detiene la animación después de un tiempo
-                }, 1400);
-              });
+             // Agrega un evento de clic al marcador
+            marker.addListener('click', function () {
+              if (selectedMarker) {
+                selectedMarker.setIcon(null); // Restaura el icono del marcador previamente seleccionado
+              }
+              selectedMarker = marker;
+              closeSidebar(); // Cierra el sidebar si está abierto
+              showMarkerData(marker.data); // Muestra los datos en el sidebar al hacer clic
+              marker.setIcon('https://maps.google.com/mapfiles/ms/icons/yellow-dot.png'); // Cambia el icono del marcador seleccionado
+            });
+
 
 
               bounds.extend(marker.getPosition());
@@ -114,18 +118,24 @@
         var sidebarContent = document.getElementById('sidebar-content');
         sidebarContent.innerHTML = `
             <h2>${data["Nombre de cliente/proveedor"]}</h2>
-            <p><strong>Dirección:</strong> ${data["Dirección"]}</p>
+            <p><strong>Región:</strong> ${data["(L) Región"]}</p>
             <p><strong>Comuna:</strong> ${data["Comuna"]}</p>
             <p><strong>Ciudad:</strong> ${data["Ciudad"]}</p>
-            <p><strong>Región:</strong> ${data["(L) Región"]}</p>
+            <p><strong>Dirección:</strong> ${data["Dirección"]}</p>
+            <p><strong>Descripción Local:</strong> ${data["(L) Descripción Local"]}</p>
         `;
         sidebar.classList.add('active')
     }
-    function closeSidebar() {
-      if (sidebar.classList.contains('active')) {
-        sidebar.classList.remove('active');
-      }
+    
+  function closeSidebar() {
+    if (sidebar.classList.contains('active')) {
+      sidebar.classList.remove('active');
     }
+    if (selectedMarker) {
+      selectedMarker.setIcon(null); // Restaura el icono del marcador previamente seleccionado al cerrar el sidebar
+      selectedMarker = null;
+    }
+  }
   </script>
 
 {% schema %}

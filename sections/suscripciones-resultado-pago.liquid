@@ -48,6 +48,19 @@
     font-weight: normal;
     margin-left: 0.5rem;
   }
+
+  .svg_loading {
+    animation: rotating_svg 2s linear infinite;
+  }
+
+  @keyframes rotating_svg {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 </style>
 <div class="cont_msj_redireccion">
   <div class="msj_redireccion">

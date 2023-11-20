@@ -6,53 +6,145 @@
 <style>
   #shopify-section-{{ section.id }} {
   }
-  #shopify-section-{{ section.id }}  #map-container {
-    height: 400px; /* Ajusta la altura según tus necesidades */
+  #shopify-section-{{ section.id }} .map-div {
+    position: relative;
+    overflow: hidden;
+  }
+  #shopify-section-{{ section.id }} #sidebar {
+    width: 308px;
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 500ms ease-in-out;
+    transform: translateX(-100%);
+    background-color: #fafafa;
+    box-shadow: inset 1px 1px 0 rgba(0,0,0,.1), inset 0 -1px 0 rgba(0,0,0,.07);
+    padding: 12px 20px;
+  }
+  #shopify-section-{{ section.id }} #sidebar #sidebar-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: scroll;
+    
+  }
+  #shopify-section-{{ section.id }} #sidebar #sidebar-content h2{
+    font-family: VolteRounded,sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #004228;
+  }
+  #shopify-section-{{ section.id }} #sidebar #sidebar-content strong{
+    color: #004228;
+  }
+  #shopify-section-{{ section.id }} #sidebar.active {
+    transform: translateX(0);
+  }
+    #shopify-section-{{ section.id }}  #map-container {
+    height: 500px; /* Ajusta la altura según tus necesidades */
   }
 </style>
 
 <div {% render 'section-properties' %}>
-  <div id="map-container"></div>
+  <div class="map-div">
+    <div id="map-container"></div>
+    <div id="sidebar">
+        <div id="sidebar-content">
+            <!-- Los datos del marcador se mostrarán aquí -->
+        </div>
+    </div>
+  </div>
 </div>
-
 {%- comment -%}On the FAQ page, we also output the content with JSON microdata for SEO{%- endcomment -%}
 <script>
     // URL del archivo JSON
     var jsonUrl = "{{ jsonUrl | escape }}";
-
+    var selectedMarker;
+    initMap();
     // Inicializar el mapa
     function initMap() {
-    console.log('nuevo mapa');
       // Crear un nuevo mapa de Google
+  var center = { lat: -33.83155, lng: -70.706332 };
       var map = new google.maps.Map(document.getElementById('map-container'), {
         zoom: 10, // Ajusta el nivel de zoom según tus necesidades
-        center: { lat: -34.6037, lng: -58.3816 }, // Centrar el mapa en una ubicación inicial
+        center: center, // Centrar el mapa en una ubicación inicial
       });
 
       // Obtener los datos del JSON y agregar marcadores al mapa
       fetch(jsonUrl)
         .then(response => response.json())
         .then(data => {
+          var bounds = new google.maps.LatLngBounds();
+
           data.forEach(item => {
             // Verificar que el objeto tenga latitud y longitud
             if (item.lat && item.lng) {
               // Crear un marcador en el mapa
               var marker = new google.maps.Marker({
-                position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
-                map: map,
-                title: item.title || 'Marcador',
-              });
+                  position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
+                  map: map,
+                  title: item.title || 'Marcador',
+                  data: item, // Adjunta los datos del marcador al marcador mismo
+                });
+                marker.setIcon('https://cdn.shopify.com/s/files/1/0280/0854/6397/files/map-pin.png?v=1700192774');
+
+             // Agrega un evento de clic al marcador
+            marker.addListener('click', function () {
+              if (selectedMarker) {
+                // console.log('selectedMarker');
+                // selectedMarker.setIcon(null); // Restaura el icono del marcador previamente seleccionado
+              }
+              selectedMarker = marker;
+              closeSidebar(); // Cierra el sidebar si está abierto
+              showMarkerData(marker.data); // Muestra los datos en el sidebar al hacer clic
+              // marker.setIcon('https://maps.google.com/mapfiles/ms/icons/yellow-dot.png'); // Cambia el icono del marcador seleccionado
+            });
+
+
+
+              bounds.extend(marker.getPosition());
             }
           });
+          console.log(bounds);
+          map.fitBounds(bounds);
         })
+
         .catch(error => console.error('Error al cargar el JSON:', error));
+         // Agregar evento de clic al mapa para cerrar el sidebar
+        map.addListener('click', function () {
+          closeSidebar();
+        });
     }
+    function showMarkerData(data) {
+        var sidebar = document.getElementById('sidebar');
+        var sidebarContent = document.getElementById('sidebar-content');
+        sidebarContent.innerHTML = `
+            <h2>${data["Nombre de cliente/proveedor"]}</h2>
+            <p><strong>Región:</strong> ${data["(L) Región"]}</p>
+            <p><strong>Comuna:</strong> ${data["Comuna"]}</p>
+            <p><strong>Dirección:</strong> ${data["Dirección"]}</p>
+            <p><strong>Descripción Local:</strong> ${data["(L) Descripción Local"]}</p>
+        `;
+        sidebar.classList.add('active')
+    }
+    
+  function closeSidebar() {
+    if (sidebar.classList.contains('active')) {
+      sidebar.classList.remove('active');
+    }
+    if (selectedMarker) {
+      // selectedMarker.setIcon(null); // Restaura el icono del marcador previamente seleccionado al cerrar el sidebar
+      selectedMarker = null;
+    }
+  }
   </script>
 
 {% schema %}
 {
   "name": "My Map",
-  "class": "shopify-section--faq",
+  "class": "shopify-section--my-map",
   "tag": "section",
   "disabled_on": {
     "groups": ["header", "custom.overlay"]
@@ -77,8 +169,7 @@
     {
       "type": "text",
       "id": "title",
-      "label": "Heading",
-      "default": "FAQ"
+      "label": "Heading"
     }
   ],
   "presets": [

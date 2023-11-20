@@ -407,8 +407,18 @@
         "text_color": "#004228"
       }
     },
+    "93c60eef-0472-47fb-9788-b124554bedbf": {
+      "type": "My-map",
+      "settings": {
+        "url_json": "https:\/\/cdn.shopify.com\/s\/files\/1\/0280\/0854\/6397\/files\/Datos2.json?v=1700194786",
+        "full_width": true,
+        "subheading": "",
+        "title": ""
+      }
+    },
     "23a30acb-e4f3-4e11-918e-6e959b1c0de3": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         "div {align-content: center;}",
         ".i4ewOd-pzNkMb-haAclf {display: none;}"
@@ -462,6 +472,7 @@
     "988affd9-0f7f-4bc5-a306-1acd526badc6",
     "99996713-cadd-4d07-99fc-7aa3b05e4120",
     "f98c25b8-cd4f-4765-85dd-c78b8c6e4335",
+    "93c60eef-0472-47fb-9788-b124554bedbf",
     "23a30acb-e4f3-4e11-918e-6e959b1c0de3",
     "3ebda82d-d311-40e5-a12d-759aaa3d00a8"
   ]

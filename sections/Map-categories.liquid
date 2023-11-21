@@ -163,8 +163,9 @@
             button.dataset.categoriaId = CategoriaID;
 
             button.addEventListener('click', function () {
-              if (activeButton) {
-                activeButton.classList.remove('active');
+              const activeButton2 = document.querySelector('.button__categories-filter.active');
+              if (activeButton2) {
+                activeButton2.classList.remove('active');
               }
 
               button.classList.add('active');

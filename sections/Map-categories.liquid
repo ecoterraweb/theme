@@ -144,7 +144,8 @@
           // Check if the category is not already in the list
           if (!categoriesList.includes(category)) {
             const button = document.createElement('button');
-            button.classList.add('button button__categories-filter');
+            button.classList.add('button__categories-filter');
+            button.classList.add('button');
             button.textContent = category; // Adjust the property based on your JSON structure
             button.addEventListener('click', function () {
               filterMarkers(marker.CategoriaID);

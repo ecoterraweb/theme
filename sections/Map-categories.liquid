@@ -82,6 +82,7 @@
     var jsonUrl = "{{ jsonUrl | escape }}";
     var selectedMarker;
     var markers = [];
+
     initMap();
     // Inicializar el mapa
     function initMap() {
@@ -124,7 +125,12 @@
           });
           map.fitBounds(bounds);
           renderTabs();
+          const urlParams = new URLSearchParams(window.location.search);
+            const initialCategoriaID = urlParams.get('category_id') || 'all';
 
+            renderTabs();
+            setActiveButton(initialCategoriaID);
+            filterMarkers(initialCategoriaID);
         })
         .catch(error => console.error('Error al cargar el JSON:', error));
       // Agregar evento de clic al mapa para cerrar el sidebar
@@ -140,49 +146,74 @@
       }
     }
     function renderTabs() {
-      const tabCategories = document.querySelector('#map-tab-categories');
-      if (tabCategories) {
-        const categoriesList = [];
-        let activeButton = null;
+  const tabCategories = document.querySelector('#map-tab-categories');
+  if (tabCategories) {
+    const categoriesList = [];
+    let activeButton = null;
 
-        markers.forEach(marker => {
-          const category = marker.data['Categoria'];
+    markers.forEach(marker => {
+      const category = marker.data['Categoria'];
 
-          // Check if the category is not already in the list
-          if (!categoriesList.includes(category)) {
-            const button = document.createElement('button');
-            button.classList.add('button__categories-filter');
-            button.classList.add('button');
-            button.textContent = category; // Adjust the property based on your JSON structure
+      if (!categoriesList.includes(category)) {
+        const button = document.createElement('button');
+        button.classList.add('button__categories-filter');
+        button.classList.add('button');
+        button.textContent = category;
 
-            button.addEventListener('click', function () {
-              // Remove 'active' class from the previously active button
-              if (activeButton) {
-                activeButton.classList.remove('active');
-              }
-
-              // Add 'active' class to the clicked button
-              button.classList.add('active');
-              activeButton = button;
-
-              filterMarkers(marker.data['CategoriaID']);
-            });
-
-            categoriesList.push(category);
-            tabCategories.appendChild(button);
+        button.addEventListener('click', function () {
+          if (activeButton) {
+            activeButton.classList.remove('active');
           }
+
+          button.classList.add('active');
+          activeButton = button;
+
+          const CategoriaID = marker.data['CategoriaID'];
+          filterMarkers(CategoriaID);
+
+          // Modifica la URL al hacer clic en el botón
+          updateURLParameter('category_id', CategoriaID);
         });
+
+        categoriesList.push(category);
+        tabCategories.appendChild(button);
       }
+    });
+  }
+}
+
+function filterMarkers(CategoriaID) {
+  markers.forEach(marker => {
+    if (CategoriaID === 'all' || marker.data['CategoriaID'] === CategoriaID) {
+      marker.setVisible(true);
+    } else {
+      marker.setVisible(false);
     }
-    function filterMarkers(CategoriaID) {
-      markers.forEach(marker => {
-        if (CategoriaID === 'all' || marker.data['CategoriaID'] === CategoriaID) {
-          marker.setVisible(true);
-        } else {
-          marker.setVisible(false);
-        }
-      });
+  });
+}
+
+function updateURLParameter(key, value) {
+  const urlParams = new URLSearchParams(window.location.search);
+  urlParams.set(key, value);
+
+  // Modifica la URL sin recargar la página
+  const newURL = window.location.pathname + '?' + urlParams.toString();
+  window.history.replaceState({}, '', newURL);
+}
+
+function setActiveButton(CategoriaID) {
+  const activeButton = document.querySelector('.button__categories-filter.active');
+  if (activeButton) {
+    activeButton.classList.remove('active');
+  }
+
+  const buttons = document.querySelectorAll('.button__categories-filter');
+  buttons.forEach(button => {
+    if (button.textContent === CategoriaID) {
+      button.classList.add('active');
     }
+  });
+}
     function showMarkerData(data) {
       var sidebar = document.getElementById('sidebar');
       var sidebarContent = document.getElementById('sidebar-content');

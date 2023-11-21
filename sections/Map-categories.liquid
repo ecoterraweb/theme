@@ -218,11 +218,10 @@ function setActiveButton(CategoriaID) {
       var sidebarContent = document.getElementById('sidebar-content');
       console.log('data', data);
       sidebarContent.innerHTML = `
-          <h2>${data["Nombre de cliente/proveedor"]}</h2>
-          <p><strong>Región:</strong> ${data["(L) Región"]}</p>
-          <p><strong>Comuna:</strong> ${data["Comuna"]}</p>
-          <p><strong>Dirección:</strong> ${data["Dirección"]}</p>
-          <p><strong>Descripción Local:</strong> ${data["(L) Descripción Local"]}</p>
+          <h2>${data["Nombre SN"]}</h2>
+          <p><strong>Colonia:</strong> ${data["Colonia"]}</p>
+          <p><strong>Ciudad:</strong> ${data["Ciudad"]}</p>
+          <p><strong>Calle:</strong> ${data["Calle"]}</p>
       `;
       sidebar.classList.add('active')
     }

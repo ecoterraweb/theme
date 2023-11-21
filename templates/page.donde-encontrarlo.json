@@ -1,5 +1,32 @@
 {
   "sections": {
+    "1842c8f5-e730-49f4-8423-712b1555e90b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15765896429661__1842c8f5-e730-49f4-8423-712b1555e90b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Donde encontrarlo",
+            "heading_tag": "h1",
+            "text_color": "#026338",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15765896429661__1842c8f5-e730-49f4-8423-712b1555e90b-heading-1"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -17,6 +44,7 @@
     }
   },
   "order": [
+    "1842c8f5-e730-49f4-8423-712b1555e90b",
     "main",
     "8463531f-76dd-4313-86fd-596a9efc3ab8"
   ]

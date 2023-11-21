@@ -72,7 +72,6 @@
     var selectedMarker;
     var markers = [];
     initMap();
-    renderTabs();
     // Inicializar el mapa
     function initMap() {
       // Crear un nuevo mapa de Google
@@ -113,6 +112,8 @@
             }
           });
           map.fitBounds(bounds);
+          renderTabs();
+
         })
         .catch(error => console.error('Error al cargar el JSON:', error));
       // Agregar evento de clic al mapa para cerrar el sidebar

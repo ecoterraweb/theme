@@ -51,6 +51,12 @@
   #shopify-section-{{ section.id }}  #map-container {
     height: 500px; /* Ajusta la altura según tus necesidades */
   }
+  #shopify-section-{{ section.id }}  #map-tab-categories {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
 </style>
 
 <div {% render 'section-properties' %}>
@@ -138,7 +144,7 @@
           // Check if the category is not already in the list
           if (!categoriesList.includes(category)) {
             const button = document.createElement('button');
-            button.classList.add('button__categories-filter');
+            button.classList.add('button button__categories-filter');
             button.textContent = category; // Adjust the property based on your JSON structure
             button.addEventListener('click', function () {
               filterMarkers(marker.CategoriaID);
@@ -153,13 +159,13 @@
 
 
     function filterMarkers(CategoriaID) {
+      console.log('CategoriaID', CategoriaID);
       markers.forEach(marker => {
+        console.log(' marker.data[CategoriaID]', marker.data['CategoriaID']);
         if (CategoriaID === 'all' || marker.data['CategoriaID'] === CategoriaID) {
           marker.setVisible(true);
-          console.log('visible');
         } else {
           marker.setVisible(false);
-          console.log('No visible');
         }
       });
     }

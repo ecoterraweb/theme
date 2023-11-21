@@ -82,7 +82,8 @@
     var jsonUrl = "{{ jsonUrl | escape }}";
     var selectedMarker;
     var markers = [];
-
+    var activeButton = null;
+    
     initMap();
     // Inicializar el mapa
     function initMap() {
@@ -148,7 +149,6 @@
       const tabCategories = document.querySelector('#map-tab-categories');
       if (tabCategories) {
         const categoriesList = [];
-        let activeButton = null;
 
         markers.forEach(marker => {
           const category = marker.data['Categoria'];
@@ -212,6 +212,7 @@ function setActiveButton(CategoriaID) {
   buttons.forEach(button => {
     if (button.dataset.categoriaId === CategoriaID) {
       button.classList.add('active');
+      activeButton = button;
     }
   });
 }

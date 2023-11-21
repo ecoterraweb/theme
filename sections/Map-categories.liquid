@@ -145,41 +145,43 @@
       }
     }
     function renderTabs() {
-  const tabCategories = document.querySelector('#map-tab-categories');
-  if (tabCategories) {
-    const categoriesList = [];
-    let activeButton = null;
+      const tabCategories = document.querySelector('#map-tab-categories');
+      if (tabCategories) {
+        const categoriesList = [];
+        let activeButton = null;
 
-    markers.forEach(marker => {
-      const category = marker.data['Categoria'];
+        markers.forEach(marker => {
+          const category = marker.data['Categoria'];
 
-      if (!categoriesList.includes(category)) {
-        const button = document.createElement('button');
-        button.classList.add('button__categories-filter');
-        button.classList.add('button');
-        button.textContent = category;
+          if (!categoriesList.includes(category)) {
+            const button = document.createElement('button');
+            button.classList.add('button__categories-filter');
+            button.classList.add('button');
+            button.textContent = category;
 
-        button.addEventListener('click', function () {
-          if (activeButton) {
-            activeButton.classList.remove('active');
+            const CategoriaID = marker.data['CategoriaID'];
+            button.dataset.categoriaId = CategoriaID;
+
+            button.addEventListener('click', function () {
+              if (activeButton) {
+                activeButton.classList.remove('active');
+              }
+
+              button.classList.add('active');
+              activeButton = button;
+
+              filterMarkers(CategoriaID);
+
+              // Modifica la URL al hacer clic en el botón
+              updateURLParameter('category_id', CategoriaID);
+            });
+
+            categoriesList.push(category);
+            tabCategories.appendChild(button);
           }
-
-          button.classList.add('active');
-          activeButton = button;
-
-          const CategoriaID = marker.data['CategoriaID'];
-          filterMarkers(CategoriaID);
-
-          // Modifica la URL al hacer clic en el botón
-          updateURLParameter('category_id', CategoriaID);
         });
-
-        categoriesList.push(category);
-        tabCategories.appendChild(button);
       }
-    });
-  }
-}
+    }
 
 function filterMarkers(CategoriaID) {
   markers.forEach(marker => {
@@ -208,11 +210,12 @@ function setActiveButton(CategoriaID) {
 
   const buttons = document.querySelectorAll('.button__categories-filter');
   buttons.forEach(button => {
-    if (button.textContent === CategoriaID) {
+    if (button.dataset.categoriaId === CategoriaID) {
       button.classList.add('active');
     }
   });
 }
+
     function showMarkerData(data) {
       var sidebar = document.getElementById('sidebar');
       var sidebarContent = document.getElementById('sidebar-content');

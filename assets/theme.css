@@ -10801,7 +10801,7 @@ p.custom__policies--text a{
   text-transform: uppercase;
 }
 .product-card__title {
-  height: 72px;
+  height: 66px;
   overflow: hidden;
   color: #505050;
   text-overflow: ellipsis;
@@ -11146,8 +11146,8 @@ p.custom__policies--text a{
     text-align: left;
   }
   .product-card__title {
-    font-size: 25px;
-    letter-spacing: -0.5px;
+    font-size: 20px;
+    letter-spacing: -0.4px;
   }
   .product-card__info .price-list {
     font-size: 25px;
@@ -11251,8 +11251,8 @@ p.custom__policies--text a{
     font-size: 44px;
   }
   .product-card__title {
-    font-size: 30px;
-    letter-spacing: -0.6px;
+    font-size: 25px;
+    letter-spacing: -0.5px;
   }
   .product-card__info .price-list {
     font-size: 25px;

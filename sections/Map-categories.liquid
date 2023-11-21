@@ -148,7 +148,7 @@
             button.classList.add('button');
             button.textContent = category; // Adjust the property based on your JSON structure
             button.addEventListener('click', function () {
-              filterMarkers(marker.CategoriaID);
+              filterMarkers(marker.data['CategoriaID']);
             });
 
             categoriesList.push(category);

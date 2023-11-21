@@ -129,14 +129,12 @@
       }
     }
     function renderTabs() {
-      console.log('render Tabs');
       const tabCategories = document.querySelector('#map-tab-categories');
       if (tabCategories) {
         const categoriesList = [];
 
         markers.forEach(marker => {
           const category = marker.data['Categoria'];
-
           // Check if the category is not already in the list
           if (!categoriesList.includes(category)) {
             const button = document.createElement('button');
@@ -158,8 +156,10 @@
       markers.forEach(marker => {
         if (CategoriaID === 'all' || marker.data['CategoriaID'] === CategoriaID) {
           marker.setVisible(true);
+          console.log('visible');
         } else {
           marker.setVisible(false);
+          console.log('No visible');
         }
       });
     }

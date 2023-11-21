@@ -57,6 +57,11 @@
     flex-wrap: wrap;
     margin-bottom: 20px;
   }
+  .button__categories-filter.active{
+    background-color: transparent;
+    border: 1px solid #026338;
+    color: #026338;
+  }
 </style>
 
 <div {% render 'section-properties' %}>
@@ -138,16 +143,28 @@
       const tabCategories = document.querySelector('#map-tab-categories');
       if (tabCategories) {
         const categoriesList = [];
+        let activeButton = null;
 
         markers.forEach(marker => {
           const category = marker.data['Categoria'];
+
           // Check if the category is not already in the list
           if (!categoriesList.includes(category)) {
             const button = document.createElement('button');
             button.classList.add('button__categories-filter');
             button.classList.add('button');
             button.textContent = category; // Adjust the property based on your JSON structure
+
             button.addEventListener('click', function () {
+              // Remove 'active' class from the previously active button
+              if (activeButton) {
+                activeButton.classList.remove('active');
+              }
+
+              // Add 'active' class to the clicked button
+              button.classList.add('active');
+              activeButton = button;
+
               filterMarkers(marker.data['CategoriaID']);
             });
 
@@ -157,12 +174,8 @@
         });
       }
     }
-
-
     function filterMarkers(CategoriaID) {
-      console.log('CategoriaID', CategoriaID);
       markers.forEach(marker => {
-        console.log(' marker.data[CategoriaID]', marker.data['CategoriaID']);
         if (CategoriaID === 'all' || marker.data['CategoriaID'] === CategoriaID) {
           marker.setVisible(true);
         } else {

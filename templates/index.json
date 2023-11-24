@@ -3,16 +3,16 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
+        "ffcbd869-242f-4355-8739-2a04bd4e7c30": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HM_1_L.png",
-            "mobile_image": "shopify:\/\/shop_images\/HM1_S.png",
+            "image": "shopify:\/\/shop_images\/Banner_EcoFriday.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner_EcoFriday-Mobil.png",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
-            "content": "<h1><strong>Elige<\/strong> con propósito<\/h1>",
+            "content": "",
             "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
@@ -27,16 +27,16 @@
             "background_gradient": ""
           }
         },
-        "ffcbd869-242f-4355-8739-2a04bd4e7c30": {
+        "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_EcoFriday.png",
-            "mobile_image": "shopify:\/\/shop_images\/Banner_EcoFriday-Mobil.png",
+            "image": "shopify:\/\/shop_images\/HM_1_L.png",
+            "mobile_image": "shopify:\/\/shop_images\/HM1_S.png",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
-            "content": "",
+            "content": "<h1><strong>Elige<\/strong> con propósito<\/h1>",
             "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
@@ -77,8 +77,8 @@
         }
       },
       "block_order": [
-        "266ea942-f3bc-46b8-896b-dccd9dc58ff5",
         "ffcbd869-242f-4355-8739-2a04bd4e7c30",
+        "266ea942-f3bc-46b8-896b-dccd9dc58ff5",
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
       ],
       "custom_css": [

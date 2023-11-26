@@ -315,7 +315,7 @@ function initMap(elementId, points, templateId = null) {
       ${singlePoint.name}
       </h2>
       <img src="${
-        singlePoint.imgUrl
+        singlePoint.imgUrl[0]
       }" style="height: 50px; width: 100px; object-fit: cover;" loading="lazy"/>
       <p>${singlePoint.description}</p>
       ${

@@ -10746,6 +10746,8 @@ p.custom__policies--text a{
   overflow: hidden;
   -webkit-line-clamp: 2; /* Número máximo de líneas a mostrar */
   line-clamp: 2; 
+  height: 80px;
+  flex: 0;
 }
 .blog-post-card__info{
   display: flex;

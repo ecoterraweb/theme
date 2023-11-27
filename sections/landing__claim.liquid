@@ -150,8 +150,10 @@
         const data = await response.json();
         const claims = data.templates;
         claims.forEach(claim => {
-          const producerElement = createClaimElement(claim);
-          container.appendChild(producerElement);
+          if(claim.products.length > 0 || claim.producers.length > 0 ){
+            const producerElement = createClaimElement(claim);
+            container.appendChild(producerElement);
+          }
         });
         claimContent.parentNode.removeChild(claimContent);
         generalContent.classList.remove('d-none');

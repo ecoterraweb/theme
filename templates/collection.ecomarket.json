@@ -23,30 +23,6 @@
     "e6be5a4e-ac99-4383-bebc-c0c03b448a2f": {
       "type": "slideshow",
       "blocks": {
-        "93e3320b-096a-4fff-a91c-3d4463b546db": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_EcoFriday.png",
-            "mobile_image": "shopify:\/\/shop_images\/Banner_EcoFriday-Mobil.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "",
-            "content": "",
-            "title": "",
-            "heading_tag": "h2",
-            "heading_style": "font--primary",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-1": {
           "type": "image",
           "settings": {
@@ -73,7 +49,6 @@
         }
       },
       "block_order": [
-        "93e3320b-096a-4fff-a91c-3d4463b546db",
         "template--15549504061533__e6be5a4e-ac99-4383-bebc-c0c03b448a2f-image-1"
       ],
       "settings": {

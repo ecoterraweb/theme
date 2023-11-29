@@ -111,6 +111,9 @@ LIQUID
               {%- if block.settings.button_text != blank -%}
                 {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
               {%- endif -%}
+              {%- if block.settings.button_text_2 != blank -%}
+                {%- render 'button', href: block.settings.button_url_2, content: block.settings.button_text_2, size: 'xl', background: section.settings.button_background_2, text_color: section.settings.button_text_color_2 -%}
+              {%- endif -%}
             </div>
 
             {%- assign outputted_text_count = outputted_text_count | plus: 1 -%}
@@ -237,6 +240,16 @@ LIQUID
       "type": "color",
       "id": "button_text_color",
       "label": "Button text"
+    },
+    {
+      "type": "color",
+      "id": "button_background_2",
+      "label": "Button background 2"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color_2",
+      "label": "Button text color 2"
     }
   ],
   "blocks": [
@@ -287,6 +300,16 @@ LIQUID
           "type": "text",
           "id": "button_text",
           "label": "Button text"
+        },
+        {
+          "type": "url",
+          "id": "button_url_2",
+          "label": "Button URL 2"
+        },
+        {
+          "type": "text",
+          "id": "button_text_2",
+          "label": "Button text 2"
         }
       ]
     }

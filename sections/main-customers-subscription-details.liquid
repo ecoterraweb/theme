@@ -224,6 +224,9 @@
     let _current_frecuencia;
     let _current_dia_entrega;
 
+    const format = (_num) => {
+        return _num < 10 ? "0" + _num : _num;
+    }
 
     const detalleSuscripcion = async (_id) => {
         const formData = new FormData();
@@ -284,24 +287,26 @@
                     _element_frecuencia.value = _frecuencia;
                     _element_dia_entrega.value = item.dia_entrega;
 
-                    _element_frecuencia.addEventListener('change', function () {
-                        console.log(this.value);
-                        if(_current_frecuencia === this.value &&
-                        _current_dia_entrega === _element_dia_entrega.value ){
-                            _element_btn_save.style.display = "none";
-                        } else {
-                            _element_btn_save.style.display = "flex";
-                        }
-                    });
-                    _element_dia_entrega.addEventListener('change', function () {
-                        console.log(this.value);
-                        if(_current_dia_entrega === this.value &&
-                        _current_frecuencia === _element_frecuencia.value){
-                            _element_btn_save.style.display = "none";
-                        } else {
-                            _element_btn_save.style.display = "flex";
-                        }
-                    });
+                    if (item.estado === "Pagada") {
+                        _element_frecuencia.addEventListener('change', function () {
+                            console.log(this.value);
+                            if(_current_frecuencia === this.value &&
+                            _current_dia_entrega === _element_dia_entrega.value ){
+                                _element_btn_save.style.display = "none";
+                            } else {
+                                _element_btn_save.style.display = "flex";
+                            }
+                        });
+                        _element_dia_entrega.addEventListener('change', function () {
+                            console.log(this.value);
+                            if(_current_dia_entrega === this.value &&
+                            _current_frecuencia === _element_frecuencia.value){
+                                _element_btn_save.style.display = "none";
+                            } else {
+                                _element_btn_save.style.display = "flex";
+                            }
+                        });
+                    }
                 } else {
                     _cont_subscriptons.innerHTML = _obj_empty.innerHTML;
                 }

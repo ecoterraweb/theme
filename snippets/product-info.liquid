@@ -1,4 +1,6 @@
 <script>
+  const product = "{{ product.selected_or_first_available_variant }}";
+  console.log("product", product);
   const productSku = "{{ product.selected_or_first_available_variant.sku }}";
 </script>
 <script src="{{ 'claims.js' | asset_url }}"></script>

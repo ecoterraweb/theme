@@ -33,8 +33,8 @@
         "404c1460-b0ff-49d5-9ca3-3b62bf3e1689": {
           "type": "text",
           "settings": {
-            "title": "contacto",
-            "content": "<p><a href=\"mailto:ventas@ecoterra.cl\" title=\"mailto:ventas@ecoterra.cl\">ventas@ecoterra.cl<\/a><br\/><a href=\"\/pages\/contacto-general\" title=\"Contacto General\"><strong>ESCRIBENOS<\/strong><\/a><\/p>",
+            "title": "Si quieres comprar al por mayor:",
+            "content": "<p>+569 3456 8584 (KAM)<br\/><a href=\"mailto:ventas@ecoterra.cl\" title=\"mailto:ventas@ecoterra.cl\">ventas@ecoterra.cl<\/a><\/p><p><br\/><\/p>",
             "enable_follow_on_shop": false
           }
         },

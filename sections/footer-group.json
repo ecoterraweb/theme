@@ -33,8 +33,8 @@
         "404c1460-b0ff-49d5-9ca3-3b62bf3e1689": {
           "type": "text",
           "settings": {
-            "title": "Si quieres comprar al por mayor:",
-            "content": "<p>+569 3456 8584 (KAM)<br\/><a href=\"mailto:ventas@ecoterra.cl\" title=\"mailto:ventas@ecoterra.cl\">ventas@ecoterra.cl<\/a><\/p><p><br\/><\/p>",
+            "title": "CONTÁCTANOS :)",
+            "content": "<ul><li><strong>Ventas mayoristas: <\/strong>+569 3456 8584 <\/li><li><strong>Servicio al cliente:<\/strong> +569 6318 6075<\/li><\/ul><p><a href=\"mailto:ventas@ecoterra.cl\" title=\"mailto:ventas@ecoterra.cl\">ventas@ecoterra.cl<\/a><\/p><p><br\/><\/p>",
             "enable_follow_on_shop": false
           }
         },

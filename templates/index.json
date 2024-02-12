@@ -161,7 +161,7 @@
       "custom_css": [
         ".prose h2 {color: #004228;}",
         "strong {color: #dbde3b;}",
-        ".collection-card__content prose {display: flex; flex-direction: column; align-items: flex-start;}"
+        ".prose {display: flex; flex-direction: column; align-items: flex-start;}"
       ],
       "settings": {
         "full_width": true,
@@ -247,6 +247,28 @@
     },
     "c9425867-ab87-49e6-8262-e16b1ad8d9bb": {
       "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_9WAYcw": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
+          }
+        },
+        "heading_nwLkLW": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9WAYcw",
+        "heading_nwLkLW"
+      ],
       "custom_css": [
         "div {padding-top: 66px;}"
       ],
@@ -256,8 +278,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/NI_L.png",
-        "mobile_image": "shopify:\/\/shop_images\/NI_S.png",
         "mobile_text_position": "place-self-end-start text-start",
         "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "text_color": "#ffffff",

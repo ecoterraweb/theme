@@ -13,13 +13,13 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SN_L_3c1a3fa7-6f44-46c2-baa6-f04d3fc609ae.png",
-            "mobile_image": "shopify:\/\/shop_images\/SN_S.png",
+            "image": "shopify:\/\/shop_images\/BN_MAN_Lpng.png",
+            "mobile_image": "shopify:\/\/shop_images\/BN_MAN_Lpng.png",
             "content_max_width": 740,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "content": "<h1>HACEMOS CAMBIOS DE VERDAD<\/h1>",
+            "content": "<h1>ESTAMOS ORGULLOSOS DE LO QUE HACEMOS<\/h1>",
             "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
@@ -38,7 +38,6 @@
       "block_order": [
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1"
       ],
-      "disabled": true,
       "custom_css": [
         ".content-over-media {--container-max-width: 1250px;}"
       ],

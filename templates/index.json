@@ -245,67 +245,6 @@
         "overlay_opacity": 0
       }
     },
-    "c9425867-ab87-49e6-8262-e16b1ad8d9bb": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_9WAYcw": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading",
-            "custom_pill_subheading": false,
-            "subheading_background_color": "",
-            "subheading_text_color": ""
-          }
-        },
-        "heading_nwLkLW": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_9WAYcw",
-        "heading_nwLkLW"
-      ],
-      "custom_css": [
-        "div {padding-top: 66px;}"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-end-start text-start",
-        "desktop_text_position": "sm:place-self-end-start sm:text-start",
-        "text_color": "#ffffff",
-        "overlay_color": "#1a1a1a",
-        "overlay_opacity": 0
-      }
-    },
-    "ff400f13-7ef4-4b86-bcd4-12be32e9d22d": {
-      "type": "scrolling-text",
-      "custom_css": [
-        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 88px; font-weight: 400;}",
-        ".bg-custom.text-custom {padding: 20px 0;}",
-        "@media screen and (max-width: 1150px) {span.scrolling-text__text {font-size: 66px; }}",
-        "@media screen and (max-width: 770px) {span.scrolling-text__text {font-size: 50px; }}"
-      ],
-      "settings": {
-        "full_width": true,
-        "text": "¡Cambiemos el mundo a través de lo que comemos!",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 16,
-        "background": "#7dac00",
-        "background_gradient": "",
-        "text_color": "#ffffff",
-        "text_gradient": ""
-      }
-    },
     "f6845132-3793-464a-b1d9-3b7b0ab1c835": {
       "type": "impact-text-design",
       "blocks": {
@@ -406,6 +345,27 @@
         "text_color": "#ffffff",
         "button_background": "",
         "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ff400f13-7ef4-4b86-bcd4-12be32e9d22d": {
+      "type": "scrolling-text",
+      "custom_css": [
+        "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 88px; font-weight: 400;}",
+        ".bg-custom.text-custom {padding: 20px 0;}",
+        "@media screen and (max-width: 1150px) {span.scrolling-text__text {font-size: 66px; }}",
+        "@media screen and (max-width: 770px) {span.scrolling-text__text {font-size: 50px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "text": "¡Cambiemos el mundo a través de lo que comemos!",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 16,
+        "background": "#7dac00",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
       }
     },
     "df3ede33-9fbf-4a2b-8206-3f667522cbc9": {
@@ -557,9 +517,8 @@
     "slideshow",
     "collection-list",
     "81738a72-0073-43da-bec4-810deabf91f6",
-    "c9425867-ab87-49e6-8262-e16b1ad8d9bb",
-    "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "f6845132-3793-464a-b1d9-3b7b0ab1c835",
+    "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "df3ede33-9fbf-4a2b-8206-3f667522cbc9",
     "featured-collection",
     "78eb0dc2-bbc9-46b4-ae9f-2d01e79ca5fb",

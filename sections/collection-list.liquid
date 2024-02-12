@@ -84,7 +84,7 @@ LIQUID
                   {{- collection_placeholder | placeholder_svg_tag: 'placeholder zoom-image' -}}
 
                   <div class="collection-card__content-wrapper text-custom {{ block.settings.text_position }}" style="--text-color: {{ block.settings.text_color.rgb }}">
-                    {%- if block.settings.text_position contains 'place-self-end' -%}
+                    {%- if block.settings.text_position contains 'place-self-start text-start' -%}
                       {%- render 'icon' with 'circle-button-right-clipped', width: 40, height: 40 -%}
                     {%- endif -%}
 

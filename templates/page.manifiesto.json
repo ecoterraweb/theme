@@ -2,11 +2,853 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "f578399d-fcbf-449d-9cff-a4983346d5b7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BN_MAN_Lpng.png",
+            "mobile_image": "shopify:\/\/shop_images\/BN_MAN_Lpng.png",
+            "content_max_width": 740,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "content": "<h1>ESTAMOS ORGULLOSOS DE LO QUE HACEMOS<\/h1>",
+            "title": "",
+            "heading_tag": "h6",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1"
+      ],
+      "custom_css": [
+        ".content-over-media {--container-max-width: 1250px;}"
+      ],
+      "settings": {
+        "identifier": "Manifiesto-section",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "2fd160cb-cfa1-4c86-84fa-5b8689889a46": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Manifiesto",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "91000d66-fcee-4d42-ba4c-9054db49ffd3": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Imagínate esto<\/strong>: cada vez que te comes un huevo, cada vez que tomas un sorbo de café, estás tomando una decisión. Una decisión que va más allá de ti, que impacta en el suelo que pisas, el aire que respiras, y el mundo que dejas para las futuras generaciones. Ahí radica el verdadero poder de la comida.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-heading-1",
+        "91000d66-fcee-4d42-ba4c-9054db49ffd3",
+        "template--15548375433309__2fd160cb-cfa1-4c86-84fa-5b8689889a46-richtext-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 500; font-variant-caps: small-caps;}",
+        "p {text-align: left;}",
+        "div {align-items: center;}",
+        ".section-full.bg-custom.text-custom {padding-top: 130px; padding-bottom: 130px;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "7cd3d7f7-2352-41a3-ae02-8b23ab69cfbc": {
+      "type": "rich-text",
+      "blocks": {
+        "41efcc92-f932-4288-98fc-289a59065d2e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>SALVA EL PLANETA <br\/><\/strong>¡UN PLATO A LA VEZ!<\/h2><p>Cada compra, es una elección y queremos que esa ¡sea con propósito. <strong>Estamos seguros de que nuestras acciones y decisiones impactan,<\/strong> te inivtamos a comprar con sentido y cambiar el mundo a través de lo que comes.<\/p>"
+          }
+        },
+        "c2592919-2256-4b41-acb9-f58bb253fe3a": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "eb669705-b208-4b03-9d17-674985343137": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MANI_1.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 450,
+            "mobile_max_width": 280
+          }
+        }
+      },
+      "block_order": [
+        "41efcc92-f932-4288-98fc-289a59065d2e",
+        "c2592919-2256-4b41-acb9-f58bb253fe3a",
+        "eb669705-b208-4b03-9d17-674985343137"
+      ],
+      "custom_css": [
+        ".prose h2 strong {color: #66f3ff;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#394ff0",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "44c15b8b-fa32-40f0-b5b7-79d15b1a2a87": {
+      "type": "rich-text",
+      "blocks": {
+        "9df8e6ae-0332-4fe6-afb7-011c52b84453": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MANI_2.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 450,
+            "mobile_max_width": 280
+          }
+        },
+        "5f3227a5-17c2-41e1-9a55-c140f60d9272": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "87ccbca3-4805-4f5e-a84c-0817d10540eb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>LA VERDADERA REVOLUCIÓN <strong>ESTÁ EN EL CÓMO<\/strong><\/h2><p>Nos cansamos de los monocultivos que agotan los suelos, pesticidas que envenenan las aguas, animales explotados y la desvinculación social que sufren los pequeños productores. En Ecoterra demostramos que <strong>NO <\/strong>tiene que ser así y que el verdadero cambio está en <strong>CÓMO <\/strong>hacemos nuestra comida.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9df8e6ae-0332-4fe6-afb7-011c52b84453",
+        "5f3227a5-17c2-41e1-9a55-c140f60d9272",
+        "87ccbca3-4805-4f5e-a84c-0817d10540eb"
+      ],
+      "custom_css": [
+        ".prose h2 {color: #004228;}",
+        ".prose h2 strong {color: #ff3e72;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#505050"
+      }
+    },
+    "ccdb1f0a-754e-414a-bc67-e798e197fe8c": {
+      "type": "rich-text",
+      "blocks": {
+        "d6dfdd0c-d135-4529-8938-8cde418de2e1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>EN ECOTERRA <strong>HACEMOS<\/strong> <strong>MUCHO MÁS QUE ALIMENTOS<\/strong><\/h2><p>Hacemos innovación y desarrollo para garantizar productos honestos, a través de la creación de modelos de producción justos, replicables y escalables. Colaboramos con la naturaleza para construir alimentos con propósito que sean parte de la solución y no del problema.<\/p>"
+          }
+        },
+        "998dd2e7-ad5c-4754-ab9d-b97bb14cf468": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "a80fbbc7-e9ce-49c6-b127-de269a324faf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MANI_3.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 450,
+            "mobile_max_width": 320
+          }
+        }
+      },
+      "block_order": [
+        "d6dfdd0c-d135-4529-8938-8cde418de2e1",
+        "998dd2e7-ad5c-4754-ab9d-b97bb14cf468",
+        "a80fbbc7-e9ce-49c6-b127-de269a324faf"
+      ],
+      "custom_css": [
+        ".prose h2 {color: #004228;}",
+        ".prose h2 strong {color: #ff6700;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "999d98b6-1d5d-49ff-af7c-aa62dcf29d69": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "div {padding-top: 150px; align-items: center;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/MANI_4_L.png",
+        "mobile_image": "shopify:\/\/shop_images\/MANI_4_S.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "d07111a9-60b5-48f9-be37-2f15e92837d2": {
+      "type": "rich-text",
+      "blocks": {
+        "dcde1d51-21d6-4a43-a517-1fc5b69a2891": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>BEST FRIENDS:<\/strong> TECNOLOGÍA Y NATURALEZA<\/h2><p>Trabajamos en el desarrollo de sistemas de producción que son justos y sostenibles. Buscamos un equilibrio entre la tecnología actual y la sabiduría de la naturaleza para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p>"
+          }
+        },
+        "a81b9b40-0ecd-4875-8eb5-5415754549ae": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "1d273f80-b02f-4387-8ad3-801ac1f508ec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MANI_5.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 450,
+            "mobile_max_width": 320
+          }
+        }
+      },
+      "block_order": [
+        "dcde1d51-21d6-4a43-a517-1fc5b69a2891",
+        "a81b9b40-0ecd-4875-8eb5-5415754549ae",
+        "1d273f80-b02f-4387-8ad3-801ac1f508ec"
+      ],
+      "custom_css": [
+        ".prose h2 strong {color: #dbde3b;}"
+      ],
+      "settings": {
+        "identifier": "Modelo-section",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#026338",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "7ad41208-9b76-424d-bd23-38f5dbe47f8f": {
+      "type": "video",
+      "blocks": {
+        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-play-1": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-play-1",
+        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1"
+      ],
+      "custom_css": [
+        "div {align-items: center;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/mThQxGkcB-c",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 8
+      }
+    },
+    "5f0a9896-e1f9-448d-a214-f8e4017ce391": {
+      "type": "hot-spots-text",
+      "blocks": {
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 48,
+            "vertical_position": 28,
+            "horizontal_position_mobile": 47,
+            "vertical_position_mobile": 30,
+            "horizontal_position_hd": 30,
+            "vertical_position_hd": 30,
+            "icon": "shopify:\/\/shop_images\/agriculture.png",
+            "icon_width": 32,
+            "title": "EcoAgri Lab",
+            "content": "<p>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
+          }
+        },
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 27,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 27,
+            "vertical_position_mobile": 70,
+            "horizontal_position_hd": 30,
+            "vertical_position_hd": 30,
+            "icon": "shopify:\/\/shop_images\/ICON_FL.png",
+            "icon_width": 32,
+            "title": "EcoFood Lab",
+            "content": "<p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? EcoFoodLab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
+          }
+        },
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 66,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 64,
+            "vertical_position_mobile": 70,
+            "horizontal_position_hd": 30,
+            "vertical_position_hd": 30,
+            "icon": "shopify:\/\/shop_images\/account_tree.png",
+            "icon_width": 32,
+            "title": "EcoTech Lab",
+            "content": "<p>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo. ¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en el libro inmutable de la tecnología blockchain? ... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-2",
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1",
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3"
+      ],
+      "custom_css": [
+        ".prose h2 strong {color: #96d123;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/fondo_hotspot_fe40d2b2-c7f2-46d8-a9b8-f3d59b5a5c1c.png",
+        "mobile_image": "shopify:\/\/shop_images\/fondo_hotspot_a6f16021-a1f4-4767-91e8-5455719b3ba0.png",
+        "hotspot_image": "shopify:\/\/shop_images\/esquema_b4740aac-51d2-4491-b88d-324aca10c8ba.png",
+        "title": "",
+        "content": "<h5>Modelo<\/h5><h2><strong>DONDE LA INNOVACIÓN SE ENCUENTRA CON LA ACCIÓN <\/strong>Y LA COMUNIDAD SE CONVIERTE EN CATALIZADORA DE CAMBIO<\/h2><p>Nuestra plataforma une a <strong>EcoFarmers, EcoPartners y EcoLovers<\/strong>, creando un ciclo virtuoso de impacto sostenible.<\/p><h1><\/h1>",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "left-right",
+        "image_background": "#ffffff",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "d88f52d8-b117-43fc-96fe-5d439dea6412": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Impacto",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
+          }
+        },
+        "6e48a8bb-3641-4b93-bf22-847f7751fa9f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>CIFRAS QUE CAMBIAN EL MUNDO<\/strong> <br\/>Y LA FORMA DE HACER LAS COSAS<\/h2>"
+          }
+        },
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Estamos orgullosos de nuestros números y cada día buscamos generar más impacto en el mundo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-subheading-1",
+        "6e48a8bb-3641-4b93-bf22-847f7751fa9f",
+        "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1"
+      ],
+      "custom_css": [
+        ".prose h2 {color: #004228;}",
+        "strong {color: #ff00e8;}",
+        ".rich-text__wrapper {max-width: 950px;}",
+        ".custom-pill-none {margin: 0;}"
+      ],
+      "settings": {
+        "identifier": "Impacto-section",
+        "full_width": true,
+        "mode_image": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "23a65bae-1921-413d-8f45-a5a71140750c": {
+      "type": "impact-text-design",
+      "blocks": {
+        "template--15548375433309__23a65bae-1921-413d-8f45-a5a71140750c-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "1.393",
+            "superheading": "",
+            "subheading": "",
+            "content": "<p>Hectáreas destinadas a<br\/>sistemas sustentables<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "06c64f74-2029-44d5-a02b-9fb219a1701e": {
+          "type": "item",
+          "settings": {
+            "title": "143.200",
+            "superheading": "",
+            "subheading": "",
+            "content": "<p>Animales habitando un sistema de bienestar<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "a284952e-3b96-4953-ab52-123c0822855f": {
+          "type": "item",
+          "settings": {
+            "title": "6,86",
+            "superheading": "",
+            "subheading": "",
+            "content": "<p>Toneladas reducidas del despericio de alimentos<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__23a65bae-1921-413d-8f45-a5a71140750c-item-1",
+        "06c64f74-2029-44d5-a02b-9fb219a1701e",
+        "a284952e-3b96-4953-ab52-123c0822855f"
+      ],
+      "custom_css": [
+        ".impact-text--design {max-width: 1100px;}",
+        "@media screen and (min-width: 1150px) {.bg-custom {min-height: 500px; align-items: center; display: flex; justify-content: center; } .impact-text--design .snap-center {flex: 1; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_mobile": true,
+        "image": "shopify:\/\/shop_images\/BG_IMPCT2_L.png",
+        "mobile_image": "shopify:\/\/shop_images\/BG_IMPCT2_S.png",
+        "title": "",
+        "heading_gradient_title": "",
+        "text": "",
+        "div_alignment": "center",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "impact_text_size_ratio_mobile": 0.6,
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "heading_text_color": "#ffffff",
+        "heading_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "dbd57f90-5146-4835-adb4-220ac07d91a0": {
+      "type": "certificate-list",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "background_color": "#f5f5f5",
+        "subheading": "certificaciones y sellos",
+        "title": "<h2><strong>LOS SELLOS QUE NOS ENORGULLECEN <\/strong>Y LOS CERTIFICADOS QUE NOS RESPALDAN<\/h2>",
+        "color_title": "#004228",
+        "color_title_strong": "#394ff0",
+        "paragraph": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta.<br\/><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>",
+        "button_text": "Ir a certificaciones",
+        "button_link": "#",
+        "api_url": "",
+        "api_key": ""
+      }
+    },
+    "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5": {
+      "type": "rich-text",
+      "blocks": {
+        "3a78ca24-56a4-4b02-aa3c-f59a523f7d6c": {
+          "type": "subheading",
+          "settings": {
+            "text": "certificaciones y sellos",
+            "custom_pill_subheading": true,
+            "subheading_background_color": "#000000",
+            "subheading_text_color": "#ffffff"
+          }
+        },
+        "39c19eab-4214-48f8-a818-d31e8d4bc0ae": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>LOS <strong>SELLOS<\/strong> QUE NOS <strong>RESPALDAN <\/strong><\/h2>"
+          }
+        },
+        "501e073a-a8c5-4846-a584-69881fb4852c": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "a481fea8-5a98-4cb2-91ce-ad90f9a3e6bd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta. <\/p><p><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3a78ca24-56a4-4b02-aa3c-f59a523f7d6c",
+        "39c19eab-4214-48f8-a818-d31e8d4bc0ae",
+        "501e073a-a8c5-4846-a584-69881fb4852c",
+        "a481fea8-5a98-4cb2-91ce-ad90f9a3e6bd"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-size: 45px;}",
+        "p.strong {color: #1a1a1a;}",
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
+        "div {align-items: left; text-align: left;}",
+        "h2 strong {color: #10ccf4;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
+      "settings": {
+        "identifier": "Impacto-section",
+        "full_width": true,
+        "mode_image": false,
+        "image": "shopify:\/\/shop_images\/Rich_text.png",
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "dfc8565e-4587-4b83-bfb7-8042178e6e77": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CH_fdf38afc-b166-42a2-9311-5b16fcbb7a78.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EB_37bb085b-f3e4-4082-afb4-eb4d8bc92444.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EC_0b248f6c-4f0d-4920-8160-45dfb697d3a6.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LM.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "81466fbc-47af-47fb-8c6f-fe99711c2679": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F4F_d6ab9a3c-5fbf-414c-88d3-04cb30c9483a.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "810690e6-b909-4030-b1b9-2256e814b43a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TR.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "038f4d60-9086-4579-943c-1d4f67f66241": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAG.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LSQA.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-1",
+        "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-2",
+        "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-3",
+        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd",
+        "81466fbc-47af-47fb-8c6f-fe99711c2679",
+        "810690e6-b909-4030-b1b9-2256e814b43a",
+        "038f4d60-9086-4579-943c-1d4f67f66241",
+        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "scroll": false,
+        "show_progress_bar": false,
+        "collections_per_row": 3,
+        "stack_collections": true,
+        "gap": "large",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "ccff1d20-57b9-402b-9f62-d36451f0be52": {
+      "type": "video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/5dSHtyxKUvw",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "63303b90-3a37-407c-9926-07e8e5d5910f": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15537731993693__63303b90-3a37-407c-9926-07e8e5d5910f-blog-1": {
+          "type": "blog",
+          "settings": {
+            "blog": "noticias",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15537731993693__63303b90-3a37-407c-9926-07e8e5d5910f-blog-1"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 1150px) {.section-header {display: flex; } .section-header .prose {margin: inherit; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "econews",
+        "title": "ÚLTIMAS NOTICIAS",
+        "content": "",
+        "link_url": "shopify:\/\/blogs\/noticias",
+        "link_text": "Ver todas",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#004228",
+        "heading_gradient": ""
+      }
+    },
+    "f091270f-8f95-48b7-88b0-50147dbf74c4": {
+      "type": "contact",
+      "custom_css": [
+        "p.bold {text-align: center;}",
+        "@media screen and (min-width: 1150px) {.section-stack__main {width: 100%; max-width: 1210px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/nosotros_f7d28bc9-70cf-4a12-8d0b-40a0966fc168.png",
+        "subheading": "contáctanos",
+        "title": "¡HABLEMOS!",
+        "content": "<p>Si tienes alguna duda, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros, déjanos un mensaje y ¡nos contactaremos contigo!<\/p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#004228",
+        "heading_gradient": "",
+        "contact_background": "#f5f5f5",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f578399d-fcbf-449d-9cff-a4983346d5b7",
+    "2fd160cb-cfa1-4c86-84fa-5b8689889a46",
+    "7cd3d7f7-2352-41a3-ae02-8b23ab69cfbc",
+    "44c15b8b-fa32-40f0-b5b7-79d15b1a2a87",
+    "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
+    "999d98b6-1d5d-49ff-af7c-aa62dcf29d69",
+    "d07111a9-60b5-48f9-be37-2f15e92837d2",
+    "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
+    "5f0a9896-e1f9-448d-a214-f8e4017ce391",
+    "d88f52d8-b117-43fc-96fe-5d439dea6412",
+    "23a65bae-1921-413d-8f45-a5a71140750c",
+    "dbd57f90-5146-4835-adb4-220ac07d91a0",
+    "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5",
+    "dfc8565e-4587-4b83-bfb7-8042178e6e77",
+    "ccff1d20-57b9-402b-9f62-d36451f0be52",
+    "63303b90-3a37-407c-9926-07e8e5d5910f",
+    "f091270f-8f95-48b7-88b0-50147dbf74c4"
   ]
 }

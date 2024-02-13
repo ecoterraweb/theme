@@ -13,8 +13,8 @@
         "template--15538977734749__f578399d-fcbf-449d-9cff-a4983346d5b7-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BN_MAN_Lpng.png",
-            "mobile_image": "shopify:\/\/shop_images\/BN_MAN_Lpng.png",
+            "image": "shopify:\/\/shop_images\/SN_L.png",
+            "mobile_image": "shopify:\/\/shop_images\/SN_S.png",
             "content_max_width": 740,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",

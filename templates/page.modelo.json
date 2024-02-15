@@ -319,7 +319,7 @@
         "9df8e6ae-0332-4fe6-afb7-011c52b84453": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MANI_2.png",
+            "image": "shopify:\/\/shop_images\/ECO_AL.png",
             "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
@@ -335,7 +335,7 @@
         "87ccbca3-4805-4f5e-a84c-0817d10540eb": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>LA VERDADERA REVOLUCIÓN <strong>ESTÁ EN EL CÓMO<\/strong><\/h2><p>Nos cansamos de los monocultivos que agotan los suelos, pesticidas que envenenan las aguas, animales explotados y la desvinculación social que sufren los pequeños productores. En Ecoterra demostramos que <strong>NO <\/strong>tiene que ser así y que el verdadero cambio está en <strong>CÓMO <\/strong>hacemos nuestra comida.<\/p>"
+            "content": "<h2>AGRI<\/h2><p><strong>El suelo es más que simplemente tierra; es la base de la civilización.<\/strong>  Sin embargo, la agricultura convencional lo \u2028ha reducido a un simple medio para el lucro, degradándolo \u2028y robándole su riqueza. Nuestro equipo de agrónomos y veterinarios está redescubriendo la sinfonía de la agricultura natural. Creando y utilizando modernos e innovadores \u2028modelos productivos, empujamos una agricultura sostenible \u2028y abundante.<\/p>"
           }
         }
       },
@@ -346,7 +346,91 @@
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #ff3e72;}"
+        ".prose h2 strong {color: #96d123;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#505050"
+      }
+    },
+    "rich_text_cUDdTM": {
+      "type": "rich-text",
+      "blocks": {
+        "image_RD7A7d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MANI_2.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 450,
+            "mobile_max_width": 280
+          }
+        },
+        "divider_TGdihd": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "richtext_XCyTc3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>LA VERDADERA REVOLUCIÓN <strong>ESTÁ EN EL CÓMO<\/strong><\/h2><p>Nos cansamos de los monocultivos que agotan los suelos, pesticidas que envenenan las aguas, animales explotados y la desvinculación social que sufren los pequeños productores. En Ecoterra demostramos que <strong>NO <\/strong>tiene que ser así y que el verdadero cambio está en <strong>CÓMO <\/strong>hacemos nuestra comida.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_RD7A7d",
+        "divider_TGdihd",
+        "richtext_XCyTc3"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#505050"
+      }
+    },
+    "rich_text_jDfQmt": {
+      "type": "rich-text",
+      "blocks": {
+        "image_mXyKXy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MANI_2.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 450,
+            "mobile_max_width": 280
+          }
+        },
+        "divider_rTWYht": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "richtext_gcnGnG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>LA VERDADERA REVOLUCIÓN <strong>ESTÁ EN EL CÓMO<\/strong><\/h2><p>Nos cansamos de los monocultivos que agotan los suelos, pesticidas que envenenan las aguas, animales explotados y la desvinculación social que sufren los pequeños productores. En Ecoterra demostramos que <strong>NO <\/strong>tiene que ser así y que el verdadero cambio está en <strong>CÓMO <\/strong>hacemos nuestra comida.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_mXyKXy",
+        "divider_rTWYht",
+        "richtext_gcnGnG"
       ],
       "settings": {
         "identifier": "",
@@ -438,7 +522,7 @@
         "richtext_axJ8Qm": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>¿Y JUNTOS?<br\/>FORMAN LOS PILARES DE ECOTERRA<\/strong><\/h3>"
+            "content": "<h2><strong>¿Y JUNTOS?<br\/>FORMAN LOS PILARES DE ECOTERRA<\/strong><\/h2>"
           }
         }
       },
@@ -889,6 +973,8 @@
     "d07111a9-60b5-48f9-be37-2f15e92837d2",
     "7cd3d7f7-2352-41a3-ae02-8b23ab69cfbc",
     "44c15b8b-fa32-40f0-b5b7-79d15b1a2a87",
+    "rich_text_cUDdTM",
+    "rich_text_jDfQmt",
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
     "999d98b6-1d5d-49ff-af7c-aa62dcf29d69",
     "rich_text_drh8VP",

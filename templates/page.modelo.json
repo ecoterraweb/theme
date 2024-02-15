@@ -299,6 +299,7 @@
         "c2592919-2256-4b41-acb9-f58bb253fe3a",
         "eb669705-b208-4b03-9d17-674985343137"
       ],
+      "disabled": true,
       "custom_css": [
         ".prose h2 strong {color: #66f3ff;}"
       ],
@@ -335,7 +336,7 @@
         "87ccbca3-4805-4f5e-a84c-0817d10540eb": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>AGRI<\/h2><p><strong>El suelo es más que simplemente tierra; es la base de la civilización.<\/strong>  Sin embargo, la agricultura convencional lo \u2028ha reducido a un simple medio para el lucro, degradándolo \u2028y robándole su riqueza. Nuestro equipo de agrónomos y veterinarios está redescubriendo la sinfonía de la agricultura natural. Creando y utilizando modernos e innovadores \u2028modelos productivos, empujamos una agricultura sostenible \u2028y abundante.<\/p>"
+            "content": "<h2><strong>AGRI<\/strong><\/h2><p><strong>El suelo es más que simplemente tierra; es la base de la civilización.<\/strong>  Sin embargo, la agricultura convencional lo \u2028ha reducido a un simple medio para el lucro, degradándolo \u2028y robándole su riqueza. Nuestro equipo de agrónomos y veterinarios está redescubriendo la sinfonía de la agricultura natural. Creando y utilizando modernos e innovadores \u2028modelos productivos, empujamos una agricultura sostenible \u2028y abundante.<\/p>"
           }
         }
       },
@@ -354,9 +355,55 @@
         "mode_image": true,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "#f5f5f5",
         "background_gradient": "",
         "text_color": "#505050"
+      }
+    },
+    "ccdb1f0a-754e-414a-bc67-e798e197fe8c": {
+      "type": "rich-text",
+      "blocks": {
+        "d6dfdd0c-d135-4529-8938-8cde418de2e1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>FOOD<\/strong><\/h2><p><strong>¿Y si la comida en tu plato fuera una declaración de tu compromiso con un mundo más saludable?<\/strong> Nuestro equipo desarrolla productos priorizando ingredientes naturales y nobles, de etiquetas limpias y sin aditivos. Creamos alimentos que son nutritivos, deliciosos y ecológicamente sólidos. Aquí nuestro sueño de una dieta equilibrada se encuentra con la realidad de un planeta equilibrado.<\/p>"
+          }
+        },
+        "998dd2e7-ad5c-4754-ab9d-b97bb14cf468": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "a80fbbc7-e9ce-49c6-b127-de269a324faf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ECO_FL.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 450,
+            "mobile_max_width": 320
+          }
+        }
+      },
+      "block_order": [
+        "d6dfdd0c-d135-4529-8938-8cde418de2e1",
+        "998dd2e7-ad5c-4754-ab9d-b97bb14cf468",
+        "a80fbbc7-e9ce-49c6-b127-de269a324faf"
+      ],
+      "custom_css": [
+        ".prose h2 {color: #004228;}",
+        ".prose h2 strong {color: #ff8d00;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
       }
     },
     "rich_text_cUDdTM": {
@@ -365,7 +412,7 @@
         "image_RD7A7d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MANI_2.png",
+            "image": "shopify:\/\/shop_images\/ECO_TL.png",
             "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
@@ -381,7 +428,7 @@
         "richtext_XCyTc3": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>LA VERDADERA REVOLUCIÓN <strong>ESTÁ EN EL CÓMO<\/strong><\/h2><p>Nos cansamos de los monocultivos que agotan los suelos, pesticidas que envenenan las aguas, animales explotados y la desvinculación social que sufren los pequeños productores. En Ecoterra demostramos que <strong>NO <\/strong>tiene que ser así y que el verdadero cambio está en <strong>CÓMO <\/strong>hacemos nuestra comida.<\/p>"
+            "content": "<h2><strong>TECH<\/strong><\/h2><p><strong>Construimos puentes entre el futuro y el presente. <\/strong>No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo, <strong>¿y qué mejor manera de hacerlo que a través de la Web3, basada en la descentralización, transparencia e inmutabilidad de la tecnología blockchain?<\/strong> Contamos con una plataforma que será la red neuronal de una Tierra nueva y sostenible. Un mundo donde cada acción será trazable e inmutable.<\/p>"
           }
         }
       },
@@ -389,6 +436,9 @@
         "image_RD7A7d",
         "divider_TGdihd",
         "richtext_XCyTc3"
+      ],
+      "custom_css": [
+        ".prose h2 strong {color: #394ff0;}"
       ],
       "settings": {
         "identifier": "",
@@ -432,6 +482,7 @@
         "divider_rTWYht",
         "richtext_gcnGnG"
       ],
+      "disabled": true,
       "settings": {
         "identifier": "",
         "full_width": true,
@@ -441,52 +492,6 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#505050"
-      }
-    },
-    "ccdb1f0a-754e-414a-bc67-e798e197fe8c": {
-      "type": "rich-text",
-      "blocks": {
-        "d6dfdd0c-d135-4529-8938-8cde418de2e1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2>EN ECOTERRA <strong>HACEMOS<\/strong> <strong>MUCHO MÁS QUE ALIMENTOS<\/strong><\/h2><p>Hacemos innovación y desarrollo para garantizar productos honestos, a través de la creación de modelos de producción justos, replicables y escalables. Colaboramos con la naturaleza para construir alimentos con propósito que sean parte de la solución y no del problema.<\/p>"
-          }
-        },
-        "998dd2e7-ad5c-4754-ab9d-b97bb14cf468": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "a80fbbc7-e9ce-49c6-b127-de269a324faf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MANI_3.png",
-            "image_link": "",
-            "invert_image": true,
-            "width_mode": "custom",
-            "max_width": 450,
-            "mobile_max_width": 320
-          }
-        }
-      },
-      "block_order": [
-        "d6dfdd0c-d135-4529-8938-8cde418de2e1",
-        "998dd2e7-ad5c-4754-ab9d-b97bb14cf468",
-        "a80fbbc7-e9ce-49c6-b127-de269a324faf"
-      ],
-      "custom_css": [
-        ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #ff6700;}"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "mode_image": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "#f5f5f5",
-        "background_gradient": "",
-        "text_color": "#1a1a1a"
       }
     },
     "999d98b6-1d5d-49ff-af7c-aa62dcf29d69": {
@@ -973,9 +978,9 @@
     "d07111a9-60b5-48f9-be37-2f15e92837d2",
     "7cd3d7f7-2352-41a3-ae02-8b23ab69cfbc",
     "44c15b8b-fa32-40f0-b5b7-79d15b1a2a87",
+    "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
     "rich_text_cUDdTM",
     "rich_text_jDfQmt",
-    "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
     "999d98b6-1d5d-49ff-af7c-aa62dcf29d69",
     "rich_text_drh8VP",
     "d88f52d8-b117-43fc-96fe-5d439dea6412",

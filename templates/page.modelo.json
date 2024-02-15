@@ -446,6 +446,9 @@
         "richtext_YEJcPi",
         "richtext_axJ8Qm"
       ],
+      "custom_css": [
+        ".prose h2 strong {color: #dbde3b;}"
+      ],
       "settings": {
         "identifier": "Modelo-section",
         "full_width": true,

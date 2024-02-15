@@ -54,6 +54,40 @@
         "background_gradient": ""
       }
     },
+    "7ad41208-9b76-424d-bd23-38f5dbe47f8f": {
+      "type": "video",
+      "blocks": {
+        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-play-1": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-play-1",
+        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1"
+      ],
+      "custom_css": [
+        "div {align-items: center;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/mThQxGkcB-c",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 8
+      }
+    },
     "2fd160cb-cfa1-4c86-84fa-5b8689889a46": {
       "type": "rich-text",
       "blocks": {
@@ -303,38 +337,44 @@
         "text_color": "#ffffff"
       }
     },
-    "7ad41208-9b76-424d-bd23-38f5dbe47f8f": {
-      "type": "video",
+    "rich_text_cmdCTC": {
+      "type": "rich-text",
       "blocks": {
-        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-play-1": {
-          "type": "play",
+        "richtext_wCP647": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>BEST FRIENDS:<\/strong> TECNOLOGÍA Y NATURALEZA<\/h2><p>Trabajamos en el desarrollo de sistemas de producción que son justos y sostenibles. Buscamos un equilibrio entre la tecnología actual y la sabiduría de la naturaleza para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p>"
+          }
+        },
+        "divider_74RVCm": {
+          "type": "divider",
           "settings": {
           }
         },
-        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1": {
-          "type": "heading",
+        "richtext_qyAr7h": {
+          "type": "richtext",
           "settings": {
-            "text": "",
-            "heading_tag": "h1"
+            "content": "<h2><strong>BEST FRIENDS:<\/strong> TECNOLOGÍA Y NATURALEZA<\/h2><p>Trabajamos en el desarrollo de sistemas de producción que son justos y sostenibles. Buscamos un equilibrio entre la tecnología actual y la sabiduría de la naturaleza para crear alimentos que sean nutritivos para los humanos y sostenibles para el planeta.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-play-1",
-        "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1"
+        "richtext_wCP647",
+        "divider_74RVCm",
+        "richtext_qyAr7h"
       ],
       "custom_css": [
-        "div {align-items: center;}"
+        ".prose h2 strong {color: #dbde3b;}"
       ],
       "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/youtu.be\/mThQxGkcB-c",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 8
+        "identifier": "Modelo-section",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#026338",
+        "background_gradient": "",
+        "text_color": "#ffffff"
       }
     },
     "5f0a9896-e1f9-448d-a214-f8e4017ce391": {
@@ -834,13 +874,14 @@
   "order": [
     "main",
     "f578399d-fcbf-449d-9cff-a4983346d5b7",
+    "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
     "2fd160cb-cfa1-4c86-84fa-5b8689889a46",
     "7cd3d7f7-2352-41a3-ae02-8b23ab69cfbc",
     "44c15b8b-fa32-40f0-b5b7-79d15b1a2a87",
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
     "999d98b6-1d5d-49ff-af7c-aa62dcf29d69",
     "d07111a9-60b5-48f9-be37-2f15e92837d2",
-    "7ad41208-9b76-424d-bd23-38f5dbe47f8f",
+    "rich_text_cmdCTC",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
     "d88f52d8-b117-43fc-96fe-5d439dea6412",
     "23a65bae-1921-413d-8f45-a5a71140750c",

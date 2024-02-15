@@ -240,6 +240,7 @@
     },
     "999d98b6-1d5d-49ff-af7c-aa62dcf29d69": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "custom_css": [
         "div {padding-top: 150px; align-items: center;}"
       ],
@@ -323,6 +324,7 @@
         "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-play-1",
         "template--15537731993693__7ad41208-9b76-424d-bd23-38f5dbe47f8f-heading-1"
       ],
+      "disabled": true,
       "custom_css": [
         "div {align-items: center;}"
       ],
@@ -391,6 +393,7 @@
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1",
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3"
       ],
+      "disabled": true,
       "custom_css": [
         ".prose h2 strong {color: #96d123;}"
       ],
@@ -449,6 +452,7 @@
         "6e48a8bb-3641-4b93-bf22-847f7751fa9f",
         "template--15548375433309__d88f52d8-b117-43fc-96fe-5d439dea6412-richtext-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".prose h2 {color: #004228;}",
         "strong {color: #ff00e8;}",
@@ -514,6 +518,7 @@
         "06c64f74-2029-44d5-a02b-9fb219a1701e",
         "a284952e-3b96-4953-ab52-123c0822855f"
       ],
+      "disabled": true,
       "custom_css": [
         ".impact-text--design {max-width: 1100px;}",
         "@media screen and (min-width: 1150px) {.bg-custom {min-height: 500px; align-items: center; display: flex; justify-content: center; } .impact-text--design .snap-center {flex: 1; }}"
@@ -543,6 +548,7 @@
     },
     "dbd57f90-5146-4835-adb4-220ac07d91a0": {
       "type": "certificate-list",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -735,6 +741,7 @@
         "038f4d60-9086-4579-943c-1d4f67f66241",
         "3ace27f8-37ec-471f-8b2b-459d7f67f0b9"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -757,6 +764,7 @@
     },
     "ccff1d20-57b9-402b-9f62-d36451f0be52": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -783,6 +791,7 @@
       "block_order": [
         "template--15537731993693__63303b90-3a37-407c-9926-07e8e5d5910f-blog-1"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 1150px) {.section-header {display: flex; } .section-header .prose {margin: inherit; }}"
       ],
@@ -807,6 +816,7 @@
     },
     "f091270f-8f95-48b7-88b0-50147dbf74c4": {
       "type": "contact",
+      "disabled": true,
       "custom_css": [
         "p.bold {text-align: center;}",
         "@media screen and (min-width: 1150px) {.section-stack__main {width: 100%; max-width: 1210px; }}"

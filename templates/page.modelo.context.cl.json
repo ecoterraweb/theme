@@ -2,5 +2,7 @@
   "context": {
     "market": "cl"
   },
-  "parent": "page.modelo.json"
+  "parent": "page.modelo.json",
+  "sections": {
+  }
 }

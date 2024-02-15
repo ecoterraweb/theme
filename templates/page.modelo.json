@@ -76,7 +76,7 @@
         "richtext_qyAr7h": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>AGRI ,FOOD AND TECH<\/strong><\/h2><p>Revolucionamos la producción de alimentos para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. <\/p><p><strong>¿QUÉ NOS HACE REVOLUCIONARIOS?<\/strong><\/p>"
+            "content": "<h2><strong>AGRI, FOOD AND TECH<\/strong><\/h2><p>Revolucionamos la producción de alimentos para reparar la brecha que la civilización moderna ha creado entre la humanidad y la Tierra. <\/p><p><strong>¿QUÉ NOS HACE REVOLUCIONARIOS?<\/strong><\/p>"
           }
         }
       },
@@ -536,7 +536,7 @@
         "richtext_axJ8Qm"
       ],
       "custom_css": [
-        ".prose h2 strong {color: #dbde3b;}"
+        ".prose h2 strong {color: #96d123;}"
       ],
       "settings": {
         "identifier": "Modelo-section",

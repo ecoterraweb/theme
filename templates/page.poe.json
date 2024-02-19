@@ -202,13 +202,10 @@
     "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
       "type": "rich-text",
       "blocks": {
-        "subheading_DXkeX3": {
-          "type": "subheading",
+        "richtext_tBeDr3": {
+          "type": "richtext",
           "settings": {
-            "text": "SELLOS Y CERTIFICACIONES",
-            "custom_pill_subheading": true,
-            "subheading_background_color": "rgba(0,0,0,0)",
-            "subheading_text_color": "#fafafa"
+            "content": "<h5>SELLOS Y CERTIFICACIONES<\/h5>"
           }
         },
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
@@ -225,29 +222,31 @@
         "richtext_VxYhhH": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Muchas empresas hacen reclamos y diseñan paquetes que promocionan sus productos como seguros para las personas o el medio ambiente. La ley requiere que estas afirmaciones sean veraces. <br\/><br\/>Utilizamos la seguridad e inmutanilidad de las cadenas de bloques sobre la red Polygon para darte visibilidad y transparencia sobre nuestros certificados, gobernado por nuestro Smart contract Proof of Eco.  <\/p>"
+            "content": "<p>Muchas empresas hacen reclamos y diseñan paquetes que promocionan sus productos como seguros para las personas o el medio ambiente. La ley requiere que estas afirmaciones sean veraces. <br\/><br\/>Utilizamos la seguridad e inmutanilidad de las cadenas de bloques sobre la red Polygon para darte visibilidad y transparencia sobre nuestros certificados, gobernado por nuestro Smart contract Proof of Eco.  <\/p><p><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>"
           }
         },
-        "subheading_pzgqaj": {
-          "type": "subheading",
+        "button_dVDfWT": {
+          "type": "button",
           "settings": {
-            "text": "¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!",
-            "custom_pill_subheading": true,
-            "subheading_background_color": "rgba(0,0,0,0)",
-            "subheading_text_color": "#fafafa"
+            "style": "fill",
+            "size": "lg",
+            "text": "CONOCE NUESTROS SELLOS",
+            "url": "",
+            "background": "#7dac00",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "subheading_DXkeX3",
+        "richtext_tBeDr3",
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d",
         "divider_xGXrkg",
         "richtext_VxYhhH",
-        "subheading_pzgqaj"
+        "button_dVDfWT"
       ],
       "custom_css": [
         ".prose h3 {color: #dbde3b; font-size: 30px; font-weight: 500;}",
-        ".prose strong {color: #dbde3b;}",
+        ".prose h1 strong {color: #dbde3b;}",
         ".prose p {font-size: 20px; line-height: 110%;}"
       ],
       "settings": {

@@ -233,7 +233,7 @@
           "settings": {
             "text": "¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!",
             "custom_pill_subheading": true,
-            "subheading_background_color": "",
+            "subheading_background_color": "rgba(0,0,0,0)",
             "subheading_text_color": "#fafafa"
           }
         }

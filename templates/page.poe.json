@@ -53,32 +53,57 @@
         "background_gradient": ""
       }
     },
-    "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
-      "type": "rich-text",
-      "blocks": {
-        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1>¿QUÉ ES ECOTECH?<\/h1><h3>ECOTECH ES EL CORAZÓN DE ECOTERRA<\/h3><p><br\/>Una plataforma basada en blockchain que nos permite auditar (Proof of Eco), rastrear (EcoNFT) y validar sellos de sostenibilidad. Esta tecnología garantiza que cada producto que lleva nuestro sello cumpla con los más altos estándares de sostenibilidad y ética.<br\/><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d"
-      ],
+    "f16b99ca-720a-48c2-a812-ebe319eb0607": {
+      "type": "before-after-video",
       "custom_css": [
-        ".prose h3 {color: #dbde3b; font-size: 30px; font-weight: 500;}",
-        ".prose p {font-size: 20px; line-height: 110%;}"
+        ".full-bleed {max-width: 100%; margin: 0;}",
+        ".prose .bold {margin-bottom: 0 !important;}",
+        ".prose {gap: 22px;}"
       ],
       "settings": {
-        "identifier": "",
-        "full_width": true,
-        "mode_image": false,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "#026338",
+        "full_width": false,
+        "subheading": "",
+        "custom_pill_subheading": false,
+        "subheading_background_color": "",
+        "title": "",
+        "content": "",
+        "text_position": "start",
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
+        "background": "",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": "",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000",
+        "button_text": "¡Quiero saber más!",
+        "button_url": "shopify:\/\/pages\/proof-of-eco",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "before_after_video_VgWQ7V": {
+      "type": "before-after-video",
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "custom_pill_subheading": false,
+        "subheading_background_color": "",
+        "title": "PROOF OF ECO",
+        "content": "<p>Registramos en blockchain para demostrarte \u2028que nuestras certificaciones son 100% reales. <br\/>¡En este video te contamos cómo!<\/p>",
+        "text_position": "start",
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000",
+        "button_text": "¡Quiero saber más!",
+        "button_url": "shopify:\/\/pages\/proof-of-eco",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "main": {
@@ -174,42 +199,55 @@
         "heading_color": ""
       }
     },
-    "f16b99ca-720a-48c2-a812-ebe319eb0607": {
-      "type": "before-after-video",
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
+      "type": "rich-text",
+      "blocks": {
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1><strong>LOS SELLOS QUE NOS ENORGULLECEN <\/strong>Y LOS SELLOS QUE NOS RESPALDAN<\/h1><h3>ECOTECH ES EL CORAZÓN DE ECOTERRA<\/h3><p><br\/>Una plataforma basada en blockchain que nos permite auditar (Proof of Eco), rastrear (EcoNFT) y validar sellos de sostenibilidad. Esta tecnología garantiza que cada producto que lleva nuestro sello cumpla con los más altos estándares de sostenibilidad y ética.<br\/><\/p>"
+          }
+        },
+        "divider_xGXrkg": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "richtext_VxYhhH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d",
+        "divider_xGXrkg",
+        "richtext_VxYhhH"
+      ],
       "custom_css": [
-        ".full-bleed {max-width: 100%; margin: 0;}",
-        ".prose .bold {margin-bottom: 0 !important;}",
-        ".prose {gap: 22px;}"
+        ".prose h3 {color: #dbde3b; font-size: 30px; font-weight: 500;}",
+        ".prose p {font-size: 20px; line-height: 110%;}"
       ],
       "settings": {
-        "full_width": false,
-        "subheading": "",
-        "custom_pill_subheading": false,
-        "subheading_background_color": "",
-        "title": "PROOF OF ECO",
-        "content": "<p>Registramos en blockchain para demostrarte \u2028que nuestras certificaciones son 100% reales. <br\/>¡En este video te contamos cómo!<\/p>",
-        "text_position": "start",
-        "autoplay": true,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
-        "background": "",
+        "identifier": "",
+        "full_width": true,
+        "mode_image": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#026338",
         "background_gradient": "",
-        "text_color": "",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000",
-        "button_text": "¡Quiero saber más!",
-        "button_url": "shopify:\/\/pages\/proof-of-eco",
-        "button_background": "",
-        "button_text_color": ""
+        "text_color": "#ffffff"
       }
     }
   },
   "order": [
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
-    "7a0252a9-9b49-4057-8614-7c8b84f9269d",
+    "f16b99ca-720a-48c2-a812-ebe319eb0607",
+    "before_after_video_VgWQ7V",
     "main",
     "09591aa5-0395-4355-9cfc-2e4d99abe0b9",
     "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e",
-    "f16b99ca-720a-48c2-a812-ebe319eb0607"
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d"
   ]
 }

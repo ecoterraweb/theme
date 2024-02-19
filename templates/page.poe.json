@@ -202,6 +202,15 @@
     "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
       "type": "rich-text",
       "blocks": {
+        "subheading_DXkeX3": {
+          "type": "subheading",
+          "settings": {
+            "text": "SELLOS Y CERTIFICACIONES",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": "#fafafa"
+          }
+        },
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
           "type": "richtext",
           "settings": {
@@ -221,6 +230,7 @@
         }
       },
       "block_order": [
+        "subheading_DXkeX3",
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d",
         "divider_xGXrkg",
         "richtext_VxYhhH"

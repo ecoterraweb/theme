@@ -1,12 +1,215 @@
 {
   "sections": {
+    "9b252a1d-20be-41e1-ae4f-5d0d8f298207": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BG_ECT_L.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/BG_ECT_S.jpg",
+            "content_max_width": 640,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "",
+            "content": "<h2><strong>IMPULSAMOS MODELOS SOTENIBLES <\/strong>A TRAVÉS <br\/>DE LA TECNOLOGÍA<\/h2><h4><strong>WEB3 Y BLOCKCHAIN <\/strong>FACILITAN UNA <br\/>AGRICULTURA DESCENTRALIZADA Y JUSTA<\/h4>",
+            "title": "",
+            "heading_tag": "h0",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1"
+      ],
+      "custom_css": [
+        ".content-over-media {--container-max-width: 1250px;}",
+        ".prose strong {color: #dbde3b;}",
+        ".prose h2 {font-size: 25px; line-height: 100%;}",
+        ".prose h4 {font-size: 18px; letter-spacing: 0.18px;}",
+        "@media screen and (min-width: 770px) {.prose h2 {font-size: 33px; } .prose h4 {font-size: 20px; }}",
+        "@media screen and (min-width: 1150px) {.prose h2 {font-size: 44px; } .prose h4 {font-size: 25px; }}",
+        "@media screen and (min-width: 1400px) {.prose h2 {font-size: 55px; } .prose h4 {font-size: 30px; }}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
+      "type": "rich-text",
+      "blocks": {
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>¿QUÉ ES ECOTECH?<\/h1><h3>ECOTECH ES EL CORAZÓN DE ECOTERRA<\/h3><p><br\/>Una plataforma basada en blockchain que nos permite auditar (Proof of Eco), rastrear (EcoNFT) y validar sellos de sostenibilidad. Esta tecnología garantiza que cada producto que lleva nuestro sello cumpla con los más altos estándares de sostenibilidad y ética.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d"
+      ],
+      "custom_css": [
+        ".prose h3 {color: #dbde3b; font-size: 30px; font-weight: 500;}",
+        ".prose p {font-size: 20px; line-height: 110%;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#026338",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "09591aa5-0395-4355-9cfc-2e4d99abe0b9": {
+      "type": "rich-text",
+      "blocks": {
+        "7b716659-f8aa-44d1-a187-ba135e497ac6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_5b2637f2-9129-4b23-bf79-075befb4dc2f.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "2d884ffb-e065-441d-8f17-c581241981d7": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "008ace87-f11e-4a2d-91fd-dff7cd037e1e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>EL ROL DE BLOCKCHAIN EN ECOTECH<\/h2><p>Blockchain es una tecnología que permite la trazabilidad y transparencia total de la información. En Ecoterra, lo utilizamos para garantizar que cada etapa del proceso, desde la producción hasta el consumo, sea verificable y transparente. Esto no solo nos da escalabilidad, reduciendo costos administrativos, sino que también garantiza una total transparencia para nuestros consumidores.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7b716659-f8aa-44d1-a187-ba135e497ac6",
+        "2d884ffb-e065-441d-8f17-c581241981d7",
+        "008ace87-f11e-4a2d-91fd-dff7cd037e1e"
+      ],
+      "custom_css": [
+        ".prose h2 {color: #004228;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e": {
+      "type": "list-icons",
+      "blocks": {
+        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Escalabilidad y Reducción de Costos:",
+            "content": "<p>Ecotech reduce significativamente nuestros costos administrativos y operativos, permitiéndonos escalar y expandirnos globalmente.<\/p>",
+            "logo": "shopify:\/\/shop_images\/Escalabilidad.png"
+          }
+        },
+        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Transparencia y Sostenibilidad:",
+            "content": "<p>Cada producto trazado con ecotech garantiza a los ecolovers que están consumiendo productos 100% sostenibles y éticos.<\/p>",
+            "logo": "shopify:\/\/shop_images\/Transparencia.png"
+          }
+        },
+        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Acceso Ampliado:",
+            "content": "<p>Una de nuestras misiones principales es democratizar el acceso a alimentos sostenibles. Gracias a EcoTech, a nuestra tienda y a nuestros EcoLabs, podemos conectar a miles de eco farmers con millones de ecolovers, creando un ecosistema global de sostenibilidad.<\/p>",
+            "logo": "shopify:\/\/shop_images\/Acceso.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-1",
+        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-2",
+        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "¿QUÉ BENEFICIOS TIENE PARA NUESTRA COMUNIDAD DE ECOLOVERS Y ECOPARTNERS?",
+        "background": "#f5f5f5",
+        "text_color": "",
+        "heading_color": ""
+      }
+    },
+    "f16b99ca-720a-48c2-a812-ebe319eb0607": {
+      "type": "before-after-video",
+      "custom_css": [
+        ".full-bleed {max-width: 100%; margin: 0;}",
+        ".prose .bold {margin-bottom: 0 !important;}",
+        ".prose {gap: 22px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "custom_pill_subheading": false,
+        "subheading_background_color": "",
+        "title": "PROOF OF ECO",
+        "content": "<p>Registramos en blockchain para demostrarte \u2028que nuestras certificaciones son 100% reales. <br\/>¡En este video te contamos cómo!<\/p>",
+        "text_position": "start",
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000",
+        "button_text": "¡Quiero saber más!",
+        "button_url": "shopify:\/\/pages\/proof-of-eco",
+        "button_background": "",
+        "button_text_color": ""
       }
     }
   },
   "order": [
-    "main"
+    "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d",
+    "main",
+    "09591aa5-0395-4355-9cfc-2e4d99abe0b9",
+    "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e",
+    "f16b99ca-720a-48c2-a812-ebe319eb0607"
   ]
 }

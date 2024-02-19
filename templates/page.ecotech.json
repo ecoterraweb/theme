@@ -12,7 +12,7 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
-            "content": "<h2><strong>IMPULSAMOS MODELOS SOTENIBLES <\/strong>A TRAVÉS <br\/>DE LA TECNOLOGÍA<\/h2><h4><strong>WEB3 Y BLOCKCHAIN <\/strong>FACILITAN UNA <br\/>AGRICULTURA DESCENTRALIZADA Y JUSTA<\/h4>",
+            "content": "<h2><strong>IMPULSAMOS MODELOS SOSTENIBLES <\/strong>A TRAVÉS <br\/>DE LA TECNOLOGÍA<\/h2><h4><strong>WEB3 Y BLOCKCHAIN <\/strong>FACILITAN UNA <br\/>AGRICULTURA DESCENTRALIZADA Y JUSTA<\/h4>",
             "title": "",
             "heading_tag": "h0",
             "heading_style": "font--primary",
@@ -187,7 +187,7 @@
         "custom_pill_subheading": false,
         "subheading_background_color": "",
         "title": "PROOF OF ECO",
-        "content": "<p>Registramos en blockchain para demostrarte  que nuestras certificaciones son 100% reales. <br\/>¡En este video te contamos cómo!<\/p>",
+        "content": "<p>Registramos en blockchain para demostrarte \u2028que nuestras certificaciones son 100% reales. <br\/>¡En este video te contamos cómo!<\/p>",
         "text_position": "start",
         "autoplay": true,
         "video_size": "auto",

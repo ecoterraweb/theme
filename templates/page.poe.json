@@ -6,7 +6,7 @@
         "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BG_ECT_L.jpg",
+            "image": "shopify:\/\/shop_images\/POE_BG_L.jpg",
             "mobile_image": "shopify:\/\/shop_images\/POE_BG_S_aea30a1a-cbd5-46cd-955e-0ce1a32986ef.jpg",
             "content_max_width": 640,
             "mobile_text_position": "place-self-center text-center",
@@ -82,30 +82,6 @@
         "button_text_color": ""
       }
     },
-    "before_after_video_VgWQ7V": {
-      "type": "before-after-video",
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "custom_pill_subheading": false,
-        "subheading_background_color": "",
-        "title": "",
-        "content": "",
-        "text_position": "start",
-        "autoplay": true,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000",
-        "button_text": "¡Quiero saber más!",
-        "button_url": "shopify:\/\/pages\/proof-of-eco",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -158,45 +134,88 @@
         "text_color": ""
       }
     },
-    "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e": {
-      "type": "list-icons",
+    "rich_text_CykaBD": {
+      "type": "rich-text",
       "blocks": {
-        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-1": {
-          "type": "item",
+        "richtext_h8nDir": {
+          "type": "richtext",
           "settings": {
-            "title": "Escalabilidad y Reducción de Costos:",
-            "content": "<p>Ecotech reduce significativamente nuestros costos administrativos y operativos, permitiéndonos escalar y expandirnos globalmente.<\/p>",
-            "logo": "shopify:\/\/shop_images\/Escalabilidad.png"
+            "content": "<h2>EL ROL DE BLOCKCHAIN EN ECOTECH<\/h2><p>Blockchain es una tecnología que permite la trazabilidad y transparencia total de la información. En Ecoterra, lo utilizamos para garantizar que cada etapa del proceso, desde la producción hasta el consumo, sea verificable y transparente. Esto no solo nos da escalabilidad, reduciendo costos administrativos, sino que también garantiza una total transparencia para nuestros consumidores.<\/p>"
           }
         },
-        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-2": {
-          "type": "item",
+        "divider_tgdxfK": {
+          "type": "divider",
           "settings": {
-            "title": "Transparencia y Sostenibilidad:",
-            "content": "<p>Cada producto trazado con ecotech garantiza a los ecolovers que están consumiendo productos 100% sostenibles y éticos.<\/p>",
-            "logo": "shopify:\/\/shop_images\/Transparencia.png"
           }
         },
-        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-3": {
-          "type": "item",
+        "image_bF7j8B": {
+          "type": "image",
           "settings": {
-            "title": "Acceso Ampliado:",
-            "content": "<p>Una de nuestras misiones principales es democratizar el acceso a alimentos sostenibles. Gracias a EcoTech, a nuestra tienda y a nuestros EcoLabs, podemos conectar a miles de eco farmers con millones de ecolovers, creando un ecosistema global de sostenibilidad.<\/p>",
-            "logo": "shopify:\/\/shop_images\/Acceso.png"
+            "image": "shopify:\/\/shop_images\/img_5b2637f2-9129-4b23-bf79-075befb4dc2f.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
           }
         }
       },
       "block_order": [
-        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-1",
-        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-2",
-        "template--15555802431581__ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e-item-3"
+        "richtext_h8nDir",
+        "divider_tgdxfK",
+        "image_bF7j8B"
       ],
       "settings": {
+        "identifier": "",
         "full_width": true,
-        "title": "¿QUÉ BENEFICIOS TIENE PARA NUESTRA COMUNIDAD DE ECOLOVERS Y ECOPARTNERS?",
-        "background": "#f5f5f5",
-        "text_color": "",
-        "heading_color": ""
+        "mode_image": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_wHfPpC": {
+      "type": "rich-text",
+      "blocks": {
+        "image_mTyPDN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_5b2637f2-9129-4b23-bf79-075befb4dc2f.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "divider_QiA8WA": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "richtext_zD9hxM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>EL ROL DE BLOCKCHAIN EN ECOTECH<\/h2><p>Blockchain es una tecnología que permite la trazabilidad y transparencia total de la información. En Ecoterra, lo utilizamos para garantizar que cada etapa del proceso, desde la producción hasta el consumo, sea verificable y transparente. Esto no solo nos da escalabilidad, reduciendo costos administrativos, sino que también garantiza una total transparencia para nuestros consumidores.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_mTyPDN",
+        "divider_QiA8WA",
+        "richtext_zD9hxM"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
@@ -257,10 +276,10 @@
   "order": [
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "f16b99ca-720a-48c2-a812-ebe319eb0607",
-    "before_after_video_VgWQ7V",
     "main",
     "09591aa5-0395-4355-9cfc-2e4d99abe0b9",
-    "ea56f8ea-96aa-4d7d-bfe3-70b2b5ef877e",
+    "rich_text_CykaBD",
+    "rich_text_wHfPpC",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d"
   ]
 }

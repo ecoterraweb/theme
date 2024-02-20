@@ -95,7 +95,7 @@
         "7b716659-f8aa-44d1-a187-ba135e497ac6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_5b2637f2-9129-4b23-bf79-075befb4dc2f.png",
+            "image": "shopify:\/\/shop_images\/ESQ_POE_2.png",
             "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
@@ -111,14 +111,21 @@
         "008ace87-f11e-4a2d-91fd-dff7cd037e1e": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>EL ROL DE BLOCKCHAIN EN ECOTECH<\/h2><p>Blockchain es una tecnología que permite la trazabilidad y transparencia total de la información. En Ecoterra, lo utilizamos para garantizar que cada etapa del proceso, desde la producción hasta el consumo, sea verificable y transparente. Esto no solo nos da escalabilidad, reduciendo costos administrativos, sino que también garantiza una total transparencia para nuestros consumidores.<\/p>"
+            "content": "<h2>¡AQUÍ TE EXPLICAMOS CÓMO!<\/h2><p>Al hacer click en el botón Eco puedes acceder nuestra tecnología Proof of Eco, la que asegura que cumplimos rigurosamente con nuestras certificaciones, ya que estas están registradas en la red de blockchain (Polygon), lo que hace que la inscripción de estas sea inmutable y pública.<br\/><\/p>"
+          }
+        },
+        "richtext_EnL6mq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>¿QUÉ BENEFICIOS TIENE?<\/strong><\/p><p>Para nuestros <strong>EcoLovers<\/strong> y <strong>EcoPartners<\/strong>: Transparencia y confianza, pueden estar seguros de que nuestros sellos y certificaciones son reales y cumplen con todos los estándares.<\/p>"
           }
         }
       },
       "block_order": [
         "7b716659-f8aa-44d1-a187-ba135e497ac6",
         "2d884ffb-e065-441d-8f17-c581241981d7",
-        "008ace87-f11e-4a2d-91fd-dff7cd037e1e"
+        "008ace87-f11e-4a2d-91fd-dff7cd037e1e",
+        "richtext_EnL6mq"
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}"

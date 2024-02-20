@@ -64,6 +64,70 @@
         "background_gradient": ""
       }
     },
+    "tabs_EJTXpb": {
+      "type": "tabs",
+      "blocks": {
+        "tab_jrLCwV": {
+          "type": "tab",
+          "settings": {
+            "title": "Todos los productos",
+            "content": "<p>Use this text to share information about your brand with your customers.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_dhTekP": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_XTmj7p": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_tjg7Kw": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_Fr7LHq": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_jrLCwV",
+        "tab_dhTekP",
+        "tab_XTmj7p",
+        "tab_tjg7Kw",
+        "tab_Fr7LHq"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8": {
       "type": "collection-list",
       "blocks": {
@@ -410,6 +474,7 @@
   "order": [
     "banner",
     "e6be5a4e-ac99-4383-bebc-c0c03b448a2f",
+    "tabs_EJTXpb",
     "c4eaa9e6-ea11-4572-94ee-ee5bfacf06d8",
     "main",
     "490508c8-0b7c-41f9-af8d-508320fe9ec6",

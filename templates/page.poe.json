@@ -158,7 +158,7 @@
         "image_bF7j8B": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_5b2637f2-9129-4b23-bf79-075befb4dc2f.png",
+            "image": "shopify:\/\/shop_images\/ESQ_POE2.png",
             "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
@@ -173,8 +173,9 @@
         "image_bF7j8B"
       ],
       "custom_css": [
-        ".prose h3 {color: #dbde3b; font-size: 30px; font-weight: 500;}",
+        ".prose h3 {color: #004228; font-size: 30px; font-weight: 500;}",
         ".prose h1 strong {color: #dbde3b;}",
+        ".prose p strong {color: #7dac00;}",
         ".prose p {font-size: 16px; line-height: 24px;}"
       ],
       "settings": {
@@ -194,7 +195,7 @@
         "image_mTyPDN": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_5b2637f2-9129-4b23-bf79-075befb4dc2f.png",
+            "image": "shopify:\/\/shop_images\/ESQ_POE3.png",
             "image_link": "",
             "invert_image": true,
             "width_mode": "custom",
@@ -210,7 +211,7 @@
         "richtext_zD9hxM": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>EL ROL DE BLOCKCHAIN EN ECOTECH<\/h2><p>Blockchain es una tecnología que permite la trazabilidad y transparencia total de la información. En Ecoterra, lo utilizamos para garantizar que cada etapa del proceso, desde la producción hasta el consumo, sea verificable y transparente. Esto no solo nos da escalabilidad, reduciendo costos administrativos, sino que también garantiza una total transparencia para nuestros consumidores.<\/p>"
+            "content": "<h2>II° REVISA LOS PRODUCTORES QUE TIENE CADA SELLO<\/h2><p>En esta sección podrás encontrar información acerca de los productores, ver las evidencias acerca de sus procesos  y certificados además de la ubicación en la que se encuentran.<\/p><p><strong>¡DALE CLICK Y CONOCELOS A TODOS!<\/strong><\/p>"
           }
         }
       },
@@ -218,6 +219,10 @@
         "image_mTyPDN",
         "divider_QiA8WA",
         "richtext_zD9hxM"
+      ],
+      "custom_css": [
+        ".prose p strong{color: #7dac00;}",
+        ".prose h2 {color: #004228;}"
       ],
       "settings": {
         "identifier": "",

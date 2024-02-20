@@ -70,7 +70,7 @@
         "tab_jrLCwV": {
           "type": "tab",
           "settings": {
-            "title": "Todos los productos",
+            "title": "TODOS LOS PRODUCTOS",
             "content": "<p>Use this text to share information about your brand with your customers.<\/p>",
             "page": ""
           }
@@ -106,6 +106,14 @@
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "page": ""
           }
+        },
+        "tab_6m6t9W": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -113,7 +121,11 @@
         "tab_dhTekP",
         "tab_XTmj7p",
         "tab_tjg7Kw",
-        "tab_Fr7LHq"
+        "tab_Fr7LHq",
+        "tab_6m6t9W"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "full_width": true,
@@ -121,10 +133,10 @@
         "subheading": "",
         "title": "",
         "first_tab_open": false,
-        "background": "",
+        "background": "#052e1e",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
+        "text_color": "#fafafa",
+        "heading_color": "#fafafa",
         "heading_gradient": ""
       }
     },

@@ -71,7 +71,7 @@
           "type": "tab",
           "settings": {
             "title": "TODOS LOS PRODUCTOS",
-            "content": "<p>Use this text to share information about your brand with your customers.<\/p>",
+            "content": "<p> <\/p>",
             "page": ""
           }
         },
@@ -79,7 +79,7 @@
           "type": "tab",
           "settings": {
             "title": "Tab 2",
-            "content": "<p>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p> <\/p>",
             "page": ""
           }
         },
@@ -87,7 +87,7 @@
           "type": "tab",
           "settings": {
             "title": "Tab 3",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.<\/p>",
+            "content": "<p> <\/p>",
             "page": ""
           }
         },
@@ -95,7 +95,7 @@
           "type": "tab",
           "settings": {
             "title": "Tab",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p> <\/p>",
             "page": ""
           }
         },
@@ -103,7 +103,7 @@
           "type": "tab",
           "settings": {
             "title": "Tab",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p> <\/p>",
             "page": ""
           }
         },
@@ -111,7 +111,7 @@
           "type": "tab",
           "settings": {
             "title": "Tab",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p> <\/p>",
             "page": ""
           }
         }
@@ -125,7 +125,7 @@
         "tab_6m6t9W"
       ],
       "custom_css": [
-        "div{padding: 0px;}"
+        "div {padding: 0px;}"
       ],
       "settings": {
         "full_width": true,

@@ -1,0 +1,302 @@
+{
+  "sections": {
+    "9b252a1d-20be-41e1-ae4f-5d0d8f298207": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/POE_BG_L.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/POE_BG_S_aea30a1a-cbd5-46cd-955e-0ce1a32986ef.jpg",
+            "content_max_width": 640,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "content": "<h2><strong>PORQUE NOS IMPORTA LA TRANSPARENCIA,<\/strong> TE PRESENTAMOS PROOF OF ECO<\/h2><p>Gracias a la inmutabilidad y seguridad de la red Blockchain en Polygon, \u2028hemos desarrollado esta tecnología para demostrarte \u2028que nuestras certificaciones son 100% reales.<\/p>",
+            "title": "",
+            "heading_tag": "h0",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15546130202717__9b252a1d-20be-41e1-ae4f-5d0d8f298207-image-1"
+      ],
+      "custom_css": [
+        ".content-over-media {--container-max-width: 1250px;}",
+        ".prose strong {color: #dbde3b;}",
+        ".prose h2 {font-size: 44px; line-height: 100%;}",
+        ".prose h4 {font-size: 18px; letter-spacing: 0.18px;}",
+        "@media screen and (min-width: 770px) {.prose h2 {font-size: 44px; } .prose h4 {font-size: 20px; }}",
+        "@media screen and (min-width: 1150px) {.prose h2 {font-size: 44px; } .prose h4 {font-size: 25px; }}",
+        "@media screen and (min-width: 1400px) {.prose h2 {font-size: 55px; } .prose h4 {font-size: 30px; }}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "f16b99ca-720a-48c2-a812-ebe319eb0607": {
+      "type": "before-after-video",
+      "custom_css": [
+        ".full-bleed {max-width: 100%; margin: 0;}",
+        ".prose .bold {margin-bottom: 0 !important;}",
+        ".prose {gap: 22px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "custom_pill_subheading": false,
+        "subheading_background_color": "",
+        "title": "",
+        "content": "",
+        "text_position": "start",
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000",
+        "button_text": "¡Quiero saber más!",
+        "button_url": "shopify:\/\/pages\/proof-of-eco",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "09591aa5-0395-4355-9cfc-2e4d99abe0b9": {
+      "type": "rich-text",
+      "blocks": {
+        "7b716659-f8aa-44d1-a187-ba135e497ac6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ESQ_POE_2.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "2d884ffb-e065-441d-8f17-c581241981d7": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "008ace87-f11e-4a2d-91fd-dff7cd037e1e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>¡AQUÍ TE EXPLICAMOS CÓMO!<\/h2><p>Al hacer click en el botón Eco puedes acceder nuestra tecnología Proof of Eco, la que asegura que cumplimos rigurosamente con nuestras certificaciones, ya que estas están registradas en la red de blockchain (Polygon), lo que hace que la inscripción de estas sea inmutable y pública.<\/p><p><\/p><p><strong>¿QUÉ BENEFICIOS TIENE?<\/strong><\/p><p>Para nuestros <strong>EcoLovers<\/strong> y <strong>EcoPartners<\/strong>: Transparencia y confianza, pueden estar seguros de que nuestros sellos y certificaciones son reales y cumplen con todos los estándares.<br\/><\/p>"
+          }
+        },
+        "richtext_EnL6mq": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "7b716659-f8aa-44d1-a187-ba135e497ac6",
+        "2d884ffb-e065-441d-8f17-c581241981d7",
+        "008ace87-f11e-4a2d-91fd-dff7cd037e1e",
+        "richtext_EnL6mq"
+      ],
+      "custom_css": [
+        ".prose h2 {color: #004228;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_CykaBD": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_h8nDir": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>I° REVISA LAS CERTIFICACIONES ASOCIADAS AL PRODUCTO<\/h2><p>Acá podrás encontrar la descripción de cada certificación asociada al producto. <br\/><br\/><strong>¡SÓLO HAZ CLICK SOBRE CADA SELLO PARA EXPLORARLO!<\/strong><\/p>"
+          }
+        },
+        "divider_tgdxfK": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "image_bF7j8B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ESQ_POE2.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "richtext_h8nDir",
+        "divider_tgdxfK",
+        "image_bF7j8B"
+      ],
+      "custom_css": [
+        ".prose h3 {color: #004228; font-size: 30px; font-weight: 500;}",
+        ".prose h1 strong {color: #dbde3b;}",
+        ".prose p strong {color: #7dac00;}",
+        ".prose p {font-size: 16px; line-height: 24px;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_wHfPpC": {
+      "type": "rich-text",
+      "blocks": {
+        "image_mTyPDN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ESQ_POE3.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "divider_QiA8WA": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "richtext_zD9hxM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>II° REVISA LOS PRODUCTORES QUE TIENE CADA SELLO<\/h2><p>En esta sección podrás encontrar información acerca de los productores, ver las evidencias acerca de sus procesos  y certificados además de la ubicación en la que se encuentran.<\/p><p><strong>¡DALE CLICK Y CONOCELOS A TODOS!<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_mTyPDN",
+        "divider_QiA8WA",
+        "richtext_zD9hxM"
+      ],
+      "custom_css": [
+        ".prose p strong{color: #7dac00;}",
+        ".prose h2 {color: #004228;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
+      "type": "rich-text",
+      "blocks": {
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><\/p><p><strong>SELLOS Y CERTIFICACIONES<\/strong><\/p><h1><strong>LOS SELLOS QUE NOS ENORGULLECEN <\/strong>Y LOS SELLOS QUE NOS RESPALDAN<\/h1>"
+          }
+        },
+        "divider_xGXrkg": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "richtext_VxYhhH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Muchas empresas hacen reclamos y diseñan paquetes que promocionan sus productos como seguros para las personas o el medio ambiente. La ley requiere que estas afirmaciones sean veraces. <br\/><br\/>Utilizamos la seguridad e inmutanilidad de las cadenas de bloques sobre la red Polygon para darte visibilidad y transparencia sobre nuestros certificados, gobernado por nuestro Smart contract Proof of Eco.  <\/p><p><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>"
+          }
+        },
+        "button_dVDfWT": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "CONOCE NUESTROS SELLOS",
+            "url": "",
+            "background": "#7dac00",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d",
+        "divider_xGXrkg",
+        "richtext_VxYhhH",
+        "button_dVDfWT"
+      ],
+      "custom_css": [
+        ".prose h3 {color: #dbde3b; font-size: 30px; font-weight: 500;}",
+        ".prose h1 strong {color: #dbde3b;}",
+        ".prose p {font-size: 16px; line-height: 24px;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": false,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "#026338",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
+    "f16b99ca-720a-48c2-a812-ebe319eb0607",
+    "main",
+    "09591aa5-0395-4355-9cfc-2e4d99abe0b9",
+    "rich_text_CykaBD",
+    "rich_text_wHfPpC",
+    "7a0252a9-9b49-4057-8614-7c8b84f9269d"
+  ]
+}

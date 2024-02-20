@@ -34,9 +34,9 @@
       "custom_css": [
         ".content-over-media {--container-max-width: 1250px;}",
         ".prose strong {color: #dbde3b;}",
-        ".prose h2 {font-size: 25px; line-height: 100%;}",
+        ".prose h2 {font-size: 44px; line-height: 100%;}",
         ".prose h4 {font-size: 18px; letter-spacing: 0.18px;}",
-        "@media screen and (min-width: 770px) {.prose h2 {font-size: 33px; } .prose h4 {font-size: 20px; }}",
+        "@media screen and (min-width: 770px) {.prose h2 {font-size: 44px; } .prose h4 {font-size: 20px; }}",
         "@media screen and (min-width: 1150px) {.prose h2 {font-size: 44px; } .prose h4 {font-size: 25px; }}",
         "@media screen and (min-width: 1400px) {.prose h2 {font-size: 55px; } .prose h4 {font-size: 30px; }}"
       ],
@@ -111,13 +111,13 @@
         "008ace87-f11e-4a2d-91fd-dff7cd037e1e": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>¡AQUÍ TE EXPLICAMOS CÓMO!<\/h2><p>Al hacer click en el botón Eco puedes acceder nuestra tecnología Proof of Eco, la que asegura que cumplimos rigurosamente con nuestras certificaciones, ya que estas están registradas en la red de blockchain (Polygon), lo que hace que la inscripción de estas sea inmutable y pública.<br\/><\/p>"
+            "content": "<h2>¡AQUÍ TE EXPLICAMOS CÓMO!<\/h2><p>Al hacer click en el botón Eco puedes acceder nuestra tecnología Proof of Eco, la que asegura que cumplimos rigurosamente con nuestras certificaciones, ya que estas están registradas en la red de blockchain (Polygon), lo que hace que la inscripción de estas sea inmutable y pública.<\/p><p><\/p><p><strong>¿QUÉ BENEFICIOS TIENE?<\/strong><\/p><p>Para nuestros <strong>EcoLovers<\/strong> y <strong>EcoPartners<\/strong>: Transparencia y confianza, pueden estar seguros de que nuestros sellos y certificaciones son reales y cumplen con todos los estándares.<br\/><\/p>"
           }
         },
         "richtext_EnL6mq": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>¿QUÉ BENEFICIOS TIENE?<\/strong><\/p><p>Para nuestros <strong>EcoLovers<\/strong> y <strong>EcoPartners<\/strong>: Transparencia y confianza, pueden estar seguros de que nuestros sellos y certificaciones son reales y cumplen con todos los estándares.<\/p>"
+            "content": ""
           }
         }
       },
@@ -147,7 +147,7 @@
         "richtext_h8nDir": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>EL ROL DE BLOCKCHAIN EN ECOTECH<\/h2><p>Blockchain es una tecnología que permite la trazabilidad y transparencia total de la información. En Ecoterra, lo utilizamos para garantizar que cada etapa del proceso, desde la producción hasta el consumo, sea verificable y transparente. Esto no solo nos da escalabilidad, reduciendo costos administrativos, sino que también garantiza una total transparencia para nuestros consumidores.<\/p>"
+            "content": "<h2>I° REVISA LAS CERTIFICACIONES ASOCIADAS AL PRODUCTO<\/h2><p>Acá podrás encontrar la descripción de cada certificación asociada al producto. <br\/><br\/><strong>¡SÓLO HAZ CLICK SOBRE CADA SELLO PARA EXPLORARLO!<\/strong><\/p>"
           }
         },
         "divider_tgdxfK": {
@@ -171,6 +171,11 @@
         "richtext_h8nDir",
         "divider_tgdxfK",
         "image_bF7j8B"
+      ],
+      "custom_css": [
+        ".prose h3 {color: #dbde3b; font-size: 30px; font-weight: 500;}",
+        ".prose h1 strong {color: #dbde3b;}",
+        ".prose p {font-size: 16px; line-height: 24px;}"
       ],
       "settings": {
         "identifier": "",

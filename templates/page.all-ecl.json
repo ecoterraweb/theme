@@ -50,24 +50,12 @@
           "settings": {
             "content": "<p>Muchas empresas hacen reclamos y diseñan paquetes que promocionan sus productos como seguros para las personas o el medio ambiente. La ley requiere que estas afirmaciones sean veraces. <br\/><br\/>Utilizamos la seguridad e inmutanilidad de las cadenas de bloques sobre la red Polygon para darte visibilidad y transparencia sobre nuestros certificados, gobernado por nuestro Smart contract Proof of Eco.  <\/p><p><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>"
           }
-        },
-        "button_dVDfWT": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "CONOCE NUESTROS SELLOS",
-            "url": "",
-            "background": "#7dac00",
-            "text_color": ""
-          }
         }
       },
       "block_order": [
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d",
         "divider_xGXrkg",
-        "richtext_VxYhhH",
-        "button_dVDfWT"
+        "richtext_VxYhhH"
       ],
       "custom_css": [
         ".prose h3 {color: #dbde3b; font-size: 30px; font-weight: 500;}",
@@ -132,12 +120,86 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "image_link_blocks_BFb9B7": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_yji7Ui": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_A7UpT4": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_rzKdGq": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_GLNktx": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_yji7Ui",
+        "item_A7UpT4",
+        "item_rzKdGq",
+        "item_GLNktx"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "main",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
-    "rich_text_CykaBD"
+    "rich_text_CykaBD",
+    "image_link_blocks_BFb9B7"
   ]
 }

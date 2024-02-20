@@ -37,7 +37,7 @@
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
           "type": "richtext",
           "settings": {
-            "content": "<p><\/p><p><strong>SELLOS Y CERTIFICACIONES<\/strong><\/p><h1><strong>LOS SELLOS QUE NOS ENORGULLECEN <\/strong>Y LOS SELLOS QUE NOS RESPALDAN<\/h1>"
+            "content": "<h1><strong>LOS SELLOS QUE NOS ENORGULLECEN <\/strong>Y LOS SELLOS QUE NOS RESPALDAN<\/h1>"
           }
         },
         "divider_xGXrkg": {
@@ -83,58 +83,6 @@
         "background": "#026338",
         "background_gradient": "",
         "text_color": "#ffffff"
-      }
-    },
-    "09591aa5-0395-4355-9cfc-2e4d99abe0b9": {
-      "type": "rich-text",
-      "blocks": {
-        "7b716659-f8aa-44d1-a187-ba135e497ac6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ESQ_POE_2.png",
-            "image_link": "",
-            "invert_image": true,
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "2d884ffb-e065-441d-8f17-c581241981d7": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "008ace87-f11e-4a2d-91fd-dff7cd037e1e": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2>¡AQUÍ TE EXPLICAMOS CÓMO!<\/h2><p>Al hacer click en el botón Eco puedes acceder nuestra tecnología Proof of Eco, la que asegura que cumplimos rigurosamente con nuestras certificaciones, ya que estas están registradas en la red de blockchain (Polygon), lo que hace que la inscripción de estas sea inmutable y pública.<\/p><p><\/p><p><strong>¿QUÉ BENEFICIOS TIENE?<\/strong><\/p><p>Para nuestros <strong>EcoLovers<\/strong> y <strong>EcoPartners<\/strong>: Transparencia y confianza, pueden estar seguros de que nuestros sellos y certificaciones son reales y cumplen con todos los estándares.<br\/><\/p>"
-          }
-        },
-        "richtext_EnL6mq": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "7b716659-f8aa-44d1-a187-ba135e497ac6",
-        "2d884ffb-e065-441d-8f17-c581241981d7",
-        "008ace87-f11e-4a2d-91fd-dff7cd037e1e",
-        "richtext_EnL6mq"
-      ],
-      "custom_css": [
-        ".prose h2 {color: #004228;}"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "mode_image": true,
-        "content_width": "large",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "rich_text_CykaBD": {
@@ -190,7 +138,6 @@
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "main",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
-    "09591aa5-0395-4355-9cfc-2e4d99abe0b9",
     "rich_text_CykaBD"
   ]
 }

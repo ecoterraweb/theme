@@ -202,16 +202,10 @@
     "7a0252a9-9b49-4057-8614-7c8b84f9269d": {
       "type": "rich-text",
       "blocks": {
-        "richtext_tBeDr3": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h5>SELLOS Y CERTIFICACIONES<\/h5>"
-          }
-        },
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d": {
           "type": "richtext",
           "settings": {
-            "content": "<h1><strong>LOS SELLOS QUE NOS ENORGULLECEN <\/strong>Y LOS SELLOS QUE NOS RESPALDAN<\/h1>"
+            "content": "<p><\/p><p><strong>SELLOS Y CERTIFICACIONES<\/strong><\/p><h1><strong>LOS SELLOS QUE NOS ENORGULLECEN <\/strong>Y LOS SELLOS QUE NOS RESPALDAN<\/h1>"
           }
         },
         "divider_xGXrkg": {
@@ -238,7 +232,6 @@
         }
       },
       "block_order": [
-        "richtext_tBeDr3",
         "d0eb5bce-0b51-4e7a-8376-b0fb86fcfd1d",
         "divider_xGXrkg",
         "richtext_VxYhhH",
@@ -247,7 +240,7 @@
       "custom_css": [
         ".prose h3 {color: #dbde3b; font-size: 30px; font-weight: 500;}",
         ".prose h1 strong {color: #dbde3b;}",
-        ".prose p {font-size: 20px; line-height: 110%;}"
+        ".prose p {font-size: 16px; line-height: 24px;}"
       ],
       "settings": {
         "identifier": "",

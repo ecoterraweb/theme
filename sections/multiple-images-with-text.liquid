@@ -119,11 +119,11 @@ LIQUID
               <div class="button-container">
 
                   {%- if block.settings.button_text != blank -%}
-                    {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+                    {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color, class="custom-button" -%}
                   {%- endif -%}
     
                   {%- if block.settings.button_text_2 != blank -%}
-                    {%- render 'button', href: block.settings.button_url_2, content: block.settings.button_text_2, size: 'xl', background: section.settings.button_background_2, text_color: section.settings.button_text_color_2 -%}
+                    {%- render 'button', href: block.settings.button_url_2, content: block.settings.button_text_2, size: 'xl', background: section.settings.button_background_2, text_color: section.settings.button_text_color_2, class="custom-button" -%}
                   {%- endif -%}
               </div>
             </div>

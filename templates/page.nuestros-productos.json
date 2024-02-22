@@ -19,8 +19,8 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
-            "content": "",
-            "title": "Hambre de cambio",
+            "content": "<h2>REDEFINIENDO LA COMIDA CONSCIENTE<\/h2>",
+            "title": "DESAFIAMOS LAS NORMAS",
             "heading_tag": "h0",
             "heading_style": "font--primary",
             "button_text": "",
@@ -73,6 +73,48 @@
         "background_gradient": "",
         "text_color": "#ffffff",
         "text_gradient": ""
+      }
+    },
+    "37e9c351-50ee-47bc-807a-a622c311f983": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ECO_A2.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "",
+            "content": "<h2>ECO<strong>ADEREZOS<\/strong><\/h2><p>Nuestros EcoAderezos son ideales para acompañar todo. Sabrosos, únicos y bullsh*t free, te sacaran de apuro y llevaran tus comidas al siguiente nivel. Únicos que apoyan la vinculación social de pequeños productores. Naturales, éticos y sustentables. <\/p>",
+            "button_url": "shopify:\/\/collections\/aderezos-naturales",
+            "button_text": "Comprar aquí",
+            "button_url_2": "",
+            "button_text_2": "Encuéntralos"
+          }
+        }
+      },
+      "block_order": [
+        "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf"
+      ],
+      "custom_css": [
+        ".prose h2 {color: #004228;}",
+        ".prose h2 strong {color: #7dac00;}",
+        ".prose p {font-size: 14px; font-weight: 400; line-height: 20px;}",
+        "@media screen and (min-width: 770px) {.prose p {font-size: 16px; line-height: 24px; }}",
+        "@media screen and (min-width: 1400px) {.prose p {font-size: 20px; line-height: 28px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "orientation": "normal",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#505050",
+        "button_background": "#026338",
+        "button_text_color": "",
+        "button_background_2": "#7dac00",
+        "button_text_color_2": ""
       }
     },
     "592c85fc-a583-4781-a203-f2d81caae21f": {
@@ -131,9 +173,11 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
-            "content": "<h2>ECO<strong>HUEVOS<\/strong><\/h2><p>Todos nuestros ecohuevos provienen de gallinas que pastorean libres, en donde las aves pueden desarrollar sus conductas naturales. Además, comen una dieta 100% vegetariana y libre  de antibióticos. <br\/><br\/><strong>Porque creemos en un mundo más justo,<\/strong> colaboramos con pequeños productores certificados bajo estándares de comercio justo.<\/p>",
+            "content": "<h2>ECO<strong>HUEVOS<\/strong><\/h2><p>Todos nuestros ecohuevos provienen de gallinas que pastorean libres, en donde las aves pueden desarrollar sus conductas naturales. Además, comen una dieta 100% vegetariana y libre \u2028de antibióticos. <br\/><br\/><strong>Porque creemos en un mundo más justo,<\/strong> colaboramos con pequeños productores certificados bajo estándares de comercio justo.<\/p>",
             "button_url": "shopify:\/\/collections\/huevos",
-            "button_text": "Comprar aquí"
+            "button_text": "Comprar aquí",
+            "button_url_2": "",
+            "button_text_2": ""
           }
         }
       },
@@ -156,7 +200,9 @@
         "background_gradient": "",
         "text_color": "#505050",
         "button_background": "#026338",
-        "button_text_color": ""
+        "button_text_color": "",
+        "button_background_2": "",
+        "button_text_color_2": ""
       }
     },
     "a7b3ce38-e344-41bf-8495-bc96050b2f1d": {
@@ -169,9 +215,11 @@
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
-            "content": "<h2>ECO<strong>PROTEIN<\/strong><\/h2><p><strong>¡TE PRESENTAMOS LA NUEVA FORMA DE COMER HUEVO!. <\/strong> Una manera mucho más fácil de obtener la proteína más biodisponible del mundo. El complemento perfecto para tu día a día: fácil y práctico!<\/p>",
+            "content": "<h2>ECO<strong>PROTEIN<\/strong><\/h2><p><strong>¡TE PRESENTAMOS LA NUEVA FORMA DE COMER HUEVO!. <\/strong>\u2028Una manera mucho más fácil de obtener la proteína más biodisponible del mundo. El complemento perfecto para tu día a día: fácil y práctico!<\/p>",
             "button_url": "shopify:\/\/collections\/fair-foods",
-            "button_text": "Comprar aquí"
+            "button_text": "Comprar aquí",
+            "button_url_2": "",
+            "button_text_2": ""
           }
         }
       },
@@ -194,7 +242,9 @@
         "background_gradient": "",
         "text_color": "#505050",
         "button_background": "#026338",
-        "button_text_color": ""
+        "button_text_color": "",
+        "button_background_2": "",
+        "button_text_color_2": ""
       }
     },
     "39ad79e5-8c09-4e41-9da5-ebd5cbb71b89": {
@@ -209,7 +259,9 @@
             "title": "",
             "content": "<h2>ECO<strong>LÁCTEOS<\/strong><\/h2><p>Producidos en alianza con productores locales de la Región de Los Lagos, certificados en bienestar animal. <br\/>Las vacas pastorean libremente y no se utilizan antibióticos ni hormonas de forma rutinaria, de hecho, <strong>¡TODOS NUESTROS LÁCTEOS SON SIN HORMONA rbST! <\/strong><\/p>",
             "button_url": "shopify:\/\/collections\/lacteos",
-            "button_text": "Comprar aquí"
+            "button_text": "Comprar aquí",
+            "button_url_2": "",
+            "button_text_2": ""
           }
         }
       },
@@ -232,7 +284,9 @@
         "background_gradient": "",
         "text_color": "#505050",
         "button_background": "#026338",
-        "button_text_color": ""
+        "button_text_color": "",
+        "button_background_2": "",
+        "button_text_color_2": ""
       }
     },
     "b284511b-c5db-49b7-958a-f9f447c5b8c9": {
@@ -247,7 +301,9 @@
             "title": "",
             "content": "<h2>ECO<strong>DESPENSA<\/strong><\/h2><p>Proveniente de cultivos sustentables y orgánicos, es decir, libres de fertilizantes químicos, pesticidas y herbicidas. Preocupados por tu salud y la del planeta.<\/p>",
             "button_url": "shopify:\/\/collections\/despensa-pantry",
-            "button_text": "Comprar aquí"
+            "button_text": "Comprar aquí",
+            "button_url_2": "",
+            "button_text_2": ""
           }
         }
       },
@@ -270,45 +326,9 @@
         "background_gradient": "",
         "text_color": "#505050",
         "button_background": "#026338",
-        "button_text_color": ""
-      }
-    },
-    "37e9c351-50ee-47bc-807a-a622c311f983": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ECO_A2.png",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "",
-            "content": "<h2>ECO<strong>ADEREZOS<\/strong><\/h2><p>Nuestros EcoAderezos son ideales para acompañar todo. Sabrosos, únicos y bullsh*t free, te sacaran de apuro y llevaran tus comidas al siguiente nivel. Únicos que apoyan la vinculación social de pequeños productores. Naturales, éticos y sustentables. <\/p>",
-            "button_url": "shopify:\/\/collections\/aderezos-naturales",
-            "button_text": "Comprar aquí"
-          }
-        }
-      },
-      "block_order": [
-        "a1c67daf-8fab-42fa-8ddb-b93d6fc2fbdf"
-      ],
-      "custom_css": [
-        ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #7dac00;}",
-        ".prose p {font-size: 14px; font-weight: 400; line-height: 20px;}",
-        "@media screen and (min-width: 770px) {.prose p {font-size: 16px; line-height: 24px; }}",
-        "@media screen and (min-width: 1400px) {.prose p {font-size: 20px; line-height: 28px; }}"
-      ],
-      "settings": {
-        "full_width": false,
-        "orientation": "normal",
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#505050",
-        "button_background": "#026338",
-        "button_text_color": ""
+        "button_text_color": "",
+        "button_background_2": "",
+        "button_text_color_2": ""
       }
     },
     "988affd9-0f7f-4bc5-a306-1acd526badc6": {
@@ -463,12 +483,12 @@
     "main",
     "9b61646c-a010-4320-a608-c4c9982d72a1",
     "70d4769d-43ae-4c89-a099-9dc64d1399a8",
+    "37e9c351-50ee-47bc-807a-a622c311f983",
     "592c85fc-a583-4781-a203-f2d81caae21f",
     "5eda4943-37f5-4688-a245-925e754d2358",
     "a7b3ce38-e344-41bf-8495-bc96050b2f1d",
     "39ad79e5-8c09-4e41-9da5-ebd5cbb71b89",
     "b284511b-c5db-49b7-958a-f9f447c5b8c9",
-    "37e9c351-50ee-47bc-807a-a622c311f983",
     "988affd9-0f7f-4bc5-a306-1acd526badc6",
     "99996713-cadd-4d07-99fc-7aa3b05e4120",
     "f98c25b8-cd4f-4765-85dd-c78b8c6e4335",

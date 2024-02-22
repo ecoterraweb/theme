@@ -117,6 +117,11 @@ LIQUID
               {{- block.settings.content -}}
 
               <div class="button-container">
+                  <style>
+                      .custom-button{
+                        height: 55px;
+                      }
+                  </style>
 
                   {%- if block.settings.button_text != blank -%}
                     {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color, class="custom-button" -%}

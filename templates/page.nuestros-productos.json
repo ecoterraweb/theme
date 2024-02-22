@@ -393,7 +393,7 @@
         "cc440d76-0e5c-4a60-aa3b-b327f3a59ea5": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>ENCUENTRA <strong>ESTOS SELLOS EN NUESTROS PRODUCTOS<\/strong><\/h1>"
+            "content": "<h1>ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS<\/h1>"
           }
         },
         "button_wMFhxF": {
@@ -420,8 +420,8 @@
         "identifier": "",
         "full_width": true,
         "mode_image": false,
-        "content_width": "large",
-        "text_position": "center",
+        "content_width": "small",
+        "text_position": "start",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#004228"
@@ -541,6 +541,20 @@
     "collection_list_4KpaG8": {
       "type": "collection-list",
       "blocks": {
+        "collection_qzwyYb": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection_8BxQgB": {
           "type": "collection",
           "settings": {
@@ -585,22 +599,23 @@
         }
       },
       "block_order": [
+        "collection_qzwyYb",
         "collection_8BxQgB",
         "collection_QrtaTw",
         "collection_8ejrBc"
       ],
       "settings": {
         "full_width": true,
-        "stack_collections": true,
-        "collections_per_row": 5,
+        "stack_collections": false,
+        "collections_per_row": 3,
         "show_progress_bar": true,
-        "subheading": "",
+        "subheading": "NUESTROS SELLOS",
         "custom_pill_subheading": false,
         "subheading_background_color": "",
-        "title": "Collection list",
-        "content": "",
+        "title": "",
+        "content": "<h1>ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS<\/h1>",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "Ver todos",
         "background": "",
         "background_gradient": "",
         "text_color": "",

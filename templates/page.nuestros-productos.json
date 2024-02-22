@@ -413,6 +413,7 @@
         "cc440d76-0e5c-4a60-aa3b-b327f3a59ea5",
         "button_wMFhxF"
       ],
+      "disabled": true,
       "custom_css": [
         "strong {color: #8f46ff;}"
       ],
@@ -522,6 +523,7 @@
         "logo_kgDKLf",
         "logo_AxpdK6"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,

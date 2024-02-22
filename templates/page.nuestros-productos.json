@@ -131,7 +131,7 @@
             "button_url": "shopify:\/\/collections\/huevos",
             "button_text": "Comprar aquí",
             "button_url_2": "",
-            "button_text_2": ""
+            "button_text_2": "Encuéntralos"
           }
         }
       },
@@ -173,7 +173,7 @@
             "button_url": "shopify:\/\/collections\/lacteos",
             "button_text": "Comprar aquí",
             "button_url_2": "",
-            "button_text_2": ""
+            "button_text_2": "Encuéntralos"
           }
         }
       },
@@ -215,7 +215,7 @@
             "button_url": "shopify:\/\/collections\/fair-foods",
             "button_text": "Comprar aquí",
             "button_url_2": "",
-            "button_text_2": ""
+            "button_text_2": "Encuéntralos"
           }
         }
       },
@@ -345,72 +345,6 @@
         "text_color": "#004228"
       }
     },
-    "rich_text_EXJPWx": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_4WrYmJ": {
-          "type": "subheading",
-          "settings": {
-            "text": "CATÁLOGO",
-            "custom_pill_subheading": false,
-            "subheading_background_color": "",
-            "subheading_text_color": ""
-          }
-        },
-        "heading_eW7Yr8": {
-          "type": "heading",
-          "settings": {
-            "text": "TENEMOS MUUUCHOS MÁS",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "heading_3LBqJd": {
-          "type": "heading",
-          "settings": {
-            "text": "¡NO TE LOS PIERDAS!",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_YKFnc4": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Conoce nuestro catálogo completo de productos!<\/p>"
-          }
-        },
-        "button_QHTHPf": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Descárgalo aquí",
-            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0280\/0854\/6397\/files\/Catalogo_Final.pdf?v=1698353517",
-            "background": "#7dac00",
-            "text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_4WrYmJ",
-        "heading_eW7Yr8",
-        "heading_3LBqJd",
-        "richtext_YKFnc4",
-        "button_QHTHPf"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "mode_image": false,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#004228"
-      }
-    },
     "988affd9-0f7f-4bc5-a306-1acd526badc6": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -420,7 +354,7 @@
             "style": "fill",
             "size": "lg",
             "text": "DESCÁRGALO AQUÍ",
-            "url": "",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0280\/0854\/6397\/files\/Catalogo_Final.pdf?v=1698353517",
             "background": "",
             "text_color": ""
           }
@@ -533,7 +467,6 @@
     "a7b3ce38-e344-41bf-8495-bc96050b2f1d",
     "b284511b-c5db-49b7-958a-f9f447c5b8c9",
     "99996713-cadd-4d07-99fc-7aa3b05e4120",
-    "rich_text_EXJPWx",
     "988affd9-0f7f-4bc5-a306-1acd526badc6",
     "f98c25b8-cd4f-4765-85dd-c78b8c6e4335",
     "93c60eef-0472-47fb-9788-b124554bedbf",

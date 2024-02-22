@@ -273,7 +273,7 @@
       ],
       "settings": {
         "full_width": false,
-        "orientation": "reversed",
+        "orientation": "normal",
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "",
@@ -285,26 +285,27 @@
         "button_text_color_2": ""
       }
     },
-    "988affd9-0f7f-4bc5-a306-1acd526badc6": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/CAT_L.png",
-        "mobile_image": "shopify:\/\/shop_images\/CAT_S.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "99996713-cadd-4d07-99fc-7aa3b05e4120": {
       "type": "rich-text",
       "blocks": {
+        "subheading_3fjTea": {
+          "type": "subheading",
+          "settings": {
+            "text": "CATÁLOGO",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
+          }
+        },
+        "heading_LXmN8X": {
+          "type": "heading",
+          "settings": {
+            "text": "TENEMOS MUUUCHOS MÁS",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-heading-1": {
           "type": "heading",
           "settings": {
@@ -319,23 +320,13 @@
           "settings": {
             "content": "<p>Conoce nuestro catálogo completo de productos!<\/p>"
           }
-        },
-        "d898b983-5ef8-413f-838b-a40f0c9ebe5e": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Descárgalo aquí",
-            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0280\/0854\/6397\/files\/Catalogo_Final.pdf?v=1698353517",
-            "background": "#7dac00",
-            "text_color": "#ffffff"
-          }
         }
       },
       "block_order": [
+        "subheading_3fjTea",
+        "heading_LXmN8X",
         "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-heading-1",
-        "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-richtext-1",
-        "d898b983-5ef8-413f-838b-a40f0c9ebe5e"
+        "template--15546129678429__99996713-cadd-4d07-99fc-7aa3b05e4120-richtext-1"
       ],
       "custom_css": [
         ".prose > div > p {font-size: 18px; font-weight: 500; word-wrap: break-word;}",
@@ -349,9 +340,108 @@
         "mode_image": false,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#004228",
+        "background": "#fafafa",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": "#004228"
+      }
+    },
+    "rich_text_EXJPWx": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_4WrYmJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "CATÁLOGO",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
+          }
+        },
+        "heading_eW7Yr8": {
+          "type": "heading",
+          "settings": {
+            "text": "TENEMOS MUUUCHOS MÁS",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "heading_3LBqJd": {
+          "type": "heading",
+          "settings": {
+            "text": "¡NO TE LOS PIERDAS!",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_YKFnc4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Conoce nuestro catálogo completo de productos!<\/p>"
+          }
+        },
+        "button_QHTHPf": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Descárgalo aquí",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0280\/0854\/6397\/files\/Catalogo_Final.pdf?v=1698353517",
+            "background": "#7dac00",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4WrYmJ",
+        "heading_eW7Yr8",
+        "heading_3LBqJd",
+        "richtext_YKFnc4",
+        "button_QHTHPf"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#004228"
+      }
+    },
+    "988affd9-0f7f-4bc5-a306-1acd526badc6": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "button_A9gy9y": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "DESCÁRGALO AQUÍ",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_A9gy9y"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/CAT_L_d88d9d44-d00b-4fcc-ada3-b27e386b6515.png",
+        "mobile_image": "shopify:\/\/shop_images\/CAT_S_89ea1e13-440a-4afe-b71d-370e759c6f6c.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "f98c25b8-cd4f-4765-85dd-c78b8c6e4335": {
@@ -442,8 +532,9 @@
     "39ad79e5-8c09-4e41-9da5-ebd5cbb71b89",
     "a7b3ce38-e344-41bf-8495-bc96050b2f1d",
     "b284511b-c5db-49b7-958a-f9f447c5b8c9",
-    "988affd9-0f7f-4bc5-a306-1acd526badc6",
     "99996713-cadd-4d07-99fc-7aa3b05e4120",
+    "rich_text_EXJPWx",
+    "988affd9-0f7f-4bc5-a306-1acd526badc6",
     "f98c25b8-cd4f-4765-85dd-c78b8c6e4335",
     "93c60eef-0472-47fb-9788-b124554bedbf",
     "23a30acb-e4f3-4e11-918e-6e959b1c0de3",

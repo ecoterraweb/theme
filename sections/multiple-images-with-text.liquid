@@ -9,6 +9,9 @@ CSS
 {%- endcomment -%}
 
 <style>
+  .button{
+    max-width: 50%;
+  }
   #shopify-section-{{ section.id }} {
     --multiple-images-with-text-max-width: 580px;
     --multiple-images-with-text-images-grid-template: {% if section.settings.images_layout != 'stacked' and visible_images_count > 1 %}repeat({% if visible_images_count == 2 %}1{% else %}2{% endif %}, auto) / minmax(0, 0.75fr) minmax(0, 1fr){% else %}none{% endif %};
@@ -109,7 +112,7 @@ LIQUID
               {{- block.settings.content -}}
 
               {%- if block.settings.button_text != blank -%}
-                {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+                {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color, class="button" -%}
               {%- endif -%}
 
               {%- if block.settings.button_text_2 != blank -%}

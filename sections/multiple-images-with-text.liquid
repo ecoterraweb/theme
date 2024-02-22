@@ -9,8 +9,9 @@ CSS
 {%- endcomment -%}
 
 <style>
-  .button{
-    width: 45%;
+  .button-container{
+    display: flex;
+    
   }
   #shopify-section-{{ section.id }} {
     --multiple-images-with-text-max-width: 580px;
@@ -111,13 +112,16 @@ LIQUID
 
               {{- block.settings.content -}}
 
+              <div class="button-container">
+
               {%- if block.settings.button_text != blank -%}
-                {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color, class="button" -%}
+                {%- render 'button', href: block.settings.button_url, content: block.settings.button_text, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
               {%- endif -%}
 
               {%- if block.settings.button_text_2 != blank -%}
                 {%- render 'button', href: block.settings.button_url_2, content: block.settings.button_text_2, size: 'xl', background: section.settings.button_background_2, text_color: section.settings.button_text_color_2 -%}
               {%- endif -%}
+              </div>
             </div>
 
             {%- assign outputted_text_count = outputted_text_count | plus: 1 -%}

@@ -124,8 +124,8 @@
             "vertical_position_hd": 30,
             "icon": "shopify:\/\/shop_images\/agriculture.png",
             "icon_width": 32,
-            "title": "EcoAgri Lab",
-            "content": "<p>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
+            "title": "Agri",
+            "content": "<p>El suelo es más que simplemente tierra; es la base de la civilización.  Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, degradándolo y robándole su riqueza. Nuestro equipo de agrónomos y veterinarios está redescubriendo la sinfonía de la agricultura natural. Creando y utilizando modernos e innovadores modelos productivos, empujamos una agricultura sostenible y abundante.<\/p>"
           }
         },
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1": {
@@ -139,8 +139,8 @@
             "vertical_position_hd": 30,
             "icon": "shopify:\/\/shop_images\/ICON_FL.png",
             "icon_width": 32,
-            "title": "EcoFood Lab",
-            "content": "<p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? EcoFoodLab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
+            "title": "Tech",
+            "content": "<p>Construimos puentes entre el futuro y el presente. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo, ¿y qué mejor manera de hacerlo que a través de la Web3, basada en la descentralización, transparencia e inmutabilidad de la tecnología blockchain? Contamos con una plataforma que será la red neuronal de una Tierra nueva y sostenible. Un mundo donde cada acción será trazable e inmutable.<\/p>"
           }
         },
         "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3": {
@@ -154,8 +154,8 @@
             "vertical_position_hd": 30,
             "icon": "shopify:\/\/shop_images\/account_tree.png",
             "icon_width": 32,
-            "title": "EcoTech Lab",
-            "content": "<p>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo. ¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en el libro inmutable de la tecnología blockchain? ... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
+            "title": "Food",
+            "content": "<p>¿Y si la comida en tu plato fuera una declaración de tu compromiso con un mundo más saludable? Nuestro equipo desarrolla productos priorizando ingredientes naturales y nobles, de etiquetas limpias y sin aditivos. Creamos alimentos que son nutritivos, deliciosos y ecológicamente sólidos. Aquí nuestro sueño de una dieta equilibrada se encuentra con la realidad de un planeta equilibrado.<\/p>"
           }
         }
       },

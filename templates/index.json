@@ -256,6 +256,220 @@
         "text_color": "#004228"
       }
     },
+    "dbd57f90-5146-4835-adb4-220ac07d91a0": {
+      "type": "certificate-list",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "background_color": "#f5f5f5",
+        "subheading": "certificaciones y sellos",
+        "title": "<h2><strong>LOS SELLOS QUE NOS ENORGULLECEN <\/strong>Y LOS CERTIFICADOS QUE NOS RESPALDAN<\/h2>",
+        "color_title": "#004228",
+        "color_title_strong": "#394ff0",
+        "paragraph": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta.<br\/><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>",
+        "button_text": "Ir a certificaciones",
+        "button_link": "#",
+        "api_url": "",
+        "api_key": ""
+      }
+    },
+    "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5": {
+      "type": "rich-text",
+      "blocks": {
+        "3a78ca24-56a4-4b02-aa3c-f59a523f7d6c": {
+          "type": "subheading",
+          "settings": {
+            "text": "certificaciones y sellos",
+            "custom_pill_subheading": true,
+            "subheading_background_color": "#000000",
+            "subheading_text_color": "#ffffff"
+          }
+        },
+        "39c19eab-4214-48f8-a818-d31e8d4bc0ae": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>LOS <strong>SELLOS<\/strong> QUE NOS <strong>RESPALDAN <\/strong><\/h2>"
+          }
+        },
+        "501e073a-a8c5-4846-a584-69881fb4852c": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "a481fea8-5a98-4cb2-91ce-ad90f9a3e6bd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta. <\/p><p><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3a78ca24-56a4-4b02-aa3c-f59a523f7d6c",
+        "39c19eab-4214-48f8-a818-d31e8d4bc0ae",
+        "501e073a-a8c5-4846-a584-69881fb4852c",
+        "a481fea8-5a98-4cb2-91ce-ad90f9a3e6bd"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-size: 45px;}",
+        "p.strong {color: #1a1a1a;}",
+        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
+        "div {align-items: left; text-align: left;}",
+        "h2 strong {color: #10ccf4;}",
+        ".split-rich-text {padding: 44px 48px;}",
+        ".rich-text {padding: 40px 15px 100px;}"
+      ],
+      "settings": {
+        "identifier": "Impacto-section",
+        "full_width": true,
+        "mode_image": false,
+        "image": "shopify:\/\/shop_images\/Rich_text.png",
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "#fafafa",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "dfc8565e-4587-4b83-bfb7-8042178e6e77": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CH_fdf38afc-b166-42a2-9311-5b16fcbb7a78.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EB_37bb085b-f3e4-4082-afb4-eb4d8bc92444.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EC_0b248f6c-4f0d-4920-8160-45dfb697d3a6.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LM.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "81466fbc-47af-47fb-8c6f-fe99711c2679": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F4F_d6ab9a3c-5fbf-414c-88d3-04cb30c9483a.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "810690e6-b909-4030-b1b9-2256e814b43a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TR.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "038f4d60-9086-4579-943c-1d4f67f66241": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAG.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LSQA.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-1",
+        "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-2",
+        "template--15548375433309__dfc8565e-4587-4b83-bfb7-8042178e6e77-item-3",
+        "a4c61d3f-7af3-4671-9042-0da7ca63d7cd",
+        "81466fbc-47af-47fb-8c6f-fe99711c2679",
+        "810690e6-b909-4030-b1b9-2256e814b43a",
+        "038f4d60-9086-4579-943c-1d4f67f66241",
+        "3ace27f8-37ec-471f-8b2b-459d7f67f0b9"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "scroll": false,
+        "show_progress_bar": false,
+        "collections_per_row": 3,
+        "stack_collections": true,
+        "gap": "large",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -692,6 +906,9 @@
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
     "d0200df7-18b5-46d9-a6b3-ed990ba40fc6",
+    "dbd57f90-5146-4835-adb4-220ac07d91a0",
+    "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5",
+    "dfc8565e-4587-4b83-bfb7-8042178e6e77",
     "slideshow",
     "collection-list",
     "rich_text_gPTYGB",

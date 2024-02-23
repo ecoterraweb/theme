@@ -192,6 +192,70 @@
         "hot_spot_content_blur_radius": 3
       }
     },
+    "d0200df7-18b5-46d9-a6b3-ed990ba40fc6": {
+      "type": "rich-text",
+      "blocks": {
+        "a195e4a7-ba5f-4323-adfd-a35ddadf5c97": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ENVIOS.png",
+            "image_link": "shopify:\/\/policies\/shipping-policy",
+            "invert_image": false,
+            "width_mode": "custom",
+            "max_width": 120,
+            "mobile_max_width": 100
+          }
+        },
+        "32c14394-0a2d-42d7-8506-a3b227a938a1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>ECOTERRA.CL<\/h3>"
+          }
+        },
+        "1f3d1298-7731-4378-8c52-aee327afa65f": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "6096a9da-2986-42cc-b231-2bcf0066a505": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAMBIOS.png",
+            "image_link": "shopify:\/\/policies\/refund-policy",
+            "invert_image": false,
+            "width_mode": "custom",
+            "max_width": 120,
+            "mobile_max_width": 100
+          }
+        },
+        "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>ECOTERRA.COM.CO<\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "a195e4a7-ba5f-4323-adfd-a35ddadf5c97",
+        "32c14394-0a2d-42d7-8506-a3b227a938a1",
+        "1f3d1298-7731-4378-8c52-aee327afa65f",
+        "6096a9da-2986-42cc-b231-2bcf0066a505",
+        "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "identifier": "policies-banner",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#004228"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -377,6 +441,7 @@
         "subheading_TBxTFL",
         "heading_7yJinR"
       ],
+      "disabled": true,
       "settings": {
         "identifier": "",
         "full_width": true,
@@ -422,6 +487,7 @@
         "d154b728-4572-47ce-a86d-5aa76d259080",
         "9a608366-6269-493f-a2f3-ddd302a729c7"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -494,6 +560,7 @@
         "item_PP6iyb",
         "item_mmk6ww"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_mobile": true,
@@ -517,6 +584,7 @@
     },
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d": {
       "type": "scrolling-text",
+      "disabled": true,
       "custom_css": [
         "span.scrolling-text__text {font-family: PalmerLakePrint, sans-serif !important; font-size: 88px; font-weight: 400;}",
         ".bg-custom.text-custom {padding: 20px 0;}",
@@ -538,6 +606,7 @@
     },
     "df3ede33-9fbf-4a2b-8206-3f667522cbc9": {
       "type": "video",
+      "disabled": true,
       "custom_css": [
         "button {letter-spacing: 0.02em; font-weight: 500;}"
       ],
@@ -587,6 +656,7 @@
     },
     "78eb0dc2-bbc9-46b4-ae9f-2d01e79ca5fb": {
       "type": "before-after-video",
+      "disabled": true,
       "custom_css": [
         ".prose h2 {color: #004228;}",
         "h2 strong {color: #ff6700;}",
@@ -615,76 +685,13 @@
         "button_background": "",
         "button_text_color": ""
       }
-    },
-    "d0200df7-18b5-46d9-a6b3-ed990ba40fc6": {
-      "type": "rich-text",
-      "blocks": {
-        "a195e4a7-ba5f-4323-adfd-a35ddadf5c97": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ENVIOS.png",
-            "image_link": "shopify:\/\/policies\/shipping-policy",
-            "invert_image": false,
-            "width_mode": "custom",
-            "max_width": 120,
-            "mobile_max_width": 100
-          }
-        },
-        "32c14394-0a2d-42d7-8506-a3b227a938a1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h3><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">POLÍTICAS DE <strong>ENVÍOS <br\/><\/strong>Y<strong> DESPACHOS<\/strong><\/a><\/h3>"
-          }
-        },
-        "1f3d1298-7731-4378-8c52-aee327afa65f": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "6096a9da-2986-42cc-b231-2bcf0066a505": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CAMBIOS.png",
-            "image_link": "shopify:\/\/policies\/refund-policy",
-            "invert_image": false,
-            "width_mode": "custom",
-            "max_width": 120,
-            "mobile_max_width": 100
-          }
-        },
-        "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h3><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">POLÍTICAS DE <br\/><strong>CAMBIOS <\/strong>Y <strong>REEMBOLSOS<\/strong><\/a><\/h3>"
-          }
-        }
-      },
-      "block_order": [
-        "a195e4a7-ba5f-4323-adfd-a35ddadf5c97",
-        "32c14394-0a2d-42d7-8506-a3b227a938a1",
-        "1f3d1298-7731-4378-8c52-aee327afa65f",
-        "6096a9da-2986-42cc-b231-2bcf0066a505",
-        "template--15551978963037__d0200df7-18b5-46d9-a6b3-ed990ba40fc6-richtext-1"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "identifier": "policies-banner",
-        "full_width": true,
-        "mode_image": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "#f5f5f5",
-        "background_gradient": "",
-        "text_color": "#004228"
-      }
     }
   },
   "order": [
     "81738a72-0073-43da-bec4-810deabf91f6",
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
+    "d0200df7-18b5-46d9-a6b3-ed990ba40fc6",
     "slideshow",
     "collection-list",
     "rich_text_gPTYGB",
@@ -693,7 +700,6 @@
     "ff400f13-7ef4-4b86-bcd4-12be32e9d22d",
     "df3ede33-9fbf-4a2b-8206-3f667522cbc9",
     "featured-collection",
-    "78eb0dc2-bbc9-46b4-ae9f-2d01e79ca5fb",
-    "d0200df7-18b5-46d9-a6b3-ed990ba40fc6"
+    "78eb0dc2-bbc9-46b4-ae9f-2d01e79ca5fb"
   ]
 }

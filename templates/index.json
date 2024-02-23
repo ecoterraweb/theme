@@ -158,6 +158,88 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "5f0a9896-e1f9-448d-a214-f8e4017ce391": {
+      "type": "hot-spots-text",
+      "blocks": {
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 48,
+            "vertical_position": 28,
+            "horizontal_position_mobile": 47,
+            "vertical_position_mobile": 30,
+            "horizontal_position_hd": 30,
+            "vertical_position_hd": 30,
+            "icon": "shopify:\/\/shop_images\/agriculture.png",
+            "icon_width": 32,
+            "title": "EcoAgri Lab",
+            "content": "<p>El suelo es más que simplemente tierra; es la base de la civilización, el lienzo en el que se pinta la diversidad de la vida. Sin embargo, la agricultura convencional lo ha reducido a un simple medio para el lucro, robándole su riqueza.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
+          }
+        },
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 27,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 27,
+            "vertical_position_mobile": 70,
+            "horizontal_position_hd": 30,
+            "vertical_position_hd": 30,
+            "icon": "shopify:\/\/shop_images\/ICON_FL.png",
+            "icon_width": 32,
+            "title": "EcoFood Lab",
+            "content": "<p>¿Y si la comida en tu plato no fuera solo una comida sino un mensaje, una declaración de tu compromiso con un mundo más saludable? EcoFoodLab es nuestra división de ciencia culinaria donde brillantes científicos están rediseñando los alimentos desde la molécula.... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
+          }
+        },
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 66,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 64,
+            "vertical_position_mobile": 70,
+            "horizontal_position_hd": 30,
+            "vertical_position_hd": 30,
+            "icon": "shopify:\/\/shop_images\/account_tree.png",
+            "icon_width": 32,
+            "title": "EcoTech Lab",
+            "content": "<p>Haciendo de puente entre el futuro y el presente tenemos a nuestro EcoTech Lab. No es suficiente innovar en aislamiento; debemos llevar estas ideas al mundo. ¿Y qué mejor manera de hacerlo que a través de la Web 3, basada en el libro inmutable de la tecnología blockchain? ... <a href=\"\/pages\/ecotech\" title=\"EcoTech\">ver más<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-2",
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-1",
+        "template--15548375433309__5f0a9896-e1f9-448d-a214-f8e4017ce391-item-3"
+      ],
+      "custom_css": [
+        ".prose h2 strong {color: #96d123;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/fondo_hotspot_fe40d2b2-c7f2-46d8-a9b8-f3d59b5a5c1c.png",
+        "mobile_image": "shopify:\/\/shop_images\/fondo_hotspot_a6f16021-a1f4-4767-91e8-5455719b3ba0.png",
+        "hotspot_image": "shopify:\/\/shop_images\/esquema_b4740aac-51d2-4491-b88d-324aca10c8ba.png",
+        "title": "",
+        "content": "<h5>Modelo<\/h5><h2><strong>DONDE LA INNOVACIÓN SE ENCUENTRA CON LA ACCIÓN <\/strong>Y LA COMUNIDAD SE CONVIERTE EN CATALIZADORA DE CAMBIO<\/h2><p>Nuestra plataforma une a <strong>EcoFarmers, EcoPartners y EcoLovers<\/strong>, creando un ciclo virtuoso de impacto sostenible.<\/p><h1><\/h1>",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "left-right",
+        "image_background": "#ffffff",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -602,6 +684,7 @@
   "order": [
     "81738a72-0073-43da-bec4-810deabf91f6",
     "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
+    "5f0a9896-e1f9-448d-a214-f8e4017ce391",
     "slideshow",
     "collection-list",
     "rich_text_gPTYGB",

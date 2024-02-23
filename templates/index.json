@@ -110,54 +110,6 @@
         "text_color": "#1a1a1a"
       }
     },
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SN_L.png",
-            "mobile_image": "shopify:\/\/shop_images\/HM1_S.png",
-            "content_max_width": 700,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "",
-            "content": "<h2>Somos la elección de los activistas optimistas que eligen alimentos con propósito<\/h2>",
-            "title": "",
-            "heading_tag": "h6",
-            "heading_style": "font--primary",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#052e1e",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "266ea942-f3bc-46b8-896b-dccd9dc58ff5"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".content-over-media {--container-max-width: 1250px;}"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "allow_transparent_header": false,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade",
-        "autoplay": true,
-        "cycle_speed": 6,
-        "background": "#ffffff",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
-      }
-    },
     "5f0a9896-e1f9-448d-a214-f8e4017ce391": {
       "type": "hot-spots-text",
       "blocks": {
@@ -219,7 +171,7 @@
         "full_width": true,
         "image": "shopify:\/\/shop_images\/fondo_hotspot_fe40d2b2-c7f2-46d8-a9b8-f3d59b5a5c1c.png",
         "mobile_image": "shopify:\/\/shop_images\/fondo_hotspot_a6f16021-a1f4-4767-91e8-5455719b3ba0.png",
-        "hotspot_image": "shopify:\/\/shop_images\/esquema_b4740aac-51d2-4491-b88d-324aca10c8ba.png",
+        "hotspot_image": "shopify:\/\/shop_images\/ESQ_1.png",
         "title": "",
         "content": "<h5>Modelo<\/h5><h2><strong>DONDE LA INNOVACIÓN SE ENCUENTRA CON LA ACCIÓN <\/strong>Y LA COMUNIDAD SE CONVIERTE EN CATALIZADORA DE CAMBIO<\/h2><p>Nuestra plataforma une a <strong>EcoFarmers, EcoPartners y EcoLovers<\/strong>, creando un ciclo virtuoso de impacto sostenible.<\/p><h1><\/h1>",
         "button_text": "",
@@ -238,6 +190,54 @@
         "hot_spot_content_text_color": "#000000",
         "hot_spot_content_opacity": 90,
         "hot_spot_content_blur_radius": 3
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SN_L.png",
+            "mobile_image": "shopify:\/\/shop_images\/HM1_S.png",
+            "content_max_width": 700,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "",
+            "content": "<h2>Somos la elección de los activistas optimistas que eligen alimentos con propósito<\/h2>",
+            "title": "",
+            "heading_tag": "h6",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#052e1e",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "266ea942-f3bc-46b8-896b-dccd9dc58ff5"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".content-over-media {--container-max-width: 1250px;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#ffffff",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
     "collection-list": {

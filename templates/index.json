@@ -1,5 +1,115 @@
 {
   "sections": {
+    "81738a72-0073-43da-bec4-810deabf91f6": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "45323da3-7952-4c8b-be2c-67823a1b23e1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Ecoterra",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "rgba(0,0,0,0)",
+            "subheading_text_color": "#ffffff"
+          }
+        },
+        "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>ESTAMOS CAMBIANDO<\/strong> LA FORMA DE HACER LAS COSAS",
+            "heading_tag": "h2"
+          }
+        },
+        "a9f2f904-aa6f-49b3-8311-d664fd603779": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>SOMOS LA ELECCIÓN <br\/><\/strong>de los activistas optimistas que eligen alimentos con propósito<\/h2>"
+          }
+        },
+        "efe4b756-4e9e-42ec-a41e-2680a2183fa9": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "¡Aquí te contamos más!",
+            "url": "shopify:\/\/pages\/sobre-nosotros",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "45323da3-7952-4c8b-be2c-67823a1b23e1",
+        "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1",
+        "a9f2f904-aa6f-49b3-8311-d664fd603779",
+        "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
+      ],
+      "custom_css": [
+        ".content-over-media {--container-max-width: 1250px;}",
+        "strong {color: #dbde3b;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/SN_L.png",
+        "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#1a1a1a",
+        "overlay_opacity": 0
+      }
+    },
+    "ccdb1f0a-754e-414a-bc67-e798e197fe8c": {
+      "type": "rich-text",
+      "blocks": {
+        "d6dfdd0c-d135-4529-8938-8cde418de2e1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>EN ECOTERRA <strong>HACEMOS<\/strong> <strong>MUCHO MÁS QUE ALIMENTOS<\/strong><\/h2><p>Hacemos <strong>innovación y desarrollo<\/strong> para garantizar productos honestos, a través de la creación de <strong>modelos <\/strong>de producción justos, replicables y escalables. <\/p><p>Colaboramos con la naturaleza para construir <strong>alimentos con propósito <\/strong>que sean parte de la solución y no del problema. <\/p><p>Desarrollamos  <strong>tecnología Web3 <\/strong>para escalar y democratizar nuestro modelo.<\/p>"
+          }
+        },
+        "998dd2e7-ad5c-4754-ab9d-b97bb14cf468": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "a80fbbc7-e9ce-49c6-b127-de269a324faf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MANI_3.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 450,
+            "mobile_max_width": 320
+          }
+        }
+      },
+      "block_order": [
+        "d6dfdd0c-d135-4529-8938-8cde418de2e1",
+        "998dd2e7-ad5c-4754-ab9d-b97bb14cf468",
+        "a80fbbc7-e9ce-49c6-b127-de269a324faf"
+      ],
+      "custom_css": [
+        ".prose h2 {color: #004228;}",
+        ".prose h2 strong {color: #ff6700;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -46,52 +156,6 @@
         "cycle_speed": 6,
         "background": "#ffffff",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
-      }
-    },
-    "ccdb1f0a-754e-414a-bc67-e798e197fe8c": {
-      "type": "rich-text",
-      "blocks": {
-        "d6dfdd0c-d135-4529-8938-8cde418de2e1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2>EN ECOTERRA <strong>HACEMOS<\/strong> <strong>MUCHO MÁS QUE ALIMENTOS<\/strong><\/h2><p>Hacemos innovación y desarrollo para garantizar productos honestos, a través de la creación de modelos de producción justos, replicables y escalables. Colaboramos con la naturaleza para construir alimentos con propósito que sean parte de la solución y no del problema.<\/p>"
-          }
-        },
-        "998dd2e7-ad5c-4754-ab9d-b97bb14cf468": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "a80fbbc7-e9ce-49c6-b127-de269a324faf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MANI_3.png",
-            "image_link": "",
-            "invert_image": true,
-            "width_mode": "custom",
-            "max_width": 450,
-            "mobile_max_width": 320
-          }
-        }
-      },
-      "block_order": [
-        "d6dfdd0c-d135-4529-8938-8cde418de2e1",
-        "998dd2e7-ad5c-4754-ab9d-b97bb14cf468",
-        "a80fbbc7-e9ce-49c6-b127-de269a324faf"
-      ],
-      "custom_css": [
-        ".prose h2 {color: #004228;}",
-        ".prose h2 strong {color: #ff6700;}"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "mode_image": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "#f5f5f5",
-        "background_gradient": "",
-        "text_color": "#1a1a1a"
       }
     },
     "collection-list": {
@@ -203,70 +267,6 @@
         "text_color": "#1a1a1a",
         "heading_color": "#1a1a1a",
         "heading_gradient": ""
-      }
-    },
-    "81738a72-0073-43da-bec4-810deabf91f6": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "45323da3-7952-4c8b-be2c-67823a1b23e1": {
-          "type": "subheading",
-          "settings": {
-            "text": "Ecoterra",
-            "custom_pill_subheading": false,
-            "subheading_background_color": "rgba(0,0,0,0)",
-            "subheading_text_color": "#ffffff"
-          }
-        },
-        "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>ESTAMOS CAMBIANDO<\/strong> LA FORMA DE HACER LAS COSAS",
-            "heading_tag": "h2"
-          }
-        },
-        "a9f2f904-aa6f-49b3-8311-d664fd603779": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2><strong>SOMOS LA ELECCIÓN <br\/><\/strong>de los activistas optimistas que eligen alimentos con propósito<\/h2>"
-          }
-        },
-        "efe4b756-4e9e-42ec-a41e-2680a2183fa9": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "¡Aquí te contamos más!",
-            "url": "shopify:\/\/pages\/sobre-nosotros",
-            "background": "rgba(0,0,0,0)",
-            "text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "45323da3-7952-4c8b-be2c-67823a1b23e1",
-        "template--15546130071645__81738a72-0073-43da-bec4-810deabf91f6-heading-1",
-        "a9f2f904-aa6f-49b3-8311-d664fd603779",
-        "efe4b756-4e9e-42ec-a41e-2680a2183fa9"
-      ],
-      "custom_css": [
-        ".content-over-media {--container-max-width: 1250px;}",
-        "strong {color: #dbde3b;}"
-      ],
-      "settings": {
-        "identifier": "",
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/SN_L.png",
-        "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
-        "text_color": "#ffffff",
-        "overlay_color": "#1a1a1a",
-        "overlay_opacity": 0
       }
     },
     "rich_text_gPTYGB": {
@@ -600,10 +600,10 @@
     }
   },
   "order": [
-    "slideshow",
-    "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
-    "collection-list",
     "81738a72-0073-43da-bec4-810deabf91f6",
+    "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
+    "slideshow",
+    "collection-list",
     "rich_text_gPTYGB",
     "f6845132-3793-464a-b1d9-3b7b0ab1c835",
     "impact_text_design_CddPG3",

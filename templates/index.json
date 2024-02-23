@@ -48,6 +48,52 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "ccdb1f0a-754e-414a-bc67-e798e197fe8c": {
+      "type": "rich-text",
+      "blocks": {
+        "d6dfdd0c-d135-4529-8938-8cde418de2e1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>EN ECOTERRA <strong>HACEMOS<\/strong> <strong>MUCHO MÁS QUE ALIMENTOS<\/strong><\/h2><p>Hacemos innovación y desarrollo para garantizar productos honestos, a través de la creación de modelos de producción justos, replicables y escalables. Colaboramos con la naturaleza para construir alimentos con propósito que sean parte de la solución y no del problema.<\/p>"
+          }
+        },
+        "998dd2e7-ad5c-4754-ab9d-b97bb14cf468": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "a80fbbc7-e9ce-49c6-b127-de269a324faf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MANI_3.png",
+            "image_link": "",
+            "invert_image": true,
+            "width_mode": "custom",
+            "max_width": 450,
+            "mobile_max_width": 320
+          }
+        }
+      },
+      "block_order": [
+        "d6dfdd0c-d135-4529-8938-8cde418de2e1",
+        "998dd2e7-ad5c-4754-ab9d-b97bb14cf468",
+        "a80fbbc7-e9ce-49c6-b127-de269a324faf"
+      ],
+      "custom_css": [
+        ".prose h2 {color: #004228;}",
+        ".prose h2 strong {color: #ff6700;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -555,6 +601,7 @@
   },
   "order": [
     "slideshow",
+    "ccdb1f0a-754e-414a-bc67-e798e197fe8c",
     "collection-list",
     "81738a72-0073-43da-bec4-810deabf91f6",
     "rich_text_gPTYGB",

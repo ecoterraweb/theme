@@ -6,37 +6,13 @@
         "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HM_1_L.png",
+            "image": "shopify:\/\/shop_images\/SN_L.png",
             "mobile_image": "shopify:\/\/shop_images\/HM1_S.png",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
-            "content": "<h1><strong>Elige<\/strong> con propósito<\/h1>",
-            "title": "",
-            "heading_tag": "h6",
-            "heading_style": "font--primary",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#052e1e",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HM2_L.png",
-            "mobile_image": "shopify:\/\/shop_images\/HM2_S.png",
-            "content_max_width": 700,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "",
-            "content": "<h1><strong>DISFRUTA<\/strong> CON SENTIDO<\/h1>",
+            "content": "<h2>Somos la elección de los activistas optimistas que eligen alimentos con propósito<\/h2>",
             "title": "",
             "heading_tag": "h6",
             "heading_style": "font--primary",
@@ -53,9 +29,9 @@
         }
       },
       "block_order": [
-        "266ea942-f3bc-46b8-896b-dccd9dc58ff5",
-        "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
+        "266ea942-f3bc-46b8-896b-dccd9dc58ff5"
       ],
+      "disabled": true,
       "custom_css": [
         ".content-over-media {--container-max-width: 1250px;}"
       ],
@@ -158,6 +134,7 @@
         "8b964281-f506-48b3-bc22-9412fd6969ee",
         "504a19e4-093c-4d4c-814a-abe0c051e2a1"
       ],
+      "disabled": true,
       "custom_css": [
         ".prose h2 {color: #004228;}",
         "strong {color: #dbde3b;}",
@@ -188,7 +165,7 @@
         "45323da3-7952-4c8b-be2c-67823a1b23e1": {
           "type": "subheading",
           "settings": {
-            "text": "sobre nosotros",
+            "text": "Ecoterra",
             "custom_pill_subheading": false,
             "subheading_background_color": "rgba(0,0,0,0)",
             "subheading_text_color": "#ffffff"
@@ -205,11 +182,12 @@
         "a9f2f904-aa6f-49b3-8311-d664fd603779": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>ACTIVISTAS OPTIMISTAS <br\/><\/strong>QUE TIENEN HAMBRE DE CAMBIO<\/h2>"
+            "content": "<h2><strong>SOMOS LA ELECCIÓN <br\/><\/strong>de los activistas optimistas que eligen alimentos con propósito<\/h2>"
           }
         },
         "efe4b756-4e9e-42ec-a41e-2680a2183fa9": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "fill",
             "size": "lg",

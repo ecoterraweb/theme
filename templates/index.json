@@ -210,7 +210,7 @@
       "custom_css": [
         ".prose h2 {color: #004228;}",
         "strong {color: #dbde3b;}",
-        ".section-link-wrapper {display: flex; }"
+        ".section-link-wrapper a{display: flex; justify-content: flex-end;}"
       ],
       "settings": {
         "full_width": true,

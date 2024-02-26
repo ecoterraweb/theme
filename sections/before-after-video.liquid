@@ -25,7 +25,7 @@ LIQUID
 
 <div {% render 'section-properties' %}>
   <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}" style="display: flex;">
-    <div class="display: flex; flex-direction: column; justify-content: flex-start; width: 20%">
+    <div class="display: flex; flex-direction: column; align-items: flex-start; width: 20%">
     {%- capture content -%}
       {%- if section.settings.subheading != blank -%}
         {%- if section.settings.custom_pill_subheading -%}

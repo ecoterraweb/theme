@@ -208,8 +208,7 @@
         "504a19e4-093c-4d4c-814a-abe0c051e2a1"
       ],
       "custom_css": [
-        ".prose h2 {color: #004228;}",
-        "strong {color: #dbde3b;}",
+        ".prose {color: #004228; display: flex; justify-content: flex-end;}",
         ".section-link-wrapper {display: flex; justify-content: flex-end;}"
       ],
       "settings": {
@@ -221,7 +220,7 @@
         "custom_pill_subheading": false,
         "subheading_background_color": "#ffffff",
         "title": "",
-        "content": "",
+        "content": "<h6><a href=\"\/collections\/all\" title=\"Todos los productos\">Ver Todas<\/a><\/h6>",
         "link_url": "shopify:\/\/collections\/todos-los-productos",
         "link_text": "Ver Todas",
         "background": "#ffffff",

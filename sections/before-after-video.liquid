@@ -65,7 +65,7 @@ LIQUID
       </div>
     {%- endif -%}
   </div>
-    <div class="section-stack__main" style="width: 50%;">
+    <div class="section-stack__main">
        {%- capture class -%}content-over-media {% if section.settings.video_size != 'auto' %}content-over-media--{{ section.settings.video_size }}{% endif %} {% if section.settings.full_width %}full-bleed{% else %}shadow-block rounded-lg{% endif %}{%- endcapture -%}
       <div {% render 'surface', class: class, text_color: section.settings.text_color %}>
         {%- capture poster -%}

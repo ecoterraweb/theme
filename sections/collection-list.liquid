@@ -38,7 +38,9 @@ LIQUID
 
 <div {% render 'section-properties' %}>
   <div class="section-stack">
+    <div class="section-link-wrapper">
     {%- assign link_url = section.settings.link_url | default: section.settings.collection.url -%}
+    </div>
     <div class="section-header-wrapper">
       {%- render 'section-header', subheading: section.settings.subheading, class_heading: section.settings.custom_pill_subheading,  subheading_background_color: section.settings.subheading_background_color, heading: section.settings.title, heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content, link_text: section.settings.link_text, link_url: link_url -%}
     </div>

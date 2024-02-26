@@ -161,7 +161,7 @@
       "custom_css": [
         ".prose h2 {color: #004228;}",
         "strong {color: #dbde3b;}",
-        ".prose {display: flex; flex-direction: column; align-items: flex-start;}"
+        ".prose {display: flex; flex-direction: column; align-content: flex-start;}"
       ],
       "settings": {
         "full_width": true,

@@ -72,6 +72,55 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "rich_text_pk4drf": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_dbMnhe": {
+          "type": "subheading",
+          "settings": {
+            "text": "NUESTROS PRODUCTOS",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
+          }
+        },
+        "heading_fmQHVK": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_FbqQ4M": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>MUCHO MÁS QUE ALIMENTOS, <strong>PRODUCTOS HONESTOS<\/strong> <strong>QUE SALVAN AL PLANETA.<\/strong><\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_dbMnhe",
+        "heading_fmQHVK",
+        "richtext_FbqQ4M"
+      ],
+      "custom_css": [
+        ".prose h2 {color: #004228;}",
+        "strong {color: #dbde3b;}"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "mode_image": false,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -160,19 +209,18 @@
       ],
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        "strong {color: #dbde3b;}",
-        ".prose {display: flex; flex-direction: column; align-content: flex-start;}"
+        "strong {color: #dbde3b;}"
       ],
       "settings": {
         "full_width": true,
         "stack_collections": false,
         "collections_per_row": 3,
         "show_progress_bar": true,
-        "subheading": "NUESTROS PRODUCTOS",
+        "subheading": "",
         "custom_pill_subheading": false,
         "subheading_background_color": "#ffffff",
         "title": "",
-        "content": "<h2>MUCHO MÁS QUE ALIMENTOS, <strong>PRODUCTOS HONESTOS<\/strong> <strong>QUE SALVAN AL PLANETA.<\/strong><\/h2>",
+        "content": "",
         "link_url": "shopify:\/\/collections\/todos-los-productos",
         "link_text": "Ver Todas",
         "background": "#ffffff",
@@ -577,6 +625,7 @@
   },
   "order": [
     "slideshow",
+    "rich_text_pk4drf",
     "collection-list",
     "81738a72-0073-43da-bec4-810deabf91f6",
     "rich_text_gPTYGB",

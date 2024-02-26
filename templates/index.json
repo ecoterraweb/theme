@@ -220,7 +220,7 @@
         "custom_pill_subheading": false,
         "subheading_background_color": "#ffffff",
         "title": "",
-        "content": "<h6><a href=\"\/collections\/all\" title=\"Todos los productos\">Ver Todas<\/a><\/h6>",
+        "content": "",
         "link_url": "shopify:\/\/collections\/todos-los-productos",
         "link_text": "Ver Todas",
         "background": "#ffffff",

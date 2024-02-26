@@ -316,7 +316,7 @@
         "mode_image": false,
         "content_width": "small",
         "text_position": "start",
-        "background": "",
+        "background": "#f5f5f5",
         "background_gradient": "",
         "text_color": ""
       }

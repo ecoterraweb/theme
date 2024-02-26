@@ -25,6 +25,7 @@ LIQUID
 
 <div {% render 'section-properties' %}>
   <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}" style="display: flex;">
+    <div class="width: 30%">
     {%- capture content -%}
       {%- if section.settings.subheading != blank -%}
         {%- if section.settings.custom_pill_subheading -%}
@@ -58,6 +59,7 @@ LIQUID
         </div>
       </div>
     {%- endif -%}
+  </div>
     <div class="section-stack__main" style="width: 50%;">
        {%- capture class -%}content-over-media {% if section.settings.video_size != 'auto' %}content-over-media--{{ section.settings.video_size }}{% endif %} {% if section.settings.full_width %}full-bleed{% else %}shadow-block rounded-lg{% endif %}{%- endcapture -%}
       <div {% render 'surface', class: class, text_color: section.settings.text_color %}>

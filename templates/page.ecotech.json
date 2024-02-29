@@ -190,7 +190,7 @@
         "content": "<p>Registramos en blockchain para demostrarte \u2028que nuestras certificaciones son 100% reales. <br\/>¡En este video te contamos cómo!<\/p>",
         "text_position": "start",
         "autoplay": true,
-        "video_size": "auto",
+        "video_size": "md",
         "external_video_url": "https:\/\/youtu.be\/GTxfG4dpnMU",
         "background": "",
         "background_gradient": "",

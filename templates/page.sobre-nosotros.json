@@ -603,23 +603,6 @@
         "button_text_color": ""
       }
     },
-    "dbd57f90-5146-4835-adb4-220ac07d91a0": {
-      "type": "certificate-list",
-      "settings": {
-        "background_color": "#f5f5f5",
-        "subheading": "certificaciones y sellos",
-        "title": "<h2><strong>LOS SELLOS QUE NOS ENORGULLECEN <\/strong>Y LOS CERTIFICADOS QUE NOS RESPALDAN<\/h2>",
-        "text_position": "start",
-        "content_width": "large",
-        "color_title": "#004228",
-        "color_title_strong": "#394ff0",
-        "paragraph": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta.<br\/><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>",
-        "button_text": "Ir a certificaciones",
-        "button_link": "#",
-        "api_url": "",
-        "api_key": ""
-      }
-    },
     "rich_text_Wnk7Mi": {
       "type": "rich-text",
       "blocks": {
@@ -897,7 +880,6 @@
     "5f0a9896-e1f9-448d-a214-f8e4017ce391",
     "d88f52d8-b117-43fc-96fe-5d439dea6412",
     "23a65bae-1921-413d-8f45-a5a71140750c",
-    "dbd57f90-5146-4835-adb4-220ac07d91a0",
     "rich_text_Wnk7Mi",
     "dfc8565e-4587-4b83-bfb7-8042178e6e77",
     "ccff1d20-57b9-402b-9f62-d36451f0be52",

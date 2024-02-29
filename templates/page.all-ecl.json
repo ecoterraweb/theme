@@ -73,50 +73,39 @@
         "text_color": "#ffffff"
       }
     },
-    "rich_text_CykaBD": {
+    "rich_text_GHnPYC": {
       "type": "rich-text",
       "blocks": {
-        "richtext_h8nDir": {
-          "type": "richtext",
+        "subheading_KgwMwV": {
+          "type": "subheading",
           "settings": {
-            "content": "<h2>I° REVISA LAS CERTIFICACIONES ASOCIADAS AL PRODUCTO<\/h2><p>Acá podrás encontrar la descripción de cada certificación asociada al producto. <br\/><br\/><strong>¡SÓLO HAZ CLICK SOBRE CADA SELLO PARA EXPLORARLO!<\/strong><\/p>"
+            "text": "NUESTROS SELLOS",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
           }
         },
-        "divider_tgdxfK": {
-          "type": "divider",
+        "heading_BFjeHX": {
+          "type": "heading",
           "settings": {
-          }
-        },
-        "image_bF7j8B": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ESQ_POE2.png",
-            "image_link": "",
-            "invert_image": true,
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
+            "text": "CONOCE NUESTROS SELLOS",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
           }
         }
       },
       "block_order": [
-        "richtext_h8nDir",
-        "divider_tgdxfK",
-        "image_bF7j8B"
-      ],
-      "custom_css": [
-        ".prose h3 {color: #004228; font-size: 30px; font-weight: 500;}",
-        ".prose h1 strong {color: #dbde3b;}",
-        ".prose p strong {color: #7dac00;}",
-        ".prose p {font-size: 16px; line-height: 24px;}"
+        "subheading_KgwMwV",
+        "heading_BFjeHX"
       ],
       "settings": {
         "identifier": "",
         "full_width": true,
-        "mode_image": true,
-        "content_width": "large",
+        "mode_image": false,
+        "content_width": "small",
         "text_position": "start",
-        "background": "",
+        "background": "#fafafa",
         "background_gradient": "",
         "text_color": ""
       }
@@ -124,42 +113,6 @@
     "image_link_blocks_BFb9B7": {
       "type": "image-link-blocks",
       "blocks": {
-        "item_yji7Ui": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_A7UpT4": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_rzKdGq": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "item_GLNktx": {
           "type": "item",
           "settings": {
@@ -171,13 +124,49 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "item_QGCan8": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_CTpK4C": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_wcGJaH": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "item_yji7Ui",
-        "item_A7UpT4",
-        "item_rzKdGq",
-        "item_GLNktx"
+        "item_GLNktx",
+        "item_QGCan8",
+        "item_CTpK4C",
+        "item_wcGJaH"
       ],
       "settings": {
         "full_width": false,
@@ -187,7 +176,7 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "",
+        "background": "#fafafa",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -199,7 +188,7 @@
     "9b252a1d-20be-41e1-ae4f-5d0d8f298207",
     "main",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
-    "rich_text_CykaBD",
+    "rich_text_GHnPYC",
     "image_link_blocks_BFb9B7"
   ]
 }

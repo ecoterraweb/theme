@@ -605,14 +605,11 @@
     },
     "dbd57f90-5146-4835-adb4-220ac07d91a0": {
       "type": "certificate-list",
-      "custom_css": [
-
-      ],
       "settings": {
         "background_color": "#f5f5f5",
         "subheading": "certificaciones y sellos",
         "title": "<h2><strong>LOS SELLOS QUE NOS ENORGULLECEN <\/strong>Y LOS CERTIFICADOS QUE NOS RESPALDAN<\/h2>",
-        "text_position": "center",
+        "text_position": "start",
         "content_width": "large",
         "color_title": "#004228",
         "color_title_strong": "#394ff0",
@@ -623,62 +620,54 @@
         "api_key": ""
       }
     },
-    "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5": {
+    "rich_text_Wnk7Mi": {
       "type": "rich-text",
       "blocks": {
-        "3a78ca24-56a4-4b02-aa3c-f59a523f7d6c": {
+        "subheading_qDL3M7": {
           "type": "subheading",
           "settings": {
-            "text": "certificaciones y sellos",
-            "custom_pill_subheading": true,
-            "subheading_background_color": "#000000",
-            "subheading_text_color": "#ffffff"
+            "text": "CERTIFICADOS Y SELLOS",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
           }
         },
-        "39c19eab-4214-48f8-a818-d31e8d4bc0ae": {
+        "richtext_fTfFjY": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>LOS <strong>SELLOS<\/strong> QUE NOS <strong>RESPALDAN <\/strong><\/h2>"
+            "content": "<h2><strong>LOS SELLOS QUE NOS ENORGULLECEN <\/strong>Y LOS CERTIFICADOS QUE NOS RESPALDAN<\/h2>"
           }
         },
-        "501e073a-a8c5-4846-a584-69881fb4852c": {
+        "divider_6mGaWg": {
           "type": "divider",
           "settings": {
           }
         },
-        "a481fea8-5a98-4cb2-91ce-ad90f9a3e6bd": {
+        "richtext_cmnqHt": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta. <\/p><p><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><\/p>"
+            "content": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta.<br\/><br\/>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/p>"
           }
         }
       },
       "block_order": [
-        "3a78ca24-56a4-4b02-aa3c-f59a523f7d6c",
-        "39c19eab-4214-48f8-a818-d31e8d4bc0ae",
-        "501e073a-a8c5-4846-a584-69881fb4852c",
-        "a481fea8-5a98-4cb2-91ce-ad90f9a3e6bd"
+        "subheading_qDL3M7",
+        "richtext_fTfFjY",
+        "divider_6mGaWg",
+        "richtext_cmnqHt"
       ],
-      "disabled": true,
       "custom_css": [
-        "h2 {font-size: 45px;}",
-        "p.strong {color: #1a1a1a;}",
-        "p.bold {font-size: 20px; letter-spacing: 0.05em; font-weight: 400; font-variant-caps: small-caps;}",
-        "div {align-items: left; text-align: left;}",
-        "h2 strong {color: #10ccf4;}",
-        ".split-rich-text {padding: 44px 48px;}",
-        ".rich-text {padding: 40px 15px 100px;}"
+        ".prose strong {color: #394FF0;}"
       ],
       "settings": {
-        "identifier": "Impacto-section",
+        "identifier": "",
         "full_width": true,
         "mode_image": false,
-        "image": "shopify:\/\/shop_images\/Rich_text.png",
-        "content_width": "medium",
+        "content_width": "small",
         "text_position": "start",
-        "background": "#fafafa",
+        "background": "",
         "background_gradient": "",
-        "text_color": "#1a1a1a"
+        "text_color": ""
       }
     },
     "dfc8565e-4587-4b83-bfb7-8042178e6e77": {
@@ -877,7 +866,6 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/nosotros_f7d28bc9-70cf-4a12-8d0b-40a0966fc168.png",
         "subheading": "contáctanos",
         "title": "¡HABLEMOS!",
         "content": "<p>Si tienes alguna duda, quieres formar parte de nuestro equipo o simplemente quieres contactarte con nosotros, déjanos un mensaje y ¡nos contactaremos contigo!<\/p>",
@@ -910,7 +898,7 @@
     "d88f52d8-b117-43fc-96fe-5d439dea6412",
     "23a65bae-1921-413d-8f45-a5a71140750c",
     "dbd57f90-5146-4835-adb4-220ac07d91a0",
-    "ff5c6e98-5cb3-4594-97fc-dbf759fc7ac5",
+    "rich_text_Wnk7Mi",
     "dfc8565e-4587-4b83-bfb7-8042178e6e77",
     "ccff1d20-57b9-402b-9f62-d36451f0be52",
     "63303b90-3a37-407c-9926-07e8e5d5910f",

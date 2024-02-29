@@ -646,7 +646,7 @@
         "richtext_cmnqHt": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta.<br\/><br\/>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/p>"
+            "content": "<p><\/p><p><\/p><p>Estamos orgullosos de tener estas certificaciones, pues reflejan nuestro incansable compromiso por ser motores del impacto positivo en nuestro planeta.<br\/><br\/><strong>¡ENCUENTRA ESTOS SELLOS EN NUESTROS PRODUCTOS!<\/strong><br\/><br\/><\/p>"
           }
         }
       },
@@ -657,7 +657,7 @@
         "richtext_cmnqHt"
       ],
       "custom_css": [
-        ".prose strong {color: #394FF0;}"
+        ".prose h2 strong {color: #394ff0;}"
       ],
       "settings": {
         "identifier": "",

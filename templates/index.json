@@ -299,7 +299,7 @@
         "heading_7yJinR": {
           "type": "heading",
           "settings": {
-            "text": "CIFRAS QUE GENERAN LA DIFERENCIA",
+            "text": "CIFRAS QUE MARCAN LA DIFERENCIA",
             "heading_tag": "h1",
             "text_color": "#ff00e8",
             "gradient": ""
@@ -314,7 +314,7 @@
         "identifier": "",
         "full_width": true,
         "mode_image": false,
-        "content_width": "small",
+        "content_width": "medium",
         "text_position": "start",
         "background": "#f5f5f5",
         "background_gradient": "",

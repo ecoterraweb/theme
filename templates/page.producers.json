@@ -3,10 +3,58 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "image_with_text_overlay_MtbpWt": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_gTNMwm": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading",
+            "custom_pill_subheading": false,
+            "subheading_background_color": "",
+            "subheading_text_color": ""
+          }
+        },
+        "heading_7aWQKW": {
+          "type": "heading",
+          "settings": {
+            "text": "NUESTROS PRODUCTORES",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_ENV99Q": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Como Ecoterra estamos orgullosos de trabajar \u2028juntos a nuestros productores comprometidos a cambiar el planeta.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gTNMwm",
+        "heading_7aWQKW",
+        "richtext_ENV99Q"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/HM_1_L.png",
+        "mobile_image": "shopify:\/\/shop_images\/HM1_S.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_overlay_MtbpWt"
   ]
 }

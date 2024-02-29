@@ -182,6 +182,33 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "featured_collection_xVL6z3": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 16,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -189,6 +216,7 @@
     "main",
     "7a0252a9-9b49-4057-8614-7c8b84f9269d",
     "rich_text_GHnPYC",
-    "image_link_blocks_BFb9B7"
+    "image_link_blocks_BFb9B7",
+    "featured_collection_xVL6z3"
   ]
 }

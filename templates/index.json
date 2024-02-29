@@ -549,6 +549,39 @@
         "button_text_color": ""
       }
     },
+    "image_with_text_overlay_zNKbBW": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "button_CRHzRt": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "DESCÁRGALO AQUÍ",
+            "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0280\/0854\/6397\/files\/Catalogo_Final.pdf?v=1698353517",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_CRHzRt"
+      ],
+      "settings": {
+        "identifier": "",
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/CAT_L_d88d9d44-d00b-4fcc-ada3-b27e386b6515.png",
+        "mobile_image": "shopify:\/\/shop_images\/CAT_S_89ea1e13-440a-4afe-b71d-370e759c6f6c.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "d0200df7-18b5-46d9-a6b3-ed990ba40fc6": {
       "type": "rich-text",
       "blocks": {
@@ -626,6 +659,7 @@
     "df3ede33-9fbf-4a2b-8206-3f667522cbc9",
     "featured-collection",
     "78eb0dc2-bbc9-46b4-ae9f-2d01e79ca5fb",
+    "image_with_text_overlay_zNKbBW",
     "d0200df7-18b5-46d9-a6b3-ed990ba40fc6"
   ]
 }

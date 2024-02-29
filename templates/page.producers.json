@@ -144,8 +144,8 @@
       "settings": {
         "full_width": true,
         "stack_collections": true,
-        "collections_per_row": 3,
-        "show_progress_bar": false,
+        "collections_per_row": 4,
+        "show_progress_bar": true,
         "subheading": "",
         "custom_pill_subheading": false,
         "subheading_background_color": "",

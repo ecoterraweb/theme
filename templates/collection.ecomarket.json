@@ -26,8 +26,6 @@
         "image_GWjNpa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_EcoDays_marzo2024_descuentos.png",
-            "mobile_image": "shopify:\/\/shop_images\/Banner_EcoDays_marzo2024_descuentos-Mobile.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",

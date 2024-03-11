@@ -165,8 +165,11 @@
         "richtext_EpiyVi",
         "button_V44NzC"
       ],
+      "custom_css": [
+        ".manifiesto-button {display: flex; flex-direction: column; justify-content: center; align-items: center;}"
+      ],
       "settings": {
-        "identifier": "",
+        "identifier": "manifiesto-button",
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,

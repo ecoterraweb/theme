@@ -3,30 +3,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HM_1_L.png",
-            "mobile_image": "shopify:\/\/shop_images\/HM1_S.png",
-            "content_max_width": 700,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "",
-            "content": "<h1><strong>Elige<\/strong> con propósito<\/h1>",
-            "title": "",
-            "heading_tag": "h6",
-            "heading_style": "font--primary",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#052e1e",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b": {
           "type": "image",
           "settings": {
@@ -50,11 +26,35 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HM_1_L.png",
+            "mobile_image": "shopify:\/\/shop_images\/HM1_S.png",
+            "content_max_width": 700,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "",
+            "content": "<h1><strong>Elige<\/strong> con propósito<\/h1>",
+            "title": "",
+            "heading_tag": "h6",
+            "heading_style": "font--primary",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#052e1e",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
-        "266ea942-f3bc-46b8-896b-dccd9dc58ff5",
-        "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b"
+        "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b",
+        "266ea942-f3bc-46b8-896b-dccd9dc58ff5"
       ],
       "custom_css": [
         ".content-over-media {--container-max-width: 1250px;}"
@@ -114,7 +114,7 @@
         "identifier": "",
         "full_width": true,
         "mode_image": false,
-        "content_width": "small",
+        "content_width": "medium",
         "text_position": "start",
         "background": "",
         "background_gradient": "",
@@ -277,7 +277,7 @@
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/SN_L.png",
         "mobile_image": "shopify:\/\/shop_images\/Sideshow.png",
-        "mobile_text_position": "place-self-center text-center",
+        "mobile_text_position": "place-self-center-start text-start",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#1a1a1a",
@@ -522,10 +522,15 @@
       "type": "before-after-video",
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        "h2 strong {color: #ff6700;}",
+        "h2 strong {color: #7DAC00;}",
         ".full-bleed {max-width: 100%; margin: 0;}",
         ".prose .bold {margin-bottom: 0 !important;}",
-        ".prose {gap: 22px;}"
+        ".prose {gap: 22px;}",
+        "img {margin-bottom: 10px;}",
+        "div {display: flex;}",
+        "div > div {width: 90%; display: flex; flex-direction: column; justify-content: center;}",
+        "div > div > h2 {display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;}",
+        "div > div > img {display: flex; flex-direction: row; justify-content: center; width: 200px;}"
       ],
       "settings": {
         "full_width": false,
@@ -533,7 +538,7 @@
         "custom_pill_subheading": false,
         "subheading_background_color": "#505050",
         "title": "",
-        "content": "<h2>¿SABES DE <strong>DÓNDE VIENEN<\/strong> TUS ALIMENTOS?<\/h2><p>Gracias a la tecnología de <strong>WEB.3<\/strong>  y la revolución del <strong>BLOCKCHAIN<\/strong>, te lo podemos contar.<\/p>",
+        "content": "<h2>¿CONOCES EL ORIGEN DE TUS ALIMENTOS?<\/h2><p>Gracias a la tecnología de <strong>WEB.3<\/strong>  y la revolución del <strong>BLOCKCHAIN<\/strong>, te lo podemos contar.<\/p>",
         "text_position": "start",
         "autoplay": true,
         "video_size": "auto",

@@ -522,7 +522,7 @@
       "type": "before-after-video",
       "custom_css": [
         ".prose h2 {color: #004228;}",
-        "h2 strong {color: #7DAC00;}",
+        ".prose h2 strong {color: #7dac00;}",
         ".full-bleed {max-width: 100%; margin: 0;}",
         ".prose .bold {margin-bottom: 0 !important;}",
         ".prose {gap: 22px;}",

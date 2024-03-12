@@ -166,10 +166,10 @@
         "button_V44NzC"
       ],
       "custom_css": [
-        ".manifiesto-button {display: flex; flex-direction: column; justify-content: center; align-items: center;}"
+        ".sn-manifiesto div {display: flex; flex-direction: column; justify-content: center; align-items: center;}"
       ],
       "settings": {
-        "identifier": "manifiesto-button",
+        "identifier": "sn-manifiesto",
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,

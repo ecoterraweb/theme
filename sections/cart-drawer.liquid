@@ -163,7 +163,9 @@
 
       <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
         {%- assign checkout_label = 'cart.general.checkout' | t -%}
+        {% comment %}
         {%- render 'subscription-select' -%}
+        {% endcomment %}
 
         {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
           <a href="{{ routes.cart_url }}" class="button button--xl {% if section.settings.show_checkout_button %}button--secondary{% endif %}" data-no-instant>

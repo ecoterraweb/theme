@@ -123,7 +123,7 @@ all events, dependencies...) in the "documentation.txt" file, located in the Ass
       {%- endif -%}
     {%- endif -%}
 
-    {%- if request.page_type == 'customers/account' or request.page_type == 'customers/order' or request.page_type == 'customers/addresses' -%}
+    {%- if request.page_type == 'customers/account' or request.page_type == 'customers/order' or request.page_type == 'customers/addresses' or request.path == '/pages/mis-suscripciones' or request.path contains '/pages/detalle-suscripcion/' -%}
       {%- section 'account-banner' -%}
     {%- endif -%}
 

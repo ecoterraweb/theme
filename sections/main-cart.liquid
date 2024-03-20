@@ -99,7 +99,17 @@
 
                       <div class="h-stack gap-4 justify-between">
                         <span class="text-subdued">{{ 'cart.general.subtotal' | t }}</span>
-                        <span class="text-subdued">{{ cart.items_subtotal_price | money }}</span>
+                        <span class="text-subdued mc:subtotal">{{ cart.items_subtotal_price | money }}</span>
+                      </div>
+
+                      <div class="h-stack gap-4 justify-between" style="display: none;">
+                        <span class="text-subdued">Descuento por suscripción</span>
+                        <span class="text-subdued mc:descuento">0</span>
+                      </div>
+
+                      <div class="h-stack gap-4 justify-between" style="display: none;">
+                        <span class="text-subdued">Valor despacho</span>
+                        <span class="text-subdued mc:despacho">0</span>
                       </div>
 
                       {% for discount_application in cart.cart_level_discount_applications %}
@@ -114,7 +124,7 @@
 
                       <div class="h-stack gap-4 justify-between">
                         <span class="h5">{{ 'cart.general.total' | t }}</span>
-                        <span class="h5">{{- cart.total_price | money_with_currency -}}</span>
+                        <span class="h5 mc:total">{{- cart.total_price | money_with_currency -}}</span>
                       </div>
 
                       {%- if block.settings.show_shipping_text -%}
@@ -165,6 +175,7 @@
                     {% endif %}
 
                   {%- when 'checkout_button' -%}
+                    {%- render 'subscription-select' -%}
                     {%- assign checkout_button = 'cart.general.checkout' | t -%}
                     {%- render 'button', type: 'submit', icon: 'picto-lock', content: checkout_button, size: 'xl', name: 'checkout', stretch: true, block: block -%}
                 {%- endcase -%}

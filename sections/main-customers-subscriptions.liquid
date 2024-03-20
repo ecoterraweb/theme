@@ -164,9 +164,6 @@
     let _current_length = 0;
     let _rows = "";
 
-    const format = (_num) => {
-        return _num < 10 ? "0" + _num : _num;
-    }
 
     const misSuscripciones = async () => {
         const formData = new FormData();
@@ -177,7 +174,7 @@
         formData.append('offset', _current_length);
         console.log("Consultando mis suscripciones");
 
-        await fetch('https://sarguero.btsmensajeria.com/suscripciones', {
+        await fetch('https://subscriptions.ecoterra.cl/suscripciones', {
             method: 'POST',
             body: formData
         })
@@ -194,10 +191,10 @@
                         let _fecha_expiracion = new Date(item.fecha_expiracion);
 
                         _rows += `<tr class="table-row-hover" onclick="window.location.href = '/pages/detalle-suscripcion/${window.btoa(item.id)}'">
-                                <td class="text-subdued _pre">${item.producto_nombre}</td>
+                                <td class="text-subdued _pre">${item.productos}</td>
                                 <td class="text-subdued _capitalize">${item.frecuencia}</td>
                                 <td class="text-subdued">${item.dia_entrega}</td>
-                                <td class="text-subdued">${item.producto_precio}</td>
+                                <td class="text-subdued">${item.valor_total}</td>
                                 <td class="text-subdued text-end">${item.estado}</td>
                             </tr>`;
                     });

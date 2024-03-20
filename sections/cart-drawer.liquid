@@ -1,4 +1,5 @@
 <cart-drawer {% if request.design_mode %}handle-section-events{% endif %} class="cart-drawer drawer drawer--lg" id="cart-drawer">
+  {%- render 'date-picker' -%}
   {%- if cart.item_count == 0 -%}
     <button is="close-button" aria-label="{{ 'general.accessibility.close' | t | escape }}">
       {%- render 'icon' with 'close' -%}
@@ -86,6 +87,21 @@
 
     <div class="v-stack gap-4 sm:gap-6" slot="footer">
       <div class="v-stack gap-1">
+        <div class="h-stack gap-4 justify-between" style="display: none;">
+          <span class="text-subdued">{{ 'cart.general.subtotal' | t }}</span>
+          <span class="text-subdued dc:subtotal">{{ cart.items_subtotal_price | money }}</span>
+        </div>
+
+        <div class="h-stack gap-4 justify-between" style="display: none;">
+          <span class="text-subdued">Descuento por suscripción</span>
+          <span class="text-subdued dc:descuento">0</span>
+        </div>
+
+        <div class="h-stack gap-4 justify-between" style="display: none;">
+          <span class="text-subdued">Valor despacho</span>
+          <span class="text-subdued dc:despacho">0</span>
+        </div>
+
         {% for discount_application in cart.cart_level_discount_applications %}
           <div class="h-stack gap-4 justify-between">
             <div class="badge">
@@ -98,7 +114,7 @@
 
         <div class="h-stack gap-4 justify-between">
           <span class="h5">{{ 'cart.general.total' | t }}</span>
-          <span class="h5">{{- cart.total_price | money_with_currency -}}</span>
+          <span class="h5 dc:total">{{- cart.total_price | money_with_currency -}}</span>
         </div>
 
         {%- if section.settings.show_shipping_text -%}
@@ -147,6 +163,7 @@
 
       <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
         {%- assign checkout_label = 'cart.general.checkout' | t -%}
+        {%- render 'subscription-select' -%}
 
         {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
           <a href="{{ routes.cart_url }}" class="button button--xl {% if section.settings.show_checkout_button %}button--secondary{% endif %}" data-no-instant>

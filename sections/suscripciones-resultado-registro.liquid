@@ -18,6 +18,24 @@
     text-align: center;
   }
 
+  .cont_msj_registro div.button_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .cont_msj_registro div.button_content a {
+    margin: 1rem 0.8rem;
+    padding: 0.4rem 2rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 99, 56);
+  }
+
   .cont_msj_registro div svg {
     margin: 1rem auto;
     width: 3rem;
@@ -102,6 +120,7 @@
             _items['{{ line_item.id }}'] = 0;
         {% endfor %}
 
+        // fetch(window.Shopify.routes.root + 'cart/clear.js', {
         fetch(window.Shopify.routes.root + 'cart/update.js', {
                 method: 'POST',
                 headers: {
@@ -124,7 +143,7 @@
 
         if(_params.customer_id && _params.customer_id.length > 1 
             && _params.plan_id && _params.plan_id.length > 1) {
-            fetch('https://sarguero.btsmensajeria.com/suscripciones', {
+            fetch('https://subscriptions.ecoterra.cl/suscripciones', {
                 method: 'POST',
                 body: formData
             })

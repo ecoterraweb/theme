@@ -1,24 +1,57 @@
 <style>
+  ._cont_btn_save {
+    position: sticky;
+    bottom: 1rem;
+    left: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 2;
+  }
+
   ._cont_btn_save button {
-    margin-top: 1rem;
-    padding: 0.2rem 1rem;
+    margin: 0;
+    padding: 0.4rem 2rem;
     border-radius: 8px;
+    font-size: 1.2rem;
     font-weight: 800;
     color: rgb(255, 255, 255);
     background-color: rgb(2, 99, 56);
   }
 
+  button._cancel {
+    margin: 1rem 0 0;
+    padding: 0.4rem 2rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    background-color: rgb(206, 0, 0);
+  }
+
   td._pre_name {
     white-space: pre;
   }
-  
+
   td._cont_selects {
     padding-right: 4rem;
+  }
+
+  td._cont_selects input[name="pr:fecha_entrega"] {
+    padding-left: 0.9rem;
+    border: 1px solid rgba(80, 80, 80, 0.6);
+    border-radius: 6px;
   }
 
   ._error {
     font-weight: normal;
     margin-left: 1rem;
+  }
+
+  ._rojo {
+    color: rgb(206, 0, 0);
+    font-weight: bold;
   }
 
   .svg_loading {
@@ -31,6 +64,21 @@
     }
     100% {
       transform: rotate(360deg);
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    tfoot tr {
+      display: flex;
+      flex-direction: column;
+    }
+
+    tfoot tr td {
+      padding: 1.6rem 0.4rem 1rem 0;
+    }
+
+    td._cont_selects {
+      padding-right: 0;
     }
   }
 </style>
@@ -102,7 +150,13 @@
 
           <div class="v-stack gap-2">
             <h1 class="h3">Suscripción</h1>
-            <p class="_param_fecha_suscripcion"></p>
+            <p name="pr:fecha_suscripcion"></p>
+            <p name="pr:fecha_cancelado" class="_rojo"></p>
+            <button
+              type="button"
+              class="_cancel"
+              name="pr:cancel"
+              onclick="handleCancel()">Anular Suscripción</button>
           </div>
         </div>
 
@@ -140,11 +194,8 @@
                           <option>Jueves</option>
                           <option>Viernes</option>
                         </select>
-                      </div>
-
-                      <div class="h-stack gap-4 justify-between _cont_btn_save" style="display: none;">
-                        <span></span>
-                        <button type="button">Guardar</button>
+                        <input type="hidden" name="pr:dia_hidden">
+                        <input type="text" name="pr:fecha_entrega" style="display: none;" onfocus="handleFocusFecha(this)">
                       </div>
                     </div>
                   </td>
@@ -177,7 +228,6 @@
             </table>
           </div>
 
-
           <div class="order-addresses-list">
 
             <div class="address gap-4 rounded-sm">
@@ -185,11 +235,26 @@
                 {%- render 'icon' with 'picto-box' -%}
                 <p class="bold">{{ 'customer.order.shipping_address' | t }}</p>
               </div>
-              {{- customer.default_address | format_address -}}
+              <p>
+                <span name="ds:name">...</span><br>
+                <select name="ds:address">
+                  {%- for address in customer.addresses -%}
+                    <option>{{- address.address1 -}}</option>
+                  {%- endfor -%}
+                </select><br>
+                <span name="ds:zip">...</span><br>
+                <span name="ds:country">...</span>
+              </p>
+
             </div>
 
           </div>
 
+        </div>
+
+        <div class="_cont_btn_save" style="display: none;">
+          <span></span>
+          <button type="button" onclick="editaSuscripcion()">Actualizar y guardar cambios</button>
         </div>
       </div>
     </div>
@@ -223,11 +288,87 @@
     let _element_btn_save;
     let _current_frecuencia;
     let _current_dia_entrega;
+    let _current_address;
+    let _current_shipping_address;
+    let _customer_addresses = [];
+    let _new_direccion = [];
+    let _current_subscription_id;
+    let _current_info;
 
-    const format = (_num) => {
-        return _num < 10 ? "0" + _num : _num;
+    const handleCancel = () => {
+        let _resp = confirm("¿Deseas continuar con la cancelación de esta suscripción?");
+
+        if(_resp) {
+            cancelaSuscripcion();  
+        }
     }
 
+    const cancelaSuscripcion = async () => {
+        const formData = new FormData();
+
+        if (_current_subscription_id) {
+            formData.append('accion', 'cancela_suscripcion');
+            formData.append('subscriptionId', _current_subscription_id);
+
+            await fetch('https://subscriptions.ecoterra.cl/suscripciones', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                return response.json();
+            })
+            .then(data => {
+                console.log("respondio");
+                console.log(data);
+                if (data.response == 1) {
+                    location.reload();
+                }
+            })
+            .catch((error) => {
+                console.log("Ocurrio un error");
+                console.log({ "response": -1, "msg": error.toString() });
+            });
+        }
+    }
+
+    const editaSuscripcion = async () => {
+        const formData = new FormData();
+
+        _element_frecuencia = _cont_subscriptons.querySelector("select[name='pr:frecuencia']");
+        _element_dia_entrega = _cont_subscriptons.querySelector("input[name='pr:dia_hidden']");
+
+        if (_current_subscription_id) {
+            formData.append('accion', 'edita_suscripcion');
+            formData.append('subscriptionId', _current_subscription_id);
+            formData.append('frecuencia', _element_frecuencia.value);
+            formData.append('dia_entrega', _element_dia_entrega.value);
+            formData.append('dia_del_mes', _cont_subscriptons.querySelector("input[name='pr:fecha_entrega']")?.value ?? "");
+            formData.append('planName', _current_info.name);
+            formData.append('total', _current_info.total);
+            formData.append('subtotal', _current_info.subtotal);
+            formData.append('direccion', JSON.stringify(_current_shipping_address));
+
+            await fetch('https://subscriptions.ecoterra.cl/suscripciones', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                return response.json();
+            })
+            .then(data => {
+                console.log("respondio");
+                console.log(data);
+                if (data.response == 1) {
+                    location.reload();
+                }
+            })
+            .catch((error) => {
+                console.log("Ocurrio un error");
+                console.log({ "response": -1, "msg": error.toString() });
+            });
+        }
+    }
+    
     const detalleSuscripcion = async (_id) => {
         const formData = new FormData();
 
@@ -235,7 +376,7 @@
         formData.append('suscripcion_id', _id);
         formData.append('customer_id', '{{customer.id}}');
 
-        await fetch('https://sarguero.btsmensajeria.com/suscripciones', {
+        await fetch('https://subscriptions.ecoterra.cl/suscripciones', {
             method: 'POST',
             body: formData
         })
@@ -250,11 +391,7 @@
                     let _frecuencia = 0;
                     let item = data.suscripcion[0];
                     let _fecha_suscripcion = new Date(item.fecha_suscripcion.replace('Z', ''));
-                    let _horas = _fecha_suscripcion.getHours();
-                    let _periodo = "am";
-                    if (_horas >= 12) {
-                        _periodo = "pm";
-                    }
+                    let _fecha_cancelado = new Date(item.fecha_expiracion.replace('Z', ''));
 
                     switch (item.frecuencia) {
                         case 'semanal':
@@ -270,42 +407,113 @@
 
                     _current_frecuencia = _frecuencia;
                     _current_dia_entrega = item.dia_entrega;
+                    _current_address = item.direccion.address1;
+                    _current_shipping_address = item.direccion;
+                    _current_subscription_id = item.info.subscriptionId;
+                    _current_info = item.info;
 
                     _cont_subscriptons.innerHTML = _obj_list.innerHTML;
-                    _cont_subscriptons.getElementsByClassName("_param_fecha_suscripcion")[0].innerText = `${meses[_fecha_suscripcion.getMonth()]} ${format(_fecha_suscripcion.getDate())}, ${_fecha_suscripcion.getFullYear()}  ${format(_horas % 12)}:${format(_fecha_suscripcion.getMinutes())} ${_periodo}`;
-                    _cont_subscriptons.getElementsByClassName("pr:valor_subtotal")[0].innerText = item.producto_precio;
-                    _cont_subscriptons.getElementsByClassName("pr:valor_descuento")[0].innerText = item.producto_precio;
-                    _cont_subscriptons.getElementsByClassName("pr:valor_despacho")[0].innerText = item.producto_precio;
-                    _cont_subscriptons.getElementsByClassName("pr:valor_total")[0].innerText = item.producto_precio;
+                    _cont_subscriptons.querySelector("p[name='pr:fecha_suscripcion']").innerText = `Desde: ${meses[_fecha_suscripcion.getMonth()].toLowerCase()} ${format(_fecha_suscripcion.getDate())}, ${_fecha_suscripcion.getFullYear()}`;
+                    _cont_subscriptons.getElementsByClassName("pr:valor_subtotal")[0].innerText = item.valor_subtotal;
+                    _cont_subscriptons.getElementsByClassName("pr:valor_descuento")[0].innerText = item.valor_descuento;
+                    _cont_subscriptons.getElementsByClassName("pr:valor_despacho")[0].innerText = item.valor_despacho;
+                    _cont_subscriptons.getElementsByClassName("pr:valor_total")[0].innerText = item.valor_total;
                     _cont_subscriptons.getElementsByTagName("tbody")[0].innerHTML = `<tr>
-                                <td class="_pre_name">${item.producto_nombre}</td>
+                                <td class="_pre_name">${item.productos}</td>
                                 <td class="hidden align-center text-subdued text-end sm:table-cell">${item.estado}</td>
                             </tr>`;
                     _element_btn_save = _cont_subscriptons.getElementsByClassName("_cont_btn_save")[0];
                     _element_frecuencia = _cont_subscriptons.querySelector("select[name='pr:frecuencia']");
                     _element_dia_entrega = _cont_subscriptons.querySelector("select[name='pr:dia_entrega']");
+                    _element_fecha_entrega = _cont_subscriptons.querySelector("input[name='pr:fecha_entrega']");
+                    _element_dia_hidden = _cont_subscriptons.querySelector("input[name='pr:dia_hidden']");
+                    _element_ds_name = _cont_subscriptons.querySelector("span[name='ds:name']");
+                    _element_ds_address = _cont_subscriptons.querySelector("select[name='ds:address']");
+                    _element_ds_zip = _cont_subscriptons.querySelector("span[name='ds:zip']");
+                    _element_ds_country = _cont_subscriptons.querySelector("span[name='ds:country']");
+                    _element_fecha_cancela = _cont_subscriptons.querySelector("p[name='pr:fecha_cancelado']");
                     _element_frecuencia.value = _frecuencia;
-                    _element_dia_entrega.value = item.dia_entrega;
 
-                    if (item.estado === "Pagada") {
+                    if(_frecuencia === '3') {
+                        _element_dia_entrega.style.display = "none";
+                        _element_fecha_entrega.style.display = "flex";
+                        _element_fecha_entrega.value = _current_dia_entrega;
+                    } else {
+                        _element_dia_entrega.style.display = "flex";
+                        _element_fecha_entrega.style.display = "none";
+                        _element_dia_entrega.value = _current_dia_entrega;
+                    }
+
+                    _element_ds_name.innerText = _current_shipping_address.first_name + " " + _current_shipping_address.last_name;
+                    _element_ds_zip.innerText = _current_shipping_address.zip + " " + _current_shipping_address.city + " " + _current_shipping_address.province_code;
+                    _element_ds_country.innerText = _current_shipping_address.country;
+                    _element_ds_address.value = _current_shipping_address.address1;
+
+
+                    if (item.estado === "Pendiente" || item.estado === "Pagada") {
                         _element_frecuencia.addEventListener('change', function () {
                             console.log(this.value);
                             if(_current_frecuencia === this.value &&
-                            _current_dia_entrega === _element_dia_entrega.value ){
+                            _current_dia_entrega === _element_dia_entrega.value &&
+                            _current_address === _element_ds_address.value){
                                 _element_btn_save.style.display = "none";
                             } else {
                                 _element_btn_save.style.display = "flex";
+                            }
+
+                            if(this.value === '3') {
+                                if(_calendar == null) {
+                                    _calendar = new Calendario(_cont_subscriptons);
+                                }
+
+                                _element_dia_entrega.style.display = "none";
+                                _element_fecha_entrega.style.display = "flex";
+                                _element_dia_hidden.value = _calendar._fecha_seleccionada;
+                                _element_fecha_entrega.value = `Los ${format(_calendar._fecha_seleccionada)} de cada mes`;
+                                _calendar.verCalendario();
+                            } else {
+                                _element_dia_entrega.style.display = "flex";
+                                _element_fecha_entrega.style.display = "none";
+                                _element_dia_hidden.value = _element_dia_entrega.value;
                             }
                         });
                         _element_dia_entrega.addEventListener('change', function () {
                             console.log(this.value);
                             if(_current_dia_entrega === this.value &&
+                            _current_frecuencia === _element_frecuencia.value &&
+                            _current_address === _element_ds_address.value){
+                                _element_btn_save.style.display = "none";
+                            } else {
+                                _element_btn_save.style.display = "flex";
+                            }
+                            _element_dia_hidden.value = this.value;
+                        });
+
+                        _element_ds_address.addEventListener('change', function () {
+                            if(_current_address === this.value &&
+                            _current_dia_entrega === _element_dia_entrega.value &&
                             _current_frecuencia === _element_frecuencia.value){
                                 _element_btn_save.style.display = "none";
                             } else {
                                 _element_btn_save.style.display = "flex";
                             }
+
+                            _new_direccion = _customer_addresses.filter(v => v.address1 === this.value)[0];
+                            _current_shipping_address = _new_direccion;
+
+                            _element_ds_name.innerText = _new_direccion.first_name + " " + _new_direccion.last_name;
+                            _element_ds_zip.innerText = _new_direccion.zip + " " + _new_direccion.city + " " + _new_direccion.province_code;
+                            _element_ds_country.innerText = _new_direccion.country;
                         });
+
+                        _element_fecha_cancela.innerText = `Próximo cobro: ${meses[_fecha_cancelado.getMonth()].toLowerCase()} ${format(_fecha_cancelado.getDate())}, ${_fecha_cancelado.getFullYear()}`;
+                        _element_fecha_cancela.classList.remove("_rojo");
+                    } else {
+                        _element_frecuencia.style.pointerEvents = "none";
+                        _element_dia_entrega.style.pointerEvents = "none";
+                        _element_ds_address.style.pointerEvents = "none";
+                        _cont_subscriptons.querySelector("button[name='pr:cancel']").style.display = "none";
+                        _element_fecha_cancela.innerText = `Cancelado ${meses[_fecha_cancelado.getMonth()].toLowerCase()} ${format(_fecha_cancelado.getDate())}, ${_fecha_cancelado.getFullYear()}`;
                     }
                 } else {
                     _cont_subscriptons.innerHTML = _obj_empty.innerHTML;
@@ -324,6 +532,20 @@
         let _url = window.location.href;
         let _id_base64 = _url.split("/").pop();
         let _id_suscripcion = atob(_id_base64);
+
+        {%- for address in customer.addresses -%}
+          _customer_addresses.push({
+                    first_name: '{{ address.first_name }}',
+                    last_name: '{{ address.last_name }}',
+                    address1: '{{ address.address1 }}',
+                    phone: '{{ address.phone }}',
+                    city: '{{ address.city }}',
+                    province: '{{ address.province }}',
+                    province_code: '{{ address.province_code }}',
+                    country: '{{ address.country }}',
+                    zip: '{{ address.zip }}',
+                });
+        {%- endfor -%}
 
         detalleSuscripcion(_id_suscripcion);
     });

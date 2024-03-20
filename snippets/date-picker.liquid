@@ -1,0 +1,615 @@
+<style>
+    .calendar_back_clic {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 2;
+    }
+    
+    .calendar {
+        position: absolute;
+        border-radius: 8px;
+        overflow: hidden;
+        border: 1px solid rgba(68,47,47, 0.3);
+        background-color: rgb(255, 255, 255);
+        z-index: 3;
+    }
+
+    .cart-form .calendar {
+        margin-top: -9rem;
+    }
+
+    .buy-buttons .calendar {
+        bottom: 9rem;
+    }
+
+    .shopify-section--main-subscriptions-details .calendar {
+        bottom: 16rem;
+        left: 12rem;
+    }
+
+    .calendar .calendar_content svg {
+        position: absolute;
+        right: 0;
+        width: 1.6rem;
+        height: 1.6rem;
+        transition: all .2s;
+        color: #646464;
+        cursor: pointer;
+    }
+
+    .calendar .calendar_content .arrow_left,
+    .calendar .calendar_content .arrow_right {
+        width: 1.6rem;
+        height: 1.6rem;
+        padding: 0;
+        margin: 0;
+        top: 0.2rem;
+    }
+
+    .calendar .calendar_content .arrow_left {
+        left: -0.2rem;
+        right: auto;
+    }
+
+    .calendar .calendar_content .arrow_right {
+        left: auto;
+        right: -0.2rem;
+    }
+
+    .calendar .calendar_content .calendar_days {
+        display: block;
+        width: max-content;
+    }
+
+    .calendar .calendar_content .calendar_days h4 {
+        display: block;
+        width: 100%;
+        padding: 0.2rem 0.4rem;
+        margin-bottom: 0.3rem;
+        font-weight: bold;
+        text-align: center;
+        border-bottom: 1px solid rgba(68,47,47, 0.3);
+    }
+
+    .calendar .calendar_content .calendar_days p {
+        display: block;
+        width: max-content;
+        padding: 0 0.4rem;
+    }
+
+    .calendar .calendar_content .calendar_days p.mensaje {
+        margin: 0 auto;
+        padding: 0.4rem 0.3rem 0;
+        max-width: 16.8rem;
+        font-size: 0.7rem;
+        color: rgb(255, 0, 0);
+        background-color: transparent !important;
+    }
+
+    .calendar .calendar_content .calendar_days p:first-child {
+        background-color: rgba(95, 158, 160, 0.2);
+    }
+
+    .calendar .calendar_content .calendar_days p:last-child {
+        padding-bottom: 0.2rem;
+        background-color: #f0f0f0;
+    }
+
+    .calendar .calendar_content .calendar_days p span {
+        display: inline-block;
+        padding: 6px;
+        margin: 0;
+        text-transform: lowercase;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    .calendar .calendar_content .calendar_days p span.names {
+        width: 2.22rem;
+        font-size: 0.8rem;
+    }
+
+    .calendar .calendar_content .calendar_days p span.previo {
+        opacity: 0.5;
+    }
+
+    .calendar .calendar_content .calendar_days p span.unable {
+        opacity: 0.6;
+        width: 2.4rem;
+        cursor: not-allowed;
+        border-radius: 50%;
+    }
+
+    .calendar .calendar_content .calendar_days p span.previo,
+    .calendar .calendar_content .calendar_days p span.current {
+        width: 2.4rem;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+    .calendar .calendar_content .calendar_days p span.unable:hover,
+    .calendar .calendar_content .calendar_days p span.previo:hover,
+    .calendar .calendar_content .calendar_days p span.current:hover {
+        background-color: #d3dbf3;
+    }
+
+    .calendar .calendar_content .calendar_days p span.previo.selected,
+    .calendar .calendar_content .calendar_days p span.current.selected,
+    .calendar .calendar_content .calendar_days p span.current:active {
+        background-color: #b4d2ff;
+    }
+
+    @media screen and (max-width: 700px) {
+        .shopify-section--main-subscriptions-details .calendar {
+            bottom: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+</style>
+
+<div class="calendar_back_clic" name="box:back_clic" style="display: none;"></div>
+<div class="calendar" name="box:calendar" style="display: none;">
+    <div class="calendar_content">
+        <div class="calendar_days">
+            <h4>Selecciona el día del mes</h4>
+            <p class="calendar_days_numbres" name="box:days_numbres"></p>
+            <p class="mensaje">Ten en cuenta que si la fecha seleccionada cae en un día feriado o fin de semana, la entrega se hará en el próximo día hábil.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    let _cartdrawer = document.querySelector("cart-drawer");
+    let _calendar;
+    let _precios = {
+        despacho: 0,
+        descuento: 0,
+        precio_full: 0,
+        precio_descuento: 0,
+        currentotal: "{{- cart.total_price | money_with_currency -}}",
+        subtotal: "{{ cart.items_subtotal_price | money }}",
+        total: "{{- cart.total_price | money_with_currency -}}"
+    };
+
+    const o = new MutationObserver(() => {
+        if(_cartdrawer.style.visibility === "visible") {
+            console.log('style changed');
+            console.log("cart-drawer", _cartdrawer.style.visibility );
+            
+            fetch(window.Shopify.routes.root + 'cart.js', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(res => {
+                return res.json();
+            })
+            .then(data => {
+                let _temp_prod = [];
+                console.log("data", data);
+                data.items.forEach(item => {
+                    _temp_prod.push(item.product_id);
+                });
+                
+                getVariant(_temp_prod, data.total_price.toString().slice(0, -2).formatPrice());
+            })
+            .catch(error => {
+                console.log("Ocurrio un error", error.toString());
+            });
+        }
+    });
+
+    o.observe(_cartdrawer, { attributes: true, attributeFilter: ["style"] });
+
+    String.prototype.formatPrice = function () {
+        let _clean = this.replaceAll('.', '');
+        let _cant = parseInt(_clean.length / 3);
+        let _to_return = "";
+        let _rest = _clean;
+        let _parts = [];
+
+        for (let i = 0; i < _cant; i++) {
+            _parts.push(_rest.slice(-3));
+            _rest = _rest.slice(0, -3);
+        }
+
+        for (let e = _parts.length - 1; e >= 0; e--) {
+            _to_return += "." + _parts[e];
+        }
+
+        _to_return = _rest + _to_return;
+        _to_return = _to_return.slice(0, 1) == "." ? _to_return.slice(1, _to_return.length) : _to_return;
+
+        return _to_return;
+    };
+
+    const format = (_num) => {
+        return _num < 10 ? "0" + _num : _num;
+    }
+
+    const handleFocusFecha = (_this) => {
+        const _cont_selectables = _this.parentNode.parentNode;
+        const _select_frecuencia = _cont_selectables.querySelector("select[name='attr:frecuencia']");
+
+        _calendar.verCalendario();
+    }
+
+    const handleChangeFrecuencia = (_this) => {
+        const _cont_selectables = _this.parentNode.parentNode;
+        const _select_dia = _cont_selectables.querySelector("select[name='attr:dias_de_entrega']");
+        const _input_fecha = _cont_selectables.querySelector("input[name='attr:fecha_entrega']");
+        const _input_dia = _cont_selectables.querySelector("input[name='attr:dia_entrega']");
+
+
+        if(_this.value === '3') {
+            if(_calendar == null) {
+                _calendar = new Calendario(_cont_selectables);
+            }
+
+            _select_dia.style.display = "none";
+            _input_fecha.style.display = "flex";
+            _input_dia.value = _calendar._fecha_seleccionada;
+            _input_fecha.value = `Los ${format(_calendar._fecha_seleccionada)} de cada mes`;
+            _calendar.verCalendario();
+        } else {
+            _select_dia.style.display = "flex";
+            _input_fecha.style.display = "none";
+            _input_dia.value = _select_dia.value;
+        }
+    }
+
+    const handleChangeDay = (_this) => {
+        const _cont_parent = _this.parentNode;
+        const _input_dia = _cont_parent.querySelector("input[name='attr:dia_entrega']");
+
+        _input_dia.value = _this.value;
+    }
+
+    const getVariant = async (_productos = [], currentotal) => {
+        const formData = new FormData();
+
+        if(_productos.length > 0) {
+            formData.append('accion', 'get_info');
+            formData.append('productos', _productos.toString());
+
+            fetch('https://subscriptions.ecoterra.cl/services', {
+                method: 'POST',
+                body: formData
+            })
+            .then(res => {
+                return res.json();
+            })
+            .then(data => {
+                _precios = data.data;
+                _precios.currentotal = currentotal;
+            })
+            .catch(error => {
+                console.log("Ocurrio un error");
+                console.log({ "response": -1, "msg": error.toString() });
+            });
+        }
+    }
+
+    const cambiaTipo = (_this) => {
+        const _cont_parent = _this.parentNode.parentNode;
+        const _cont_selectables = _cont_parent.getElementsByClassName("cont_selectables")[0];
+        const _sel_frecuencia = _cont_parent.querySelector("select[name='attr:frecuencia']");
+        const _input_dia = _cont_parent.querySelector("input[name='attr:dia_entrega']");
+        const _sel_dias = _cont_parent.querySelector("select[name='attr:dias_de_entrega']");
+        const _mc_subtotal = document.getElementsByClassName("mc:subtotal").length > 0 ? document.getElementsByClassName("mc:subtotal")[0] : document.getElementsByClassName("dc:subtotal")[0];
+        const _mc_subtotal_parent = _mc_subtotal.parentNode;
+        const _mc_descuento = document.getElementsByClassName("mc:descuento").length > 0 ? document.getElementsByClassName("mc:descuento")[0] : document.getElementsByClassName("dc:descuento")[0];
+        const _mc_descuento_parent = _mc_descuento.parentNode;
+        const _mc_despacho = document.getElementsByClassName("mc:despacho").length > 0 ? document.getElementsByClassName("mc:despacho")[0] : document.getElementsByClassName("dc:despacho")[0];
+        const _mc_despacho_parent = _mc_despacho.parentNode;
+        const _mc_total = document.getElementsByClassName("mc:total").length > 0 ? document.getElementsByClassName("mc:total")[0] : document.getElementsByClassName("dc:total")[0];
+        _sel_frecuencia.value = "";
+        _sel_dias.value = "";
+
+
+        if (_this.value === "recurrente") {
+            let _boton = _cont_parent.parentNode.querySelector("button[name='checkout']");
+            _cont_selectables.style.display = "block";
+            _sel_frecuencia.value = "2";
+            _input_dia.value = "Lunes";
+            _sel_dias.value = "Lunes";
+
+            if(document.getElementsByClassName("dc:subtotal").length > 0) {
+                _mc_subtotal_parent.style.display = "flex";
+            }
+            _mc_descuento_parent.style.display = "flex";
+            _mc_despacho_parent.style.display = "flex";
+            _mc_descuento.innerText = "-$" + _precios.descuento;
+            _mc_despacho.innerText = "$" + _precios.despacho;
+            _mc_subtotal.innerText = "$" + _precios.subtotal;
+            _mc_total.innerText = "$" + _precios.total + " CLP";
+
+            _boton.setAttribute('type', 'button');
+            _boton.addEventListener('click', handleRegisterCard);
+        } else {
+            _cont_selectables.style.display = "none";
+            _sel_frecuencia.value = "";
+            _input_dia.value = "";
+            _sel_dias.value = "";
+
+            if(document.getElementsByClassName("dc:subtotal").length > 0) {
+                document.getElementsByClassName("dc:subtotal")[0].parentNode.style.display = "none";
+            }
+            _mc_descuento_parent.style.display = "none";
+            _mc_despacho_parent.style.display = "none";
+            _mc_subtotal.innerText = "{{ cart.items_subtotal_price | money }}";
+            _mc_total.innerText = "$" + _precios.currentotal + " CLP";
+
+            _cont_parent.parentNode.querySelector("button[name='checkout']").setAttribute('type', 'submit');
+            _cont_parent.parentNode.querySelector("button[name='checkout']").removeEventListener('click', handleRegisterCard);
+        }
+    }
+
+    const handleRegisterCard = async (_this) => {
+        const _cont_parent = _this.target.parentNode;
+        const _cont_selectables = _cont_parent.getElementsByClassName("cont_selectables")[0];
+        const _cont_msj_redireccion = _cont_parent.getElementsByClassName("cont_msj_redireccion")[0];
+        const _msj_redireccion = _cont_parent.getElementsByClassName("msj_redireccion")[0];
+        const formData = new FormData();
+        let _productos = [];
+        let _customer = {};
+
+        {% if customer %}
+        _customer = {
+            id: '{{ customer.id }}',
+            email: '{{ customer.email }}',
+            phone: '{{ customer.phone }}',
+            nombre: '{{ customer.first_name }} {{ customer.last_name }}',
+        }
+        {% endif %}
+
+        _cont_msj_redireccion.style.display = "flex";
+
+        if (_customer.email) {
+
+            await fetch(window.Shopify.routes.root + 'cart.js', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(res => {
+                    return res.json();
+                })
+                .then(data => {
+                    data.items.forEach(item => {
+                        _productos.push({
+                            id: item.id,
+                            sku: item.sku,
+                            title: item.title,
+                            image: item.image,
+                            product_id: item.product_id,
+                            quantity: item.quantity,
+                            price: item.price,
+                            vendor: item.vendor
+                        });
+                    });
+                })
+                .catch(error => {
+                    console.log("Ocurrio un error", error.toString());
+                });
+
+            if(_productos.length > 0) {
+                let _billing_address = {
+                        first_name: '{{ customer.default_address.first_name }}',
+                        last_name: '{{ customer.default_address.last_name }}',
+                        address1: '{{ customer.default_address.address1 }}',
+                        phone: '{{ customer.default_address.phone }}',
+                        city: '{{ customer.default_address.city }}',
+                        province: '{{ customer.default_address.province }}',
+                        province_code: '{{ customer.default_address.province_code }}',
+                        country: '{{ customer.default_address.country }}',
+                        zip: '{{ customer.default_address.zip }}',
+                    };
+                let _shipping_address = {
+                        first_name: '{{ customer.shipping_address.first_name }}',
+                        last_name: '{{ customer.shipping_address.last_name }}',
+                        address1: '{{ customer.shipping_address.address1 }}',
+                        phone: '{{ customer.shipping_address.phone }}',
+                        city: '{{ customer.shipping_address.city }}',
+                        province: '{{ customer.shipping_address.province }}',
+                        province_code: '{{ customer.shipping_address.province_code }}',
+                        country: '{{ customer.shipping_address.country }}',
+                        zip: '{{ customer.shipping_address.zip }}',
+                    };
+                let _fecha_entrega = _cont_parent.querySelector("input[name='attr:fecha_entrega']") ?? _cont_parent.querySelector("input[name='pr:fecha_entrega']");
+
+                formData.append('accion', 'crea_registro');
+                formData.append('frecuencia', _cont_parent["attr:frecuencia"].value);
+                formData.append('dia_entrega', _cont_parent["attr:dia_entrega"].value);
+                formData.append('dia_del_mes', _fecha_entrega.value);
+                formData.append('total_price', "$" + _precios.total + " CLP");
+                formData.append('total', _precios.total);
+                formData.append('descuento', _precios.descuento);
+                formData.append('despacho', _precios.despacho);
+                formData.append('subtotal', _precios.subtotal);
+                formData.append('usuario', JSON.stringify(_customer));
+                formData.append('productos', JSON.stringify(_productos));
+                formData.append('billing_address', JSON.stringify(_billing_address));
+                formData.append('shipping_address', _shipping_address.first_name === "" ? JSON.stringify(_billing_address) : JSON.stringify(_shipping_address));
+
+                let { ...test } = Object.fromEntries(formData);
+
+                _msj_redireccion.classList.remove("_bkg_white");
+
+                _msj_redireccion.innerHTML = `{%- render 'icon' with 'loading' -%}
+                    <h4>Estamos verificando por favor espera un momento...</h4>
+                `;
+
+                fetch('https://subscriptions.ecoterra.cl/suscripciones', {
+                    method: 'POST',
+                    body: formData
+                })
+                    .then(res => {
+                        return res.json();
+                    })
+                    .then(data => {
+                        console.log("respondio");
+                        console.log(data);
+                        if (data.response == 1) {
+                            _msj_redireccion.classList.add("_bkg_white");
+                            if (data.url_type === "subscribe") {
+                                _msj_redireccion.innerHTML = `{%- render 'icon' with 'credit_card_check' -%}
+                                    <h4>Ya cuentas con una tarjeta registrada previamente, procederemos a realizar el importe de la suscripción a dicha tarjeta.</h4>
+                                    <button type="button" class="button button--xl" name="acepta">Aceptar</button>
+                                    <button type="button" class="button button--xl" name="cancela">Cancelar</button>
+                                `;
+                                _msj_redireccion.querySelector("button[name='acepta']").addEventListener('click', function () {
+                                    location.href = data.url;
+                                }, { once: true });
+                                _msj_redireccion.querySelector("button[name='cancela']").addEventListener('click', function () {
+                                    _cont_msj_redireccion.style.display = "none";
+                                }, { once: true });
+                            } else if (data.url_type === "register") {
+                                _msj_redireccion.innerHTML = `{%- render 'icon' with 'credit_card_plus' -%}
+                                    <h4>Serás redireccionado a la pasarela de pagos Flow para registrar tu tarjeta de crédito y realizar el pago automático de tu suscripción.</h4>
+                                    <button type="button" class="button button--xl" name="acepta">Aceptar</button>
+                                    <button type="button" class="button button--xl" name="cancela">Cancelar</button>
+                                `;
+                                _msj_redireccion.querySelector("button[name='acepta']").addEventListener('click', function () {
+                                    location.href = data.url;
+                                }, { once: true });
+                                _msj_redireccion.querySelector("button[name='cancela']").addEventListener('click', function () {
+                                    _cont_msj_redireccion.style.display = "none";
+                                }, { once: true });
+                            } else {
+                                _msj_redireccion.innerHTML = `<h4 class="_error">No se pudo redireccionar a la pasarela de pagos.</h4><button type="button" class="button button--xl" name="acepta">Aceptar</button>`;
+                                _msj_redireccion.querySelector("button[name='acepta']").addEventListener('click', function () {
+                                    _cont_msj_redireccion.style.display = "none";
+                                }, { once: true });
+                            }
+                        } else {
+                            _msj_redireccion.classList.add("_bkg_white");
+                            _msj_redireccion.innerHTML = `<h4 class="_error">Ocurrio un error: <span>${data.msg}</span></h4><button type="button" class="button button--xl" name="acepta">Aceptar</button>`;
+                            _msj_redireccion.querySelector("button[name='acepta']").addEventListener('click', function () {
+                                _cont_msj_redireccion.style.display = "none";
+                            }, { once: true });
+                        }
+                    })
+                    .catch(error => {
+                        console.log("Ocurrio un error");
+                        console.log({ "response": -1, "msg": error.toString() });
+                        _msj_redireccion.classList.add("_bkg_white");
+                        _msj_redireccion.innerHTML = `<h4 class="_error">Ocurrio un error: <span>${error.toString()}</span></h4><button type="button" class="button button--xl" name="acepta">Aceptar</button>`;
+                        _msj_redireccion.querySelector("button[name='acepta']").addEventListener('click', function () {
+                            _cont_msj_redireccion.style.display = "none";
+                        }, { once: true });
+                    });
+            }
+        } else {
+            _msj_redireccion.classList.add("_bkg_white");
+            _msj_redireccion.innerHTML = `<h4>Para poder continuar primero debes iniciar sesión.</h4><button type="button" class="button button--xl" name="acepta">Aceptar</button>`;
+            _msj_redireccion.querySelector("button[name='acepta']").addEventListener('click', function () {
+                _cont_msj_redireccion.style.display = "none";
+            }, { once: true });
+        }
+    }
+
+    class Calendario {
+        _calendar_days_numbres;
+        _calendar_back_clic;
+        _calendar;
+        _fecha_seleccionada;
+        _fecha_actual;
+        _parent_element;
+
+        constructor(_parent_element) {
+            this._parent_element = _parent_element;
+            this._calendar_days_numbres = document.querySelector("p[name='box:days_numbres']");
+            this._calendar_back_clic = document.querySelector("div[name='box:back_clic']");
+            this._calendar = document.querySelector("div[name='box:calendar']");
+            this._fecha_actual = new Date();
+            this._fecha_seleccionada = this._fecha_actual.getDate();
+
+            this._calendar_back_clic.addEventListener('click', () => {
+                this._calendar_back_clic.style.display = "none";
+                this._calendar.style.display = "none";
+            });
+
+            this.armaCalendario();
+        }
+
+        handleClick(_this, _dia) {
+            const _fecha_entrega = this._parent_element.querySelector("input[name='attr:fecha_entrega']") ?? this._parent_element.querySelector("input[name='pr:fecha_entrega']");
+            const _input_dia = this._parent_element.querySelector("input[name='attr:dia_entrega']") ?? this._parent_element.querySelector("input[name='pr:dia_hidden']");
+            const _days = document.getElementsByClassName("selected");
+
+            for (let i = 0; i < _days.length; i++) {
+                _days[i].classList.remove("selected");
+            }
+
+            _this.classList.add("selected");
+
+            this._fecha_seleccionada = _dia;
+            _input_dia.value = _dia;
+            
+            _fecha_entrega.value = `Los ${format(_dia)} de cada mes`;
+            this._calendar_back_clic.style.display = "none";
+            this._calendar.style.display = "none";
+        }
+
+        armaDay( data, br = false ) {
+            return br ? 
+                    `<span class="${data.mes}" name="dia:${data.dia}">${data.dia}</span><br />`
+                    :
+                    `<span class="${data.mes}" name="dia:${data.dia}">${data.dia}</span>`;
+        }
+
+        armaCalendario() {
+            const fecha = new Date();
+            let _current_day = fecha.getDate();
+            let _last_day = 30;
+            let _all_days = "";
+            let _days = [];
+
+            for (let i = 1; i <= _last_day; i++) {
+                _days.push({ dia: i, mes: i == _current_day ? "current selected" : "current" });
+            }
+
+            let _dias_list = _days.map((d, i) => {
+                if (((i + 1) % 7) === 0) {
+                    _all_days += this.armaDay(d, true);
+                } else {
+                    _all_days += this.armaDay(d);
+                }
+
+                return d.dia;
+            });
+
+            this._calendar_days_numbres.innerHTML = _all_days;
+
+            _dias_list.forEach(_dia => {
+                this._calendar_days_numbres.querySelector(`span[name='dia:${_dia}']`).onclick = (_this) => {
+                    this.handleClick(_this.target, _dia);
+                }
+            });
+        }
+
+        verCalendario() {
+            this._calendar_back_clic.style.display = "block";
+            this._calendar.style.display = "block";
+
+            this._parent_element.parentNode.insertBefore(document.querySelector("div[name='box:calendar']"), this._parent_element.nextSibling);
+            this._parent_element.parentNode.insertBefore(document.querySelector("div[name='box:back_clic']"), this._parent_element.nextSibling);
+        }
+    }
+
+    let _product = [];
+
+    {% for line_item in cart.items %}
+        _product.push('{{ line_item.product_id }}');
+    {% endfor %}
+
+    getVariant(_product, "{{- cart.total_price | money_without_currency -}}");
+</script>

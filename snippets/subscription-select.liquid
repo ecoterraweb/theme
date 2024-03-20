@@ -1,0 +1,213 @@
+<style>
+  .button {
+    grid-row: 2;
+  }
+
+  .button div,
+  .button span {
+    pointer-events: none;
+  }
+
+  .opciones_de_recurrencia {
+    display: block;
+    width: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+
+  .opciones_de_recurrencia label {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: min-content;
+    margin: 0;
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    white-space: nowrap;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .opciones_de_recurrencia label._cont_select {
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .opciones_de_recurrencia label._cont_select input[type="text"] {
+    margin-top: 0.9rem;
+    padding: 0.1rem 0.8rem;
+    border: 1px solid rgba(2, 99, 55, 0.6);
+    border-radius: 8px;
+  }
+
+  .opciones_de_recurrencia label span {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .opciones_de_recurrencia input[type="radio"] {
+    margin-right: 0.6rem;
+    width: 20px;
+    height: 20px;
+  }
+
+  .opciones_de_recurrencia select {
+    margin-left: 1rem;
+    padding: 0.4rem 0.3rem 0.4rem 0.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .opciones_de_recurrencia .cont_msj_redireccion {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 12;
+  }
+
+  .buy-buttons .opciones_de_recurrencia .cont_msj_redireccion {
+    position: absolute;
+  }
+
+  .cart-form .opciones_de_recurrencia .cont_msj_redireccion {
+    position: fixed;
+  }
+
+  .opciones_de_recurrencia .cont_msj_redireccion div {
+    display: block;
+    width: 70%;
+    padding: 2rem 1rem 3rem;
+    /* background-color: var(--button-background-primary); */
+    background-color: rgb(2, 99, 56);
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .opciones_de_recurrencia .cont_msj_redireccion div svg {
+    margin: 1rem auto;
+    width: 3rem;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .opciones_de_recurrencia .cont_msj_redireccion div h4 {
+    padding: 0.4rem 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .opciones_de_recurrencia .cont_msj_redireccion div button {
+    margin: 2rem 0.7rem 0;
+  }
+
+  .opciones_de_recurrencia .cont_msj_redireccion div._bkg_white {
+    padding-bottom: 1rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(2, 99, 55, 0.6);
+  }
+
+  .opciones_de_recurrencia .cont_msj_redireccion div._bkg_white svg {
+    color: rgb(64, 64, 64);
+  }
+
+  .opciones_de_recurrencia .cont_msj_redireccion div._bkg_white h4 {
+    color: rgb(64, 64, 64);
+  }
+
+  .opciones_de_recurrencia .cont_msj_redireccion div h4._error,
+  .opciones_de_recurrencia ._error {
+    font-weight: bold;
+    margin-left: 1.6rem;
+    padding: 1rem 0;
+    color: rgb(255, 37, 37);
+  }
+
+  .opciones_de_recurrencia .cont_msj_redireccion div h4._error span,
+  .opciones_de_recurrencia ._error span {
+    font-weight: normal;
+    margin-left: 0.5rem;
+  }
+
+  .svg_loading {
+    animation: rotating_svg 2s linear infinite;
+  }
+
+  @keyframes rotating_svg {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .opciones_de_recurrencia .cont_msj_redireccion div {
+      width: 90%;
+    }
+  }
+</style>
+
+<div class="opciones_de_recurrencia">
+  <label>
+    <input
+      type="radio"
+      name="attr:tipo_compra"
+      value="normal"
+      onchange="cambiaTipo(this)"
+      checked>
+    <span>Compra única</span>
+  </label>
+  <label>
+    <input
+      type="radio"
+      name="attr:tipo_compra"
+      value="recurrente"
+      onchange="cambiaTipo(this)">
+    <span>Suscripción</span>
+  </label>
+
+  <div class="cont_selectables" style="display: none;">
+    <label class="_cont_select">
+      Frecuencia
+      <select name="attr:frecuencia" onchange="handleChangeFrecuencia(this)">
+        <option value="2">Semanal</option>
+        <option value="5">Quincenal</option>
+        <option value="3">Mensual</option>
+      </select>
+    </label>
+
+    <label class="_cont_select">
+      Día de entrega
+      <select name="attr:dias_de_entrega" onchange="handleChangeDay(this)">
+        <option>Lunes</option>
+        <option>Martes</option>
+        <option>Miércoles</option>
+        <option>Jueves</option>
+        <option>Viernes</option>
+      </select>
+      <input type="hidden" name="attr:dia_entrega">
+      <input type="text" name="attr:fecha_entrega" style="display: none;" onfocus="handleFocusFecha(this)">
+    </label>
+  </div>
+
+  <div class="cont_msj_redireccion" style="display: none;">
+    <div class="msj_redireccion">
+      {%- render 'icon' with 'loading' -%}
+      <h4>Serás redireccionado a la pasarela de pagos Flow para registrar tu tarjeta de crédito y realizar el pago automático de tu suscripción.</h4>
+      <h4>Si ya cuentas con un registro previo procederemos a realizar el importe a dicha tarjeta.</h4>
+      <h4>Estamos verificando por favor espera un momento...</h4>
+    </div>
+  </div>
+</div>

@@ -175,9 +175,7 @@
                     {% endif %}
 
                   {%- when 'checkout_button' -%}
-                    {% comment %}
                     {%- render 'subscription-select' -%}
-                    {% endcomment %}
                     {%- assign checkout_button = 'cart.general.checkout' | t -%}
                     {%- render 'button', type: 'submit', icon: 'picto-lock', content: checkout_button, size: 'xl', name: 'checkout', stretch: true, block: block -%}
                 {%- endcase -%}

@@ -30,8 +30,8 @@
         "c7f05ea0-e8f2-4ff3-b05f-fbe828496d4b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HM2_L.png",
-            "mobile_image": "shopify:\/\/shop_images\/HM2_S.png",
+            "image": "shopify:\/\/shop_images\/Banner-2_2_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-2-Mobile_2.png",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",

@@ -6,8 +6,8 @@
         "266ea942-f3bc-46b8-896b-dccd9dc58ff5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HM_1_L.png",
-            "mobile_image": "shopify:\/\/shop_images\/HM1_S.png",
+            "image": "shopify:\/\/shop_images\/Banner-1_2_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-1-Mobile_2.png",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",

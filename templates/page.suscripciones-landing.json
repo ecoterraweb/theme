@@ -51,6 +51,66 @@
         "background_gradient": ""
       }
     },
+    "text_with_icons_9DMyVh": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_jD4yt9": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Agrega productos",
+            "content": "<p>Agrega productos a tu carrito<\/p>"
+          }
+        },
+        "item_kKNEaN": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        },
+        "item_RnkiYE": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_jD4yt9",
+        "item_kKNEaN",
+        "item_RnkiYE"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq_KGCPW8": {
       "type": "faq",
       "blocks": {
@@ -139,6 +199,7 @@
   "order": [
     "main",
     "slideshow_BmwGyx",
+    "text_with_icons_9DMyVh",
     "faq_KGCPW8"
   ]
 }

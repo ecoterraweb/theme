@@ -71,15 +71,23 @@
         "item_eqizHT": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "¿Puedo cambiar la frecuencia de entrega o la dirección de entrega de mi suscripción?",
+            "content": "<p>Sí, puedes modificar la frecuencia de entrega y la dirección de entrega en cualquier momento desde el panel de usuario de nuestro sitio. Simplemente inicia sesión, ve a tus suscripciones activas, elige la que deseas modificar y ajusta los parámetros según tus necesidades.<\/p>"
+          }
+        },
+        "item_fMJhXm": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
           }
         }
       },
       "block_order": [
         "item_ARJmWr",
         "item_tiWgwB",
-        "item_eqizHT"
+        "item_eqizHT",
+        "item_fMJhXm"
       ],
       "settings": {
         "full_width": true,

@@ -13,6 +13,7 @@
         "image_4dffa6": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/b2b-landing-eng-banner-desktop.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",

@@ -13,13 +13,14 @@
         "image_4dffa6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b2b-landing-eng-banner-desktop.jpg",
+            "image": "shopify:\/\/shop_images\/SUSCRIPCIONES-DESKTOP-2-1800-x-900px.gif",
+            "mobile_image": "shopify:\/\/shop_images\/SUSCRIPCIONES-DESKTOP-2-1800-x-900px.gif",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
+            "subheading": "",
             "content": "",
-            "title": "Slide 1",
+            "title": "",
             "heading_tag": "h0",
             "heading_style": "font--primary",
             "button_text": "",

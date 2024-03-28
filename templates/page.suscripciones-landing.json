@@ -81,13 +81,21 @@
             "title": "¿Qué sucede si necesito cancelar mi suscripción?",
             "content": "<p>Entendemos que tus necesidades pueden cambiar. Puedes cancelar tu suscripción en cualquier momento a través del panel de usuario. Selecciona la suscripción que deseas cancelar y sigue las instrucciones para completar la cancelación. Recibirás un correo electrónico confirmando la cancelación.<\/p>"
           }
+        },
+        "item_7hpX9x": {
+          "type": "item",
+          "settings": {
+            "title": "¿Recibiré notificaciones o confirmaciones sobre mis suscripciones?",
+            "content": "<p>Sí, recibirás correos electrónicos de confirmación cuando realices una acción con tu suscripción, como crearla, modificarla o cancelarla. Esto te ayudará a mantener el control y estar al tanto de tus suscripciones activas.<\/p>"
+          }
         }
       },
       "block_order": [
         "item_ARJmWr",
         "item_tiWgwB",
         "item_eqizHT",
-        "item_fMJhXm"
+        "item_fMJhXm",
+        "item_7hpX9x"
       ],
       "settings": {
         "full_width": true,

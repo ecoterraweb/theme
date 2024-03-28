@@ -102,13 +102,6 @@
             "title": "¿Qué sucede si un producto que he suscrito no está disponible?",
             "content": "<p>Nos esforzamos por garantizar la disponibilidad de todos los productos suscritos. Sin embargo, en caso de que un producto no esté disponible temporalmente, te notificaremos con anticipación y haremos todo lo posible para reemplazarlo por un producto similar o reprogramar la entrega para una fecha posterior, según tus preferencias.<\/p>"
           }
-        },
-        "item_LLpe8X": {
-          "type": "item",
-          "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
-          }
         }
       },
       "block_order": [
@@ -118,17 +111,16 @@
         "item_fMJhXm",
         "item_7hpX9x",
         "item_zCErad",
-        "item_jqhjzt",
-        "item_LLpe8X"
+        "item_jqhjzt"
       ],
       "settings": {
         "full_width": true,
         "subheading": "",
         "title": "Preguntas Frecuentes",
-        "content": "<p>Cómo funcionan las suscripciones? Las puedo modificar o cancelar?<\/p>",
+        "content": "<p>Si tienes dudas, ¡acá te las aclaramos!<\/p>",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "Para otras consultas escríbenos a ventas@ecoterra.cl",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
         "text_position": "center",

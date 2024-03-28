@@ -78,8 +78,8 @@
         "item_fMJhXm": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+            "title": "¿Qué sucede si necesito cancelar mi suscripción?",
+            "content": "<p>Entendemos que tus necesidades pueden cambiar. Puedes cancelar tu suscripción en cualquier momento a través del panel de usuario. Selecciona la suscripción que deseas cancelar y sigue las instrucciones para completar la cancelación. Recibirás un correo electrónico confirmando la cancelación.<\/p>"
           }
         }
       },

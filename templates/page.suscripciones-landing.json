@@ -88,6 +88,27 @@
             "title": "¿Recibiré notificaciones o confirmaciones sobre mis suscripciones?",
             "content": "<p>Sí, recibirás correos electrónicos de confirmación cuando realices una acción con tu suscripción, como crearla, modificarla o cancelarla. Esto te ayudará a mantener el control y estar al tanto de tus suscripciones activas.<\/p>"
           }
+        },
+        "item_zCErad": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cómo funciona la selección del día de entrega para las suscripciones?",
+            "content": "<p>Cuando configures tu suscripción, podrás elegir el día de entrega que mejor se adapte a tus necesidades. Para las suscripciones semanales o quincenales, puedes seleccionar cualquier día de lunes a viernes. Para las suscripciones mensuales, puedes elegir cualquier fecha del 1 al 30. Esto te proporciona la flexibilidad para recibir tus productos cuando más te convenga.<\/p><ol><li><\/li><\/ol>"
+          }
+        },
+        "item_jqhjzt": {
+          "type": "item",
+          "settings": {
+            "title": "¿Qué sucede si un producto que he suscrito no está disponible?",
+            "content": "<p>Nos esforzamos por garantizar la disponibilidad de todos los productos suscritos. Sin embargo, en caso de que un producto no esté disponible temporalmente, te notificaremos con anticipación y haremos todo lo posible para reemplazarlo por un producto similar o reprogramar la entrega para una fecha posterior, según tus preferencias.<\/p>"
+          }
+        },
+        "item_LLpe8X": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..<\/p>"
+          }
         }
       },
       "block_order": [
@@ -95,7 +116,10 @@
         "item_tiWgwB",
         "item_eqizHT",
         "item_fMJhXm",
-        "item_7hpX9x"
+        "item_7hpX9x",
+        "item_zCErad",
+        "item_jqhjzt",
+        "item_LLpe8X"
       ],
       "settings": {
         "full_width": true,

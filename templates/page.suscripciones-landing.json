@@ -33,33 +33,10 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "image_aiE4zG": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "content": "",
-            "title": "Slide 2",
-            "heading_tag": "h0",
-            "heading_style": "font--primary",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
-        "image_4dffa6",
-        "image_aiE4zG"
+        "image_4dffa6"
       ],
       "settings": {
         "identifier": "",
@@ -73,10 +50,63 @@
         "background": "#F2F2F2",
         "background_gradient": ""
       }
+    },
+    "faq_KGCPW8": {
+      "type": "faq",
+      "blocks": {
+        "item_ARJmWr": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cómo puedo suscribirme?",
+            "content": "<p>Para suscribirte, simplemente agrega tus productos favoritos al carrito de compras y selecciona la opción \"suscripciones\" en lugar de \"compra única\". Podrás elegir la frecuencia con la que deseas recibir tus productos (semanal, quincenal o mensual) y el día específico de entrega, dependiendo de la frecuencia seleccionada. Luego, serás dirigido a la plataforma de pagos <strong>FLOW <\/strong>para completar tu suscripción.<\/p>"
+          }
+        },
+        "item_tiWgwB": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "item_eqizHT": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_ARJmWr",
+        "item_tiWgwB",
+        "item_eqizHT"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Preguntas Frecuentes",
+        "content": "<p>Cómo funcionan las suscripciones? Las puedo modificar o cancelar?<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_BmwGyx"
+    "slideshow_BmwGyx",
+    "faq_KGCPW8"
   ]
 }
